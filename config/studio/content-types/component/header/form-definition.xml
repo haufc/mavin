@@ -117,7 +117,7 @@
 						</property>
 						<property>
 							<name>imageManager</name>
-							<value></value>
+							<value>uploadImage,existingImage</value>
 							<type>datasource:image</type>
 						</property>
 						<property>
