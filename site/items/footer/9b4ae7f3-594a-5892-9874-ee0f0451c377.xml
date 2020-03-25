@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/footer</content-type>
+	<display-template>/templates/web/footer.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>9b4a</objectGroupId>
+	<objectId>9b4ae7f3-594a-5892-9874-ee0f0451c377</objectId>
+	<file-name>9b4ae7f3-594a-5892-9874-ee0f0451c377.xml</file-name>
+	<internal-name>Default footer</internal-name>
+	<brandCopyright_s>Bản quyền thuộc về công ty cổ phần Mavinex 2020</brandCopyright_s>
+	<backgroundImage_s>/static-assets/images/featured/footer_bg.png</backgroundImage_s>
+	<createdDate>2020-03-25T10:27:58.433Z</createdDate>
+	<createdDate_dt>2020-03-25T10:27:58.433Z</createdDate_dt>
+	<lastModifiedDate>2020-03-25T10:27:58.433Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-03-25T10:27:58.433Z</lastModifiedDate_dt>
+</component>
