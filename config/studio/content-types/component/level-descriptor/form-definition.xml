@@ -86,7 +86,7 @@
 						</property>
 						<property>
 							<name>itemManager</name>
-							<value></value>
+							<value>headercomponent</value>
 							<type>datasource:item</type>
 						</property>
 						<property>
@@ -134,7 +134,7 @@
 						</property>
 						<property>
 							<name>itemManager</name>
-							<value></value>
+							<value>footercomponent</value>
 							<type>datasource:item</type>
 						</property>
 						<property>
