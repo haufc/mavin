@@ -14,9 +14,6 @@
   </head>
   <body>
     <@renderComponent component=contentModel.header_o.item />
-    <#list (contentModel.sections_o.item)![] as section>
-        <@renderComponent parent=contentModel component=section />
-    </#list>
     <!--<div class="welcome-img" style="background-image: url(&quot;../../assets/images/bg_1.png&quot;)"></div>
     <div class="content">
       <div class="content__item" id="about">
