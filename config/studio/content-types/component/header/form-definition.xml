@@ -158,7 +158,7 @@
 					<properties>
 						<property>
 							<name>repoPath</name>
-							<value> /static-assets/images/logos</value>
+							<value>/static-assets/images/logos</value>
 								<type>undefined</type>
 						</property>
 						<property>
