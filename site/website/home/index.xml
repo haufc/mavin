@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page>
+	<content-type>/page/home</content-type>
+	<display-template>/templates/web/home.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>c664</objectGroupId>
+	<objectId>c66419f2-ef45-8750-0d6d-bdef208f7b65</objectId>
+	<internal-name>Index</internal-name>
+	<title_s>Home page</title_s>
+	<placeInNav>true</placeInNav>
+	<orderDefault_f>1000</orderDefault_f>
+	<sections_o item-list="true"/>
+	<file-name>index.xml</file-name>
+	<folder-name>home</folder-name>
+	<createdDate>2020-03-25T10:34:10.722Z</createdDate>
+	<createdDate_dt>2020-03-25T10:34:10.722Z</createdDate_dt>
+	<lastModifiedDate>2020-03-25T10:34:10.722Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-03-25T10:34:10.722Z</lastModifiedDate_dt>
+</page>
