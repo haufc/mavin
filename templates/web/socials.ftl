@@ -1,3 +1,5 @@
 <#import "/templates/system/common/cstudio-support.ftl" as studio />
-    <div class="footer__btn"><img src="../../assets/images/footer_icon_1.png" alt="Facebook"/></div>
+    <div class="footer__btn">
+        <a href="${contentModel.socialURL_s}"><img src="${contentModel.socialImage_s}" alt="${contentModel.socialImageAlt_s}"/></a>
+    </div>
 <@studio.toolSupport />
