@@ -15,11 +15,11 @@
   <body>
     <@renderComponent component=contentModel.header_o.item />
     <!--<div class="welcome-img" style="background-image: url(&quot;../../assets/images/bg_1.png&quot;)"></div> -->
-    <#list (contentModel.sections_o.item)![] as section>
-        <@renderComponent parent=contentModel component=section />
-    </#list>
     <div class="content">
-      <div class="content__item" id="about">
+        <#list (contentModel.sections_o.item)![] as section>
+            <@renderComponent parent=contentModel component=section />
+        </#list>
+      <!--<div class="content__item" id="about">
         <div class="content__title text--center">
           <h1 class="text--uppercase">Giới thiệu</h1>
         </div>
@@ -32,6 +32,7 @@
           </div>
         </div>
       </div>
+      -->
       <div class="content__item" id="activity">
         <div class="content__title text--center">
           <h1 class="text--uppercase">Lĩnh vực hoạt động</h1>
