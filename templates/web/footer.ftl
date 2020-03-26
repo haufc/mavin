@@ -29,7 +29,7 @@
         </div>
         <div class="footer__social-btns mb-3">
           <div class="footer__btns">
-            <#list contentModel.sections_o.item as element>
+            <#list contentModel.sections_o.item as content>
                 <@renderComponent component=content />
             </#list>
           </div>
