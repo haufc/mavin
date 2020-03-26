@@ -1,8 +1,8 @@
 <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
     <div class="carousel-inner">
-        <#if (contentModel.detailElements_o.item)??>
-            <#list contentModel.detailElements_o.item as element>
-                <div class="carousel-item welcome-img active" style="background-image: url(&quot;../../assets/images/bg_1.png&quot;)">
+        <#if (contentModel.image_o.item)??>
+            <#list contentModel.image_o.item as element>
+                <div class="carousel-item welcome-img active" style="background-image: url('${}')">
                 </div>
             </#list>
         </#if>
