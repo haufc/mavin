@@ -20,7 +20,7 @@
         <#list (contentModel.sections_o.item)![] as section>
             <@renderComponent parent=contentModel component=section />
         </#list>
-        <@renderComponent component=contentModel.memberlist_o.item />
+        
     </div>
     <@renderComponent component=contentModel.footer_o.item />
     <script src="/static-assets/plugins/jquery341/jquery(3.4.1.).js"></script>
