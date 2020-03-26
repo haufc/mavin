@@ -12,7 +12,7 @@
               <div class="content__text col-sm-12 col-md-6 col-lg-6">
                 <#if (contentModel.item_o.item)??>
                     <#list contentModel.item_o.item as element>
-                        ${element.content_t}
+                        <p>${element.content_t}<p>
                     </#list>
                 </#if>
                 <button class="content__btn btn rounded-0"> <span class="text-white mr-3">Xem thêm</span><i class="fas fa-arrow-right"></i></button>
