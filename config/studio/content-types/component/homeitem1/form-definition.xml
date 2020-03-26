@@ -9,7 +9,7 @@
 	<properties>		<property>
 			<name>display-template</name>
 			<label>Display Template</label>
-			<value></value>
+			<value>/templates/web/homeitem1.ftl</value>
 			<type>template</type>
 		</property>
 		<property>
@@ -248,7 +248,7 @@
 					<id>isVerticalContent_b</id>
 					<iceId></iceId>
 					<title>Is Vertical Content</title>
-					<description></description>
+					<description>Định dạng nội dung sẽ hiển thị lên trang. Checked : nội dung theo chiều dọc | No check : Nội dung theoo chiều ngang</description>
 					<defaultValue></defaultValue>
 					<help></help>
 					<properties>
