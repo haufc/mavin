@@ -2,7 +2,7 @@
     <div class="carousel-inner">
         <#if (contentModel.image_o.item)??>
             <#list contentModel.image_o.item as element>
-                <div class="carousel-item welcome-img active" style="background-image: url('${}')">
+                <div class="carousel-item welcome-img active" style="background-image: url('${element.image_s}')">
                 </div>
             </#list>
         </#if>
