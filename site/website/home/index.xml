@@ -51,11 +51,37 @@
 	<lastModifiedDate>2020-03-26T04:05:16.116Z</lastModifiedDate>
 	<lastModifiedDate_dt>2020-03-26T04:05:16.116Z</lastModifiedDate_dt>
 </component>
+	</item>	<item datasource="sections" inline="true">	<key>aa86752b-ffaa-2fd8-c353-486ff2bdad3d</key>
+	<value>Fieldwork</value>
+<component id="aa86752b-ffaa-2fd8-c353-486ff2bdad3d">
+	<content-type>/component/homeitem1</content-type>
+	<display-template>/templates/web/homeitem1.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>aa86</objectGroupId>
+	<objectId>aa86752b-ffaa-2fd8-c353-486ff2bdad3d</objectId>
+	<item_o item-list="true">	<item>	<content_t>Xây dựng các công trình giao thông, thủy lợi, dân dụng, công nghiệp, kết cấu hạ tầng khu công nghiệp, khu đô thị;</content_t>
+	</item>	<item>	<content_t>Sản xuất và kinh doanh vật liệu xây dựng cấu kiện bê tông đúc sẵn, cấu kiện bằng kim loại;</content_t>
+	</item>	<item>	<content_t>Mua bán, cho thuê, máy móc thiết bị dùng trong xây dựng;</content_t>
+	</item>	<item>	<content_t>Gia công, chế tạo và lắp đặt hệ thống dây truyền sản xuất, hệ thống điện công nghiệp;</content_t>
+	</item>	<item>	<content_t>Tư vấn đầu tư xây dựng và quản lý dự án ( Không bao gồm tư vấn pháp luật tài chính);</content_t>
+	</item>	<item>	<content_t>Kinh doanh nông nghiệp.</content_t>
+	</item></item_o>
+	<file-name>aa86752b-ffaa-2fd8-c353-486ff2bdad3d.xml</file-name>
+	<internal-name>Fieldwork</internal-name>
+	<title_s>Lĩnh vực hoạt động</title_s>
+	<image_s>/static-assets/images/featured/content_img_1.png</image_s>
+	<isVerticalContent_b>true</isVerticalContent_b>
+	<createdDate>2020-03-26T04:14:10.571Z</createdDate>
+	<createdDate_dt>2020-03-26T04:14:10.571Z</createdDate_dt>
+	<lastModifiedDate>2020-03-26T04:14:10.571Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-03-26T04:14:10.571Z</lastModifiedDate_dt>
+</component>
 	</item></sections_o>
 	<file-name>index.xml</file-name>
 	<folder-name>home</folder-name>
 	<createdDate>2020-03-25T10:34:10.722Z</createdDate>
 	<createdDate_dt>2020-03-25T10:34:10.722Z</createdDate_dt>
-	<lastModifiedDate>2020-03-26T04:05:10.686Z</lastModifiedDate>
-	<lastModifiedDate_dt>2020-03-26T04:05:10.686Z</lastModifiedDate_dt>
+	<lastModifiedDate>2020-03-26T04:14:02.134Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-03-26T04:14:02.134Z</lastModifiedDate_dt>
 </page>
