@@ -20,9 +20,6 @@
         <#list (contentModel.sections_o.item)![] as section>
             <@renderComponent parent=contentModel component=section />
         </#list>
-      <div class="content__logo-list">
-        <div class="content__logo-img col-12"><img class="img--full" src="../../assets/images/logos.png" alt="Logos"/></div>
-      </div>
     </div>
     <@renderComponent component=contentModel.footer_o.item />
     <script src="/static-assets/plugins/jquery341/jquery(3.4.1.).js"></script>
