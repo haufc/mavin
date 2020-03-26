@@ -119,7 +119,7 @@
 					<constraints>
 						<constraint>
 							<name>required</name>
-							<value><![CDATA[]]></value>
+							<value><![CDATA[true]]></value>
 							<type>boolean</type>
 						</constraint>
 						<constraint>
@@ -172,6 +172,61 @@
 					<constraints>
 						<constraint>
 							<name>required</name>
+							<value><![CDATA[true]]></value>
+							<type>boolean</type>
+						</constraint>
+					</constraints>
+				</field>
+			</fields>
+		</section>
+		<section>
+			<title>Social buttons</title>
+			<description></description>
+			<defaultOpen>true</defaultOpen>
+			<fields>
+				<field>
+					<type>node-selector</type>
+					<id>sections_o</id>
+					<iceId></iceId>
+					<title>Sections</title>
+					<description></description>
+					<defaultValue></defaultValue>
+					<help></help>
+					<properties>
+						<property>
+							<name>minSize</name>
+							<value></value>
+							<type>int</type>
+						</property>
+						<property>
+							<name>maxSize</name>
+							<value></value>
+							<type>int</type>
+						</property>
+						<property>
+							<name>itemManager</name>
+							<value>sections</value>
+							<type>datasource:item</type>
+						</property>
+						<property>
+							<name>readonly</name>
+							<value></value>
+							<type>boolean</type>
+						</property>
+						<property>
+							<name>disableFlattening</name>
+							<value></value>
+							<type>boolean</type>
+						</property>
+						<property>
+							<name>useSingleValueFilename</name>
+							<value></value>
+							<type>boolean</type>
+						</property>
+					</properties>
+					<constraints>
+						<constraint>
+							<name>allowDuplicates</name>
 							<value><![CDATA[]]></value>
 							<type>boolean</type>
 						</constraint>
@@ -207,6 +262,44 @@
 						<property>
 							<name>useSearch</name>
 							<value>false</value>
+								<type>undefined</type>
+						</property>
+					</properties>
+				</datasource>
+				<datasource>
+					<type>shared-content</type>
+					<id>sections</id>
+					<title>Sections</title>
+					<interface>item</interface>
+					<properties>
+						<property>
+							<name>enableCreateNew</name>
+							<value>true</value>
+								<type>undefined</type>
+						</property>
+						<property>
+							<name>enableBrowseExisting</name>
+							<value>true</value>
+								<type>undefined</type>
+						</property>
+						<property>
+							<name>enableSearchExisting</name>
+							<value>false</value>
+								<type>undefined</type>
+						</property>
+						<property>
+							<name>repoPath</name>
+							<value>/site/items/socials</value>
+								<type>undefined</type>
+						</property>
+						<property>
+							<name>browsePath</name>
+							<value></value>
+								<type>undefined</type>
+						</property>
+						<property>
+							<name>type</name>
+							<value>/component/socials</value>
 								<type>undefined</type>
 						</property>
 					</properties>
