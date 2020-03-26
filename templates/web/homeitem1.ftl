@@ -11,11 +11,7 @@
               </div>
               <div class="content__text col-sm-12 col-md-6 col-lg-6">
                 <#if (contentModel.image_o.item)??>
-                
-                    <p>
                         ${contentModel.content_html}
-                    </p>
-                   
                 </#if>
                 <button class="content__btn btn rounded-0"> <span class="text-white mr-3">Xem thêm</span><i class="fas fa-arrow-right"></i></button>
               </div>
