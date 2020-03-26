@@ -3,11 +3,11 @@
     	<!-- Giới thiệu -->
          <div class="content__item" id="about">
             <div class="content__title text--center">
-              <h1 class="text--uppercase">$</h1>
+              <h1 class="text--uppercase">${contentModel.title_s}</h1>
             </div>
             <div class="content__details row">
               <div class="content__img col-sm-12 col-md-6 col-lg-6">
-                <img class="img--full" src="../../assets/images/content_img_1.png" alt="Content Image"/>
+                <img class="img--full" src="${contentModel.image_s}" alt="Content Image"/>
               </div>
               <div class="content__text col-sm-12 col-md-6 col-lg-6">
                 <p>Được thành lập từ năm 2017, với tiền thân là Phòng dự án của Tập đoàn Mavin, Công ty cổ Phần Mavinex được biết đến là đơn vị triển khai thi công các dự án trọng điểm của tập đoàn Mavin trong các lĩnh vực thiết kế và xây dựng các nhà máy thức ăn chăn nuôi, thiết kế và xây dựng các trang trại chăn nuôi, Trong những năm qua Công ty đã triển khai hàng chục các dự án trọng điểm, có thể kể ra như: dự án xây dựng nhà máy thức ăn thủy Sản tại Hưng Yên với công suất  45.000 tấn/năm; nhà máy thức ăn gia súc Nghệ An với công suất 300.000 tấn/năm; và nhà máy Đồng Tháp với công suất  350.000 tấn/năm.</p>
@@ -21,10 +21,10 @@
         <!-- Năng lực kinh nghiệm -->
         <div class="content__item" id="activity">
         <div class="content__title text--center">
-          <h1 class="text--uppercase">Lĩnh vực hoạt động</h1>
+          <h1 class="text--uppercase">${contentModel.title_s}</h1>
         </div>
         <div class="content__details row">
-          <div class="content__img col-12"><img class="img--full" src="../../assets/images/content_img_5.png" alt="Content Image"/></div>
+          <div class="content__img col-12"><img class="img--full" src="${contentModel.image_s}" alt="Content Image"/></div>
           <div class="content__text activity-list col-12">
             <div class="activity-list__content">
               <div class="activity-list__content-text rounded-0">
