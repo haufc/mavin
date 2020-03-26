@@ -77,11 +77,37 @@
 	<lastModifiedDate>2020-03-26T04:14:10.571Z</lastModifiedDate>
 	<lastModifiedDate_dt>2020-03-26T04:14:10.571Z</lastModifiedDate_dt>
 </component>
+	</item>	<item datasource="sections" inline="true">	<key>86e52d37-f3c1-2795-6c0b-cea801abef09</key>
+	<value>Experience</value>
+<component id="86e52d37-f3c1-2795-6c0b-cea801abef09">
+	<content-type>/component/homeitem2</content-type>
+	<display-template>/templates/web/homeitem2.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>86e5</objectGroupId>
+	<objectId>86e52d37-f3c1-2795-6c0b-cea801abef09</objectId>
+	<file-name>86e52d37-f3c1-2795-6c0b-cea801abef09.xml</file-name>
+	<internal-name>Experience</internal-name>
+	<title_s>Năng lực kinh nghiệm</title_s>
+	<contentitem_o item-list="true">	<item datasource="homeitem2contentcomponent">	<key>/site/items/home-item-2-content/414193fc-6c90-b087-4b5d-9b64da1d69ef.xml</key>
+	<value>Building</value>
+	<include>/site/items/home-item-2-content/414193fc-6c90-b087-4b5d-9b64da1d69ef.xml</include>
+	<disableFlattening>false</disableFlattening>
+	</item>	<item datasource="homeitem2contentcomponent">	<key>/site/items/home-item-2-content/2d90f153-8ad3-2850-1b85-5fa40da481df.xml</key>
+	<value>Consulting and farm design</value>
+	<include>/site/items/home-item-2-content/2d90f153-8ad3-2850-1b85-5fa40da481df.xml</include>
+	<disableFlattening>false</disableFlattening>
+	</item></contentitem_o>
+	<createdDate>2020-03-26T04:53:36.680Z</createdDate>
+	<createdDate_dt>2020-03-26T04:53:36.680Z</createdDate_dt>
+	<lastModifiedDate>2020-03-26T04:53:36.680Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-03-26T04:53:36.680Z</lastModifiedDate_dt>
+</component>
 	</item></sections_o>
 	<file-name>index.xml</file-name>
 	<folder-name>home</folder-name>
 	<createdDate>2020-03-25T10:34:10.722Z</createdDate>
 	<createdDate_dt>2020-03-25T10:34:10.722Z</createdDate_dt>
-	<lastModifiedDate>2020-03-26T04:14:02.134Z</lastModifiedDate>
-	<lastModifiedDate_dt>2020-03-26T04:14:02.134Z</lastModifiedDate_dt>
+	<lastModifiedDate>2020-03-26T04:53:29.101Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-03-26T04:53:29.101Z</lastModifiedDate_dt>
 </page>
