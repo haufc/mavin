@@ -10,11 +10,30 @@
 	<title_s>Home page</title_s>
 	<placeInNav>true</placeInNav>
 	<orderDefault_f>1000</orderDefault_f>
-	<sections_o item-list="true"/>
+	<sections_o item-list="true">	<item datasource="sections" inline="true">	<key>74bea837-a8f4-35a4-baa8-cb7b83247757</key>
+	<value>Slide</value>
+<component id="74bea837-a8f4-35a4-baa8-cb7b83247757">
+	<content-type>/component/slide</content-type>
+	<display-template>/templates/web/slide.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>74be</objectGroupId>
+	<objectId>74bea837-a8f4-35a4-baa8-cb7b83247757</objectId>
+	<image_o item-list="true">	<item>	<image_s>/static-assets/images/slides/bg_1.png</image_s>
+	</item>	<item>	<image_s>/static-assets/images/slides/bg_2.png</image_s>
+	</item></image_o>
+	<file-name>74bea837-a8f4-35a4-baa8-cb7b83247757.xml</file-name>
+	<internal-name>Slide</internal-name>
+	<createdDate>2020-03-26T02:48:08.363Z</createdDate>
+	<createdDate_dt>2020-03-26T02:48:08.363Z</createdDate_dt>
+	<lastModifiedDate>2020-03-26T02:48:08.363Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-03-26T02:48:08.363Z</lastModifiedDate_dt>
+</component>
+	</item></sections_o>
 	<file-name>index.xml</file-name>
 	<folder-name>home</folder-name>
 	<createdDate>2020-03-25T10:34:10.722Z</createdDate>
 	<createdDate_dt>2020-03-25T10:34:10.722Z</createdDate_dt>
-	<lastModifiedDate>2020-03-25T10:34:10.722Z</lastModifiedDate>
-	<lastModifiedDate_dt>2020-03-25T10:34:10.722Z</lastModifiedDate_dt>
+	<lastModifiedDate>2020-03-26T02:48:01.617Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-03-26T02:48:01.617Z</lastModifiedDate_dt>
 </page>
