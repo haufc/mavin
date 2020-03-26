@@ -131,9 +131,9 @@
 				</field>
 				<field>
 					<type>image-picker</type>
-					<id>socialimage_s</id>
+					<id>socialImage_s</id>
 					<iceId></iceId>
-					<title>Social image</title>
+					<title>Social Image</title>
 					<description></description>
 					<defaultValue></defaultValue>
 					<help></help>
@@ -179,9 +179,9 @@
 				</field>
 				<field>
 					<type>input</type>
-					<id>socialimagealt_s</id>
+					<id>socialImageAlt_s</id>
 					<iceId></iceId>
-					<title>Social image alt</title>
+					<title>Social Image Alt</title>
 					<description></description>
 					<defaultValue></defaultValue>
 					<help></help>
