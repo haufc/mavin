@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page>
+	<content-type>/page/home</content-type>
+	<display-template>/templates/web/home.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>656c</objectGroupId>
+	<objectId>656c78a4-ef21-f3ff-056c-8a75aec8d70a</objectId>
+	<sections_o item-list="true"/>
+	<placeInNav>true</placeInNav>
+	<orderDefault_f>2000</orderDefault_f>
+	<internal-name>Giới thiệu</internal-name>
+	<title_s>Giới thiệu</title_s>
+	<file-name>index.xml</file-name>
+	<folder-name>introduct</folder-name>
+	<createdDate>2020-03-26T09:30:07.188Z</createdDate>
+	<createdDate_dt>2020-03-26T09:30:07.188Z</createdDate_dt>
+	<lastModifiedDate>2020-03-26T09:30:07.188Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-03-26T09:30:07.188Z</lastModifiedDate_dt>
+</page>
