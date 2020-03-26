@@ -29,11 +29,47 @@
 	<lastModifiedDate>2020-03-26T02:48:08.363Z</lastModifiedDate>
 	<lastModifiedDate_dt>2020-03-26T02:48:08.363Z</lastModifiedDate_dt>
 </component>
+	</item>	<item datasource="sections" inline="true">	<key>12255e55-1ef9-281f-db15-f25b4b7a56a3</key>
+	<value>Introduction</value>
+<component id="12255e55-1ef9-281f-db15-f25b4b7a56a3">
+	<content-type>/component/homeitem1</content-type>
+	<display-template>/templates/web/homeitem1.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>1225</objectGroupId>
+	<objectId>12255e55-1ef9-281f-db15-f25b4b7a56a3</objectId>
+	<item_o item-list="true">	<item>	<content_html>&lt;div style="color: #d4d4d4; background-color: #1e1e1e; font-family: Consolas, 'Courier New', monospace; font-size: 14px; line-height: 19px; white-space: pre;"&gt;
+&lt;div&gt;Được&amp;nbsp;th&amp;agrave;nh&amp;nbsp;lập&amp;nbsp;từ&amp;nbsp;năm&amp;nbsp;2017,&amp;nbsp;với&amp;nbsp;tiền&amp;nbsp;th&amp;acirc;n&amp;nbsp;l&amp;agrave;&amp;nbsp;Ph&amp;ograve;ng&amp;nbsp;dự&amp;nbsp;&amp;aacute;n&amp;nbsp;của&amp;nbsp;Tập&amp;nbsp;đo&amp;agrave;n&amp;nbsp;&lt;/div&gt;
+&lt;div&gt;Mavin, C&amp;ocirc;ng ty cổ Phần Mavinex được biết đến l&amp;agrave; đơn vị triển khai thi&lt;/div&gt;
+&lt;div&gt;c&amp;ocirc;ng c&amp;aacute;c dự&amp;nbsp;&amp;aacute;n&amp;nbsp;trọng&amp;nbsp;điểm&amp;nbsp;của&amp;nbsp;tập&amp;nbsp;đo&amp;agrave;n&amp;nbsp;Mavin&amp;nbsp;trong&amp;nbsp;c&amp;aacute;c&amp;nbsp;lĩnh&amp;nbsp;vực&amp;nbsp;thiết&amp;nbsp;kế&amp;nbsp;&lt;/div&gt;
+&lt;div&gt;v&amp;agrave;&amp;nbsp;x&amp;acirc;y&amp;nbsp;dựng&amp;nbsp;c&amp;aacute;c&amp;nbsp;nh&amp;agrave;&amp;nbsp;m&amp;aacute;y&amp;nbsp;thức&amp;nbsp;ăn&amp;nbsp;chăn&amp;nbsp;nu&amp;ocirc;i,&amp;nbsp;thiết&amp;nbsp;kế&amp;nbsp;v&amp;agrave;&amp;nbsp;x&amp;acirc;y&amp;nbsp;dựng&amp;nbsp;c&amp;aacute;c&amp;nbsp;trang&lt;/div&gt;
+&lt;div&gt;trại chăn nu&amp;ocirc;i,&amp;nbsp;Trong&amp;nbsp;những&amp;nbsp;năm&amp;nbsp;qua&amp;nbsp;C&amp;ocirc;ng&amp;nbsp;ty&amp;nbsp;đ&amp;atilde;&amp;nbsp;triển&amp;nbsp;khai&amp;nbsp;h&amp;agrave;ng&amp;nbsp;chục&amp;nbsp;c&amp;aacute;c&amp;nbsp;&lt;/div&gt;
+&lt;div&gt;dự&amp;nbsp;&amp;aacute;n&amp;nbsp;trọng&amp;nbsp;điểm,&amp;nbsp;c&amp;oacute;&amp;nbsp;thể&amp;nbsp;kể&amp;nbsp;ra&amp;nbsp;như:&amp;nbsp;dự&amp;nbsp;&amp;aacute;n&amp;nbsp;x&amp;acirc;y&amp;nbsp;dựng&amp;nbsp;nh&amp;agrave;&amp;nbsp;m&amp;aacute;y&amp;nbsp;thức&amp;nbsp;ăn&amp;nbsp;thủy&amp;nbsp;&lt;/div&gt;
+&lt;div&gt;Sản&amp;nbsp;tại&amp;nbsp;Hưng&amp;nbsp;Y&amp;ecirc;n&amp;nbsp;với&amp;nbsp;c&amp;ocirc;ng&amp;nbsp;suất&amp;nbsp;&amp;nbsp;45.000&amp;nbsp;tấn/năm;&amp;nbsp;nh&amp;agrave;&amp;nbsp;m&amp;aacute;y&amp;nbsp;thức&amp;nbsp;ăn&amp;nbsp;gia&amp;nbsp;s&amp;uacute;c&amp;nbsp;&lt;/div&gt;
+&lt;div&gt;Nghệ&amp;nbsp;An&amp;nbsp;với&amp;nbsp;c&amp;ocirc;ng&amp;nbsp;suất&amp;nbsp;300.000&amp;nbsp;tấn/năm;&amp;nbsp;v&amp;agrave;&amp;nbsp;nh&amp;agrave;&amp;nbsp;m&amp;aacute;y&amp;nbsp;Đồng&amp;nbsp;Th&amp;aacute;p&amp;nbsp;với&amp;nbsp;c&amp;ocirc;ng&amp;nbsp;suất&lt;/div&gt;
+&lt;div&gt;350.000 tấn/năm. Việc kết hợp h&amp;agrave;i h&amp;ograve;a c&amp;ocirc;ng nghệ thiết bị của c&amp;aacute;c h&amp;atilde;ng&lt;/div&gt;
+&lt;div&gt;h&amp;agrave;ng đầu thế giới của c&amp;aacute;c h&amp;agrave;ng Buhler, Vandesen, Chronos&amp;hellip;c&amp;ugrave;ng sự s&amp;aacute;ng tạo&lt;/div&gt;
+&lt;div&gt;của c&amp;aacute;c kỹ sư Mavinex đ&amp;atilde; x&amp;acirc;y dựng n&amp;ecirc;n c&amp;aacute;c nh&amp;agrave; m&amp;aacute;y sản xuất thức ăn chăn&lt;/div&gt;
+&lt;div&gt;nu&amp;ocirc;i c&amp;ocirc;ng nghệ 4.0, Việc &amp;aacute;p dụng c&amp;ocirc;ng nghệ 4.0 gi&amp;uacute;p Mavin giảm được chi&lt;/div&gt;
+&lt;div&gt;ph&amp;iacute; sản xuất, vận h&amp;agrave;nh, tăng năng suất lao động v&amp;agrave; bảo vệ m&amp;ocirc;i trường cũng&lt;/div&gt;
+&lt;div&gt;như bảo vệ sức khỏe của người sản xuất v&amp;agrave; ti&amp;ecirc;u d&amp;ugrave;ng.&lt;/div&gt;
+&lt;/div&gt;</content_html>
+	</item></item_o>
+	<file-name>12255e55-1ef9-281f-db15-f25b4b7a56a3.xml</file-name>
+	<internal-name>Introduction</internal-name>
+	<title_s>Giới thiệu</title_s>
+	<image_s>/static-assets/images/featured/content_img_1.png</image_s>
+	<isVerticalContent_b>false</isVerticalContent_b>
+	<createdDate>2020-03-26T03:48:07.552Z</createdDate>
+	<createdDate_dt>2020-03-26T03:48:07.552Z</createdDate_dt>
+	<lastModifiedDate>2020-03-26T03:48:07.552Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-03-26T03:48:07.552Z</lastModifiedDate_dt>
+</component>
 	</item></sections_o>
 	<file-name>index.xml</file-name>
 	<folder-name>home</folder-name>
 	<createdDate>2020-03-25T10:34:10.722Z</createdDate>
 	<createdDate_dt>2020-03-25T10:34:10.722Z</createdDate_dt>
-	<lastModifiedDate>2020-03-26T02:48:01.617Z</lastModifiedDate>
-	<lastModifiedDate_dt>2020-03-26T02:48:01.617Z</lastModifiedDate_dt>
+	<lastModifiedDate>2020-03-26T03:48:01.938Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-03-26T03:48:01.938Z</lastModifiedDate_dt>
 </page>
