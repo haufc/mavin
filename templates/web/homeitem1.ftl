@@ -10,9 +10,13 @@
                 <img class="img--full" src="${contentModel.image_s}" alt="Content Image"/>
               </div>
               <div class="content__text col-sm-12 col-md-6 col-lg-6">
-                <p>
-                    
-                </p>
+                <#if (contentModel.image_o.item)??>
+                    <#list contentModel.item_o.item as element>
+                        <p>
+                            ${element.content_html}
+                        </p>
+                    </#list>
+                </#if>
                 <button class="content__btn btn rounded-0"> <span class="text-white mr-3">Xem thêm</span><i class="fas fa-arrow-right"></i></button>
               </div>
             </div>
