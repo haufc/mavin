@@ -1,7 +1,7 @@
 <#import "/templates/system/common/cstudio-support.ftl" as studio />
     <#if contentModel.isVerticalContent_b == false>
     	<!-- Giới thiệu -->
-         <div class="content__item" id="about">
+         <div class="content__item" id="about" <@studio.iceAttr component=contentModel/>>
             <div class="content__title text--center">
               <h1 class="text--uppercase">${contentModel.title_s}</h1>
             </div>
@@ -22,7 +22,7 @@
         <!-- =============== -->
     <#else>
         <!-- Năng lực kinh nghiệm -->
-        <div class="content__item" id="activity">
+        <div class="content__item" id="activity" <@studio.iceAttr component=contentModel/>>
         <div class="content__title text--center">
           <h1 class="text--uppercase">${contentModel.title_s}</h1>
         </div>
