@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/socials</content-type>
+	<display-template>/templates/web/socials.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>3c8e</objectGroupId>
+	<objectId>3c8e7923-ab3f-6193-4ee3-a49a9e1fe330</objectId>
+	<file-name>3c8e7923-ab3f-6193-4ee3-a49a9e1fe330.xml</file-name>
+	<internal-name>Linkedin</internal-name>
+	<socialURL_s>https://www.linkedin.com/</socialURL_s>
+	<socialImageAlt_s>Linkedin</socialImageAlt_s>
+	<socialImage_s>/static-assets/images/socials/footer_icon_4.png</socialImage_s>
+	<createdDate>2020-03-26T09:01:08.424Z</createdDate>
+	<createdDate_dt>2020-03-26T09:01:08.424Z</createdDate_dt>
+	<lastModifiedDate>2020-03-26T09:01:08.424Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-03-26T09:01:08.424Z</lastModifiedDate_dt>
+</component>
