@@ -4,8 +4,8 @@
       <h1 class="text--uppercase">${contentModel.title_s}</h1>
     </div>
     <div class="content__details row">
-        <#list (contentModel.contentitem_o.item)![] as section>
-            <@renderComponent parent=contentModel component=section />
+        <#list model.contentitem_o.item as content>
+            <@renderComponent component=content />
         </#list>
     </div>
   </div>
