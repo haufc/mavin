@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/socials</content-type>
+	<display-template>/templates/web/socials.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>3bd1</objectGroupId>
+	<objectId>3bd13525-b8ca-f177-4d2d-3e535baa97c9</objectId>
+	<internal-name>Twitter</internal-name>
+	<socialURL_s>https://twitter.com/</socialURL_s>
+	<socialImageAlt_s>Twitter</socialImageAlt_s>
+	<socialImage_s>/static-assets/images/socials/footer_icon_2.png</socialImage_s>
+	<file-name>3bd13525-b8ca-f177-4d2d-3e535baa97c9.xml</file-name>
+	<createdDate>2020-03-26T08:59:28.447Z</createdDate>
+	<createdDate_dt>2020-03-26T08:59:28.447Z</createdDate_dt>
+	<lastModifiedDate>2020-03-26T08:59:28.447Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-03-26T08:59:28.447Z</lastModifiedDate_dt>
+</component>
