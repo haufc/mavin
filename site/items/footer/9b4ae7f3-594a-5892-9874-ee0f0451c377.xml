@@ -12,6 +12,23 @@
 	<backgroundImage_s>/static-assets/images/featured/footer_bg.png</backgroundImage_s>
 	<createdDate>2020-03-25T10:27:58.433Z</createdDate>
 	<createdDate_dt>2020-03-25T10:27:58.433Z</createdDate_dt>
-	<lastModifiedDate>2020-03-25T10:27:58.433Z</lastModifiedDate>
-	<lastModifiedDate_dt>2020-03-25T10:27:58.433Z</lastModifiedDate_dt>
+	<lastModifiedDate>2020-03-26T09:04:53.485Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-03-26T09:04:53.485Z</lastModifiedDate_dt>
+	<sections_o item-list="true">	<item datasource="sections">	<key>/site/items/socials/6a20a688-ddb7-70db-7afa-655c9a2170f7.xml</key>
+	<value>Facebook</value>
+	<include>/site/items/socials/6a20a688-ddb7-70db-7afa-655c9a2170f7.xml</include>
+	<disableFlattening>false</disableFlattening>
+	</item>	<item datasource="sections">	<key>/site/items/socials/3c8e7923-ab3f-6193-4ee3-a49a9e1fe330.xml</key>
+	<value>Linkedin</value>
+	<include>/site/items/socials/3c8e7923-ab3f-6193-4ee3-a49a9e1fe330.xml</include>
+	<disableFlattening>false</disableFlattening>
+	</item>	<item datasource="sections">	<key>/site/items/socials/3bd13525-b8ca-f177-4d2d-3e535baa97c9.xml</key>
+	<value>Twitter</value>
+	<include>/site/items/socials/3bd13525-b8ca-f177-4d2d-3e535baa97c9.xml</include>
+	<disableFlattening>false</disableFlattening>
+	</item>	<item datasource="sections">	<key>/site/items/socials/1f3cf91a-1eb1-d746-7a61-b1bde2832746.xml</key>
+	<value>Youtube</value>
+	<include>/site/items/socials/1f3cf91a-1eb1-d746-7a61-b1bde2832746.xml</include>
+	<disableFlattening>false</disableFlattening>
+	</item></sections_o>
 </component>
