@@ -9,7 +9,7 @@
 	<properties>		<property>
 			<name>display-template</name>
 			<label>Display Template</label>
-			<value></value>
+			<value>/templates/web/homeitem2content.ftl</value>
 			<type>template</type>
 		</property>
 		<property>
@@ -130,48 +130,48 @@
 					</constraints>
 				</field>
 				<field>
-					<type>node-selector</type>
-					<id>sections_o</id>
+					<type>image-picker</type>
+					<id>image_s</id>
 					<iceId></iceId>
-					<title>Sections</title>
+					<title>Image</title>
 					<description></description>
 					<defaultValue></defaultValue>
 					<help></help>
 					<properties>
 						<property>
-							<name>minSize</name>
+							<name>width</name>
+							<value>{ &quot;exact&quot;:&quot;&quot;, &quot;min&quot;:&quot;&quot;, &quot;max&quot;:&quot;&quot; }</value>
+							<type>range</type>
+						</property>
+						<property>
+							<name>height</name>
+							<value>{ &quot;exact&quot;:&quot;&quot;, &quot;min&quot;:&quot;&quot;, &quot;max&quot;:&quot;&quot; }</value>
+							<type>range</type>
+						</property>
+						<property>
+							<name>thumbnailWidth</name>
 							<value></value>
 							<type>int</type>
 						</property>
 						<property>
-							<name>maxSize</name>
+							<name>thumbnailHeight</name>
 							<value></value>
 							<type>int</type>
 						</property>
 						<property>
-							<name>itemManager</name>
-							<value>sections</value>
-							<type>datasource:item</type>
+							<name>imageManager</name>
+							<value>uploadimage,existingimage</value>
+							<type>datasource:image</type>
 						</property>
 						<property>
 							<name>readonly</name>
 							<value></value>
 							<type>boolean</type>
 						</property>
-						<property>
-							<name>disableFlattening</name>
-							<value></value>
-							<type>boolean</type>
-						</property>
-						<property>
-							<name>useSingleValueFilename</name>
-							<value></value>
-							<type>boolean</type>
-						</property>
 					</properties>
 					<constraints>
 						<constraint>
-							<name>allowDuplicates</name>
+							<name>required</name>
 							<value><![CDATA[]]></value>
 							<type>boolean</type>
 						</constraint>
@@ -181,39 +181,32 @@
 		</section>
 	</sections>
 	<datasources>				<datasource>
-					<type>shared-content</type>
-					<id>sections</id>
-					<title>Sections</title>
-					<interface>item</interface>
+					<type>img-desktop-upload</type>
+					<id>uploadimage</id>
+					<title>Upload image</title>
+					<interface>image</interface>
 					<properties>
 						<property>
-							<name>enableCreateNew</name>
-							<value>true</value>
+							<name>repoPath</name>
+							<value>/static-assets/images/featured</value>
 								<type>undefined</type>
 						</property>
-						<property>
-							<name>enableBrowseExisting</name>
-							<value>true</value>
-								<type>undefined</type>
-						</property>
-						<property>
-							<name>enableSearchExisting</name>
-							<value>false</value>
-								<type>undefined</type>
-						</property>
+					</properties>
+				</datasource>
+				<datasource>
+					<type>img-repository-upload</type>
+					<id>existingimage</id>
+					<title>Existing image</title>
+					<interface>image</interface>
+					<properties>
 						<property>
 							<name>repoPath</name>
-							<value></value>
+							<value>/static-assets/images/featured</value>
 								<type>undefined</type>
 						</property>
 						<property>
-							<name>browsePath</name>
-							<value></value>
-								<type>undefined</type>
-						</property>
-						<property>
-							<name>type</name>
-							<value>/compoent/homeitem2content</value>
+							<name>useSearch</name>
+							<value>false</value>
 								<type>undefined</type>
 						</property>
 					</properties>
