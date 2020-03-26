@@ -1,5 +1,5 @@
 <#import "/templates/system/common/cstudio-support.ftl" as studio />
-    <#if contentModel.isVerticalContent_b == true>
+    <#if contentModel.isVerticalContent_b == false>
     	<!-- Giới thiệu -->
          <div class="content__item" id="about">
             <div class="content__title text--center">
