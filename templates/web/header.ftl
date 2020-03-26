@@ -1,5 +1,5 @@
 <#import "/templates/system/common/cstudio-support.ftl" as studio />
-<div class="nav-bar" id="nav">
+<div class="nav-bar" id="nav" <@studio.iceAttr component=contentModel/>>
   <div class="nav-bar__container">
     <input id="toggleMenu" type="checkbox" name="toggleMenu"/>
     <a class="nav-bar__logo nav-bar-brand" href="home.html">
