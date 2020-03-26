@@ -4,7 +4,7 @@
       <h1 class="text--uppercase">${contentModel.title_s}</h1>
     </div>
     <div class="content__details row">
-        <#list model.contentitem_o.item as content>
+        <#list contentModel.contentitem_o.item as content>
             <@renderComponent component=content />
         </#list>
     </div>
