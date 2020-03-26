@@ -14,7 +14,7 @@
   </head>
   <body>
     <@renderComponent component=contentModel.header_o.item />
-    <div class="welcome-img" style="background-image: url(&quot;../../assets/images/bg_1.png&quot;)"></div>
+    <!--<div class="welcome-img" style="background-image: url(&quot;../../assets/images/bg_1.png&quot;)"></div> -->
     <div class="content">
       <div class="content__item" id="about">
         <div class="content__title text--center">
