@@ -29,10 +29,9 @@
         </div>
         <div class="footer__social-btns mb-3">
           <div class="footer__btns">
-            <div class="footer__btn"><img src="../../assets/images/footer_icon_1.png" alt="Facebook"/></div>
-            <div class="footer__btn"><img src="../../assets/images/footer_icon_2.png" alt="Twitter"/></div>
-            <div class="footer__btn"><img src="../../assets/images/footer_icon_3.png" alt="Youtube"/></div>
-            <div class="footer__btn"><img src="../../assets/images/footer_icon_4.png" alt="Linkedin"/></div>
+            <#list contentModel.sections_o.item as element>
+                <@renderComponent component=content />
+            </#list>
           </div>
         </div>
         <p class="text-white">${contentModel.brandCopyright_s}</p>
