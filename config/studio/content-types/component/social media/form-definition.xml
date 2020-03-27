@@ -1,5 +1,5 @@
 <form>
-	<title>Component - Social medial</title>
+	<title>Component - Social media</title>
 	<description></description>
 	<objectType>component</objectType>
 	<content-type>/component/social media</content-type>
@@ -89,7 +89,7 @@
 			</fields>
 		</section>
 		<section>
-			<title>Default Section Title 1585279907217</title>
+			<title>Default Section Title 1585280457447</title>
 			<description></description>
 			<defaultOpen>false</defaultOpen>
 			<fields>
