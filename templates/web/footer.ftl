@@ -32,7 +32,7 @@
             <#if (contentModel.socialMedia_o.item)??>
                 <#list contentModel.socialMedia_o.item as media>
                 <a href="${media.url_s}" class="btn rounded-0" style="border: 1px solid #ddd; background: #fff; color: #007bff; width: 46px; height: 47px;">
-                    <i class="fab ${media.icon_s}"></i>
+                    <i class="fab ${media.icon_s}" style="font-size:30px;"></i>
                 </a>
                 </#list>
             </#if>
