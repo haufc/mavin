@@ -330,7 +330,7 @@
 						</property>
 						<property>
 							<name>options</name>
-							<value>[{&quot;key&quot;:&quot;fa-facebook&quot;,&quot;value&quot;:&quot;Facebook&quot;},{&quot;key&quot;:&quot;fa-linkedin&quot;,&quot;value&quot;:&quot;LinkedIn&quot;},{&quot;key&quot;:&quot;fa-twitter&quot;,&quot;value&quot;:&quot;Twitter&quot;},{&quot;key&quot;:&quot;fa-youtube&quot;,&quot;value&quot;:&quot;Youtube&quot;}]</value>
+							<value>[{&quot;key&quot;:&quot;fa-facebook-f&quot;,&quot;value&quot;:&quot;Facebook&quot;},{&quot;key&quot;:&quot;fa-linkedin&quot;,&quot;value&quot;:&quot;LinkedIn&quot;},{&quot;key&quot;:&quot;fa-twitter&quot;,&quot;value&quot;:&quot;Twitter&quot;},{&quot;key&quot;:&quot;fa-youtube&quot;,&quot;value&quot;:&quot;Youtube&quot;}]</value>
 								<type>undefined</type>
 						</property>
 						<property>
