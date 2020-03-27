@@ -190,10 +190,53 @@
 					</constraints>
 				</field>
 				<field>
-					<type>rte-tinymce5</type>
-					<id>content_html</id>
+					<type>input</type>
+					<id>tabid_s</id>
 					<iceId></iceId>
-					<title>Content</title>
+					<title>Tab id</title>
+					<description></description>
+					<defaultValue></defaultValue>
+					<help></help>
+					<properties>
+						<property>
+							<name>size</name>
+							<value>50</value>
+							<type>int</type>
+						</property>
+						<property>
+							<name>maxlength</name>
+							<value>50</value>
+							<type>int</type>
+						</property>
+						<property>
+							<name>readonly</name>
+							<value></value>
+							<type>boolean</type>
+						</property>
+						<property>
+							<name>tokenize</name>
+							<value>false</value>
+							<type>boolean</type>
+						</property>
+					</properties>
+					<constraints>
+						<constraint>
+							<name>required</name>
+							<value><![CDATA[]]></value>
+							<type>boolean</type>
+						</constraint>
+						<constraint>
+							<name>pattern</name>
+							<value><![CDATA[]]></value>
+							<type>string</type>
+						</constraint>
+					</constraints>
+				</field>
+				<field>
+					<type>rte-tinymce5</type>
+					<id>tabContent_html</id>
+					<iceId></iceId>
+					<title>Tab Content</title>
 					<description></description>
 					<defaultValue></defaultValue>
 					<help></help>
