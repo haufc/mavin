@@ -32,6 +32,7 @@
             <#if (contentModel.socialMedia_o.item)??>
                 <#list contentModel.socialMedia_o.item as media>
                 <a href="${media.url_s}" class="fa ${media.icon_s}"></a>
+                </#list>
             </#if>
           </div> 
         </div>
