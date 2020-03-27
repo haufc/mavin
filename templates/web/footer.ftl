@@ -29,7 +29,10 @@
         </div>
         <div class="footer__social-btns mb-3">
           <div class="footer__btns">
-           
+            <#if (contentModel.socialMedia_o.item)??>
+                <#list contentModel.socialMedia_o item as media>
+                <a href="${media.url_s}" class="fa ${media.icon_s}"></a>
+            </#if>
           </div> 
         </div>
         <p class="text-white">${contentModel.brandCopyright_s}</p>
