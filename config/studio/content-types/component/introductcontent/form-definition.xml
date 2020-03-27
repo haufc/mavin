@@ -9,7 +9,7 @@
 	<properties>		<property>
 			<name>display-template</name>
 			<label>Display Template</label>
-			<value></value>
+			<value>/templates/web/introduct.ftl</value>
 			<type>template</type>
 		</property>
 		<property>
@@ -117,7 +117,7 @@
 						</property>
 						<property>
 							<name>itemManager</name>
-							<value></value>
+							<value>contentItems</value>
 							<type>datasource:item</type>
 						</property>
 						<property>
@@ -170,7 +170,7 @@
 						</property>
 						<property>
 							<name>repoPath</name>
-							<value></value>
+							<value>/site/items/introduct</value>
 								<type>undefined</type>
 						</property>
 						<property>
@@ -180,7 +180,7 @@
 						</property>
 						<property>
 							<name>type</name>
-							<value></value>
+							<value>/component/introductcontentitem</value>
 								<type>undefined</type>
 						</property>
 					</properties>
