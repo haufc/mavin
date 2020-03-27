@@ -6772,7 +6772,10 @@ h6 {
             box-shadow: 0 0 8px 3px rgba(0, 0, 0, 0.3);
   }
 }
-
+.tab-content p img {
+    width: 100%;
+    height: auto;
+}
 /* slide */
 @media (max-width: 600px) {
   .welcome-img {
