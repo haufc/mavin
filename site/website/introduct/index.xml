@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page>
+	<content-type>/page/home</content-type>
+	<display-template>/templates/web/home.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>656c</objectGroupId>
+	<objectId>656c78a4-ef21-f3ff-056c-8a75aec8d70a</objectId>
+	<sections_o item-list="true">	<item datasource="sections" inline="true">	<key>a41a0b7f-e7e4-25c5-cffe-d15634b5c96f</key>
+	<value>Slide</value>
+<component id="a41a0b7f-e7e4-25c5-cffe-d15634b5c96f">
+	<content-type>/component/slide</content-type>
+	<display-template>/templates/web/slide.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>a41a</objectGroupId>
+	<objectId>a41a0b7f-e7e4-25c5-cffe-d15634b5c96f</objectId>
+	<image_o item-list="true">	<item>	<image_s>/static-assets/images/slides/bg_2.png</image_s>
+	</item></image_o>
+	<file-name>a41a0b7f-e7e4-25c5-cffe-d15634b5c96f.xml</file-name>
+	<internal-name>Slide</internal-name>
+	<createdDate>2020-03-26T09:33:46.768Z</createdDate>
+	<createdDate_dt>2020-03-26T09:33:46.768Z</createdDate_dt>
+	<lastModifiedDate>2020-03-26T09:40:33.414Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-03-26T09:40:33.414Z</lastModifiedDate_dt>
+</component>
+	</item>	<item datasource="sections" inline="true">	<key>22a33590-653a-453f-3ad9-0fc2f6782fca</key>
+	<value>Content</value>
+<component id="22a33590-653a-453f-3ad9-0fc2f6782fca">
+	<content-type>/component/introductcontent</content-type>
+	<display-template>/templates/web/introduct.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>22a3</objectGroupId>
+	<objectId>22a33590-653a-453f-3ad9-0fc2f6782fca</objectId>
+	<tabitem_o item-list="true">	<item>	<tabTitle_s>Thư ngỏ</tabTitle_s>
+	<tabId_s>mailContent</tabId_s>
+	<tabContent_html>&lt;p class="MsoNormal"&gt;&lt;span style="font-size: 20pt; line-height: 107%; color: #ffffff;"&gt;K&amp;iacute;nh gửi: Qu&amp;yacute; Kh&amp;aacute;ch h&amp;agrave;ng!&lt;/span&gt;&lt;/p&gt;
+&lt;p class="MsoNormal"&gt;&lt;span style="font-size: 20pt; line-height: 107%; color: #ffffff;"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+&lt;p class="MsoNormal"&gt;&lt;span style="font-size: 20pt; line-height: 107%; color: #ffffff;"&gt;Lời đầu ti&amp;ecirc;n, thay mặt cho to&amp;agrave;n thể c&amp;aacute;n bộ, c&amp;ocirc;ng nh&amp;acirc;n vi&amp;ecirc;n C&amp;ocirc;ng ty CP Mavinex, t&amp;ocirc;i xin gửi lời ch&amp;agrave;o tr&amp;acirc;n trọng c&amp;ugrave;ng lời cảm ơn ch&amp;acirc;n th&amp;agrave;nh tới c&amp;aacute;c kh&amp;aacute;ch h&amp;agrave;ng, đối t&amp;aacute;c v&amp;agrave; c&amp;aacute;c cổ đ&amp;ocirc;ng đ&amp;atilde; c&amp;ugrave;ng đồng h&amp;agrave;nh v&amp;agrave; hợp t&amp;aacute;c với C&amp;ocirc;ng ty ch&amp;uacute;ng t&amp;ocirc;i trong suốt thời gian qua.&lt;/span&gt;&lt;/p&gt;
+&lt;p class="MsoNormal"&gt;&lt;span style="font-size: 20pt; line-height: 107%; color: #ffffff;"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+&lt;p class="MsoNormal"&gt;&lt;span style="font-size: 20pt; line-height: 107%; color: #ffffff;"&gt;Được th&amp;agrave;nh lập từ năm 2017, với tiền th&amp;acirc;n l&amp;agrave; Ph&amp;ograve;ng dự &amp;aacute;n của tập đo&amp;agrave;n Mavin, C&amp;ocirc;ng ty cổ Phần Mavinex được biết đến l&amp;agrave; đơn vị triển khai thi c&amp;ocirc;ng c&amp;aacute;c dự &amp;aacute;n trọng điểm của tập đo&amp;agrave;n Mavin trong c&amp;aacute;c lĩnh vực thiết kế v&amp;agrave; x&amp;acirc;y dựng c&amp;aacute;c nh&amp;agrave; m&amp;aacute;y thức ăn chăn nu&amp;ocirc;i, thiết kế v&amp;agrave; x&amp;acirc;y dựng c&amp;aacute;c trang trại chăn nu&amp;ocirc;i, Trong những năm qua C&amp;ocirc;ng ty đ&amp;atilde; triển khai h&amp;agrave;ng chục c&amp;aacute;c dự &amp;aacute;n trọng điểm, c&amp;oacute; thể kể ra như: dự &amp;aacute;n x&amp;acirc;y dựng nh&amp;agrave; m&amp;aacute;y thức ăn thủy Sản tại Hưng Y&amp;ecirc;n với c&amp;ocirc;ng suất 45.000 tấn/năm; nh&amp;agrave; m&amp;aacute;y thức ăn gia s&amp;uacute;c Nghệ An với c&amp;ocirc;ng suất 300.000 tấn/năm; v&amp;agrave; nh&amp;agrave; m&amp;aacute;y Đồng Th&amp;aacute;p với c&amp;ocirc;ng suất&lt;span style="mso-spacerun: yes;"&gt;&amp;nbsp; &lt;/span&gt;350.000 tấn/năm.&lt;/span&gt;&lt;/p&gt;
+&lt;p class="MsoNormal"&gt;&lt;span style="font-size: 20pt; line-height: 107%; color: #ffffff;"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+&lt;p class="MsoNormal"&gt;&lt;span style="font-size: 20pt; line-height: 107%; color: #ffffff;"&gt;Việc kết hợp h&amp;agrave;i h&amp;ograve;a c&amp;ocirc;ng nghệ thiết bị của c&amp;aacute;c h&amp;atilde;ng h&amp;agrave;ng đầu thế giới của c&amp;aacute;c h&amp;agrave;ng Buhler, Vandesen, Chronos&amp;hellip;c&amp;ugrave;ng sự s&amp;aacute;ng tạo của c&amp;aacute;c kỹ sư Mavinex đ&amp;atilde; x&amp;acirc;y dựng n&amp;ecirc;n c&amp;aacute;c nh&amp;agrave; m&amp;aacute;y sản xuất thức ăn chăn nu&amp;ocirc;i c&amp;ocirc;ng nghệ 4.0, Việc &amp;aacute;p dụng c&amp;ocirc;ng nghệ 4.0 gi&amp;uacute;p Mavin giảm được chi ph&amp;iacute; sản xuất, vận h&amp;agrave;nh, tăng năng suất lao động v&amp;agrave; bảo vệ m&amp;ocirc;i trường cũng như bảo vệ sức khỏe của người sản xuất v&amp;agrave; ti&amp;ecirc;u d&amp;ugrave;ng.&lt;/span&gt;&lt;/p&gt;
+&lt;p class="MsoNormal"&gt;&lt;span style="font-size: 20pt; line-height: 107%; color: #ffffff;"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+&lt;p class="MsoNormal"&gt;&lt;span style="font-size: 20pt; line-height: 107%; color: #ffffff;"&gt;Trong lĩnh vực chăn nu&amp;ocirc;i, Mavinex cũng triển khai h&amp;agrave;ng chục c&amp;aacute;c dự &amp;aacute;n lớn như trại heo 1.200 heo Cụ Kị Hưng Việt &amp;ndash; Hưng Y&amp;ecirc;n, trại 1.500 Heo n&amp;aacute;i &amp;ocirc;ng b&amp;agrave; tại Nhơn T&amp;acirc;n &amp;ndash; B&amp;igrave;nh Định c&amp;ugrave;ng h&amp;agrave;ng trăm c&amp;aacute;c trại heo n&amp;aacute;i bố mẹ, trại heo thịt; trại g&amp;agrave; v&amp;agrave; trại vịt. Nhờ &amp;aacute;p dụng c&amp;aacute;c c&amp;ocirc;ng nghệ ti&amp;ecirc;n tiến trong c&amp;aacute;c trang trại như: ứng dụng hệ thống cho ăn tự động, hệ thống vệ sinh v&amp;agrave; xử l&amp;yacute; m&amp;ocirc;i trường tự động, hệ thống điều chỉnh nhiệt độ tự động&amp;hellip; điều n&amp;agrave;y gi&amp;uacute;p cho vật nu&amp;ocirc;i c&amp;oacute; điều kiện sinh trưởng v&amp;agrave; ph&amp;aacute;t triển tốt nhất, qua đ&amp;oacute; tối ưu h&amp;oacute;a hiệu quả chăn nu&amp;ocirc;i đồng thời hướng tới nền chăn nu&amp;ocirc;i th&amp;acirc;n thiện với m&amp;ocirc;i trường.&lt;/span&gt;&lt;/p&gt;
+&lt;p class="MsoNormal"&gt;&lt;span style="font-size: 20pt; line-height: 107%; color: #ffffff;"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+&lt;p class="MsoNormal"&gt;&lt;span style="font-size: 20pt; line-height: 107%; color: #ffffff;"&gt;Trong lĩnh vực chăn nu&amp;ocirc;i thủy sản, C&amp;ocirc;ng ty cung cấp hệ thống lồng c&amp;aacute; Nauy với thể t&amp;iacute;ch chăn nu&amp;ocirc;i lớn, khả năng chống chịu thời tiết, b&amp;atilde;o gi&amp;oacute; cao rất th&amp;iacute;ch hợp với chăn nu&amp;ocirc;i tập trung tại v&amp;ugrave;ng ven biển hay c&amp;aacute;c hồ thủy điện đem lại năng suất v&amp;agrave; chất lượng c&amp;aacute; thương phẩm rất cao.&lt;/span&gt;&lt;/p&gt;
+&lt;p class="MsoNormal"&gt;&lt;span style="font-size: 20pt; line-height: 107%; color: #ffffff;"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+&lt;p class="MsoNormal"&gt;&lt;span style="font-size: 20pt; line-height: 107%; color: #ffffff;"&gt;Với mục ti&amp;ecirc;u mang đến những sản phẩm chất lượng cao kh&amp;ocirc;ng chỉ cho những dự &amp;aacute;n trong tập đo&amp;agrave;n Mavin m&amp;agrave; c&amp;ograve;n hướng tới c&amp;aacute;c kh&amp;aacute;ch h&amp;agrave;ng trong v&amp;agrave; ngo&amp;agrave;i nước, C&amp;ocirc;ng ty CP Mavinex cam kết giữ g&amp;igrave;n gi&amp;aacute; trị truyền thống, ph&amp;aacute;t huy lợi thế canh tranh, đồng h&amp;agrave;nh c&amp;ugrave;ng c&amp;aacute;c đối t&amp;aacute;c, đem lại sự ph&amp;aacute;t triển thịnh vượng cho Qu&amp;yacute; kh&amp;aacute;ch h&amp;agrave;ng, cổ đ&amp;ocirc;ng v&amp;agrave; cộng đồng x&amp;atilde; hội. &lt;/span&gt;&lt;/p&gt;
+&lt;p class="MsoNormal"&gt;&lt;span style="font-size: 20pt; line-height: 107%; color: #ffffff;"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+&lt;p class="MsoNormal"&gt;&lt;span style="font-size: 20pt; line-height: 107%; color: #ffffff;"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+&lt;p class="MsoNormal"&gt;&lt;span style="font-size: 20pt; line-height: 107%; color: #ffffff;"&gt;Tr&amp;acirc;n trọng!&lt;/span&gt;&lt;/p&gt;
+&lt;p class="MsoNormal"&gt;&lt;span style="font-size: 20pt; line-height: 107%; color: #ffffff;"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+&lt;p class="MsoNormal"&gt;&lt;span style="font-size: 20pt; line-height: 107%; color: #ffffff;"&gt;Gi&amp;aacute;m đốc&lt;/span&gt;&lt;/p&gt;
+&lt;p class="MsoNormal"&gt;&lt;span style="font-size: 20pt; line-height: 107%; color: #ffffff;"&gt;Trần C&amp;ocirc;ng T&amp;iacute;nh&lt;/span&gt;&lt;/p&gt;</tabContent_html>
+	<tabActive_b>true</tabActive_b>
+	</item>	<item>	<tabTitle_s>Lịch sử hình thành</tabTitle_s>
+	<tabId_s>historyContent</tabId_s>
+	<tabContent_html>&lt;p class="MsoNormal"&gt;&lt;span style="font-size: 20pt; line-height: 107%; color: #ffffff;"&gt;C&amp;ocirc;ng ty Cổ Phần Mavinex l&amp;agrave; C&amp;ocirc;ng ty Cổ phần được h&amp;igrave;nh th&amp;agrave;nh trong thời kỳ đất nước đang tr&amp;ecirc;n đ&amp;agrave; ph&amp;aacute;t triển v&amp;agrave; đổi mới, x&amp;acirc;y dựng l&amp;agrave; một trong những nhiệm vụ cấp thiết của Đất nước n&amp;oacute;i chung v&amp;agrave; c&amp;aacute;c tỉnh n&amp;oacute;i ri&amp;ecirc;ng, nhằm đ&amp;oacute;ng g&amp;oacute;p cho đất nước những c&amp;ocirc;ng tr&amp;igrave;nh x&amp;acirc;y dựng d&amp;acirc;n dụng, c&amp;ocirc;ng nghiệp, hạ tầng cơ sở, đường d&amp;acirc;y v&amp;agrave; trạm điện, giao th&amp;ocirc;ng thủy lợi&amp;hellip;&lt;/span&gt;&lt;/p&gt;
+&lt;p class="MsoNormal"&gt;&lt;span style="font-size: 20pt; line-height: 107%; color: #ffffff;"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+&lt;p class="MsoNormal"&gt;&lt;span style="font-size: 20pt; line-height: 107%; color: #ffffff;"&gt;C&amp;ocirc;ng ty Cổ phần Mavinex l&amp;agrave; một trong những doanh nghiệp được th&amp;agrave;nh lập nhằm g&amp;oacute;p phần v&amp;agrave;o sự nghiệp ph&amp;aacute;t triển v&amp;agrave; đổi mới của x&amp;atilde; hội.&lt;/span&gt;&lt;/p&gt;
+&lt;p class="MsoNormal"&gt;&lt;span style="font-size: 20pt; line-height: 107%; color: #ffffff;"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+&lt;p class="MsoNormal"&gt;&lt;span style="font-size: 20pt; line-height: 107%; color: #ffffff;"&gt;Trong suốt qu&amp;aacute; tr&amp;igrave;nh th&amp;agrave;nh lập v&amp;agrave; ph&amp;aacute;t triển, đến nay C&amp;ocirc;ng ty Cổ phần Mavinex đ&amp;atilde; vươn l&amp;ecirc;n trở th&amp;agrave;nh một C&amp;ocirc;ng ty c&amp;oacute; uy t&amp;iacute;n, c&amp;oacute; chỗ đứng vững chắc tr&amp;ecirc;n thị trường x&amp;acirc;y dựng v&amp;agrave; cung cấp hệ thống thiết bị chuồng trại, thiết bị nh&amp;agrave; m&amp;aacute;y thức ăn chăn nu&amp;ocirc;i.&lt;/span&gt;&lt;/p&gt;
+&lt;p class="MsoNormal"&gt;&lt;span style="font-size: 20pt; line-height: 107%; color: #ffffff;"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+&lt;p class="MsoNormal"&gt;&lt;span style="font-size: 20pt; line-height: 107%; color: #ffffff;"&gt;C&amp;ocirc;ng ty đ&amp;atilde; tham gia thi c&amp;ocirc;ng c&amp;aacute;c c&amp;ocirc;ng tr&amp;igrave;nh x&amp;acirc;y dựng tr&amp;ecirc;n địa b&amp;agrave;n Hưng Y&amp;ecirc;n v&amp;agrave; một số tỉnh trong cả nước. C&amp;aacute;c c&amp;ocirc;ng tr&amp;igrave;nh do C&amp;ocirc;ng ty thi c&amp;ocirc;ng đều đạt chất lượng tốt, đ&amp;aacute;p ứng mọi y&amp;ecirc;u cầu kỹ, mỹ thuật được chủ đầu tư đ&amp;aacute;nh gi&amp;aacute; cao.&lt;/span&gt;&lt;/p&gt;
+&lt;p class="MsoNormal"&gt;&lt;span style="font-size: 20pt; line-height: 107%; color: #ffffff;"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+&lt;p class="MsoNormal"&gt;&lt;span style="font-size: 20pt; line-height: 107%; color: #ffffff;"&gt;Với bộ m&amp;aacute;y l&amp;atilde;nh đạo tổ chức điều h&amp;agrave;nh gọn nhẹ, năng động, ph&amp;ugrave; hợp với cơ chế thị trường, đội ngũ kỹ sư gi&amp;agrave;u kinh nghiệm, c&amp;ocirc;ng nh&amp;acirc;n kỹ thuật l&amp;agrave;nh nghề, thiết bị c&amp;ocirc;ng nghệ thi c&amp;ocirc;ng đồng bộ, C&amp;ocirc;ng ty Cổ phần Mavinex khẳng định: ho&amp;agrave;n to&amp;agrave;n c&amp;oacute; thể đ&amp;aacute;p ứng được mọi y&amp;ecirc;u cầu của kh&amp;aacute;ch h&amp;agrave;ng về chất lượng v&amp;agrave; tiến độ c&amp;aacute;c c&amp;ocirc;ng tr&amp;igrave;nh lớn nhỏ với gi&amp;aacute; th&amp;agrave;nh hợp l&amp;yacute; nhất.&lt;/span&gt;&lt;/p&gt;
+&lt;p class="MsoNormal"&gt;&lt;span style="font-size: 20pt; line-height: 107%; color: #ffffff;"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+&lt;p class="MsoNormal"&gt;&lt;span style="font-size: 20pt; line-height: 107%; color: #ffffff;"&gt;C&amp;ocirc;ng ty Cổ phần Mavinex mong muốn l&amp;agrave; địa chỉ tin cậy của kh&amp;aacute;ch h&amp;agrave;ng. Đến với C&amp;ocirc;ng ty ch&amp;uacute;ng t&amp;ocirc;i kh&amp;aacute;ch h&amp;agrave;ng sẽ gặp được người bạn v&amp;agrave; đối t&amp;aacute;c ch&amp;acirc;n th&amp;agrave;nh, c&amp;oacute; được những c&amp;ocirc;ng tr&amp;igrave;nh đạt chất lượng tốt, bền vững với gi&amp;aacute; cả hợp l&amp;yacute; v&amp;agrave; gi&amp;aacute; trị thẩm mỹ cao.&lt;/span&gt;&lt;/p&gt;</tabContent_html>
+	<tabActive_b>false</tabActive_b>
+	</item>	<item>	<tabTitle_s>Cơ cấu tổ chức</tabTitle_s>
+	<tabId_s>organizationContent</tabId_s>
+	<tabContent_html>&lt;p&gt;&lt;img src="/static-assets/images/featured/organization.png" alt="" width="1250" height="1106" /&gt;&lt;/p&gt;</tabContent_html>
+	<tabActive_b>false</tabActive_b>
+	</item>	<item>	<tabTitle_s>Đối tác chiến lược</tabTitle_s>
+	<tabId_s>partnerContent</tabId_s>
+	<tabContent_html>&lt;p&gt;&lt;img src="/static-assets/images/featured/partner_1.png" alt="" width="977" height="1129" /&gt;&lt;/p&gt;</tabContent_html>
+	<tabActive_b>false</tabActive_b>
+	</item></tabitem_o>
+	<file-name>22a33590-653a-453f-3ad9-0fc2f6782fca.xml</file-name>
+	<internal-name>Content</internal-name>
+	<title_s>Giới thiệu</title_s>
+	<createdDate>2020-03-27T04:00:00.581Z</createdDate>
+	<createdDate_dt>2020-03-27T04:00:00.581Z</createdDate_dt>
+	<lastModifiedDate>2020-03-27T04:50:05.633Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-03-27T04:50:05.633Z</lastModifiedDate_dt>
+</component>
+	</item></sections_o>
+	<placeInNav>true</placeInNav>
+	<orderDefault_f>2000</orderDefault_f>
+	<internal-name>Giới thiệu</internal-name>
+	<title_s>Giới thiệu</title_s>
+	<file-name>index.xml</file-name>
+	<folder-name>introduct</folder-name>
+	<createdDate>2020-03-26T09:30:07.188Z</createdDate>
+	<createdDate_dt>2020-03-26T09:30:07.188Z</createdDate_dt>
+	<lastModifiedDate>2020-03-27T04:50:01.682Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-03-27T04:50:01.682Z</lastModifiedDate_dt>
+</page>

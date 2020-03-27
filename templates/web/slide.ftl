@@ -1,4 +1,4 @@
-<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+<div id="carouselExampleControls" class="carousel slide" data-ride="carousel" <@studio.iceAttr component=contentModel/>>
     <div class="carousel-inner">
         <#if (contentModel.image_o.item)??>
             <#list contentModel.image_o.item as element>
