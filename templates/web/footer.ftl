@@ -29,10 +29,14 @@
         </div>
         <div class="footer__social-btns mb-3">
           <div class="footer__btns">
-            <#list contentModel.sections_o.item as content>
-                <@renderComponent component=content />
-            </#list>
-          </div>
+            <#if (contentModel.socialMedia_o.item)??>
+                <#list contentModel.socialMedia_o.item as media>
+                <a href="${media.url_s}" class="btn rounded-0" style="border: 1px solid #ddd; background: #fff; color: #00579d; width: 46px; height: 47px; position:relative;">
+                    <i class="fab ${media.icon_s}" style="font-size:20px; position: absolute; top:50%; left: 50%; transform: translate(-50%,-50%);"></i>
+                </a>
+                </#list>
+            </#if>
+          </div> 
         </div>
         <p class="text-white">${contentModel.brandCopyright_s}</p>
       </div>

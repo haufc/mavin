@@ -44,12 +44,12 @@
 	<image_s>/static-assets/images/featured/content_img_1.png</image_s>
 	<isVerticalContent_b>false</isVerticalContent_b>
 	<internal-name>Introduction</internal-name>
-	<title_s>Giới thiệu</title_s>
+	<title_s>Intro</title_s>
 	<file-name>4d2b3839-e5b4-fe16-c0ac-d1a0b2090a7b.xml</file-name>
 	<createdDate>2020-03-26T04:05:16.116Z</createdDate>
 	<createdDate_dt>2020-03-26T04:05:16.116Z</createdDate_dt>
-	<lastModifiedDate>2020-03-26T04:05:16.116Z</lastModifiedDate>
-	<lastModifiedDate_dt>2020-03-26T04:05:16.116Z</lastModifiedDate_dt>
+	<lastModifiedDate>2020-03-26T09:34:42.266Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-03-26T09:34:42.266Z</lastModifiedDate_dt>
 </component>
 	</item>	<item datasource="sections" inline="true">	<key>aa86752b-ffaa-2fd8-c353-486ff2bdad3d</key>
 	<value>Fieldwork</value>
@@ -108,6 +108,6 @@
 	<folder-name>home</folder-name>
 	<createdDate>2020-03-25T10:34:10.722Z</createdDate>
 	<createdDate_dt>2020-03-25T10:34:10.722Z</createdDate_dt>
-	<lastModifiedDate>2020-03-26T04:53:29.101Z</lastModifiedDate>
-	<lastModifiedDate_dt>2020-03-26T04:53:29.101Z</lastModifiedDate_dt>
+	<lastModifiedDate>2020-03-26T09:34:40.843Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-03-26T09:34:40.843Z</lastModifiedDate_dt>
 </page>
