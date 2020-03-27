@@ -22,7 +22,9 @@
       <#if (contentModel.tabitem_o.item)??>
         <#list contentModel.tabitem_o.item as element>
             <div class="tab-pane fade show active" id="${element.tabId_s}" role="tabpanel">
-                 ${element.tabContent_html}
+                <div class="col-12">
+                     ${element.tabContent_html}
+                </div>
             </div>
         </#list>
       </#if>
