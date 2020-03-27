@@ -12,7 +12,15 @@
 	<backgroundImage_s>/static-assets/images/featured/footer_bg.png</backgroundImage_s>
 	<createdDate>2020-03-25T10:27:58.433Z</createdDate>
 	<createdDate_dt>2020-03-25T10:27:58.433Z</createdDate_dt>
-	<lastModifiedDate>2020-03-27T03:42:22.604Z</lastModifiedDate>
-	<lastModifiedDate_dt>2020-03-27T03:42:22.604Z</lastModifiedDate_dt>
-	<sections_o item-list="true"/>
+	<lastModifiedDate>2020-03-27T04:03:28.825Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-03-27T04:03:28.825Z</lastModifiedDate_dt>
+	<socialMedia_o item-list="true">	<item>	<url_s>www.facebook.com</url_s>
+	<icon_s>fa-facebook</icon_s>
+	</item>	<item>	<icon_s>fa-linkedin</icon_s>
+	<url_s>www.linkedin.com</url_s>
+	</item>	<item>	<icon_s>fa-twitter</icon_s>
+	<url_s>www.twitter.com</url_s>
+	</item>	<item>	<icon_s>fa-youtube</icon_s>
+	<url_s>www.youtube.com</url_s>
+	</item></socialMedia_o>
 </component>
