@@ -70,14 +70,17 @@
 	</item>	<item>	<tabTitle_s>Cơ cấu tổ chức</tabTitle_s>
 	<tabId_s>organizationContent</tabId_s>
 	<tabContent_html>&lt;p&gt;&lt;img src="/static-assets/images/featured/organization.png" alt="" width="1250" height="1106" /&gt;&lt;/p&gt;</tabContent_html>
+	</item>	<item>	<tabTitle_s>Đối tác chiến lược</tabTitle_s>
+	<tabId_s>partnerContent</tabId_s>
+	<tabContent_html>&lt;p&gt;&lt;img src="/static-assets/images/featured/partner_1.png" alt="" width="977" height="1129" /&gt;&lt;/p&gt;</tabContent_html>
 	</item></tabitem_o>
 	<file-name>22a33590-653a-453f-3ad9-0fc2f6782fca.xml</file-name>
 	<internal-name>Content</internal-name>
 	<title_s>Giới thiệu</title_s>
 	<createdDate>2020-03-27T04:00:00.581Z</createdDate>
 	<createdDate_dt>2020-03-27T04:00:00.581Z</createdDate_dt>
-	<lastModifiedDate>2020-03-27T04:30:14.176Z</lastModifiedDate>
-	<lastModifiedDate_dt>2020-03-27T04:30:14.176Z</lastModifiedDate_dt>
+	<lastModifiedDate>2020-03-27T04:38:09.710Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-03-27T04:38:09.710Z</lastModifiedDate_dt>
 </component>
 	</item></sections_o>
 	<placeInNav>true</placeInNav>
@@ -88,6 +91,6 @@
 	<folder-name>introduct</folder-name>
 	<createdDate>2020-03-26T09:30:07.188Z</createdDate>
 	<createdDate_dt>2020-03-26T09:30:07.188Z</createdDate_dt>
-	<lastModifiedDate>2020-03-27T04:30:10.231Z</lastModifiedDate>
-	<lastModifiedDate_dt>2020-03-27T04:30:10.231Z</lastModifiedDate_dt>
+	<lastModifiedDate>2020-03-27T04:38:05.865Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-03-27T04:38:05.865Z</lastModifiedDate_dt>
 </page>
