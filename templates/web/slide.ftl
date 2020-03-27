@@ -1,3 +1,4 @@
+<#import "/templates/system/common/cstudio-support.ftl" as studio />
 <div id="carouselExampleControls" class="carousel slide" data-ride="carousel" <@studio.iceAttr component=contentModel/>>
     <div class="carousel-inner">
         <#if (contentModel.image_o.item)??>
@@ -24,3 +25,4 @@
     <span class="sr-only">Next</span>
     </a>
 </div>
+<@studio.toolSupport />
