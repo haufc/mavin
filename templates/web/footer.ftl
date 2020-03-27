@@ -31,7 +31,7 @@
           <div class="footer__btns">
             <#if (contentModel.socialMedia_o.item)??>
                 <#list contentModel.socialMedia_o.item as media>
-                <a href="${media.url_s}">
+                <a href="${media.url_s}" class="btn">
                     <i class="fab ${media.icon_s}"></i>
                 </a>
                 </#list>
