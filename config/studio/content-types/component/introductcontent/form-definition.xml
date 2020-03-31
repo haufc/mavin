@@ -148,9 +148,9 @@
 			<fields>
 				<field>
 					<type>checkbox</type>
-					<id>type1OrType2_b</id>
+					<id>hasImage_b</id>
 					<iceId></iceId>
-					<title>textOrImage</title>
+					<title>hasImage</title>
 					<description></description>
 					<defaultValue></defaultValue>
 					<help></help>
