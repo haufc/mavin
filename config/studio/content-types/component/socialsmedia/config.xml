@@ -1,5 +1,5 @@
 <content-type name="/component/socialsmedia" is-wcm-type="true">
-	<label>Socials Media</label>
+	<label>Component - Socials Media</label>
 	<form>/component/socialsmedia</form>
 	<form-path>simple</form-path>
 	<model-instance-path>NOT-USED-BY-SIMPLE-FORM-ENGINE</model-instance-path>
