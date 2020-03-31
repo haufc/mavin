@@ -314,7 +314,7 @@
 						</property>
 						<property>
 							<name>fileManager</name>
-							<value></value>
+							<value>sectionDataSource</value>
 							<type>datasource:item</type>
 						</property>
 					</properties>
