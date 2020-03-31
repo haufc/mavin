@@ -350,10 +350,35 @@
 					</constraints>
 				</field>
 				<field>
-					<type>node-selector</type>
-					<id>tabSection_o</id>
+					<type>checkbox</type>
+					<id>tabActive_b</id>
 					<iceId></iceId>
-					<title>Tab Section</title>
+					<title>Tab Active</title>
+					<description>Sẽ hiển thị tab đầu tiên khi vào trang</description>
+					<defaultValue></defaultValue>
+					<help></help>
+					<properties>
+						<property>
+							<name>readonly</name>
+							<value></value>
+							<type>boolean</type>
+						</property>
+					</properties>
+					<constraints>
+						<constraint>
+							<name>required</name>
+							<value><![CDATA[]]></value>
+							<type>boolean</type>
+						</constraint>
+					</constraints>
+				</field>
+					</fields>
+				</field>
+				<field>
+					<type>node-selector</type>
+					<id>sectionDataSource_o</id>
+					<iceId></iceId>
+					<title>Section DataSource</title>
 					<description></description>
 					<defaultValue></defaultValue>
 					<help></help>
@@ -370,7 +395,7 @@
 						</property>
 						<property>
 							<name>itemManager</name>
-							<value></value>
+							<value>section</value>
 							<type>datasource:item</type>
 						</property>
 						<property>
@@ -396,31 +421,6 @@
 							<type>boolean</type>
 						</constraint>
 					</constraints>
-				</field>
-				<field>
-					<type>checkbox</type>
-					<id>tabActive_b</id>
-					<iceId></iceId>
-					<title>Tab Active</title>
-					<description>Sẽ hiển thị tab đầu tiên khi vào trang</description>
-					<defaultValue></defaultValue>
-					<help></help>
-					<properties>
-						<property>
-							<name>readonly</name>
-							<value></value>
-							<type>boolean</type>
-						</property>
-					</properties>
-					<constraints>
-						<constraint>
-							<name>required</name>
-							<value><![CDATA[]]></value>
-							<type>boolean</type>
-						</constraint>
-					</constraints>
-				</field>
-					</fields>
 				</field>
 			</fields>
 		</section>
