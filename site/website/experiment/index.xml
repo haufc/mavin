@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page>
+	<content-type>/page/home</content-type>
+	<display-template>/templates/web/home.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>7f8a</objectGroupId>
+	<objectId>7f8a8c89-32e7-de49-816a-79d87ec0baaf</objectId>
+	<file-name>index.xml</file-name>
+	<folder-name>experiment</folder-name>
+	<internal-name>Năng lực kinh nghiệm</internal-name>
+	<title_s>Năng lực kinh nghiệm</title_s>
+	<placeInNav>true</placeInNav>
+	<orderDefault_f>3000</orderDefault_f>
+	<sections_o item-list="true">	<item datasource="sections" inline="true">	<key>97b457e5-5603-eb8c-e645-300d3a1d2f1d</key>
+	<value>Header Image</value>
+<component id="97b457e5-5603-eb8c-e645-300d3a1d2f1d">
+	<content-type>/component/slide</content-type>
+	<display-template>/templates/web/slide.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>97b4</objectGroupId>
+	<objectId>97b457e5-5603-eb8c-e645-300d3a1d2f1d</objectId>
+	<image_o item-list="true">	<item>	<image_s>/static-assets/images/slides/bg_3.png</image_s>
+	</item></image_o>
+	<file-name>97b457e5-5603-eb8c-e645-300d3a1d2f1d.xml</file-name>
+	<internal-name>Header Image</internal-name>
+	<createdDate>2020-03-31T04:00:12.997Z</createdDate>
+	<createdDate_dt>2020-03-31T04:00:12.997Z</createdDate_dt>
+	<lastModifiedDate>2020-03-31T04:00:12.997Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-03-31T04:00:12.997Z</lastModifiedDate_dt>
+</component>
+	</item></sections_o>
+	<createdDate>2020-03-31T03:55:45.637Z</createdDate>
+	<createdDate_dt>2020-03-31T03:55:45.637Z</createdDate_dt>
+	<lastModifiedDate>2020-03-31T03:55:45.637Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-03-31T03:55:45.637Z</lastModifiedDate_dt>
+</page>
