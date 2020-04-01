@@ -31,7 +31,7 @@
 	<lastModifiedDate_dt>2020-04-01T06:28:23.646Z</lastModifiedDate_dt>
 </component>
 	</item>	<item datasource="sections" inline="true">	<key>323c7483-f139-469f-d336-539a0fae4297</key>
-	<value>Lĩnh vực xây dựng</value>
+	<value>Năng lực kinh nghiệm</value>
 <component id="323c7483-f139-469f-d336-539a0fae4297">
 	<content-type>/component/componentintroductcontenttype2</content-type>
 	<display-template>/templates/web/introduce2.ftl</display-template>
@@ -40,9 +40,9 @@
 	<objectGroupId>323c</objectGroupId>
 	<objectId>323c7483-f139-469f-d336-539a0fae4297</objectId>
 	<file-name>323c7483-f139-469f-d336-539a0fae4297.xml</file-name>
-	<internal-name>Lĩnh vực xây dựng</internal-name>
-	<title_s>LĨNH VỰC XÂY DỰNG</title_s>
-	<tabItem_o item-list="true">	<item>	<tabTitle_s>LĨNH VỰC XÂY DỰNG</tabTitle_s>
+	<internal-name>Năng lực kinh nghiệm</internal-name>
+	<title_s>NĂNG LỰC KINH NGHIỆM</title_s>
+	<tabItem_o item-list="true">	<item>	<tabTitle_s> </tabTitle_s>
 	<tabId_s>buildingfield</tabId_s>
 	<tabdes1_s>Dự án Nhà máy thức ăn chăn nuôi Mavin Austfeed</tabdes1_s>
 	<tabdes2_s>Dự án Nhà máy thức ăn chăn nuôi Mavin Austfeed</tabdes2_s>
@@ -65,12 +65,12 @@
 	</item></tabItem_o>
 	<createdDate>2020-04-01T06:28:38.537Z</createdDate>
 	<createdDate_dt>2020-04-01T06:28:38.537Z</createdDate_dt>
-	<lastModifiedDate>2020-04-01T06:28:38.537Z</lastModifiedDate>
-	<lastModifiedDate_dt>2020-04-01T06:28:38.537Z</lastModifiedDate_dt>
+	<lastModifiedDate>2020-04-01T06:39:54.473Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-04-01T06:39:54.473Z</lastModifiedDate_dt>
 </component>
 	</item></sections_o>
 	<createdDate>2020-04-01T06:27:57.672Z</createdDate>
 	<createdDate_dt>2020-04-01T06:27:57.672Z</createdDate_dt>
-	<lastModifiedDate>2020-04-01T06:27:57.672Z</lastModifiedDate>
-	<lastModifiedDate_dt>2020-04-01T06:27:57.672Z</lastModifiedDate_dt>
+	<lastModifiedDate>2020-04-01T06:39:50.243Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-04-01T06:39:50.243Z</lastModifiedDate_dt>
 </page>
