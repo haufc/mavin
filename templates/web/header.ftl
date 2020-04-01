@@ -10,7 +10,7 @@
         <a class="nav-bar__link" href="#activity">Lĩnh vực hoạt động</a>
         <a class="nav-bar__link" href="/experiment">Năng lực kinh nghiệm</a>
         <a class="nav-bar__link" href="/all-jobs">Tuyển dụng</a>
-        <a class="nav-bar__link" href="#contact">Liên hệ</a>
+        <a class="nav-bar__link" href="/contact">Liên hệ</a>
     </div>
     <div class="nav-bar__btns">
       <select class="selectpicker mr-1" id="languageSelector" data-width="fit" data-style="btn-primary rounded-0">
