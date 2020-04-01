@@ -9,7 +9,7 @@
 	<properties>		<property>
 			<name>display-template</name>
 			<label>Display Template</label>
-			<value></value>
+			<value>/templates/web/listimage.ftl</value>
 			<type>template</type>
 		</property>
 		<property>
@@ -89,7 +89,7 @@
 			</fields>
 		</section>
 		<section>
-			<title>Default Section Title 1585711978662</title>
+			<title>Default Section Title 1585716731855</title>
 			<description></description>
 			<defaultOpen>false</defaultOpen>
 			<fields>
