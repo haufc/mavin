@@ -44,7 +44,7 @@
 	<title_s>NĂNG LỰC KINH NGHIỆM</title_s>
 	<tabItem_o item-list="true">	<item>	<tabTitle_s>LĨNH VỰC XÂY DỰNG</tabTitle_s>
 	<tabId_s>buildingSector</tabId_s>
-	<tabSection_o>		<item><key>eb258ff8-876e-583c-e427-1a684d9481f7</key>
+	<tabSection_o>		<item><key>7f3fc207-304d-f600-73c1-d82bbf1f0693</key>
 <value>ABC</value>
 <datasource>section</datasource>
 <inline>true</inline>
@@ -62,12 +62,12 @@
 	</item></tabItem_o>
 	<createdDate>2020-04-01T03:11:44.809Z</createdDate>
 	<createdDate_dt>2020-04-01T03:11:44.809Z</createdDate_dt>
-	<lastModifiedDate>2020-04-01T05:31:37.723Z</lastModifiedDate>
-	<lastModifiedDate_dt>2020-04-01T05:31:37.723Z</lastModifiedDate_dt>
+	<lastModifiedDate>2020-04-01T05:53:22.616Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-04-01T05:53:22.616Z</lastModifiedDate_dt>
 </component>
 	</item></sections_o>
 	<createdDate>2020-03-31T03:55:45.637Z</createdDate>
 	<createdDate_dt>2020-03-31T03:55:45.637Z</createdDate_dt>
-	<lastModifiedDate>2020-04-01T05:51:08.769Z</lastModifiedDate>
-	<lastModifiedDate_dt>2020-04-01T05:51:08.769Z</lastModifiedDate_dt>
+	<lastModifiedDate>2020-04-01T05:53:20.253Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-04-01T05:53:20.253Z</lastModifiedDate_dt>
 </page>
