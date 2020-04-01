@@ -6,11 +6,11 @@
        <img src="${contentModel.logo_s}" alt="Logo"/>
     </a>
     <div class="nav-bar__links" id="navLinks">
-        <a class="nav-bar__link" href="/introduct" onclick="myFunction(this.href)">Giới thiệu</a>
-        <a class="nav-bar__link" href="/activity">Lĩnh vực hoạt động</a>
-        <a class="nav-bar__link" href="/experience">Năng lực kinh nghiệm</a>
-        <a class="nav-bar__link" href="/all-jobs">Tuyển dụng</a>
-        <a class="nav-bar__link" href="/contact">Liên hệ</a>
+        <a class="nav-bar__link" id="introduct" href="/introduct" onclick="myFunction(this.href)">Giới thiệu</a>
+        <a class="nav-bar__link" id="activity" href="/activity">Lĩnh vực hoạt động</a>
+        <a class="nav-bar__link" id="experience" href="/experience">Năng lực kinh nghiệm</a>
+        <a class="nav-bar__link" id="all-jobs" href="/all-jobs">Tuyển dụng</a>
+        <a class="nav-bar__link" id="contact" href="/contact">Liên hệ</a>
     </div>
     <div class="nav-bar__btns">
       <select class="selectpicker mr-1" id="languageSelector" data-width="fit" data-style="btn-primary rounded-0">
