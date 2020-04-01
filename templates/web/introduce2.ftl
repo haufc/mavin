@@ -32,7 +32,7 @@
         <#list contentModel.tabItem_o.item as element>
             <#if element.tabActive_b == true>
                 <div class="tab-pane fade show active" id="${element.tabId_s}" role="tabpanel">
-                     ${element.tabContent_html}
+                    ${element.tabContent_html}
                     <#list element.tabSection_o.item as module>
                     	<@renderComponent component=module />
                     </#list>
