@@ -5,7 +5,7 @@
   </div>
   <div class="content__details container">
     <nav class="content__tab col-12">
-      <div class="nav nav-tabs row mb-3" role="tablist">
+      <div class="nav nav-tabs row mb-6" role="tablist">
           <#if (contentModel.tabitem_o.item)??>
             <#list contentModel.tabitem_o.item as element>
                 <#if element.tabActive_b == true>
