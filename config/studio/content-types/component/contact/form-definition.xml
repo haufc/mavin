@@ -261,7 +261,7 @@
 					<properties>
 						<property>
 							<name>repoPath</name>
-							<value>/static-assets/featured</value>
+							<value>/static-assets/images/featured</value>
 								<type>undefined</type>
 						</property>
 					</properties>
@@ -274,7 +274,7 @@
 					<properties>
 						<property>
 							<name>repoPath</name>
-							<value>/static-assets/featured</value>
+							<value>/static-assets/images/featured</value>
 								<type>undefined</type>
 						</property>
 						<property>
