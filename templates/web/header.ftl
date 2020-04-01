@@ -6,7 +6,7 @@
        <img src="${contentModel.logo_s}" alt="Logo"/>
     </a>
     <div class="nav-bar__links" id="navLinks">
-        <a class="nav-bar__link" href="/introduct" onclick="myFunction(this)">Giới thiệu</a>
+        <a class="nav-bar__link" href="/introduct" onclick="myFunction(this.href)">Giới thiệu</a>
         <a class="nav-bar__link" href="/activity">Lĩnh vực hoạt động</a>
         <a class="nav-bar__link" href="/experience">Năng lực kinh nghiệm</a>
         <a class="nav-bar__link" href="/all-jobs">Tuyển dụng</a>
