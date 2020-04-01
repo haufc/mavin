@@ -33,10 +33,28 @@
             <#if element.tabActive_b == true>
                 <div class="tab-pane fade show active" id="${element.tabId_s}" role="tabpanel">
                     ${element.tabContent_html}
-                    <#list element.tabSection_o.item as module>
-                    	<@renderComponent component=module />
-                    </#list>
-                </div>
+                    <h3 class="text--uppercase text-white mb-3">MỘT SỐ DỰ ÁN TIÊU BIỂU MAVINEX ĐÃ THỰC HIỆN </h3>
+                      <div class="carousel slide" id="projects" data-ride="carousel">
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <div class="row">
+                              <div class="content__img text--center col-sm-12 col-md-6 col-lg-6"><img class="img--full" src="" alt="Content Image"/>
+                                <p class="text--italic text-white"></p>
+                              </div>
+                              <div class="content__img text--center col-sm-12 col-md-6 col-lg-6"><img class="img--full" src="" alt="Content Image"/>
+                                <p class="text--italic text-white"></p>
+                              </div>
+                            </div>
+                            <div class="row">
+                              <div class="content__img text--center col-sm-12 col-md-6 col-lg-6"><img class="img--full" src="" alt="Content Image"/>
+                                <p class="text--italic text-white"></p>
+                              </div>
+                              <div class="content__img text--center col-sm-12 col-md-6 col-lg-6"><img class="img--full" src="" alt="Content Image"/>
+                                <p class="text--italic text-white"></p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
             <#else>
                 <div class="tab-pane fade" id="${element.tabId_s}" role="tabpanel">
                      ${element.tabContent_html}
