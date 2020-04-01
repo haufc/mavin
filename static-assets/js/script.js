@@ -3,4 +3,5 @@ function myFunction(elementID) {
     var selector = '#' + elementID;
     var element = $('#navLinks').find(selector);
     console.log(element);
+    $(element).addClass('active');
 }
