@@ -347,7 +347,7 @@
 						</property>
 						<property>
 							<name>imageManager</name>
-							<value></value>
+							<value>imageDestop,imageRepo</value>
 							<type>datasource:image</type>
 						</property>
 						<property>
@@ -438,7 +438,7 @@
 						</property>
 						<property>
 							<name>imageManager</name>
-							<value></value>
+							<value>imageDestop,imageRepo</value>
 							<type>datasource:image</type>
 						</property>
 						<property>
@@ -529,7 +529,7 @@
 						</property>
 						<property>
 							<name>imageManager</name>
-							<value></value>
+							<value>imageDestop,imageRepo</value>
 							<type>datasource:image</type>
 						</property>
 						<property>
@@ -620,7 +620,7 @@
 						</property>
 						<property>
 							<name>imageManager</name>
-							<value></value>
+							<value>imageDestop,imageRepo</value>
 							<type>datasource:image</type>
 						</property>
 						<property>
