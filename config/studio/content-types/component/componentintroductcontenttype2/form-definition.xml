@@ -132,7 +132,7 @@
 			</fields>
 		</section>
 		<section>
-			<title>Default Section Title 1585718820641</title>
+			<title>Default Section Title 1585718880690</title>
 			<description></description>
 			<defaultOpen>false</defaultOpen>
 			<fields>
@@ -337,7 +337,7 @@
 						</property>
 						<property>
 							<name>itemManager</name>
-							<value>sectionDataSource</value>
+							<value>section</value>
 							<type>datasource:item</type>
 						</property>
 						<property>
