@@ -132,7 +132,7 @@
 			</fields>
 		</section>
 		<section>
-			<title>Default Section Title 1585719941746</title>
+			<title>Default Section Title 1585720629045</title>
 			<description></description>
 			<defaultOpen>false</defaultOpen>
 			<fields>
@@ -317,48 +317,192 @@
 					</constraints>
 				</field>
 				<field>
-					<type>node-selector</type>
-					<id>tabSection_o</id>
+					<type>image-picker</type>
+					<id>tabImage1_s</id>
 					<iceId></iceId>
-					<title>Tab Section</title>
+					<title>TabImage1</title>
 					<description></description>
 					<defaultValue></defaultValue>
 					<help></help>
 					<properties>
 						<property>
-							<name>minSize</name>
+							<name>width</name>
+							<value>{ &quot;exact&quot;:&quot;&quot;, &quot;min&quot;:&quot;&quot;, &quot;max&quot;:&quot;&quot; }</value>
+							<type>range</type>
+						</property>
+						<property>
+							<name>height</name>
+							<value>{ &quot;exact&quot;:&quot;&quot;, &quot;min&quot;:&quot;&quot;, &quot;max&quot;:&quot;&quot; }</value>
+							<type>range</type>
+						</property>
+						<property>
+							<name>thumbnailWidth</name>
 							<value></value>
 							<type>int</type>
 						</property>
 						<property>
-							<name>maxSize</name>
+							<name>thumbnailHeight</name>
 							<value></value>
 							<type>int</type>
 						</property>
 						<property>
-							<name>itemManager</name>
-							<value>section</value>
-							<type>datasource:item</type>
+							<name>imageManager</name>
+							<value></value>
+							<type>datasource:image</type>
 						</property>
 						<property>
 							<name>readonly</name>
 							<value></value>
 							<type>boolean</type>
 						</property>
-						<property>
-							<name>disableFlattening</name>
-							<value></value>
+					</properties>
+					<constraints>
+						<constraint>
+							<name>required</name>
+							<value><![CDATA[]]></value>
 							<type>boolean</type>
+						</constraint>
+					</constraints>
+				</field>
+				<field>
+					<type>image-picker</type>
+					<id>tabImage2_s</id>
+					<iceId></iceId>
+					<title>TabImage2</title>
+					<description></description>
+					<defaultValue></defaultValue>
+					<help></help>
+					<properties>
+						<property>
+							<name>width</name>
+							<value>{ &quot;exact&quot;:&quot;&quot;, &quot;min&quot;:&quot;&quot;, &quot;max&quot;:&quot;&quot; }</value>
+							<type>range</type>
 						</property>
 						<property>
-							<name>useSingleValueFilename</name>
+							<name>height</name>
+							<value>{ &quot;exact&quot;:&quot;&quot;, &quot;min&quot;:&quot;&quot;, &quot;max&quot;:&quot;&quot; }</value>
+							<type>range</type>
+						</property>
+						<property>
+							<name>thumbnailWidth</name>
+							<value></value>
+							<type>int</type>
+						</property>
+						<property>
+							<name>thumbnailHeight</name>
+							<value></value>
+							<type>int</type>
+						</property>
+						<property>
+							<name>imageManager</name>
+							<value></value>
+							<type>datasource:image</type>
+						</property>
+						<property>
+							<name>readonly</name>
 							<value></value>
 							<type>boolean</type>
 						</property>
 					</properties>
 					<constraints>
 						<constraint>
-							<name>allowDuplicates</name>
+							<name>required</name>
+							<value><![CDATA[]]></value>
+							<type>boolean</type>
+						</constraint>
+					</constraints>
+				</field>
+				<field>
+					<type>image-picker</type>
+					<id>tabImage3_s</id>
+					<iceId></iceId>
+					<title>TabImage3</title>
+					<description></description>
+					<defaultValue></defaultValue>
+					<help></help>
+					<properties>
+						<property>
+							<name>width</name>
+							<value>{ &quot;exact&quot;:&quot;&quot;, &quot;min&quot;:&quot;&quot;, &quot;max&quot;:&quot;&quot; }</value>
+							<type>range</type>
+						</property>
+						<property>
+							<name>height</name>
+							<value>{ &quot;exact&quot;:&quot;&quot;, &quot;min&quot;:&quot;&quot;, &quot;max&quot;:&quot;&quot; }</value>
+							<type>range</type>
+						</property>
+						<property>
+							<name>thumbnailWidth</name>
+							<value></value>
+							<type>int</type>
+						</property>
+						<property>
+							<name>thumbnailHeight</name>
+							<value></value>
+							<type>int</type>
+						</property>
+						<property>
+							<name>imageManager</name>
+							<value></value>
+							<type>datasource:image</type>
+						</property>
+						<property>
+							<name>readonly</name>
+							<value></value>
+							<type>boolean</type>
+						</property>
+					</properties>
+					<constraints>
+						<constraint>
+							<name>required</name>
+							<value><![CDATA[]]></value>
+							<type>boolean</type>
+						</constraint>
+					</constraints>
+				</field>
+				<field>
+					<type>image-picker</type>
+					<id>tabImage4_s</id>
+					<iceId></iceId>
+					<title>TabImage4</title>
+					<description></description>
+					<defaultValue></defaultValue>
+					<help></help>
+					<properties>
+						<property>
+							<name>width</name>
+							<value>{ &quot;exact&quot;:&quot;&quot;, &quot;min&quot;:&quot;&quot;, &quot;max&quot;:&quot;&quot; }</value>
+							<type>range</type>
+						</property>
+						<property>
+							<name>height</name>
+							<value>{ &quot;exact&quot;:&quot;&quot;, &quot;min&quot;:&quot;&quot;, &quot;max&quot;:&quot;&quot; }</value>
+							<type>range</type>
+						</property>
+						<property>
+							<name>thumbnailWidth</name>
+							<value></value>
+							<type>int</type>
+						</property>
+						<property>
+							<name>thumbnailHeight</name>
+							<value></value>
+							<type>int</type>
+						</property>
+						<property>
+							<name>imageManager</name>
+							<value></value>
+							<type>datasource:image</type>
+						</property>
+						<property>
+							<name>readonly</name>
+							<value></value>
+							<type>boolean</type>
+						</property>
+					</properties>
+					<constraints>
+						<constraint>
+							<name>required</name>
 							<value><![CDATA[]]></value>
 							<type>boolean</type>
 						</constraint>
@@ -393,14 +537,32 @@
 		</section>
 	</sections>
 	<datasources>				<datasource>
-					<type>embedded-content</type>
-					<id>section</id>
-					<title>Section</title>
-					<interface>item</interface>
+					<type>img-desktop-upload</type>
+					<id>imageDestop</id>
+					<title>Image Destop</title>
+					<interface>image</interface>
 					<properties>
 						<property>
-							<name>contentType</name>
+							<name>repoPath</name>
 							<value></value>
+								<type>undefined</type>
+						</property>
+					</properties>
+				</datasource>
+				<datasource>
+					<type>img-repository-upload</type>
+					<id>imageRepo</id>
+					<title>Image Repo</title>
+					<interface>image</interface>
+					<properties>
+						<property>
+							<name>repoPath</name>
+							<value></value>
+								<type>undefined</type>
+						</property>
+						<property>
+							<name>useSearch</name>
+							<value>false</value>
 								<type>undefined</type>
 						</property>
 					</properties>
