@@ -6426,10 +6426,12 @@ h6 {
 }
 
 .content__tab-link.active {
+  font-weight: bold;
   color: #CE2027 !important;
 }
 
 .content__tab-link:hover {
+  font-weight: bold;
   color: #CE2027 !important;
   background: #fff;
 }
