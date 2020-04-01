@@ -2,6 +2,7 @@
 <div class="content__title text--center">
     <h1 class="text--uppercase">${contentModel.title_s}</h1>
 </div>
+      <h1>aaa: ${hk1}</h1>
       <div class="content__details">
         <div class="job row">
               <#list contentModel.section_o.item as module>
