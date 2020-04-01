@@ -38,9 +38,7 @@
                         <div class="carousel-inner">
                           <div class="carousel-item active">
                             <div class="row">
-                              <div class="content__img text--center col-sm-12 col-md-6 col-lg-6"><img class="img--full" src="${element.tabImage1_s}" alt="Content Image"/>
-                                <p class="text--italic text-white">${element.tabdes1_s}</p>
-                              </div>
+                            
                               <div class="content__img text--center col-sm-12 col-md-6 col-lg-6"><img class="img--full" src="${element.tabImage2_s}" alt="Content Image"/>
                                 <p class="text--italic text-white">${element.tabdes2_s}</p>
                               </div>
