@@ -55,10 +55,6 @@
                             </div>
                           </div>
                         </div>
-            <#else>
-                <div class="tab-pane fade" id="${element.tabId_s}" role="tabpanel">
-                     ${element.tabContent_html}
-                </div>
             </#if>
         </#list>
       </#if>
