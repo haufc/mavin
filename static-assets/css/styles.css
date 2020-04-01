@@ -6218,7 +6218,7 @@ h6 {
 }
 
 .nav-bar__link:hover, .nav-bar__link.active {
-  color: #CE181F;
+  color: #FFF;
 }
 
 .nav-bar__link:hover:after, .nav-bar__link.active:after {
