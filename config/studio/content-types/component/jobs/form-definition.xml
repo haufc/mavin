@@ -203,7 +203,7 @@
 						</property>
 						<property>
 							<name>repoPath</name>
-							<value>/site/website</value>
+							<value>/site/website/jobs</value>
 								<type>undefined</type>
 						</property>
 						<property>
