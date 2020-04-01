@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <page>
-	<savedAsDraft>true</savedAsDraft>
 	<content-type>/page/home</content-type>
 	<display-template>/templates/web/home.ftl</display-template>
 	<no-template-required/>
@@ -14,7 +13,6 @@
 	<sections_o item-list="true">	<item datasource="sections" inline="true">	<key>d76d6c64-9940-3a71-02d0-f0f856e0fe7b</key>
 	<value>LĨNH VỰC XÂY DỰNG</value>
 <component id="d76d6c64-9940-3a71-02d0-f0f856e0fe7b">
-	<savedAsDraft>true</savedAsDraft>
 	<content-type>/component/componentintroductcontenttype2</content-type>
 	<display-template>/templates/web/introduce2.ftl</display-template>
 	<no-template-required/>
@@ -26,15 +24,15 @@
 	<title_s>LĨNH VỰC XÂY DỰNG</title_s>
 	<tabItem_o item-list="true">	<item>	<tabTitle_s>LĨNH VỰC XÂY DỰNG</tabTitle_s>
 	<tabId_s>buildingfield</tabId_s>
-	<des1_s/>
-	<tabdes2_s/>
-	<tabdes3_s/>
-	<tabdes4_s/>
-	<tabImage1_s/>
-	<tabImage2_s/>
-	<tabImage3_s/>
-	<tabImage4_s/>
-	<tabActive_b>false</tabActive_b>
+	<des1_s>Dự án Nhà máy thức ăn chăn nuôi Mavin Austfeed </des1_s>
+	<tabdes2_s>Dự án Nhà máy thức ăn chăn nuôi Mavin Austfeed </tabdes2_s>
+	<tabdes3_s>Dự án Nhà máy thủy sản Mavin</tabdes3_s>
+	<tabdes4_s>Trại heo Nhơn Tân - Bình Định</tabdes4_s>
+	<tabImage1_s>/static-assets/images/featured/content_img_6.png</tabImage1_s>
+	<tabImage2_s>/static-assets/images/featured/content_img_7.png</tabImage2_s>
+	<tabImage3_s>/static-assets/images/featured/content_img_8.png</tabImage3_s>
+	<tabImage4_s>/static-assets/images/featured/content_img_9.png</tabImage4_s>
+	<tabActive_b>true</tabActive_b>
 	<tabContent_html>&lt;p class="text-white" style="box-sizing: border-box; margin: 0px 0px 0.75rem; padding: 0px; font-family: 'Baloo Chettan 2', 'Baloo 2', 'Bellota Text', Comfortaa, cursive, Montserrat, sans-serif; line-height: 1.5; font-size: 13px; background-color: #00559a; color: #ffffff !important;"&gt;Với thế mạnh trong lĩnh vực thi c&amp;ocirc;ng x&amp;acirc;y dựng, C&amp;ocirc;ng ty Cổ phần Mavinex đ&amp;atilde; v&amp;agrave; đang tạo niềm tin đối với kh&amp;aacute;ch h&amp;agrave;ng bằng việc x&amp;acirc;y dựng những c&amp;ocirc;ng tr&amp;igrave;nh chất lượng, quy m&amp;ocirc;, đạt đẳng cấp quốc tế.&lt;/p&gt;
 &lt;p class="text-white" style="box-sizing: border-box; margin: 0px 0px 0.75rem; padding: 0px; font-family: 'Baloo Chettan 2', 'Baloo 2', 'Bellota Text', Comfortaa, cursive, Montserrat, sans-serif; line-height: 1.5; font-size: 13px; background-color: #00559a; color: #ffffff !important;"&gt;Mavinex l&amp;agrave; tập thể c&amp;aacute;c kỹ sư, kiến tr&amp;uacute;c sư d&amp;agrave;y dặn kinh nghiệm v&amp;agrave; c&amp;aacute;c c&amp;ocirc;ng nh&amp;acirc;n l&amp;agrave;nh nghề lu&amp;ocirc;n đặt hết t&amp;acirc;m huyết v&amp;agrave;o trong từng c&amp;ocirc;ng tr&amp;igrave;nh x&amp;acirc;y dựng. Ch&amp;uacute;ng t&amp;ocirc;i cũng sở hữu c&amp;aacute;c trang thiết bị v&amp;agrave; m&amp;aacute;y m&amp;oacute;c tối t&amp;acirc;n để kiểm tra c&amp;aacute;c chi tiết kỹ thuật thi c&amp;ocirc;ng đảm bảo ti&amp;ecirc;u chuẩn chất lượng v&amp;agrave; t&amp;iacute;nh ch&amp;iacute;nh x&amp;aacute;c.&lt;/p&gt;
 &lt;h3 class="text--uppercase text-white" style="box-sizing: border-box; margin: 0px 0px 0.5rem; padding: 0px; font-family: 'Baloo Chettan 2', 'Baloo 2', 'Bellota Text', Comfortaa, cursive, Montserrat, sans-serif; font-weight: 500; line-height: 1.2; font-size: 1.75rem; text-transform: uppercase; background-color: #00559a; color: #ffffff !important;"&gt;MAVINEX CAM KẾT:&lt;/h3&gt;
@@ -46,14 +44,14 @@
 	</item></tabItem_o>
 	<createdDate>2020-04-01T06:05:19.648Z</createdDate>
 	<createdDate_dt>2020-04-01T06:05:19.648Z</createdDate_dt>
-	<lastModifiedDate>2020-04-01T06:05:19.648Z</lastModifiedDate>
-	<lastModifiedDate_dt>2020-04-01T06:05:19.648Z</lastModifiedDate_dt>
+	<lastModifiedDate>2020-04-01T06:07:33.237Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-04-01T06:07:33.237Z</lastModifiedDate_dt>
 </component>
 	</item></sections_o>
 	<internal-name>Năng lực kinh nghiệm</internal-name>
 	<title_s>Năng lực kinh nghiệm</title_s>
 	<createdDate>2020-04-01T06:04:57.636Z</createdDate>
 	<createdDate_dt>2020-04-01T06:04:57.636Z</createdDate_dt>
-	<lastModifiedDate>2020-04-01T06:04:57.636Z</lastModifiedDate>
-	<lastModifiedDate_dt>2020-04-01T06:04:57.636Z</lastModifiedDate_dt>
+	<lastModifiedDate>2020-04-01T06:07:30.012Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-04-01T06:07:30.012Z</lastModifiedDate_dt>
 </page>
