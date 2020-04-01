@@ -44,11 +44,10 @@
 	<title_s>NĂNG LỰC KINH NGHIỆM</title_s>
 	<tabItem_o item-list="true">	<item>	<tabTitle_s>LĨNH VỰC XÂY DỰNG</tabTitle_s>
 	<tabId_s>buildingSector</tabId_s>
-	<tabSection_o>		<item><key>/438ca13d-5382-6a40-1be8-40dddd733516.xml</key>
-<value>438ca13d-5382-6a40-1be8-40dddd733516.xml</value>
-<datasource>sectionDataSource</datasource>
-<include>/438ca13d-5382-6a40-1be8-40dddd733516.xml</include>
-<disableFlattening>false</disableFlattening>
+	<tabSection_o>		<item><key>3160932e-7d0a-cac4-cc85-0ffdde7097c3</key>
+<value>List Item</value>
+<datasource>section</datasource>
+<inline>true</inline>
 		</item></tabSection_o>
 	<tabActive_b>true</tabActive_b>
 	<tabContent_html>&lt;h3 class="text--uppercase text--center text-white" style="box-sizing: border-box; margin: 0px 0px 0.5rem; padding: 0px; font-family: 'Baloo Chettan 2', 'Baloo 2', 'Bellota Text', Comfortaa, cursive, Montserrat, sans-serif; font-weight: 500; line-height: 1.2; font-size: 1.75rem; text-align: center; text-transform: uppercase; background-color: #00559a; color: #ffffff !important;"&gt;LĨNH VỰC X&amp;Acirc;Y DỰNG&lt;/h3&gt;
@@ -63,12 +62,12 @@
 	</item></tabItem_o>
 	<createdDate>2020-04-01T03:11:44.809Z</createdDate>
 	<createdDate_dt>2020-04-01T03:11:44.809Z</createdDate_dt>
-	<lastModifiedDate>2020-04-01T05:16:59.104Z</lastModifiedDate>
-	<lastModifiedDate_dt>2020-04-01T05:16:59.104Z</lastModifiedDate_dt>
+	<lastModifiedDate>2020-04-01T05:28:22.576Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-04-01T05:28:22.576Z</lastModifiedDate_dt>
 </component>
 	</item></sections_o>
 	<createdDate>2020-03-31T03:55:45.637Z</createdDate>
 	<createdDate_dt>2020-03-31T03:55:45.637Z</createdDate_dt>
-	<lastModifiedDate>2020-04-01T05:16:53.982Z</lastModifiedDate>
-	<lastModifiedDate_dt>2020-04-01T05:16:53.982Z</lastModifiedDate_dt>
+	<lastModifiedDate>2020-04-01T05:28:19.740Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-04-01T05:28:19.740Z</lastModifiedDate_dt>
 </page>
