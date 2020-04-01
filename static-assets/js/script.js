@@ -1,3 +1,4 @@
-function myFunction() {
-    alert('Hello');
+function myFunction(tag) {
+    console.log('hautk');
+    console.log(tag);
 }
