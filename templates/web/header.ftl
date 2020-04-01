@@ -7,7 +7,7 @@
     </a>
     <div class="nav-bar__links" id="navLinks">
         <a class="nav-bar__link" href="/introduct">Giới thiệu</a>
-        <a class="nav-bar__link" href="about.html">Lĩnh vực hoạt động</a>
+        <a class="nav-bar__link" href="#activity">Lĩnh vực hoạt động</a>
         <a class="nav-bar__link" href="/experiment">Năng lực kinh nghiệm</a>
         <a class="nav-bar__link" href="jobs.html">Tuyển dụng</a>
         <a class="nav-bar__link" href="#contact">Liên hệ</a>
