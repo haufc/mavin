@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page>
+	<content-type>/page/home</content-type>
+	<display-template>/templates/web/home.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>783c</objectGroupId>
+	<objectId>783c28f9-bef0-6636-f0c7-256aa62d2079</objectId>
+	<file-name>index.xml</file-name>
+	<folder-name>all-jobs</folder-name>
+	<internal-name>Tuyển dụng</internal-name>
+	<title_s>Tuyên dụng</title_s>
+	<placeInNav>false</placeInNav>
+	<orderDefault_f>-1</orderDefault_f>
+	<sections_o item-list="true">	<item datasource="sections" inline="true">	<key>21ba8b21-e4f0-cf9a-6458-53c2cedeb25d</key>
+	<value>Tuyển dụng</value>
+<component id="21ba8b21-e4f0-cf9a-6458-53c2cedeb25d">
+	<content-type>/component/jobs</content-type>
+	<display-template>/templates/web/job.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>21ba</objectGroupId>
+	<objectId>21ba8b21-e4f0-cf9a-6458-53c2cedeb25d</objectId>
+	<file-name>21ba8b21-e4f0-cf9a-6458-53c2cedeb25d.xml</file-name>
+	<internal-name>Tuyển dụng</internal-name>
+	<title_s>Tuyển dụng</title_s>
+	<section_o item-list="true">	<item datasource="sections">	<key>/site/website/jobs/ky-su-cong-trinh/index.xml</key>
+	<value>Kỹ sư công trình</value>
+	<include>/site/website/jobs/ky-su-cong-trinh/index.xml</include>
+	<disableFlattening>false</disableFlattening>
+	</item></section_o>
+	<createdDate>2020-04-01T04:51:15.977Z</createdDate>
+	<createdDate_dt>2020-04-01T04:51:15.977Z</createdDate_dt>
+	<lastModifiedDate>2020-04-01T04:51:15.977Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-04-01T04:51:15.977Z</lastModifiedDate_dt>
+</component>
+	</item></sections_o>
+	<createdDate>2020-04-01T04:50:47.836Z</createdDate>
+	<createdDate_dt>2020-04-01T04:50:47.836Z</createdDate_dt>
+	<lastModifiedDate>2020-04-01T04:50:47.836Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-04-01T04:50:47.836Z</lastModifiedDate_dt>
+</page>
