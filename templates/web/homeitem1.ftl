@@ -15,7 +15,7 @@
                         <p>${element.content_t}<p>
                     </#list>
                 </#if>
-                <button class="content__btn btn rounded-0"> <span class="text-white mr-3">Xem thêm</span><i class="fas fa-arrow-right"></i></button>
+                <a href="/introduct" class="content__btn btn rounded-0"> <span class="text-white mr-3">Xem thêm</span><i class="fas fa-arrow-right"></i></a>
               </div>
             </div>
           </div>
