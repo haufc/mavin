@@ -2,11 +2,11 @@
 <div class="nav-bar" id="nav" <@studio.iceAttr component=contentModel/>>
   <div class="nav-bar__container">
     <input id="toggleMenu" type="checkbox" name="toggleMenu"/>
-    <a class="nav-bar__logo nav-bar-brand" href="home.html">
+    <a class="nav-bar__logo nav-bar-brand" href="/home">
        <img src="${contentModel.logo_s}" alt="Logo"/>
     </a>
     <div class="nav-bar__links" id="navLinks">
-        <a class="nav-bar__link" href="about.html">Giới thiệu</a>
+        <a class="nav-bar__link" href="/introduct">Giới thiệu</a>
         <a class="nav-bar__link" href="about.html">Lĩnh vực hoạt động</a>
         <a class="nav-bar__link" href="expertise.html">Năng lực kinh nghiệm</a>
         <a class="nav-bar__link" href="jobs.html">Tuyển dụng</a>
