@@ -33,9 +33,9 @@
             <#if element.tabActive_b == true>
                 <div class="tab-pane fade show active" id="${element.tabId_s}" role="tabpanel">
                      ${element.tabContent_html}
-                     <#list (contentModel.sections_o.item)![] as section>
-                    <@renderComponent parent=contentModel component=section />
-        </#list>
+                    <#list (contentModel.tabSections_o.item)![] as section>
+                        <@renderComponent parent=contentModel component=section />
+                    </#list>
                 </div>
             <#else>
                 <div class="tab-pane fade" id="${element.tabId_s}" role="tabpanel">
