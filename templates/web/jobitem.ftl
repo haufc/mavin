@@ -16,6 +16,9 @@
   <body>
     <@renderComponent component=contentModel.header_o.item />
     <div class="content">
+        <#list (contentModel.sections_o.item)![] as section>
+            <@renderComponent parent=contentModel component=section />
+        </#list>
     	<div class="recruitment">
             <div class="content__title text--center">
                 <h1 class="text--uppercase">${contentModel.title_s}</h1>
