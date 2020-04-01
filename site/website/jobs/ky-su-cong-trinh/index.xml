@@ -41,8 +41,27 @@ CBQL trực tiếp:Trưởng vùng
 	<orderDefault_f>-1</orderDefault_f>
 	<createdDate>2020-04-01T04:21:37.033Z</createdDate>
 	<createdDate_dt>2020-04-01T04:21:37.033Z</createdDate_dt>
-	<lastModifiedDate>2020-04-01T04:21:37.033Z</lastModifiedDate>
-	<lastModifiedDate_dt>2020-04-01T04:21:37.033Z</lastModifiedDate_dt>
+	<lastModifiedDate>2020-04-01T04:37:19.782Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-04-01T04:37:19.782Z</lastModifiedDate_dt>
 	<duration_dt>2020-04-01T04:00:00.000Z</duration_dt>
 	<duration_dt_tz>EST5EDT</duration_dt_tz>
+	<slide_o item-list="true">	<item datasource="slide" inline="true">	<key>d4a6cbbb-21c9-c756-a857-6ecbe61d32a0</key>
+	<value>Slide</value>
+<component id="d4a6cbbb-21c9-c756-a857-6ecbe61d32a0">
+	<content-type>/component/slide</content-type>
+	<display-template>/templates/web/slide.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>d4a6</objectGroupId>
+	<objectId>d4a6cbbb-21c9-c756-a857-6ecbe61d32a0</objectId>
+	<image_o item-list="true">	<item>	<image_s>/static-assets/images/slides/bg_4.png</image_s>
+	</item></image_o>
+	<internal-name>Slide</internal-name>
+	<file-name>d4a6cbbb-21c9-c756-a857-6ecbe61d32a0.xml</file-name>
+	<createdDate>2020-04-01T04:37:28.289Z</createdDate>
+	<createdDate_dt>2020-04-01T04:37:28.289Z</createdDate_dt>
+	<lastModifiedDate>2020-04-01T04:37:28.289Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-04-01T04:37:28.289Z</lastModifiedDate_dt>
+</component>
+	</item></slide_o>
 </page>
