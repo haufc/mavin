@@ -38,18 +38,18 @@
                         <div class="carousel-inner">
                           <div class="carousel-item active">
                             <div class="row">
-                              <div class="content__img text--center col-sm-12 col-md-6 col-lg-6"><img class="img--full" src="" alt="Content Image"/>
+                              <div class="content__img text--center col-sm-12 col-md-6 col-lg-6"><img class="img--full" src="${element.tabImage1_s}" alt="Content Image"/>
                                 <p class="text--italic text-white"></p>
                               </div>
-                              <div class="content__img text--center col-sm-12 col-md-6 col-lg-6"><img class="img--full" src="" alt="Content Image"/>
+                              <div class="content__img text--center col-sm-12 col-md-6 col-lg-6"><img class="img--full" src="${element.tabImage1_s}" alt="Content Image"/>
                                 <p class="text--italic text-white"></p>
                               </div>
                             </div>
                             <div class="row">
-                              <div class="content__img text--center col-sm-12 col-md-6 col-lg-6"><img class="img--full" src="" alt="Content Image"/>
+                              <div class="content__img text--center col-sm-12 col-md-6 col-lg-6"><img class="img--full" src="${element.tabImage1_s}" alt="Content Image"/>
                                 <p class="text--italic text-white"></p>
                               </div>
-                              <div class="content__img text--center col-sm-12 col-md-6 col-lg-6"><img class="img--full" src="" alt="Content Image"/>
+                              <div class="content__img text--center col-sm-12 col-md-6 col-lg-6"><img class="img--full" src="${element.tabImage1_s}" alt="Content Image"/>
                                 <p class="text--italic text-white"></p>
                               </div>
                             </div>
