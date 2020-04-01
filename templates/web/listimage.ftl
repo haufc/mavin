@@ -1,5 +1,5 @@
 <#import "/templates/system/common/cstudio-support.ftl" as studio />
-    <div class="content" <@studio.iceAttr component=contentModel/>> 
+<div class="content" <@studio.iceAttr component=contentModel/>>
        <h3 class="text--uppercase text-white mb-3">${contentModel.title_s}</h3>
         <div class="carousel slide" id="projects" data-ride="carousel">
             <div class="carousel-inner">
@@ -16,5 +16,5 @@
                 </div>
             <div>
         </div>
-    </div>
+</div>
 <@studio.toolSupport />
