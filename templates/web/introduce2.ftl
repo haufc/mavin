@@ -33,24 +33,23 @@
             <#if element.tabActive_b == true>
                 <div class="tab-pane fade show active" id="${element.tabId_s}" role="tabpanel">
                      ${element.tabContent_html}
-                     <h3 class="text--uppercase text-white mb-3">MỘT SỐ DỰ ÁN TIÊU BIỂU MAVINEX ĐÃ THỰC HIỆN </h3>
               <div class="carousel slide" id="projects" data-ride="carousel">
                 <div class="carousel-inner">
                   <div class="carousel-item active">
                     <div class="row">
                       <div class="content__img text--center col-sm-12 col-md-6 col-lg-6"><img class="img--full" src="${element.tabImage1_S}" alt="Content Image"/>
-                        <p class="text--italic text-white">Dự án Nhà máy thức ăn chăn nuôi Mavin Austfeed Nghệ An</p>
+                        <p class="text--italic text-white">${element.tabdes1}</p>
                       </div>
                       <div class="content__img text--center col-sm-12 col-md-6 col-lg-6"><img class="img--full" src="${element.tabImage2_S}" alt="Content Image"/>
-                        <p class="text--italic text-white">Dự án Nhà máy thức ăn chăn nuôi Mavin Austfeed Đồng Tháp</p>
+                        <p class="text--italic text-white">${element.tabdes2}</p>
                       </div>
                     </div>
                     <div class="row">
                       <div class="content__img text--center col-sm-12 col-md-6 col-lg-6"><img class="img--full" src="${element.tabImage3_S}" alt="Content Image"/>
-                        <p class="text--italic text-white">Dự án Nhà máy thủy sản Mavin</p>
+                        <p class="text--italic text-white">${element.tabdes3}</p>
                       </div>
                       <div class="content__img text--center col-sm-12 col-md-6 col-lg-6"><img class="img--full" src="${element.tabImage4_S}" alt="Content Image"/>
-                        <p class="text--italic text-white">Trại heo Nhơn Tân - Bình Định</p>
+                        <p class="text--italic text-white">${element.tabdes4}</p>
                       </div>
                     </div>
                   </div>
