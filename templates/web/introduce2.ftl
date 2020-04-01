@@ -28,8 +28,8 @@
         </div>
     </nav>
     <div class="tab-content">
-      <#if (contentModel.tabitem_o.item)??>
-        <#list contentModel.tabitem_o.item as element>
+      <#if (contentModel.tabItem_o.item)??>
+        <#list contentModel.tabItem_o.item as element>
             <#if element.tabActive_b == true>
                 <div class="tab-pane fade show active" id="${element.tabId_s}" role="tabpanel">
                      ${element.tabContent_html}
