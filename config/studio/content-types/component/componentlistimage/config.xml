@@ -1,6 +1,6 @@
-<content-type name="/component/componentintroductcontenttype2" is-wcm-type="true">
-	<label>Component - Introduct Content Has Image</label>
-	<form>/component/componentintroductcontenttype2</form>
+<content-type name="/component/componentlistimage" is-wcm-type="true">
+	<label>Component - List Image</label>
+	<form>/component/componentlistimage</form>
 	<form-path>simple</form-path>
 	<model-instance-path>NOT-USED-BY-SIMPLE-FORM-ENGINE</model-instance-path>
 	<file-extension>xml</file-extension>
