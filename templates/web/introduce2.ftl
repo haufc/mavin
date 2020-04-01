@@ -33,9 +33,6 @@
             <#if element.tabActive_b == true>
                 <div class="tab-pane fade show active" id="${element.tabId_s}" role="tabpanel">
                      ${element.tabContent_html}
-                    <#list contentModel.tabSection_o.item as section>
-                        <@renderComponent parent=contentModel component=section />
-                    </#list>
                     <#list element.tabSection_o.item as module>
                     	<@renderComponent component=module />
                     </#list>
