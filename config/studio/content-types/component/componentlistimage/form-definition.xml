@@ -188,7 +188,7 @@
 						</property>
 						<property>
 							<name>imageManager</name>
-							<value></value>
+							<value>imageDestopDataSource,imageRepoDataSource</value>
 							<type>datasource:image</type>
 						</property>
 						<property>
