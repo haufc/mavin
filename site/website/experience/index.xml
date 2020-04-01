@@ -10,7 +10,25 @@
 	<orderDefault_f>4000</orderDefault_f>
 	<file-name>index.xml</file-name>
 	<folder-name>experience</folder-name>
-	<sections_o item-list="true">	<item datasource="sections" inline="true">	<key>d76d6c64-9940-3a71-02d0-f0f856e0fe7b</key>
+	<sections_o item-list="true">	<item datasource="sections" inline="true">	<key>8741dc09-0083-1422-9ded-dcf8e6ecdbe2</key>
+	<value>gb1</value>
+<component id="8741dc09-0083-1422-9ded-dcf8e6ecdbe2">
+	<content-type>/component/slide</content-type>
+	<display-template>/templates/web/slide.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>8741</objectGroupId>
+	<objectId>8741dc09-0083-1422-9ded-dcf8e6ecdbe2</objectId>
+	<image_o item-list="true">	<item>	<image_s>/static-assets/images/slides/bg_3.png</image_s>
+	</item></image_o>
+	<file-name>8741dc09-0083-1422-9ded-dcf8e6ecdbe2.xml</file-name>
+	<internal-name>gb1</internal-name>
+	<createdDate>2020-04-01T06:10:12.314Z</createdDate>
+	<createdDate_dt>2020-04-01T06:10:12.314Z</createdDate_dt>
+	<lastModifiedDate>2020-04-01T06:10:12.314Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-04-01T06:10:12.314Z</lastModifiedDate_dt>
+</component>
+	</item>	<item datasource="sections" inline="true">	<key>d76d6c64-9940-3a71-02d0-f0f856e0fe7b</key>
 	<value>LĨNH VỰC XÂY DỰNG</value>
 <component id="d76d6c64-9940-3a71-02d0-f0f856e0fe7b">
 	<content-type>/component/componentintroductcontenttype2</content-type>
@@ -52,6 +70,6 @@
 	<title_s>Năng lực kinh nghiệm</title_s>
 	<createdDate>2020-04-01T06:04:57.636Z</createdDate>
 	<createdDate_dt>2020-04-01T06:04:57.636Z</createdDate_dt>
-	<lastModifiedDate>2020-04-01T06:07:30.012Z</lastModifiedDate>
-	<lastModifiedDate_dt>2020-04-01T06:07:30.012Z</lastModifiedDate_dt>
+	<lastModifiedDate>2020-04-01T06:10:07.684Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-04-01T06:10:07.684Z</lastModifiedDate_dt>
 </page>
