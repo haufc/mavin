@@ -6,8 +6,8 @@
   <div class="content__details container">
     <nav class="content__tab col-12">
       <div class="nav nav-tabs row mb-6" role="tablist">
-          <#if (contentModel.tabitem_o.item)??>
-            <#list contentModel.tabitem_o.item as element>
+          <#if (contentModel.tabItem_o.item)??>
+            <#list contentModel.tabItem_o.item as element>
                 <#if element.tabActive_b == true>
                     <a class="content__tab-link text--uppercase text--center nav-item nav-link col rounded-0 active" 
                         href="#${element.tabId_s}" 
@@ -28,8 +28,8 @@
         </div>
     </nav>
     <div class="tab-content">
-      <#if (contentModel.tabitem_o.item)??>
-        <#list contentModel.tabitem_o.item as element>
+      <#if (contentModel.tabItem_o.item)??>
+        <#list contentModel.tabItem_o.item as element>
             <#if element.tabActive_b == true>
                 <div class="tab-pane fade show active" id="${element.tabId_s}" role="tabpanel">
                      <h3 class="text--uppercase text-white mb-3">${element.tabContent_html} </h3>
