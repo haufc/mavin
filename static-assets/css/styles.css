@@ -6426,11 +6426,11 @@ h6 {
 }
 
 .content__tab-link.active {
-  color: red !important;
+  color: #CE2027 !important;
 }
 
 .content__tab-link:hover {
-  color: red !important;
+  color: #CE2027 !important;
   background: #fff;
 }
 
