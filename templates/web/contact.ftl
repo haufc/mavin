@@ -8,7 +8,7 @@
                 <div class="col-sm-12 col-md-6 col-lg-6">
                     <img src="${contentModel.image_s}" class="img--full" alt="">
                 </div>
-                <div class="col-sm-12 col-md-6 col-lg-6" style="font-size: 20px;">
+                <div class="col-sm-12 col-md-6 col-lg-6" style="font-size: 20px; padding: 10px;">
                       ${contentModel.content_html}
                 </div>
             </div>
