@@ -1,4 +1,6 @@
-function myFunction(tag) {
+function myFunction(elementID) {
     console.log('hautk');
-    console.log(tag);
+    var selector = '#' + elementID;
+    var element = $('#navLinks').find(selector);
+    console.log(element);
 }
