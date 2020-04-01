@@ -1,5 +1,5 @@
 <content-type name="/component/componentintroductcontenttype2" is-wcm-type="true">
-	<label>Component - Introduct Content Type 2</label>
+	<label>Component - Introduct Content Has Image</label>
 	<form>/component/componentintroductcontenttype2</form>
 	<form-path>simple</form-path>
 	<model-instance-path>NOT-USED-BY-SIMPLE-FORM-ENGINE</model-instance-path>
