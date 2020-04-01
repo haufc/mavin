@@ -20,7 +20,7 @@
                               </tr>
                             </table>
                           </div>
-                          <button class="job__item-btn btn btn-primary text--uppercase rounded-0">Xem thêm</button>
+                          <a href="/site/website/jobs/ky-su-cong-trinh" class="job__item-btn btn btn-primary text--uppercase rounded-0">Xem thêm</a>
                         </div>
                       </div>
               </#list>
