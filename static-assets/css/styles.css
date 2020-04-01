@@ -6217,11 +6217,11 @@ h6 {
   transition: 0.5s cubic-bezier(0.7, -0.55, 0.265, 1.55) all;
 }
 
-.nav-bar__link:hover {
+.nav-bar__link:hover, .nav-bar__link.active {
   color: #fff;
 }
 
-.nav-bar__link:hover:after {
+.nav-bar__link:hover:after, .nav-bar__link.active:after {
   width: 100%;
 }
 
@@ -6426,11 +6426,11 @@ h6 {
 }
 
 .content__tab-link.active {
-  color: #00559a !important;
+  color: red !important;
 }
 
 .content__tab-link:hover {
-  color: #00559a !important;
+  color: red !important;
   background: #fff;
 }
 
