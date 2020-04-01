@@ -32,7 +32,7 @@
         <#list contentModel.tabitem_o.item as element>
             <#if element.tabActive_b == true>
                 <div class="tab-pane fade show active" id="${element.tabId_s}" role="tabpanel">
-                     ${element.tabContent_html}
+                     <h3 class="text--uppercase text-white mb-3">${element.tabContent_html} </h3>
                       <div class="carousel slide" id="projects" data-ride="carousel">
                         <div class="carousel-inner">
                           <div class="carousel-item active">
