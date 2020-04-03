@@ -289,7 +289,7 @@
 						</property>
 						<property>
 							<name>repoPath</name>
-							<value>/site/scripts</value>
+							<value> /scripts/components/</value>
 								<type>undefined</type>
 						</property>
 						<property>
