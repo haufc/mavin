@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <page>
+	<savedAsDraft>true</savedAsDraft>
 	<content-type>/page/home</content-type>
 	<display-template>/templates/web/home.ftl</display-template>
 	<no-template-required/>
@@ -33,6 +34,7 @@
 	</item>	<item datasource="sections" inline="true">	<key>21ba8b21-e4f0-cf9a-6458-53c2cedeb25d</key>
 	<value>Tuyển dụng</value>
 <component id="21ba8b21-e4f0-cf9a-6458-53c2cedeb25d">
+	<savedAsDraft>true</savedAsDraft>
 	<content-type>/component/jobs</content-type>
 	<display-template>/templates/web/job.ftl</display-template>
 	<no-template-required/>
@@ -49,12 +51,13 @@
 	</item></section_o>
 	<createdDate>2020-04-01T04:51:15.977Z</createdDate>
 	<createdDate_dt>2020-04-01T04:51:15.977Z</createdDate_dt>
-	<lastModifiedDate>2020-04-01T04:51:15.977Z</lastModifiedDate>
-	<lastModifiedDate_dt>2020-04-01T04:51:15.977Z</lastModifiedDate_dt>
+	<lastModifiedDate>2020-04-03T03:47:48.852Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-04-03T03:47:48.852Z</lastModifiedDate_dt>
+	<controllers_o item-list="true"/>
 </component>
 	</item></sections_o>
 	<createdDate>2020-04-01T04:50:47.836Z</createdDate>
 	<createdDate_dt>2020-04-01T04:50:47.836Z</createdDate_dt>
-	<lastModifiedDate>2020-04-01T04:55:15.984Z</lastModifiedDate>
-	<lastModifiedDate_dt>2020-04-01T04:55:15.984Z</lastModifiedDate_dt>
+	<lastModifiedDate>2020-04-03T03:47:44.415Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-04-03T03:47:44.415Z</lastModifiedDate_dt>
 </page>
