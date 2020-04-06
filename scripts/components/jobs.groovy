@@ -5,7 +5,7 @@ import org.elasticsearch.action.search.SearchRequest
 import org.elasticsearch.index.query.QueryBuilders
 import org.elasticsearch.search.builder.SearchSourceBuilder
 
-def queryStatement = 'content-type:"/component/header"'
+def queryStatement = 'content-type:"/page/jobpage"'
 
 // Use the appropriate builders according to your query
 def builder = new SearchSourceBuilder()
