@@ -11,12 +11,12 @@
                               <h3 class="job__item-title text--center">${job.title}</h3></a>
                             <table class="job__item-desc">
                               <tr>
-                                <td>Hình thức </td>
+                                <td>Hình thức: </td>
                                 <td>${job.type}</td>
                               </tr>
                               <tr>
-                                <td>Thời hạn</td>
-                                <td>${job.duration}</td>
+                                <td>Thời hạn:</td>
+                                <td>${job.duration?date}</td>
                               </tr>
                             </table>
                           </div>
