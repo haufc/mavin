@@ -5,7 +5,7 @@ import org.elasticsearch.action.search.SearchRequest
 import org.elasticsearch.index.query.QueryBuilders
 import org.elasticsearch.search.builder.SearchSourceBuilder
 
-def queryStatement = 'content-type:"/page/jobpage"'
+def queryStatement = 'content-type:\"/page/jobpage\"'
 
 // Use the appropriate builders according to your query
 def builder = new SearchSourceBuilder()
@@ -18,9 +18,9 @@ def itemsFound = executedQuery.hits.totalHits
 def items = executedQuery.hits.hits
 print "My demo"
 def demo = executedQuery.hits.hits*.getSourceAsMap().collect { doc ->
-                      print doc
+                      print doc["title_s"]
               }
-print "My list job : "
+// print "My list job : "
 //print items
 // items.each { item ->
 //             print item
