@@ -20,7 +20,7 @@ print "My list job"
 print items
 
 def topNavItems = [:]
-def siteDir = siteItemService.getSiteTree("/site/website/jobs", 2)
+def siteDir = siteItemService.getSiteTree("/site/website", 3)
 
 if(siteDir) {
     def dirs = siteDir.childItems
