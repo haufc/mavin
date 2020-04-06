@@ -16,5 +16,5 @@ def executedQuery = elasticsearch.search(new SearchRequest().source(builder))
 
 def itemsFound = executedQuery.hits.totalHits
 def items = executedQuery.hits.hits
-
+print itemsFound 
 print items
