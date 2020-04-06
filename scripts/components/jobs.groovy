@@ -16,8 +16,12 @@ def executedQuery = elasticsearch.search(new SearchRequest().source(builder))
 
 def itemsFound = executedQuery.hits.totalHits
 def items = executedQuery.hits.hits
+print "My demo"
+def demo = executedQuery.hits.hits*.getSourceAsMap().collect { doc ->
+                      print doc
+              }
 print "My list job : "
-print items
+//print items
 // items.each { item ->
 //             print item
 //   }
