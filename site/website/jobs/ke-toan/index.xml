@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page>
+	<content-type>/page/jobpage</content-type>
+	<display-template>/templates/web/jobitem.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>1758</objectGroupId>
+	<objectId>1758f874-90fa-15ab-8aa6-8d1188803b75</objectId>
+	<item_o item-list="true">	<item>	<content_t>aaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaa</content_t>
+	<title_s>Tổng quát</title_s>
+	</item>	<item>	<title_s>Mô tả</title_s>
+	<content_t>aaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaa</content_t>
+	</item>	<item>	<title_s>Yêu cầu </title_s>
+	<content_t>aaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaa</content_t>
+	</item></item_o>
+	<image_s>/static-assets/images/featured/content_img_10.png</image_s>
+	<placeInNav>true</placeInNav>
+	<orderDefault_f>2000</orderDefault_f>
+	<internal-name>Kế toán</internal-name>
+	<title_s>Kế toán</title_s>
+	<type_s>fulltime</type_s>
+	<slide_o item-list="true">	<item datasource="slide" inline="true">	<key>ed85a110-dd8f-f7ba-c832-61689aae9a5e</key>
+	<value>Slide</value>
+<component id="ed85a110-dd8f-f7ba-c832-61689aae9a5e">
+	<content-type>/component/slide</content-type>
+	<display-template>/templates/web/slide.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>ed85</objectGroupId>
+	<objectId>ed85a110-dd8f-f7ba-c832-61689aae9a5e</objectId>
+	<image_o item-list="true">	<item>	<image_s>/static-assets/images/slides/bg_2.png</image_s>
+	</item></image_o>
+	<internal-name>Slide</internal-name>
+	<file-name>ed85a110-dd8f-f7ba-c832-61689aae9a5e.xml</file-name>
+	<createdDate>2020-04-06T06:46:55.011Z</createdDate>
+	<createdDate_dt>2020-04-06T06:46:55.011Z</createdDate_dt>
+	<lastModifiedDate>2020-04-06T06:46:55.011Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-04-06T06:46:55.011Z</lastModifiedDate_dt>
+</component>
+	</item></slide_o>
+	<file-name>index.xml</file-name>
+	<folder-name>ke-toan</folder-name>
+	<createdDate>2020-04-06T06:46:05.171Z</createdDate>
+	<createdDate_dt>2020-04-06T06:46:05.171Z</createdDate_dt>
+	<lastModifiedDate>2020-04-06T06:46:05.171Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-04-06T06:46:05.171Z</lastModifiedDate_dt>
+	<duration_dt>2020-04-06T04:00:00.000Z</duration_dt>
+	<duration_dt_tz>EST5EDT</duration_dt_tz>
+</page>
