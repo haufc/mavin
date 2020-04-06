@@ -17,7 +17,7 @@ def executedQuery = elasticsearch.search(new SearchRequest().source(builder))
 def itemsFound = executedQuery.hits.totalHits
 def items = executedQuery.hits.hits
 print "My list job 1"
-print items[0]
+print items.image_s
 // items.each { item ->
 //             print item
 //   }
