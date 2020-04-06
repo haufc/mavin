@@ -13,15 +13,15 @@ def builder = new SearchSourceBuilder()
 
 // Execute the query
 def executedQuery = elasticsearch.search(new SearchRequest().source(builder))
-print "Exv=cute query"
-print executedQuery
+
 def itemsFound = executedQuery.hits.totalHits
 def items = executedQuery.hits.hits
 print "My list job 1"
-print items
+//print items
 // items.each { item ->
 //             print item
 //   }
+print itemsFound
 def topNavItems = [:]
 def siteDir = siteItemService.getSiteTree("/site/website", 4)
 
