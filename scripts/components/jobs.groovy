@@ -16,12 +16,12 @@ def executedQuery = elasticsearch.search(new SearchRequest().source(builder))
 
 def itemsFound = executedQuery.hits.totalHits
 def items = executedQuery.hits.hits
-print "My list job 1: "
-//print items
+print "My list job : "
+print items
 // items.each { item ->
 //             print item
 //   }
-print itemsFound
+//print itemsFound
 def topNavItems = [:]
 def siteDir = siteItemService.getSiteTree("/site/website", 4)
 
