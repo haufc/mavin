@@ -13,7 +13,8 @@ def builder = new SearchSourceBuilder()
 
 // Execute the query
 def executedQuery = elasticsearch.search(new SearchRequest().source(builder))
-
+print "Exv=cute query"
+print executedQuery
 def itemsFound = executedQuery.hits.totalHits
 def items = executedQuery.hits.hits
 print "My list job 1"
@@ -35,5 +36,5 @@ if(siteDir) {
             }
    }
 }
-print "Search with dir name"
-print topNavItems
+//print "Search with dir name"
+//print topNavItems
