@@ -53,6 +53,6 @@ def searchHelper = new JobSearchHelper(elasticsearch, urlTransformationService)
 def jobs = searchHelper.searchJobs(null)
 print "This's demo Search Helper"
 print jobs
-
+templateModel.jobs = jobs
 // =============================================================================================================
 
