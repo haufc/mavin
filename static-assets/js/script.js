@@ -11,3 +11,7 @@ $(document).ready(function() {
         return this.href == url;
     }).addClass('active');
 });
+
+function search() {
+    console.log('demo');
+}
