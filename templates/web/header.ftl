@@ -25,7 +25,7 @@
         <div class="input-group">
           <input class="form-control rounded-0" type="text"/>
           <div class="input-group-prepend">
-            <button class="btn btn-info rounded-0"><i class="fas fa-search"></i></button>
+            <button class="btn btn-info rounded-0" onclick="search()"><i class="fas fa-search"></i></button>
             <button class="btn btn-danger" onclick="closeSearch()"><i class="fas fa-times"></i></button>
           </div>
         </div>
