@@ -14,4 +14,5 @@ $(document).ready(function() {
 
 function search() {
     console.log('demo');
+    $('.content').css("display", "none");
 }
