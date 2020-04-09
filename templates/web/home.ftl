@@ -24,7 +24,7 @@
     </div>
     <div class="search-result" style="display: none ">
         <div class="caption-search">
-            <span>Kết quả tìm kiếm: </span>Tìm được <b>0 kết quả</b> với từ khóa <b>"Hòa Bình"</b>
+            <span>Kết quả tìm kiếm: </span>Tìm được <b id="total-search">0 kết quả</b> với từ khóa <b id="term-search">"Hòa Bình"</b>
         </div>
     <div>
     <@renderComponent component=contentModel.memberlist_o.item />
