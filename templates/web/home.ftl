@@ -22,6 +22,11 @@
         </#list>
         
     </div>
+    <div class="search-result" style="display: none ">
+        <div class="caption-search">
+            <span>Kết quả tìm kiếm: </span>Tìm được <b>0 kết quả</b> với từ khóa <b>"Hòa Bình"</b>
+        </div>
+    <div>
     <@renderComponent component=contentModel.memberlist_o.item />
     <@renderComponent component=contentModel.footer_o.item />
     <script src="/static-assets/plugins/jquery341/jquery(3.4.1.).js"></script>
