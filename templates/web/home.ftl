@@ -22,7 +22,7 @@
         </#list>
         
     </div>
-    <div class="search-result" style="display: none ">
+    <div class="search-result">
          <div class="content__title text--center">
           <h1 class="text--uppercase">${contentModel.title_s}</h1>
         </div>
