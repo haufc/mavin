@@ -10,11 +10,10 @@ $(document).ready(function() {
     $('#navLinks a').filter(function() {
         return this.href == url;
     }).addClass('active');
-    
-    function search() {
+});
+
+function search() {
         console.log('demo');
         $('.content').css("display", "none");
         console.log($('#txtSearch').val());
     }
-});
-
