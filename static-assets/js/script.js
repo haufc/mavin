@@ -23,6 +23,10 @@ function search() {
             url:urlService,
             success: function(resp){
                 console.log(resp);
+                let total = resp[0].length + resp[1].length;
+                $('search-result').css("display", "block");
+                $('#total-search').text(total);
+                $('#term-search').text(userTerm);
             }
         });
     $('.nav-bar__search').css("display", "none");
