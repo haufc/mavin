@@ -25,4 +25,5 @@ function search() {
                 console.log(resp);
             }
         });
-    }
+    $('.nav-bar__search').css("display", "none");
+}
