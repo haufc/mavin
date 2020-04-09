@@ -1,4 +1,4 @@
 println "This is param :"
-println params
+println params.q
 
 return "Hautk"
