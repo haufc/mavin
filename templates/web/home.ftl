@@ -24,7 +24,7 @@
     </div>
     <div class="search-result">
          <div class="content__title text--center">
-          <h1 class="text--uppercase">${contentModel.title_s}</h1>
+          <h1 class="text--uppercase">Kết quả tìm kiếm</h1>
         </div>
         <div class="caption-search">
             <span>Kết quả tìm kiếm: </span>Tìm được <b id="total-search">0 kết quả</b> với từ khóa <b id="term-search">"Hòa Bình"</b>
