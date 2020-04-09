@@ -9,4 +9,4 @@ def homes = searchHelper.searchHomes(params.q)
 println  jobs
 println "This his home: "
 println homes
-return jobs
+return [jobs, homes]
