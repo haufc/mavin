@@ -15,5 +15,14 @@ $(document).ready(function() {
 function search() {
         console.log('demo');
         $('.content').css("display", "none");
-        console.log($('#txtSearch').val());
+        let userTerm = $('#txtSearch').val()
+        console.log(userTerm);
+        var urlService = "http://localhost:8080/api/search.json"
+        $.ajax({
+            type: "GET",
+            url:urlService,
+            success: function(resp){
+                console.log(resp);
+            }
+        });
     }
