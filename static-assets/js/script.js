@@ -6,6 +6,7 @@
 //     $(element).addClass('active');
 // }
 $(document).ready(function() {
+    $('search-result').css("display", "none");
     var url = window.location;
     $('#navLinks a').filter(function() {
         return this.href == url;
