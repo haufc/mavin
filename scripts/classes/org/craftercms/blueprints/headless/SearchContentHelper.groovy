@@ -10,9 +10,10 @@ import org.elasticsearch.search.sort.SortOrder
 
 class SearchContentHelper {
     static final String JOB_CONTENT_TYPE_QUERY = "content-type:\"/page/jobpage\""
-    static final String HOME_CONTENT_TYPE_QUERY = "content-type:\"/page/jobpage\""
+    static final String HOME_CONTENT_TYPE_QUERY = "content-type:\"/page/home\""
    
     static final String[] JOB_HIGHLIGHT_FIELDS = ["title_s", "item_o.item.content_t"]
+    static final String[] HOME_HIGHLIGHT_FIELDS = ["title_s", "descripttion_t"]
     
     static final int DEFAULT_START = 0
     static final int DEFAULT_ROWS = 10
@@ -52,13 +53,13 @@ class SearchContentHelper {
         def result = elasticsearch.search(new SearchRequest().source(builder))
         
         if (result) {
-          return processUserSearchResults(result)
+          return processUserSearchJobResults(result)
         } else {
           return []
         }
     }
     
-    def processUserSearchResults(result) {
+    def processUserSearchJobResults(result) {
         def jobs = []
         def hits = result.hits.hits
         
@@ -92,5 +93,67 @@ class SearchContentHelper {
         return jobs
     }
     
+    def searchHomes(String userTerm , start = DEFAULT_START, rows = DEFAULT_ROWS) {
+        def q = "${homeContentQuery}"
+        
+        if (userTerm) {
+            if(!userTerm.contains(" ")) {
+                userTerm = "${userTerm}~1 OR *${userTerm}*"
+            }
+            
+            def userTermQuery = "(title_s:(${userTerm}) OR descripttion_t:(${userTerm}))"
+            q = "${q} AND ${userTermQuery}"
+        }
+        
+        def highlighter = SearchSourceBuilder.highlight()
+        HOME_HIGHLIGHT_FIELDS.each{ field -> highlighter.field(field) }
+        
+        def builder = new SearchSourceBuilder()
+          .query(QueryBuilders.queryStringQuery(q))
+          .from(start)
+          .size(rows)
+          .highlighter(highlighter)
+          
+        def result = elasticsearch.search(new SearchRequest().source(builder))
+        
+        if (result) {
+          return processUserSearchHomeResults(result)
+        } else {
+          return []
+        }
+        
+    }
+    
+    def processUserSearchHomeResults(result) {
+        def homes = []
+        def hits = result.hits.hits
+        
+        if (hits) {
+            hits.each {hit -> 
+                def doc = hit.getSourceAsMap()
+                def home = [:]
+                    home.title = doc.title_s
+                    home.desc = doc.descripttion_t
+                    home.url = urlTransformationService.transform("storeUrlToRenderUrl", doc.localId)
+                
+                if (hit.highlightFields) {
+                    def homeHighlights = hit.highlightFields.values()*.getFragments().flatten()*.string()
+                    if (homeHighlights) {
+                         def highlightValues = []
+                         
+                         homeHighlights.each {value -> 
+                             highlightValues << value
+                         }
+                         
+                         home.highlight = StringUtils.join(highlightValues, "... ")
+                         home.highlight = StringUtils.strip(home.highlight)
+                    }
+                }
+                homes << home
+            }
+        }
+        
+        return homes
+    }
 
 }
