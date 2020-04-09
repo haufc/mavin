@@ -97,7 +97,6 @@
 						{
 							label: 'Posts',
 							labelField: 'title',
-							listUrl: '/api/1/post/list.json'
 						}
 					],
 					selectedType: null,
@@ -123,7 +122,7 @@
 					}
 				}
 			});
-			console.log("==>",listUrl);
+			console.log(type.listUrl);
 		</script>
 		<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
