@@ -29,69 +29,69 @@ class SearchContentHelper {
         this.urlTransformationService = urlTransformationService
     }
     
-    // def searchJobs(String userTerm, start = DEFAULT_START, rows = DEFAULT_ROWS) {
-    //     def q = "${jobContentQuery}"
+    def searchJobs(String userTerm, start = DEFAULT_START, rows = DEFAULT_ROWS) {
+        def q = "${jobContentQuery}"
         
-    //     if (userTerm) {
-    //         if(!userTerm.contains(" ")) {
-    //             userTerm = "${userTerm}~1 OR *${userTerm}*"
-    //         }
+        if (userTerm) {
+            if(!userTerm.contains(" ")) {
+                userTerm = "${userTerm}~1 OR *${userTerm}*"
+            }
             
-    //         def userTermQuery = "(title_s:(${userTerm}) OR item_o.item.content_t:(${userTerm}))"
-    //         q = "${q} AND ${userTermQuery}"
-    //     }
+            def userTermQuery = "(title_s:(${userTerm}) OR item_o.item.content_t:(${userTerm}))"
+            q = "${q} AND ${userTermQuery}"
+        }
         
-    //     def highlighter = SearchSourceBuilder.highlight()
-    //     JOB_HIGHLIGHT_FIELDS.each{ field -> highlighter.field(field) }
+        def highlighter = SearchSourceBuilder.highlight()
+        JOB_HIGHLIGHT_FIELDS.each{ field -> highlighter.field(field) }
         
-    //     def builder = new SearchSourceBuilder()
-    //       .query(QueryBuilders.queryStringQuery(q))
-    //       .from(start)
-    //       .size(rows)
-    //       .highlighter(highlighter)
+        def builder = new SearchSourceBuilder()
+          .query(QueryBuilders.queryStringQuery(q))
+          .from(start)
+          .size(rows)
+          .highlighter(highlighter)
           
-    //     def result = elasticsearch.search(new SearchRequest().source(builder))
+        def result = elasticsearch.search(new SearchRequest().source(builder))
         
-    //     if (result) {
-    //       return processUserSearchJobResults(result)
-    //     } else {
-    //       return []
-    //     }
-    // }
+        if (result) {
+          return processUserSearchJobResults(result)
+        } else {
+          return []
+        }
+    }
     
-    // def processUserSearchJobResults(result) {
-    //     def jobs = []
-    //     def hits = result.hits.hits
+    def processUserSearchJobResults(result) {
+        def jobs = []
+        def hits = result.hits.hits
         
-    //     if (hits) {
-    //         hits.each {hit -> 
-    //             def doc = hit.getSourceAsMap()
-    //             def job = [:]
-    //                 job.title = doc.title_s
-    //                 job.type = doc.type_s
-    //                 job.duration = doc.duration_dt
-    //                 job.url = urlTransformationService.transform("storeUrlToRenderUrl", doc.localId)
-    //                 job.image = doc.image_s
+        if (hits) {
+            hits.each {hit -> 
+                def doc = hit.getSourceAsMap()
+                def job = [:]
+                    job.title = doc.title_s
+                    job.type = doc.type_s
+                    job.duration = doc.duration_dt
+                    job.url = urlTransformationService.transform("storeUrlToRenderUrl", doc.localId)
+                    job.image = doc.image_s
                 
-    //             if (hit.highlightFields) {
-    //                 def jobHighlights = hit.highlightFields.values()*.getFragments().flatten()*.string()
-    //                 if (jobHighlights) {
-    //                      def highlightValues = []
+                if (hit.highlightFields) {
+                    def jobHighlights = hit.highlightFields.values()*.getFragments().flatten()*.string()
+                    if (jobHighlights) {
+                         def highlightValues = []
                          
-    //                      jobHighlights.each {value -> 
-    //                          highlightValues << value
-    //                      }
+                         jobHighlights.each {value -> 
+                             highlightValues << value
+                         }
                          
-    //                      job.highlight = StringUtils.join(highlightValues, "... ")
-    //                      job.highlight = StringUtils.strip(job.highlight)
-    //                 }
-    //             }
-    //             jobs << job
-    //         }
-    //     }
+                         job.highlight = StringUtils.join(highlightValues, "... ")
+                         job.highlight = StringUtils.strip(job.highlight)
+                    }
+                }
+                jobs << job
+            }
+        }
         
-    //     return jobs
-    // }
+        return jobs
+    }
     
     def searchHomes(String userTerm , start = DEFAULT_START, rows = DEFAULT_ROWS) {
         def q = "${homeContentQuery}"
