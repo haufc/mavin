@@ -7,4 +7,4 @@ def searchHelper = new SearchContentHelper(elasticsearch, urlTransformationServi
 def jobs = searchHelper.searchJobs(params.q)
 
 println  jobs
-return "Hautk"
+return jobs
