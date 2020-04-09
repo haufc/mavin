@@ -101,7 +101,7 @@ class SearchContentHelper {
                 userTerm = "${userTerm}~1 OR *${userTerm}*"
             }
             
-            def userTermQuery = "(title_s:(${userTerm}) OR descripttion_t:(${userTerm}))"
+            def userTermQuery = "(title_s:(${userTerm}))"
             q = "${q} AND ${userTermQuery}"
         }
         
