@@ -21,7 +21,7 @@
         }
         
         .image__search img {
-                width: 100% !important;
+                width: 30% !important;
                 height: auto;
         }
         
