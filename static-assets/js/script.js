@@ -29,6 +29,14 @@ function search() {
                 $('.search-result').css("display", "block");
                 $('#total-search').text(total);
                 $('#term-search').text(userTerm);
+                
+                var source = $("#search-results-template").html();
+                var template = Handlebars.compile(source);
+                var context = { results: resp };
+                
+                var html = template(context);
+                
+                $('.search-result').html(html);
             }
         });
     $('.nav-bar__search').css("display", "none");
