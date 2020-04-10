@@ -26,8 +26,8 @@
          <div class="content__title text--center">
           <h1 class="text--uppercase">Kết quả tìm kiếm</h1>
         </div>
-        <div class="caption-search">
-            <span>Kết quả tìm kiếm: </span>Tìm được <b id="total-search">0 kết quả</b> với từ khóa <b id="term-search">"Hòa Bình"</b>
+        <div class="caption-search" style="font-size: 16px;">
+            <span style="color : rgb(206,23,30)">Kết quả tìm kiếm: </span>Tìm được <b id="total-search">0 kết quả</b> với từ khóa <b id="term-search">"Hòa Bình"</b>
         </div>
         
         <!--<div class="separator">Danh sách kết quả tìm kiếm</div>-->
