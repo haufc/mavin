@@ -21,7 +21,7 @@
         }
         
         .image__search img {
-                width: 30% !important;
+                width: 50% !important;
                 height: auto;
         }
         
@@ -55,10 +55,11 @@
 	<script id="search-results-template" type="text/x-handlebars-template">
 		{{#each results}}
 		<div class="row">
-		    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+		    <div class="">
+		        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
 		        <div class="image__search">
 		            {{#if image}}
-    		            <img src="{{image}}" style="width: 20%; float:left;"/>
+    		            <img src="{{image}}"/>
     			    {{/if}}
 		        </div>
 		        <div class="title__search">
@@ -69,6 +70,7 @@
         		        <p class="limit-text-250">{{{highlight}}}</p>
         			{{/if}}
 		        </div>
+		    </div>
 		    </div>
 		</div>
 		{{else}}
