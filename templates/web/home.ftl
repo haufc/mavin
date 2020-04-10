@@ -22,7 +22,7 @@
         </#list>
         
     </div>
-    <div class="search-result">
+    <div class="search-result container-fluid">
          <div class="content__title text--center">
           <h1 class="text--uppercase">Kết quả tìm kiếm</h1>
         </div>
@@ -32,7 +32,7 @@
         
         <h3>Danh sách kết quả tìm kiếm</h3>
         <hr width="90%">
-        <div class="search-result__list">
+        <div class="search-result__list col-sm-12 col-md-8 col-lg-8">
         </div>
     <div>
     
