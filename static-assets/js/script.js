@@ -40,11 +40,15 @@ function search() {
                 
                 $('.search-result__list').html(html);
                 
+                // --- limit desc search --
                 var lent = $(".limit-text-250").html().length;
                 if (lent > 200) {
                   short_text = $(".limit-text-250").html().substr(0, 200);
                   $(".limit-text-250").html(short_text + "...");
                 }
+                
+                // --- style for em--
+                $(".limit-text-250 em").css("font-weight","bold");
             }
         });
     $('.nav-bar__search').css("display", "none");
