@@ -43,7 +43,7 @@
 		    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 row">
 		        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12" style="padding: 0">
 		            {{#if image}}
-    		            <img src="{{image}}"/>
+    		            <img src="{{image}}" width="100%"/>
     			    {{/if}}
 		        </div>
 		        <div class="title__search col-lg-6 col-md-6 col-sm-6 col-xs-12">
