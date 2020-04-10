@@ -9,16 +9,15 @@ $(document).ready(function() {
     $('.search-result').css("display", "none");
     var url = window.location;
     
-    
     $('#navLinks a').filter(function() {
         return this.href == url;
     }).addClass('active');
-    console.log(getContextPath());
 });
 
 function getContextPath() {
    return  window.location.protocol + "//" + window.location.host
 }
+
 function search() {
         console.log('demo');
         $('.content__item').css("display", "none");
