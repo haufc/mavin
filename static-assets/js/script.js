@@ -16,7 +16,7 @@ $(document).ready(function() {
     
     // -- limit text search --
     var txt = $('.limit-text-250').text();
-    console.log(txt.length);
+    console.log("aaaaaa", txt);
     
 });
 
