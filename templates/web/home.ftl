@@ -41,6 +41,9 @@
 		{{#each results}}
 		<div>
 			<h4><a href="{{url}}">{{title}}</a></h4>
+			{{#if image}}
+			    <img src="{{image}}" style="width: 200px"/>
+			{{/if}}
 			{{#if highlight}}
 			<p>{{{highlight}}}</p>
 			{{/if}}
