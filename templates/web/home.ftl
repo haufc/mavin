@@ -40,7 +40,7 @@
 	<script id="search-results-template" type="text/x-handlebars-template">
 		{{#each results}}
 		<div class="row">
-			<h4><a href="{{url}}">{{title}}</a></h4>
+			<h4 class="col-sm-12 col-md-12 col-lg-12"><a href="{{url}}">{{title}}</a></h4>
 			{{#if image}}
 			    <div class="col-sm-12 col-md-6 col-lg-6">
 			        <img src="{{image}}" class ="img--full"/>
