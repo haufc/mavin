@@ -39,13 +39,17 @@
     <!-- Handlebar Templates -->
 	<script id="search-results-template" type="text/x-handlebars-template">
 		{{#each results}}
-		<div>
+		<div class="row">
 			<h4><a href="{{url}}">{{title}}</a></h4>
 			{{#if image}}
-			    <img src="{{image}}" style="width: 200px"/>
+			    <div class="col-sm-12 col-md-6 col-lg-6">
+			        <img src="{{image}}" class ="img--full"/>
+			    </div>
 			{{/if}}
 			{{#if highlight}}
-			<p>{{{highlight}}}</p>
+			    <div class="col-sm-12 col-md-6 col-lg-6">
+			        <p>{{{highlight}}}</p>
+			     </div> 
 			{{/if}}
 		</div>
 		{{else}}
