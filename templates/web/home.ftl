@@ -54,7 +54,7 @@
     			{{/if}}
 		        <a href="{{url}}"><h4>{{title}}</h4></a>
 		        {{#if highlight}}
-    		        <p class="limit-text">{{{highlight}}}</p>
+    		        <p class="limit-text-250">{{{highlight}}}</p>
     			{{/if}}
 		    </div>
 		</div>
