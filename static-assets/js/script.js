@@ -13,11 +13,6 @@ $(document).ready(function() {
     $('#navLinks a').filter(function() {
         return this.href == url;
     }).addClass('active');
-    
-    // -- limit text search --
-    var txt = $('.limit-text-250').text();
-    console.log("aaaaaa", txt);
-    
 });
 
 function search() {
@@ -44,6 +39,12 @@ function search() {
                 var html = template(context);
                 
                 $('.search-result__list').html(html);
+                
+                var lent = $(".limit-text-250").html().length;
+                if (lent > 200) {
+                  short_text = $(".limit-text-250").html().substr(0, 200);
+                  $(".limit-text-250").html(short_text + "...");
+                }
             }
         });
     $('.nav-bar__search').css("display", "none");
