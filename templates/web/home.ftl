@@ -29,6 +29,9 @@
         <div class="caption-search">
             <span>Kết quả tìm kiếm: </span>Tìm được <b id="total-search">0 kết quả</b> với từ khóa <b id="term-search">"Hòa Bình"</b>
         </div>
+        
+        <h3>Danh sách kết quả tìm kiếm</h3>
+        <hr width="90%">
         <div class="search-result__list">
         </div>
     <div>
