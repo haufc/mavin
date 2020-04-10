@@ -43,11 +43,11 @@
 		    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 row">
 		        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12" style="padding: 0">
 		            {{#if image}}
-    		            <img src="{{image}}" width="100%"/>
+    		            <a href="{{url}}"><img src="{{image}}" width="100%"/></a>
     			    {{/if}}
 		        </div>
 		        <div class="title__search col-lg-6 col-md-6 col-sm-6 col-xs-12">
-		            <a href="{{url}}"><h4>{{title}}</h4></a>
+		            <a href="{{url}}"><h4><b>{{title}}</b></h4></a>
 		            {{#if highlight}}
         		        <p class="limit-text-250">{{{highlight}}}</p>
         			{{/if}}
