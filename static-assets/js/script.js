@@ -25,7 +25,7 @@ function search() {
         $(window).scrollTop($('.search-result').offset().top);
         let userTerm = $('#txtSearch').val()
         console.log(userTerm);
-        var urlService = "http://localhost:8080/api/search.json?q="+ userTerm
+        var urlService = this.getContextPath() + "/api/search.json?q="+ userTerm
         $.ajax({
             type: "GET",
             url:urlService,
