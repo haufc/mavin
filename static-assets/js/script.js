@@ -13,7 +13,7 @@ $(document).ready(function() {
     $('#navLinks a').filter(function() {
         return this.href == url;
     }).addClass('active');
-    alert(getContextPath());
+    console.log(getContextPath());
 });
 
 function getContextPath() {
