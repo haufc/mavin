@@ -12,6 +12,14 @@
     <link rel="stylesheet" href="/static-assets/plugins/bootstrap441/css/bootstrap.min.css"/>
     <link rel="stylesheet" href="/static-assets/plugins/bootstrap-select1139/dist/css/bootstrap-select.min.css"/>
     <link rel="stylesheet" href="/static-assets/css/styles.css"/>
+    <style>
+        .limit-text{
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            max-width: 100ch;
+        }
+    </style>
   </head>
   <body>
     <@renderComponent component=contentModel.header_o.item />
@@ -46,7 +54,7 @@
     			{{/if}}
 		        <a href="{{url}}"><h4>{{title}}</h4></a>
 		        {{#if highlight}}
-    		        <p>{{{highlight}}}</p>
+    		        <p class="limit-text">{{{highlight}}}</p>
     			{{/if}}
 		    </div>
 		</div>
