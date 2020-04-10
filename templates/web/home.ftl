@@ -12,6 +12,23 @@
     <link rel="stylesheet" href="/static-assets/plugins/bootstrap441/css/bootstrap.min.css"/>
     <link rel="stylesheet" href="/static-assets/plugins/bootstrap-select1139/dist/css/bootstrap-select.min.css"/>
     <link rel="stylesheet" href="/static-assets/css/styles.css"/>
+    <style>
+        .image__search {
+                overflow: hidden;
+                float: left;
+                display: block;
+                padding-right: 20px;
+                width: 187.699px;
+                height: 122px;
+        }
+        
+        .image__search img {
+                width: 100% !important;
+                height: auto;
+        }
+        
+        
+    </style>
   </head>
   <body>
     <@renderComponent component=contentModel.header_o.item />
@@ -41,13 +58,19 @@
 		{{#each results}}
 		<div class="row">
 		    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-		        {{#if image}}
-    		        <img src="{{image}}" style="width: 20%; float:left;"/>
-    			{{/if}}
-		        <a href="{{url}}"><h4>{{title}}</h4></a>
-		        {{#if highlight}}
-    		        <p class="limit-text-250">{{{highlight}}}</p>
-    			{{/if}}
+		        <div class="image__search">
+		            {{#if image}}
+    		            <img src="{{image}}" style="width: 20%; float:left;"/>
+    			    {{/if}}
+		        </div>
+		        <div class="title__search">
+		            <a href="{{url}}"><h4>{{title}}</h4></a>
+		        </div>
+		        <div class="text__search">
+		            {{#if highlight}}
+        		        <p class="limit-text-250">{{{highlight}}}</p>
+        			{{/if}}
+		        </div>
 		    </div>
 		</div>
 		{{else}}
