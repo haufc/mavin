@@ -30,8 +30,8 @@
             <span>Kết quả tìm kiếm: </span>Tìm được <b id="total-search">0 kết quả</b> với từ khóa <b id="term-search">"Hòa Bình"</b>
         </div>
         
-        <div class="separator">Danh sách kết quả tìm kiếm</div>
-        
+        <!--<div class="separator">Danh sách kết quả tìm kiếm</div>-->
+        <hr>
         <div class="search-result__list col-sm-12 col-md-8 col-lg-8">
         </div>
     <div>
