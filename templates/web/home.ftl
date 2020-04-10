@@ -40,17 +40,15 @@
 	<script id="search-results-template" type="text/x-handlebars-template">
 		{{#each results}}
 		<div class="row">
-			<h4 class="col-sm-12 col-md-12 col-lg-12"><a href="{{url}}">{{title}}</a></h4>
-			{{#if image}}
-			    <div class="col-sm-12 col-md-6 col-lg-6">
-			        <img src="{{image}}" class ="img--full"/>
-			    </div>
-			{{/if}}
-			{{#if highlight}}
-			    <div class="col-sm-12 col-md-6 col-lg-6">
-			        <p>{{{highlight}}}</p>
-			     </div> 
-			{{/if}}
+		    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+		        {{#if image}}
+    		        <img src="{{image}}" style="width: 20%; float:left;"/>
+    			{{/if}}
+		        <a href="{{url}}"><h4>{{title}}</h4></a>
+		        {{#if highlight}}
+    		        <p>{{{highlight}}}</p>
+    			{{/if}}
+		    </div>
 		</div>
 		{{else}}
 		    <p>No results found</p>
