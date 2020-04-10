@@ -12,21 +12,6 @@
     <link rel="stylesheet" href="/static-assets/plugins/bootstrap441/css/bootstrap.min.css"/>
     <link rel="stylesheet" href="/static-assets/plugins/bootstrap-select1139/dist/css/bootstrap-select.min.css"/>
     <link rel="stylesheet" href="/static-assets/css/styles.css"/>
-    <style>
-        .image__search {
-                overflow: hidden;
-                float: left;
-                display: block;
-                padding-right: 20px;
-        }
-        
-        .image__search img {
-                width: 50% !important;
-                height: auto;
-        }
-        
-        
-    </style>
   </head>
   <body>
     <@renderComponent component=contentModel.header_o.item />
@@ -55,8 +40,7 @@
 	<script id="search-results-template" type="text/x-handlebars-template">
 		{{#each results}}
 		<div class="row">
-		    <div class="">
-		        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+		    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
 		        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
 		            {{#if image}}
     		            <img src="{{image}}"/>
