@@ -30,6 +30,20 @@
             <span>Kết quả tìm kiếm: </span>Tìm được <b id="total-search">0 kết quả</b> với từ khóa <b id="term-search">"Hòa Bình"</b>
         </div>
     <div>
+    
+    <!-- Handlebar Templates -->
+	<script id="search-results-template" type="text/x-handlebars-template">
+		{{#each results}}
+		<div>
+			<h4><a href="{{url}}">{{title}}</a></h4>
+			{{#if highlight}}
+			<p>{{{highlight}}}</p>
+			{{/if}}
+		</div>
+		{{else}}
+		    <p>No results found</p>
+		{{/each}}
+	</script>
     <@renderComponent component=contentModel.memberlist_o.item />
     <@renderComponent component=contentModel.footer_o.item />
     <script src="/static-assets/plugins/jquery341/jquery(3.4.1.).js"></script>
