@@ -36,7 +36,7 @@ function search() {
                 
                 var html = template(context);
                 
-                $('.search-result').html(html);
+                $('.search-result__list').html(html);
             }
         });
     $('.nav-bar__search').css("display", "none");
