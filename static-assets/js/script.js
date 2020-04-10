@@ -13,8 +13,12 @@ $(document).ready(function() {
     $('#navLinks a').filter(function() {
         return this.href == url;
     }).addClass('active');
+    alert(getContextPath());
 });
 
+function getContextPath() {
+   return window.location.pathname.substring(0, window.location.pathname.indexOf("/",2));
+}
 function search() {
         console.log('demo');
         $('.content__item').css("display", "none");
