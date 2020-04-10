@@ -32,7 +32,7 @@ function search() {
                 
                 var source = $("#search-results-template").html();
                 var template = Handlebars.compile(source);
-                var context = { results: resp[1] };
+                var context = { results: resp[0] };
                 
                 var html = template(context);
                 
