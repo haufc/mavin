@@ -41,7 +41,7 @@
 		{{#each results}}
 		<div class="row">
 		    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 row">
-		        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12" style="padding: 0">
+		        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
 		            {{#if image}}
     		            <a href="{{url}}"><img src="{{image}}" width="100%"/></a>
     			    {{/if}}
