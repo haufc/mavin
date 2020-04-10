@@ -8,9 +8,16 @@
 $(document).ready(function() {
     $('.search-result').css("display", "none");
     var url = window.location;
+    
+    
     $('#navLinks a').filter(function() {
         return this.href == url;
     }).addClass('active');
+    
+    // -- limit text search --
+    var txt = $('.limit-text-250').text();
+    console.log(txt.length);
+    
 });
 
 function search() {
