@@ -18,8 +18,6 @@
                 float: left;
                 display: block;
                 padding-right: 20px;
-                width: 187.699px;
-                height: 122px;
         }
         
         .image__search img {
