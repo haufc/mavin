@@ -12,14 +12,6 @@
     <link rel="stylesheet" href="/static-assets/plugins/bootstrap441/css/bootstrap.min.css"/>
     <link rel="stylesheet" href="/static-assets/plugins/bootstrap-select1139/dist/css/bootstrap-select.min.css"/>
     <link rel="stylesheet" href="/static-assets/css/styles.css"/>
-    <style>
-        .limit-text-250{
-            white-space: nowrap;
-            overflow: hidden;
-            text-overflow: ellipsis;
-            max-width: =250ch;
-        }
-    </style>
   </head>
   <body>
     <@renderComponent component=contentModel.header_o.item />
