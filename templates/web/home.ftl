@@ -40,8 +40,8 @@
 	<script id="search-results-template" type="text/x-handlebars-template">
 		{{#each results}}
 		<div class="row">
-		    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-		        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+		    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 row">
+		        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12" style="padding: 0">
 		            {{#if image}}
     		            <img src="{{image}}"/>
     			    {{/if}}
