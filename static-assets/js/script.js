@@ -14,7 +14,7 @@ $(document).ready(function() {
     }).addClass('active');
     
     let dateVal = $('.date-formater').text();
-    console.log(this.formatDate(dateVal));
+    console.log(formatDate(dateVal));
    // $('.date-formater').text();
 });
 
