@@ -19,15 +19,15 @@
 	<merge-strategy>inherit-levels</merge-strategy>
 	<objectGroupId>74be</objectGroupId>
 	<objectId>74bea837-a8f4-35a4-baa8-cb7b83247757</objectId>
-	<image_o item-list="true">	<item>	<image_s>/static-assets/images/slides/bg_1.png</image_s>
-	</item>	<item>	<image_s>/static-assets/images/slides/bg_2.png</image_s>
+	<image_o item-list="true">	<item>	<image_s>/static-assets/images/slides/bg_2.png</image_s>
+	</item>	<item>	<image_s>/static-assets/images/slides/bg_1.png</image_s>
 	</item></image_o>
 	<file-name>74bea837-a8f4-35a4-baa8-cb7b83247757.xml</file-name>
 	<internal-name>Slide</internal-name>
 	<createdDate>2020-03-26T02:48:08.363Z</createdDate>
 	<createdDate_dt>2020-03-26T02:48:08.363Z</createdDate_dt>
-	<lastModifiedDate>2020-03-26T02:48:08.363Z</lastModifiedDate>
-	<lastModifiedDate_dt>2020-03-26T02:48:08.363Z</lastModifiedDate_dt>
+	<lastModifiedDate>2020-04-13T03:14:00.215Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-04-13T03:14:00.215Z</lastModifiedDate_dt>
 </component>
 	</item>	<item datasource="sections" inline="true">	<key>4d2b3839-e5b4-fe16-c0ac-d1a0b2090a7b</key>
 	<value>Introduction</value>
@@ -82,6 +82,7 @@
 	<folder-name>home</folder-name>
 	<createdDate>2020-03-25T10:34:10.722Z</createdDate>
 	<createdDate_dt>2020-03-25T10:34:10.722Z</createdDate_dt>
-	<lastModifiedDate>2020-04-01T08:13:47.905Z</lastModifiedDate>
-	<lastModifiedDate_dt>2020-04-01T08:13:47.905Z</lastModifiedDate_dt>
+	<lastModifiedDate>2020-04-13T03:13:58.822Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-04-13T03:13:58.822Z</lastModifiedDate_dt>
+	<descripttion_t/>
 </page>
