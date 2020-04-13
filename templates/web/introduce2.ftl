@@ -58,7 +58,7 @@
                               <div class="content__img text--center col-sm-12 col-md-6 col-lg-6"><img class="img--full" src="${element.tabImage4_s}" alt="Content Image"/>
                                 <p class="text--italic text-white">${element.tabdes4_s}</p>
                               </div>
-                            </div>
+                            </#if>
                             </div>
                           </div>
                         </div>
