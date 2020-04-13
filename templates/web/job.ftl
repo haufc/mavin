@@ -24,26 +24,6 @@
                         </div>
                       </div>
               </#list>
-              <div class="recruitment">
-                <div class="content__title text--center">
-                    <h1 class="text--uppercase">Kỹ sư công trình</h1>
-                  </div>
-                <div class="container-fluid p-3 text-white">         
-                    <div class="row">
-                        <div class="col-sm-12 col-md-6 col-lg-6">
-                            <img src="../../assets/images/content_img_5.png" class="img--full" alt="">
-                        </div>
-                        <div class="col-sm-12 col-md-6 col-lg-6">
-                           <p>
-                               aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-                               aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-                               aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-                               aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-                           </p>
-                        </div>
-                    </div>
-                </div>
-              </div>  
              <!-- <#list contentModel.section_o.item as module>
                 	<div class="job__item text-white col-sm-12 col-md-4 col-lg-4">
                         <div class="job__item-content"><a href="#"><img class="img--full" src="/static-assets/images/featured/content_img_10.png" alt="Job"/></a>
