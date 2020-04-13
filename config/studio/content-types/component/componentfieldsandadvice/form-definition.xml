@@ -9,7 +9,7 @@
 	<properties>		<property>
 			<name>display-template</name>
 			<label>Display Template</label>
-			<value></value>
+			<value>/templates/web/experience.ftl</value>
 			<type>template</type>
 		</property>
 		<property>
@@ -132,7 +132,7 @@
 			</fields>
 		</section>
 		<section>
-			<title>Default Section Title 1586765458079</title>
+			<title>Default Section Title 1586771787558</title>
 			<description></description>
 			<defaultOpen>false</defaultOpen>
 			<fields>
