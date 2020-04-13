@@ -37,20 +37,28 @@
                         <div class="carousel-inner">
                           <div class="carousel-item active">
                             <div class="row">
+                            <#if (element.tabImage1_s)??>
                               <div class="content__img text--center col-sm-12 col-md-6 col-lg-6"><img class="img--full" src="${element.tabImage1_s}" alt="Content Image"/>
                                 <p class="text--italic text-white">${element.tabdes1_s}</p>
                               </div>
+                            </#if>
+                            <#if (element.tabImage2_s)??>
                               <div class="content__img text--center col-sm-12 col-md-6 col-lg-6"><img class="img--full" src="${element.tabImage2_s}" alt="Content Image"/>
                                 <p class="text--italic text-white">${element.tabdes2_s}</p>
                               </div>
+                            </#if>
                             </div>
                             <div class="row">
+                            <#if (element.tabImage3_s)??>
                               <div class="content__img text--center col-sm-12 col-md-6 col-lg-6"><img class="img--full" src="${element.tabImage3_s}" alt="Content Image"/>
                                 <p class="text--italic text-white">${element.tabdes3_s}</p>
                               </div>
+                            </#if>
+                            <#if (element.tabImage4_s)??>
                               <div class="content__img text--center col-sm-12 col-md-6 col-lg-6"><img class="img--full" src="${element.tabImage4_s}" alt="Content Image"/>
                                 <p class="text--italic text-white">${element.tabdes4_s}</p>
                               </div>
+                            </div>
                             </div>
                           </div>
                         </div>
