@@ -130,7 +130,10 @@ h6 {
   white-space: nowrap;
   text-overflow: ellipsis;
 }
-
+.text--red {
+    color: red;
+    font-weight: bold;
+}
 /* spacing */
 .m--0 {
   margin: 0px;
