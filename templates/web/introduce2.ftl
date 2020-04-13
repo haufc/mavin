@@ -62,8 +62,7 @@
                             </div>
                           </div>
                         </div>
-                </div>
-            </div>
+                    </div>
                 </div>
             <#else>
                 <div class="tab-pane fade" id="${element.tabId_s}" role="tabpanel">
