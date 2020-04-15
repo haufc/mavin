@@ -124,7 +124,7 @@ function search() {
             type: "GET",
             url:urlService,
             success: function(resp){
-                localStorage.setItem("listSearch", JSON.stringify(resp));
+                localStorage.setItem("listSearch", JSON.stringify(resp[0]));
                 window.location.replace(getContextPath()+ "/search-result");
             }
         });
