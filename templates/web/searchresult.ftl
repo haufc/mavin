@@ -29,8 +29,8 @@
     </div>
 </div>
 
-<div class="col-lg-8 offset-lg-2 offset-md-2 col-md-8 col-sm-12" id="pager">
-      <ul id="pagination" class="pagination-sm"></ul>
+<div class="col-lg-12 col-md-12 col-sm-12" id="pager">
+      <ul class="float-right" id="pagination" class="pagination-sm"></ul>
 </div>
 
 <@studio.toolSupport />
