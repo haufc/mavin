@@ -4,6 +4,7 @@
                 <div class="mavinex-content__header">
                     <div class="mavinex-content__header-content">
                         <div class="row">
+                            <#if (contentModel.item_o)?? >
                             <#list contentModel.item_o as element>
                             <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
                                 <#if (element.itemTitle_s)?? >
@@ -11,6 +12,7 @@
                                 </#if>
                             </div>
                             </#list>
+                            </#if>
                         </div>    
                     </div>
                 </div>
@@ -18,6 +20,7 @@
             <div class="mavinex-content__body">
                 <div class="mavinex-content__body-content container">
                     <div class="row">
+                        <#if (contentModel.item_o)?? >
                         <#list contentModel.item_o as element>
                         <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
                             <div>  
@@ -27,6 +30,7 @@
                             </div>
                         </div>
                         </#list>
+                        </#if>
                     </div>
                 </div>
             </div>
