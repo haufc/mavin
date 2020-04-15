@@ -12,6 +12,33 @@ $(document).ready(function() {
     // Display value for search page
     if(url == getContextPath()+ "/search-result") {
         var storedLstSearch = JSON.parse(localStorage.getItem("listSearch"));
+        var x = {
+            duration: "2020-04-01T04:00:00.000Z",
+            highlight: "về chính sách kinh <em>doanh</em> <em>của</em> Côn",
+            image: "/static-assets/images/featured/content_img_1.png",
+            title: "Kỹ sư công trình",
+            type: "Toàn thời gian",
+            url: "/jobs/ky-su-cong-trinh"
+        }
+        var y = {
+            duration: "2020-04-01T04:00:00.000Z",
+            highlight: "về chính sách kinh <em>doanh</em> <em>của</em> Côn",
+            image: "/static-assets/images/featured/content_img_1.png",
+            title: "Kỹ sư công trình",
+            type: "Toàn thời gian",
+            url: "/jobs/ky-su-cong-trinh"
+        }
+        var z = {
+            duration: "2020-04-01T04:00:00.000Z",
+            highlight: "về chính sách kinh <em>doanh</em> <em>của</em> Côn",
+            image: "/static-assets/images/featured/content_img_1.png",
+            title: "Kỹ sư công trình",
+            type: "Toàn thời gian",
+            url: "/jobs/ky-su-cong-trinh"
+        }
+        storedLstSearch.push(x);
+        storedLstSearch.push(y);
+        storedLstSearch.push(z);
         console.log(storedLstSearch);
         var source = $("#search-results-template").html();
         var template = Handlebars.compile(source);
