@@ -130,6 +130,9 @@ h6 {
   white-space: nowrap;
   text-overflow: ellipsis;
 }
+.text--red {
+    color: var(--dark-red);
+}
 
 /* spacing */
 .m--0 {
