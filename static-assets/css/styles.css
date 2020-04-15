@@ -131,7 +131,7 @@ h6 {
   text-overflow: ellipsis;
 }
 .text--red {
-    color: var(--dark-red);
+    color: #cd2027;
 }
 
 /* spacing */
