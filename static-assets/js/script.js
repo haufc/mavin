@@ -13,7 +13,11 @@ $(document).ready(function() {
     if(url == getContextPath()+ "/search-result") {
         console.log("code tiep di");
         var storedLstSearch = JSON.parse(localStorage.getItem("listSearch"));
-        console.log(storedLstSearch);
+        var source = $("#search-results-template").html();
+        var template = Handlebars.compile(source);
+        var context = { results: storedLstSearch };
+        var html = template(context);
+        $('.search-result').html(html);
     }
 });
 
