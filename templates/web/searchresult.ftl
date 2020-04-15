@@ -21,11 +21,11 @@
 <div class="content__title text--center" style="background-color: #FFF">
     <h1 class="text--uppercase">Kết quả tìm kiếm</h1>
 </div>
+<div>
+    <span><p>KẾT QUẢ TÌM KIẾM:</p> Tìm được <b>727</b> kết quả với từ khóa "<b></b>"<span>
+</div>
 <div class="content__details">
 <!-- <h1 class="text--center text--uppercase text-white mb-3">TUYỂN DỤNG THÁNG 03/2020</h1> -->
-    <div>
-        <span><p>KẾT QUẢ TÌM KIẾM:</p> Tìm được <b>727</b> kết quả với từ khóa "<b></b>"<span>
-    </div>
     <div class="row ">
         <div class="search-result_item row">
         </div>
