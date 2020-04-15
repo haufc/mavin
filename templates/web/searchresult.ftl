@@ -4,7 +4,7 @@
 		{{#each results}}
 		    <div class="co-md-4 col-lg-4 col-sm-12" style="padding-bottom: 10px;">
                 <div class="search--img">
-                    <img src="{{image}}" alt="" width="50%" height="50%" style="float: left; padding-right: 5px;">
+                    <img src="{{image}}" alt="" style="float: left; padding-right: 5px;">
                 </div>
                 <div class="search--text">
                     <h5 ><b>{{title}}</b></h5>
