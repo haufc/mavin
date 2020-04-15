@@ -23,6 +23,7 @@
 </div>
 <div class="content__details">
 <!-- <h1 class="text--center text--uppercase text-white mb-3">TUYỂN DỤNG THÁNG 03/2020</h1> -->
+    <span><h4>KẾT QUẢ TÌM KIẾM:</h4> Tìm được <b>727</b> kết quả với từ khóa "<b></b>"<span>
     <div class="row ">
         <div class="search-result_item row">
         </div>
