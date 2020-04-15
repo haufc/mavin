@@ -53,14 +53,14 @@ $(document).ready(function() {
         console.log(records);
         totalRecords = records.length;
         totalPages = Math.ceil(totalRecords / recPerPage);
-        //apply_pagination();
-        generateContent();
-        var source = $("#search-results-template").html();
-        var template = Handlebars.compile(source);
-        var context = { results: storedLstSearch };
-        var html = template(context);
+        apply_pagination();
         
-        $('.search-result_item').html(html);
+        // var source = $("#search-results-template").html();
+        // var template = Handlebars.compile(source);
+        // var context = { results: storedLstSearch };
+        // var html = template(context);
+        
+        // $('.search-result_item').html(html);
         $('.content').css("background-color", "#FFF")
         // --- limit desc search --
         var lent = $(".limit-text-250").html();
@@ -72,8 +72,28 @@ $(document).ready(function() {
         $(".limit-text-250 em").css("font-weight", "bold");
     }
     
+    function apply_pagination() {
+          $pagination.twbsPagination({
+                totalPages: totalPages,
+                visiblePages: 6,
+                onPageClick: function (event, page) {
+                      displayRecordsIndex = Math.max(page - 1, 0) * recPerPage;
+                      endRec = (displayRecordsIndex) + recPerPage;
+                     
+                      displayRecords = records.slice(displayRecordsIndex, endRec);
+                      generateContent();
+                }
+          });
+    }
+    
+    // generate content search result
     function generateContent() {
-        console.log("Aaaaaaaaaaa");
+         var source = $("#search-results-template").html();
+         var template = Handlebars.compile(source);
+         var context = { results: displayRecords };
+         var html = template(context);
+        
+        $('.search-result_item').html(html);
     }
 });
 
