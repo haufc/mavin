@@ -21,7 +21,7 @@
 <div class="content__title text--center" style="background-color: #FFF">
     <h1 class="text--uppercase">Kết quả tìm kiếm</h1>
 </div>
-<div>
+<div class="col-lg-12 col-md-12 col-sm-12">
     <span><p>KẾT QUẢ TÌM KIẾM:</p> Tìm được <b>727</b> kết quả với từ khóa "<b></b>"<span>
 </div>
 <div class="content__details">
