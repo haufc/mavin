@@ -132,7 +132,7 @@
 			</fields>
 		</section>
 		<section>
-			<title>Default Section Title 1586923049169</title>
+			<title>Default Section Title 1586924017845</title>
 			<description></description>
 			<defaultOpen>false</defaultOpen>
 			<fields>
@@ -159,7 +159,7 @@
 					<fields>
 				<field>
 					<type>input</type>
-					<id>itemTitle_s</id>
+					<id>itemtitle_s</id>
 					<iceId></iceId>
 					<title>Item Title</title>
 					<description></description>
@@ -202,7 +202,7 @@
 				</field>
 				<field>
 					<type>image-picker</type>
-					<id>itemImage_s</id>
+					<id>itemimage_s</id>
 					<iceId></iceId>
 					<title>Item Image</title>
 					<description></description>
