@@ -17,7 +17,14 @@ $(document).ready(function() {
         var template = Handlebars.compile(source);
         var context = { results: storedLstSearch };
         var html = template(context);
+        
         $('.search-result_item').html(html);
+        // --- limit desc search --
+        var lent = $(".limit-text-250").html();
+        if (lent.length > 250) {
+          short_text = $(".limit-text-250").html().substr(0, 250);
+          $(".limit-text-250").html(short_text + "...");
+        }
     }
 });
 
