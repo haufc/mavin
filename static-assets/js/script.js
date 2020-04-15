@@ -20,9 +20,9 @@ $(document).ready(function() {
         
         $('.search-result_item').html(html);
         // --- limit desc search --
-        var lent = $(".limit-text-250").html().length;
-        if (lent > 10) {
-          short_text = $(".limit-text-250").html().substr(0, 10);
+        var lent = $(".limit-text-250").html();
+        if (lent.length > 200) {
+          short_text = lent.substr(0, 200);
           $(".limit-text-250").html(short_text);
         }
     }
