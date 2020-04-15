@@ -6,7 +6,7 @@
                 <div class="search--img co-md-6 col-lg-6 col-sm-12">
                     <img src="{{image}}" alt=""  style="float: left; padding-right: 5px;">
                 </div>
-                <div class="search--text">
+                <div class="search--text co-md-6 col-lg-6 col-sm-12">
                     <h5 ><b>{{title}}</b></h5>
                     {{#if highlight}}
         		        <p class="limit-text-250">{{{highlight}}}</p>
