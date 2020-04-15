@@ -6,7 +6,9 @@
                         <div class="row">
                             <#list contentModel.item_o as element>
                             <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                                <#if (element.itemTitle_s)?? >
                                 <h1>${element.itemTitle_s}</h1>
+                                </#if>
                             </div>
                             </#list>
                         </div>    
@@ -18,8 +20,10 @@
                     <div class="row">
                         <#list contentModel.item_o as element>
                         <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-                            <div>
+                            <div>  
+                                <#if (element.itemImage_s)?? >
                                 <img src="${element.itemImage_s}">
+                                </#if>
                             </div>
                         </div>
                         </#list>
