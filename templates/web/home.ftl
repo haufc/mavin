@@ -35,6 +35,7 @@
     <script src="/static-assets/js/responsive.js"></script>
     <script src="/static-assets/js/search-bar.js"></script>
     <script src="/static-assets/js/handlebars.min-latest.js"></script>
+    <script src="/static-assets/js/jquery.twbsPagination.min.js"></script>
     <script src="/static-assets/js/script.js"></script>
   </body>
 </html>
