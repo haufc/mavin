@@ -22,7 +22,7 @@
     <h1 class="text--uppercase">Kết quả tìm kiếm</h1>
 </div>
 <div class="col-lg-12 col-md-12 col-sm-12">
-    <span><p class="text--uppercase">Kết quả tìm kiếm:</p> Tìm được <b id="totalSearch">727</b> kết quả với từ khóa "<b id="keywordSearch"></b>"<span>
+    <span style="font-size: 18px;"></p> Tìm được <b id="totalSearch">727</b> kết quả với từ khóa "<b id="keywordSearch"></b>"<span>
 </div>
 <div class="content__details">
 <!-- <h1 class="text--center text--uppercase text-white mb-3">TUYỂN DỤNG THÁNG 03/2020</h1> -->
