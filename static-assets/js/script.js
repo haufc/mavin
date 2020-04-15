@@ -15,8 +15,8 @@ $(document).ready(function() {
     
     let dateVal = $('.date-formater').text();
     $('.date-formater').text(formatDate(dateVal));
-    console.log(url.href)
-    console.log(getContextPath()+ "/search-result")
+
+    // Display value for search page
     if(url == getContextPath()+ "/search-result") {
         console.log("code tiep di")
     }
