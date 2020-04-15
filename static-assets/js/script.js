@@ -46,7 +46,7 @@ $(document).ready(function() {
         var html = template(context);
         
         $('.search-result_item').html(html);
-        
+        $('.content').css("background-color", "#FFF")
         // --- limit desc search --
         var lent = $(".limit-text-250").html();
         if (lent.length > 100) {
