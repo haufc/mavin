@@ -11,6 +11,15 @@ $(document).ready(function() {
 
     // Display value for search page
     if(url == getContextPath()+ "/search-result") {
+        
+        var $pagination = $('#pagination'), 
+            totalRecords = 0,
+            records = [],
+            displayRecords = [],
+            recPerPage = 10,
+            page = 1,
+            totalPages = 0;
+            
         var storedLstSearch = JSON.parse(localStorage.getItem("listSearch"));
         var x = {
             duration: "2020-04-01T04:00:00.000Z",
@@ -39,7 +48,13 @@ $(document).ready(function() {
         storedLstSearch.push(x);
         storedLstSearch.push(y);
         storedLstSearch.push(z);
-        console.log(storedLstSearch);
+        
+        records = storedLstSearch;
+        console.log(records);
+        totalRecords = records.length;
+        totalPages = Math.ceil(totalRecords / recPerPage);
+        //apply_pagination();
+        generateContent();
         var source = $("#search-results-template").html();
         var template = Handlebars.compile(source);
         var context = { results: storedLstSearch };
@@ -55,7 +70,10 @@ $(document).ready(function() {
         }
         
         $(".limit-text-250 em").css("font-weight", "bold");
-        panigation();
+    }
+    
+    function generateContent() {
+        console.log("Aaaaaaaaaaa");
     }
 });
 
@@ -132,6 +150,3 @@ function search() {
     $('.nav-bar__search').css("display", "none");
 }
 
-function panigation() {
-    console.log("This is panigation")
-}
