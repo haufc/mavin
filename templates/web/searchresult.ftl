@@ -29,7 +29,7 @@
     </div>
 </div>
 
-<div class="col-lg-12 col-md-12 col-sm-12 text-center" id="pager">
+<div class="col-lg-12 col-md-12 col-sm-12 text-center float-left" id="pager">
       <ul id="pagination" class="pagination-sm"></ul>
 </div>
 
