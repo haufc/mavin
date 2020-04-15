@@ -21,8 +21,8 @@ $(document).ready(function() {
         $('.search-result_item').html(html);
         // --- limit desc search --
         var lent = $(".limit-text-250").html();
-        if (lent.length > 200) {
-          short_text = lent.substr(0, 200);
+        if (lent.length > 100) {
+          short_text = lent.substr(0, 100);
           $(".limit-text-250").html(short_text);
         }
     }
