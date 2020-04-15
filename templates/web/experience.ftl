@@ -4,6 +4,7 @@
                 <div class="mavinex-content__header">
                     <div class="mavinex-content__header-content">
                         <div class="row">
+                            ${contentModel.item_0}
                             <#if (contentModel.item_o)?? >
                             <#list contentModel.item_o as item>
                             <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
