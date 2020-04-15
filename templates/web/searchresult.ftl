@@ -29,4 +29,8 @@
     </div>
 </div>
 
+<div id="pager">
+      <ul id="pagination" class="pagination-sm"></ul>
+</div>
+
 <@studio.toolSupport />
