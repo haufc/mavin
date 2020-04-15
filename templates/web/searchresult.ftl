@@ -19,7 +19,7 @@
 		
 </script>
 <div class="content__title text--center" style="background-color: #FFF">
-    <h1 class="text--uppercase">Kết quả tìm kiếm</h1>
+    <h1 class="text--uppercase text--red">Kết quả tìm kiếm</h1>
 </div>
 <div class="col-lg-12 col-md-12 col-sm-12">
     <span style="font-size: 18px;"></p> Tìm được <b id="totalSearch">727</b> kết quả với từ khóa "<b id="keywordSearch"></b>"<span>
