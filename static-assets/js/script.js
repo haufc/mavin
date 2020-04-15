@@ -21,9 +21,7 @@ $(document).ready(function() {
             totalPages = 0;
             
         var storedLstSearch = JSON.parse(localStorage.getItem("listSearch"));
-        console.log(storedLstSearch);
         records = storedLstSearch;
-        console.log(records);
         totalRecords = records.length;
         totalPages = Math.ceil(totalRecords / recPerPage);
         apply_pagination();
@@ -34,6 +32,8 @@ $(document).ready(function() {
         // var html = template(context);
         
         // $('.search-result_item').html(html);
+        $('#totalSearch').text(totalRecords);
+        $('#keywordSearch').text(localStorage.getItem("userTerm"))
         $('.content').css("background-color", "#FFF")
         // --- limit desc search --
         var lent = $(".limit-text-250").html();
