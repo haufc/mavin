@@ -18,7 +18,7 @@
 		{{/each}}
 		
 </script>
-<div class="content__title text--center">
+<div class="content__title text--center" style="background-color: #FFF">
     <h1 class="text--uppercase">Kết quả tìm kiếm</h1>
 </div>
 <div class="content__details">
