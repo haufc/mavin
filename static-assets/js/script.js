@@ -20,12 +20,6 @@ $(document).ready(function() {
         
         $('.search-result_item').html(html);
         // --- limit desc search --
-        var lent = $(".limit-text-250").html();
-        if (lent.length > 200) {
-          short_text = lent.str.substring(0,200)
-          console.log(short_text)
-          $(".limit-text-250").html(short_text + "...");
-        }
     }
 });
 
