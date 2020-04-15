@@ -31,10 +31,51 @@ function getContextPath() {
    return  window.location.protocol + "//" + window.location.host
 }
 
+// function search() {
+//         console.log('demo');
+//         $('.content__item').css("display", "none");
+//         $(window).scrollTop($('.search-result').offset().top);
+//         let userTerm = $('#txtSearch').val()
+//         console.log(userTerm);
+//         var urlService = this.getContextPath() + "/api/search.json?q="+ userTerm
+//         $.ajax({
+//             type: "GET",
+//             url:urlService,
+//             success: function(resp){
+//                 console.log(resp);
+//                 //let total = resp[0].length + resp[1].length;
+//                 let total = resp[0].length;
+//                 $('.search-result').css("display", "block");
+//                 $('#total-search').text(total);
+//                 $('#term-search').text(userTerm);
+                
+//                 var source = $("#search-results-template").html();
+//                 var template = Handlebars.compile(source);
+//                 var context = { results: resp[0] };
+                
+//                 localStorage.setItem("listSearch", resp[0]);
+//                 var html = template(context);
+                
+//                 $('.search-result__list').html(html);
+                
+//                 // --- limit desc search --
+//                 var lent = $(".limit-text-250").html().length;
+//                 if (lent > 200) {
+//                   short_text = $(".limit-text-250").html().substr(0, 200);
+//                   $(".limit-text-250").html(short_text + "...");
+//                 }
+                
+//                 // --- style for em--
+//                 $(".limit-text-250 em").css("font-weight","bold");
+//             }
+//         });
+//     $('.nav-bar__search').css("display", "none");
+// }
+
 function search() {
         console.log('demo');
-        $('.content__item').css("display", "none");
-        $(window).scrollTop($('.search-result').offset().top);
+       // $('.content__item').css("display", "none");
+       // $(window).scrollTop($('.search-result').offset().top);
         let userTerm = $('#txtSearch').val()
         console.log(userTerm);
         var urlService = this.getContextPath() + "/api/search.json?q="+ userTerm
@@ -44,29 +85,30 @@ function search() {
             success: function(resp){
                 console.log(resp);
                 //let total = resp[0].length + resp[1].length;
-                let total = resp[0].length;
-                $('.search-result').css("display", "block");
-                $('#total-search').text(total);
-                $('#term-search').text(userTerm);
+               // let total = resp[0].length;
+               // $('.search-result').css("display", "block");
+               // $('#total-search').text(total);
+              //  $('#term-search').text(userTerm);
                 
-                var source = $("#search-results-template").html();
-                var template = Handlebars.compile(source);
-                var context = { results: resp[0] };
+              //  var source = $("#search-results-template").html();
+             //   var template = Handlebars.compile(source);
+             //   var context = { results: resp[0] };
                 
                 localStorage.setItem("listSearch", resp[0]);
-                var html = template(context);
+                window.location.replace(this.getContextPath()+ "/search-result");
+               // var html = template(context);
                 
-                $('.search-result__list').html(html);
+             //   $('.search-result__list').html(html);
                 
                 // --- limit desc search --
-                var lent = $(".limit-text-250").html().length;
-                if (lent > 200) {
-                  short_text = $(".limit-text-250").html().substr(0, 200);
-                  $(".limit-text-250").html(short_text + "...");
-                }
+              //  var lent = $(".limit-text-250").html().length;
+               // if (lent > 200) {
+                //  short_text = $(".limit-text-250").html().substr(0, 200);
+               //   $(".limit-text-250").html(short_text + "...");
+              //  }
                 
                 // --- style for em--
-                $(".limit-text-250 em").css("font-weight","bold");
+               // $(".limit-text-250 em").css("font-weight","bold");
             }
         });
     $('.nav-bar__search').css("display", "none");
