@@ -11,14 +11,15 @@ $(document).ready(function() {
 
     // Display value for search page
     if(url == getContextPath()+ "/search-result") {
-        console.log("code tiep di");
         var storedLstSearch = JSON.parse(localStorage.getItem("listSearch"));
+        console.log(storedLstSearch);
         var source = $("#search-results-template").html();
         var template = Handlebars.compile(source);
         var context = { results: storedLstSearch };
         var html = template(context);
         
         $('.search-result_item').html(html);
+        
         // --- limit desc search --
         var lent = $(".limit-text-250").html();
         if (lent.length > 100) {
