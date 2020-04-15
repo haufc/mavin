@@ -130,8 +130,8 @@ function search() {
        // $('.content__item').css("display", "none");
        // $(window).scrollTop($('.search-result').offset().top);
         let userTerm = $('#txtSearch').val()
-        console.log(userTerm);
         var urlService = this.getContextPath() + "/api/search.json?q="+ userTerm
+        localStorage.setItem("userTerm", userTerm);
         $.ajax({
             type: "GET",
             url:urlService,
