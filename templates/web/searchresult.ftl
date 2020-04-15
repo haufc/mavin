@@ -2,11 +2,11 @@
 <!-- Handlebar Templates -->
 	<script id="search-results-template" type="text/x-handlebars-template">
 		{{#each results}}
-		    <div class="co-md-6 col-lg-6 col-sm-12" style="padding-bottom: 10px;">
+		    <div  style="padding-bottom: 10px;">
                 <div class="search--img co-md-6 col-lg-6 col-sm-12">
                     <img src="{{image}}" alt="" class="img--full">
                 </div>
-                <div class="search--text co-md-6 col-lg-6 col-sm-12" style="padding: 0">
+                <div style="padding: 0">
                     <h5 ><b>{{title}}</b></h5>
                     {{#if highlight}}
         		        <p class="limit-text-250">{{{highlight}}}</p>
