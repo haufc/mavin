@@ -67,7 +67,6 @@ function search() {
                 
                 // --- style for em--
                 $(".limit-text-250 em").css("font-weight","bold");
-                console.log(localStorage.getItem("listSearch"));
             }
         });
     $('.nav-bar__search').css("display", "none");
