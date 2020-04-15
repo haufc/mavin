@@ -19,7 +19,8 @@ $(document).ready(function() {
     // Display value for search page
     if(url == getContextPath()+ "/search-result") {
         console.log("code tiep di");
-        console.log(localStorage.getItem("listSearch"));
+        var storedLstSearch = JSON.parse(localStorage.getItem("listSearch"));
+        console.log(storedLstSearch);
     }
 });
 
@@ -99,8 +100,7 @@ function search() {
               //  var source = $("#search-results-template").html();
              //   var template = Handlebars.compile(source);
              //   var context = { results: resp[0] };
-                
-                localStorage.setItem("listSearch", resp[0]);
+                localStorage.setItem("listSearch", JSON.stringify([0]));
                 window.location.replace(getContextPath()+ "/search-result");
                // var html = template(context);
                 
