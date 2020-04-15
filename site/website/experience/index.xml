@@ -8,8 +8,8 @@
 	<objectId>2454cb42-868f-9447-3055-edd310250f71</objectId>
 	<file-name>index.xml</file-name>
 	<folder-name>experience</folder-name>
-	<internal-name>Năng lực kinh nghiệm</internal-name>
-	<title_s>Năng lực kinh nghiệm</title_s>
+	<internal-name>Lĩnh vực xây dựng</internal-name>
+	<title_s>Lĩnh vực xây dựng</title_s>
 	<placeInNav>true</placeInNav>
 	<orderDefault_f>5000</orderDefault_f>
 	<sections_o item-list="true">	<item datasource="sections" inline="true">	<key>f3a7570b-6c20-21e2-b182-149ad1b1893e</key>
@@ -84,7 +84,7 @@
 	</item></sections_o>
 	<createdDate>2020-04-01T06:27:57.672Z</createdDate>
 	<createdDate_dt>2020-04-01T06:27:57.672Z</createdDate_dt>
-	<lastModifiedDate>2020-04-13T07:44:27.824Z</lastModifiedDate>
-	<lastModifiedDate_dt>2020-04-13T07:44:27.824Z</lastModifiedDate_dt>
+	<lastModifiedDate>2020-04-15T03:43:33.465Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-04-15T03:43:33.465Z</lastModifiedDate_dt>
 	<descripttion_t>Đây là trang đề cập đến năng lực của công ty trong các lĩnh vực đang hoạt động</descripttion_t>
 </page>
