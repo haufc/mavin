@@ -8,7 +8,7 @@
                             <#list contentModel.item_o.item as item>
                             <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
                                 <#if (item.itemTitle_s)?? >
-                                <h2 style="margin-top:20px; font-color:red;">${item.itemTitle_s}</h2>
+                                <h2 style="margin-top:20px; color:red;">${item.itemTitle_s}</h2>
                                 </#if>
                             </div>
                             </#list>
