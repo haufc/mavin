@@ -20,6 +20,11 @@ $(document).ready(function() {
         
         $('.search-result_item').html(html);
         // --- limit desc search --
+        var lent = $(".limit-text-250").html().length;
+        if (lent > 200) {
+          short_text = $(".limit-text-250").html().substr(0, 200);
+          $(".limit-text-250").html(short_text);
+        }
     }
 });
 
