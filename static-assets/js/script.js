@@ -21,6 +21,7 @@ $(document).ready(function() {
         $('.search-result_item').html(html);
         // --- limit desc search --
         var lent = $(".limit-text-250").html();
+        console.log("aaaaaaaaaa",lent)
         if (lent.length > 250) {
           short_text = $(".limit-text-250").html().substr(0, 250);
           $(".limit-text-250").html(short_text + "...");
