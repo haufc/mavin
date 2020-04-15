@@ -95,7 +95,7 @@ function search() {
              //   var context = { results: resp[0] };
                 
                 localStorage.setItem("listSearch", resp[0]);
-                window.location.replace(this.getContextPath()+ "/search-result");
+                window.location.replace(getContextPath()+ "/search-result");
                // var html = template(context);
                 
              //   $('.search-result__list').html(html);
