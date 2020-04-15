@@ -53,6 +53,8 @@ $(document).ready(function() {
           short_text = lent.substr(0, 100);
           $(".limit-text-250").html(short_text);
         }
+        
+        $(".limit-text-250 em").css("font-weight", "bold")
     }
 });
 
