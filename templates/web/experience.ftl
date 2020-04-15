@@ -1,14 +1,30 @@
 <#import "/templates/system/common/cstudio-support.ftl" as studio />
-      <div class="page-content__item">
-        <div class="page-content__infos row">
-          <div class="page-content__img mb-5 col-sm-12 col-md-6 col-lg-6">
-            <img src="../../assets/images/img_17.png" alt="About Content"/>
-            <a class="page-content__link btn btn--basic" href="mail.html">Xem thêm</a>
-          </div>
-          <div class="page-content__img mb-5 col-sm-12 col-md-6 col-lg-6">
-            <img src="../../assets/images/img_18.png" alt="About Content"/>
-            <a class="page-content__link btn btn--basic" href="history.html">Xem thêm</a>
-          </div>
-        </div>
-      </div>
-<@studio.toolSupport />
+	<div class="mavinex-content" <@studio.iceAttr component=contentModel/>>
+            <div class="mavinex-content__container">
+                <div class="mavinex-content__header">
+                    <div class="mavinex-content__header-content">
+                        <div class="row">
+                            <#list contentModel.item_o as element>
+                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                                <h1>${element.itemTitle_s}</h1>
+                            </div>
+                            </#list>
+                        </div>    
+                    </div>
+                </div>
+            </div>
+            <div class="mavinex-content__body">
+                <div class="mavinex-content__body-content container">
+                    <div class="row">
+                        <#list contentModel.item_o as element>
+                        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                            <div>
+                                <img src="${element.itemImage_s}">
+                            </div>
+                        </div>
+                        </#list>
+                    </div>
+                </div>
+            </div>
+    </div>
+	<@studio.toolSupport />
