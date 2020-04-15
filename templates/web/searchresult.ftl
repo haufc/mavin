@@ -2,8 +2,8 @@
 <!-- Handlebar Templates -->
 	<script id="search-results-template" type="text/x-handlebars-template">
 		{{#each results}}
-		    <div  style="padding-bottom: 10px;">
-                <div class="search--img co-md-6 col-lg-6 col-sm-12">
+		    <div class="col-lg-4 col-md-4 col-sm-12 search-result_content" style="padding-bottom: 10px;">
+                <div class="search--img">
                     <img src="{{image}}" alt="" class="img--full">
                 </div>
                 <div style="padding: 0">
