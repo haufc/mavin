@@ -159,7 +159,7 @@
 					<fields>
 				<field>
 					<type>input</type>
-					<id>itemtitle_s</id>
+					<id>itemTitle_s</id>
 					<iceId></iceId>
 					<title>Item Title</title>
 					<description></description>
@@ -202,7 +202,7 @@
 				</field>
 				<field>
 					<type>image-picker</type>
-					<id>itemimage_s</id>
+					<id>itemImage_s</id>
 					<iceId></iceId>
 					<title>Item Image</title>
 					<description></description>
