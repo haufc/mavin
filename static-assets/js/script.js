@@ -19,9 +19,7 @@ $(document).ready(function() {
     // Display value for search page
     if(url == getContextPath()+ "/search-result") {
         console.log("code tiep di");
-        
-        var listSearch = localStorage.getItem("listSearch");
-        console.log(listSearch);
+        console.log(localStorage.getItem("listSearch"));
     }
 });
 
