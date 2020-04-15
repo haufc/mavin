@@ -29,7 +29,7 @@
                             <div>  
                                 <#if (element.itemImage_s)?? >
                                 <img src="${element.itemImage_s}">
-                                <p><span>Xem tiếp</span><i style="font-size: 35px;" class="fas fa-caret-right text--red"></i></p> 
+                                <p><span style="margin-right: 15px; font-size:20px; color: white;">Xem tiếp</span><i style="font-size: 35px;" class="fas fa-caret-right text--red"></i></p> 
                                 </#if>
                             </div>
                         </div>
