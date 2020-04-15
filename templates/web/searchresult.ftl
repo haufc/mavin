@@ -3,8 +3,8 @@
 	<script id="search-results-template" type="text/x-handlebars-template">
 		{{#each results}}
 		    <div class="co-md-4 col-lg-4 col-sm-12" style="padding-bottom: 10px;">
-                <div class="search--img">
-                    <img src="{{image}}" alt="" style="float: left; padding-right: 5px;">
+                <div class="search--img co-md-6 col-lg-6 col-sm-12">
+                    <img src="{{image}}" alt=""  style="float: left; padding-right: 5px;">
                 </div>
                 <div class="search--text">
                     <h5 ><b>{{title}}</b></h5>
