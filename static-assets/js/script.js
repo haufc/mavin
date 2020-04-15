@@ -21,6 +21,7 @@ $(document).ready(function() {
             totalPages = 0;
             
         var storedLstSearch = JSON.parse(localStorage.getItem("listSearch"));
+        console.log(storedLstSearch);
         records = storedLstSearch;
         console.log(records);
         totalRecords = records.length;
