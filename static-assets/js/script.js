@@ -52,7 +52,7 @@ function search() {
                 var source = $("#search-results-template").html();
                 var template = Handlebars.compile(source);
                 var context = { results: resp[0] };
-                
+                localStorage.setItem("listSearch", resp[0]);
                 var html = template(context);
                 
                 $('.search-result__list').html(html);
