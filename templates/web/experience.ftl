@@ -4,9 +4,8 @@
                 <div class="mavinex-content__header">
                     <div class="mavinex-content__header-content">
                         <div class="row">
-                            ${contentModel.item_o}
                             <#if (contentModel.item_o)?? >
-                            <#list contentModel.item_o as item>
+                            <#list contentModel.item_o.item as item>
                             <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
                                 <#if (item.itemTitle_s)?? >
                                 <h1>${item.itemTitle_s}</h1>
@@ -25,7 +24,7 @@
                 <div class="mavinex-content__body-content container">
                     <div class="row">
                         <#if (contentModel.item_o)?? >
-                        <#list contentModel.item_o as element>
+                        <#list contentModel.item_o.item as element>
                         <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
                             <div>  
                                 <#if (element.itemImage_s)?? >
