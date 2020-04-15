@@ -9,7 +9,7 @@ $(document).ready(function() {
     let dateVal = $('.date-formater').text();
     $('.date-formater').text(formatDate(dateVal));
 
-    // Display value for search page
+    // Display content for search page
     if(url == getContextPath()+ "/search-result") {
         
         var $pagination = $('#pagination'), 
