@@ -14,12 +14,10 @@ $(document).ready(function() {
         console.log("code tiep di");
         var storedLstSearch = JSON.parse(localStorage.getItem("listSearch"));
         var source = $("#search-results-template").html();
-        console.log("template",source)
         var template = Handlebars.compile(source);
         var context = { results: storedLstSearch };
         var html = template(context);
-        $('.search-result').html(html);
-        console.log($('.search-result').html());
+        $('.search-result_item').html(html);
     }
 });
 
