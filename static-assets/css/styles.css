@@ -6926,6 +6926,7 @@ h6 {
         width: 100%;
     }
     .mavinex-content__header-content {
+        margin-top: 30px;
         padding: 0 15px;
     }
     .mavinex-content__header-content > h1 {
