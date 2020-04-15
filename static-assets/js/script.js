@@ -54,7 +54,8 @@ $(document).ready(function() {
           $(".limit-text-250").html(short_text);
         }
         
-        $(".limit-text-250 em").css("font-weight", "bold")
+        $(".limit-text-250 em").css("font-weight", "bold");
+        panigation();
     }
 });
 
@@ -129,4 +130,8 @@ function search() {
             }
         });
     $('.nav-bar__search').css("display", "none");
+}
+
+function panigation() {
+    console.log("This is panigation")
 }
