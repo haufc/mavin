@@ -3,10 +3,10 @@
 	<script id="search-results-template" type="text/x-handlebars-template">
 		{{#each results}}
 		    <div class="co-md-4 col-lg-4 col-sm-12" style="padding-bottom: 10px;">
-                <div class="search--img">
-                    <img src="{{image}}" alt="" width="50%" height="50%" style="float: left; padding-right: 5px;">
+                <div class="search--img" style="width: 50%; height: 100%">
+                    <img src="{{image}}" alt="" width="1000%" height="100%" style="float: left; padding-right: 5px;">
                 </div>
-                <div class="search--text">
+                <div class="search--text" style="width: 50%; height: 100%">
                     <h5 ><b>{{title}}</b></h5>
                     {{#if highlight}}
         		        <p class="limit-text-250">{{{highlight}}}</p>
