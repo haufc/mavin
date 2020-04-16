@@ -36,11 +36,12 @@ $(document).ready(function() {
         $('#keywordSearch').text(localStorage.getItem("userTerm"))
         $('.content').css("background-color", "#FFF")
         // --- limit desc search --
-        var lent = $(".limit-text-250").html();
-        if (lent.length > 100) {
-          short_text = lent.substr(0, 100);
-          $(".limit-text-250").html(short_text);
-        }
+        var lent = $(".limit-text-250").children().text();
+        console.log("aaaaaaaaa",lent);
+        // if (lent.length > 100) {
+        //   short_text = lent.substr(0, 100);
+        //   $(".limit-text-250").html(short_text);
+        // }
         
         $(".limit-text-250 em").css("font-weight", "bold");
     }
