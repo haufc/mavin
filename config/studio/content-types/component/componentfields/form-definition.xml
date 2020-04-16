@@ -323,7 +323,7 @@
 						</property>
 						<property>
 							<name>itemManager</name>
-							<value></value>
+							<value>carouselsDataSource</value>
 							<type>datasource:item</type>
 						</property>
 						<property>
