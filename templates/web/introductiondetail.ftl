@@ -17,33 +17,16 @@
   <body>
     <@renderComponent component=contentModel.header_o.item />
     <div class="content">
-        <#list (contentModel.slide_o.item)![] as section>
-            <@renderComponent parent=contentModel component=section />
-        </#list>
-    	<div class="recruitment">
-            <div class="content__title text--center">
-                <h1 class="text--uppercase text--red">${contentModel.title_s}</h1>
-              </div>
-            <div class="container-fluid p-3 text-white">         
-                <div class="row">
-                    <div class="col-sm-12 col-md-6 col-lg-6">
-                        <p style="font-size: 16px;">
-                            <#list contentModel.item_o.item as element>
-                            	<strong>${element.title_s}</strong>
-                            	<br>
-                            	<p>
-                            	    ${element.content_t}
-                            	</p>
-                            </#list>
-                        </p>
-                    </div>
-                    <div class="col-sm-12 col-md-6 col-lg-6">
-                        <img src="${contentModel.image_s}" class="img--full" alt="">
-                    </div>
-                </div>
-            </div>
-          </div>
+        <@renderComponent component=contentModel.slide_o.item />
+        <div class="content__title">
+        <div class="container">
+            <h1 class="text--uppercase">${contentModel.title_s}</h1>
         </div>
+      </div>
+      <div class="content__details container">
+            ${contentModel.contents_html}
+      </div>
+    </div>
     <@renderComponent component=contentModel.memberlist_o.item />
     <@renderComponent component=contentModel.footer_o.item />
     <script src="/static-assets/plugins/jquery341/jquery(3.4.1.).js"></script>
