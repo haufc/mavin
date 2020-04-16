@@ -15,9 +15,7 @@
                 ${contentModel.itemContent_html}
                 </#if>
                 <div>
-                    <#if (contentModel.carousels_o.item)??>
-                    <@renderComponent component=contentModel.carousels_o.item />
-                    </#if>
+                <@renderComponent component=contentModel.carousels_o.item />
                 </div>
             </div>
         </div>
