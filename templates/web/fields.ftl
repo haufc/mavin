@@ -11,11 +11,15 @@
 
         <div class="mavinex-content__body">
             <div class="mavinex-content__body-content container">
+                <#if (contentModel.itemContent_html)??>
                 ${contentModel.itemContent_html}
+                </#if>
                 <div>
+                    <#if (contentModel.carousels_o.item)??>
                     <#list (contentModel.carousels_o.item)![] as carousel>
                         <@renderComponent parent=contentModel component=carousel />
                     </#list>
+                    <#/if>
                 </div>
             </div>
         </div>
