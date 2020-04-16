@@ -376,12 +376,12 @@
 						</property>
 						<property>
 							<name>repoPath</name>
-							<value>/sites/components/items</value>
+							<value>/sites/items</value>
 								<type>undefined</type>
 						</property>
 						<property>
 							<name>browsePath</name>
-							<value>/site/components/items</value>
+							<value>/site/items</value>
 								<type>undefined</type>
 						</property>
 						<property>
