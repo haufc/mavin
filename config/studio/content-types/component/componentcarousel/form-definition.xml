@@ -9,7 +9,7 @@
 	<properties>		<property>
 			<name>display-template</name>
 			<label>Display Template</label>
-			<value></value>
+			<value>/templates/web/carousel-field.ftl</value>
 			<type>template</type>
 		</property>
 		<property>
@@ -561,6 +561,29 @@
 							<name>pattern</name>
 							<value><![CDATA[]]></value>
 							<type>string</type>
+						</constraint>
+					</constraints>
+				</field>
+				<field>
+					<type>checkbox</type>
+					<id>active_b</id>
+					<iceId></iceId>
+					<title>Active</title>
+					<description></description>
+					<defaultValue></defaultValue>
+					<help></help>
+					<properties>
+						<property>
+							<name>readonly</name>
+							<value></value>
+							<type>boolean</type>
+						</property>
+					</properties>
+					<constraints>
+						<constraint>
+							<name>required</name>
+							<value><![CDATA[]]></value>
+							<type>boolean</type>
 						</constraint>
 					</constraints>
 				</field>
