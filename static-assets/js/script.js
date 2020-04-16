@@ -41,9 +41,10 @@ $(document).ready(function() {
         for (let i = 0; i < lent.length; i++) {
              var txtDesc = $(lent[i]).html();
              console.log(txtDesc);
-            //  if(txtDesc.length > 200) {
-               
-            //  }
+            if(txtDesc.length > 200) {
+               let txt = txtDesc.substr(0, 200);
+               $(lent[i]).html(txt)
+            }
         }
         // if (lent.length > 100) {
         //   short_text = lent.substr(0, 100);
