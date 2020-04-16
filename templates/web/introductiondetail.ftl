@@ -20,7 +20,7 @@
         <@renderComponent component=contentModel.slide_o.item />
         <div class="content__title">
         <div class="container" style="padding: 0;">
-            <h1 class="text--uppercase">${contentModel.title_s}</h1>
+            <h1 class="text--uppercase text--red">${contentModel.title_s}</h1>
         </div>
       </div>
       <div class="content__details--nopadding-x container">
