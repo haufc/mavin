@@ -39,7 +39,8 @@ $(document).ready(function() {
         var lent = $(".limit-text-250");
        
         for (let i = 0; i < lent.length; i++) {
-             console.log("aaaaaaaaa",$(lent[i]).children().text());
+             var txtDesc = $(lent[i]).children().html();
+             console.log(txtDesc)
         }
         // if (lent.length > 100) {
         //   short_text = lent.substr(0, 100);
