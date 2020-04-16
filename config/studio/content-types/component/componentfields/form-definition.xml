@@ -224,7 +224,7 @@
 				</field>
 				<field>
 					<type>rte-tinymce5</type>
-					<id>_html</id>
+					<id>itemContent_html</id>
 					<iceId></iceId>
 					<title>ItemContent</title>
 					<description></description>
