@@ -42,7 +42,7 @@
       </div>
     </div>
 </footer> -->
-    <footer class="footer" <@studio.iceAttr component=contentModel/>>
+    <footer class="footer" <@studio.iceAttr component=contentModel/> style="background-image: url('${contentModel.backgroundImage_s}');">
         <div class="container">
             <div class="row">
                 <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
