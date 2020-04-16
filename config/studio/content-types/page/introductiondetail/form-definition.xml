@@ -246,7 +246,7 @@
 						</property>
 						<property>
 							<name>itemManager</name>
-							<value>sections</value>
+							<value>slide</value>
 							<type>datasource:item</type>
 						</property>
 						<property>
