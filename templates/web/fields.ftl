@@ -17,7 +17,7 @@
                 <div>
                     <#if (contentModel.carousels_o.item)??>
                     <#list (contentModel.carousels_o.item)![] as carousel>
-                        <@renderComponent parent=contentModel component=carousel />
+                        <@renderComponent parent=contentModel component=carousels_o />
                     </#list>
                     </#if>
                 </div>
