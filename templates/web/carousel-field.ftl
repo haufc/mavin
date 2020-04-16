@@ -32,23 +32,23 @@
                                 <div>
                                     <img src="${element.image2_s}" alt="Slide Image">
 
-                                    <p class="text--italic text--white">${image2Title_s}</p>
+                                    <p class="text--italic text--white">${element.image2Title_s}</p>
                                 </div>
                             </div>
                         </div>
                         <div class="row">
                             <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
                                 <div>
-                                    <img src="${image3_s}" alt="Slide Image">
+                                    <img src="${element.image3_s}" alt="Slide Image">
 
-                                    <p class="text--italic text--white">${image3Title_s}</p>
+                                    <p class="text--italic text--white">${element.image3Title_s}</p>
                                 </div>
                             </div>
                             <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
                                 <div>
-                                    <img src="${image4_s}" alt="Slide Image">
+                                    <img src="${element.image4_s}" alt="Slide Image">
 
-                                    <p class="text--italic text--white">${image4Title_s}</p>
+                                    <p class="text--italic text--white">${element.image4Title_s}</p>
                                 </div>
                             </div>
                         </div>
