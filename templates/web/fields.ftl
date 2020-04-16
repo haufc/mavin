@@ -12,9 +12,7 @@
 
         <div class="mavinex-content__body">
             <div class="mavinex-content__body-content container">
-                <#if (contentModel.itemContent_html)??>
                 ${contentModel.itemContent_html}
-                </#if>
                 <div class="row" <@studio.componentContainerAttr target="carousels" objectId=contentModel.objectId/>>
                 <#if contentModel.carousels_o?? && contentModel.carousels_o.item??>
                     <#list contentModel.carousels_o.item as carousel>
