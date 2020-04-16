@@ -5,8 +5,9 @@
             <div class="mavinex-content__header-content">
                 <div class="row">
                 <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-                <h1>${contentModel.itemTitle_s}</h1></div>
-            </div>
+                    <h1>${contentModel.itemTitle_s}</h1></div>
+                </div>
+                </div>
         </div>
 
         <div class="mavinex-content__body">
@@ -14,9 +15,13 @@
                 <#if (contentModel.itemContent_html)??>
                 ${contentModel.itemContent_html}
                 </#if>
-                <div>
-                <@renderComponent component=contentModel.carousels_o.item />
-                </div>
+                <div class="row" <@studio.componentContainerAttr target="carousels" objectId=contentModel.objectId/>>
+                <#if contentModel.carousels_o?? && contentModel.carousels_o.item??>
+                    <#list contentModel.carousels_o.item as carousel>
+                            <@renderComponent component=carousel />
+                    </#list>
+                </#if>
+            </div>
             </div>
         </div>
     </div>
