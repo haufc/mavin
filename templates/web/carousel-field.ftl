@@ -54,6 +54,7 @@
                         </div>
                     </div>
                 </div>
+                </#list>
             </div>
         </div>
     </div>
