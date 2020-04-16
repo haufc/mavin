@@ -41,8 +41,8 @@ $(document).ready(function() {
         for (let i = 0; i < lent.length; i++) {
              var txtDesc = $(lent[i]).html();
              console.log(txtDesc);
-            if(txtDesc.length > 200) {
-               let txt = txtDesc.substr(0, 200);
+            if(txtDesc.length > 150) {
+               let txt = txtDesc.substr(0, 150);
                $(lent[i]).html(txt)
             }
         }
