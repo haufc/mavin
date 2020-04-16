@@ -36,7 +36,7 @@ $(document).ready(function() {
         $('#keywordSearch').text(localStorage.getItem("userTerm"))
         $('.content').css("background-color", "#FFF")
         // --- limit desc search --
-        var lent = $(".limit-text-250").children();
+        var lent = $(".limit-text-250");
         console.log("aaaaaaaaa",lent);
         // if (lent.length > 100) {
         //   short_text = lent.substr(0, 100);
