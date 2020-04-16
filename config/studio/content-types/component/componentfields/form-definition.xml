@@ -9,7 +9,7 @@
 	<properties>		<property>
 			<name>display-template</name>
 			<label>Display Template</label>
-			<value></value>
+			<value>/templates/web/fields.ftl</value>
 			<type>template</type>
 		</property>
 		<property>
@@ -224,7 +224,7 @@
 				</field>
 				<field>
 					<type>rte-tinymce5</type>
-					<id>itemContent_html</id>
+					<id>_html</id>
 					<iceId></iceId>
 					<title>ItemContent</title>
 					<description></description>
