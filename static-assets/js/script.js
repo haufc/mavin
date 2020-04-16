@@ -37,7 +37,10 @@ $(document).ready(function() {
         $('.content').css("background-color", "#FFF")
         // --- limit desc search --
         var lent = $(".limit-text-250");
-        console.log("aaaaaaaaa",lent);
+       
+        for (let i = 0; i < lent.length; i++) {
+             console.log("aaaaaaaaa",len[i]);
+        }
         // if (lent.length > 100) {
         //   short_text = lent.substr(0, 100);
         //   $(".limit-text-250").html(short_text);
