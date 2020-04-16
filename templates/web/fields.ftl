@@ -14,7 +14,7 @@
                 ${contentModel.itemContent_html}
                 <div>
                     <#list (contentModel.carousels_o.item)![] as carousel>
-                        <@renderComponent parent=contentModel component=carosel />
+                        <@renderComponent parent=contentModel component=carousel />
                     </#list>
                 </div>
             </div>
