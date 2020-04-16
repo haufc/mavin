@@ -39,13 +39,11 @@ $(document).ready(function() {
         var lent = $(".limit-text-250");
        
         for (let i = 0; i < lent.length; i++) {
-             var txtDesc = $(lent[i]).children().text();
-             if(txtDesc.length > 200) {
-                var short =  $(lent[i]).html();
-                console.log(short);
-                short = short.substr(0, 200);
-                $(lent[i]).html(short);
-             }
+             var txtDesc = $(lent[i]).html();
+             console.log(txtDesc);
+            //  if(txtDesc.length > 200) {
+               
+            //  }
         }
         // if (lent.length > 100) {
         //   short_text = lent.substr(0, 100);
