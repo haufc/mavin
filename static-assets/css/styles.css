@@ -6574,7 +6574,7 @@ h6 {
   background-size: 100% 100%; */
   background-repeat: no-repeat;
   clear: both;
-  padding: 75px 0 35px;
+  padding: 80px 0 40px;
 }
 
 .footer__contact-info {
@@ -7191,6 +7191,14 @@ h6 {
   }
   .content__img {
     margin-bottom: 20px;
+  }
+}
+/* footer  */
+
+@media (max-width: 480px){
+  .footer {
+      background: #00559A;
+      padding: 30px 0 15px; 
   }
 }
 /*# sourceMappingURL=styles.css.map */
