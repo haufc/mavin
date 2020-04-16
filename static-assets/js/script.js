@@ -39,8 +39,12 @@ $(document).ready(function() {
         var lent = $(".limit-text-250");
        
         for (let i = 0; i < lent.length; i++) {
-             var txtDesc = $(lent[i]).children().html();
-             console.log(txtDesc)
+             var txtDesc = $(lent[i]).children().text();
+             if(txtDesc.length > 200) {
+                var short =  $(lent[i]).html();
+                short = short.substr(0, 200);
+                $(lent[i]).html(short);
+             }
         }
         // if (lent.length > 100) {
         //   short_text = lent.substr(0, 100);
