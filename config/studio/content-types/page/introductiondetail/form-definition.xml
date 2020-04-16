@@ -120,12 +120,12 @@
 					<properties>
 						<property>
 							<name>size</name>
-							<value>50</value>
+							<value>250</value>
 							<type>int</type>
 						</property>
 						<property>
 							<name>maxlength</name>
-							<value>50</value>
+							<value>250</value>
 							<type>int</type>
 						</property>
 						<property>
@@ -142,7 +142,7 @@
 					<constraints>
 						<constraint>
 							<name>required</name>
-							<value><![CDATA[]]></value>
+							<value><![CDATA[true]]></value>
 							<type>boolean</type>
 						</constraint>
 						<constraint>
@@ -220,7 +220,7 @@
 					<constraints>
 						<constraint>
 							<name>required</name>
-							<value><![CDATA[]]></value>
+							<value><![CDATA[true]]></value>
 							<type>boolean</type>
 						</constraint>
 					</constraints>
@@ -246,7 +246,7 @@
 						</property>
 						<property>
 							<name>itemManager</name>
-							<value></value>
+							<value>sections</value>
 							<type>datasource:item</type>
 						</property>
 						<property>
@@ -277,38 +277,13 @@
 		</section>
 	</sections>
 	<datasources>				<datasource>
-					<type>shared-content</type>
-					<id>components</id>
-					<title>Components</title>
+					<type>embedded-content</type>
+					<id>sections</id>
+					<title>Sections</title>
 					<interface>item</interface>
 					<properties>
 						<property>
-							<name>enableCreateNew</name>
-							<value>true</value>
-								<type>undefined</type>
-						</property>
-						<property>
-							<name>enableBrowseExisting</name>
-							<value>true</value>
-								<type>undefined</type>
-						</property>
-						<property>
-							<name>enableSearchExisting</name>
-							<value>false</value>
-								<type>undefined</type>
-						</property>
-						<property>
-							<name>repoPath</name>
-							<value>/</value>
-								<type>undefined</type>
-						</property>
-						<property>
-							<name>browsePath</name>
-							<value></value>
-								<type>undefined</type>
-						</property>
-						<property>
-							<name>type</name>
+							<name>contentType</name>
 							<value></value>
 								<type>undefined</type>
 						</property>
