@@ -42,6 +42,7 @@ $(document).ready(function() {
              var txtDesc = $(lent[i]).children().text();
              if(txtDesc.length > 200) {
                 var short =  $(lent[i]).html();
+                console.log(short);
                 short = short.substr(0, 200);
                 $(lent[i]).html(short);
              }
