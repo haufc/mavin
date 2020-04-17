@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page>
+	<content-type>/page/jobpage</content-type>
+	<display-template>/templates/web/jobitem.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>d3e7</objectGroupId>
+	<objectId>d3e783fe-e8b5-31d7-1199-779a75a9bdef</objectId>
+	<item_o item-list="true">	<item>	<title_s/>
+	<content_t/>
+	</item></item_o>
+	<file-name>index.xml</file-name>
+	<folder-name>quan-ly</folder-name>
+	<internal-name>Quản lý hành chính</internal-name>
+	<title_s>Quản lý hành chính</title_s>
+	<type_s>Toàn thời gian</type_s>
+	<placeInNav>false</placeInNav>
+	<orderDefault_f>-1</orderDefault_f>
+	<slide_o item-list="true">	<item datasource="slide" inline="true">	<key>cf91d235-6830-7d06-7afc-4ed746ec63f1</key>
+	<value>Slide</value>
+<component id="cf91d235-6830-7d06-7afc-4ed746ec63f1">
+	<content-type>/component/slide</content-type>
+	<display-template>/templates/web/slide.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>cf91</objectGroupId>
+	<objectId>cf91d235-6830-7d06-7afc-4ed746ec63f1</objectId>
+	<image_o item-list="true">	<item>	<image_s>/static-assets/images/slides/bg_3.png</image_s>
+	</item></image_o>
+	<file-name>cf91d235-6830-7d06-7afc-4ed746ec63f1.xml</file-name>
+	<internal-name>Slide</internal-name>
+	<createdDate>2020-04-17T03:09:56.318Z</createdDate>
+	<createdDate_dt>2020-04-17T03:09:56.318Z</createdDate_dt>
+	<lastModifiedDate>2020-04-17T03:09:56.318Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-04-17T03:09:56.318Z</lastModifiedDate_dt>
+</component>
+	</item></slide_o>
+	<image_s>/static-assets/images/featured/content_img_2.png</image_s>
+	<createdDate>2020-04-17T03:09:08.165Z</createdDate>
+	<createdDate_dt>2020-04-17T03:09:08.165Z</createdDate_dt>
+	<lastModifiedDate>2020-04-17T03:09:08.165Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-04-17T03:09:08.165Z</lastModifiedDate_dt>
+	<duration_dt>2020-04-16T04:00:00.000Z</duration_dt>
+	<duration_dt_tz>EST5EDT</duration_dt_tz>
+</page>
