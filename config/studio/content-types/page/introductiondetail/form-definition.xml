@@ -203,7 +203,7 @@
 						</property>
 						<property>
 							<name>imageManager</name>
-							<value></value>
+							<value>uploadimage,existingimage</value>
 							<type>datasource:image</type>
 						</property>
 						<property>
