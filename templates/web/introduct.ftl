@@ -1,12 +1,6 @@
 <#import "/templates/system/common/cstudio-support.ftl" as studio />
 <div class="content" <@studio.iceAttr component=contentModel/>>
-      <div class="content__title text--center">
-        <h1 class="text--uppercase">${contentModel.title_s}</h1>
-      </div>
-      <div class="content__details container">
-      </div>
-</div>
-<div class="content__title">
+  <div class="content__title">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 col-md-6 col-sm-6 col-6">
@@ -50,5 +44,6 @@
                 <img src="../../assets/images/content_img_10.png" alt="" class="img--full">
             </div>
           </div>
-      </div>
+      </div>    
+</div>
 <@studio.toolSupport />
