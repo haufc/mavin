@@ -16,7 +16,10 @@
           <div class="row">
             <div class="col-lg6 col-md-6 col-sm-6 col-6" style="padding: 0;">
                 <img src="${intros[2].avatar}" alt="" class="img--full">
-                <a class="content__btn btn mt-3 rounded-0" href="/experience"> 
+            </div>
+            
+            <div class="col-lg6 col-md-6 col-sm-6 col-6" >
+                 <a class="content__btn btn mt-3 rounded-0" href="/experience"> 
                     <span class="mr-3">Xem thêm</span>
                     <i class="fas fa-arrow-right"></i>
                 </a>
