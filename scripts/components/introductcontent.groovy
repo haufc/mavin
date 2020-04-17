@@ -6,4 +6,4 @@ def intros = searchHelper.searchIntroducts(null)
 println "List introduction:"
 print intros
 
-templateModel.intros
+templateModel.intros = intros
