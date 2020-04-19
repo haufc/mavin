@@ -216,7 +216,7 @@
 						</property>
 						<property>
 							<name>itemManager</name>
-							<value>sections</value>
+							<value>sections,carouselDataSource</value>
 							<type>datasource:item</type>
 						</property>
 						<property>
@@ -255,6 +255,44 @@
 						<property>
 							<name>contentType</name>
 							<value></value>
+								<type>undefined</type>
+						</property>
+					</properties>
+				</datasource>
+				<datasource>
+					<type>shared-content</type>
+					<id>carouselDataSource</id>
+					<title>Carousel DataSource</title>
+					<interface>item</interface>
+					<properties>
+						<property>
+							<name>enableCreateNew</name>
+							<value>true</value>
+								<type>undefined</type>
+						</property>
+						<property>
+							<name>enableBrowseExisting</name>
+							<value>true</value>
+								<type>undefined</type>
+						</property>
+						<property>
+							<name>enableSearchExisting</name>
+							<value>false</value>
+								<type>undefined</type>
+						</property>
+						<property>
+							<name>repoPath</name>
+							<value></value>
+								<type>undefined</type>
+						</property>
+						<property>
+							<name>browsePath</name>
+							<value>/sites/items</value>
+								<type>undefined</type>
+						</property>
+						<property>
+							<name>type</name>
+							<value>/sites/items</value>
 								<type>undefined</type>
 						</property>
 					</properties>
