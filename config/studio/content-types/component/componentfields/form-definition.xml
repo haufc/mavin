@@ -376,7 +376,7 @@
 						</property>
 						<property>
 							<name>repoPath</name>
-							<value>/sites/items</value>
+							<value>/site/items</value>
 								<type>undefined</type>
 						</property>
 						<property>
