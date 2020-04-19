@@ -20,10 +20,6 @@
     </div>
     -->
     </div>
-
     
-    <a class="left carousel-control" href="#${contentModel.objectId}" role="button" data-slide="prev"><i class="fa fa-angle-left"></i></a>
-    <a class="right carousel-control" href="#${contentModel.objectId}" role="button" data-slide="next"><i class="fa fa-angle-right"></i></a>
-
 </div>
 <@studio.toolSupport />
