@@ -23,7 +23,7 @@
             <div class="mavinex-content__container">
                 <div class="mavinex-content__header">
                     <div class="mavinex-content__header-content">
-                        <h1>${contentModel.title_s}}</h1>
+                        <h1 style="color:red;">${contentModel.title_s}</h1>
                     </div>
                 </div>
 
