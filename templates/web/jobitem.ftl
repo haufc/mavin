@@ -30,7 +30,7 @@
                 <div class="mavinex-content__body">
                     <div class="mavinex-content__body-content row">
                         <div class="mavinex-content__text col-xs-12 col-sm-12 col-md-6 col-lg-6">
-                            <p>${contentModel.type_s}</p>
+                            <p>Hình thức tuyển dụng: ${contentModel.type_s}</p>
                         </div>
 
                         <div class="mavinex-content__img col-xs-12 col-sm-12 col-md-6 col-lg-6">
