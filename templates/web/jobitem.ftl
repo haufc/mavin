@@ -31,6 +31,10 @@
                     <div class="mavinex-content__body-content row">
                         <div class="mavinex-content__text col-xs-12 col-sm-12 col-md-6 col-lg-6">
                             <p>Hình thức tuyển dụng: ${contentModel.type_s}</p>
+                            <#list (contentModel.item_o.item)![] as element>
+                                <p>${element.title_s}</p>
+                                <p>${element.content_t}</p>
+                            </#list>
                         </div>
 
                         <div class="mavinex-content__img col-xs-12 col-sm-12 col-md-6 col-lg-6">
