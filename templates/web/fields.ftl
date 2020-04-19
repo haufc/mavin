@@ -15,9 +15,11 @@
                 ${contentModel.itemContent_html}
                 <div class="row" <@studio.componentContainerAttr target="carousels" objectId=contentModel.objectId/>>
                 <#if contentModel.carousels_o?? && contentModel.carousels_o.item??>
+                    <div style="color: #fff;">
                     <#list contentModel.carousels_o.item as carousel>
                             <@renderComponent component=carousel />
                     </#list>
+                    </div>
                 </#if>
             </div>
             </div>
