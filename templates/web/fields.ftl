@@ -5,7 +5,7 @@
             <div class="mavinex-content__header-content">
                 <div class="row">
                 <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-                    <h1>${contentModel.itemTitle_s}</h1></div>
+                    <h1 style="color: red">${contentModel.itemTitle_s}</h1></div>
                 </div>
                 </div>
         </div>
