@@ -7207,6 +7207,7 @@ h6 {
         .mavinex-nav,
         .mavinex-nav__container {
             display: flex;
+            padding: 0 5px;
         }
         .mavinex-nav__links {
             display: none;
