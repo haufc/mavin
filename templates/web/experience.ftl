@@ -19,8 +19,7 @@
             <div class="row">
                 <#if (contentModel.item_o)??>
                 <#list contentModel.item_o.item as element>
-                    <div class="col-lg6 col-md-6 col-sm-6 col-6" style="padding: 0;
-    padding-left: 15px;">
+                    <div class="col-lg6 col-md-6 col-sm-6 col-6" style="padding: 0;">
                         <#if (element.itemImage_s)?? >
                         <img src="${element.itemImage_s}" alt="" class="img--full">
                         </#if>
