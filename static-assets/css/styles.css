@@ -13,7 +13,8 @@ body {
           box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: 'Baloo Chettan 2', 'Baloo 2', 'Bellota Text', 'Comfortaa', cursive, 'Montserrat', sans-serif;
+  /*font-family: 'Baloo Chettan 2', 'Baloo 2', 'Bellota Text', 'Comfortaa', cursive, 'Montserrat', sans-serif;*/
+  font-family: "Dejavu Sans";
 }
 
 a,
