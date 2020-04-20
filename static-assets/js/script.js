@@ -145,7 +145,6 @@ function search() {
             type: "GET",
             url:urlService,
             success: function(resp){
-                localStorage.setItem("listSearch", JSON.stringify(resp[0]));
                 localStorage.setItem("mergeLst", JSON.stringify(resp[0].concat(resp[1])));
                 
                 window.location.replace(getContextPath()+ "/search-result");
