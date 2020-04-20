@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page>
+	<content-type>/page/introductiondetail</content-type>
+	<display-template>/templates/web/introductiondetail.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>6508</objectGroupId>
+	<objectId>65089ccc-6a84-1e19-9110-71252baf9614</objectId>
+	<file-name>index.xml</file-name>
+	<folder-name>lich-su-hinh-thanh</folder-name>
+	<internal-name>Lịch sử hình thành</internal-name>
+	<title_s>Lịch sử hình thành</title_s>
+	<placeInNav>false</placeInNav>
+	<orderDefault_f>-1</orderDefault_f>
+	<slide_o item-list="true">	<item datasource="slide">	<key>/site/items/slides/58025963-91fe-b4a2-b236-fc70ac85676a.xml</key>
+	<value>Slide</value>
+	<include>/site/items/slides/58025963-91fe-b4a2-b236-fc70ac85676a.xml</include>
+	<disableFlattening>false</disableFlattening>
+	</item></slide_o>
+	<thumbail_s>/static-assets/images/featured/content_img_4.png</thumbail_s>
+	<contents_html>&lt;p class="MsoNormal"&gt;&lt;span style="color: #ffffff; font-size: 14pt;"&gt;C&amp;ocirc;ng ty Cổ Phần Mavinex l&amp;agrave; C&amp;ocirc;ng ty Cổ phần được h&amp;igrave;nh th&amp;agrave;nh trong thời kỳ đất nước đang tr&amp;ecirc;n đ&amp;agrave; ph&amp;aacute;t triển v&amp;agrave; đổi mới, x&amp;acirc;y dựng l&amp;agrave; một trong những nhiệm vụ cấp thiết của Đất nước n&amp;oacute;i chung v&amp;agrave; c&amp;aacute;c tỉnh n&amp;oacute;i ri&amp;ecirc;ng, nhằm đ&amp;oacute;ng g&amp;oacute;p cho đất nước những c&amp;ocirc;ng tr&amp;igrave;nh x&amp;acirc;y dựng d&amp;acirc;n dụng, c&amp;ocirc;ng nghiệp, hạ tầng cơ sở, đường d&amp;acirc;y v&amp;agrave; trạm điện, giao th&amp;ocirc;ng thủy lợi&amp;hellip;&lt;/span&gt;&lt;/p&gt;
+&lt;p class="MsoNormal"&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p class="MsoNormal"&gt;&lt;span style="color: #ffffff; font-size: 14pt;"&gt;C&amp;ocirc;ng ty Cổ phần Mavinex l&amp;agrave; một trong những doanh nghiệp được th&amp;agrave;nh lập nhằm g&amp;oacute;p phần v&amp;agrave;o sự nghiệp ph&amp;aacute;t triển v&amp;agrave; đổi mới của x&amp;atilde; hội.&lt;/span&gt;&lt;/p&gt;
+&lt;p class="MsoNormal"&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p class="MsoNormal"&gt;&lt;span style="color: #ffffff; font-size: 14pt;"&gt;Trong suốt qu&amp;aacute; tr&amp;igrave;nh th&amp;agrave;nh lập v&amp;agrave; ph&amp;aacute;t triển, đến nay C&amp;ocirc;ng ty Cổ phần Mavinex đ&amp;atilde; vươn l&amp;ecirc;n trở th&amp;agrave;nh một C&amp;ocirc;ng ty c&amp;oacute; uy t&amp;iacute;n, c&amp;oacute; chỗ đứng vững chắc tr&amp;ecirc;n thị trường x&amp;acirc;y dựng v&amp;agrave; cung cấp hệ thống thiết bị chuồng trại, thiết bị nh&amp;agrave; m&amp;aacute;y thức ăn chăn nu&amp;ocirc;i.&lt;/span&gt;&lt;/p&gt;
+&lt;p class="MsoNormal"&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p class="MsoNormal"&gt;&lt;span style="color: #ffffff; font-size: 14pt;"&gt;C&amp;ocirc;ng ty đ&amp;atilde; tham gia thi c&amp;ocirc;ng c&amp;aacute;c c&amp;ocirc;ng tr&amp;igrave;nh x&amp;acirc;y dựng tr&amp;ecirc;n địa b&amp;agrave;n Hưng Y&amp;ecirc;n v&amp;agrave; một số tỉnh trong cả nước. C&amp;aacute;c c&amp;ocirc;ng tr&amp;igrave;nh do C&amp;ocirc;ng ty thi c&amp;ocirc;ng đều đạt chất lượng tốt, đ&amp;aacute;p ứng mọi y&amp;ecirc;u cầu kỹ, mỹ thuật được chủ đầu tư đ&amp;aacute;nh gi&amp;aacute; cao.&lt;/span&gt;&lt;/p&gt;
+&lt;p class="MsoNormal"&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p class="MsoNormal"&gt;&lt;span style="color: #ffffff; font-size: 14pt;"&gt;Với bộ m&amp;aacute;y l&amp;atilde;nh đạo tổ chức điều h&amp;agrave;nh gọn nhẹ, năng động, ph&amp;ugrave; hợp với cơ chế thị trường, đội ngũ kỹ sư gi&amp;agrave;u kinh nghiệm, c&amp;ocirc;ng nh&amp;acirc;n kỹ thuật l&amp;agrave;nh nghề, thiết bị c&amp;ocirc;ng nghệ thi c&amp;ocirc;ng đồng bộ, C&amp;ocirc;ng ty Cổ phần Mavinex khẳng định: ho&amp;agrave;n to&amp;agrave;n c&amp;oacute; thể đ&amp;aacute;p ứng được mọi y&amp;ecirc;u cầu của kh&amp;aacute;ch h&amp;agrave;ng về chất lượng v&amp;agrave; tiến độ c&amp;aacute;c c&amp;ocirc;ng tr&amp;igrave;nh lớn nhỏ với gi&amp;aacute; th&amp;agrave;nh hợp l&amp;yacute; nhất.&lt;/span&gt;&lt;/p&gt;
+&lt;p class="MsoNormal"&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p class="MsoNormal"&gt;&lt;span style="color: #ffffff; font-size: 14pt;"&gt;C&amp;ocirc;ng ty Cổ phần Mavinex mong muốn l&amp;agrave; địa chỉ tin cậy của kh&amp;aacute;ch h&amp;agrave;ng. Đến với C&amp;ocirc;ng ty ch&amp;uacute;ng t&amp;ocirc;i kh&amp;aacute;ch h&amp;agrave;ng sẽ gặp được người bạn v&amp;agrave; đối t&amp;aacute;c ch&amp;acirc;n th&amp;agrave;nh, c&amp;oacute; được những c&amp;ocirc;ng tr&amp;igrave;nh đạt chất lượng tốt, bền vững với gi&amp;aacute; cả hợp l&amp;yacute; v&amp;agrave; gi&amp;aacute; trị thẩm mỹ cao.&lt;/span&gt;&lt;/p&gt;</contents_html>
+	<createdDate>2020-04-16T07:47:22.296Z</createdDate>
+	<createdDate_dt>2020-04-16T07:47:22.296Z</createdDate_dt>
+	<lastModifiedDate>2020-04-16T07:48:34.585Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-04-16T07:48:34.585Z</lastModifiedDate_dt>
+</page>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page>
+	<content-type>/page/introductiondetail</content-type>
+	<display-template>/templates/web/introductiondetail.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>d236</objectGroupId>
+	<objectId>d236789d-d37d-d867-bc7b-9e499457ebaf</objectId>
+	<file-name>index.xml</file-name>
+	<folder-name>doi-tac-chien-luoc</folder-name>
+	<internal-name>Đối tác chiến lược</internal-name>
+	<title_s>Đối tác chiến lược</title_s>
+	<placeInNav>false</placeInNav>
+	<orderDefault_f>-1</orderDefault_f>
+	<slide_o item-list="true">	<item datasource="slide">	<key>/site/items/slides/38328eed-d3cd-1c7a-349a-2be9e045e92b.xml</key>
+	<value>Slide</value>
+	<include>/site/items/slides/38328eed-d3cd-1c7a-349a-2be9e045e92b.xml</include>
+	<disableFlattening>false</disableFlattening>
+	</item></slide_o>
+	<thumbail_s>/static-assets/images/featured/content_img_4.png</thumbail_s>
+	<contents_html>&lt;p&gt;&lt;img src="/static-assets/images/featured/partner_1.png" alt="" width="977" height="1129" /&gt;&lt;/p&gt;</contents_html>
+	<createdDate>2020-04-17T03:58:23.091Z</createdDate>
+	<createdDate_dt>2020-04-17T03:58:23.091Z</createdDate_dt>
+	<lastModifiedDate>2020-04-17T03:58:23.091Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-04-17T03:58:23.091Z</lastModifiedDate_dt>
+</page>
