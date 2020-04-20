@@ -2,10 +2,11 @@
     <div <@studio.iceAttr component=contentModel/>
         <div class="carousel slide" data-ride="carousel" id="${contentModel.objectId}">
             <ol class="carousel-indicators">
-                <li data-target="#${contentModel.objectId}" data-slide-to="0" class="active"><span>1</span></li>
-                <li data-target="#${contentModel.objectId}" data-slide-to="1"><span>2</span></li>
-                <li data-target="#${contentModel.objectId}" data-slide="next"><i class="fas fa-caret-right"></i></li>
-            </ol>
+                                <li data-target="#expSlide" data-slide-to="0" class="active"><span>1</span></li>
+                                <li data-target="#expSlide" data-slide-to="1"><span>2</span></li>
+                                <li data-target="#expSlide" data-slide-to="2"><span>3</span></li>
+                                <li data-target="#expSlide" data-slide="next"><i class="fas fa-caret-right"></i></li>
+                            </ol>
             <div class="carousel-inner">
                 <#if (contentModel.image_o.item)?? && contentModel.image_o??>
                 <#assign first = true>
