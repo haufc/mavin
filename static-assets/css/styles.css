@@ -14,7 +14,8 @@ body {
   margin: 0;
   padding: 0;
   /*font-family: 'Baloo Chettan 2', 'Baloo 2', 'Bellota Text', 'Comfortaa', cursive, 'Montserrat', sans-serif;*/
-  font-family: "Dejavu Sans";
+  /*font-family: "Dejavu Sans";*/
+  font-family: Arial,Helvetica,sans-serif;
 }
 
 a,
