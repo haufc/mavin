@@ -54,8 +54,7 @@ class JobSearchHelper {
             def job = [:]
                 job.title = doc.title_s
                 job.type = doc.type_s
-                Date date = Date.parse( 'yyyy-MM-dd HH:mm:ss.S', doc.duration_dt )
-                job.duration = date.format( 'M-d-yyyy' )
+                job.duration = doc.duration_dt.format( 'M-d-yyyy' )
                 job.url = urlTransformationService.transform("storeUrlToRenderUrl", doc.localId)
                 job.image = doc.image_s
     
