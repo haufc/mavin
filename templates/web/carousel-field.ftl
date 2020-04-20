@@ -44,7 +44,12 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="row">
+                    </div>
+                </div>
+                </#list>
+                </#if>
+            </div>
+            <div class="row">
                             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                                 <ol class="carousel-indicators">
                                     <li data-target="#expSlide" data-slide-to="0" class="active"><span>1</span></li>
@@ -53,10 +58,5 @@
                                 </ol>
                             </div>
                         </div>
-                    </div>
-                </div>
-                </#list>
-                </#if>
-            </div>
         </div>
 	<@studio.toolSupport />
