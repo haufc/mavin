@@ -1,6 +1,6 @@
 <#import "/templates/system/common/cstudio-support.ftl" as studio />
 <div class="content__title text--center">
-    <h1 class="text--uppercase">${contentModel.title_s}</h1>
+    <h1 class="text--uppercase text--red">${contentModel.title_s}</h1>
 </div>
       <div class="content__details">
         <div class="job row">
@@ -16,7 +16,7 @@
                               </tr>
                               <tr>
                                 <td>Thời hạn:</td>
-                                <td>${job.duration}</td>
+                                <td class="date-formater">${job.duration}</td>
                               </tr>
                             </table>
                           </div>

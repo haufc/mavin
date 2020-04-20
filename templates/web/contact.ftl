@@ -1,7 +1,7 @@
 <#import "/templates/system/common/cstudio-support.ftl" as studio />
 <div class="recruitment">
         <div class="content__title text--center">
-            <h1 class="text--uppercase">${contentModel.title_s}</h1>
+            <h1 class="text--uppercase text--red">${contentModel.title_s}</h1>
           </div>
         <div class="container-fluid p-3 text-white">         
             <div class="row">

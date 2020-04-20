@@ -1,4 +1,5 @@
 <#import "/templates/system/common/cstudio-support.ftl" as studio />
+<#import "/templates/system/common/cstudio-support.ftl" as studio />
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -16,35 +17,15 @@
   <body>
     <@renderComponent component=contentModel.header_o.item />
     <div class="content">
-        <#list (contentModel.slide_o.item)![] as section>
-            <@renderComponent parent=contentModel component=section />
-        </#list>
-    	<div class="mavinex-content">
-            <div class="mavinex-content__container">
-                <div class="mavinex-content__header">
-                    <div class="mavinex-content__header-content">
-                        <h1 style="color:red;">${contentModel.title_s}</h1>
-
-                    </div>
-                </div>
-
-                <div class="mavinex-content__body">
-                    <div class="mavinex-content__body-content row">
-                        <div class="mavinex-content__text col-xs-12 col-sm-12 col-md-6 col-lg-6">
-                            <p>Hình thức tuyển dụng: ${contentModel.type_s}</p>
-                            <#list (contentModel.item_o.item)![] as element>
-                                <p>${element.title_s}</p>
-                                <p>${element.content_t}</p>
-                            </#list>
-                        </div>
-
-                        <div class="mavinex-content__img col-xs-12 col-sm-12 col-md-6 col-lg-6">
-                            <img src="${contentModel.image_s}" alt="Content Image">
-                        </div>
-                    </div>
-                </div>
-            </div>
+        <@renderComponent component=contentModel.slide_o.item />
+        <div class="content__title">
+        <div class="container" style="padding: 0;">
+            <h1 class="text--uppercase text--red">${contentModel.title_s}</h1>
         </div>
+      </div>
+      <div class="content__details--nopadding-x container">
+            ${contentModel.contents_html}
+      </div>
     </div>
     <@renderComponent component=contentModel.memberlist_o.item />
     <@renderComponent component=contentModel.footer_o.item />
@@ -62,4 +43,5 @@
     <script src="/static-assets/js/script.js"></script>
   </body>
 </html>
+<@studio.toolSupport />
 <@studio.toolSupport />

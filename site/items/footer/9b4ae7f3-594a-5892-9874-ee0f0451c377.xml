@@ -12,8 +12,8 @@
 	<backgroundImage_s>/static-assets/images/featured/footer_bg.png</backgroundImage_s>
 	<createdDate>2020-03-25T10:27:58.433Z</createdDate>
 	<createdDate_dt>2020-03-25T10:27:58.433Z</createdDate_dt>
-	<lastModifiedDate>2020-03-27T04:31:59.259Z</lastModifiedDate>
-	<lastModifiedDate_dt>2020-03-27T04:31:59.259Z</lastModifiedDate_dt>
+	<lastModifiedDate>2020-04-16T04:07:52.516Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-04-16T04:07:52.516Z</lastModifiedDate_dt>
 	<socialMedia_o item-list="true">	<item>	<url_s>https://www.facebook.com/</url_s>
 	<icon_s>fa-facebook-f</icon_s>
 	</item>	<item>	<icon_s>fa-linkedin</icon_s>
@@ -23,5 +23,8 @@
 	</item>	<item>	<icon_s>fa-youtube</icon_s>
 	<url_s>https://www.youtube..com/</url_s>
 	</item></socialMedia_o>
-
+	<companyname_s>Công ty cổ phần Mavinex(Mavinex)</companyname_s>
+	<companysAddress_s>Thôn Lôi Cầu, xã Việt Hòa, huyện Khoái Châu, tỉnh Hưng Yên</companysAddress_s>
+	<phonenumber_s>0221 3 921 921</phonenumber_s>
+	<tax_s>0901009304</tax_s>
 </component>

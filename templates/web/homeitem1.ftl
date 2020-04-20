@@ -3,7 +3,7 @@
     	<!-- Giới thiệu -->
          <div class="content__item" id="about" <@studio.iceAttr component=contentModel/>>
             <div class="content__title text--center">
-              <h1 class="text--uppercase">${contentModel.title_s}</h1>
+              <h1 class="text--uppercase text--red">${contentModel.title_s}</h1>
             </div>
             <div class="content__details row">
               <div class="content__img col-sm-12 col-md-6 col-lg-6">
@@ -24,7 +24,7 @@
         <!-- Năng lực kinh nghiệm -->
         <div class="content__item" id="activity" <@studio.iceAttr component=contentModel/>>
             <div class="content__title text--center">
-              <h1 class="text--uppercase">${contentModel.title_s}</h1>
+              <h1 class="text--uppercase text--red">${contentModel.title_s}</h1>
             </div>
             <div class="content__details row">
               <div class="content__img col-12"><img class="img--full" src="${contentModel.image_s}" alt="Content Image"/></div>
