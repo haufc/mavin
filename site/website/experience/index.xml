@@ -30,61 +30,39 @@
 	<lastModifiedDate>2020-04-01T06:28:23.646Z</lastModifiedDate>
 	<lastModifiedDate_dt>2020-04-01T06:28:23.646Z</lastModifiedDate_dt>
 </component>
-	</item>	<item datasource="sections" inline="true">	<key>323c7483-f139-469f-d336-539a0fae4297</key>
-	<value>Năng lực kinh nghiệm</value>
-<component id="323c7483-f139-469f-d336-539a0fae4297">
-	<content-type>/component/componentintroductcontenttype2</content-type>
-	<display-template>/templates/web/introduce2.ftl</display-template>
+	</item>	<item datasource="sections" inline="true">	<key>268f5b52-f805-2342-2f36-0d4abb2d1950</key>
+	<value>Lĩnh vực xây dựng</value>
+<component id="268f5b52-f805-2342-2f36-0d4abb2d1950">
+	<content-type>/component/componentfields</content-type>
+	<display-template>/templates/web/fields.ftl</display-template>
 	<no-template-required/>
 	<merge-strategy>inherit-levels</merge-strategy>
-	<objectGroupId>323c</objectGroupId>
-	<objectId>323c7483-f139-469f-d336-539a0fae4297</objectId>
-	<file-name>323c7483-f139-469f-d336-539a0fae4297.xml</file-name>
-	<internal-name>Năng lực kinh nghiệm</internal-name>
-	<title_s>NĂNG LỰC KINH NGHIỆM</title_s>
-	<tabItem_o item-list="true">	<item>	<tabTitle_s> LĨNH VỰC XÂY DỰNG</tabTitle_s>
-	<tabId_s>buildingfield</tabId_s>
-	<tabdes1_s>Dự án Nhà máy thức ăn chăn nuôi Mavin Austfeed</tabdes1_s>
-	<tabdes2_s>Dự án Nhà máy thức ăn chăn nuôi Mavin Austfeed</tabdes2_s>
-	<tabdes3_s>Dự án Nhà máy thức ăn chăn nuôi Mavin Austfeed</tabdes3_s>
-	<tabdes4_s>Dự án Nhà máy thức ăn chăn nuôi Mavin Austfeed</tabdes4_s>
-	<tabImage1_s>/static-assets/images/featured/content_img_6.png</tabImage1_s>
-	<tabImage2_s>/static-assets/images/featured/content_img_7.png</tabImage2_s>
-	<tabImage3_s>/static-assets/images/featured/content_img_8.png</tabImage3_s>
-	<tabImage4_s>/static-assets/images/featured/content_img_9.png</tabImage4_s>
-	<tabActive_b>true</tabActive_b>
-	<tabContent_html>&lt;h3 class="text--uppercase text--center text-white" style="box-sizing: border-box; margin: 0px 0px 0.5rem; padding: 0px; font-family: 'Baloo Chettan 2', 'Baloo 2', 'Bellota Text', Comfortaa, cursive, Montserrat, sans-serif; font-weight: 500; line-height: 1.2; font-size: 1.75rem; text-align: center; text-transform: uppercase; text-size-adjust: auto; color: #ffffff !important;"&gt;LĨNH VỰC X&amp;Acirc;Y DỰNG&lt;/h3&gt;
-&lt;p class="text-white" style="box-sizing: border-box; margin: 0px 0px 0.75rem; padding: 0px; font-family: 'Baloo Chettan 2', 'Baloo 2', 'Bellota Text', Comfortaa, cursive, Montserrat, sans-serif; line-height: 1.5; font-size: 13px; background-color: #00559a; color: #ffffff !important;"&gt;Với thế mạnh trong lĩnh vực thi c&amp;ocirc;ng x&amp;acirc;y dựng, C&amp;ocirc;ng ty Cổ phần Mavinex đ&amp;atilde; v&amp;agrave; đang tạo niềm tin đối với kh&amp;aacute;ch h&amp;agrave;ng bằng việc x&amp;acirc;y dựng những c&amp;ocirc;ng tr&amp;igrave;nh chất lượng, quy m&amp;ocirc;, đạt đẳng cấp quốc tế.&lt;/p&gt;
-&lt;p class="text-white" style="box-sizing: border-box; margin: 0px 0px 0.75rem; padding: 0px; font-family: 'Baloo Chettan 2', 'Baloo 2', 'Bellota Text', Comfortaa, cursive, Montserrat, sans-serif; line-height: 1.5; font-size: 13px; background-color: #00559a; color: #ffffff !important;"&gt;Mavinex l&amp;agrave; tập thể c&amp;aacute;c kỹ sư, kiến tr&amp;uacute;c sư d&amp;agrave;y dặn kinh nghiệm v&amp;agrave; c&amp;aacute;c c&amp;ocirc;ng nh&amp;acirc;n l&amp;agrave;nh nghề lu&amp;ocirc;n đặt hết t&amp;acirc;m huyết v&amp;agrave;o trong từng c&amp;ocirc;ng tr&amp;igrave;nh x&amp;acirc;y dựng. Ch&amp;uacute;ng t&amp;ocirc;i cũng sở hữu c&amp;aacute;c trang thiết bị v&amp;agrave; m&amp;aacute;y m&amp;oacute;c tối t&amp;acirc;n để kiểm tra c&amp;aacute;c chi tiết kỹ thuật thi c&amp;ocirc;ng đảm bảo ti&amp;ecirc;u chuẩn chất lượng v&amp;agrave; t&amp;iacute;nh ch&amp;iacute;nh x&amp;aacute;c.&lt;/p&gt;
-&lt;h3 class="text--uppercase text-white" style="box-sizing: border-box; margin: 0px 0px 0.5rem; padding: 0px; font-family: 'Baloo Chettan 2', 'Baloo 2', 'Bellota Text', Comfortaa, cursive, Montserrat, sans-serif; font-weight: 500; line-height: 1.2; font-size: 1.75rem; text-transform: uppercase; background-color: #00559a; color: #ffffff !important;"&gt;MAVINEX CAM KẾT:&lt;/h3&gt;
-&lt;p class="text-white" style="box-sizing: border-box; margin: 0px 0px 0.75rem; padding: 0px; font-family: 'Baloo Chettan 2', 'Baloo 2', 'Bellota Text', Comfortaa, cursive, Montserrat, sans-serif; line-height: 1.5; font-size: 13px; background-color: #00559a; color: #ffffff !important;"&gt;- Chất lượng c&amp;ocirc;ng tr&amp;igrave;nh l&amp;agrave; ti&amp;ecirc;u ch&amp;iacute; h&amp;agrave;ng đầu tạo sự tin tưởng cho kh&amp;aacute;ch h&amp;agrave;ng&lt;/p&gt;
-&lt;p class="text-white" style="box-sizing: border-box; margin: 0px 0px 0.75rem; padding: 0px; font-family: 'Baloo Chettan 2', 'Baloo 2', 'Bellota Text', Comfortaa, cursive, Montserrat, sans-serif; line-height: 1.5; font-size: 13px; background-color: #00559a; color: #ffffff !important;"&gt;- Chi ph&amp;iacute; hợp l&amp;yacute; với mặt bằng chung của thị trường&lt;/p&gt;
-&lt;p class="text-white" style="box-sizing: border-box; margin: 0px 0px 0.75rem; padding: 0px; font-family: 'Baloo Chettan 2', 'Baloo 2', 'Bellota Text', Comfortaa, cursive, Montserrat, sans-serif; line-height: 1.5; font-size: 13px; background-color: #00559a; color: #ffffff !important;"&gt;- Tiến độ cam kết đ&amp;uacute;ng hẹn&lt;/p&gt;
-&lt;p class="text-white" style="box-sizing: border-box; margin: 0px 0px 0.75rem; padding: 0px; font-family: 'Baloo Chettan 2', 'Baloo 2', 'Bellota Text', Comfortaa, cursive, Montserrat, sans-serif; line-height: 1.5; font-size: 13px; background-color: #00559a; color: #ffffff !important;"&gt;- Đồng h&amp;agrave;nh c&amp;ugrave;ng kh&amp;aacute;ch h&amp;agrave;ng trong suốt qu&amp;aacute; tr&amp;igrave;nh sử dụng&lt;/p&gt;
-&lt;p class="text-white" style="box-sizing: border-box; margin: 0px 0px 0.75rem; padding: 0px; font-family: 'Baloo Chettan 2', 'Baloo 2', 'Bellota Text', Comfortaa, cursive, Montserrat, sans-serif; line-height: 1.5; font-size: 13px; background-color: #00559a; color: #ffffff !important;"&gt;- Đảm bảo vật tư đ&amp;uacute;ng v&amp;agrave; đủ đ&amp;aacute;p ứng chất lượng c&amp;ocirc;ng tr&amp;igrave;nh sau khi đưa v&amp;agrave;o sử dụng&lt;/p&gt;
-&lt;h3 class="text--uppercase text-white mb-3" style="box-sizing: border-box; padding: 0px; font-family: 'Baloo Chettan 2', 'Baloo 2', 'Bellota Text', Comfortaa, cursive, Montserrat, sans-serif; font-weight: 500; line-height: 1.2; font-size: 1.75rem; text-transform: uppercase; background-color: #00559a; color: #ffffff !important; margin: 0px 0px 1rem !important 0px;"&gt;MỘT SỐ DỰ &amp;Aacute;N TI&amp;Ecirc;U BIỂU MAVINEX Đ&amp;Atilde; THỰC HIỆN&lt;/h3&gt;</tabContent_html>
-	</item>	<item>	<tabTitle_s>TƯ VẤN TỔNG THỂ - THIẾT KẾ TRANG TRẠI CHĂN NUÔI</tabTitle_s>
-	<tabId_s>advice</tabId_s>
-	<tabContent_html>&lt;h3 class="text-white" style="box-sizing: border-box; margin: 0px 0px 0.5rem; padding: 0px; font-family: 'Baloo Chettan 2', 'Baloo 2', 'Bellota Text', Comfortaa, cursive, Montserrat, sans-serif; font-weight: 500; line-height: 1.2; font-size: 1.75rem; text-size-adjust: auto; color: #ffffff !important;"&gt;Th&amp;ocirc;ng tin đang cập nhật...&lt;/h3&gt;</tabContent_html>
-	<tabImage1_s/>
-	<tabdes1_s/>
-	<tabImage2_s/>
-	<tabdes2_s/>
-	<tabImage3_s/>
-	<tabdes3_s/>
-	<tabImage4_s/>
-	<tabdes4_s/>
-	<tabActive_b>false</tabActive_b>
-	</item></tabItem_o>
-	<createdDate>2020-04-01T06:28:38.537Z</createdDate>
-	<createdDate_dt>2020-04-01T06:28:38.537Z</createdDate_dt>
-	<lastModifiedDate>2020-04-13T07:44:30.623Z</lastModifiedDate>
-	<lastModifiedDate_dt>2020-04-13T07:44:30.623Z</lastModifiedDate_dt>
+	<objectGroupId>268f</objectGroupId>
+	<objectId>268f5b52-f805-2342-2f36-0d4abb2d1950</objectId>
+	<file-name>268f5b52-f805-2342-2f36-0d4abb2d1950.xml</file-name>
+	<internal-name>Lĩnh vực xây dựng</internal-name>
+	<title_s>Lĩnh vực xây dựng</title_s>
+	<itemTitle_s>Lĩnh vực xây dựng </itemTitle_s>
+	<itemId_s>fields</itemId_s>
+	<createdDate>2020-04-16T08:52:57.182Z</createdDate>
+	<createdDate_dt>2020-04-16T08:52:57.182Z</createdDate_dt>
+	<lastModifiedDate>2020-04-19T02:39:04.912Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-04-19T02:39:04.912Z</lastModifiedDate_dt>
+	<carousels_o item-list="true">	<item datasource="carouselsDataSource">	<key>/site/items/carousel/a055e5f0-ef72-9ad4-e747-2781cf9bbef5.xml</key>
+	<value>CarouselsFields</value>
+	<include>/site/items/carousel/a055e5f0-ef72-9ad4-e747-2781cf9bbef5.xml</include>
+	<disableFlattening>false</disableFlattening>
+	</item></carousels_o>
+	<itemContent_html>&lt;p style="box-sizing: border-box; margin: 0px 0px 1rem; padding: 0px; font-size: 25px; color: #ffffff; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'; text-size-adjust: auto;"&gt;Với thế mạnh trong lĩnh vực thi c&amp;ocirc;ng x&amp;acirc;y dựng, C&amp;ocirc;ng ty Cổ phần Mavinex đ&amp;atilde; v&amp;agrave; đang tạo niềm tin đối với kh&amp;aacute;ch h&amp;agrave;ng bằng việc x&amp;acirc;y dựng những c&amp;ocirc;ng tr&amp;igrave;nh chất lượng, quy m&amp;ocirc;, đạt đẳng cấp quốc tế.&lt;/p&gt;
+&lt;p style="box-sizing: border-box; margin: 0px 0px 1rem; padding: 0px; font-size: 25px; color: #ffffff; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'; text-size-adjust: auto;"&gt;Mavinex l&amp;agrave; tập thể c&amp;aacute;c kỹ sư, kiến tr&amp;uacute;c sư d&amp;agrave;y dặn kinh nghiệm v&amp;agrave; c&amp;aacute;c c&amp;ocirc;ng nh&amp;acirc;n l&amp;agrave;nh nghề lu&amp;ocirc;n đặt hết t&amp;acirc;m huyết v&amp;agrave;o trong từng c&amp;ocirc;ng tr&amp;igrave;nh x&amp;acirc;y dựng. Ch&amp;uacute;ng t&amp;ocirc;i cũng sở hữu c&amp;aacute;c trang thiết bị v&amp;agrave; m&amp;aacute;y m&amp;oacute;c tối t&amp;acirc;n để kiểm tra c&amp;aacute;c chi tiết kỹ thuật thi c&amp;ocirc;ng đảm bảo ti&amp;ecirc;u chuẩn chất lượng v&amp;agrave; t&amp;iacute;nh ch&amp;iacute;nh x&amp;aacute;c.&lt;/p&gt;
+&lt;p style="box-sizing: border-box; margin: 0px 0px 1rem; padding: 0px; font-size: 25px; color: #ffffff; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'; text-size-adjust: auto;"&gt;&lt;span class="Apple-converted-space"&gt;&amp;nbsp;&lt;/span&gt;&lt;span style="box-sizing: border-box; margin: 0px; padding: 0px;"&gt;MAVINEX CAM KẾT:&lt;/span&gt;&lt;/p&gt;
+&lt;p style="box-sizing: border-box; margin: 0px 0px 1rem; padding: 0px; font-size: 25px; color: #ffffff; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'; text-size-adjust: auto;"&gt;- Chất lượng c&amp;ocirc;ng tr&amp;igrave;nh l&amp;agrave; ti&amp;ecirc;u ch&amp;iacute; h&amp;agrave;ng đầu tạo sự tin tưởng cho kh&amp;aacute;ch h&amp;agrave;ng - Chi ph&amp;iacute; hợp l&amp;yacute; với mặt bằng chung của thị trường - Tiến độ cam kết đ&amp;uacute;ng hẹn - Đồng h&amp;agrave;nh c&amp;ugrave;ng kh&amp;aacute;ch h&amp;agrave;ng trong suốt qu&amp;aacute; tr&amp;igrave;nh sử dụng - Đảm bảo vật tư đ&amp;uacute;ng v&amp;agrave; đủ đ&amp;aacute;p ứng chất lượng c&amp;ocirc;ng tr&amp;igrave;nh sau khi đưa v&amp;agrave;o sử dụng&lt;/p&gt;
+&lt;p style="box-sizing: border-box; margin: 0px 0px 1rem; padding: 0px; font-size: 25px; color: #ffffff; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'; text-size-adjust: auto;"&gt;&lt;span class="Apple-converted-space"&gt;&amp;nbsp;&lt;/span&gt;&lt;span style="box-sizing: border-box; margin: 0px; padding: 0px;"&gt;MỘT SỐ DỰ &amp;Aacute;N TI&amp;Ecirc;U BIỂU MAVINEX Đ&amp;Atilde; THỰC HIỆN&lt;/span&gt;&lt;/p&gt;</itemContent_html>
 </component>
 	</item></sections_o>
 	<createdDate>2020-04-01T06:27:57.672Z</createdDate>
 	<createdDate_dt>2020-04-01T06:27:57.672Z</createdDate_dt>
-	<lastModifiedDate>2020-04-15T03:43:33.465Z</lastModifiedDate>
-	<lastModifiedDate_dt>2020-04-15T03:43:33.465Z</lastModifiedDate_dt>
+	<lastModifiedDate>2020-04-19T02:39:01.758Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-04-19T02:39:01.758Z</lastModifiedDate_dt>
 	<descripttion_t>Đây là trang đề cập đến năng lực của công ty trong các lĩnh vực đang hoạt động</descripttion_t>
 </page>

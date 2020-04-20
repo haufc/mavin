@@ -19,30 +19,33 @@
         <#list (contentModel.slide_o.item)![] as section>
             <@renderComponent parent=contentModel component=section />
         </#list>
-    	<div class="recruitment">
-            <div class="content__title text--center">
-                <h1 class="text--uppercase text--red">${contentModel.title_s}</h1>
-              </div>
-            <div class="container-fluid p-3 text-white">         
-                <div class="row">
-                    <div class="col-sm-12 col-md-6 col-lg-6">
-                        <p style="font-size: 16px;">
-                            <#list contentModel.item_o.item as element>
-                            	<strong>${element.title_s}</strong>
-                            	<br>
-                            	<p>
-                            	    ${element.content_t}
-                            	</p>
-                            </#list>
-                        </p>
+    	<div class="mavinex-content">
+            <div class="mavinex-content__container">
+                <div class="mavinex-content__header">
+                    <div class="mavinex-content__header-content">
+                        <h1 style="color:red;">${contentModel.title_s}</h1>
+
                     </div>
-                    <div class="col-sm-12 col-md-6 col-lg-6">
-                        <img src="${contentModel.image_s}" class="img--full" alt="">
+                </div>
+
+                <div class="mavinex-content__body">
+                    <div class="mavinex-content__body-content row">
+                        <div class="mavinex-content__text col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                            <p>Hình thức tuyển dụng: ${contentModel.type_s}</p>
+                            <#list (contentModel.item_o.item)![] as element>
+                                <p>${element.title_s}</p>
+                                <p>${element.content_t}</p>
+                            </#list>
+                        </div>
+
+                        <div class="mavinex-content__img col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                            <img src="${contentModel.image_s}" alt="Content Image">
+                        </div>
                     </div>
                 </div>
             </div>
-          </div>
         </div>
+    </div>
     <@renderComponent component=contentModel.memberlist_o.item />
     <@renderComponent component=contentModel.footer_o.item />
     <script src="/static-assets/plugins/jquery341/jquery(3.4.1.).js"></script>

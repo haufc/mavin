@@ -6,24 +6,10 @@
 	<merge-strategy>inherit-levels</merge-strategy>
 	<objectGroupId>656c</objectGroupId>
 	<objectId>656c78a4-ef21-f3ff-056c-8a75aec8d70a</objectId>
-	<sections_o item-list="true">	<item datasource="sections" inline="true">	<key>a41a0b7f-e7e4-25c5-cffe-d15634b5c96f</key>
-	<value>Slide</value>
-<component id="a41a0b7f-e7e4-25c5-cffe-d15634b5c96f">
-	<content-type>/component/slide</content-type>
-	<display-template>/templates/web/slide.ftl</display-template>
-	<no-template-required/>
-	<merge-strategy>inherit-levels</merge-strategy>
-	<objectGroupId>a41a</objectGroupId>
-	<objectId>a41a0b7f-e7e4-25c5-cffe-d15634b5c96f</objectId>
-	<image_o item-list="true">	<item>	<image_s>/static-assets/images/slides/bg_2.png</image_s>
-	</item></image_o>
-	<file-name>a41a0b7f-e7e4-25c5-cffe-d15634b5c96f.xml</file-name>
-	<internal-name>Slide</internal-name>
-	<createdDate>2020-03-26T09:33:46.768Z</createdDate>
-	<createdDate_dt>2020-03-26T09:33:46.768Z</createdDate_dt>
-	<lastModifiedDate>2020-03-26T09:40:33.414Z</lastModifiedDate>
-	<lastModifiedDate_dt>2020-03-26T09:40:33.414Z</lastModifiedDate_dt>
-</component>
+	<sections_o item-list="true">	<item datasource="carouselDataSource">	<key>/site/items/carousel/ae35b8bb-78ea-2486-bbe9-b245dab005fd.xml</key>
+	<value>CarouselHeader</value>
+	<include>/site/items/carousel/ae35b8bb-78ea-2486-bbe9-b245dab005fd.xml</include>
+	<disableFlattening>false</disableFlattening>
 	</item>	<item datasource="sections" inline="true">	<key>22a33590-653a-453f-3ad9-0fc2f6782fca</key>
 	<value>Content</value>
 <component id="22a33590-653a-453f-3ad9-0fc2f6782fca">
@@ -95,7 +81,7 @@
 	<folder-name>introduct</folder-name>
 	<createdDate>2020-03-26T09:30:07.188Z</createdDate>
 	<createdDate_dt>2020-03-26T09:30:07.188Z</createdDate_dt>
-	<lastModifiedDate>2020-04-09T08:22:51.179Z</lastModifiedDate>
-	<lastModifiedDate_dt>2020-04-09T08:22:51.179Z</lastModifiedDate_dt>
+	<lastModifiedDate>2020-04-19T03:01:01.119Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-04-19T03:01:01.119Z</lastModifiedDate_dt>
 	<descripttion_t>Đây là page giới thiệu về công ty bao gồm thông tin về công ty, lịch sử hình thành, cơ cấu tổ chức</descripttion_t>
 </page>

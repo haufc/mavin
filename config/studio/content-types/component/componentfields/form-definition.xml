@@ -1,15 +1,15 @@
 <form>
-	<title>Page - Home</title>
+	<title>Component - Fields</title>
 	<description></description>
-	<objectType>page</objectType>
-	<content-type>/page/home</content-type>
+	<objectType>component</objectType>
+	<content-type>/component/componentfields</content-type>
 	<imageThumbnail>undefined</imageThumbnail>
 	<quickCreate>false</quickCreate>
 	<quickCreatePath></quickCreatePath>
 	<properties>		<property>
 			<name>display-template</name>
 			<label>Display Template</label>
-			<value>/templates/web/home.ftl</value>
+			<value>/templates/web/fields.ftl</value>
 			<type>template</type>
 		</property>
 		<property>
@@ -26,15 +26,15 @@
 		</property>
 	</properties>
 	<sections>		<section>
-			<title>Page - Home Properties</title>
+			<title>Component - Fields Properties</title>
 			<description></description>
 			<defaultOpen>true</defaultOpen>
 			<fields>
 				<field>
-					<type>file-name</type>
+					<type>auto-filename</type>
 					<id>file-name</id>
 					<iceId></iceId>
-					<title>Page URL</title>
+					<title>Component ID</title>
 					<description></description>
 					<defaultValue></defaultValue>
 					<help></help>
@@ -87,29 +87,6 @@
 					</constraints>
 				</field>
 				<field>
-					<type>page-nav-order</type>
-					<id>placeInNav</id>
-					<iceId></iceId>
-					<title>Place in Nav</title>
-					<description></description>
-					<defaultValue></defaultValue>
-					<help></help>
-					<properties>
-						<property>
-							<name>readonly</name>
-							<value></value>
-							<type>boolean</type>
-						</property>
-					</properties>
-					<constraints>
-						<constraint>
-							<name>required</name>
-							<value><![CDATA[]]></value>
-							<type>boolean</type>
-						</constraint>
-					</constraints>
-				</field>
-				<field>
 					<type>input</type>
 					<id>title_s</id>
 					<iceId></iceId>
@@ -152,39 +129,162 @@
 						</constraint>
 					</constraints>
 				</field>
+			</fields>
+		</section>
+		<section>
+			<title>Content</title>
+			<description></description>
+			<defaultOpen>false</defaultOpen>
+			<fields>
 				<field>
-					<type>textarea</type>
-					<id>descripttion_t</id>
+					<type>input</type>
+					<id>itemTitle_s</id>
 					<iceId></iceId>
-					<title>Descripttion</title>
+					<title>ItemTitle</title>
 					<description></description>
 					<defaultValue></defaultValue>
 					<help></help>
 					<properties>
 						<property>
-							<name>cols</name>
+							<name>size</name>
 							<value>50</value>
 							<type>int</type>
 						</property>
 						<property>
-							<name>rows</name>
-							<value>5</value>
-							<type>int</type>
-						</property>
-						<property>
 							<name>maxlength</name>
-							<value>100000</value>
+							<value>50</value>
 							<type>int</type>
-						</property>
-						<property>
-							<name>allowResize</name>
-							<value>true</value>
-							<type>boolean</type>
 						</property>
 						<property>
 							<name>readonly</name>
 							<value></value>
 							<type>boolean</type>
+						</property>
+						<property>
+							<name>tokenize</name>
+							<value>false</value>
+							<type>boolean</type>
+						</property>
+					</properties>
+					<constraints>
+						<constraint>
+							<name>required</name>
+							<value><![CDATA[]]></value>
+							<type>boolean</type>
+						</constraint>
+						<constraint>
+							<name>pattern</name>
+							<value><![CDATA[]]></value>
+							<type>string</type>
+						</constraint>
+					</constraints>
+				</field>
+				<field>
+					<type>input</type>
+					<id>itemId_s</id>
+					<iceId></iceId>
+					<title>ItemId</title>
+					<description></description>
+					<defaultValue></defaultValue>
+					<help></help>
+					<properties>
+						<property>
+							<name>size</name>
+							<value>50</value>
+							<type>int</type>
+						</property>
+						<property>
+							<name>maxlength</name>
+							<value>50</value>
+							<type>int</type>
+						</property>
+						<property>
+							<name>readonly</name>
+							<value></value>
+							<type>boolean</type>
+						</property>
+						<property>
+							<name>tokenize</name>
+							<value>false</value>
+							<type>boolean</type>
+						</property>
+					</properties>
+					<constraints>
+						<constraint>
+							<name>required</name>
+							<value><![CDATA[]]></value>
+							<type>boolean</type>
+						</constraint>
+						<constraint>
+							<name>pattern</name>
+							<value><![CDATA[]]></value>
+							<type>string</type>
+						</constraint>
+					</constraints>
+				</field>
+				<field>
+					<type>rte-tinymce5</type>
+					<id>itemContent_html</id>
+					<iceId></iceId>
+					<title>ItemContent</title>
+					<description></description>
+					<defaultValue></defaultValue>
+					<help></help>
+					<properties>
+						<property>
+							<name>width</name>
+							<value></value>
+							<type>int</type>
+						</property>
+						<property>
+							<name>height</name>
+							<value></value>
+							<type>int</type>
+						</property>
+						<property>
+							<name>autoGrow</name>
+							<value>false</value>
+							<type>boolean</type>
+						</property>
+						<property>
+							<name>forceRootBlockPTag</name>
+							<value>true</value>
+							<type>boolean</type>
+						</property>
+						<property>
+							<name>forcePTags</name>
+							<value>true</value>
+							<type>boolean</type>
+						</property>
+						<property>
+							<name>forceBRTags</name>
+							<value>false</value>
+							<type>boolean</type>
+						</property>
+						<property>
+							<name>supportedChannels</name>
+							<value></value>
+							<type>supportedChannels</type>
+						</property>
+						<property>
+							<name>rteConfiguration</name>
+							<value>generic</value>
+							<type>string</type>
+						</property>
+						<property>
+							<name>imageManager</name>
+							<value></value>
+							<type>datasource:image</type>
+						</property>
+						<property>
+							<name>videoManager</name>
+							<value></value>
+							<type>datasource:video</type>
+						</property>
+						<property>
+							<name>fileManager</name>
+							<value></value>
+							<type>datasource:item</type>
 						</property>
 					</properties>
 					<constraints>
@@ -195,11 +295,18 @@
 						</constraint>
 					</constraints>
 				</field>
+			</fields>
+		</section>
+		<section>
+			<title>Carousels</title>
+			<description></description>
+			<defaultOpen>false</defaultOpen>
+			<fields>
 				<field>
 					<type>node-selector</type>
-					<id>sections_o</id>
+					<id>carousels_o</id>
 					<iceId></iceId>
-					<title>Sections</title>
+					<title>Carousels</title>
 					<description></description>
 					<defaultValue></defaultValue>
 					<help></help>
@@ -216,7 +323,7 @@
 						</property>
 						<property>
 							<name>itemManager</name>
-							<value>sections,carouselDataSource</value>
+							<value>carouselsDataSource</value>
 							<type>datasource:item</type>
 						</property>
 						<property>
@@ -247,22 +354,9 @@
 		</section>
 	</sections>
 	<datasources>				<datasource>
-					<type>embedded-content</type>
-					<id>sections</id>
-					<title>Sections</title>
-					<interface>item</interface>
-					<properties>
-						<property>
-							<name>contentType</name>
-							<value></value>
-								<type>undefined</type>
-						</property>
-					</properties>
-				</datasource>
-				<datasource>
 					<type>shared-content</type>
-					<id>carouselDataSource</id>
-					<title>Carousel DataSource</title>
+					<id>carouselsDataSource</id>
+					<title>Carousels DataSource</title>
 					<interface>item</interface>
 					<properties>
 						<property>
@@ -282,7 +376,7 @@
 						</property>
 						<property>
 							<name>repoPath</name>
-							<value></value>
+							<value>/site/items</value>
 								<type>undefined</type>
 						</property>
 						<property>
@@ -292,7 +386,7 @@
 						</property>
 						<property>
 							<name>type</name>
-							<value>/site/items</value>
+							<value></value>
 								<type>undefined</type>
 						</property>
 					</properties>
