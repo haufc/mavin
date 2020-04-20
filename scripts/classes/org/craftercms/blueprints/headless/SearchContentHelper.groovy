@@ -211,7 +211,7 @@ class SearchContentHelper {
                         }
                         
                         intro.highlight = StringUtils.join(highlightValues, "... ")
-                        intro.highlight = StringUtils.strip(job.highlight)
+                        intro.highlight = StringUtils.strip(intro.highlight)
                     }
                 }
                 intros << intro
