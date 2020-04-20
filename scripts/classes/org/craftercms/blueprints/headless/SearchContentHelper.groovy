@@ -11,11 +11,11 @@ import org.elasticsearch.search.sort.SortOrder
 class SearchContentHelper {
     static final String JOB_CONTENT_TYPE_QUERY = "content-type:\"/page/jobpage\""
     static final String HOME_CONTENT_TYPE_QUERY = "content-type:\"/page/home\""
-    static final String INTRO_CONTENT_TYPE_QUERY = "content-type:\"/page/home\""
+    static final String INTRO_CONTENT_TYPE_QUERY = "content-type:\"/page/introductiondetail\""
    
     static final String[] JOB_HIGHLIGHT_FIELDS = ["title_s", "item_o.item.content_t"]
     static final String[] HOME_HIGHLIGHT_FIELDS = ["title_s", "descripttion_t"]
-    static final String[] INTRO_HIGHLIGHT_FIELDS = ["title_s", "descripttion_t"]
+    static final String[] INTRO_HIGHLIGHT_FIELDS = ["title_s", "contents_html"]
     
     static final int DEFAULT_START = 0
     static final int DEFAULT_ROWS = 10
