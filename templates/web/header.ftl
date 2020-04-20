@@ -63,11 +63,12 @@
                             type="text" 
                             class="form-control rounded-0" 
                             placeholder="" 
+                            id="txtSearch"
                             onfocus="this.placeholder=' '"
-                            onblur="this.placeholder='Tìm gì đấy?...'"
+                            onblur="this.placeholder='Nhập từ khóa tìm kiếm!'"
                         >
                         <div class="input-group-append">
-                          <button type="button" class="btn btn-secondary rounded-0"><i class="fas fa-search"></i></button>
+                          <button type="button" class="btn btn-secondary rounded-0" onclick="search()"><i class="fas fa-search"></i></button>
                         </div>
                     </div>
                 </div>
