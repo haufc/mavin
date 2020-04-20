@@ -7243,6 +7243,9 @@ h6 {
         .mavinex-footer__item#mavinexCopyright {
             text-align: center;
         }
+        .mavinex-nav__search-bar.active {
+            top: 100px;
+        }
     }
 
     /* tablet */
