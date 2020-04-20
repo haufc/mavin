@@ -6381,7 +6381,7 @@ h6 {
     .mavinex-nav__search-bar.active {
         z-index: 1;
         position: absolute;
-        top: 70px;
+        top: 130px;
         left: 0;
         width: 100%;
         display: block;
