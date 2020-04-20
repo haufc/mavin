@@ -46,15 +46,15 @@
 	</item>	<item>	<content_t>Tư vấn đầu tư xây dựng và quản lý dự án ( Không bao gồm tư vấn pháp luật tài chính);</content_t>
 	</item>	<item>	<content_t>Kinh doanh nông nghiệp.</content_t>
 	</item></item_o>
-	<isVerticalContent_b>true</isVerticalContent_b>
+	<isVerticalContent_b>false</isVerticalContent_b>
 	<image_s>/static-assets/images/featured/content_img_1.png</image_s>
 	<file-name>f7fcf932-814d-7563-b5f4-061f709398da.xml</file-name>
 	<internal-name>Lĩnh vực hoạt động</internal-name>
 	<title_s>Lĩnh vực hoạt động</title_s>
 	<createdDate>2020-04-01T08:09:35.088Z</createdDate>
 	<createdDate_dt>2020-04-01T08:09:35.088Z</createdDate_dt>
-	<lastModifiedDate>2020-04-01T08:09:35.088Z</lastModifiedDate>
-	<lastModifiedDate_dt>2020-04-01T08:09:35.088Z</lastModifiedDate_dt>
+	<lastModifiedDate>2020-04-20T05:05:17.129Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-04-20T05:05:17.129Z</lastModifiedDate_dt>
 </component>
 	</item></sections_o>
 	<internal-name>Lĩnh vực hoạt động</internal-name>
@@ -63,7 +63,7 @@
 	<orderDefault_f>5000</orderDefault_f>
 	<createdDate>2020-04-01T08:08:25.217Z</createdDate>
 	<createdDate_dt>2020-04-01T08:08:25.217Z</createdDate_dt>
-	<lastModifiedDate>2020-04-09T08:28:37.273Z</lastModifiedDate>
-	<lastModifiedDate_dt>2020-04-09T08:28:37.273Z</lastModifiedDate_dt>
+	<lastModifiedDate>2020-04-20T05:05:12.763Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-04-20T05:05:12.763Z</lastModifiedDate_dt>
 	<descripttion_t>Đây là trang cung cấp các thông tin về các lĩnh vực mà công ty đang hoạt động </descripttion_t>
 </page>
