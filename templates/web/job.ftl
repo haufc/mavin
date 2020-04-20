@@ -16,7 +16,7 @@
                               </tr>
                               <tr>
                                 <td>Thời hạn:</td>
-                                <td class="date-formater">${job.duration}</td>
+                                <td>${job.duration}</td>
                               </tr>
                             </table>
                           </div>
