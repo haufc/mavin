@@ -54,7 +54,7 @@ class JobSearchHelper {
             def job = [:]
                 job.title = doc.title_s
                 job.type = doc.type_s
-                job.duration = doc.duration_td
+                job.duration = doc.duration_dt
                 job.url = urlTransformationService.transform("storeUrlToRenderUrl", doc.localId)
                 job.image = doc.image_s
     
