@@ -13,15 +13,15 @@
         <div class="content__details container">
             <div class="row">
                     <div class="col-lg6 col-md-6 col-sm-6 col-6" style="padding: 0;">
-                        <#if (contentModel.image_s)?? >
-                        <img src="${contentModel.image_s}" alt="" class="img--full">
+                        <#if (contentModel.item_o.item)??>
+                            <#list contentModel.item_o.item as element>
+                                <p class="text--white">${element.content_t}<p>
+                            </#list>
                         </#if>
                     </div>
                     <div class="col-lg6 col-md-6 col-sm-6 col-6" style="padding: 0;">
-                        <#if (contentModel.item_o.item)??>
-                            <#list contentModel.item_o.item as element>
-                                <p>${element.content_t}<p>
-                            </#list>
+                        <#if (contentModel.image_s)?? >
+                        <img src="${contentModel.image_s}" alt="" class="img--full">
                         </#if>
                     </div>
             </div>
