@@ -7211,6 +7211,7 @@ h6 {
         }
         .mavinex-nav__links {
             display: none;
+            top: 70px !important;
         }
         .mavinex-nav__btn#toggleNavBtn {
             display: block;
