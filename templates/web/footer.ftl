@@ -59,7 +59,7 @@
                 </div>
                 <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
                     <div class="footer__sign-up mb-3">
-                      <h3 class="text--uppercase">Đăng ký nhận bản tin</h3>
+                      <h4 class="text--uppercase">Đăng ký nhận bản tin</h4>
                       <div class="input-group">
                         <input class="form-control rounded-0" type="text" placeholder="..."/>
                         <div class="input-group-prepend">
