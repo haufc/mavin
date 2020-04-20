@@ -145,10 +145,9 @@ function search() {
             type: "GET",
             url:urlService,
             success: function(resp){
-                console.log("This is first arr", resp[0]);
-                console.log("This is second arr", resp[1]);
-                console.log("This is merging two arr", resp[0].concat(resp[1]));
                 localStorage.setItem("listSearch", JSON.stringify(resp[0]));
+                localStorage.setItem("mergeLst", JSON.stringify(resp[0].concat(resp[1])));
+                
                 window.location.replace(getContextPath()+ "/search-result");
             }
         });
