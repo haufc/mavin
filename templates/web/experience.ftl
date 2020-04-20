@@ -13,7 +13,6 @@
                             </div>
                             </#list>
                             <#else>
-                            ABCCC
                             </#if>
                             
                         </div>    
