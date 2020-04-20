@@ -19,30 +19,34 @@
         <#list (contentModel.slide_o.item)![] as section>
             <@renderComponent parent=contentModel component=section />
         </#list>
-    	<div class="mavinex-content">
-            <div class="mavinex-content__container">
-                <div class="mavinex-content__header">
-                    <div class="mavinex-content__header-content">
-                        <h1 style="color:red;">${contentModel.title_s}</h1>
-
-                    </div>
-                </div>
-
-                <div class="mavinex-content__body">
-                    <div class="mavinex-content__body-content row">
-                        <div class="mavinex-content__text col-xs-12 col-sm-12 col-md-6 col-lg-6">
-                            <p>Hình thức tuyển dụng: ${contentModel.type_s}</p>
-                            <#list (contentModel.item_o.item)![] as element>
-                                <p>${element.title_s}</p>
-                                <p>${element.content_t}</p>
-                            </#list>
+        <div class="content" <@studio.iceAttr component=contentModel/>>
+            <div class="content__title">
+                <div class="container">
+                        <div class="content__title text--center">
+                          <#if (contentModel.title_s)??>
+                          <h2 class="text--uppercase text--red">${contentModel.title_s}</h2>
+                          </#if>
                         </div>
-
-                        <div class="mavinex-content__img col-xs-12 col-sm-12 col-md-6 col-lg-6">
-                            <img src="${contentModel.image_s}" alt="Content Image">
-                        </div>
-                    </div>
                 </div>
+            </div>
+            <div class="content__details container">
+                <div class="row">
+                        <div class="col-lg6 col-md-6 col-sm-6 col-6" style="padding: 0;">
+                            <p style="color:#fff; font-size:14pt;">Hình thức tuyển dụng: ${contentModel.type_s}</p>
+                            <#if (contentModel.item_o.item)??>
+                                <#list contentModel.item_o.item as element>
+                                    <p style="color:#fff; font-size:14pt;">${element.title_s}<p>
+                                    <p style="color:#fff; font-size:14pt;">${element.content_t}<p>
+                                </#list>
+                            </#if>
+                        </div>
+                        <div class="col-lg6 col-md-6 col-sm-6 col-6" style="padding: 0;">
+                            <#if (contentModel.image_s)?? >
+                            <img src="${contentModel.image_s}" alt="" class="img--full">
+                            </#if>
+                        </div>
+                </div>
+            
             </div>
         </div>
     </div>
