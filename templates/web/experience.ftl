@@ -1,41 +1,36 @@
 <#import "/templates/system/common/cstudio-support.ftl" as studio />
-	<div class="mavinex-content" <@studio.iceAttr component=contentModel/>>
-            <div class="mavinex-content__container">
-                <div class="mavinex-content__header">
-                    <div class="mavinex-content__header-content">
-                        <div class="row">
-                            <#if (contentModel.item_o)?? >
-                            <#list contentModel.item_o.item as item>
-                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-                                <#if (item.itemTitle_s)?? >
-                                <h2 style="margin-top:20px; color:red;">${item.itemTitle_s}</h2>
-                                </#if>
-                            </div>
-                            </#list>
-                            <#else>
-                            </#if>
-                            
-                        </div>    
-                    </div>
+<div class="content__title">
+        <div class="container" <@studio.iceAttr component=contentModel/>>
+            <div class="row">
+                <#if (contentModel.item_o)??>
+                <#list contentModel.item_o.item as item>
+                <div class="col-lg-6 col-md-6 col-sm-6 col-6">
+                  <#if (item.itemTitle_s)??>
+                  <h2 class="text--uppercase text--red">${item.itemTitle_s}</h2>
+                  </#if>
+                </div>
+                </#list>
+                </#if>
+            </div>
+        </div>
+        <div class="content__details container">
+          <div class="row">
+            <#if (contentModel.item_o)??>
+            <#list contentModel.item_o.item as item>
+                <div class="col-lg6 col-md-6 col-sm-6 col-6" style="padding: 0;">
+                    <#if (item.itemImage_s)?? >
+                    <img src="${item.itemImage_s}" alt="" class="img--full">
+                    </#if>
+                <div class="col-lg6 col-md-6 col-sm-6 col-6" style="padding: 0;">
+                     <a class="content__btn btn mt-3 rounded-0" href="/experience"> 
+                        <span class="mr-3">Xem thêm</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
                 </div>
             </div>
-            <div class="mavinex-content__body">
-                <div class="mavinex-content__body-content container">
-                    <div class="row">
-                        <#if (contentModel.item_o)?? >
-                        <#list contentModel.item_o.item as element>
-                        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-                            <div>  
-                                <#if (element.itemImage_s)?? >
-                                <img src="${element.itemImage_s}">
-                                <a href="/experience"><span style="margin-right: 15px; font-size:20px; color: white;">Xem tiếp</span><i style="font-size: 35px;" class="fas fa-caret-right text--red"></i></a> 
-                                </#if>
-                            </div>
-                        </div>
-                        </#list>
-                        </#if>
-                    </div>
-                </div>
-            </div>
-    </div>
+            </#list>
+            </#if>
+          </div>
+        </div>
+</div>
 	<@studio.toolSupport />
