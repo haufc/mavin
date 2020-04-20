@@ -6322,7 +6322,7 @@ h6 {
         display: flex;
         flex-direction: column;
         gap: 15px;
-        background: #cd2027;
+        background: #00549a;
     }
     .mavinex-nav__links > .mavinex-nav__link {
         position: relative;
@@ -6344,7 +6344,7 @@ h6 {
         content: "";
         width: 0;
         height: 1px;
-        background: var(--dark-red);
+        background: #cd2027;
         transition: width 0.3s ease-in-out;
     }
     .mavinex-nav__link::before {
@@ -6372,7 +6372,7 @@ h6 {
         transition: background 0.3s ease-in-out;
     }
     .mavinex-nav__btns .mavinex-nav__btn:hover {
-        background: var(--dark-red);
+        background: #cd2027;
     }
     /* search bar */
     .mavinex-nav__search-bar {
