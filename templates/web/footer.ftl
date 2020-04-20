@@ -59,7 +59,7 @@
                 </div>
                 <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
                     <div class="footer__sign-up mb-3">
-                      <h3 class="text--uppercase">Đăng ký nhận bản tin</h3>
+                      <h4 class="text--uppercase">Đăng ký nhận bản tin</h4>
                       <div class="input-group">
                         <input class="form-control rounded-0" type="text" placeholder="..."/>
                         <div class="input-group-prepend">
@@ -69,7 +69,7 @@
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
-                  <h3 class="text-white text--uppercase text--center">Kết nối với chúng tôi</h3>
+                  <h4 class="text-white text--uppercase text--center">Kết nối với chúng tôi</h4>
                   <div class="footer__btns">
                     <#if (contentModel.socialMedia_o.item)??>
                         <#list contentModel.socialMedia_o.item as media>
