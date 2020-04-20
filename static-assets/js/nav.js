@@ -11,3 +11,11 @@ function scrollFunction() {
     }
 } 
 
+function toggleNav() {
+    var nav = document.getElementById("nav-content");
+    if(nav.className === "mavinex-nav__links") {
+        nav.className += " show";
+    } else {
+        nav.className = "mavinex-nav__links";
+    }
+}
