@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="/static-assets/plugins/bootstrap441/css/bootstrap.min.css"/>
     <link rel="stylesheet" href="/static-assets/plugins/bootstrap-select1139/dist/css/bootstrap-select.min.css"/>
     <link rel="stylesheet" href="/static-assets/css/styles.css"/>
+    <link rel="stylesheet" href="/static-assets/css/mavinex.css"/>
   </head>
   <body>
     <@renderComponent component=contentModel.header_o.item />
