@@ -1,6 +1,10 @@
 <#import "/templates/system/common/cstudio-support.ftl" as studio />
         <div class="carousel slide" data-ride="carousel" id="expSlide" <@studio.iceAttr component=contentModel/>>
-
+            <ol class="carousel-indicators">
+                <li data-target="#expSlide" data-slide-to="0" class="active"></li>
+                <li data-target="#expSlide" data-slide-to="1"></li>
+                <li data-target="#expSlide" data-slide="next"></li>
+            </ol>
             <div class="carousel-inner">
                 <#if (contentModel.image_o.item)?? && contentModel.image_o??>
                 <#assign first = true>
@@ -49,14 +53,5 @@
                 </#list>
                 </#if>
             </div>
-            <div class="row">
-                            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                                <ol class="carousel-indicators">
-                                    <li data-target="#expSlide" data-slide-to="0" class="active"><span>1</span></li>
-                                    <li data-target="#expSlide" data-slide-to="1"><span>2</span></li>
-                                    <li data-target="#expSlide" data-slide="next"><i class="fas fa-caret-right"></i></li>
-                                </ol>
-                            </div>
-                        </div>
         </div>
 	<@studio.toolSupport />
