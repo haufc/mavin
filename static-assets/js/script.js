@@ -20,10 +20,7 @@ $(document).ready(function() {
             page = 1,
             totalPages = 0;
             
-       // var storedLstSearch = JSON.parse(localStorage.getItem("listSearch"));
         var storedLstSearch = JSON.parse(localStorage.getItem("mergeLst"));
-       // var mergeLst = JSON.parse(localStorage.getItem("mergeLst"));
-       // console.log("mergeLst: ", mergeLst);
         records = storedLstSearch;
         totalRecords = records.length;
         totalPages = Math.ceil(totalRecords / recPerPage);
