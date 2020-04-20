@@ -1,6 +1,6 @@
 <#import "/templates/system/common/cstudio-support.ftl" as studio />
     <div <@studio.iceAttr component=contentModel/>
-        <div id="${contentModel.objectId}" class="carousel slide" data-ride="carousel">
+        <div class="carousel slide" data-ride="carousel" id="${contentModel.objectId}">
             <ol class="carousel-indicators">
                 <li data-target="#${contentModel.objectId}" data-slide-to="0" class="active"><span>1</span></li>
                 <li data-target="#${contentModel.objectId}" data-slide-to="1"><span>2</span></li>
