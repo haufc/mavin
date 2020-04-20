@@ -59,6 +59,7 @@
     <script src="/static-assets/plugins/owlcarousel234/dist/owl.carousel.min.js"></script>
     <script src="/static-assets/js/language_selector.js"></script>
     <script src="/static-assets/js/nav.js"></script>
+    <script src="/static-assets/js/logos.js"></script>
     <script src="/static-assets/js/smooth_scroll.js"></script>
     <script src="/static-assets/js/responsive.js"></script>
     <script src="/static-assets/js/search-bar.js"></script>
