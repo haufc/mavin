@@ -46,8 +46,6 @@ class JobSearchHelper {
           return []
         }
     }
-    Date date = Date.parse( 'yyyy-MM-dd HH:mm:ss.S', duration_dt )
-    String newDate = date.format( 'dd-MM-yyyy' )
     def processJobListingResults(result) {
         def jobs = []
         def documents = result.hits.hits*.getSourceAsMap() 
@@ -56,6 +54,8 @@ class JobSearchHelper {
             def job = [:]
                 job.title = doc.title_s
                 job.type = doc.type_s
+                Date date = Date.parse( 'yyyy-MM-dd HH:mm:ss.S', duration_dt )
+                String newDate = date.format( 'dd-MM-yyyy' )
                 job.duration = doc.newDate
                 job.url = urlTransformationService.transform("storeUrlToRenderUrl", doc.localId)
                 job.image = doc.image_s
