@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="/static-assets/plugins/bootstrap441/css/bootstrap.min.css"/>
     <link rel="stylesheet" href="/static-assets/plugins/bootstrap-select1139/dist/css/bootstrap-select.min.css"/>
     <link rel="stylesheet" href="/static-assets/css/styles.css"/>
+    <link rel="stylesheet" href="/static-assets/css/mavinex.css"/>
   </head>
   <body>
     <@renderComponent component=contentModel.header_o.item />
@@ -31,6 +32,7 @@
     <script src="/static-assets/plugins/bootstrap-select1139/dist/js/bootstrap-select.min.js"></script>
     <script src="/static-assets/plugins/owlcarousel234/dist/owl.carousel.min.js"></script>
     <script src="/static-assets/js/language_selector.js"></script>
+    <script src="/static-assets/js/logos.js"></script>
     <script src="/static-assets/js/nav.js"></script>
     <script src="/static-assets/js/smooth_scroll.js"></script>
     <script src="/static-assets/js/responsive.js"></script>

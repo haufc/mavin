@@ -1,19 +1,19 @@
 <#import "/templates/system/common/cstudio-support.ftl" as studio />
-<div class="mavinex-content" <@studio.iceAttr component=contentModel/>>
-    <div class="mavinex-content__container">
-        <div class="mavinex-content__header">
-            <div class="mavinex-content__header-content">
+<div class="content" <@studio.iceAttr component=contentModel/>>
+    <div class="content__title">
+            <div class="container">
                 <div class="row">
-                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-                    <h1 style="color: red">${contentModel.itemTitle_s}</h1></div>
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-6">
+                          <h1 style="color: red">${contentModel.itemTitle_s}</h1>
+                        </div>
                 </div>
-                </div>
-        </div>
-
-        <div class="mavinex-content__body">
-            <div class="mavinex-content__body-content container">
+            </div>
+    </div>
+    <div class="content__details container">
+            <div class="row">
                 ${contentModel.itemContent_html}
-                <div class="row" <@studio.componentContainerAttr target="carousels" objectId=contentModel.objectId/>>
+            </div>
+            <div class="row" <@studio.componentContainerAttr target="carousels" objectId=contentModel.objectId/>>
                 <#if contentModel.carousels_o?? && contentModel.carousels_o.item??>
                     <div style="color: #fff;">
                     <#list contentModel.carousels_o.item as carousel>
@@ -22,8 +22,8 @@
                     </div>
                 </#if>
             </div>
-            </div>
-        </div>
     </div>
 </div>
+    
+        
 <@studio.toolSupport />

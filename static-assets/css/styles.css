@@ -6903,8 +6903,6 @@ h6 {
 .separator::after {
     margin-left: .25em;
 }
-
-
 /*.mavinex-nav {*/
 /*        width: 100%;*/
 /*        display: flex;*/
@@ -7288,6 +7286,7 @@ h6 {
             height: 230px;
         }
     }
+
 /* slide */
 @media (max-width: 600px) {
   .welcome-img {

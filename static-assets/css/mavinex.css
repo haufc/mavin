@@ -1,0 +1,437 @@
+:root {
+    --light-blue: #8fd8f9;
+    --dark-blue: #00549a;
+    --dark-red: #cd2027;
+}
+
+html, body {
+    font-size: 13px;
+}
+
+*, body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /*
+        @fromHungDTWithBugs: 
+        Chú tìm font phù hợp rồi đưa vào đây 
+    */
+    /* font-family: ; */
+}
+
+a, a:hover, a:focus, a:link, a:visited, a:active {
+    text-decoration: none;
+}
+
+a, button {
+    cursor: pointer;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+.text--lowercase {
+    text-transform: lowercase;
+}
+.text--uppercase {
+    text-transform: uppercase;
+}
+.text--capitalize {
+    text-transform: capitalize;
+}
+.text--italic {
+    font-style: italic;
+}
+.text--red {
+    color: var(--dark-red);
+}
+.text--blue {
+    color: var(--dark-blue);
+}
+.text--white {
+    color: #fff;
+}
+
+/* navigation bar */
+    .mavinex-nav {
+        width: 100%;
+        display: flex;
+        background: var(--dark-blue);
+    }
+    .mavinex-nav__container {
+        position: relative;
+        margin: 0 auto;
+        max-width: 1400px;
+        width: 100%;
+        height: 70px;
+        padding: 0 15px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    /* navigation bar menu */
+    .mavinex-nav__links {
+        max-width: 920px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        transition: all 0.5s ease-in-out;
+    }
+    .mavinex-nav__links.show {
+        z-index: 1;
+        position: absolute;
+        top: 70px;
+        left: 0;
+        padding: 15px;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        background: var(--dark-blue);
+    }
+    .mavinex-nav__links > .mavinex-nav__link {
+        position: relative;
+        /* 
+            @fromHungDTWithBugs: 
+            Sau khi có font phù hợp thì chú có thể thay đổi kích thước chữ ở đây. 
+            Do anh dùng font mặc định của Bootstrap nên nếu để đúng kích thước của họ (24px) thì quá to
+        */
+        font-size: 15px; 
+        color: #fff;
+    }
+    /* 
+        @fromHungDTWithBugs: navigation bar animations
+        Anh có bổ sung animation mới tại đây, nếu họ không thích thì chú có thể chuyển về kiểu cũ và bỏ đoạn sau đi
+    */
+    .mavinex-nav__link::before,
+    .mavinex-nav__link::after {
+        position: absolute;
+        content: "";
+        width: 0;
+        height: 1px;
+        background: var(--dark-red);
+        transition: width 0.3s ease-in-out;
+    }
+    .mavinex-nav__link::before {
+        top: -20%;
+        left: 0;
+    }
+    .mavinex-nav__link::after {
+        right: 0;
+        bottom: -20%;
+    }
+    .mavinex-nav__link:hover::before,
+    .mavinex-nav__link:hover::after,
+    .mavinex-nav__link.active::before,
+    .mavinex-nav__link.active::after {
+        width: 100%;
+    }
+    /* navigation bar buttons */
+    .mavinex-nav__btns {
+        display: flex;
+    }
+    .mavinex-nav__btns .mavinex-nav__btn {
+        border: none;
+        border-radius: 0;
+        color: #fff;
+        transition: background 0.3s ease-in-out;
+    }
+    .mavinex-nav__btns .mavinex-nav__btn:hover {
+        background: var(--dark-red);
+    }
+    /* search bar */
+    .mavinex-nav__search-bar {
+        display: none;
+    }
+    .mavinex-nav__search-bar.active {
+        z-index: 1;
+        position: absolute;
+        top: 70px;
+        left: 0;
+        width: 100%;
+        display: block;
+        padding: 15px;
+        background: var(--dark-blue);
+    }
+
+/* slide */
+    .mavinex-slide {
+        width: 100%;
+        color: #fff;
+    }
+    .mavinex-slide .mavinex-slide__imgs,
+    .mavinex-slide .mavinex-slide__imgs .mavinex-slide__img {
+        width: 100%;
+        height: 100%;
+    }
+
+/* contents */
+    .mavinex-content {
+        margin-top: 30px;
+        width: 100%;
+    }
+    .mavinex-content__header {
+        background: #fff;
+    }
+    .mavinex-content__body {
+        background: var(--dark-blue);
+    }
+    .mavinex-content__header > .mavinex-content__header-content,
+    .mavinex-content__body > .mavinex-content__body-content {
+        margin: 0 auto;
+        max-width: 1400px;
+        width: 100%;
+    }
+    .mavinex-content__header-content {
+        padding: 0 15px;
+    }
+    .mavinex-content__header-content > h1 {
+        font-size: 45px;
+        color: var(--dark-red);
+    }
+    .mavinex-content__body .mavinex-content__body-content {
+        padding-top: 45px;
+        padding-bottom: 45px;
+    }
+    .mavinex-content__body-content > p {
+        font-size: 25px;
+        color: #fff;
+    }
+    .mavinex-content__body-content p > i {
+        font-size: 35px;
+    }
+    .mavinex-content__text {
+        font-size: 20px;
+        color: #fff;
+    }
+    .mavinex-content__text-box {
+        display: flex;
+        align-items: center;
+    }
+    .mavinex-content__text-box > i {
+        margin-right: 15px;
+        font-size: 30px;
+        color: var(--dark-red);
+    }
+    .mavinex-content__text-box-item {
+        border-radius: 10px;
+        margin: 15px 0;
+        width: 100%;
+        height: 50px;
+        padding: 0 30px;
+        display: flex;
+        align-items: center;
+        font-size: 22px;
+        color: var(--dark-blue);
+    }
+    .mavinex-content__text-box-item.mavinex-content__text-box-item--white {
+        background: #fff;
+    }
+    .mavinex-content__text-box-item.mavinex-content__text-box-item--blue {
+        background: var(--light-blue);
+    }
+    .mavinex-content__view-more {
+        display: flex;
+        align-items: center;
+        color: #fff;
+    }
+    .mavinex-content__view-more > span {
+        font-size: 18px;
+    }
+    .mavinex-content__view-more:hover > span {
+        color: #fff;
+    }
+    .mavinex-content__view-more i {
+        margin: 0 15px;
+        font-size: 50px;
+        color: var(--dark-red);
+    }
+    .mavinex-content__item > h3 {
+        margin: 15px 0;
+        color: #fff;
+    }
+
+    /* exp slide */
+    .carousel.slide#expSlide > .carousel-indicators {
+        top: 100%;
+    }
+    .carousel.slide#expSlide > .carousel-indicators > li {
+        position: relative;
+        border-radius: 50%;
+        height: 30px;
+        text-indent: 1px;
+    }
+    .carousel.slide#expSlide > .carousel-indicators > li > span,
+    .carousel.slide#expSlide > .carousel-indicators > li > i {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-weight: bold;
+    }
+    .carousel.slide#expSlide > .carousel-indicators > li > span {
+        color: var(--dark-blue);
+    }
+    .carousel.slide#expSlide > .carousel-indicators > li > i {
+        color: var(--dark-red);
+    }
+
+/* logos */
+    .mavinex-logos {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .mavinex-logos > .owl-carousel .owl-item img {
+        width: 70px;
+    }
+
+/* footer */
+    .mavinex-footer {
+        width: 100%;
+        background-image: url("../../images/footer_bg.png");
+        background-size: cover;
+    }
+    .mavinex-footer__container {
+        height: 100%;
+    }
+    .mavinex-footer__items {
+        height: 100%;
+        align-items: center;
+    }
+    /* address */
+    .mavinex-footer__items > .mavinex-footer__item#mavinexAddress p {
+        color: #fff;
+        margin: 0;
+    }
+    /* sing up */
+    .mavinex-footer__item#mavinexSignUp > .mavinex-footer__sign-up {
+        padding: 15px;
+        background: #fff;
+    }
+    .mavinex-footer__item#mavinexSignUp > .mavinex-footer__sign-up > h5 {
+        font-weight: bold;
+        color: var(--dark-blue);
+    }
+    .mavinex-footer__item#mavinexSignUp > .mavinex-footer__sign-up > .input-group {
+        background: var(--dark-blue);
+    }
+    .mavinex-footer__item#mavinexSignUp > .mavinex-footer__sign-up > .input-group > input,
+    .mavinex-footer__item#mavinexSignUp > .mavinex-footer__sign-up > .input-group > button {
+        border: none;
+        border-radius: 0;
+        background: transparent;
+    }
+    .mavinex-footer__item#mavinexSignUp > .mavinex-footer__sign-up > .input-group > button > i {
+        color: var(--dark-red);
+    }
+    .mavinex-footer__item#mavinexSignUp > .mavinex-footer__sign-up > .input-group > input::placeholder {
+        color: #fff;
+    }
+    /* social */
+    .mavinex-footer__item#mavinexSocial > h5 {
+        letter-spacing: -1px;
+        color: #fff;
+    }
+    .mavinex-footer__item#mavinexSocial > .mavinex-footer__item-btns > .mavinex-footer__item-btn {
+        margin-right: 3px;
+        border: none;
+        border-radius: 0;
+        background: #ddd;
+    }
+    /* copyright */
+    .mavinex-footer__items > .mavinex-footer__item#mavinexCopyright > img {
+        margin-bottom: 15px;
+    }
+    .mavinex-footer__item#mavinexCopyright > p {
+        font-size: 10px;
+        color: #fff;
+    }
+
+/* responsive */
+    /* mobile */
+    @media only screen and (min-width: 360px) and (max-width: 800px) {
+        /* navigation bar */
+        .mavinex-nav {
+            height: 70px;
+            align-items: center;
+        }
+        .mavinex-nav,
+        .mavinex-nav__container {
+            display: flex;
+        }
+        .mavinex-nav__links {
+            display: none;
+        }
+        .mavinex-nav__btn#toggleNavBtn {
+            display: block;
+        }
+
+        /* slide */
+        .mavinex-slide {
+            height: 300px;
+        }
+
+        /* contents */
+        .mavinex-content__text-box {
+            margin: 15px 0;
+
+        }
+        .mavinex-content__text-box .mavinex-content__text-box-item {
+            height: 100%;
+        }
+
+        /* footer */
+        .mavinex-footer {
+            height: 100%;
+            padding-top: 15px;
+            padding-bottom: 15px;
+        }
+        .mavinex-footer__item {
+            margin-bottom: 20px;
+        }
+        .mavinex-footer__item#mavinexAddress,
+        .mavinex-footer__item#mavinexSocial,
+        .mavinex-footer__item#mavinexCopyright {
+            text-align: center;
+        }
+    }
+
+    /* tablet */
+    @media only screen and (min-width: 1024px) {
+        /* navigation bar */
+        .mavinex-nav__btn#toggleNavBtn {
+            display: none;
+        }
+
+        /* slide */
+        .mavinex-slide {
+            height: 500px;
+        }
+
+        /* footer */
+        .mavinex-footer {
+            height: 100%;
+        }
+    }
+
+    /* desktop */
+    @media only screen and (min-width: 1280px) {
+        /* navigation bar */
+        .mavinex-nav {
+            height: 160px;
+            align-items: flex-end;
+        }
+
+        /* slide */
+        .mavinex-slide {
+            height: 890px;
+        }
+
+        /* footer */
+        .mavinex-footer {
+            height: 230px;
+        }
+    }
+
