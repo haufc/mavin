@@ -6,8 +6,8 @@ function scrollFunction() {
         document.getElementById("nav").style.height = "100px";
         document.getElementById("navLinks").style.top = "100px";
     } else {
-        document.getElementById("nav").style.height = "160px";
-        document.getElementById("navLinks").style.top = "160px";
+        document.getElementById("nav").style.height = "100px";
+        document.getElementById("navLinks").style.top = "100px";
     }
 } 
 
