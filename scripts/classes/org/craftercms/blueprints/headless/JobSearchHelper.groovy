@@ -56,7 +56,7 @@ class JobSearchHelper {
                 job.type = doc.type_s
                 Date date = Date.parse( 'yyyy-MM-dd HH:mm:ss.S', doc.duration_dt )
                 String newDate = date.format( 'dd-MM-yyyy' )
-                job.duration = doc.newDate
+                job.duration = newDate
                 job.url = urlTransformationService.transform("storeUrlToRenderUrl", doc.localId)
                 job.image = doc.image_s
     
