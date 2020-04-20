@@ -36,16 +36,16 @@
         <!-- navigation bar -->
         <div class="mavinex-nav">
             <div class="mavinex-nav__container container">
-                <a class="mavinex-nav__logo navbar-brand" href="home.html">
+                <a class="mavinex-nav__logo navbar-brand" href="/home">
                     <img src="${contentModel.logo_s}" alt="Logo">
                 </a>
 
                 <div id="nav-content" class="mavinex-nav__links">
-                    <a class="mavinex-nav__link" href="about.html">Giới thiệu</a>
-                    <a class="mavinex-nav__link" href="fields.html">Lĩnh vực hoạt động</a>
-                    <a class="mavinex-nav__link" href="exps.html">Năng lực kinh nghiệm</a>
-                    <a class="mavinex-nav__link" href="jobs.html">Tuyển dụng</a>
-                    <a class="mavinex-nav__link" href="contact.html">Liên hệ</a>
+                    <a class="mavinex-nav__link" href="/introduct">Giới thiệu</a>
+                    <a class="mavinex-nav__link" href="/activity">Lĩnh vực hoạt động</a>
+                    <a class="mavinex-nav__link" href="/experience2">Năng lực kinh nghiệm</a>
+                    <a class="mavinex-nav__link" href="/all-jobs">Tuyển dụng</a>
+                    <a class="mavinex-nav__link" href="/contact">Liên hệ</a>
                 </div>
 
                 <div class="mavinex-nav__btns">
