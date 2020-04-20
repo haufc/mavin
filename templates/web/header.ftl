@@ -35,7 +35,7 @@
 </div> -->
         <!-- navigation bar -->
         <div class="mavinex-nav">
-            <div class="mavinex-nav__container container
+            <div class="mavinex-nav__container">
                 <a class="mavinex-nav__logo navbar-brand" href="home.html">
                     <img src="${contentModel.logo_s}" alt="Logo">
                 </a>
