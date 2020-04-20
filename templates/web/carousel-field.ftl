@@ -1,7 +1,5 @@
 <#import "/templates/system/common/cstudio-support.ftl" as studio />
     <div <@studio.iceAttr component=contentModel/>
-        <p><i class="fas fa-caret-right text--red"></i> <span></span></p>
-
         <div id="${contentModel.objectId}" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
                 <li data-target="#${contentModel.objectId}" data-slide-to="0" class="active"><span>1</span></li>
