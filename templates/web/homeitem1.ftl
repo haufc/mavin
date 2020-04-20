@@ -9,8 +9,6 @@
                           <h2 class="text--uppercase text--red">${contentModel.title_s}</h2>
                           </#if>
                         </div>
-                        </#list>
-                        </#if>
                     </div>
                 </div>
         </div>
@@ -40,8 +38,6 @@
                               <h2 class="text--uppercase text--red">${contentModel.itemTitle_s}</h2>
                               </#if>
                             </div>
-                            </#list>
-                            </#if>
                         </div>
                     </div>
             </div>
