@@ -1,5 +1,5 @@
 <#import "/templates/system/common/cstudio-support.ftl" as studio />
-<div class="nav-bar" id="nav" <@studio.iceAttr component=contentModel/>>
+<!--<div class="nav-bar" id="nav" <@studio.iceAttr component=contentModel/>>
   <div class="nav-bar__container">
     <input id="toggleMenu" type="checkbox" name="toggleMenu"/>
     <a class="nav-bar__logo nav-bar-brand" href="/home">
@@ -32,4 +32,45 @@
       </div>
     </div>
   </div>
-</div>
+</div> -->
+        <!-- navigation bar -->
+        <div class="mavinex-nav">
+            <div class="mavinex-nav__container">
+                <a class="mavinex-nav__logo navbar-brand" href="home.html">
+                    <img src="${contentModel.logo_s}" alt="Logo">
+                </a>
+
+                <div id="nav-content" class="mavinex-nav__links">
+                    <a class="mavinex-nav__link" href="about.html">Giới thiệu</a>
+                    <a class="mavinex-nav__link" href="fields.html">Lĩnh vực hoạt động</a>
+                    <a class="mavinex-nav__link" href="exps.html">Năng lực kinh nghiệm</a>
+                    <a class="mavinex-nav__link" href="jobs.html">Tuyển dụng</a>
+                    <a class="mavinex-nav__link" href="contact.html">Liên hệ</a>
+                </div>
+
+                <div class="mavinex-nav__btns">
+                    <button class="mavinex-nav__btn btn" onclick="toggleSearchBar()">
+                        <i class="fas fa-search"></i>
+                    </button>
+                    <button id="toggleNavBtn" class="mavinex-nav__btn btn" onclick="toggleNav()">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                </div>
+
+                <div id="searchBar" class="mavinex-nav__search-bar">
+                    <div class="input-group">
+                        <input 
+                            type="text" 
+                            class="form-control rounded-0" 
+                            placeholder="" 
+                            onfocus="this.placeholder=' '"
+                            onblur="this.placeholder='Tìm gì đấy?...'"
+                        >
+                        <div class="input-group-append">
+                          <button type="button" class="btn btn-secondary rounded-0"><i class="fas fa-search"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /navigation bar -->
