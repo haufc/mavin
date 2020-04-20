@@ -16,7 +16,7 @@
                               </tr>
                               <tr>
                                 <td>Thời hạn:</td>
-                                <td>${job.duration}?date</td>
+                                <td>${job.duration?date}</td>
                               </tr>
                             </table>
                           </div>
