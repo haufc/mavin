@@ -12,14 +12,14 @@
         </div>
         <div class="content__details container">
             <div class="row">
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-6" style="padding: 0;">
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-6">
                         <#if (contentModel.item_o.item)??>
                             <#list contentModel.item_o.item as element>
                                 <p style="color:#fff; font-size:14pt;">${element.content_t}<p>
                             </#list>
                         </#if>
                     </div>
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-6" style="padding: 0;">
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-6">
                         <#if (contentModel.image_s)?? >
                         <img src="${contentModel.image_s}" alt="" class="img--full">
                         </#if>
