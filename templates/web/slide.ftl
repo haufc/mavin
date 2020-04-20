@@ -1,5 +1,5 @@
 <#import "/templates/system/common/cstudio-support.ftl" as studio />
-<div id="${contentModel.objectId}" class="carousel slide" data-ride="carousel" <@studio.iceAttr component=contentModel/>>
+<!--<div id="${contentModel.objectId}" class="carousel slide" data-ride="carousel" <@studio.iceAttr component=contentModel/>>
     <div class="carousel-inner">
         <#if (contentModel.image_o.item)??>
             <#assign first = true>
@@ -14,12 +14,24 @@
                 </#if>
             </#list>
         </#if>
-    <!--<div class="carousel-item welcome-img" style="background-image: url(&quot;../../assets/images/bg_1.png&quot;)">
-    </div>
-    <div class="carousel-item welcome-img" style="background-image: url(&quot;../../assets/images/bg_1.png&quot;)">
-    </div>
-    -->
     </div>
     
-</div>
+</div> -->
+<!-- slide -->
+    <div id="slide" class="mavinex-slide carousel slide" data-ride="carousel">
+        <div class="mavinex-slide__imgs carousel-inner">
+            <#if (contentModel.image_o.item)??>
+            <#assign first = true>
+            <#list contentModel.image_o.item as element>
+                <#if first>
+                    <img class="mavinex-slide__img carousel-item active" src="${element.image_s!""}" alt="Slide Image">
+                <#assign first = false>
+                <#else>
+                    <img class="mavinex-slide__img carousel-item" src="${element.image_s!""}" alt="Slide Image">
+                </#if>
+            </#list>
+        </#if>
+        </div>
+    </div>
+<!-- /slide -->
 <@studio.toolSupport />
