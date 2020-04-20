@@ -16,7 +16,7 @@
                               </tr>
                               <tr>
                                 <td>Thời hạn:</td>
-                                <td>${job.duration?iso_utc}</td>
+                                <td>${job.duration}</td>
                               </tr>
                             </table>
                           </div>
