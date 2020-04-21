@@ -40,7 +40,7 @@ class SearchContentHelper {
                 userTerm = "${userTerm}~1 OR *${userTerm}*"
             }
             
-            def userTermQuery = "(title_s:(${userTerm}) OR item_o.item.content_t:(${userTerm}))"
+            def userTermQuery = "(title_s:(${userTerm}) OR item_o.item.contents_html:(${userTerm}))"
             q = "${q} AND ${userTermQuery}"
         }
         
