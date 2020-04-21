@@ -8,7 +8,11 @@ $(document).ready(function() {
     
     let dateVal = $('.date-formater').text();
     $('.date-formater').text(formatDate(dateVal));
-
+    
+    // define display job content item
+    var jobContent = $(".job-info__item").text();
+    console.log(jobContent);
+    
     // Display content for search page
     if(url == getContextPath()+ "/search-result") {
         
