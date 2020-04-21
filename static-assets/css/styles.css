@@ -7344,6 +7344,9 @@ h6 {
   .text--title__small {
       font-size: 15px;
   }
+  .mavinex-logos > .owl-carousel .owl-item img {
+      width: 45px;
+  }
 }
 
 @media (min-width: 576px) {
