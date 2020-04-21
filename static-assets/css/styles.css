@@ -7338,8 +7338,9 @@ h6 {
 
 @media (max-width: 480px){
   .footer {
-      background: #00559A;
-      padding: 30px 0 15px; 
+      background: #00559A !important;
+      padding: 30px 0 15px;
+      
   }
   .text--title__small {
       font-size: 15px;
