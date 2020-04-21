@@ -13,6 +13,9 @@ $(document).ready(function() {
     var jobContent = $(".job-info__item").text();
     console.log(jobContent);
     
+    var lstJobContent = jobContent.split(/(-*·)+/) ;
+    console.log(lstJobContent);
+    
     // Display content for search page
     if(url == getContextPath()+ "/search-result") {
         
