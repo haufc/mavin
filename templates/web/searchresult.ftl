@@ -24,7 +24,7 @@
 <div class="content__details">
 <!-- <h1 class="text--center text--uppercase text-white mb-3">TUYỂN DỤNG THÁNG 03/2020</h1> -->
     <div class="row ">
-        <div class="col-lg-12 col-md-12 col-sm-12">
+        <div class="col-lg-12 col-md-12 col-sm-12" style="padding: 0; margin-bottom: 20px;">
             <span style="font-size: 18px;"></p> Tìm được <b id="totalSearch">727</b> kết quả với từ khóa "<b id="keywordSearch"></b>"<span>
         </div>
         <div class="search-result_item row">
