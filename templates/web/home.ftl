@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="/static-assets/css/mavinex.css"/>
   </head>
   <body>
-    <button onclick="topFunction()" id="btn-up-top" title="Go to top">Top</button>
+    <button onclick="topFunction()" id="btn-up-top" ><i class="fa-angle-up"></i></button>
     <@renderComponent component=contentModel.header_o.item />
     <!--<div class="welcome-img" style="background-image: url(&quot;../../assets/images/bg_1.png&quot;)"></div> -->
     <div class="content">
