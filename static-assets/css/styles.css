@@ -7321,4 +7321,10 @@ h6 {
       padding: 30px 0 15px; 
   }
 }
+
+@media (min-width: 576px) {
+    .home--left__content {
+        padding-right: 20px;
+    }
+}
 /*# sourceMappingURL=styles.css.map */
