@@ -135,10 +135,15 @@ function getContextPath() {
 // }
 
 function search() {
-        console.log('demo');
-       // $('.content__item').css("display", "none");
-       // $(window).scrollTop($('.search-result').offset().top);
-        let userTerm = $('#txtSearch').val()
+    console.log('demo');
+   // $('.content__item').css("display", "none");
+   // $(window).scrollTop($('.search-result').offset().top);
+    let userTerm = $('#txtSearch').val();
+    if (userTerm === "") {
+        alert("Bạn cần nhập từ khóa tìm kiếm!");
+        $('#txtSearch').focus();
+    }
+    else {
         var urlService = this.getContextPath() + "/api/search.json?q="+ userTerm
         localStorage.setItem("userTerm", userTerm);
         $.ajax({
@@ -150,6 +155,8 @@ function search() {
                 window.location.replace(getContextPath()+ "/search-result");
             }
         });
-    $('.nav-bar__search').css("display", "none");
+        
+        $('.nav-bar__search').css("display", "none");
+    }
 }
 
