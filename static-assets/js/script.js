@@ -13,7 +13,7 @@ $(document).ready(function() {
     var jobContent = $(".job-info__item").text();
     console.log(jobContent);
     
-    var lstJobContent = jobContent.split(/(-*·)+/) ;
+    var lstJobContent = jobContent.split('-').join(',').split('*').join(',').split('·').join(',') ;
     console.log(lstJobContent);
     
     // Display content for search page
