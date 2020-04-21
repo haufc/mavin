@@ -25,6 +25,7 @@
                     <#assign first = false>
                     <#else>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-6">
+                </#if>
                         <#if (element.itemImage_s)?? >
                         <img src="${element.itemImage_s}" alt="" class="img--full">
                         </#if>
