@@ -7337,6 +7337,9 @@ h6 {
 /* footer  */
 
 @media (max-width: 480px){
+  .header--logo {
+      width: 150px;
+  }
   .footer {
       background: #00559A !important;
       padding: 30px 0 15px;
