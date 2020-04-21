@@ -32,7 +32,7 @@
     </div>
 </div>
 
-<div class="col-lg-12 col-md-12 col-sm-12" id="pager">
+<div class="col-lg-8 col-md-8 col-sm-12 justify-content-center" id="pager">
       <ul class="float-right" id="pagination" class="pagination-sm"></ul>
 </div>
 
