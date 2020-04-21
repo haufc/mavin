@@ -1,9 +1,9 @@
 <#import "/templates/system/common/cstudio-support.ftl" as studio />
-<div class="recruitment container">
+<div class="recruitment">
         <div class="content__title text--center">
             <h1 class="text--uppercase text--red">${contentModel.title_s}</h1>
           </div>
-        <div class="container-fluid p-3 text-white">         
+        <div class="container p-3 text-white">         
             <div class="row">
                 <div class="col-sm-12 col-md-6 col-lg-6">
                     <img src="${contentModel.image_s}" class="img--full" alt="">
