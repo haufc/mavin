@@ -4,10 +4,10 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 col-md-6 col-sm-6 col-6">
-                  <h2 class="text--uppercase text--red">${intros[2].title}</h2>
+                  <h2 class="text--uppercase text--red text--title__small">${intros[2].title}</h2>
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-6 col-6">
-                  <h2 class="text--uppercase text--red">${intros[0].title}</h2>
+                  <h2 class="text--uppercase text--red text--title__small">${intros[0].title}</h2>
                 </div>
             </div>
         </div>
@@ -39,10 +39,10 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 col-md-6 col-sm-6 col-6">
-                  <h2 class="text--uppercase text--red">${intros[3].title}</h2>
+                  <h2 class="text--uppercase text--red text--title__small">${intros[3].title}</h2>
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-6 col-6">
-                  <h2 class="text--uppercase text--red">${intros[1].title}</h2>
+                  <h2 class="text--uppercase text--red text--title__small">${intros[1].title}</h2>
                 </div>
             </div>
         </div>
