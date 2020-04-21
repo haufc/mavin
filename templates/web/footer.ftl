@@ -63,7 +63,7 @@
                       <div class="input-group">
                         <input class="form-control rounded-0" type="text" placeholder="..."/>
                         <div class="input-group-prepend">
-                          <button class="btn btn-info rounded-0"><i class="fas fa-envelope"></i></button>
+                          <button class="btn btn-info rounded-0"><i class="fas fa-paper-plane"></i></button>
                         </div>
                       </div>
                     </div>
