@@ -68,9 +68,9 @@
                       </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
-                  <h4 class="text-white text--uppercase text--center">Kết nối với chúng tôi</h4>
-                  <div class="footer__btns">
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 footer-item__social">
+                  <h4 class="text-white text--uppercase text--center footer-item__social--title">Kết nối với chúng tôi</h4>
+                  <div class="footer__btns footer-item__social--icons">
                     <#if (contentModel.socialMedia_o.item)??>
                         <#list contentModel.socialMedia_o.item as media>
                             <a href="${media.url_s}" class="btn rounded-0" style="border: 1px solid #ddd; background: #fff; color: #00579d; width: 46px; height: 47px; position:relative;">

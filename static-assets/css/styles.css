@@ -7337,12 +7337,33 @@ h6 {
 /* footer  */
 
 @media (max-width: 480px){
+  .header--logo {
+      width: 150px;
+  }
+  .content__btn {
+      font-size: 10px;
+  }
   .footer {
-      background: #00559A;
-      padding: 30px 0 15px; 
+      background: #00559A !important;
+      padding: 30px 0 15px;
+      
+  }
+  .footer-item__social {
+      margin-bottom: 15px;
+  }
+  
+  .footer-item__social--title {
+      text-align: left !important;
+  }
+  
+  .footer-item__social--icons {
+      justify-content: start;
   }
   .text--title__small {
       font-size: 15px;
+  }
+  .mavinex-logos > .owl-carousel .owl-item img {
+      width: 45px;
   }
 }
 
