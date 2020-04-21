@@ -8,7 +8,7 @@
     </a>
 </div> -->
 
-<div class="col-sm-12 col-md-6 col-lg-6 max-content" <@studio.iceAttr component=contentModel/>>
+<div class="col-sm-12 col-md-6 col-lg-6 content__img" <@studio.iceAttr component=contentModel/>>
     <img class="img--full" src="${contentModel.image_s}" alt="Content Image"/>
     <h4 class="text--uppercase text-white" style="padding-top: 15px;">${contentModel.title_s}</h4>
     <a class="content__btn btn mt-3 rounded-0" href="/experience"> 
