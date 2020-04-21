@@ -13,7 +13,7 @@ class SearchContentHelper {
     static final String HOME_CONTENT_TYPE_QUERY = "content-type:\"/page/home\""
     static final String INTRO_CONTENT_TYPE_QUERY = "content-type:\"/page/introductiondetail\""
    
-    static final String[] JOB_HIGHLIGHT_FIELDS = ["title_s", "item_o.item.content_t"]
+    static final String[] JOB_HIGHLIGHT_FIELDS = ["title_s", "item_o.item.content_html"]
     static final String[] HOME_HIGHLIGHT_FIELDS = ["title_s", "descripttion_t"]
     static final String[] INTRO_HIGHLIGHT_FIELDS = ["title_s", "contents_html"]
     
