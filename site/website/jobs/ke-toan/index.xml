@@ -6,22 +6,19 @@
 	<merge-strategy>inherit-levels</merge-strategy>
 	<objectGroupId>1758</objectGroupId>
 	<objectId>1758f874-90fa-15ab-8aa6-8d1188803b75</objectId>
-	<item_o item-list="true">	<item>	<content_t>aaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaa</content_t>
+	<item_o item-list="true">	<item>	<content_t>Thu thập, xử lí, kiểm tra, phân tích và cung cấp thông tin kinh tế, tài chính dưới hình thức giá trị, hiện vật và thời gian lao động</content_t>
 	<title_s>Tổng quát</title_s>
 	</item>	<item>	<title_s>Mô tả</title_s>
-	<content_t>aaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaa</content_t>
+	<content_t>–  Hàng ngày thu thập chứng từ, xử lý thông tin số liệu kế toán, chứng từ kế toán.
+–  Tham mưu cho Ban Giám đốc về các hoạt động tài chính kế toán.
+
+–  Hạch toán thu thập chi phí, khấu hao TSCĐ, công nợ, các nghiệp vụ khác, thuế GTGT
+
+–  Công tác ngoại giao với các cơ quan: Ngân hàng, thuế, đối tác ….
+</content_t>
 	</item>	<item>	<title_s>Yêu cầu </title_s>
-	<content_t>aaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaa</content_t>
+	<content_t>–  Có ít nhất 02 năm kinh nghiệm ở vị trí tương đương.
+–  Có trình độ chuyên môn, nghiệp vụ kế toán từ cao đẳng học trở lên.</content_t>
 	</item></item_o>
 	<image_s>/static-assets/images/featured/content_img_10.png</image_s>
 	<placeInNav>true</placeInNav>
@@ -52,8 +49,8 @@ aaaaaaaaaaaaaaa</content_t>
 	<folder-name>ke-toan</folder-name>
 	<createdDate>2020-04-06T06:46:05.171Z</createdDate>
 	<createdDate_dt>2020-04-06T06:46:05.171Z</createdDate_dt>
-	<lastModifiedDate>2020-04-06T06:46:05.171Z</lastModifiedDate>
-	<lastModifiedDate_dt>2020-04-06T06:46:05.171Z</lastModifiedDate_dt>
+	<lastModifiedDate>2020-04-20T11:15:26.522Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-04-20T11:15:26.522Z</lastModifiedDate_dt>
 	<duration_dt>2020-04-06T04:00:00.000Z</duration_dt>
 	<duration_dt_tz>EST5EDT</duration_dt_tz>
 </page>
