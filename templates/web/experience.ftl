@@ -1,6 +1,7 @@
 <#import "/templates/system/common/cstudio-support.ftl" as studio />
+<div class="content">
     <div class="content__title">
-
+        <div class="container">
                 <div class="row">
                     <#if (contentModel.item_o)??>
                     <#list contentModel.item_o.item as item>
@@ -12,7 +13,7 @@
                     </#list>
                     </#if>
                 </div>
-          
+        </div> 
     </div>
         <div class="content__details container">
             <div class="row">
@@ -40,4 +41,5 @@
     
             </div>
         </div>
+</div>
 	<@studio.toolSupport />
