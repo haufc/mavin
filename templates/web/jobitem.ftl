@@ -36,7 +36,7 @@
                             <#if (contentModel.item_o.item)??>
                                 <#list contentModel.item_o.item as element>
                                     <p style="color:#fff; font-size:14pt;">${element.title_s}<p>
-                                    <p style="color:#fff; font-size:14pt;">${element.content_html}<p>
+                                    <p style="color:#fff; font-size:14pt;">${element.content_t}<p>
                                 </#list>
                             </#if>
                         </div>
