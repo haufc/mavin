@@ -5,7 +5,7 @@
                 <div class="container">
                         <div class="content__title text--center">
                           <#if (contentModel.title_s)??>
-                          <h2 class="text--uppercase text--red text--title__small">${contentModel.title_s}</h2>
+                          <h2 class="text--uppercase text--red">${contentModel.title_s}</h2>
                           </#if>
                         </div>
                 </div>
@@ -37,7 +37,7 @@
                         <div class="row">
                             <div class="content__title text--center">
                               <#if (contentModel.itemTitle_s)??>
-                              <h2 class="text--uppercase text--red text--title__small">${contentModel.itemTitle_s}</h2>
+                              <h2 class="text--uppercase text--red ">${contentModel.itemTitle_s}</h2>
                               </#if>
                             </div>
                         </div>
