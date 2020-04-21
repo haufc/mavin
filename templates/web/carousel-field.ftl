@@ -1,4 +1,5 @@
 <#import "/templates/system/common/cstudio-support.ftl" as studio />
+        <div class="content__details container">
         <div class="carousel slide" data-ride="carousel" id="expSlide" <@studio.iceAttr component=contentModel/>>
                 <ol class="carousel-indicators">
                     <li data-target="#expSlide" data-slide-to="0" class="active"><span>1</span></li>
@@ -17,7 +18,7 @@
                     </#if>
                     <div class="container-fluid">
                         <div class="row">
-                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6" style="padding: 0;">
+                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
                                 <div>
                                     <img src="${element.image_s}" alt="Slide Image">
 
@@ -33,7 +34,7 @@
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6" style="padding: 0;">
+                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
                                 <div>
                                     <img src="${element.image3_s}" alt="Slide Image">
 
@@ -53,5 +54,6 @@
                 </#list>
                 </#if>
             </div>
+        </div>
         </div>
 	<@studio.toolSupport />
