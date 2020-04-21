@@ -12,22 +12,22 @@
         </div>
         <div class="content__details container">
             <div class="row">
-                    <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-12  order-1">
                         <#if (contentModel.item_o.item)??>
                             <#list contentModel.item_o.item as element>
                                 <p style="color:#fff; font-size:14pt;">${element.content_t}<p>
                             </#list>
-                        <a class="content__btn btn mt-3 rounded-0" href="/introduct"> 
-                            <span class="mr-3">Xem thêm</span>
-                            <i class="fas fa-arrow-right"></i>
-                        </a>
                         </#if>
                     </div>
-                    <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-12 order-2">
                         <#if (contentModel.image_s)?? >
                         <img src="${contentModel.image_s}" alt="" class="img--full">
                         </#if>
                     </div>
+                    <a class="content__btn btn mt-3 rounded-0" href="/introduct"> 
+                        <span class="mr-3">Xem thêm</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
             </div>
         </div>
     <#else>
