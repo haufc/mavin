@@ -24,7 +24,7 @@
                         <img src="${contentModel.image_s}" alt="" class="img--full">
                         </#if>
                     </div>
-                    <a class="content__btn btn mt-3 rounded-0" href="/introduct"> 
+                    <a class="content__btn btn mt-3 rounded-0 col-lg-6 col-md-6 col-sm-12 col-12" href="/introduct"> 
                         <span class="mr-3">Xem thêm</span>
                         <i class="fas fa-arrow-right"></i>
                     </a>
