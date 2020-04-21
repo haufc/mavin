@@ -31,7 +31,7 @@
             </div>
             <div class="content__details container">
                 <div class="row">
-                        <div class="col-lg6 col-md-6 col-sm-6 col-6" style="padding: 0;">
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-6 text-white" style="padding: 0;">
                             <p style="color:#fff; font-size:14pt;">Hình thức tuyển dụng: ${contentModel.type_s}</p>
                             <#if (contentModel.item_o.item)??>
                                 <#list contentModel.item_o.item as element>
@@ -40,7 +40,7 @@
                                 </#list>
                             </#if>
                         </div>
-                        <div class="col-lg6 col-md-6 col-sm-6 col-6" style="padding: 0;">
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-6" style="padding: 0;">
                             <#if (contentModel.image_s)?? >
                             <img src="${contentModel.image_s}" alt="" class="img--full">
                             </#if>
