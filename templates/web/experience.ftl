@@ -1,5 +1,4 @@
 <#import "/templates/system/common/cstudio-support.ftl" as studio />
-<div class="content" <@studio.iceAttr component=contentModel/>>
     <div class="content__title">
             <div class="container">
                 <div class="row">
@@ -41,5 +40,4 @@
     
             </div>
         </div>
-</div>
 	<@studio.toolSupport />
