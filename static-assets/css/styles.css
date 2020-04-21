@@ -7340,6 +7340,9 @@ h6 {
   .header--logo {
       width: 150px;
   }
+  .content__btn {
+      font-size: 10px;
+  }
   .footer {
       background: #00559A !important;
       padding: 30px 0 15px;
