@@ -4,7 +4,7 @@
                 <div class="row">
                     <#if (contentModel.item_o)??>
                     <#list contentModel.item_o.item as item>
-                        <div class="col-lg-6 col-md-6 col-sm-6 col-6">
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-6" style="padding: 0">
                           <#if (item.itemTitle_s)??>
                           <h2 class="text--uppercase text--red text--title__small">${item.itemTitle_s}</h2>
                           </#if>
