@@ -442,7 +442,7 @@
 				</field>
 				<field>
 					<type>textarea</type>
-					<id>content_t</id>
+					<id>content_html</id>
 					<iceId></iceId>
 					<title>Content</title>
 					<description></description>
