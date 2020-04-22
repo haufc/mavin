@@ -4,7 +4,7 @@
             <div class="container">
                 <div class="row">
                         <div class="col-lg-6 col-md-6 col-sm-6 col-6">
-                          <h1 style="color: red">${contentModel.itemTitle_s}</h1>
+                          <h1 class="text--red text--uppercase">${contentModel.itemTitle_s}</h1>
                         </div>
                 </div>
             </div>
