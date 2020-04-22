@@ -18,7 +18,7 @@
                                         <div class="activity__content-btn">
                                              <i class="fa fa-play text--red"></i> 
                                         </div>
-                                        <div >
+                                        <div class="text-white">
                                             <p style="font-size:14pt;">${element.content_t}<p>
                                         </div>
                                     </div>
