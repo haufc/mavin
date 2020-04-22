@@ -15,7 +15,7 @@
                     <div class="col-lg-6 col-md-6 col-sm-12 col-12  order-1">
                         <#if (contentModel.item_o.item)??>
                             <#list contentModel.item_o.item as element>
-                                <p style="color:#fff; font-size:14pt;">${element.content_t}<p>
+                                <p style="color:#fff; font-size:14pt;"><i class="fa fa-play"></i>${element.content_t}<p>
                             </#list>
                         </#if>
                     </div>
