@@ -34,13 +34,13 @@
                 </#if>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-6 seemore_btn" style="padding: 0;">
                          <a class="mt-3 rounded-0" href="/experience"> 
-                            <span class="mr-3">Xem thêm</span>
+                            <span class="mr-1">Xem thêm</span>
                             <i class="fa fa-play text--red"></i>
                         </a>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-6 seemore_btn">
                          <a class="mt-3 rounded-0"> 
-                            <span class="mr-3">Xem thêm</span>
+                            <span class="mr-1">Xem thêm</span>
                             <i class="fa fa-play text--red"></i>
                         </a>
                     </div>
