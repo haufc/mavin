@@ -9,10 +9,10 @@
 	<item_o item-list="true">	<item>	<title_s>Mô tả công việc:</title_s>
 	<content_t/>
 	<content_html>&lt;ul&gt;
-&lt;li&gt;&lt;span style="color: #ecf0f1; font-family: Tahoma, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 12pt; text-align: justify;"&gt;Thực hiện K&amp;yacute; hợp đồng lao động với nh&amp;acirc;n vi&amp;ecirc;n trong c&amp;ocirc;ng ty&lt;/span&gt;&lt;br style="box-sizing: border-box; overflow-wrap: break-word; color: #333333; font-family: Tahoma, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; text-align: justify; background-color: #ffffff;" /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span style="color: #ecf0f1; font-family: Tahoma, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 12pt; text-align: justify;"&gt;Đề xuất c&amp;aacute;c biểu mẫu hợp đồng ph&amp;ugrave; hợp với từng đối tượng nh&amp;acirc;n vi&amp;ecirc;n&lt;/span&gt;&lt;br style="box-sizing: border-box; overflow-wrap: break-word; color: #333333; font-family: Tahoma, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; text-align: justify; background-color: #ffffff;" /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span style="color: #ecf0f1; font-family: Tahoma, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 12pt; text-align: justify;"&gt;Soạn thảo c&amp;aacute;c loại văn bản thuộc hạng mục phụ tr&amp;aacute;ch (th&amp;ocirc;ng b&amp;aacute;o, quyết định, bi&amp;ecirc;n bản,...)&lt;/span&gt;&lt;br style="box-sizing: border-box; overflow-wrap: break-word; color: #333333; font-family: Tahoma, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; text-align: justify; background-color: #ffffff;" /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span style="color: #ecf0f1; font-family: Tahoma, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 12pt; text-align: justify;"&gt;Ban h&amp;agrave;nh c&amp;aacute;c loại th&amp;ocirc;ng b&amp;aacute;o đến người lao động&lt;/span&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Thực hiện K&amp;yacute; hợp đồng lao động với nh&amp;acirc;n vi&amp;ecirc;n trong c&amp;ocirc;ng ty&lt;/li&gt;
+&lt;li&gt;Đề xuất c&amp;aacute;c biểu mẫu hợp đồng ph&amp;ugrave; hợp với từng đối tượng nh&amp;acirc;n vi&amp;ecirc;n&lt;/li&gt;
+&lt;li&gt;Soạn thảo c&amp;aacute;c loại văn bản thuộc hạng mục phụ tr&amp;aacute;ch (th&amp;ocirc;ng b&amp;aacute;o, quyết định, bi&amp;ecirc;n bản,...)&lt;/li&gt;
+&lt;li&gt;Ban h&amp;agrave;nh c&amp;aacute;c loại th&amp;ocirc;ng b&amp;aacute;o đến người lao động&lt;br /&gt;&lt;/li&gt;
 &lt;/ul&gt;</content_html>
 	</item>	<item>	<title_s>Yêu cầu:</title_s>
 	<content_html>&lt;ul&gt;
@@ -56,8 +56,8 @@
 	<image_s>/static-assets/images/featured/content_img_2.png</image_s>
 	<createdDate>2020-04-17T03:09:08.165Z</createdDate>
 	<createdDate_dt>2020-04-17T03:09:08.165Z</createdDate_dt>
-	<lastModifiedDate>2020-04-22T07:20:59.220Z</lastModifiedDate>
-	<lastModifiedDate_dt>2020-04-22T07:20:59.220Z</lastModifiedDate_dt>
+	<lastModifiedDate>2020-04-22T07:24:47.563Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-04-22T07:24:47.563Z</lastModifiedDate_dt>
 	<duration_dt>2020-04-16T04:00:00.000Z</duration_dt>
 	<duration_dt_tz>EST5EDT</duration_dt_tz>
 </page>
