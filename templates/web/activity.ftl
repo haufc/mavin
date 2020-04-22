@@ -15,8 +15,12 @@
                         <#if (contentModel.item_o.item)??>
                                 <#list contentModel.item_o.item as element>
                                     <div class="row text-white">
-                                         <i class="fa fa-play col-lg-1 col-md-1 col-sm-1 activity__content-btn text--red"></i> 
-                                         <p class="col-lg-11 col-md-11 col-sm-11" style="font-size:14pt;">${element.content_t}<p>
+                                        <div class="col-lg-1 col-md-1 col-sm-1 activity__content-btn">
+                                             <i class="fa fa-play text--red"></i> 
+                                        </div>
+                                        <div class="col-lg-11 col-md-11 col-sm-11">
+                                            <p style="font-size:14pt;">${element.content_t}<p>
+                                        </div>
                                     </div>
                                 </#list>
                         </#if>
