@@ -14,11 +14,9 @@
             <div class="row">
                     <div class="col-lg-6 col-md-6 col-sm-12 col-12  order-1">
                         <#if (contentModel.item_o.item)??>
-                            <div class="d-flex">
                                 <#list contentModel.item_o.item as element>
-                                    <i class="fa fa-play"></i> <p style="color:#fff; font-size:14pt;">${element.content_t}<p>
+                                   <p style="color:#fff; font-size:14pt;">${element.content_t}<p>
                                 </#list>
-                            </div>
                         </#if>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-12 col-12 order-2">
