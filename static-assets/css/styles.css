@@ -6599,7 +6599,6 @@ h6 {
 }
 .activity__content-btn {
         font-size: 20px;
-        padding-top: 9px;
         color : #CE171E;
 }
 
@@ -7376,5 +7375,12 @@ h6 {
     .home--left__content {
         padding-right: 20px !important;
     }
+    
+    .activity__content-btn {
+        font-size: 20px;
+        padding-top: 9px;
+        color : #CE171E;
+    }
+    
 }
 /*# sourceMappingURL=styles.css.map */
