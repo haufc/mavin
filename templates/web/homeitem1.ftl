@@ -24,10 +24,10 @@
                         <img src="${contentModel.image_s}" alt="" class="img--full">
                         </#if>
                     </div>
-                    <div class="col-lg-6 col-md-6 col-sm-12 col-12 order-3">
-                        <a class="content__btn btn mt-3 rounded-0" href="/introduct"> 
-                            <span class="mr-3">Xem thêm</span>
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-12 order-3 seemore_btn">
+                        <a class="mt-3 rounded-0" href="/introduct"> 
                             <i class="fas fa-arrow-right"></i>
+                            <span class="mr-3">Xem thêm</span>
                         </a>
                     </div>
             </div>
