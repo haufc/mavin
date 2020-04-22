@@ -28,7 +28,8 @@
             </div>
 
             <div class="col-lg6 col-md-6 col-sm-6 col-6" >
-                 <a class="content__btn btn mt-3 rounded-0 fa fa-play text--red" href="${intros[1].url}"> 
+                 <a class="mt-3 rounded-0" href="${intros[1].url}"> 
+                    <i class="fa fa-play text--red"></i>
                     <span class="mr-3">Xem thêm</span>
                 </a>
             </div>
