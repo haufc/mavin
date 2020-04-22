@@ -6,13 +6,7 @@
 	<merge-strategy>inherit-levels</merge-strategy>
 	<objectGroupId>1758</objectGroupId>
 	<objectId>1758f874-90fa-15ab-8aa6-8d1188803b75</objectId>
-	<item_o item-list="true">	<item>	<content_t>Thu thập, xử lí, kiểm tra, phân tích và cung cấp thông tin kinh tế, tài chính dưới hình thức giá trị, hiện vật và thời gian lao động</content_t>
-	<title_s>Tổng quát</title_s>
-	<content_html>&lt;ul&gt;
-&lt;li&gt;Trực tiếp y&amp;ecirc;u cầu c&amp;aacute;c kế to&amp;aacute;n điều chỉnh nghiệp vụ khi ph&amp;aacute;t hiện sai&lt;/li&gt;
-&lt;li&gt;Y&amp;ecirc;u cầu c&amp;aacute;c kế to&amp;aacute;n vi&amp;ecirc;n cung cấp b&amp;aacute;o c&amp;aacute;o kịp thời v&amp;agrave; đầy đủ theo qui định&lt;/li&gt;
-&lt;/ul&gt;</content_html>
-	</item>	<item>	<title_s>Mô tả</title_s>
+	<item_o item-list="true">	<item>	<title_s>Mô tả</title_s>
 	<content_t>–  Hàng ngày thu thập chứng từ, xử lý thông tin số liệu kế toán, chứng từ kế toán.
 –  Tham mưu cho Ban Giám đốc về các hoạt động tài chính kế toán.
 
@@ -31,6 +25,12 @@
 	<content_html>&lt;ul&gt;
 &lt;li&gt;Tr&amp;igrave;nh độ: Tốt nghiệp Cao đẳng trở l&amp;ecirc;n thuộc ng&amp;agrave;nh kế to&amp;aacute;n,kiểm to&amp;aacute;n, t&amp;agrave;i ch&amp;iacute;nh.&lt;/li&gt;
 &lt;li&gt;C&amp;oacute; năng lực nghiệp vụ kế to&amp;aacute;n, c&amp;oacute; khả năng tổng hợp, nắm vững chế độ kế to&amp;aacute;n.&lt;/li&gt;
+&lt;/ul&gt;</content_html>
+	</item>	<item>	<title_s>Quyền lợi:</title_s>
+	<content_html>&lt;ul&gt;
+&lt;li style="color: #333333; font-family: Tahoma, Helvetica, sans-serif; font-size: 12px; background-color: #ffffff; max-width: 512px !important;"&gt;&lt;span style="margin: 0px; padding: 0px; font-family: Tahoma; font-size: 12pt;"&gt;&lt;span style="margin: 0px; padding: 0px;"&gt;Lương cứng theo thỏa thuận + lương thưởng. Thu nhập trung b&amp;igrave;nh từ 8-20 triệu trở l&amp;ecirc;n&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;
+&lt;li style="color: #333333; font-family: Tahoma, Helvetica, sans-serif; font-size: 12px; background-color: #ffffff; max-width: 512px !important;"&gt;&lt;span style="margin: 0px; padding: 0px; font-family: Tahoma; font-size: 12pt;"&gt;&lt;span style="margin: 0px; padding: 0px;"&gt;M&amp;ocirc;i trường l&amp;agrave;m việc trẻ trung, năng động, thoải m&amp;aacute;i&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;
+&lt;li style="color: #333333; font-family: Tahoma, Helvetica, sans-serif; font-size: 12px; background-color: #ffffff; max-width: 512px !important;"&gt;&lt;span style="margin: 0px; padding: 0px; font-family: Tahoma; font-size: 12pt;"&gt;&lt;span style="margin: 0px; padding: 0px;"&gt;Đ&amp;oacute;ng BHXH, BHYT, BHTN theo quy định&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;
 &lt;/ul&gt;</content_html>
 	</item></item_o>
 	<image_s>/static-assets/images/featured/content_img_10.png</image_s>
@@ -62,8 +62,8 @@
 	<folder-name>ke-toan</folder-name>
 	<createdDate>2020-04-06T06:46:05.171Z</createdDate>
 	<createdDate_dt>2020-04-06T06:46:05.171Z</createdDate_dt>
-	<lastModifiedDate>2020-04-22T06:43:17.842Z</lastModifiedDate>
-	<lastModifiedDate_dt>2020-04-22T06:43:17.842Z</lastModifiedDate_dt>
+	<lastModifiedDate>2020-04-22T06:51:27.596Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-04-22T06:51:27.596Z</lastModifiedDate_dt>
 	<duration_dt>2020-04-06T04:00:00.000Z</duration_dt>
 	<duration_dt_tz>EST5EDT</duration_dt_tz>
 </page>
