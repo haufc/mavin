@@ -6,15 +6,26 @@
 	<merge-strategy>inherit-levels</merge-strategy>
 	<objectGroupId>5dda</objectGroupId>
 	<objectId>5ddab611-d637-f2e8-8527-19a928898656</objectId>
-	<item_o item-list="true">	<item>	<title_s>Tổng quan</title_s>
+	<item_o item-list="true">	<item>	<title_s>Mô tả công việc:</title_s>
 	<content_t>Chức danh: Giám sát Kinh doanh
 Bộ phận : Kinh Doanh
 CBQL trực tiếp:Trưởng vùng
  Nơi làm việc: Miền Tây</content_t>
 	<content_html>&lt;ul&gt;
-&lt;li&gt;demo 1234&lt;/li&gt;
-&lt;li&gt;fbsjfsajfas&lt;/li&gt;
-&lt;li&gt;sfdhjkasfbajsdl&lt;/li&gt;
+&lt;li&gt;&lt;span style="font-family: arial, helvetica, clean, sans-serif; font-size: 13.3333px;"&gt;Thực hiện c&amp;ocirc;ng t&amp;aacute;c gi&amp;aacute;m s&amp;aacute;t, thi c&amp;ocirc;ng tại c&amp;aacute;c c&amp;ocirc;ng tr&amp;igrave;nh thủy điện theo sự chỉ đạo của Chỉ huy trưởng hoặc gi&amp;aacute;m đốc điều h&amp;agrave;nh tại c&amp;ocirc;ng trường hoặc Tổng Gi&amp;aacute;m đốc C&amp;ocirc;ng &lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span style="font-family: arial, helvetica, clean, sans-serif; font-size: 13.3333px;"&gt;Chịu tr&amp;aacute;ch nhiệm về c&amp;ocirc;ng t&amp;aacute;c kỹ thuật, mỹ thuật thi c&amp;ocirc;ng c&amp;ocirc;ng tr&amp;igrave;nh, định mức vật tư, quản l&amp;yacute; m&amp;aacute;y m&amp;oacute;c tr&amp;ecirc;n c&amp;ocirc;ng trường tương ứng với phần việc được giao.&lt;/span&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;</content_html>
+	</item>	<item>	<title_s>Yêu cầu:</title_s>
+	<content_html>&lt;ul&gt;
+&lt;li&gt;&lt;span style="font-family: arial, helvetica, clean, sans-serif; font-size: 12pt;"&gt;L&amp;agrave; Nam giới, tốt nghiệp Đại học trở l&amp;ecirc;n chuy&amp;ecirc;n ng&amp;agrave;nh X&amp;acirc;y dựng thủy lợi, thủy điện hoặc x&amp;acirc;y dựng cầu đường, giao th&amp;ocirc;ng.&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span style="font-family: arial, helvetica, clean, sans-serif; font-size: 12pt;"&gt;Y&amp;ecirc;u cầu kinh nghiệm: 5 năm, c&amp;oacute; kinh nghiệm thi c&amp;ocirc;ng c&amp;aacute;c dự &amp;aacute;n Thủy điện.&lt;/span&gt;&lt;br style="font-family: arial, helvetica, clean, sans-serif; font-size: 13.3333px;" /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span style="font-family: arial, helvetica, clean, sans-serif; font-size: 12pt;"&gt;Ưu ti&amp;ecirc;n c&amp;oacute; chứng chỉ h&amp;agrave;nh nghề gi&amp;aacute;m s&amp;aacute;t thi c&amp;ocirc;ng x&amp;acirc;y dựng v&amp;agrave;/hoặc chứng chỉ huấn luyện An to&amp;agrave;n lao động.&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;</content_html>
+	</item>	<item>	<title_s>Quyền lợi :</title_s>
+	<content_html>&lt;ul&gt;
+&lt;li&gt;&lt;span style="font-family: arial, helvetica, clean, sans-serif; font-size: 12pt;"&gt;Mức lương: t&amp;ugrave;y theo năng lực v&amp;agrave; kinh nghiệm của c&amp;aacute;c ứng vi&amp;ecirc;n&lt;/span&gt;&lt;br style="font-family: arial, helvetica, clean, sans-serif; font-size: 13.3333px;" /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span style="font-family: arial, helvetica, clean, sans-serif; font-size: 12pt;"&gt;Chế độ BHXH, BHYT, BHTN theo quy định.&lt;/span&gt;&lt;br style="font-family: arial, helvetica, clean, sans-serif; font-size: 13.3333px;" /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span style="font-family: arial, helvetica, clean, sans-serif; font-size: 12pt;"&gt;C&amp;aacute;c chế độ đ&amp;atilde;i ngộ kh&amp;aacute;c theo quy định của c&amp;ocirc;ng ty&lt;/span&gt;&lt;br style="font-family: arial, helvetica, clean, sans-serif; font-size: 13.3333px;" /&gt;&lt;/li&gt;
 &lt;/ul&gt;</content_html>
 	</item></item_o>
 	<image_s>/static-assets/images/featured/content_img_10.png</image_s>
@@ -27,8 +38,8 @@ CBQL trực tiếp:Trưởng vùng
 	<orderDefault_f>-1</orderDefault_f>
 	<createdDate>2020-04-01T04:21:37.033Z</createdDate>
 	<createdDate_dt>2020-04-01T04:21:37.033Z</createdDate_dt>
-	<lastModifiedDate>2020-04-21T09:03:42.607Z</lastModifiedDate>
-	<lastModifiedDate_dt>2020-04-21T09:03:42.607Z</lastModifiedDate_dt>
+	<lastModifiedDate>2020-04-22T06:44:40.204Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-04-22T06:44:40.204Z</lastModifiedDate_dt>
 	<duration_dt>2020-04-01T04:00:00.000Z</duration_dt>
 	<duration_dt_tz>EST5EDT</duration_dt_tz>
 	<slide_o item-list="true">	<item datasource="slide" inline="true">	<key>d4a6cbbb-21c9-c756-a857-6ecbe61d32a0</key>
