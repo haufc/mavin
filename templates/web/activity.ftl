@@ -11,16 +11,16 @@
         </div>
         <div class="content__details container">
             <div class="row">
-                    <div class="col-lg-6 col-md-6 col-sm-12 col-12  order-1">
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-12 row">
                         <#if (contentModel.item_o.item)??>
                                 <#list contentModel.item_o.item as element>
-                                   <p style="color:#fff; font-size:14pt;">${element.content_t}<p>
+                                 <i class="fa fa-play col-lg-4 col-md-4 col-sm-4"></i> <p class="col-lg-8 col-md-8 col-sm-8" style="font-size:14pt;">${element.content_t}<p>
                                 </#list>
                         </#if>
                     </div>
-                    <div class="col-lg-6 col-md-6 col-sm-12 col-12 order-2">
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-12">
                         <#if (contentModel.image_s)?? >
-                        <img src="${contentModel.image_s}" alt="" class="img--full">
+                        <img src="${contentModel.image_s}" alt="Lĩnh vực hoạt động" width="100%">
                         </#if>
                     </div>
             </div>
