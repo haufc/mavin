@@ -2,7 +2,7 @@
     <div class="content" <@studio.iceAttr component=contentModel/>>
         <div class="content__title">
                 <div class="container">
-                        <div class="content__title text--center">
+                        <div class="content__title">
                           <#if (contentModel.title_s)??>
                           <h2 class="text--uppercase text--red">${contentModel.title_s}</h2>
                           </#if>
