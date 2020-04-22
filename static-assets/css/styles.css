@@ -6553,10 +6553,11 @@ h6 {
   background: #333;
 }
 .seemore_btn {
-  padding-top: 10px;
+  margin-top: 10px;
 }
 .seemore_btn span{
     color: #fff;
+    padding-left:5px;
 }
 .content__btn {
   border: 1px solid #fff;
