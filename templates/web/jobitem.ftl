@@ -43,7 +43,7 @@
                         </div>
                         <div class="col-lg-6 col-md-6 col-sm-6 col-6" style="padding: 0;">
                             <#if (contentModel.image_s)?? >
-                            <img src="${contentModel.image_s}" alt="" class="img--full">
+                            <img src="${contentModel.image_s}" alt="" width="100%">
                             </#if>
                         </div>
                 </div>
