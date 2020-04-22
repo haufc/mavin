@@ -26,35 +26,30 @@
 	<lastModifiedDate>2020-04-01T08:08:59.614Z</lastModifiedDate>
 	<lastModifiedDate_dt>2020-04-01T08:08:59.614Z</lastModifiedDate_dt>
 </component>
-	</item>	<item datasource="sections" inline="true">	<key>f7fcf932-814d-7563-b5f4-061f709398da</key>
+	</item>	<item datasource="sections" inline="true">	<key>0cf21b75-ebd1-b601-4566-87218fae1c1d</key>
 	<value>Lĩnh vực hoạt động</value>
-<component id="f7fcf932-814d-7563-b5f4-061f709398da">
-	<content-type>/component/homeitem1</content-type>
-	<display-template>/templates/web/homeitem1.ftl</display-template>
+<component id="0cf21b75-ebd1-b601-4566-87218fae1c1d">
+	<content-type>/component/componentactivity</content-type>
+	<display-template>/templates/web/activity.ftl</display-template>
 	<no-template-required/>
 	<merge-strategy>inherit-levels</merge-strategy>
-	<objectGroupId>f7fc</objectGroupId>
-	<objectId>f7fcf932-814d-7563-b5f4-061f709398da</objectId>
+	<objectGroupId>0cf2</objectGroupId>
+	<objectId>0cf21b75-ebd1-b601-4566-87218fae1c1d</objectId>
+	<file-name>0cf21b75-ebd1-b601-4566-87218fae1c1d.xml</file-name>
+	<internal-name>Lĩnh vực hoạt động</internal-name>
+	<title_s>Lĩnh vực hoạt động</title_s>
+	<image_s>/static-assets/images/featured/content_img_1.png</image_s>
 	<item_o item-list="true">	<item>	<content_t>Xây dựng các công trình giao thông, thủy lợi, dân dụng, công nghiệp, kết cấu hạ tầng khu công nghiệp, khu đô thị;</content_t>
-	</item>	<item>	<content_t>Sản xuất và kinh doanh vật liệu xây dựng cấu kiện bê tông đúc sẵn, cấu kiện bằng kim loại;
-
-</content_t>
-	</item>	<item>	<content_t>Mua bán, cho thuê, máy móc thiết bị dùng trong xây dựng;
-
-</content_t>
+	</item>	<item>	<content_t>Sản xuất và kinh doanh vật liệu xây dựng cấu kiện bê tông đúc sẵn, cấu kiện bằng kim loại;</content_t>
+	</item>	<item>	<content_t>Mua bán, cho thuê, máy móc thiết bị dùng trong xây dựng;</content_t>
 	</item>	<item>	<content_t>Gia công, chế tạo và lắp đặt hệ thống dây truyền sản xuất, hệ thống điện công nghiệp;</content_t>
 	</item>	<item>	<content_t>Tư vấn đầu tư xây dựng và quản lý dự án ( Không bao gồm tư vấn pháp luật tài chính);</content_t>
 	</item>	<item>	<content_t>Kinh doanh nông nghiệp.</content_t>
 	</item></item_o>
-	<isVerticalContent_b>false</isVerticalContent_b>
-	<image_s>/static-assets/images/featured/content_img_1.png</image_s>
-	<file-name>f7fcf932-814d-7563-b5f4-061f709398da.xml</file-name>
-	<internal-name>Lĩnh vực hoạt động</internal-name>
-	<title_s>Lĩnh vực hoạt động</title_s>
-	<createdDate>2020-04-01T08:09:35.088Z</createdDate>
-	<createdDate_dt>2020-04-01T08:09:35.088Z</createdDate_dt>
-	<lastModifiedDate>2020-04-20T05:05:17.129Z</lastModifiedDate>
-	<lastModifiedDate_dt>2020-04-20T05:05:17.129Z</lastModifiedDate_dt>
+	<createdDate>2020-04-22T03:04:23.227Z</createdDate>
+	<createdDate_dt>2020-04-22T03:04:23.227Z</createdDate_dt>
+	<lastModifiedDate>2020-04-22T03:04:23.227Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-04-22T03:04:23.227Z</lastModifiedDate_dt>
 </component>
 	</item></sections_o>
 	<internal-name>Lĩnh vực hoạt động</internal-name>
@@ -63,7 +58,7 @@
 	<orderDefault_f>5000</orderDefault_f>
 	<createdDate>2020-04-01T08:08:25.217Z</createdDate>
 	<createdDate_dt>2020-04-01T08:08:25.217Z</createdDate_dt>
-	<lastModifiedDate>2020-04-20T05:05:12.763Z</lastModifiedDate>
-	<lastModifiedDate_dt>2020-04-20T05:05:12.763Z</lastModifiedDate_dt>
+	<lastModifiedDate>2020-04-22T03:04:12.684Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-04-22T03:04:12.684Z</lastModifiedDate_dt>
 	<descripttion_t>Đây là trang cung cấp các thông tin về các lĩnh vực mà công ty đang hoạt động </descripttion_t>
 </page>
