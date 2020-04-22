@@ -6598,8 +6598,11 @@ h6 {
   color: #00559a;
 }
 .activity__content-btn {
-        font-size: 20px;
-        color : #CE171E;
+    padding-right: 5px;
+    padding-left: 4px;
+    padding-top: 4px;
+    font-size: 15px;
+    color: #CE171E;
 }
 
 #projects.carousel .carousel-controllers {
