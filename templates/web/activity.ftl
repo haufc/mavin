@@ -11,7 +11,12 @@
         </div>
         <div class="content__details container">
             <div class="row">
-                    <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                        <#if (contentModel.image_s)?? >
+                        <img src="${contentModel.image_s}" alt="Lĩnh vực hoạt động" width="100%">
+                        </#if>
+                    </div>
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-12">
                         <#if (contentModel.item_o.item)??>
                                 <#list contentModel.item_o.item as element>
                                     <div class="d-flex">
@@ -25,11 +30,7 @@
                                 </#list>
                         </#if>
                     </div>
-                    <div class="col-lg-6 col-md-6 col-sm-12 col-12">
-                        <#if (contentModel.image_s)?? >
-                        <img src="${contentModel.image_s}" alt="Lĩnh vực hoạt động" width="100%">
-                        </#if>
-                    </div>
+                    
             </div>
         </div>
 <@studio.toolSupport />
