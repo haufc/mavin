@@ -58,14 +58,14 @@
             </div>
             <div class="col-lg6 col-md-6 col-sm-6 col-6 seemore_btn" style="padding: 0;">
                  <a class="mt-3 rounded-0" href="${intros[2].url}"> 
+                    <i class="fa fa-play text--red"></i>
                     <span class="mr-3">Xem thêm</span>
-                    <i class="fas fa-arrow-right"></i>
                 </a>
             </div>
             <div class="col-lg6 col-md-6 col-sm-6 col-6 seemore_btn" >
                  <a class="mt-3 rounded-0" href="${intros[0].url}"> 
-                    <span class="mr-3">Xem thêm</span>
                     <i class="fas fa-arrow-right"></i>
+                    <span class="mr-3">Xem thêm</span>
                 </a>
             </div>
           </div>
