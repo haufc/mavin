@@ -4,7 +4,7 @@
                 <div class="container">
                         <div class="content__title">
                           <#if (contentModel.title_s)??>
-                          <h2 class="text--uppercase text--red">${contentModel.title_s}</h2>
+                          <h2 style="padding-left: 17px;" class="text--uppercase text--red">${contentModel.title_s}</h2>
                           </#if>
                         </div>
                 </div>
