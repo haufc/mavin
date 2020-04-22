@@ -56,14 +56,14 @@
             <div class="col-lg6 col-md-6 col-sm-6 col-6" >
                 <img src="${intros[1].avatar}" alt="" class="img--full">
             </div>
-            <div class="col-lg6 col-md-6 col-sm-6 col-6" style="padding: 0;">
-                 <a class="content__btn btn mt-3 rounded-0" href="${intros[2].url}"> 
+            <div class="col-lg6 col-md-6 col-sm-6 col-6 seemore_btn" style="padding: 0;">
+                 <a class="mt-3 rounded-0" href="${intros[2].url}"> 
                     <span class="mr-3">Xem thêm</span>
                     <i class="fas fa-arrow-right"></i>
                 </a>
             </div>
-            <div class="col-lg6 col-md-6 col-sm-6 col-6" >
-                 <a class="content__btn btn mt-3 rounded-0" href="${intros[0].url}"> 
+            <div class="col-lg6 col-md-6 col-sm-6 col-6 seemore_btn" >
+                 <a class="mt-3 rounded-0" href="${intros[0].url}"> 
                     <span class="mr-3">Xem thêm</span>
                     <i class="fas fa-arrow-right"></i>
                 </a>
