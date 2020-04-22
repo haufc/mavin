@@ -51,7 +51,7 @@
                 <#if (contentModel.item_o.item)??>
                     <#list contentModel.item_o.item as element>
                         <div class="activity-list__content">
-                          <div class="seeemore_btn rounded-0">
+                          
                             <p><i class="fas fa-play text--red"></i> ${element.content_t}</p>
                           </div>
                         </div>
