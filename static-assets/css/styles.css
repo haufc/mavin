@@ -6293,6 +6293,7 @@ h6 {
     .mavinex-nav {
         width: 100%;
         display: flex;
+        display: -ms-flexbox;
         background: #00549a;
     }
     .mavinex-nav__container {
@@ -6302,17 +6303,46 @@ h6 {
         width: 100%;
         height: 70px;
         padding: 65px 0;
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
         align-items: center;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
         justify-content: space-between;
     }
+    
+     /*  display: -webkit-box;*/
+/*  display: -ms-flexbox;*/
+/*  display: flex;*/
+/*  -webkit-box-align: end;*/
+/*      -ms-flex-align: end;*/
+/*          align-items: flex-end;*/
+/*  -webkit-box-pack: justify;*/
+/*      -ms-flex-pack: justify;*/
+/*          justify-content: space-between;*/
+/*  -webkit-box-orient: horizontal;*/
+/*  -webkit-box-direction: normal;*/
+/*      -ms-flex-direction: row;*/
+/*          flex-direction: row;*/
     /* navigation bar menu */
     .mavinex-nav__links {
         max-width: 920px;
         width: 100%;
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
+        -webkit-box-align: start;
+        -ms-flex-align: start;
         align-items: start;
+        -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
         justify-content: space-evenly;
+        -webkit-transition: all 0.5s ease-in-out;
+        -moz-transition: all 0.5s ease-in-out;
+        -ms-transition: all 0.5s ease-in-out;
         transition: all 0.5s ease-in-out;
     }
     .mavinex-nav__links.show {
@@ -6321,7 +6351,12 @@ h6 {
         top: 100px;
         left: 0;
         padding: 15px;
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
         flex-direction: column;
         gap: 15px;
         background: #00549a;
