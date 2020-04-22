@@ -14,11 +14,11 @@
                     <div class="col-lg-6 col-md-6 col-sm-12 col-12">
                         <#if (contentModel.item_o.item)??>
                                 <#list contentModel.item_o.item as element>
-                                    <div class="row text-white">
-                                        <div class="col-lg-1 col-md-1 col-sm-1 activity__content-btn">
+                                    <div class="d-flex">
+                                        <div class="activity__content-btn">
                                              <i class="fa fa-play text--red"></i> 
                                         </div>
-                                        <div class="col-lg-11 col-md-11 col-sm-11">
+                                        <div >
                                             <p style="font-size:14pt;">${element.content_t}<p>
                                         </div>
                                     </div>
