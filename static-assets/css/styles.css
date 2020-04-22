@@ -6556,7 +6556,7 @@ h6 {
   margin-top: 10px;
 }
 .seemore_btn {
-  font-size: 17px !important;
+  font-size: 17px;
 }
 .seemore_btn span{
     color: #fff;
