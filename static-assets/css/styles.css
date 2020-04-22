@@ -7387,6 +7387,9 @@ h6 {
   .content__btn {
       font-size: 10px;
   }
+  .seemore_btn{
+      font-size: 14px;
+  }
   .footer {
       background: #00559A !important;
       padding: 30px 0 15px;
