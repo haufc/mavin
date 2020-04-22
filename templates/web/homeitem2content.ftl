@@ -13,8 +13,8 @@
     <h4 class="text--uppercase text-white" style="padding-top: 15px;">${contentModel.title_s}</h4>
     <div class="seemore_btn">
     <a class="mt-3 rounded-0" href="/experience"> 
-        <i class="fas fa-play text--red"></i>
         <span class="mr-3">Xem thêm</span>
+        <i class="fas fa-play text--red"></i>
     </a>
     </div>
 </div>
