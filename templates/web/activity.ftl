@@ -11,10 +11,10 @@
         </div>
         <div class="content__details container">
             <div class="row">
-                    <div class="col-lg-6 col-md-6 col-sm-12 col-12 row">
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-12">
                         <#if (contentModel.item_o.item)??>
                                 <#list contentModel.item_o.item as element>
-                                 <i class="fa fa-play col-lg-4 col-md-4 col-sm-4"></i> <p class="col-lg-8 col-md-8 col-sm-8" style="font-size:14pt;">${element.content_t}<p>
+                                 <i class="fa fa-play col-lg-2 col-md-2 col-sm-2"></i> <p class="col-lg col-md col-sm" style="font-size:14pt;">${element.content_t}<p>
                                 </#list>
                         </#if>
                     </div>
