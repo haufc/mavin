@@ -14,7 +14,10 @@
                     <div class="col-lg-6 col-md-6 col-sm-12 col-12">
                         <#if (contentModel.item_o.item)??>
                                 <#list contentModel.item_o.item as element>
-                                 <i class="fa fa-play col-lg-2 col-md-2 col-sm-2"></i> <p class="col-lg col-md col-sm" style="font-size:14pt;">${element.content_t}<p>
+                                    <div class="row">
+                                         <i class="fa fa-play col-lg-2 col-md-2 col-sm-2"></i> 
+                                         <p class="col-lg col-md col-sm" style="font-size:14pt;">${element.content_t}<p>
+                                    </div>
                                 </#list>
                         </#if>
                     </div>
