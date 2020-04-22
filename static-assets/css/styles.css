@@ -7377,9 +7377,10 @@ h6 {
     }
     
     .activity__content-btn {
+        padding-right: 15px;
         font-size: 20px;
-        padding-top: 9px;
-        color : #CE171E;
+        padding-top: 1px;
+        color: #CE171E;
     }
     
 }
