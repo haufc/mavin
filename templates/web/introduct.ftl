@@ -22,14 +22,14 @@
             </div>
             <div class="col-lg6 col-md-6 col-sm-6 col-6 seemore_btn" style="padding: 0;">
                  <a class="mt-3 rounded-0" href="${intros[3].url}"> 
-                    <span class="mr-3">Xem thêm</span>
+                    <span class="mr-1">Xem thêm</span>
                     <i class="fa fa-play text--red"></i>
                 </a>
             </div>
 
             <div class="col-lg6 col-md-6 col-sm-6 col-6 seemore_btn" >
                  <a class="mt-3 rounded-0" href="${intros[1].url}"> 
-                    <span class="mr-3">Xem thêm</span>
+                    <span class="mr-1">Xem thêm</span>
                     <i class="fa fa-play text--red"></i>
                 </a>
             </div>
@@ -58,13 +58,13 @@
             </div>
             <div class="col-lg6 col-md-6 col-sm-6 col-6 seemore_btn" style="padding: 0;">
                  <a class="mt-3 rounded-0" href="${intros[2].url}"> 
-                    <span class="mr-3">Xem thêm</span>
+                    <span class="mr-1">Xem thêm</span>
                     <i class="fa fa-play text--red"></i>
                 </a>
             </div>
             <div class="col-lg6 col-md-6 col-sm-6 col-6 seemore_btn" >
                  <a class="mt-3 rounded-0" href="${intros[0].url}"> 
-                    <span class="mr-3">Xem thêm</span>
+                    <span class="mr-1">Xem thêm</span>
                     <i class="fa fa-play text--red"></i>
                 </a>
             </div>
