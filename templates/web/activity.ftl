@@ -15,7 +15,7 @@
                         <#if (contentModel.item_o.item)??>
                                 <#list contentModel.item_o.item as element>
                                     <div class="row">
-                                         <i class="fa fa-play col-lg-1 col-md-1 col-sm-1"></i> 
+                                         <i class="fa fa-play col-lg-1 col-md-1 col-sm-1 activity__content-btn"></i> 
                                          <p class="col-lg col-md col-sm" style="font-size:14pt;">${element.content_t}<p>
                                     </div>
                                 </#list>
