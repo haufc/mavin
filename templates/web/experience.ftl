@@ -39,7 +39,7 @@
                         </a>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-6 seemore-btn">
-                         <a class="content__btn btn mt-3 rounded-0"> 
+                         <a class="mt-3 rounded-0"> 
                             <i class="fa fa-play text--red"></i>
                             <span class="mr-3">Xem thêm</span>
                         </a>
