@@ -52,7 +52,7 @@
                     <#list contentModel.item_o.item as element>
                         <div class="activity-list__content">
                           <div class="activity-list__content-text rounded-0">
-                            <p>${element.content_t}</p>
+                            <p><i class="fa fa-play"></i> ${element.content_t}</p>
                           </div>
                         </div>
                     </#list>
