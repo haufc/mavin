@@ -6,8 +6,11 @@
 	<merge-strategy>inherit-levels</merge-strategy>
 	<objectGroupId>d3e7</objectGroupId>
 	<objectId>d3e783fe-e8b5-31d7-1199-779a75a9bdef</objectId>
-	<item_o item-list="true">	<item>	<title_s/>
+	<item_o item-list="true">	<item>	<title_s>Tổng quát</title_s>
 	<content_t/>
+	<content_html>&lt;ul&gt;
+&lt;li&gt;L&amp;agrave;m việc trong m&amp;ocirc;i trường năng động s&amp;aacute;ng tạo&lt;/li&gt;
+&lt;/ul&gt;</content_html>
 	</item></item_o>
 	<file-name>index.xml</file-name>
 	<folder-name>quan-ly</folder-name>
@@ -38,8 +41,8 @@
 	<image_s>/static-assets/images/featured/content_img_2.png</image_s>
 	<createdDate>2020-04-17T03:09:08.165Z</createdDate>
 	<createdDate_dt>2020-04-17T03:09:08.165Z</createdDate_dt>
-	<lastModifiedDate>2020-04-17T03:09:08.165Z</lastModifiedDate>
-	<lastModifiedDate_dt>2020-04-17T03:09:08.165Z</lastModifiedDate_dt>
+	<lastModifiedDate>2020-04-22T02:18:23.877Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-04-22T02:18:23.877Z</lastModifiedDate_dt>
 	<duration_dt>2020-04-16T04:00:00.000Z</duration_dt>
 	<duration_dt_tz>EST5EDT</duration_dt_tz>
 </page>
