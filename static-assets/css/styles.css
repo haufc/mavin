@@ -7401,6 +7401,7 @@ h6 {
   
   .footer-item__social--title {
       text-align: left !important;
+      padding-top: 15px;
   }
   
   .footer-item__social--icons {
