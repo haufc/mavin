@@ -10,7 +10,7 @@
             <a class="mavinex-nav__link" href="/introduct">Giới thiệu</a>
             <a class="mavinex-nav__link" href="/activity">Lĩnh vực hoạt động</a>
             <a class="mavinex-nav__link" href="/experience2">Năng lực kinh nghiệm</a>
-            <a class="mavinex-nav__link" href="/all-jobs">Tuyển dụng</a>
+            <a class="mavinex-nav__link" href="/co-hoi-nghe-nghiep">Tuyển dụng</a>
             <a class="mavinex-nav__link" href="/contact">Liên hệ</a>
         </div>
 
