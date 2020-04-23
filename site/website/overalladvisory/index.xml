@@ -31,30 +31,39 @@
 	<lastModifiedDate>2020-04-23T04:00:03.707Z</lastModifiedDate>
 	<lastModifiedDate_dt>2020-04-23T04:00:03.707Z</lastModifiedDate_dt>
 </component>
-	</item>	<item datasource="sections" inline="true">	<key>5f7bf994-7788-906e-4a06-a8249bb66c25</key>
+	</item>	<item datasource="sections" inline="true">	<key>da92bad5-7aab-d3ee-c3fa-8a659cfce321</key>
 	<value>Tư vấn tổng thể</value>
-<component id="5f7bf994-7788-906e-4a06-a8249bb66c25">
+<component id="da92bad5-7aab-d3ee-c3fa-8a659cfce321">
 	<content-type>/component/componentfields</content-type>
 	<display-template>/templates/web/fields.ftl</display-template>
 	<no-template-required/>
 	<merge-strategy>inherit-levels</merge-strategy>
-	<objectGroupId>5f7b</objectGroupId>
-	<objectId>5f7bf994-7788-906e-4a06-a8249bb66c25</objectId>
-	<carousels_o item-list="true"/>
-	<file-name>5f7bf994-7788-906e-4a06-a8249bb66c25.xml</file-name>
+	<objectGroupId>da92</objectGroupId>
+	<objectId>da92bad5-7aab-d3ee-c3fa-8a659cfce321</objectId>
+	<file-name>da92bad5-7aab-d3ee-c3fa-8a659cfce321.xml</file-name>
 	<internal-name>Tư vấn tổng thể</internal-name>
 	<title_s>Tư vấn tổng thể</title_s>
-	<itemTitle_s>Tư vấn tổng thể thiết kê trong trang trại chăn nuô</itemTitle_s>
+	<itemTitle_s>Tư vấn tổng thể và thiết kế trang trại chăn nuôi</itemTitle_s>
 	<itemId_s>overalladvisory</itemId_s>
-	<itemContent_html>&lt;p&gt;&lt;span style="color: #444950; font-family: system-ui, -apple-system, system-ui, .SFNSText-Regular, sans-serif;"&gt;&lt;span style="font-size: 13px; white-space: pre-wrap;"&gt;Tư vấn tổng thể cho nh&amp;agrave; m&amp;aacute;y, trang trại Mavinex l&amp;agrave; nh&amp;agrave; thầu chuy&amp;ecirc;n tư vấn tổng thể, sắp xếp bố tr&amp;iacute; mặt bằng c&amp;aacute;c nh&amp;agrave; m&amp;aacute;y thức ăn chăn nu&amp;ocirc;i, hệ thống chuồng trại c&amp;oacute; quy m&amp;ocirc; lớn nhỏ kh&amp;aacute;c nhau trong phạm vi cả nước. Từ thiết kế tổng thể đến thiết kế kiến tr&amp;uacute;c, kết cấu, hệ thống điện nước&amp;hellip; cho nh&amp;agrave; m&amp;aacute;y, trang trại đảm bảo ph&amp;ugrave; hợp v&amp;agrave; tu&amp;acirc;n thủ đ&amp;uacute;ng ti&amp;ecirc;u chuẩn kỹ thuật. Mavinex mang đến những giải ph&amp;aacute;p, thiết bị chuồng trại chuy&amp;ecirc;n nghiệp, đồng bộ. C&amp;ugrave;ng với đội ngũ kỹ thuật ch&amp;uacute;ng t&amp;ocirc;i đưa ra giải ph&amp;aacute;p tốt nhất về đầu tư, c&amp;aacute;ch thức ứng dụng khoa học &amp;ndash; kỹ thuật v&amp;agrave; triển khai quy tr&amp;igrave;nh chăn nu&amp;ocirc;i &amp;ndash; quản l&amp;yacute; ph&amp;ugrave; hợp, c&amp;aacute;ch chọn vật liệu để đảm bảo chuồng trại đủ quy chuẩn, tho&amp;aacute;ng kh&amp;iacute;, tho&amp;aacute;t nhiệt, tiết kiệm năng lượng v&amp;agrave; c&amp;ocirc;ng sức chăm s&amp;oacute;c, đặc biệt l&amp;agrave; giảm thiểu nguy cơ dịch bệnh x&amp;acirc;m nhập, thiếu ổn định, thiếu an to&amp;agrave;n. Hiện tại Mavinex đ&amp;atilde; v&amp;agrave; đang tư vấn mặt bằng, cung cấp trang thiết bị cho nhiều nh&amp;agrave; m&amp;aacute;y, trang trại chăn nu&amp;ocirc;i heo, g&amp;agrave;, vịt khắp c&amp;aacute;c tỉnh th&amp;agrave;nh trong nước: Th&amp;aacute;i B&amp;igrave;nh, Ph&amp;uacute; Thọ, Bắc Ninh, H&amp;ograve;a B&amp;igrave;nh, Hưng Y&amp;ecirc;n, Bắc Giang, Hải Dương, Quảng Ninh, Thanh H&amp;oacute;a, Nghệ An, Hậu Giang&amp;hellip; Thiết kế c&amp;aacute;c hạng mục chuồng trại Thiết kế bản vẽ tổng thể dự &amp;aacute;n tr&amp;ecirc;n cơ sở mặt bằng hiện c&amp;oacute; theo hướng hợp l&amp;yacute; nhất, đảm bảo thuận tiện trong qu&amp;aacute; tr&amp;igrave;nh chăn nu&amp;ocirc;i. Thiết kế chuồng trại, hệ thống nước, bể chứa ph&amp;acirc;n, nh&amp;agrave; s&amp;aacute;t tr&amp;ugrave;ng, t&amp;iacute;nh to&amp;aacute;n k&amp;iacute;ch thước chuồng trại&amp;hellip;để lắp đặt hệ thống thiết bị ph&amp;ugrave; hợp, ch&amp;iacute;nh x&amp;aacute;c, an to&amp;agrave;n v&amp;agrave; thẩm mỹ. Một số h&amp;igrave;nh ảnh thiết kế tổng thể của nh&amp;agrave; m&amp;aacute;y v&amp;agrave; c&amp;aacute;c trang trại:&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;</itemContent_html>
-	<createdDate>2020-04-23T04:02:02.979Z</createdDate>
-	<createdDate_dt>2020-04-23T04:02:02.979Z</createdDate_dt>
-	<lastModifiedDate>2020-04-23T04:02:02.979Z</lastModifiedDate>
-	<lastModifiedDate_dt>2020-04-23T04:02:02.979Z</lastModifiedDate_dt>
+	<carousels_o item-list="true"/>
+	<itemContent_html>&lt;p&gt;Tư vấn tổng thể cho nh&amp;agrave; m&amp;aacute;y, trang trại&lt;/p&gt;
+&lt;p&gt;Mavinex l&amp;agrave; nh&amp;agrave; thầu chuy&amp;ecirc;n tư vấn tổng thể, sắp xếp bố tr&amp;iacute; mặt bằng c&amp;aacute;c nh&amp;agrave; m&amp;aacute;y thức ăn chăn nu&amp;ocirc;i, hệ thống chuồng trại c&amp;oacute; quy m&amp;ocirc; lớn nhỏ kh&amp;aacute;c nhau trong phạm vi cả nước. Từ thiết kế tổng thể đến thiết kế kiến tr&amp;uacute;c, kết cấu, hệ thống điện nước&amp;hellip; cho nh&amp;agrave; m&amp;aacute;y, trang trại đảm bảo ph&amp;ugrave; hợp v&amp;agrave; tu&amp;acirc;n thủ đ&amp;uacute;ng ti&amp;ecirc;u chuẩn kỹ thuật.&lt;/p&gt;
+&lt;p&gt;Mavinex mang đến những giải ph&amp;aacute;p, thiết bị chuồng trại chuy&amp;ecirc;n nghiệp, đồng bộ. C&amp;ugrave;ng với đội ngũ kỹ thuật ch&amp;uacute;ng t&amp;ocirc;i đưa ra giải ph&amp;aacute;p tốt nhất về đầu tư, c&amp;aacute;ch thức ứng dụng khoa học &amp;ndash; kỹ thuật v&amp;agrave; triển khai quy tr&amp;igrave;nh chăn nu&amp;ocirc;i &amp;ndash; quản l&amp;yacute; ph&amp;ugrave; hợp, c&amp;aacute;ch chọn vật liệu để đảm bảo chuồng trại đủ quy chuẩn, tho&amp;aacute;ng kh&amp;iacute;, tho&amp;aacute;t nhiệt, tiết kiệm năng lượng v&amp;agrave; c&amp;ocirc;ng sức chăm s&amp;oacute;c, đặc biệt l&amp;agrave; giảm thiểu nguy cơ dịch bệnh x&amp;acirc;m nhập, thiếu ổn định, thiếu an to&amp;agrave;n.&lt;/p&gt;
+&lt;p&gt;Hiện tại Mavinex đ&amp;atilde; v&amp;agrave; đang tư vấn mặt bằng, cung cấp trang thiết bị cho nhiều nh&amp;agrave; m&amp;aacute;y, trang trại chăn nu&amp;ocirc;i heo, g&amp;agrave;, vịt khắp c&amp;aacute;c tỉnh th&amp;agrave;nh trong nước: Th&amp;aacute;i B&amp;igrave;nh, Ph&amp;uacute; Thọ, Bắc Ninh, H&amp;ograve;a B&amp;igrave;nh, Hưng Y&amp;ecirc;n, Bắc Giang, Hải Dương, Quảng Ninh, Thanh H&amp;oacute;a, Nghệ An, Hậu Giang&amp;hellip;&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p&gt;Thiết kế c&amp;aacute;c hạng mục chuồng trại&lt;/p&gt;
+&lt;p&gt;Thiết kế bản vẽ tổng thể dự &amp;aacute;n tr&amp;ecirc;n cơ sở mặt bằng hiện c&amp;oacute; theo hướng hợp l&amp;yacute; nhất, đảm bảo thuận tiện trong qu&amp;aacute; tr&amp;igrave;nh chăn nu&amp;ocirc;i.&lt;/p&gt;
+&lt;p&gt;Thiết kế chuồng trại, hệ thống nước, bể chứa ph&amp;acirc;n, nh&amp;agrave; s&amp;aacute;t tr&amp;ugrave;ng, t&amp;iacute;nh to&amp;aacute;n k&amp;iacute;ch thước chuồng trại&amp;hellip;để lắp đặt hệ thống thiết bị ph&amp;ugrave; hợp, ch&amp;iacute;nh x&amp;aacute;c, an to&amp;agrave;n v&amp;agrave; thẩm mỹ.&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p&gt;Một số h&amp;igrave;nh ảnh thiết kế tổng thể của nh&amp;agrave; m&amp;aacute;y v&amp;agrave; c&amp;aacute;c trang trại:&lt;/p&gt;</itemContent_html>
+	<createdDate>2020-04-23T04:17:58.815Z</createdDate>
+	<createdDate_dt>2020-04-23T04:17:58.815Z</createdDate_dt>
+	<lastModifiedDate>2020-04-23T04:18:58.841Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-04-23T04:18:58.841Z</lastModifiedDate_dt>
 </component>
 	</item></sections_o>
 	<createdDate>2020-04-23T03:58:26.657Z</createdDate>
 	<createdDate_dt>2020-04-23T03:58:26.657Z</createdDate_dt>
-	<lastModifiedDate>2020-04-23T03:58:26.657Z</lastModifiedDate>
-	<lastModifiedDate_dt>2020-04-23T03:58:26.657Z</lastModifiedDate_dt>
+	<lastModifiedDate>2020-04-23T04:17:47.498Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-04-23T04:17:47.498Z</lastModifiedDate_dt>
 </page>
