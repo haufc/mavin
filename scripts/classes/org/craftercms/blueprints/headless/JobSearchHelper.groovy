@@ -13,7 +13,7 @@ class JobSearchHelper {
     static final String JOB_CONTENT_TYPE_QUERY = "content-type:\"/page/jobpage\""
     static final String[] HIGHLIGHT_FIELDS = ["title_s", "item_o.item.content_html"]
     static final int DEFAULT_START = 0
-    static final int DEFAULT_ROWS = 10
+    static final int DEFAULT_ROWS = 50
     
     def elasticsearch
     UrlTransformationService urlTransformationService
