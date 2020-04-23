@@ -13,7 +13,7 @@
             <#list jobs as job>
             	<p style="line-height: 2;font-size: 20px;">${job.title}</p>
             </#list>
-            <div class="seemore_btn mt-8">
+            <div class="seemore_btn" style="margin-top: 2em">
                 <a class="mt-3 rounded-0" href="/all-jobs"> 
                     <span class="mr-1">Xem thêm</span>
                     <i class="fas fa-play text--red"></i>
