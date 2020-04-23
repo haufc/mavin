@@ -18,7 +18,7 @@ class SearchContentHelper {
     static final String[] INTRO_HIGHLIGHT_FIELDS = ["title_s", "contents_html"]
     
     static final int DEFAULT_START = 0
-    static final int DEFAULT_ROWS = 10
+    static final int DEFAULT_ROWS = 100
     
     def elasticsearch
     UrlTransformationService urlTransformationService
