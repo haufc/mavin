@@ -12,25 +12,25 @@ $(document).ready(function() {
     
     if (url.href.indexOf(lstPageURL[0]) > -1) {
         $('#nav-content a').filter(function() {
-            return this.href == "experience2";
+            return this.href == getContextPath()+"/experience2";
         }).css('font-weight', 'bold');
     }
     
      if (url.href.indexOf(lstPageURL[1]) > -1) {
         $('#nav-content a').filter(function() {
-            return this.href == "experience2";
+            return this.href == getContextPath()+"/experience2";
         }).css('font-weight', 'bold');
     }
     
     if (url.href.indexOf(lstPageURL[2]) > -1) {
         $('#nav-content a').filter(function() {
-            return this.href == "co-hoi-nghe-nghiep";
+            return this.href == getContextPath()+"/co-hoi-nghe-nghiep";
         }).css('font-weight', 'bold');
     }
     
     if (url.href.indexOf(lstPageURL[3]) > -1) {
         $('#nav-content a').filter(function() {
-            return this.href == "co-hoi-nghe-nghiep";
+            return this.href == getContextPath()+"/co-hoi-nghe-nghiep";
         }).css('font-weight', 'bold');
     }
     
