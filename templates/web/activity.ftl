@@ -23,9 +23,15 @@
                                         <div class="activity__content-btn">
                                              <i class="fa fa-play text--red"></i> 
                                         </div>
-                                        <div class="text-white">
+                                        <#if ${elelemnt?is_odd_item?c}>
+                                        <div class="text-white mavinex-content__text-box-item mavinex-content__text-box-item--white">
                                             <p style="font-size:14pt;">${element.content_t}<p>
                                         </div>
+                                        <#else>
+                                        <div class="text-white mavinex-content__text-box-item mavinex-content__text-box-item--blue">
+                                            <p style="font-size:14pt;">${element.content_t}<p>
+                                        </div>
+                                        </#if>
                                     </div>
                                 </#list>
                         </#if>
