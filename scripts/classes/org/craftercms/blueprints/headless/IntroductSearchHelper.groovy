@@ -14,7 +14,7 @@ class IntroductSearchHelper {
     static final String INTRO_CONTENT_TYPE_QUERY = "content-type:\"/page/introductiondetail\""
     static final String[] HIGHLIGHT_FIELDS = ["title_s"]
     static final int DEFAULT_START = 0
-    static final int DEFAULT_ROWS = 10
+    static final int DEFAULT_ROWS = 50
     
     def elasticsearch
     UrlTransformationService urlTransformationService
