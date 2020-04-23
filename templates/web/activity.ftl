@@ -19,7 +19,8 @@
                     <div class="col-lg-12 col-md-12 col-sm-12 col-12">
                         <#if (contentModel.item_o.item)??>
                                 <#list contentModel.item_o.item as element>
-                                    <div class="d-flex">
+                                    <#--<div class="d-flex"> -->
+                                    <div class="mavinex-content__text-box col-12">
                                         <div class="activity__content-btn">
                                              <i class="fa fa-play text--red"></i> 
                                         </div>
