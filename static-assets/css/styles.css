@@ -6678,6 +6678,10 @@ h6 {
   text-align: center;
 }
 
+.list-job__item {
+    line-height: 2;
+    font-size: 20px;
+}
 .job__item {
   margin-bottom: 30px;
   height: -webkit-max-content;
@@ -7412,6 +7416,10 @@ h6 {
   }
   .mavinex-logos > .owl-carousel .owl-item img {
       width: 45px;
+  }
+  
+  .list-job__item {
+      font-size: 12px;
   }
 }
 
