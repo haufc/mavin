@@ -1,5 +1,5 @@
 <content-type name="/component/listjob" is-wcm-type="true">
-	<label>Component - ListJ ob</label>
+	<label>Component - List Job</label>
 	<form>/component/listjob</form>
 	<form-path>simple</form-path>
 	<model-instance-path>NOT-USED-BY-SIMPLE-FORM-ENGINE</model-instance-path>
