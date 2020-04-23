@@ -26,11 +26,11 @@
                                         </div>
                                         <#if element?is_odd_item == true>
                                         <div class="mavinex-content__text-box-item mavinex-content__text-box-item mavinex-content__text-box-item--white">
-                                            <p style="font-size:12pt; margin: 5px;">${element.content_t}<p>
+                                            <p style="font-size:12pt; margin: 5px; color:#00549a;">${element.content_t}<p>
                                         </div>
                                         <#else>
                                         <div class="mavinex-content__text-box-item mavinex-content__text-box-item mavinex-content__text-box-item--blue">
-                                            <p style="font-size:12pt; margin: 5px;">${element.content_t}<p>
+                                            <p style="font-size:12pt; margin: 5px; color:#00549a;">${element.content_t}<p>
                                         </div>
                                         </#if>
                                     </div>
