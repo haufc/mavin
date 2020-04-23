@@ -6471,6 +6471,10 @@ h6 {
   height: max-content;
 }
 
+_:-ms-lang(x), .content__img { 
+  height: 100%;
+}
+
 .content__logo-list {
   overflow: hidden;
   width: 100%;
