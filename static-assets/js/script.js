@@ -6,7 +6,7 @@ $(document).ready(function() {
     //     return this.href == url;
     // }).addClass('active');
     
-    $('#navLinks a').filter(function() {
+    $('#nav-content a').filter(function() {
         return this.href == url;
     }).css('font-weight', 'bold');
     
