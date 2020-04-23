@@ -20,7 +20,7 @@
                         <#if (contentModel.item_o.item)??>
                                 <#list contentModel.item_o.item as element>
                                     <#--<div class="d-flex"> -->
-                                    <div class="mavinex-content__text-box col-12">
+                                    <div class="mavinex-content__text-box">
                                         <div class="activity__content-btn">
                                              <i class="fa fa-play text--red"></i> 
                                         </div>
