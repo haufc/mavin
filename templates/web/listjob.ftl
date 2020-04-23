@@ -14,7 +14,7 @@
             	<p>${job.title}</p>
             </#list>
             <div class="seemore_btn">
-                <a class="mt-3 rounded-0" href="/all-job"> 
+                <a class="mt-3 rounded-0" href="/all-jobs"> 
                     <span class="mr-1">Xem thêm</span>
                     <i class="fas fa-play text--red"></i>
                 </a>
