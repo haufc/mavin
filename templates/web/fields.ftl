@@ -3,7 +3,7 @@
     <div class="content__title">
             <div class="container">
                 <div class="row">
-                        <div class="col-lg-6 col-md-6 col-sm-6 col-6">
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-12">
                           <h1 class="text--red text--uppercase">${contentModel.itemTitle_s}</h1>
                         </div>
                 </div>
