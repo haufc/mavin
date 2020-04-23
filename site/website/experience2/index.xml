@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <page>
+	<savedAsDraft>true</savedAsDraft>
 	<content-type>/page/home</content-type>
 	<display-template>/templates/web/home.ftl</display-template>
 	<no-template-required/>
@@ -30,6 +31,7 @@
 	</item>	<item datasource="sections" inline="true">	<key>e02c6ec6-cb5a-2893-4893-2017a9014d0c</key>
 	<value>Năng lực kinh nghiệm Content</value>
 <component id="e02c6ec6-cb5a-2893-4893-2017a9014d0c">
+	<savedAsDraft>true</savedAsDraft>
 	<content-type>/component/componentfieldsandadvice</content-type>
 	<display-template>/templates/web/experience.ftl</display-template>
 	<no-template-required/>
@@ -46,8 +48,8 @@
 	</item></item_o>
 	<createdDate>2020-04-15T03:53:23.758Z</createdDate>
 	<createdDate_dt>2020-04-15T03:53:23.758Z</createdDate_dt>
-	<lastModifiedDate>2020-04-15T04:10:23.590Z</lastModifiedDate>
-	<lastModifiedDate_dt>2020-04-15T04:10:23.590Z</lastModifiedDate_dt>
+	<lastModifiedDate>2020-04-23T04:44:07.987Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-04-23T04:44:07.987Z</lastModifiedDate_dt>
 </component>
 	</item></sections_o>
 	<file-name>index.xml</file-name>
@@ -56,6 +58,6 @@
 	<title_s>Năng lực kinh nghiệm</title_s>
 	<createdDate>2020-04-15T03:49:59.560Z</createdDate>
 	<createdDate_dt>2020-04-15T03:49:59.560Z</createdDate_dt>
-	<lastModifiedDate>2020-04-15T04:10:19.510Z</lastModifiedDate>
-	<lastModifiedDate_dt>2020-04-15T04:10:19.510Z</lastModifiedDate_dt>
+	<lastModifiedDate>2020-04-23T04:43:11.129Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-04-23T04:43:11.129Z</lastModifiedDate_dt>
 </page>
