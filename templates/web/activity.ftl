@@ -23,7 +23,7 @@
                                         <div class="activity__content-btn">
                                              <i class="fa fa-play text--red"></i> 
                                         </div>
-                                        <#if (element?is_odd_item)??>
+                                        <#if element?is_odd_item?c == true>
                                         <div class="mavinex-content__text-box-item mavinex-content__text-box-item--white">
                                             <p style="font-size:14pt;">${element.content_t}<p>
                                         </div>
