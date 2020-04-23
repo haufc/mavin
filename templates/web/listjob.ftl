@@ -11,7 +11,7 @@
       <div class="row">
         <div class="col-lg6 col-md-6 col-sm-6 col-6" style="padding: 0;">
             <#list jobs as job>
-            	<p style="line-height: 1;font-size: 20px;">${job.title}</p>
+            	<p style="line-height: 2;font-size: 20px;">${job.title}</p>
             </#list>
             <div class="seemore_btn">
                 <a class="mt-3 rounded-0" href="/all-jobs"> 
