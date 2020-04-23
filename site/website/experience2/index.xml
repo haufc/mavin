@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <page>
-	<savedAsDraft>true</savedAsDraft>
 	<content-type>/page/home</content-type>
 	<display-template>/templates/web/home.ftl</display-template>
 	<no-template-required/>
@@ -58,6 +57,6 @@
 	<title_s>Năng lực kinh nghiệm</title_s>
 	<createdDate>2020-04-15T03:49:59.560Z</createdDate>
 	<createdDate_dt>2020-04-15T03:49:59.560Z</createdDate_dt>
-	<lastModifiedDate>2020-04-23T04:43:11.129Z</lastModifiedDate>
-	<lastModifiedDate_dt>2020-04-23T04:43:11.129Z</lastModifiedDate_dt>
+	<lastModifiedDate>2020-04-23T05:21:02.401Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-04-23T05:21:02.401Z</lastModifiedDate_dt>
 </page>
