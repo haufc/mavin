@@ -13,6 +13,12 @@
             <#list jobs as job>
             	<p>${job.title}</p>
             </#list>
+            <div class="seemore_btn">
+                <a class="mt-3 rounded-0" href="/all-job"> 
+                    <span class="mr-1">Xem thêm</span>
+                    <i class="fas fa-play text--red"></i>
+                </a>
+            </div>
         </div>
         <div class="col-lg6 col-md-6 col-sm-6 col-6" >
             <img src="${contentModel.image_s}" alt="" width="100%">
