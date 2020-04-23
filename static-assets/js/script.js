@@ -2,9 +2,13 @@ $(document).ready(function() {
     $('.search-result').css("display", "none");
     var url = window.location;
     
-    $('#navLinks a').filter(function() {
+    // $('#navLinks a').filter(function() {
+    //     return this.href == url;
+    // }).addClass('active');
+    
+    $('#nav-content a').filter(function() {
         return this.href == url;
-    }).addClass('active');
+    }).css('font-weight', 'bold');
     
     let dateVal = $('.date-formater').text();
     $('.date-formater').text(formatDate(dateVal));
