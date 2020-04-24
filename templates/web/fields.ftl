@@ -14,7 +14,7 @@
                 ${contentModel.itemContent_html}
             </div>
             <div class="row">
-                <i class="fas fa-play text--red"></i><p>${contentModel.groupTitle_t}</p>
+                <i class="fas fa-play text--red"></i><p>${contentModel.groupTitle_s}</p>
                 <ol>
                 <#list contentModel.group_o.item as group>
                     <li>${group.groupContent_s}</li>    
