@@ -19,14 +19,15 @@
 	<merge-strategy>inherit-levels</merge-strategy>
 	<objectGroupId>0483</objectGroupId>
 	<objectId>048320cb-f728-787e-a3b4-796714536cd4</objectId>
-	<image_o item-list="true">	<item>	<image_s>/static-assets/images/slides/bg_2.png</image_s>
+	<image_o item-list="true">	<item>	<image_s>/static-assets/images/slides/slide-lien-he.png</image_s>
+	</item>	<item>	<image_s>/static-assets/images/slides/bg_3.png</image_s>
 	</item></image_o>
 	<file-name>048320cb-f728-787e-a3b4-796714536cd4.xml</file-name>
 	<internal-name>Slide</internal-name>
 	<createdDate>2020-04-01T06:11:03.907Z</createdDate>
 	<createdDate_dt>2020-04-01T06:11:03.907Z</createdDate_dt>
-	<lastModifiedDate>2020-04-01T06:11:03.907Z</lastModifiedDate>
-	<lastModifiedDate_dt>2020-04-01T06:11:03.907Z</lastModifiedDate_dt>
+	<lastModifiedDate>2020-04-24T02:58:41.032Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-04-24T02:58:41.032Z</lastModifiedDate_dt>
 </component>
 	</item>	<item datasource="sections" inline="true">	<key>3cad0e09-b988-b05e-578f-ad7639b4fd99</key>
 	<value>Liên hệ</value>
@@ -56,7 +57,7 @@
 	<orderDefault_f>4000</orderDefault_f>
 	<createdDate>2020-04-01T06:10:38.796Z</createdDate>
 	<createdDate_dt>2020-04-01T06:10:38.796Z</createdDate_dt>
-	<lastModifiedDate>2020-04-09T08:27:33.834Z</lastModifiedDate>
-	<lastModifiedDate_dt>2020-04-09T08:27:33.834Z</lastModifiedDate_dt>
+	<lastModifiedDate>2020-04-24T02:58:37.664Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-04-24T02:58:37.664Z</lastModifiedDate_dt>
 	<descripttion_t>Trang này cung cấp các thông tin để có thể liên hệ với công ty bao gồm các thông tin như: Địa chỉ , số điện thoại ...</descripttion_t>
 </page>
