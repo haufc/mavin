@@ -14,7 +14,12 @@
                 ${contentModel.itemContent_html}
             </div>
             <div class="row">
-                <i class="fas fa-play text--red"></i><p>${contentModel.itemCommit_t}</p>
+                <i class="fas fa-play text--red"></i><p>${contentModel.groupTitle_t}</p>
+                <ol>
+                <#list contentModel.group_o.item as group>
+                    <li>${group.groupContent_t}</li>    
+                </#list>
+                </ol>
             </div>
             <div class="row" <@studio.componentContainerAttr target="carousels" objectId=contentModel.objectId/>>
                 <#if contentModel.carousels_o?? && contentModel.carousels_o.item??>
