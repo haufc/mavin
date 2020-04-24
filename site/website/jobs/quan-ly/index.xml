@@ -30,7 +30,7 @@
 	<file-name>index.xml</file-name>
 	<folder-name>quan-ly</folder-name>
 	<internal-name>Công nhân cơ khí</internal-name>
-	<title_s>Quản lý hành chính</title_s>
+	<title_s>Công nhân cơ khí</title_s>
 	<type_s>Toàn thời gian</type_s>
 	<placeInNav>false</placeInNav>
 	<orderDefault_f>-1</orderDefault_f>
@@ -56,8 +56,8 @@
 	<image_s>/static-assets/images/featured/content_img_2.png</image_s>
 	<createdDate>2020-04-17T03:09:08.165Z</createdDate>
 	<createdDate_dt>2020-04-17T03:09:08.165Z</createdDate_dt>
-	<lastModifiedDate>2020-04-24T03:10:53.080Z</lastModifiedDate>
-	<lastModifiedDate_dt>2020-04-24T03:10:53.080Z</lastModifiedDate_dt>
+	<lastModifiedDate>2020-04-24T03:14:08.619Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-04-24T03:14:08.619Z</lastModifiedDate_dt>
 	<duration_dt>2020-04-16T04:00:00.000Z</duration_dt>
 	<duration_dt_tz>EST5EDT</duration_dt_tz>
 </page>
