@@ -17,7 +17,7 @@
                 <i class="fas fa-play text--red"></i><p>${contentModel.groupTitle_t}</p>
                 <ol>
                 <#list contentModel.group_o.item as group>
-                    <li>${group.groupContent_t}</li>    
+                    <li>${group.groupContent_s}</li>    
                 </#list>
                 </ol>
             </div>
