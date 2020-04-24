@@ -32,14 +32,14 @@ CBQL trực tiếp:Trưởng vùng
 	<file-name>index.xml</file-name>
 	<folder-name>ke-toan-tong-hop</folder-name>
 	<internal-name>Kế toán tổng hợp</internal-name>
-	<title_s>Kỹ sư công trình</title_s>
+	<title_s>Kế toán tổng hợp</title_s>
 	<type_s>Toàn thời gian</type_s>
 	<placeInNav>false</placeInNav>
 	<orderDefault_f>-1</orderDefault_f>
 	<createdDate>2020-04-01T04:21:37.033Z</createdDate>
 	<createdDate_dt>2020-04-01T04:21:37.033Z</createdDate_dt>
-	<lastModifiedDate>2020-04-24T03:12:26.021Z</lastModifiedDate>
-	<lastModifiedDate_dt>2020-04-24T03:12:26.021Z</lastModifiedDate_dt>
+	<lastModifiedDate>2020-04-24T03:13:57.454Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-04-24T03:13:57.454Z</lastModifiedDate_dt>
 	<duration_dt>2020-04-01T04:00:00.000Z</duration_dt>
 	<duration_dt_tz>EST5EDT</duration_dt_tz>
 	<slide_o item-list="true">	<item datasource="slide" inline="true">	<key>d4a6cbbb-21c9-c756-a857-6ecbe61d32a0</key>
