@@ -23,7 +23,7 @@
        
                 
                 
-                <li style="list-style-type: none; padding-left:10px;"><p class="text-white" style="font-size:14pt; font-weight:bold;"><span style="font-size:30pt;">-</span>  ${group.groupContent_s}</p></li>    
+                <li style="list-style-type: none; padding-left:10px;"><p class="text-white" style="font-size:14pt; font-weight:bold;"><span style="font-size:17pt;">-</span>  ${group.groupContent_s}</p></li>    
                 
             </div>
             </#list>
