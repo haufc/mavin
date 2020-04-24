@@ -13,7 +13,7 @@
             <div class="row">
                 ${contentModel.itemContent_html}
             </div>
-            <div class="row">
+            <div class="container">
                 <i class="fas fa-play text--red"></i><p>${contentModel.groupTitle_s}</p>
                 <ol>
                 <#list contentModel.group_o.item as group>
