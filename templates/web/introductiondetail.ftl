@@ -30,8 +30,7 @@
             ${contentModel.contents_html}
       </div>
         <@renderComponent component=contentModel.memberlist_o.item />
-    </div>
-    <@renderComponent component=contentModel.footer_o.item />
+    </div>>
     <@renderComponent component=contentModel.memberlist_o.item />
     <@renderComponent component=contentModel.footer_o.item />
     <script src="/static-assets/plugins/jquery341/jquery(3.4.1.).js"></script>
