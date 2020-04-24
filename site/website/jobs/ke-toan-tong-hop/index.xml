@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page>
+	<content-type>/page/jobpage</content-type>
+	<display-template>/templates/web/jobitem.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>5dda</objectGroupId>
+	<objectId>5ddab611-d637-f2e8-8527-19a928898656</objectId>
+	<item_o item-list="true">	<item>	<title_s>Mô tả công việc:</title_s>
+	<content_t>Chức danh: Giám sát Kinh doanh
+Bộ phận : Kinh Doanh
+CBQL trực tiếp:Trưởng vùng
+ Nơi làm việc: Miền Tây</content_t>
+	<content_html>&lt;ul&gt;
+&lt;li&gt;&lt;span style="font-family: arial, helvetica, clean, sans-serif; font-size: 13.3333px;"&gt;Thực hiện c&amp;ocirc;ng t&amp;aacute;c gi&amp;aacute;m s&amp;aacute;t, thi c&amp;ocirc;ng tại c&amp;aacute;c c&amp;ocirc;ng tr&amp;igrave;nh thủy điện theo sự chỉ đạo của Chỉ huy trưởng hoặc gi&amp;aacute;m đốc điều h&amp;agrave;nh tại c&amp;ocirc;ng trường hoặc Tổng Gi&amp;aacute;m đốc C&amp;ocirc;ng &lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span style="font-family: arial, helvetica, clean, sans-serif; font-size: 13.3333px;"&gt;Chịu tr&amp;aacute;ch nhiệm về c&amp;ocirc;ng t&amp;aacute;c kỹ thuật, mỹ thuật thi c&amp;ocirc;ng c&amp;ocirc;ng tr&amp;igrave;nh, định mức vật tư, quản l&amp;yacute; m&amp;aacute;y m&amp;oacute;c tr&amp;ecirc;n c&amp;ocirc;ng trường tương ứng với phần việc được giao.&lt;/span&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;</content_html>
+	</item>	<item>	<title_s>Yêu cầu:</title_s>
+	<content_html>&lt;ul&gt;
+&lt;li&gt;L&amp;agrave; Nam giới, tốt nghiệp Đại học trở l&amp;ecirc;n chuy&amp;ecirc;n ng&amp;agrave;nh X&amp;acirc;y dựng thủy lợi, thủy điện hoặc x&amp;acirc;y dựng cầu đường, giao th&amp;ocirc;ng.&lt;/li&gt;
+&lt;li&gt;Y&amp;ecirc;u cầu kinh nghiệm: 5 năm, c&amp;oacute; kinh nghiệm thi c&amp;ocirc;ng c&amp;aacute;c dự &amp;aacute;n Thủy điện.&lt;/li&gt;
+&lt;li&gt;Ưu ti&amp;ecirc;n c&amp;oacute; chứng chỉ h&amp;agrave;nh nghề gi&amp;aacute;m s&amp;aacute;t thi c&amp;ocirc;ng x&amp;acirc;y dựng v&amp;agrave;/hoặc chứng chỉ huấn luyện An to&amp;agrave;n lao động.&lt;/li&gt;
+&lt;/ul&gt;</content_html>
+	</item>	<item>	<title_s>Quyền lợi :</title_s>
+	<content_html>&lt;ul&gt;
+&lt;li&gt;Mức lương: t&amp;ugrave;y theo năng lực v&amp;agrave; kinh nghiệm của c&amp;aacute;c ứng vi&amp;ecirc;n&lt;/li&gt;
+&lt;li&gt;Chế độ BHXH, BHYT, BHTN theo quy định.&lt;/li&gt;
+&lt;li&gt;C&amp;aacute;c chế độ đ&amp;atilde;i ngộ kh&amp;aacute;c theo quy định của c&amp;ocirc;ng ty&lt;/li&gt;
+&lt;/ul&gt;</content_html>
+	</item></item_o>
+	<image_s>/static-assets/images/featured/content_img_10.png</image_s>
+	<file-name>index.xml</file-name>
+	<folder-name>ke-toan-tong-hop</folder-name>
+	<internal-name>Kế toán tổng hợp</internal-name>
+	<title_s>Kế toán tổng hợp</title_s>
+	<type_s>Toàn thời gian</type_s>
+	<placeInNav>false</placeInNav>
+	<orderDefault_f>-1</orderDefault_f>
+	<createdDate>2020-04-01T04:21:37.033Z</createdDate>
+	<createdDate_dt>2020-04-01T04:21:37.033Z</createdDate_dt>
+	<lastModifiedDate>2020-04-24T03:13:57.454Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-04-24T03:13:57.454Z</lastModifiedDate_dt>
+	<duration_dt>2020-04-01T04:00:00.000Z</duration_dt>
+	<duration_dt_tz>EST5EDT</duration_dt_tz>
+	<slide_o item-list="true">	<item datasource="slide" inline="true">	<key>d4a6cbbb-21c9-c756-a857-6ecbe61d32a0</key>
+	<value>Slide</value>
+<component id="d4a6cbbb-21c9-c756-a857-6ecbe61d32a0">
+	<content-type>/component/slide</content-type>
+	<display-template>/templates/web/slide.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>d4a6</objectGroupId>
+	<objectId>d4a6cbbb-21c9-c756-a857-6ecbe61d32a0</objectId>
+	<image_o item-list="true">	<item>	<image_s>/static-assets/images/slides/bg_4.png</image_s>
+	</item></image_o>
+	<internal-name>Slide</internal-name>
+	<file-name>d4a6cbbb-21c9-c756-a857-6ecbe61d32a0.xml</file-name>
+	<createdDate>2020-04-01T04:37:28.289Z</createdDate>
+	<createdDate_dt>2020-04-01T04:37:28.289Z</createdDate_dt>
+	<lastModifiedDate>2020-04-01T04:37:28.289Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-04-01T04:37:28.289Z</lastModifiedDate_dt>
+</component>
+	</item></slide_o>
+</page>

@@ -17,14 +17,15 @@
 	<merge-strategy>inherit-levels</merge-strategy>
 	<objectGroupId>2ffc</objectGroupId>
 	<objectId>2ffc1786-26d4-757b-8b92-28d35be06cb6</objectId>
-	<image_o item-list="true">	<item>	<image_s>/static-assets/images/slides/bg_3.png</image_s>
+	<image_o item-list="true">	<item>	<image_s>/static-assets/images/slides/slide-linh-vuc-hoat-dong.png</image_s>
+	</item>	<item>	<image_s>/static-assets/images/slides/bg_3.png</image_s>
 	</item></image_o>
 	<file-name>2ffc1786-26d4-757b-8b92-28d35be06cb6.xml</file-name>
 	<internal-name>Slide</internal-name>
 	<createdDate>2020-04-01T08:08:59.614Z</createdDate>
 	<createdDate_dt>2020-04-01T08:08:59.614Z</createdDate_dt>
-	<lastModifiedDate>2020-04-01T08:08:59.614Z</lastModifiedDate>
-	<lastModifiedDate_dt>2020-04-01T08:08:59.614Z</lastModifiedDate_dt>
+	<lastModifiedDate>2020-04-24T02:56:08.667Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-04-24T02:56:08.667Z</lastModifiedDate_dt>
 </component>
 	</item>	<item datasource="sections" inline="true">	<key>0cf21b75-ebd1-b601-4566-87218fae1c1d</key>
 	<value>Lĩnh vực hoạt động</value>
@@ -58,7 +59,7 @@
 	<orderDefault_f>5000</orderDefault_f>
 	<createdDate>2020-04-01T08:08:25.217Z</createdDate>
 	<createdDate_dt>2020-04-01T08:08:25.217Z</createdDate_dt>
-	<lastModifiedDate>2020-04-22T03:04:12.684Z</lastModifiedDate>
-	<lastModifiedDate_dt>2020-04-22T03:04:12.684Z</lastModifiedDate_dt>
+	<lastModifiedDate>2020-04-24T02:55:53.624Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-04-24T02:55:53.624Z</lastModifiedDate_dt>
 	<descripttion_t>Đây là trang cung cấp các thông tin về các lĩnh vực mà công ty đang hoạt động </descripttion_t>
 </page>

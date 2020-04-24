@@ -8,8 +8,8 @@
             	<div class="job__item text-white col-sm-12 col-md-4 col-lg-4">
                         <div class="job__item-content"><a href="#"><img class="img--full" src="${job.image}" alt="Job"/></a>
                           <div class="job__item-infos"><a href="#">
-                              <h3 class="job__item-title text--center">${job.title}</h3></a>
-                            <table class="job__item-desc">
+                              <h3 class="job__item-title" style="font-size:16px;">${job.title}</h3></a>
+                            <table class="job__item-desc" style="font-size:16px;">
                               <tr>
                                 <td>Hình thức: </td>
                                 <td>${job.type}</td>
