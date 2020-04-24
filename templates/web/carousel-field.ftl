@@ -7,10 +7,10 @@
                     <li data-target="#expSlide" data-slide="next"><span class="fas fa-angle-right"></span></li>
                 </ol>
             <div class="carousel-inner">
-                
+                    <div class="row">
                     <i class="fas fa-play text--red" style="padding-top: 5px;"></i>
                     <p class="text-white" style=" font-size:14pt; font-weight:bold;">${contentModel.urlTitle_t}</p>
-                
+                    </div>
                 <#if (contentModel.image_o.item)?? && contentModel.image_o??>
                 <#assign first = true>
                 <#list contentModel.image_o.item as element>
