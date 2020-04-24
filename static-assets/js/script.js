@@ -2,23 +2,48 @@ $(document).ready(function() {
     $('.search-result').css("display", "none");
     var url = window.location;
     
-    // $('#navLinks a').filter(function() {
-    //     return this.href == url;
-    // }).addClass('active');
-    
+    // set active to nav
     $('#nav-content a').filter(function() {
         return this.href == url;
     }).css('font-weight', 'bold');
     
+    var lstPageURL = ["/experience","/overalladvisory","/all-jobs","/jobs"];
+    
+    
+    if (url.href.indexOf(lstPageURL[0]) > -1) {
+        $('#nav-content a').filter(function() {
+            return this.href == getContextPath()+"/experience2";
+        }).css('font-weight', 'bold');
+    }
+    
+     if (url.href.indexOf(lstPageURL[1]) > -1) {
+        $('#nav-content a').filter(function() {
+            return this.href == getContextPath()+"/experience2";
+        }).css('font-weight', 'bold');
+    }
+    
+    if (url.href.indexOf(lstPageURL[2]) > -1) {
+        $('#nav-content a').filter(function() {
+            return this.href == getContextPath()+"/co-hoi-nghe-nghiep";
+        }).css('font-weight', 'bold');
+    }
+    
+    if (url.href.indexOf(lstPageURL[3]) > -1) {
+        $('#nav-content a').filter(function() {
+            return this.href == getContextPath()+"/co-hoi-nghe-nghiep";
+        }).css('font-weight', 'bold');
+    }
+    
+    
     let dateVal = $('.date-formater').text();
     $('.date-formater').text(formatDate(dateVal));
     
-    // define display job content item
-    var jobContent = $(".job-info__item").text();
-    console.log(jobContent);
+    // // define display job content item
+    // var jobContent = $(".job-info__item").text();
+    // console.log(jobContent);
     
-    var lstJobContent = jobContent.split('-').join('/').split('*').join('/').split('·').join('/').split('/') ;
-    console.log(lstJobContent);
+    // var lstJobContent = jobContent.split('-').join('/').split('*').join('/').split('·').join('/').split('/') ;
+
     
     // Display content for search page
     if(url == getContextPath()+ "/search-result") {
