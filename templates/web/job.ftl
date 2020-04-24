@@ -7,7 +7,7 @@
               <#list jobs as job>
             	<div class="job__item text-white col-sm-12 col-md-4 col-lg-4">
                         <div class="job__item-content"><a href="#"><img class="img--full" src="${job.image}" alt="Job"/></a>
-                          <div class="job__item-infos"><a href="#">
+                          <div class="job__item-infos" style="font-size:16px;"><a href="#">
                               <h3 class="job__item-title text--center">${job.title}</h3></a>
                             <table class="job__item-desc">
                               <tr>
