@@ -18,7 +18,7 @@
             </div>
             <ol>
             <#list contentModel.group_o.item as group>
-                <li>${group.groupContent_s}</li>    
+                <li><p>${group.groupContent_s}</p></li>    
             </#list>
             </ol>
             <div class="row" <@studio.componentContainerAttr target="carousels" objectId=contentModel.objectId/>>
