@@ -1,5 +1,5 @@
 <#import "/templates/system/common/cstudio-support.ftl" as studio />
-        <div class="content__details container">
+        <div class="content__details container"     style="padding-left: 0px;">
         <div class="carousel slide" data-ride="carousel" id="expSlide" <@studio.iceAttr component=contentModel/>>
                 <ol class="carousel-indicators">
                     <li data-target="#expSlide" data-slide-to="0" class="active"><span>1</span></li>
