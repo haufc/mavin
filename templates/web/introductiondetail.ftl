@@ -29,8 +29,7 @@
       <div class="content__details--nopadding-x container">
             ${contentModel.contents_html}
       </div>
-        <@renderComponent component=contentModel.memberlist_o.item />
-    </div>>
+    </div>
     <@renderComponent component=contentModel.memberlist_o.item />
     <@renderComponent component=contentModel.footer_o.item />
     <script src="/static-assets/plugins/jquery341/jquery(3.4.1.).js"></script>
