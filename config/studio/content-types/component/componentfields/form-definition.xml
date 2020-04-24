@@ -370,12 +370,12 @@
 					<properties>
 						<property>
 							<name>size</name>
-							<value>100</value>
+							<value>200</value>
 							<type>int</type>
 						</property>
 						<property>
 							<name>maxlength</name>
-							<value>100</value>
+							<value>200</value>
 							<type>int</type>
 						</property>
 						<property>
@@ -415,12 +415,12 @@
 					<properties>
 						<property>
 							<name>size</name>
-							<value>50</value>
+							<value>100</value>
 							<type>int</type>
 						</property>
 						<property>
 							<name>maxlength</name>
-							<value>50</value>
+							<value>100</value>
 							<type>int</type>
 						</property>
 						<property>
