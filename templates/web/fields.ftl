@@ -21,7 +21,6 @@
                 <li>${group.groupContent_s}</li>    
             </#list>
             </ol>
-            </div>
             <div class="row" <@studio.componentContainerAttr target="carousels" objectId=contentModel.objectId/>>
                 <#if contentModel.carousels_o?? && contentModel.carousels_o.item??>
                     <div style="color: #fff;">
