@@ -14,11 +14,11 @@
                 ${contentModel.itemContent_html}
             </div>
             <div class="row">
-            <i class="fas fa-play text--red"></i><p class="text-white" style="padding-left:10px;">${contentModel.groupTitle_s}</p>
+            <i class="fas fa-play text--red"></i><p class="text-white" style="padding-left:10px; font-size:14px;">${contentModel.groupTitle_s}</p>
             </div>
             <ol>
             <#list contentModel.group_o.item as group>
-                <li><p class="text-white">${group.groupContent_s}</p></li>    
+                <li><p class="text-white" style="font-size:14px;">${group.groupContent_s}</p></li>    
             </#list>
             </ol>
             <div class="row" <@studio.componentContainerAttr target="carousels" objectId=contentModel.objectId/>>
