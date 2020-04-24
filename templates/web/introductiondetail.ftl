@@ -27,9 +27,9 @@
       <div class="content__details--nopadding-x container">
             ${contentModel.contents_html}
       </div>
-    </div>
     <@renderComponent component=contentModel.memberlist_o.item />
     <@renderComponent component=contentModel.footer_o.item />
+    </div>
     <script src="/static-assets/plugins/jquery341/jquery(3.4.1.).js"></script>
     <script src="/static-assets/js/popper.min.js"></script>
     <script src="/static-assets/plugins/bootstrap441/js/bootstrap.min.js"></script>
