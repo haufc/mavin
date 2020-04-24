@@ -8,7 +8,7 @@
                 </ol>
             <div class="carousel-inner">
                 <div class="row">
-                    <i class="fas fa-play text--red" style="padding-top: 5px;"></i>
+                    <span class="fas fa-play text--red" style="padding-top: 5px;"></span>
                     <p class="text-white" style="padding-left:10px; font-size:14pt; font-weight:bold;">${contentModel.urlTitle_t}</p>
                 </div>
                 <#if (contentModel.image_o.item)?? && contentModel.image_o??>
