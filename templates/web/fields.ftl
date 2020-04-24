@@ -14,12 +14,12 @@
                 ${contentModel.itemContent_html}
             </div>
             <div class="row">
-            <i class="fas fa-play text--red" style="padding-top: 5px;"></i><p class="text-white" style="padding-left:10px; font-size:14pt;">${contentModel.groupTitle_s}</p>
+            <i class="fas fa-play text--red" style="padding-top: 5px;"></i><p class="text-white" style="padding-left:10px; font-size:14pt; font-weight:bold;">${contentModel.groupTitle_s}</p>
             </div>
             <ol>
             <#list contentModel.group_o.item as group>
             <div class="row">    
-            <i class="fas fa-minus"></i><li style="list-style-type: none;"><p class="text-white" style="font-size:14pt;">${group.groupContent_s}</p></li>    
+            <i class="fas fa-minus" style="color=#fff, padding-top:2px;"></i><li style="list-style-type: none;"><p class="text-white" style="font-size:14pt; font-weight:bold;">${group.groupContent_s}</p></li>    
             </div>
             </#list>
             </ol>
