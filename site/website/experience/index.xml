@@ -46,8 +46,8 @@
 	<itemId_s>fields</itemId_s>
 	<createdDate>2020-04-16T08:52:57.182Z</createdDate>
 	<createdDate_dt>2020-04-16T08:52:57.182Z</createdDate_dt>
-	<lastModifiedDate>2020-04-24T02:47:41.123Z</lastModifiedDate>
-	<lastModifiedDate_dt>2020-04-24T02:47:41.123Z</lastModifiedDate_dt>
+	<lastModifiedDate>2020-04-24T02:53:27.456Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-04-24T02:53:27.456Z</lastModifiedDate_dt>
 	<carousels_o item-list="true">	<item datasource="carouselsDataSource">	<key>/site/items/carousel/a055e5f0-ef72-9ad4-e747-2781cf9bbef5.xml</key>
 	<value>CarouselsFields</value>
 	<include>/site/items/carousel/a055e5f0-ef72-9ad4-e747-2781cf9bbef5.xml</include>
@@ -72,7 +72,7 @@
 	</item></sections_o>
 	<createdDate>2020-04-01T06:27:57.672Z</createdDate>
 	<createdDate_dt>2020-04-01T06:27:57.672Z</createdDate_dt>
-	<lastModifiedDate>2020-04-24T02:47:37.644Z</lastModifiedDate>
-	<lastModifiedDate_dt>2020-04-24T02:47:37.644Z</lastModifiedDate_dt>
+	<lastModifiedDate>2020-04-24T02:53:23.161Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-04-24T02:53:23.161Z</lastModifiedDate_dt>
 	<descripttion_t>Đây là trang đề cập đến năng lực của công ty trong các lĩnh vực đang hoạt động</descripttion_t>
 </page>
