@@ -5,7 +5,7 @@
                 <#assign first=true>
                 <#list contentModel.image_o.item as element>
                 <if first>
-                    <li data-target="#expSlide" data-slide-to="0" class="active"><span>${element.number}</span></li>
+                    <li data-target="#expSlide" data-slide-to="{}" class="active"><span>${element.number_s}</span></li>
                     <li data-target="#expSlide" data-slide-to="1"><span>2</span></li>
                     <li data-target="#expSlide" data-slide="next"><span class="fas fa-angle-right"></span></li>
                 </ol>
