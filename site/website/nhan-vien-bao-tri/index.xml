@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page>
+	<content-type>/page/jobpage</content-type>
+	<display-template>/templates/web/jobitem.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>602b</objectGroupId>
+	<objectId>602b4241-d8c9-fda9-08e3-cb50f6961187</objectId>
+	<item_o item-list="true">	<item>	<title_s>Mô tả:</title_s>
+	<content_html>&lt;ul&gt;
+&lt;li&gt;Kiểm tra đối chiếu số liệu giữa c&amp;aacute;c đơn vị nội bộ, dữ liệu chi tiết v&amp;agrave; tổng hợp.&lt;/li&gt;
+&lt;li&gt;Sửa chữa bảo tr&amp;igrave; bảo dưỡng c&amp;aacute;c thiết bị văn ph&amp;ograve;ng v&amp;agrave; c&amp;aacute;c c&amp;ocirc;ng việc kh&amp;aacute;c li&amp;ecirc;n q2uan&lt;/li&gt;
+&lt;li&gt;Kiểm tra v&amp;agrave; b&amp;aacute;o c&amp;aacute;o thống k&amp;ecirc; số liệu về t&amp;igrave;nh trạng trạng th&amp;aacute;i trang thiết bị&lt;/li&gt;
+&lt;/ul&gt;</content_html>
+	</item>	<item>	<title_s>Yêu cầu:</title_s>
+	<content_html>&lt;ul&gt;
+&lt;li&gt;Tr&amp;igrave;nh độ: Tốt nghiệp Cao đẳng trở l&amp;ecirc;n thuộc Kỹ thuật, điện tử ...&lt;/li&gt;
+&lt;li&gt;C&amp;oacute; năng lực chuy&amp;ecirc;n m&amp;ocirc;n ph&amp;ugrave; hợp với đặc th&amp;ugrave; c&amp;ocirc;ng việc&lt;/li&gt;
+&lt;li&gt;C&amp;oacute; &amp;iacute;t nhất 1 năm kinh nghiệm ở vị tr&amp;iacute; Nh&amp;acirc;n vi&amp;ecirc;n bảo tr&amp;igrave;&lt;/li&gt;
+&lt;li&gt;C&amp;oacute; th&amp;igrave;nh thần tr&amp;aacute;ch nhiệm trong c&amp;ocirc;ng việc&lt;/li&gt;
+&lt;/ul&gt;</content_html>
+	</item>	<item>	<title_s>Quyền lợi:</title_s>
+	<content_html>&lt;ul&gt;
+&lt;li&gt;C&amp;oacute; khả năng thăng tiến&lt;/li&gt;
+&lt;li&gt;Hưởng lương th&amp;aacute;ng 13, chế độ BHXH, BHYT.&lt;/li&gt;
+&lt;/ul&gt;</content_html>
+	</item></item_o>
+	<file-name>index.xml</file-name>
+	<folder-name>nhan-vien-bao-tri</folder-name>
+	<image_s>/static-assets/images/featured/content_img_10.png</image_s>
+	<internal-name>Nhân viên bảo trì</internal-name>
+	<title_s>Nhân viên bảo trì</title_s>
+	<type_s>Toàn thời gian</type_s>
+	<placeInNav>false</placeInNav>
+	<orderDefault_f>-1</orderDefault_f>
+	<slide_o item-list="true">	<item datasource="slide" inline="true">	<key>f09f3909-e2da-75ba-66d2-2c0786b54507</key>
+	<value>Slide</value>
+<component id="f09f3909-e2da-75ba-66d2-2c0786b54507">
+	<content-type>/component/slide</content-type>
+	<display-template>/templates/web/slide.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>f09f</objectGroupId>
+	<objectId>f09f3909-e2da-75ba-66d2-2c0786b54507</objectId>
+	<image_o item-list="true">	<item>	<image_s>/static-assets/images/slides/bg_4.png</image_s>
+	</item></image_o>
+	<file-name>f09f3909-e2da-75ba-66d2-2c0786b54507.xml</file-name>
+	<internal-name>Slide</internal-name>
+	<createdDate>2020-04-24T03:34:48.705Z</createdDate>
+	<createdDate_dt>2020-04-24T03:34:48.705Z</createdDate_dt>
+	<lastModifiedDate>2020-04-24T03:34:48.705Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-04-24T03:34:48.705Z</lastModifiedDate_dt>
+</component>
+	</item></slide_o>
+	<createdDate>2020-04-24T03:33:03.848Z</createdDate>
+	<createdDate_dt>2020-04-24T03:33:03.848Z</createdDate_dt>
+	<lastModifiedDate>2020-04-24T03:33:03.848Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-04-24T03:33:03.848Z</lastModifiedDate_dt>
+	<duration_dt>2020-04-23T04:00:00.000Z</duration_dt>
+	<duration_dt_tz>EST5EDT</duration_dt_tz>
+</page>
