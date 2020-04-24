@@ -10,10 +10,10 @@
 	<internal-name>CarouselsFields</internal-name>
 	<urlTitle_t>Linh vuc xay dung</urlTitle_t>
 	<url_s>fields</url_s>
-	<image_o item-list="true">	<item>	<image1Title_s>Dự án Nhà máy Thức ăn chăn nuôi Mavin Austfeed </image1Title_s>
-	<image2Title_s>Dự án Nhà máy Thức ăn chăn nuôi Mavin Austfeed </image2Title_s>
-	<image3Title_s>Dự án Nhà máy Thức ăn chăn nuôi Mavin Austfeed </image3Title_s>
-	<image4Title_s>Dự án Nhà máy Thức ăn chăn nuôi Mavin Austfeed</image4Title_s>
+	<image_o item-list="true">	<item>	<image1Title_s>Dự án Nhà máy Thức ăn chăn nuôi Mavin Austfeed Nghệ An</image1Title_s>
+	<image2Title_s>Dự án Nhà máy Thức ăn chăn nuôi Mavin Austfeed Đồng Tháp</image2Title_s>
+	<image3Title_s>Dự án Nhà máy Thức ăn Thuỷ sản Mavin</image3Title_s>
+	<image4Title_s>Dự án trại heo Nhơn Tân - Bình Định</image4Title_s>
 	<image_s>/static-assets/images/featured/content_img_6.png</image_s>
 	<image2_s>/static-assets/images/featured/content_img_7.png</image2_s>
 	<image3_s>/static-assets/images/featured/content_img_8.png</image3_s>
@@ -29,6 +29,6 @@
 	</item></image_o>
 	<createdDate>2020-04-16T08:16:54.362Z</createdDate>
 	<createdDate_dt>2020-04-16T08:16:54.362Z</createdDate_dt>
-	<lastModifiedDate>2020-04-16T09:58:48.764Z</lastModifiedDate>
-	<lastModifiedDate_dt>2020-04-16T09:58:48.764Z</lastModifiedDate_dt>
+	<lastModifiedDate>2020-04-24T02:53:34.705Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-04-24T02:53:34.705Z</lastModifiedDate_dt>
 </component>
