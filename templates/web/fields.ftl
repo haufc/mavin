@@ -23,6 +23,9 @@
             </div>
             </#list>
             </ol>
+            <div class="row">
+            <i class="fas fa-play text--red" style="padding-top: 5px;"></i><p class="text-white" style="padding-left:10px; font-size:14pt; font-weight:bold;">${contentModel.carouselTitle_t}</p>
+            </div>
             <div class="row" <@studio.componentContainerAttr target="carousels" objectId=contentModel.objectId/>>
                 <#if contentModel.carousels_o?? && contentModel.carousels_o.item??>
                     <div style="color: #fff;">
