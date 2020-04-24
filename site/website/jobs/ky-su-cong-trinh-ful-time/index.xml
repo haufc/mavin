@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page>
+	<content-type>/page/jobpage</content-type>
+	<display-template>/templates/web/jobitem.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>5637</objectGroupId>
+	<objectId>56371673-2fbf-4397-30b9-25283c36daf2</objectId>
+	<item_o item-list="true">	<item>	<title_s>Mô tả:</title_s>
+	<content_html>&lt;ul&gt;
+&lt;li&gt;Kiểm tra đối chiếu số liệu giữa c&amp;aacute;c đơn vị nội bộ, dữ liệu chi tiết v&amp;agrave; tổng hợp.&lt;/li&gt;
+&lt;li&gt;Kiểm tra c&amp;aacute;c định khoản c&amp;aacute;c nghiệp vụ ph&amp;aacute;t sinh.&lt;/li&gt;
+&lt;li&gt;Kiểm tra sự c&amp;acirc;n đối giữa số liệu kế to&amp;aacute;n chi tiết v&amp;agrave; tổng hợp&lt;/li&gt;
+&lt;/ul&gt;</content_html>
+	</item>	<item>	<title_s>Yêu cầu :</title_s>
+	<content_html>&lt;ul&gt;
+&lt;li&gt;Tr&amp;igrave;nh độ: Tốt nghiệp Cao đẳng trở l&amp;ecirc;n thuộc ng&amp;agrave;nh x&amp;acirc;y dựng,kiến tr&amp;uacute;c ...&lt;/li&gt;
+&lt;li&gt;C&amp;oacute; năng lực nghiệp vụ x&amp;acirc;y, c&amp;oacute; khả năng tổng hợp, nắm vững quy tr&amp;igrave;nh nghiệp vụ.&lt;/li&gt;
+&lt;li&gt;C&amp;oacute; tinh thần l&amp;agrave;m việc c&amp;oacute; tr&amp;aacute;ch nhiệm, năng động v&amp;agrave; s&amp;aacute;ng tạo&lt;/li&gt;
+&lt;/ul&gt;</content_html>
+	</item>	<item>	<title_s>Quyền lợi:</title_s>
+	<content_html>&lt;ul&gt;
+&lt;li&gt;C&amp;oacute; khả năng thăng tiến&lt;/li&gt;
+&lt;li&gt;Hưởng lương th&amp;aacute;ng 13, chế độ BHXH, BHYT.&lt;/li&gt;
+&lt;/ul&gt;</content_html>
+	</item></item_o>
+	<file-name>index.xml</file-name>
+	<folder-name>ky-su-cong-trinh-ful-time</folder-name>
+	<internal-name>Kỹ sư công trình</internal-name>
+	<title_s>Kỹ sư công trình</title_s>
+	<type_s>Toàn thời gian</type_s>
+	<placeInNav>false</placeInNav>
+	<orderDefault_f>-1</orderDefault_f>
+	<image_s>/static-assets/images/featured/content_img_10.png</image_s>
+	<slide_o item-list="true">	<item datasource="slide" inline="true">	<key>49ee407c-43d5-687d-87c1-c75955420639</key>
+	<value>Slide</value>
+<component id="49ee407c-43d5-687d-87c1-c75955420639">
+	<content-type>/component/slide</content-type>
+	<display-template>/templates/web/slide.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>49ee</objectGroupId>
+	<objectId>49ee407c-43d5-687d-87c1-c75955420639</objectId>
+	<image_o item-list="true">	<item>	<image_s>/static-assets/images/slides/bg_4.png</image_s>
+	</item></image_o>
+	<file-name>49ee407c-43d5-687d-87c1-c75955420639.xml</file-name>
+	<internal-name>Slide</internal-name>
+	<createdDate>2020-04-24T03:29:01.513Z</createdDate>
+	<createdDate_dt>2020-04-24T03:29:01.513Z</createdDate_dt>
+	<lastModifiedDate>2020-04-24T03:29:01.513Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-04-24T03:29:01.513Z</lastModifiedDate_dt>
+</component>
+	</item></slide_o>
+	<createdDate>2020-04-24T03:28:20.535Z</createdDate>
+	<createdDate_dt>2020-04-24T03:28:20.535Z</createdDate_dt>
+	<lastModifiedDate>2020-04-24T03:28:20.535Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-04-24T03:28:20.535Z</lastModifiedDate_dt>
+	<duration_dt>2020-04-23T04:00:00.000Z</duration_dt>
+	<duration_dt_tz>EST5EDT</duration_dt_tz>
+</page>
