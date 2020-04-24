@@ -29,18 +29,18 @@
                                 <div>
                                     <img src="${element.image_s}" alt="Slide Image" class="img--full">
 
-                                    <p class="text--italic text--white">${element.image1Title_s}</p>
+                                    <p class="text--italic text--white" style="padding-top:8px;">${element.image1Title_s}</p>
                                 </div>
                             </div>
                             <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6" style="padding-left: 0px;">
                                 <div>
                                     <img src="${element.image2_s}" alt="Slide Image" class="img--full">
 
-                                    <p class="text--italic text--white">${element.image2Title_s}</p>
+                                    <p class="text--italic text--white" style="padding-top:8px;">${element.image2Title_s}</p>
                                 </div>
                             </div>
                         </div>
-                        <div class="row">
+                        <div class="row" style="padding-top: 15px;">
                             <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6" style="padding-left: 0px;">
                                 <div>
                                     <img src="${element.image3_s}" alt="Slide Image" class="img--full">
