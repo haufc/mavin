@@ -13,6 +13,9 @@
             <div class="row">
                 ${contentModel.itemContent_html}
             </div>
+            <div class="row">
+                <i class="fas fa-play text--red"></i><p>${contentModel.itemCommit_t}</p>
+            </div>
             <div class="row" <@studio.componentContainerAttr target="carousels" objectId=contentModel.objectId/>>
                 <#if contentModel.carousels_o?? && contentModel.carousels_o.item??>
                     <div style="color: #fff;">
