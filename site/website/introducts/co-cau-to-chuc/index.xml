@@ -12,7 +12,7 @@
 	<title_s>Cơ cấu tổ chức</title_s>
 	<placeInNav>false</placeInNav>
 	<orderDefault_f>-1</orderDefault_f>
-	<thumbail_s>/static-assets/images/featured/content_img_2.png</thumbail_s>
+	<thumbail_s>/static-assets/images/featured/gioi-thieu-img-3.png</thumbail_s>
 	<slide_o item-list="true">	<item datasource="slide">	<key>/site/items/slides/57ec7c48-d8b0-5ce6-5e5c-a701d93768c2.xml</key>
 	<value>Slide</value>
 	<include>/site/items/slides/57ec7c48-d8b0-5ce6-5e5c-a701d93768c2.xml</include>
@@ -21,6 +21,6 @@
 	<contents_html>&lt;p&gt;&lt;img src="/static-assets/images/featured/organization.png" alt="" width="1250" height="1106" /&gt;&lt;/p&gt;</contents_html>
 	<createdDate>2020-04-17T03:20:57.584Z</createdDate>
 	<createdDate_dt>2020-04-17T03:20:57.584Z</createdDate_dt>
-	<lastModifiedDate>2020-04-23T08:50:00.533Z</lastModifiedDate>
-	<lastModifiedDate_dt>2020-04-23T08:50:00.533Z</lastModifiedDate_dt>
+	<lastModifiedDate>2020-04-24T02:34:26.246Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-04-24T02:34:26.246Z</lastModifiedDate_dt>
 </page>
