@@ -36,7 +36,7 @@
 	<placeInNav>true</placeInNav>
 	<orderDefault_f>2000</orderDefault_f>
 	<internal-name>Nhân viên kinh doanh thiết bị chăn nuôi</internal-name>
-	<title_s>Kế toán</title_s>
+	<title_s>Nhân viên kinh doanh thiết bị chăn nuôi</title_s>
 	<type_s>Toàn thời gian</type_s>
 	<slide_o item-list="true">	<item datasource="slide" inline="true">	<key>ed85a110-dd8f-f7ba-c832-61689aae9a5e</key>
 	<value>Slide</value>
@@ -61,8 +61,8 @@
 	<folder-name>kinh-doanh-thiet-bi-chan-nuoi</folder-name>
 	<createdDate>2020-04-06T06:46:05.171Z</createdDate>
 	<createdDate_dt>2020-04-06T06:46:05.171Z</createdDate_dt>
-	<lastModifiedDate>2020-04-24T03:11:51.616Z</lastModifiedDate>
-	<lastModifiedDate_dt>2020-04-24T03:11:51.616Z</lastModifiedDate_dt>
+	<lastModifiedDate>2020-04-24T03:13:40.156Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-04-24T03:13:40.156Z</lastModifiedDate_dt>
 	<duration_dt>2020-04-06T04:00:00.000Z</duration_dt>
 	<duration_dt_tz>EST5EDT</duration_dt_tz>
 </page>
