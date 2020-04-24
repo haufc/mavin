@@ -20,10 +20,10 @@
             <#list contentModel.group_o.item as group>
             <div class="row">    
                 
-                <i class="fas fa-minus text-white" style="padding-top:5px;"></i>
+       
                 
                 
-                <li style="list-style-type: none; padding-left:10px;"><p class="text-white" style="font-size:14pt; font-weight:bold;">${group.groupContent_s}</p></li>    
+                <li style="list-style-type: none; padding-left:10px;"><p class="text-white" style="font-size:14pt; font-weight:bold;">-  ${group.groupContent_s}</p></li>    
                 
             </div>
             </#list>
