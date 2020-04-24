@@ -2,7 +2,7 @@
         <div class="content__details container">
             <div class="row">
                     <i class="fas fa-play text--red" style="padding-top: 5px;"></i>
-                    <p class="text-white" style=" font-size:14pt; font-weight:bold;">${contentModel.urlTitle_t}</p>
+                    <p class="text-white" style="padding-left: 10px; font-size:14pt; font-weight:bold;">${contentModel.urlTitle_t}</p>
             </div>
         <div class="carousel slide" data-ride="carousel" id="expSlide" <@studio.iceAttr component=contentModel/>>
                 <ol class="carousel-indicators">
