@@ -4,9 +4,13 @@
                 <ol class="carousel-indicators">
                 <#assign first=true>
                 <#list contentModel.image_o.item as element>
-                <if first>
-                    <li data-target="#expSlide" data-slide-to="{}" class="active"><span>${element.number_s}</span></li>
-                    <li data-target="#expSlide" data-slide-to="1"><span>2</span></li>
+                <#if first>
+                    <li data-target="#expSlide" data-slide-to="${element.number_s?number - 1}" class="active"><span>${element.number_s}</span></li>
+                    <#assign first= false>
+                    <#else>
+                    <li data-target="#expSlide" data-slide-to="${element.number_s?number - 1}"><span>${element.number_s}</span></li>
+                </#if>
+                </#list>
                     <li data-target="#expSlide" data-slide="next"><span class="fas fa-angle-right"></span></li>
                 </ol>
             <div class="carousel-inner">
