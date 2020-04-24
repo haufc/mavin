@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page>
+	<content-type>/page/jobpage</content-type>
+	<display-template>/templates/web/jobitem.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>ad66</objectGroupId>
+	<objectId>ad66bfa4-7d80-c00a-d487-1d032aae133a</objectId>
+	<item_o item-list="true">	<item>	<title_s>Mô tả:</title_s>
+	<content_html>&lt;ul&gt;
+&lt;li&gt;Kiểm tra đối chiếu số liệu giữa c&amp;aacute;c đơn vị nội bộ, dữ liệu chi tiết v&amp;agrave; tổng hợp.&lt;/li&gt;
+&lt;li&gt;Kiểm tra c&amp;aacute;c thiết bị m&amp;aacute;y m&amp;oacute;c văn ph&amp;ograve;ng v&amp;agrave; c&amp;aacute;c c&amp;ocirc;ng việc kh&amp;aacute;c li&amp;ecirc;n quan.&lt;/li&gt;
+&lt;li&gt;Sửa chữa bảo tr&amp;igrave; bảo dưỡng c&amp;aacute;c thiết bị&lt;/li&gt;
+&lt;li&gt;B&amp;aacute;o c&amp;aacute;o thống k&amp;ecirc; số liệu li&amp;ecirc;n quan&lt;/li&gt;
+&lt;/ul&gt;</content_html>
+	</item>	<item>	<title_s> Yêu cầu:</title_s>
+	<content_html>&lt;ul&gt;
+&lt;li&gt;Tr&amp;igrave;nh độ: Tốt nghiệp Cao đẳng trở l&amp;ecirc;n thuộc ng&amp;agrave;nh Kỹ thuật, Điện tử...&lt;/li&gt;
+&lt;li&gt;C&amp;oacute; năng lực nghiệp vục bảo tr&amp;igrave; bảo dưỡng, c&amp;oacute; &amp;iacute;t nhất 1 năm kinh nghiệm trong nghề&lt;/li&gt;
+&lt;li&gt;C&amp;oacute; t&amp;igrave;nh thần tr&amp;aacute;ch nhiệ mtrong c&amp;ocirc;ng việc&lt;/li&gt;
+&lt;/ul&gt;</content_html>
+	</item>	<item>	<title_s> Quyền lợi:</title_s>
+	<content_html>&lt;ul&gt;
+&lt;li&gt;C&amp;oacute; khả năng thăng tiến&lt;/li&gt;
+&lt;li&gt;Hưởng lương th&amp;aacute;ng 13, chế độ BHXH, BHYT.&lt;/li&gt;
+&lt;/ul&gt;</content_html>
+	</item></item_o>
+	<slide_o item-list="true">	<item datasource="slide" inline="true">	<key>82c26138-8884-04a8-26ee-f19ed5d76802</key>
+	<value>Slide</value>
+<component id="82c26138-8884-04a8-26ee-f19ed5d76802">
+	<content-type>/component/slide</content-type>
+	<display-template>/templates/web/slide.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>82c2</objectGroupId>
+	<objectId>82c26138-8884-04a8-26ee-f19ed5d76802</objectId>
+	<image_o item-list="true">	<item>	<image_s>/static-assets/images/slides/bg_4.png</image_s>
+	</item></image_o>
+	<file-name>82c26138-8884-04a8-26ee-f19ed5d76802.xml</file-name>
+	<internal-name>Slide</internal-name>
+	<createdDate>2020-04-24T03:39:39.604Z</createdDate>
+	<createdDate_dt>2020-04-24T03:39:39.604Z</createdDate_dt>
+	<lastModifiedDate>2020-04-24T03:39:39.604Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-04-24T03:39:39.604Z</lastModifiedDate_dt>
+</component>
+	</item></slide_o>
+	<placeInNav>false</placeInNav>
+	<orderDefault_f>-1</orderDefault_f>
+	<internal-name>Nhân viên bảo trì</internal-name>
+	<title_s>Nhân viên bảo trì</title_s>
+	<type_s>Toàn thời gian</type_s>
+	<file-name>index.xml</file-name>
+	<folder-name>nhan-vien-bao-tri</folder-name>
+	<image_s>/static-assets/images/featured/content_img_10.png</image_s>
+	<createdDate>2020-04-24T03:39:04.557Z</createdDate>
+	<createdDate_dt>2020-04-24T03:39:04.557Z</createdDate_dt>
+	<lastModifiedDate>2020-04-24T03:39:04.557Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-04-24T03:39:04.557Z</lastModifiedDate_dt>
+	<duration_dt>2020-04-23T04:00:00.000Z</duration_dt>
+	<duration_dt_tz>EST5EDT</duration_dt_tz>
+</page>
