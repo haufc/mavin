@@ -6446,7 +6446,10 @@ h6 {
 
 .content__details {
   margin: 0 auto;
-  padding: 0px;
+  padding-left: 0px;
+  padding-bottom: 30px;
+  padding-top: 30px;
+  padding-right: 30px;
   width: 1200px;
 }
 
