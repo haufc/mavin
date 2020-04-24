@@ -19,7 +19,12 @@
             <ol>
             <#list contentModel.group_o.item as group>
             <div class="row">    
-            <i class="fas fa-minus text-white" style="padding-top:5px;"></i><li style="list-style-type: none; padding-left:10px;"><p class="text-white" style="font-size:14pt; font-weight:bold;">${group.groupContent_s}</p></li>    
+                <div class="col-lg-1 col-md-1 col-sm-1 col-1">
+                <i class="fas fa-minus text-white" style="padding-top:5px;"></i>
+                </div>
+                <div class="col-lg-11 col-md-11 col-sm-11 col-11">
+                <li style="list-style-type: none; padding-left:10px;"><p class="text-white" style="font-size:14pt; font-weight:bold;">${group.groupContent_s}</p></li>    
+                </div>
             </div>
             </#list>
             </ol>
