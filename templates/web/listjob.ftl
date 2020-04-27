@@ -14,7 +14,7 @@
             	<p class="list-job__item">${job.title}</p>
             </#list>
             <div class="seemore_btn" style="margin-top: 2em">
-                <a class="mt-3 rounded-0" href="/all-jobs"> 
+                <a class="mt-3 rounded-0" href="/tuyen-dung"> 
                     <span class="mr-1">Xem thêm</span>
                     <i class="fas fa-play text--red"></i>
                 </a>
