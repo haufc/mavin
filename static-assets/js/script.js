@@ -12,13 +12,13 @@ $(document).ready(function() {
     
     if (url.href.indexOf(lstPageURL[0]) > -1) {
         $('#nav-content a').filter(function() {
-            return this.href == getContextPath()+"/linh-vuc-hoat-dong";
+            return this.href == getContextPath()+"/nang-luc-kinh-nghiem";
         }).css('font-weight', 'bold');
     }
     
      if (url.href.indexOf(lstPageURL[1]) > -1) {
         $('#nav-content a').filter(function() {
-            return this.href == getContextPath()+"/linh-vuc-hoat-dong";
+            return this.href == getContextPath()+"/nang-luc-kinh-nghiem";
         }).css('font-weight', 'bold');
     }
     
