@@ -7,7 +7,7 @@
 	<objectGroupId>1107</objectGroupId>
 	<objectId>110740a2-3ed6-6183-a5d7-b0dcd081f8f1</objectId>
 	<file-name>index.xml</file-name>
-	<folder-name>activity</folder-name>
+	<folder-name>linh-vuc-hoat-dong</folder-name>
 	<sections_o item-list="true">	<item datasource="sections" inline="true">	<key>2ffc1786-26d4-757b-8b92-28d35be06cb6</key>
 	<value>Slide</value>
 <component id="2ffc1786-26d4-757b-8b92-28d35be06cb6">
@@ -59,7 +59,7 @@
 	<orderDefault_f>5000</orderDefault_f>
 	<createdDate>2020-04-01T08:08:25.217Z</createdDate>
 	<createdDate_dt>2020-04-01T08:08:25.217Z</createdDate_dt>
-	<lastModifiedDate>2020-04-24T02:55:53.624Z</lastModifiedDate>
-	<lastModifiedDate_dt>2020-04-24T02:55:53.624Z</lastModifiedDate_dt>
+	<lastModifiedDate>2020-04-27T08:11:28.894Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-04-27T08:11:28.894Z</lastModifiedDate_dt>
 	<descripttion_t>Đây là trang cung cấp các thông tin về các lĩnh vực mà công ty đang hoạt động </descripttion_t>
 </page>
