@@ -14,8 +14,8 @@
 	<folder-name/>
 	<createdDate>2017-1-31T16:18:14.000Z</createdDate>
 	<createdDate_dt>2017-1-31T16:18:14.000Z</createdDate_dt>
-	<lastModifiedDate>2020-05-04T03:32:13.841Z</lastModifiedDate>
-	<lastModifiedDate_dt>2020-05-04T03:32:13.841Z</lastModifiedDate_dt>
+	<lastModifiedDate>2020-05-04T03:58:19.162Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-05-04T03:58:19.162Z</lastModifiedDate_dt>
 	<title_s>Item Explorer</title_s>
 	<disabled>false</disabled>
 	<sections_o item-list="true">	<item datasource="sections" inline="true">	<key>7191fe7b-e11d-bc53-bfdf-2468c4633e91</key>
@@ -68,13 +68,13 @@
 	<merge-strategy>inherit-levels</merge-strategy>
 	<objectGroupId>0d13</objectGroupId>
 	<objectId>0d13a4a3-eb5a-0dfc-58a5-aa771f42c9b7</objectId>
-	<contentitem_o item-list="true">	<item datasource="homeitem2contentcomponent">	<key>/site/items/home-item-2-content/fab065fc-979b-170c-b17b-0785fd7f7e6a.xml</key>
+	<contentitem_o item-list="true">	<item datasource="homeitem2contentcomponent">	<key>/site/items/home-item-2-content/e50bc2f0-fd6a-25ac-11df-ef682ab21776.xml</key>
 	<value>Building</value>
-	<include>/site/items/home-item-2-content/fab065fc-979b-170c-b17b-0785fd7f7e6a.xml</include>
+	<include>/site/items/home-item-2-content/e50bc2f0-fd6a-25ac-11df-ef682ab21776.xml</include>
 	<disableFlattening>false</disableFlattening>
-	</item>	<item datasource="homeitem2contentcomponent">	<key>/site/items/home-item-2-content/2471dcc3-5d64-9772-f50a-0800a29ac625.xml</key>
+	</item>	<item datasource="homeitem2contentcomponent">	<key>/site/items/home-item-2-content/2d90f153-8ad3-2850-1b85-5fa40da481df.xml</key>
 	<value>Consulting and farm design</value>
-	<include>/site/items/home-item-2-content/2471dcc3-5d64-9772-f50a-0800a29ac625.xml</include>
+	<include>/site/items/home-item-2-content/2d90f153-8ad3-2850-1b85-5fa40da481df.xml</include>
 	<disableFlattening>false</disableFlattening>
 	</item></contentitem_o>
 	<file-name>0d13a4a3-eb5a-0dfc-58a5-aa771f42c9b7.xml</file-name>
@@ -82,8 +82,8 @@
 	<title_s>Năng lực kinh nghiệm</title_s>
 	<createdDate>2020-05-04T03:34:36.578Z</createdDate>
 	<createdDate_dt>2020-05-04T03:34:36.578Z</createdDate_dt>
-	<lastModifiedDate>2020-05-04T03:34:36.578Z</lastModifiedDate>
-	<lastModifiedDate_dt>2020-05-04T03:34:36.578Z</lastModifiedDate_dt>
+	<lastModifiedDate>2020-05-04T03:58:31.104Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-05-04T03:58:31.104Z</lastModifiedDate_dt>
 </component>
 	</item></sections_o>
 	<header_o item-list="true">	<item datasource="headerComponent">	<key>/site/items/header/035a3762-4f52-f116-b687-2a3d9701c52e.xml</key>
