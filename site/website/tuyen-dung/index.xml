@@ -31,37 +31,10 @@
 	<lastModifiedDate>2020-04-24T02:57:30.867Z</lastModifiedDate>
 	<lastModifiedDate_dt>2020-04-24T02:57:30.867Z</lastModifiedDate_dt>
 </component>
-	</item>	<item datasource="sections" inline="true">	<key>21ba8b21-e4f0-cf9a-6458-53c2cedeb25d</key>
-	<value>Tuyển dụng</value>
-<component id="21ba8b21-e4f0-cf9a-6458-53c2cedeb25d">
-	<content-type>/component/jobs</content-type>
-	<display-template>/templates/web/job.ftl</display-template>
-	<no-template-required/>
-	<merge-strategy>inherit-levels</merge-strategy>
-	<objectGroupId>21ba</objectGroupId>
-	<objectId>21ba8b21-e4f0-cf9a-6458-53c2cedeb25d</objectId>
-	<file-name>21ba8b21-e4f0-cf9a-6458-53c2cedeb25d.xml</file-name>
-	<internal-name>Tuyển dụng</internal-name>
-	<title_s>Tuyển dụng</title_s>
-	<section_o item-list="true">	<item datasource="sections">	<key>/site/website/jobs/ky-su-cong-trinh/index.xml</key>
-	<value>Kỹ sư công trình</value>
-	<include>/site/website/jobs/ky-su-cong-trinh/index.xml</include>
-	<disableFlattening>false</disableFlattening>
-	</item>	<item datasource="sections">	<key>/site/website/jobs/ke-toan/index.xml</key>
-	<value>Kế toán</value>
-	<include>/site/website/jobs/ke-toan/index.xml</include>
-	<disableFlattening>false</disableFlattening>
-	</item></section_o>
-	<createdDate>2020-04-01T04:51:15.977Z</createdDate>
-	<createdDate_dt>2020-04-01T04:51:15.977Z</createdDate_dt>
-	<lastModifiedDate>2020-04-19T03:15:44.069Z</lastModifiedDate>
-	<lastModifiedDate_dt>2020-04-19T03:15:44.069Z</lastModifiedDate_dt>
-	<controllers_o item-list="true"/>
-</component>
 	</item></sections_o>
 	<createdDate>2020-04-01T04:50:47.836Z</createdDate>
 	<createdDate_dt>2020-04-01T04:50:47.836Z</createdDate_dt>
-	<lastModifiedDate>2020-04-27T08:12:30.420Z</lastModifiedDate>
-	<lastModifiedDate_dt>2020-04-27T08:12:30.420Z</lastModifiedDate_dt>
+	<lastModifiedDate>2020-05-04T07:17:56.255Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-05-04T07:17:56.255Z</lastModifiedDate_dt>
 	<descripttion_t>Trang này cung cấp các thông tin tuyển dụng, các vị trí công việc mà công ty đang yêu cầu</descripttion_t>
 </page>
