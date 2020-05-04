@@ -31,10 +31,28 @@
 	<lastModifiedDate>2020-04-24T02:57:30.867Z</lastModifiedDate>
 	<lastModifiedDate_dt>2020-04-24T02:57:30.867Z</lastModifiedDate_dt>
 </component>
+	</item>	<item datasource="sections" inline="true">	<key>42d7bd36-c053-ee14-845b-ffe156c849dc</key>
+	<value>Danh sách công việc</value>
+<component id="42d7bd36-c053-ee14-845b-ffe156c849dc">
+	<content-type>/component/listjob</content-type>
+	<display-template>/templates/web/listjob.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>42d7</objectGroupId>
+	<objectId>42d7bd36-c053-ee14-845b-ffe156c849dc</objectId>
+	<file-name>42d7bd36-c053-ee14-845b-ffe156c849dc.xml</file-name>
+	<internal-name>Danh sách công việc</internal-name>
+	<title_s>Danh sách công việc</title_s>
+	<image_s>/static-assets/images/featured/content_img_1.png</image_s>
+	<createdDate>2020-05-04T07:19:57.697Z</createdDate>
+	<createdDate_dt>2020-05-04T07:19:57.697Z</createdDate_dt>
+	<lastModifiedDate>2020-05-04T07:19:57.697Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-05-04T07:19:57.697Z</lastModifiedDate_dt>
+</component>
 	</item></sections_o>
 	<createdDate>2020-04-01T04:50:47.836Z</createdDate>
 	<createdDate_dt>2020-04-01T04:50:47.836Z</createdDate_dt>
-	<lastModifiedDate>2020-05-04T07:17:56.255Z</lastModifiedDate>
-	<lastModifiedDate_dt>2020-05-04T07:17:56.255Z</lastModifiedDate_dt>
+	<lastModifiedDate>2020-05-04T07:19:37.217Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-05-04T07:19:37.217Z</lastModifiedDate_dt>
 	<descripttion_t>Trang này cung cấp các thông tin tuyển dụng, các vị trí công việc mà công ty đang yêu cầu</descripttion_t>
 </page>
