@@ -9,30 +9,29 @@
 	<file-name>index.xml</file-name>
 	<internal-name>Home</internal-name>
 	<orderDefault_f>-1</orderDefault_f>
-	<body_html>&lt;p&gt;This sample site allows you to manage a blog using multiple authors, categories and tags for the posts.&lt;/p&gt;
-&lt;p&gt;All content is exposed by a flexible REST API:&lt;/p&gt;
-&lt;p&gt;get endpoint using an id:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;/api/1/author/{id}.json&lt;/li&gt;
-&lt;li&gt;/api/1/post/{id}.json&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;list endpoints support 'start' and 'rows' parameters for pagination:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;/api/1/author/list.json&lt;/li&gt;
-&lt;li&gt;/api/1/category/list.json&lt;/li&gt;
-&lt;li&gt;/api/1/tag/list.json&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;list posts endpoint also supports 'author', 'categories', 'tags' parameters. A special 'q' parameter supports text search in the body of the posts:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;/api/1/post/list.json&lt;/li&gt;
-&lt;/ul&gt;</body_html>
 	<objectGroupId>8d7f</objectGroupId>
 	<objectId>8d7f21fa-5e09-00aa-8340-853b7db302da</objectId>
 	<folder-name/>
 	<createdDate>2017-1-31T16:18:14.000Z</createdDate>
 	<createdDate_dt>2017-1-31T16:18:14.000Z</createdDate_dt>
-	<lastModifiedDate>2020-03-25T10:33:56.215Z</lastModifiedDate>
-	<lastModifiedDate_dt>2020-03-25T10:33:56.215Z</lastModifiedDate_dt>
+	<lastModifiedDate>2020-05-04T03:30:47.794Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-05-04T03:30:47.794Z</lastModifiedDate_dt>
 	<title_s>Item Explorer</title_s>
 	<disabled>false</disabled>
+	<sections_o item-list="true"/>
+	<header_o item-list="true">	<item datasource="headerComponent">	<key>/site/items/header/035a3762-4f52-f116-b687-2a3d9701c52e.xml</key>
+	<value>Default header</value>
+	<include>/site/items/header/035a3762-4f52-f116-b687-2a3d9701c52e.xml</include>
+	<disableFlattening>false</disableFlattening>
+	</item></header_o>
+	<listmember_o item-list="true">	<item datasource="listMemberComponent">	<key>/site/items/list-member/f3610232-c67d-0040-b08d-38036e6763e9.xml</key>
+	<value>Mavin group members</value>
+	<include>/site/items/list-member/f3610232-c67d-0040-b08d-38036e6763e9.xml</include>
+	<disableFlattening>false</disableFlattening>
+	</item></listmember_o>
+	<footer_o item-list="true">	<item datasource="footerComponent">	<key>/site/items/footer/9b4ae7f3-594a-5892-9874-ee0f0451c377.xml</key>
+	<value>Default footer</value>
+	<include>/site/items/footer/9b4ae7f3-594a-5892-9874-ee0f0451c377.xml</include>
+	<disableFlattening>false</disableFlattening>
+	</item></footer_o>
 </page>
