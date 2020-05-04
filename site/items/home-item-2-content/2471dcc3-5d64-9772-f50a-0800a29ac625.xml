@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/homeitem2content</content-type>
+	<display-template>/templates/web/homeitem2content.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>2471</objectGroupId>
+	<objectId>2471dcc3-5d64-9772-f50a-0800a29ac625</objectId>
+	<file-name>2471dcc3-5d64-9772-f50a-0800a29ac625.xml</file-name>
+	<internal-name>Consulting and farm design</internal-name>
+	<title_s>Tư vấn tổng thể - thiết kế trang trại chăn nuôi</title_s>
+	<url_s>/overalladvisory</url_s>
+	<image_s>/static-assets/images/featured/content_img_3.png</image_s>
+	<createdDate>2020-05-04T03:35:36.150Z</createdDate>
+	<createdDate_dt>2020-05-04T03:35:36.150Z</createdDate_dt>
+	<lastModifiedDate>2020-05-04T03:35:36.150Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-05-04T03:35:36.150Z</lastModifiedDate_dt>
+</component>
