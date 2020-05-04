@@ -2,16 +2,16 @@
 <!-- navigation bar -->
 <div class="mavinex-nav" <@studio.iceAttr component=contentModel/>>
     <div class="mavinex-nav__container container">
-        <a class="mavinex-nav__logo navbar-brand" href="/home">
+        <a class="mavinex-nav__logo navbar-brand" href="/trang-chu">
             <img class="header--logo" src="${contentModel.logo_s}" alt="Logo">
         </a>
 
         <div id="nav-content" class="mavinex-nav__links">
-            <a class="mavinex-nav__link" href="/introduct">Giới thiệu</a>
-            <a class="mavinex-nav__link" href="/activity">Lĩnh vực hoạt động</a>
-            <a class="mavinex-nav__link" href="/experience2">Năng lực kinh nghiệm</a>
+            <a class="mavinex-nav__link" href="/gioi-thieu">Giới thiệu</a>
+            <a class="mavinex-nav__link" href="/linh-vuc-hoat-dong">Lĩnh vực hoạt động</a>
+            <a class="mavinex-nav__link" href="/nang-luc-kinh-nghiem">Năng lực kinh nghiệm</a>
             <a class="mavinex-nav__link" href="/co-hoi-nghe-nghiep">Tuyển dụng</a>
-            <a class="mavinex-nav__link" href="/contact">Liên hệ</a>
+            <a class="mavinex-nav__link" href="/lien-he">Liên hệ</a>
         </div>
 
         <div class="mavinex-nav__btns">

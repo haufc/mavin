@@ -7,7 +7,7 @@
 	<objectGroupId>a756</objectGroupId>
 	<objectId>a756485b-3afa-c1d6-c0b5-521f0e13cfe9</objectId>
 	<file-name>index.xml</file-name>
-	<folder-name>contact</folder-name>
+	<folder-name>lien-he</folder-name>
 	<internal-name>Liên hệ</internal-name>
 	<title_s>Liên hệ</title_s>
 	<sections_o item-list="true">	<item datasource="sections" inline="true">	<key>048320cb-f728-787e-a3b4-796714536cd4</key>
@@ -57,7 +57,7 @@
 	<orderDefault_f>4000</orderDefault_f>
 	<createdDate>2020-04-01T06:10:38.796Z</createdDate>
 	<createdDate_dt>2020-04-01T06:10:38.796Z</createdDate_dt>
-	<lastModifiedDate>2020-04-24T07:57:07.081Z</lastModifiedDate>
-	<lastModifiedDate_dt>2020-04-24T07:57:07.081Z</lastModifiedDate_dt>
+	<lastModifiedDate>2020-04-27T08:11:08.467Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-04-27T08:11:08.467Z</lastModifiedDate_dt>
 	<descripttion_t>Trang này cung cấp các thông tin để có thể liên hệ với công ty bao gồm các thông tin như: Địa chỉ , số điện thoại ...</descripttion_t>
 </page>

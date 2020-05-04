@@ -7,18 +7,18 @@ $(document).ready(function() {
         return this.href == url;
     }).css('font-weight', 'bold');
     
-    var lstPageURL = ["/experience","/overalladvisory","/all-jobs","/jobs"];
+    var lstPageURL = ["/linh-vuc-xay-dung","/tu-van-tong-the","/all-jobs","/jobs"];
     
     
     if (url.href.indexOf(lstPageURL[0]) > -1) {
         $('#nav-content a').filter(function() {
-            return this.href == getContextPath()+"/experience2";
+            return this.href == getContextPath()+"/nang-luc-kinh-nghiem";
         }).css('font-weight', 'bold');
     }
     
      if (url.href.indexOf(lstPageURL[1]) > -1) {
         $('#nav-content a').filter(function() {
-            return this.href == getContextPath()+"/experience2";
+            return this.href == getContextPath()+"/nang-luc-kinh-nghiem";
         }).css('font-weight', 'bold');
     }
     
