@@ -1,131 +1,46 @@
 <#import "/templates/system/common/cstudio-support.ftl" as studio />
-
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="utf-8">
-		<title>${model.title_s}</title>
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-		<style>
-			[v-cloak] { display:none; }
-		</style>
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-	</head>
-	<body>
-		<div id="browser" class="container" v-cloak>
-			<div class="row">
-				<div class="page-header">
-					<h1>Headless Blog <small><span class="glyphicon glyphicon-question-sign" data-toggle="modal" data-target="#help-modal"/></small></h1>
-				</div>
-				<div class="col-md-2">
-					<div class="panel panel-default">
-						<div class="panel-heading"><h2 class="panel-title">Items</h2></div>
-						<div class="panel-body">
-							<div class="list-group">
-								<a href="#" class="list-group-item" v-for="type in types" v-on:click="setType(type)">{{ type.label }}<span v-if="type == selectedType" class="badge"><span class="glyphicon glyphicon-chevron-right"/></span></a>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-4">
-					<div class="panel panel-default" v-if="selectedType">
-						<div class="panel-heading"><h2 class="panel-title">{{ selectedType.label }} ({{ items.total }})</h2></div>
-						<div class="panel-body">
-							<div class="list-group">
-								<a href="#" class="list-group-item" v-for="item in items.items" v-on:click="setItem(item)">{{ item[selectedType.labelField] }}<span v-if="item == selectedItem" class="badge"><span class="glyphicon glyphicon-chevron-right"/></span></a>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-6">
-					<div class="panel panel-default" v-if="selectedItem">
-						<div class="panel-heading"><h2 class="panel-title">Details</h2></div>
-						<div class="panel-body" v-bind:data-studio-component-path="selectedItem.itemUrl" v-bind:data-studio-component="selectedItem.itemUrl" data-studio-ice="" v-bind:data-studio-ice-path="selectedItem.itemUrl">
-							<table class="table">
-								<thead>
-									<tr>
-										<th>Field</th>
-										<th>Value</th>
-									</tr>
-								</thead>
-								<tbody>
-									<tr v-for="(value, field) in selectedItem">
-										<td>{{ field }}</td>
-										<td v-if="field == 'photo' || field == 'featuredImage'"><img class="img-responsive img-rounded" v-bind:src="value"/></td>
-										<td v-else-if="field == 'date'">{{ new Date(value).toDateString() }}</td>
-										<td v-else-if="field == 'categories' || field == 'tags'">
-											<span class="label label-primary" style="margin-right:5px" v-for="val in value">{{ val.label }}</span>
-										</td>
-										<td v-else-if="field == 'body' || field == 'biography'">
-											<div v-html="value"></div>
-										</td>
-										<td v-else-if="Array.isArray(value)">{{ value.join(', ') }}</td>
-										<td v-else>{{ value }}</td>
-									</tr>
-								</tbody>
-							</table>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="modal fade" id="help-modal" tabindex="-1" role="dialog">
-			<div class="modal-dialog" role="document">
-				<div class="modal-content">
-					<div class="modal-header">
-						<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span></button>
-						<h4 class="modal-title">Help</h4>
-					</div>
-					<div class="modal-body">
-						${model.body_html}
-					</div>
-				</div>
-			</div>
-		</div>
-		<script src="https://unpkg.com/vue"></script>
-		<script src="https://unpkg.com/vue-resource"></script>
-		<script>
-			var browser = new Vue({
-				el: '#browser',
-				data: {
-					types: [
-						{
-							label: 'Authors',
-							labelField: 'name',
-							listUrl: '/api/1/author/list.json'
-						},
-						{
-							label: 'Posts',
-							labelField: 'title',
-						}
-					],
-					selectedType: null,
-					items: [],
-					selectedItem: null
-				},
-				methods: {
-					setType: function(type) {
-						this.selectedType = type;
-						this.selectedItem = null;
-						var self = this;
-						this.$http.get(type.listUrl).then(function(response) {
-							self.items = response.body
-						});
-					},
-					setItem: function(item) {
-						this.selectedItem = item;
-                        this.$nextTick(function(){
-                            if(window.studioICERepaint) {
-								studioICERepaint();
-							}
-                        });
-					}
-				}
-			});
-			console.log(browser.methods)
-		</script>
-		<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-		<@studio.toolSupport/>
-	</body>
+  <head>
+    <title>${contentModel.title_s}</title>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="shortcut icon" href="/static-assets/images/logos/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="/static-assets/plugins/flag-icons/css/flag-icon.min.css"/>
+    <link rel="stylesheet" href="/static-assets/plugins/font-awesomeweb-5121/css/all.min.css"/>
+    <link rel="stylesheet" href="/static-assets/plugins/owlcarousel234/dist/assets/owl.carousel.min.css"/>
+    <link rel="stylesheet" href="/static-assets/plugins/owlcarousel234/dist/assets/owl.theme.default.min.css"/>
+    <link rel="stylesheet" href="/static-assets/plugins/bootstrap441/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="/static-assets/plugins/bootstrap-select1139/dist/css/bootstrap-select.min.css"/>
+    <link rel="stylesheet" href="/static-assets/css/styles.css"/>
+    <link rel="stylesheet" href="/static-assets/css/mavinex.css"/>
+  </head>
+  <body>
+    <button onclick="topFunction()" id="btn-up-top" ><i class="fa fa-angle-up"></i></button>
+    <@renderComponent component=contentModel.header_o.item />
+    <!--<div class="welcome-img" style="background-image: url(&quot;../../assets/images/bg_1.png&quot;)"></div> -->
+    <div class="content">
+        <#list (contentModel.sections_o.item)![] as section>
+            <@renderComponent parent=contentModel component=section />
+        </#list>
+        
+    </div>
+    <@renderComponent component=contentModel.memberlist_o.item />
+    <@renderComponent component=contentModel.footer_o.item />
+    <script src="/static-assets/plugins/jquery341/jquery(3.4.1.).js"></script>
+    <script src="/static-assets/js/popper.min.js"></script>
+    <script src="/static-assets/plugins/bootstrap441/js/bootstrap.min.js"></script>
+    <script src="/static-assets/plugins/bootstrap-select1139/dist/js/bootstrap-select.min.js"></script>
+    <script src="/static-assets/plugins/owlcarousel234/dist/owl.carousel.min.js"></script>
+    <script src="/static-assets/js/language_selector.js"></script>
+    <script src="/static-assets/js/logos.js"></script>
+    <script src="/static-assets/js/nav.js"></script>
+    <script src="/static-assets/js/smooth_scroll.js"></script>
+    <script src="/static-assets/js/responsive.js"></script>
+    <script src="/static-assets/js/search-bar.js"></script>
+    <script src="/static-assets/js/handlebars.min-latest.js"></script>
+    <script src="/static-assets/js/jquery.twbsPagination.min.js"></script>
+    <script src="/static-assets/js/script.js"></script>
+  </body>
 </html>
+<@studio.toolSupport />
