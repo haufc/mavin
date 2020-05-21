@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page>
+	<content-type>/page/home</content-type>
+	<display-template>/templates/web/home.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>8cc9</objectGroupId>
+	<objectId>8cc96b24-5979-010b-2959-988a21bf8fde</objectId>
+	<placeInNav>false</placeInNav>
+	<orderDefault_f>-1</orderDefault_f>
+	<file-name>index.xml</file-name>
+	<folder-name>san-pham</folder-name>
+	<internal-name>Sản phẩm</internal-name>
+	<title_s>Sản phẩm</title_s>
+	<sections_o item-list="true">	<item datasource="carouselDataSource">	<key>/site/items/carousel/ae35b8bb-78ea-2486-bbe9-b245dab005fd.xml</key>
+	<value>CarouselHeader</value>
+	<include>/site/items/carousel/ae35b8bb-78ea-2486-bbe9-b245dab005fd.xml</include>
+	<disableFlattening>false</disableFlattening>
+	</item></sections_o>
+	<descripttion_t/>
+	<createdDate>2020-05-21T08:14:35.768Z</createdDate>
+	<createdDate_dt>2020-05-21T08:14:35.768Z</createdDate_dt>
+	<lastModifiedDate>2020-05-21T08:14:35.768Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-05-21T08:14:35.768Z</lastModifiedDate_dt>
+</page>
