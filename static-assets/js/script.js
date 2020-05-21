@@ -9,6 +9,9 @@ $(document).ready(function() {
     
     var lstPageURL = ["/linh-vuc-xay-dung","/tu-van-tong-the","/all-jobs","/jobs"];
     
+    if(url.href.indexOf('san-pham') > -1) {
+        $('.content').css('background', 'white');
+    }
     
     if (url.href.indexOf(lstPageURL[0]) > -1) {
         $('#nav-content a').filter(function() {
