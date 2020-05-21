@@ -1,7 +1,7 @@
 <#import "/templates/system/common/cstudio-support.ftl" as studio />
 	<div id="products" class="carousel slide" data-ride="carousel" <@studio.iceAttr component=contentModel/>>
-            <div class="content__title"></div>
-            <div class="content__details container">
+            <div class="mavinex-overlay"></div>
+            <div class="mavinex-products">
                 <h1 class="mavinex-products__sec-title">${contentModel.tittle_s}</h1>
 
                 <div class="mavinex-products__content carousel-inner">
