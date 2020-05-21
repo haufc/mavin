@@ -15,11 +15,11 @@
                       <#if element.colortext_s == '1'>
                         	<div class="card-body text-white" style="background-color: #CE181F;">
 
-                                 <a href="${element.urlpage_s}"><h4 class="card-text text--uppercase">${element.title_s}</h4></a>
+                                 <a class="text-white" href="${element.urlpage_s}"><h4 class="card-text text--uppercase">${element.title_s}</h4></a>
                             </div>
                     	<#else>
                     	    <div class="card-body text-white" style="background-color: #00559A;">
-                                <a href="${element.urlpage_s}"><h4 class="card-text text--uppercase">${element.title_s}</h4></a>
+                                <a class="text-white" href="${element.urlpage_s}"><h4 class="card-text text--uppercase">${element.title_s}</h4></a>
                             </div>
                      </#if>
                     </div>
