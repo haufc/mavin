@@ -12,7 +12,7 @@
                 <div class="col-lg-6 col-md-6 col-sm-6 col-6 mb-5">
                     <div class="card" style="width: 100%; border: none; border-radius: unset;">
                       <img class="card-img-top" src="${element.avatar_s}" height="350px" alt="Card image cap">
-                      <#if element.colortext_s == 1>
+                      <#if element.colortext_s == '1'>
                         	<div class="card-body text-white" style="background-color: #CE181F;">
 
                                 <p class="card-text">${element.title_s}</p>
