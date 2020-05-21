@@ -8,7 +8,7 @@
 
         <div id="nav-content" class="mavinex-nav__links">
             <a class="mavinex-nav__link" href="/gioi-thieu">Giới thiệu</a>
-            <a class="mavinex-nav__link" href="/linh-vuc-hoat-dong">Lĩnh vực hoạt động</a>
+            <a class="mavinex-nav__link" href="/san-pham">Sản phẩm</a>
             <a class="mavinex-nav__link" href="/nang-luc-kinh-nghiem">Năng lực kinh nghiệm</a>
             <a class="mavinex-nav__link" href="/co-hoi-nghe-nghiep">Tuyển dụng</a>
             <a class="mavinex-nav__link" href="/lien-he">Liên hệ</a>
