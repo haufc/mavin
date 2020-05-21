@@ -7442,5 +7442,105 @@ _:-ms-lang(x), .content__img {
     }
     
 }
+/* 18/05/2020 - carousel */
+    .mavinex-overlay {
+        position: absolute;
+        z-index: 1;
+        bottom: 0;
+        width: 100%;
+        height: 50%;
+        background: var(--dark-blue);
+    }
+
+    .mavinex-products {
+        position: relative;
+
+        margin: 0 auto;
+
+        width: 100%;
+        max-width: 1400px;
+        height: 500px;
+    }
+    .mavinex-products__content {
+        position: absolute;
+        z-index: 2;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+        max-width: 1300px;
+        width: 100%;
+
+        padding: 0 5px;
+    }
+    .mavinex-products__sec-title {
+        position: absolute;
+        top: 5%;
+        transform: translateY(5%);
+
+        font-size: 48px;
+
+        color: var(--dark-red);
+    }
+    .mavinex-products__items {
+        justify-content: space-between;
+    }
+    .mavinex-products__item {
+        position: relative;
+        
+        width: 100%;
+        max-width: 316px;
+        height: 289px;
+
+        padding: 27px;
+
+        text-align: center;
+    }
+    .mavinex-products__item-title,
+    .mavinex-products__item-img {
+        position: relative;
+
+        margin: 0 auto;
+
+        width: 288px;
+        height: 50%;
+    }
+    .mavinex-products__item-title {
+        border-radius: 144px 144px 0 0;
+    }
+    .mavinex-products__item-title--bg-blue {
+        background: var(--dark-blue);
+    }
+    .mavinex-products__item-title--bg-red {
+        background: var(--dark-red);
+    }
+    .mavinex-products__item-title > .mavinex-products__item-text {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+        text-align: center;
+        font-weight: bold;
+        letter-spacing: -1px;
+
+        color: #fff;
+    }
+    .mavinex-products__item-img {
+        border-radius: 0 0 144px 144px;
+
+        object-fit: cover;
+
+        background: #000;
+    }
+    .mavinex-products__ctrl-btn {
+        z-index: 2;
+
+        opacity: 1;
+    }
+    .mavinex-products__ctrl-btn > img {
+        width: 20px;
+        height: 30px;
+    }
 
 /*# sourceMappingURL=styles.css.map */
