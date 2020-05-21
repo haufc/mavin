@@ -388,7 +388,7 @@
 						</property>
 						<property>
 							<name>options</name>
-							<value>[{&quot;key&quot;:&quot;Red&quot;,&quot;value&quot;:&quot;1&quot;},{&quot;key&quot;:&quot;Blue&quot;,&quot;value&quot;:&quot;2&quot;}]</value>
+							<value>[{&quot;key&quot;:&quot;1&quot;,&quot;value&quot;:&quot;Red&quot;},{&quot;key&quot;:&quot;2&quot;,&quot;value&quot;:&quot;Blue&quot;}]</value>
 								<type>undefined</type>
 						</property>
 						<property>
