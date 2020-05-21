@@ -27,10 +27,5 @@
             </#list>
         </div>
     </div>
-<script>
-    $(document).ready(function() {
-        $('.content').css('background','white')
-        
-    });
 </script>
 <@studio.toolSupport />
