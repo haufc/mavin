@@ -57,7 +57,7 @@
                             </div>
                         </div>
                     </div>
-                <#list>
+                </#list>
                 </#if>
                 
                 <div class="test">
