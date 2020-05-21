@@ -15,11 +15,11 @@
                       <#if element.colortext_s == '1'>
                         	<div class="card-body text-white" style="background-color: #CE181F;">
 
-                                <h4 class="card-text">${element.title_s}</h4>
+                                <h4 class="card-text text--uppercase">${element.title_s}</h4>
                             </div>
                     	<#else>
                     	    <div class="card-body text-white" style="background-color: #00559A;">
-                                <h4 class="card-text">${element.title_s}</h4>
+                                <h4 class="card-text text--uppercase">${element.title_s}</h4>
                             </div>
                      </#if>
                     </div>
