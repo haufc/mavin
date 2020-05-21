@@ -31,29 +31,29 @@
 	<product_o item-list="true">	<item>	<title_s>Thiết bị chuồng trại</title_s>
 	<urlpage_s>/group-product/thiet-bi-chuong-trai</urlpage_s>
 	<avatar_s>/static-assets/images/products/product-group-1.png</avatar_s>
-	<colortext_s>Red</colortext_s>
+	<colortext_s>1</colortext_s>
 	</item>	<item>	<title_s>Máy ấp nở trứng</title_s>
 	<urlpage_s>/group-product/may-ap-no-trung</urlpage_s>
 	<avatar_s>/static-assets/images/products/product-group-2.png</avatar_s>
-	<colortext_s>Blue</colortext_s>
+	<colortext_s>2</colortext_s>
 	</item>	<item>	<title_s>Thiết bị thủy sản</title_s>
 	<urlpage_s>/group-product/thiet-bi-thuy-san</urlpage_s>
 	<avatar_s>/static-assets/images/products/product-group-5.png</avatar_s>
-	<colortext_s>Blue</colortext_s>
+	<colortext_s>2</colortext_s>
 	</item>	<item>	<title_s>Thiết bị nhà máy thức ăn chăn nuôi</title_s>
 	<urlpage_s>/group-product/thiet-bi-thuc-an-chan-nuoi</urlpage_s>
 	<avatar_s>/static-assets/images/products/product-group-4.png</avatar_s>
-	<colortext_s>Red</colortext_s>
+	<colortext_s>1</colortext_s>
 	</item></product_o>
 	<createdDate>2020-05-21T09:17:01.179Z</createdDate>
 	<createdDate_dt>2020-05-21T09:17:01.179Z</createdDate_dt>
-	<lastModifiedDate>2020-05-21T09:17:01.179Z</lastModifiedDate>
-	<lastModifiedDate_dt>2020-05-21T09:17:01.179Z</lastModifiedDate_dt>
+	<lastModifiedDate>2020-05-21T10:25:23.579Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-05-21T10:25:23.579Z</lastModifiedDate_dt>
 </component>
 	</item></sections_o>
 	<descripttion_t/>
 	<createdDate>2020-05-21T08:14:35.768Z</createdDate>
 	<createdDate_dt>2020-05-21T08:14:35.768Z</createdDate_dt>
-	<lastModifiedDate>2020-05-21T09:16:47.183Z</lastModifiedDate>
-	<lastModifiedDate_dt>2020-05-21T09:16:47.183Z</lastModifiedDate_dt>
+	<lastModifiedDate>2020-05-21T10:25:17.980Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-05-21T10:25:17.980Z</lastModifiedDate_dt>
 </page>
