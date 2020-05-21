@@ -13,6 +13,7 @@
                     <div class="card" style="width: 100%; border: none; border-radius: unset;">
                       <img class="card-img-top" src="${element.avatar_s}" height="350px" alt="Card image cap">
                       <div class="card-body text-white" style="background-color: #CE181F;">
+                        <p>${contentModel.colortext_s}</p>
                         <p class="card-text">${element.title_s}</p>
                       </div>
                     </div>
