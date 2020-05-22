@@ -7464,7 +7464,6 @@ _:-ms-lang(x), .content__img {
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
-        max-width: 1300px;
         width: 100%;
 
         padding: 0 5px;
