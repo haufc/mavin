@@ -65,10 +65,10 @@
                 </#if>
                 
                 <div class="test">
-                    <a class="mavinex-products__ctrl-btn left carousel-control" href="#products" role="button" data-slide="prev">
+                    <a class="mavinex-products__ctrl-btn carousel-control-left" href="#products" role="button" data-slide="prev">
                         <img src="${contentModel.arrow1_s}" alt="Left Arrow">
                     </a>
-                    <a class="mavinex-products__ctrl-btn right carousel-control" href="#products" role="button" data-slide="next">
+                    <a class="mavinex-products__ctrl-btn carousel-control-right" href="#products" role="button" data-slide="next">
                         <img src="${contentModel.arrow2_s}" alt="Right Arrow">
                     </a>
                 </div>
