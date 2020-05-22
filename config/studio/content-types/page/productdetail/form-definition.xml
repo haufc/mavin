@@ -69,13 +69,23 @@
 					<properties>
 						<property>
 							<name>size</name>
-							<value>50</value>
+							<value>1000</value>
 							<type>int</type>
 						</property>
 						<property>
 							<name>maxlength</name>
-							<value>50</value>
+							<value>1000</value>
 							<type>int</type>
+						</property>
+						<property>
+							<name>readonly</name>
+							<value></value>
+							<type>boolean</type>
+						</property>
+						<property>
+							<name>tokenize</name>
+							<value>false</value>
+							<type>boolean</type>
 						</property>
 					</properties>
 					<constraints>
@@ -128,11 +138,21 @@
 							<value>50</value>
 							<type>int</type>
 						</property>
+						<property>
+							<name>readonly</name>
+							<value></value>
+							<type>boolean</type>
+						</property>
+						<property>
+							<name>tokenize</name>
+							<value>false</value>
+							<type>boolean</type>
+						</property>
 					</properties>
 					<constraints>
 						<constraint>
 							<name>required</name>
-							<value><![CDATA[true]]></value>
+							<value><![CDATA[false]]></value>
 							<type>boolean</type>
 						</constraint>
 					</constraints>
@@ -286,12 +306,12 @@
 					<properties>
 						<property>
 							<name>size</name>
-							<value>50</value>
+							<value>1000</value>
 							<type>int</type>
 						</property>
 						<property>
 							<name>maxlength</name>
-							<value>50</value>
+							<value>1000</value>
 							<type>int</type>
 						</property>
 						<property>
@@ -369,7 +389,7 @@
 						</property>
 						<property>
 							<name>imageManager</name>
-							<value></value>
+							<value>contentimageupload,contentimageexisting</value>
 							<type>datasource:image</type>
 						</property>
 						<property>
@@ -652,6 +672,37 @@
 						<property>
 							<name>componentPath</name>
 							<value>/site/taxonomy/product-category-child.xml</value>
+								<type>undefined</type>
+						</property>
+					</properties>
+				</datasource>
+				<datasource>
+					<type>img-desktop-upload</type>
+					<id>contentimageupload</id>
+					<title>Content image upload</title>
+					<interface>image</interface>
+					<properties>
+						<property>
+							<name>repoPath</name>
+							<value>/static-asset/images/</value>
+								<type>undefined</type>
+						</property>
+					</properties>
+				</datasource>
+				<datasource>
+					<type>img-repository-upload</type>
+					<id>contentimageexisting</id>
+					<title>Content image existing</title>
+					<interface>image</interface>
+					<properties>
+						<property>
+							<name>repoPath</name>
+							<value>/static-asset/images/products</value>
+								<type>undefined</type>
+						</property>
+						<property>
+							<name>useSearch</name>
+							<value>false</value>
 								<type>undefined</type>
 						</property>
 					</properties>
