@@ -1,10 +1,11 @@
 <#import "/templates/system/common/cstudio-support.ftl" as studio />
-	<div id="products" class="carousel slide" data-ride="carousel" <@studio.iceAttr component=contentModel/> style="background-color: #fff">
-            <div class="content__title">
-                    <div class="container">
-                    <h2 class="text--uppercase text--red">${contentModel.tittle_s}</h2>
-                    </div>
-                </div>
+	<div <@studio.iceAttr component=contentModel/>>
+	<div class="content__title">
+            <div class="container">
+                <h2 class="text--uppercase text--red">${contentModel.tittle_s}</h2>
+            </div>
+    </div>
+	<div id="products" class="carousel slide" data-ride="carousel"  style="background-color: #fff">
             <div class="mavinex-overlay"></div>
             <div class="mavinex-products">
                 <div class="mavinex-products__content carousel-inner container">
@@ -73,4 +74,5 @@
                 </div>
             </div>
         </div>
+    </div>
 <@studio.toolSupport />
