@@ -135,7 +135,7 @@ img {
   <body>
     <button onclick="topFunction()" id="btn-up-top" ><i class="fa fa-angle-up"></i></button>
     <@renderComponent component=contentModel.header_o.item />
-    <div class="content">
+    <div class="content" style="background-color: #FFF;">
         <@renderComponent component=contentModel.slide_o.item />
          <div class="recruitment ">
         <div class="content__title text--center">
