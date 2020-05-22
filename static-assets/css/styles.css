@@ -7449,7 +7449,7 @@ _:-ms-lang(x), .content__img {
         bottom: 0;
         width: 100%;
         height: 50%;
-        background: var(--dark-blue);
+        background: #00559a;
     }
 
     .mavinex-products {
@@ -7480,7 +7480,7 @@ _:-ms-lang(x), .content__img {
 
         font-size: 48px;
 
-        color: var(--dark-red);
+        color: #cd2027;
     }
     .mavinex-products__items {
         justify-content: space-between;
@@ -7509,10 +7509,10 @@ _:-ms-lang(x), .content__img {
         border-radius: 144px 144px 0 0;
     }
     .mavinex-products__item-title--bg-blue {
-        background: var(--dark-blue);
+        background: #00559a;
     }
     .mavinex-products__item-title--bg-red {
-        background: var(--dark-red);
+        background: #cd2027;
     }
     .mavinex-products__item-title > .mavinex-products__item-text {
         position: absolute;
