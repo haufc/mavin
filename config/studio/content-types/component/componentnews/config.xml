@@ -1,5 +1,5 @@
 <content-type name="/component/componentnews" is-wcm-type="true">
-	<label>Component - Products</label>
+	<label>Component - Products Carousel</label>
 	<form>/component/componentnews</form>
 	<form-path>simple</form-path>
 	<model-instance-path>NOT-USED-BY-SIMPLE-FORM-ENGINE</model-instance-path>
