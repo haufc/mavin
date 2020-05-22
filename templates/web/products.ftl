@@ -66,10 +66,10 @@
                 
                 <div class="test">
                     <a class="mavinex-products__ctrl-btn carousel-control-prev" href="#products" role="button" data-slide="prev">
-                        <img src="../assets/images/mavinex_left_arrow.png" alt="Left Arrow">
+                        <img src="${contentModel.arrow1_s}" alt="Left Arrow">
                     </a>
                     <a class="mavinex-products__ctrl-btn carousel-control-next" href="#products" role="button" data-slide="next">
-                        <img src="../assets/images/mavinex_right_arrow.png" alt="Right Arrow">
+                        <img src="${contentModel.arrow2_s}" alt="Right Arrow">
                     </a>
                 </div>
             </div>
