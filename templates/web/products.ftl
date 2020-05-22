@@ -5,7 +5,7 @@
                 <h2 class="text--uppercase text--red">${contentModel.tittle_s}</h2>
             </div>
     </div>
-	<div id="products" class="carousel slide" data-ride="carousel"  style="background-color: #fff">
+	<div id="production" class="carousel slide" data-ride="carousel" style="background-color: #fff">
             <div class="mavinex-overlay"></div>
             <div class="mavinex-products">
                 <div class="mavinex-products__content carousel-inner container">
@@ -65,10 +65,10 @@
                 </#if>
                 
                 <div class="test">
-                    <a class="mavinex-products__ctrl-btn carousel-control-prev" href="#products" role="button" data-slide="prev">
+                    <a class="mavinex-products__ctrl-btn carousel-control-prev" href="#production" role="button" data-slide="prev">
                         <img src="${contentModel.arrow1_s}" alt="Left Arrow">
                     </a>
-                    <a class="mavinex-products__ctrl-btn carousel-control-next" href="#products" role="button" data-slide="next">
+                    <a class="mavinex-products__ctrl-btn carousel-control-next" href="#production" role="button" data-slide="next">
                         <img src="${contentModel.arrow2_s}" alt="Right Arrow">
                     </a>
                 </div>
