@@ -2,7 +2,7 @@
 	<div id="products" class="carousel slide" data-ride="carousel" <@studio.iceAttr component=contentModel/> style="background-color: #fff">
             <div class="mavinex-overlay"></div>
             <div class="mavinex-products container">
-                <h1 class="mavinex-products__sec-title">${contentModel.tittle_s}</h1>
+                <h2 class="text--uppercase text--red">${contentModel.tittle_s}</h2>
 
                 <div class="mavinex-products__content carousel-inner">
                     <#if (contentModel.products_o)??>
