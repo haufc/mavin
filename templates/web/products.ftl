@@ -59,11 +59,10 @@
                                     <img class="mavinex-products__item-img" src="${item.pImage4_s}" alt="Carousel Image">
                                 </div>
                             </div>
-                        
                     </div>
                 </#list>
                 </#if>
-                
+                </div>
                 <div class="test">
                     <a class="mavinex-products__ctrl-btn carousel-control-prev" href="#production" role="button" data-slide="prev">
                         <img src="${contentModel.arrow1_s}" alt="Left Arrow">
