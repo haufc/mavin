@@ -1,5 +1,5 @@
 <form>
-	<title>Component - Products</title>
+	<title>Component - Products Carousel</title>
 	<description></description>
 	<objectType>component</objectType>
 	<content-type>/component/componentnews</content-type>
@@ -89,7 +89,7 @@
 			</fields>
 		</section>
 		<section>
-			<title>Default Section Title 1590057182701</title>
+			<title>Default Section Title 1590142857359</title>
 			<description></description>
 			<defaultOpen>false</defaultOpen>
 			<fields>
