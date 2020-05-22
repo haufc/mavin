@@ -1,11 +1,11 @@
 <#import "/templates/system/common/cstudio-support.ftl" as studio />
 	<div id="products" class="carousel slide" data-ride="carousel" <@studio.iceAttr component=contentModel/> style="background-color: #fff">
             <div class="mavinex-overlay"></div>
-            <div class="mavinex-products container">
+            <div class="mavinex-products">
                 <div class="content__title">
                 <h2 class="text--uppercase text--red">${contentModel.tittle_s}</h2>
                 </div>
-                <div class="mavinex-products__content carousel-inner">
+                <div class="mavinex-products__content carousel-inner container">
                     <#if (contentModel.products_o)??>
                     <#assign first = true>
                     <#list contentModel.products_o.item as item>
