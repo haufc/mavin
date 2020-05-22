@@ -12,12 +12,12 @@
                     <#if (contentModel.products_o)??>
                     <#assign first = true>
                     <#list contentModel.products_o.item as item>
-                        <#if first>
+                    <#if first>
                         <div class="carousel-item active">
-                        <#assign first= false>
+                        <#assign first = false>
                         <#else>
                         <div class="carousel-item">
-                        </#if>
+                    </#if>
                             <div class="mavinex-products__items row">
                                 <div class="mavinex-products__item col-xs-12 col-sm-12 col-md-3 col-lg-3 p-0">
                                     <div class="mavinex-products__item-title mavinex-products__item-title--bg-blue">
