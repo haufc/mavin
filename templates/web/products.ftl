@@ -3,7 +3,9 @@
             <div class="mavinex-overlay"></div>
             <div class="mavinex-products">
                 <div class="content__title">
-                <h2 class="text--uppercase text--red">${contentModel.tittle_s}</h2>
+                    <div class="container">
+                    <h2 class="text--uppercase text--red">${contentModel.tittle_s}</h2>
+                    </div>
                 </div>
                 <div class="mavinex-products__content carousel-inner container">
                     <#if (contentModel.products_o)??>
