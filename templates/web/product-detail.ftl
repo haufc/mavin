@@ -141,7 +141,7 @@ img {
         <div class="content__title text--center">
             <h1 style="background-color: #00559a; padding:10px;" class="text--uppercase text-white text-left">Kỹ sư công trình</h1>
           </div>
-        <div class="container p-3 text-white">         
+        <div class="container p-3">         
             <div class="row">
                 <div class="col-sm-12 col-md-6 col-lg-6">
                     <#list contentModel.productimage_o.item as myItem>
