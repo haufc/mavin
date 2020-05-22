@@ -167,9 +167,11 @@ img {
                    <h4 style="background-color: red; padding:10px;" class="text--uppercase">
                         ${contentModel.productname_s}
                   </h4>
-                  <p style="color: #00559a;">
-                    ${contentModel.productdescription_html}
-                  </p>
+                  <div>
+                     <p>
+                        ${contentModel.productdescription_html}
+                      </p>
+                  </div>
                   <div class="d-flex mb-custom">
                     <button class="btn-desc" style="width: 49%; margin-right: 2%;">${contentModel.phonenumber_s}</button>
                     <button class="btn-desc" style="width: 49%;">Yêu cầu báo giá</button>
