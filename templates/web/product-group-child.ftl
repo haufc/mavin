@@ -16,6 +16,10 @@
                     </#list>
                 </#if>
             </div>
+            <a class="mt-3 rounded-0" href="/gioi-thieu"> 
+                <span class="mr-1">Xem thêm</span>
+                <i class="fas fa-play text--red"></i>
+            </a>
           </div>
       </div>
 <@studio.toolSupport />
