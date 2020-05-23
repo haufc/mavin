@@ -21,7 +21,7 @@
         <@renderComponent component=contentModel.slide_o.item />
          <div class="recruitment ">
         <div class="content__title text--center">
-            <h1 class="text--uppercase text-white text-left">${contentModel.product_title_s}</h1>
+            <h1 class="text--uppercase text--red text-left">${contentModel.product_title_s}</h1>
           </div>
         <div class="container p-3">         
             <div class="row">
