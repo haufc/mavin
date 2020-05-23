@@ -7446,4 +7446,12 @@ _:-ms-lang(x), .content__img {
         height: 220px;
     }
 }
+@media (max-width: 991px){
+        .mavinex-products {
+        height: 300px;
+        }
+        .mavinex-overlay {
+        background: #fff;
+        }
+}
 /*# sourceMappingURL=styles.css.map */
