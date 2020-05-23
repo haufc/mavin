@@ -6353,11 +6353,11 @@ h6 {
     }
     .mavinex-nav__links > .mavinex-nav__link {
         position: relative;
-        /* 
-            @fromHungDTWithBugs: 
-            Sau khi có font phù hợp thì chú có thể thay đổi kích thước chữ ở đây. 
-            Do anh dùng font mặc định của Bootstrap nên nếu để đúng kích thước của họ (24px) thì quá to
-        */
+        font-size: 18px; 
+        color: #fff;
+    }
+    .mavinex-nav__links > .dropdown > .mavinex-nav__link {
+        position: relative;
         font-size: 18px; 
         color: #fff;
     }
