@@ -321,7 +321,7 @@
 						</property>
 						<property>
 							<name>itemManager</name>
-							<value>section</value>
+							<value>productchildcomponent</value>
 							<type>datasource:item</type>
 						</property>
 						<property>
@@ -441,19 +441,6 @@
 						<property>
 							<name>type</name>
 							<value>/component/productchildgroup</value>
-								<type>undefined</type>
-						</property>
-					</properties>
-				</datasource>
-				<datasource>
-					<type>embedded-content</type>
-					<id>section</id>
-					<title>section</title>
-					<interface>item</interface>
-					<properties>
-						<property>
-							<name>contentType</name>
-							<value></value>
 								<type>undefined</type>
 						</property>
 					</properties>
