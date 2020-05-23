@@ -25,8 +25,8 @@
           </div>
         <div class="container p-3">         
             <div class="row">
-            <#if (contentModel.productchildcomponent_o.item)?? && contentModel.productchildcomponent_o??>
-                <#list (contentModel.productchildcomponent_o.item)![] as section>
+            <#if (contentModel.section_o.item)?? && contentModel.section_o??>
+                <#list (contentModel.section_o.item)![] as section>
                     <@renderComponent parent=contentModel component=section />
                 </#list>
             </#if>
