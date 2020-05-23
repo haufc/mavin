@@ -7440,6 +7440,7 @@ _:-ms-lang(x), .content__img {
     }
      .mavinex-products__item-img{
          height: 220px;
+         border-radius: 0 0 144px 144px;
      }
 }
 /*# sourceMappingURL=styles.css.map */
