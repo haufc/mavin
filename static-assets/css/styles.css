@@ -7332,7 +7332,16 @@ _:-ms-lang(x), .content__img {
 @media (max-width: 425px){
     .mavinex-products__item {
         max-width: 100px;
-        
+    }
+        .mavinex-products__item {
+        height: 100px;
+    }
+    .mavinex-products__item-title,
+    .mavinex-products__item-img {
+        width: 95px;
+    }
+    .mavinex-products {
+        height: 110px;
     }
 }
 /*# sourceMappingURL=styles.css.map */
