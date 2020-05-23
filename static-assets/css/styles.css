@@ -6139,155 +6139,6 @@ h6 {
   padding-bottom: 99px;
 }
 
-/* components */
-/* navigation bar */
-/*.nav-bar {*/
-/*  z-index: 999;*/
-/*  position: fixed;*/
-/*  top: 0;*/
-/*  width: 100%;*/
-/*  height: 160px;*/
-/*  background: #00559a;*/
-/*  -webkit-box-shadow: 0 0 8px 3px rgba(0, 0, 0, 0.3);*/
-/*          box-shadow: 0 0 8px 3px rgba(0, 0, 0, 0.3);*/
-/*  -webkit-transition: all 0.3s ease-in-out;*/
-/*  transition: all 0.3s ease-in-out;*/
-/*}*/
-
-/*.nav-bar__container {*/
-/*  position: relative;*/
-/*  margin: 0 auto;*/
-/*  max-width: 1200px;*/
-/*  width: 100%;*/
-/*  height: 100%;*/
-/*  padding-bottom: 30px;*/
-/*  display: -webkit-box;*/
-/*  display: -ms-flexbox;*/
-/*  display: flex;*/
-/*  -webkit-box-align: end;*/
-/*      -ms-flex-align: end;*/
-/*          align-items: flex-end;*/
-/*  -webkit-box-pack: justify;*/
-/*      -ms-flex-pack: justify;*/
-/*          justify-content: space-between;*/
-/*  -webkit-box-orient: horizontal;*/
-/*  -webkit-box-direction: normal;*/
-/*      -ms-flex-direction: row;*/
-/*          flex-direction: row;*/
-/*}*/
-
-/*.nav-bar__container input#toggleMenu {*/
-/*  display: none;*/
-/*}*/
-
-/*.nav-bar__links, .nav-bar__btns {*/
-/*  height: 50px;*/
-/*}*/
-
-/*.nav-bar__links {*/
-/*  width: 750px;*/
-/*  display: -webkit-box;*/
-/*  display: -ms-flexbox;*/
-/*  display: flex;*/
-/*  -webkit-box-align: center;*/
-/*      -ms-flex-align: center;*/
-/*          align-items: center;*/
-/*  -webkit-box-pack: justify;*/
-/*      -ms-flex-pack: justify;*/
-/*          justify-content: space-between;*/
-/*  -webkit-box-orient: horizontal;*/
-/*  -webkit-box-direction: normal;*/
-/*      -ms-flex-direction: row;*/
-/*          flex-direction: row;*/
-/*}*/
-
-/*.nav-bar__link, .nav-bar__btn {*/
-/*  font-size: 20px;*/
-/*  color: #fff;*/
-/*}*/
-
-/*.nav-bar__link {*/
-/*  position: relative;*/
-/*}*/
-
-/*.nav-bar__link:after {*/
-/*  content: "";*/
-/*  position: absolute;*/
-/*  bottom: -10%;*/
-/*  left: 50%;*/
-/*  width: 0;*/
-/*  height: 3px;*/
-/*  background-color: #CE171E;*/
-/*  -webkit-transform: translateX(-50%);*/
-/*          transform: translateX(-50%);*/
-/*  -webkit-transition: 0.5s cubic-bezier(0.7, -0.55, 0.265, 1.55) all;*/
-/*  transition: 0.5s cubic-bezier(0.7, -0.55, 0.265, 1.55) all;*/
-/*}*/
-
-/*.nav-bar__link:hover, .nav-bar__link.active {*/
-/*  color: #FFF;*/
-/*}*/
-
-/*.nav-bar__link:hover:after, .nav-bar__link.active:after {*/
-/*  width: 100%;*/
-/*}*/
-
-/*.nav-bar__btns {*/
-/*  display: -webkit-box;*/
-/*  display: -ms-flexbox;*/
-/*  display: flex;*/
-/*  -webkit-box-align: center;*/
-/*      -ms-flex-align: center;*/
-/*          align-items: center;*/
-/*  -webkit-box-pack: justify;*/
-/*      -ms-flex-pack: justify;*/
-/*          justify-content: space-between;*/
-/*  -webkit-box-orient: horizontal;*/
-/*  -webkit-box-direction: normal;*/
-/*      -ms-flex-direction: row;*/
-/*          flex-direction: row;*/
-/*}*/
-
-/*.nav-bar__btn, .nav-bar__toggle-menu-btn {*/
-/*  font-size: 20px;*/
-/*  color: #fff;*/
-/*}*/
-
-/*.nav-bar__btn:hover, .nav-bar__toggle-menu-btn:hover {*/
-/*  color: #fff;*/
-/*}*/
-
-/*.nav-bar__toggle-menu-btn {*/
-/*  display: none;*/
-/*}*/
-
-/*.nav-bar__search {*/
-/*  position: absolute;*/
-/*  bottom: -60px;*/
-/*  right: 0;*/
-/*  z-index: 3;*/
-/*  display: none;*/
-/*  width: 600px;*/
-/*  padding: 15px;*/
-/*  background-color: rgba(0, 0, 0, 0.5);*/
-/*}*/
-
-/*.nav-bar__search-close-btn {*/
-/*  position: absolute;*/
-/*  right: 0;*/
-/*  margin: 15px;*/
-/*  font-size: 30px;*/
-/*  color: #fff;*/
-/*}*/
-
-/*.nav-bar__search-close-btn:hover {*/
-/*  color: #d1252a;*/
-/*}*/
-
-/*.nav-bar__search-content {*/
-/*  position: relative;*/
-/*  text-align: center;*/
-/*}*/
 
 /* navigation bar */
     .mavinex-nav {
@@ -6364,10 +6215,15 @@ h6 {
     _:-ms-lang(x), .mavinex-nav__links > .mavinex-nav__link { 
       padding-right: 50px;
     }
-    /* 
-        @fromHungDTWithBugs: navigation bar animations
-        Anh có bổ sung animation mới tại đây, nếu họ không thích thì chú có thể chuyển về kiểu cũ và bỏ đoạn sau đi
-    */
+    
+    .dropdown-content a:hover {background-color: #ddd;}
+
+
+    .dropdown:hover .dropdown-content {display: block;}
+
+
+    .dropdown:hover .dropbtn {background-color: #3e8e41;}
+ 
     .mavinex-nav__link::before,
     .mavinex-nav__link::after {
         position: absolute;
