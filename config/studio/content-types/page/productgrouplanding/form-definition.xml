@@ -309,7 +309,7 @@
 						</property>
 						<property>
 							<name>componentPath</name>
-							<value>/site/product-categories.xml</value>
+							<value>/site/taxonomy/product-categories.xml</value>
 								<type>undefined</type>
 						</property>
 					</properties>
