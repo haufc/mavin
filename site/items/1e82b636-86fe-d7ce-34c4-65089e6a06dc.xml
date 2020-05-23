@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/productchildgroup</content-type>
+	<display-template/>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>1e82</objectGroupId>
+	<objectId>1e82b636-86fe-d7ce-34c4-65089e6a06dc</objectId>
+	<file-name>1e82b636-86fe-d7ce-34c4-65089e6a06dc.xml</file-name>
+	<productchildavatar_s>/static-assets/images/products/product-group-lv2-1.png</productchildavatar_s>
+	<internal-name>Thiết bị chăn gà</internal-name>
+	<productchildtitle_s>Thiết bị chăn gà</productchildtitle_s>
+	<productgrouplevel1_o>	<item>	<key>thiet-bi-chuong-trai</key>
+	<value_smv>Thiết bị chuồng trại</value_smv>
+	</item></productgrouplevel1_o>
+	<productgrouplevel2_o>	<item>	<key>thiet-bi-nuoi-ga</key>
+	<value_smv>Thiết bị chăn nuôi gà</value_smv>
+	</item></productgrouplevel2_o>
+	<createdDate>2020-05-23T04:49:26.870Z</createdDate>
+	<createdDate_dt>2020-05-23T04:49:26.870Z</createdDate_dt>
+	<lastModifiedDate>2020-05-23T04:49:26.870Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-05-23T04:49:26.870Z</lastModifiedDate_dt>
+</component>
