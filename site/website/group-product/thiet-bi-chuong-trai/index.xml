@@ -23,11 +23,27 @@
 	</item></productGroup_o>
 	<createdDate>2020-05-23T03:39:51.713Z</createdDate>
 	<createdDate_dt>2020-05-23T03:39:51.713Z</createdDate_dt>
-	<lastModifiedDate>2020-05-23T07:32:46.507Z</lastModifiedDate>
-	<lastModifiedDate_dt>2020-05-23T07:32:46.507Z</lastModifiedDate_dt>
-	<productchildcomponent_o item-list="true">	<item datasource="productchildcomponent">	<key>/site/items/f51feb68-0271-3227-276d-399159bb1cb5.xml</key>
+	<lastModifiedDate>2020-05-23T07:36:13.147Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-05-23T07:36:13.147Z</lastModifiedDate_dt>
+	<section_o item-list="true">	<item datasource="section" inline="true">	<key>e6bc55ec-884f-0a16-ce98-899140aa409e</key>
 	<value>a</value>
-	<include>/site/items/f51feb68-0271-3227-276d-399159bb1cb5.xml</include>
-	<disableFlattening>false</disableFlattening>
-	</item></productchildcomponent_o>
+<component id="e6bc55ec-884f-0a16-ce98-899140aa409e">
+	<content-type>/component/productchildgroup</content-type>
+	<display-template/>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>e6bc</objectGroupId>
+	<objectId>e6bc55ec-884f-0a16-ce98-899140aa409e</objectId>
+	<file-name>e6bc55ec-884f-0a16-ce98-899140aa409e.xml</file-name>
+	<internal-name>a</internal-name>
+	<productchildtitle_s>a</productchildtitle_s>
+	<productchildavatar_s>/static-assets/images/products/product-group-1.png</productchildavatar_s>
+	<productgrouplevel1_s>thiet-bi-chuong-trai</productgrouplevel1_s>
+	<productgrouplevel2_s>thiet-bi-nuoi-heo</productgrouplevel2_s>
+	<createdDate>2020-05-23T07:36:24.564Z</createdDate>
+	<createdDate_dt>2020-05-23T07:36:24.564Z</createdDate_dt>
+	<lastModifiedDate>2020-05-23T07:36:24.564Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-05-23T07:36:24.564Z</lastModifiedDate_dt>
+</component>
+	</item></section_o>
 </page>
