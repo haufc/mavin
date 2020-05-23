@@ -7479,6 +7479,7 @@ _:-ms-lang(x), .content__img {
     }
     .mavinex-products__items {
         justify-content: space-between;
+        padding-left: 30px;
     }
     .mavinex-products__item {
         position: relative;
