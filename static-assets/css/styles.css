@@ -7435,8 +7435,8 @@ _:-ms-lang(x), .content__img {
         height: 30px;
     }
 @media (min-width: 1200px){
-    .mavinex-products__item{
-        height: 220px;  
+    .mavinex-proucts__item{
+        height: 230px;  
     }
      .mavinex-products__item-img{
          height: 220px;
