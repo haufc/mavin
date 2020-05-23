@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/productchildgroup</content-type>
+	<display-template/>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>f51f</objectGroupId>
+	<objectId>f51feb68-0271-3227-276d-399159bb1cb5</objectId>
+	<file-name>f51feb68-0271-3227-276d-399159bb1cb5.xml</file-name>
+	<internal-name>a</internal-name>
+	<productchildtitle_s>a</productchildtitle_s>
+	<productchildavatar_s>/static-assets/images/products/product-group-1.png</productchildavatar_s>
+	<productgrouplevel1_s>thiet-bi-chuong-trai</productgrouplevel1_s>
+	<productgrouplevel2_s>thiet-bi-nuoi-heo</productgrouplevel2_s>
+	<createdDate>2020-05-23T07:32:52.716Z</createdDate>
+	<createdDate_dt>2020-05-23T07:32:52.716Z</createdDate_dt>
+	<lastModifiedDate>2020-05-23T07:32:52.716Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-05-23T07:32:52.716Z</lastModifiedDate_dt>
+</component>
