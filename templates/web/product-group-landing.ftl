@@ -25,8 +25,8 @@
           </div>
         <div class="container p-3">         
             <div class="row">
-                <#list (contentModel.productchildcomponent_o.item)![] as section>
-                    <@renderComponent parent=contentModel component=section />
+                <#list contentModel.productchildcomponent_o.item as module>
+                	<@renderComponent component=module />
                 </#list>
             </div>
         </div>
