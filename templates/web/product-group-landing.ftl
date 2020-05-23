@@ -25,9 +25,11 @@
           </div>
         <div class="container p-3">         
             <div class="row">
+            <#if (contentModel.productchildcomponent_o.item)?? && contentModel.productchildcomponent_o??>
                 <#list contentModel.productchildcomponent_o.item as module>
                 	<@renderComponent component=module />
                 </#list>
+            </#list>
             </div>
         </div>
     </div>
