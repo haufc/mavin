@@ -64,7 +64,7 @@
                 </#if>
                 </div>
                 <div class="test">
-                    <a class="mavinex-products__ctrl-btn carousel-control-prev" href="#production" role="button" data-slide="prev">
+                    <a class="mavinex-products__ctrl-btn carousel-control-prev" href="#production" role="button" data-slide="prev" style="padding-left:30px;">
                         <img src="${contentModel.arrow1_s}" alt="Left Arrow">
                     </a>
                     <a class="mavinex-products__ctrl-btn carousel-control-next" href="#production" role="button" data-slide="next">
