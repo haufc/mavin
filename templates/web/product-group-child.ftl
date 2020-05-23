@@ -5,7 +5,7 @@
                 <div class="card" style="width: 100%; border: none; border-radius: unset;">
                   <img class="card-img-top" src="${contentModel.productchildavatar_s}" alt="Card image cap">
                   <div class="card-body text-white" style="background-color: #CE181F;     position: absolute;top: 280px;">
-                    <p class="card-text">${contentModel.productgrouplevel2_s}</p>
+                    <p class="card-text">${contentModel.productchildtitle_s}</p>
                   </div>
                 </div>
             </div>
