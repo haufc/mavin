@@ -23,7 +23,11 @@
 	</item></productGroup_o>
 	<createdDate>2020-05-23T03:39:51.713Z</createdDate>
 	<createdDate_dt>2020-05-23T03:39:51.713Z</createdDate_dt>
-	<lastModifiedDate>2020-05-23T07:32:26.267Z</lastModifiedDate>
-	<lastModifiedDate_dt>2020-05-23T07:32:26.267Z</lastModifiedDate_dt>
-	<productchildcomponent_o item-list="true"/>
+	<lastModifiedDate>2020-05-23T07:32:46.507Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-05-23T07:32:46.507Z</lastModifiedDate_dt>
+	<productchildcomponent_o item-list="true">	<item datasource="productchildcomponent">	<key>/site/items/f51feb68-0271-3227-276d-399159bb1cb5.xml</key>
+	<value>a</value>
+	<include>/site/items/f51feb68-0271-3227-276d-399159bb1cb5.xml</include>
+	<disableFlattening>false</disableFlattening>
+	</item></productchildcomponent_o>
 </page>
