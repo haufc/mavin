@@ -23,27 +23,26 @@
 	</item></productGroup_o>
 	<createdDate>2020-05-23T03:39:51.713Z</createdDate>
 	<createdDate_dt>2020-05-23T03:39:51.713Z</createdDate_dt>
-	<lastModifiedDate>2020-05-23T07:36:13.147Z</lastModifiedDate>
-	<lastModifiedDate_dt>2020-05-23T07:36:13.147Z</lastModifiedDate_dt>
-	<section_o item-list="true">	<item datasource="section" inline="true">	<key>e6bc55ec-884f-0a16-ce98-899140aa409e</key>
-	<value>a</value>
-<component id="e6bc55ec-884f-0a16-ce98-899140aa409e">
-	<content-type>/component/productchildgroup</content-type>
-	<display-template/>
+	<lastModifiedDate>2020-05-23T07:37:06.549Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-05-23T07:37:06.549Z</lastModifiedDate_dt>
+	<section_o item-list="true">	<item datasource="section" inline="true">	<key>eb8cf84d-542f-d1ab-947d-383175ee5830</key>
+	<value>s</value>
+<component id="eb8cf84d-542f-d1ab-947d-383175ee5830">
+	<content-type>/component/jobs</content-type>
+	<display-template>/templates/web/job.ftl</display-template>
 	<no-template-required/>
 	<merge-strategy>inherit-levels</merge-strategy>
-	<objectGroupId>e6bc</objectGroupId>
-	<objectId>e6bc55ec-884f-0a16-ce98-899140aa409e</objectId>
-	<file-name>e6bc55ec-884f-0a16-ce98-899140aa409e.xml</file-name>
-	<internal-name>a</internal-name>
-	<productchildtitle_s>a</productchildtitle_s>
-	<productchildavatar_s>/static-assets/images/products/product-group-1.png</productchildavatar_s>
-	<productgrouplevel1_s>thiet-bi-chuong-trai</productgrouplevel1_s>
-	<productgrouplevel2_s>thiet-bi-nuoi-heo</productgrouplevel2_s>
-	<createdDate>2020-05-23T07:36:24.564Z</createdDate>
-	<createdDate_dt>2020-05-23T07:36:24.564Z</createdDate_dt>
-	<lastModifiedDate>2020-05-23T07:36:24.564Z</lastModifiedDate>
-	<lastModifiedDate_dt>2020-05-23T07:36:24.564Z</lastModifiedDate_dt>
+	<objectGroupId>eb8c</objectGroupId>
+	<objectId>eb8cf84d-542f-d1ab-947d-383175ee5830</objectId>
+	<file-name>eb8cf84d-542f-d1ab-947d-383175ee5830.xml</file-name>
+	<internal-name>s</internal-name>
+	<title_s>s</title_s>
+	<section_o item-list="true"/>
+	<controllers_o item-list="true"/>
+	<createdDate>2020-05-23T07:37:24.402Z</createdDate>
+	<createdDate_dt>2020-05-23T07:37:24.402Z</createdDate_dt>
+	<lastModifiedDate>2020-05-23T07:37:24.402Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-05-23T07:37:24.402Z</lastModifiedDate_dt>
 </component>
 	</item></section_o>
 </page>
