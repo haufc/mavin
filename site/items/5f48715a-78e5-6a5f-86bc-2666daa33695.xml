@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/productchildgroup</content-type>
+	<display-template/>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>5f48</objectGroupId>
+	<objectId>5f48715a-78e5-6a5f-86bc-2666daa33695</objectId>
+	<internal-name>Thiết bị chăn nuôi heo</internal-name>
+	<productchildtitle_s>Thiết bị chăn nuôi heo</productchildtitle_s>
+	<file-name>5f48715a-78e5-6a5f-86bc-2666daa33695.xml</file-name>
+	<productgrouplevel1_o>	<item>	<key>thiet-bi-chuong-trai</key>
+	<value_smv>Thiết bị chuồng trại</value_smv>
+	</item></productgrouplevel1_o>
+	<productgrouplevel2_o>	<item>	<key>thiet-bi-nuoi-heo</key>
+	<value_smv>Thiết bị chăn nuôi heo</value_smv>
+	</item></productgrouplevel2_o>
+	<productchildavatar_s>/static-assets/images/products/product-group-1.png</productchildavatar_s>
+	<createdDate>2020-05-23T04:47:39.015Z</createdDate>
+	<createdDate_dt>2020-05-23T04:47:39.015Z</createdDate_dt>
+	<lastModifiedDate>2020-05-23T04:47:39.015Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-05-23T04:47:39.015Z</lastModifiedDate_dt>
+</component>
