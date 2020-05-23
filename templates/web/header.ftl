@@ -10,10 +10,10 @@
             <div class="dropdown">
               <a class="mavinex-nav__link" href="/gioi-thieu">Giới thiệu</a>
               <ul class="dropdown-menu">
-                <li><a href="#">Giới thiệu chung</a></li>
-                <li><a href="#">Lịch sử hình thành</a></li>
-                <li><a href="#">Lĩnh vực hoạt động</a></li>
-                <li><a href="#">Đối tác chiến lược</a></li>
+                <li><a class="mavinex-nav__link" href="#">Giới thiệu chung</a></li>
+                <li><a class="mavinex-nav__link" href="#">Lịch sử hình thành</a></li>
+                <li><a class="mavinex-nav__link" href="#">Lĩnh vực hoạt động</a></li>
+                <li><a class="mavinex-nav__link" href="#">Đối tác chiến lược</a></li>
               </ul>
             </div>
             <a class="mavinex-nav__link" href="/san-pham">Sản phẩm</a>
