@@ -302,7 +302,7 @@
 			<fields>
 				<field>
 					<type>node-selector</type>
-					<id>productchildcomponent_o</id>
+					<id>section_o</id>
 					<iceId></iceId>
 					<title>Product child component</title>
 					<description></description>
