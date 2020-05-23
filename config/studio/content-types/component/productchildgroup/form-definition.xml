@@ -185,8 +185,8 @@
 			<defaultOpen>false</defaultOpen>
 			<fields>
 				<field>
-					<type>checkbox-group</type>
-					<id>productgrouplevel1_o</id>
+					<type>dropdown</type>
+					<id>productgrouplevel1_s</id>
 					<iceId></iceId>
 					<title>Product group level 1</title>
 					<description></description>
@@ -199,14 +199,9 @@
 							<type>datasource:item</type>
 						</property>
 						<property>
-							<name>selectAll</name>
+							<name>emptyvalue</name>
 							<value></value>
 							<type>boolean</type>
-						</property>
-						<property>
-							<name>listDirection</name>
-							<value>[{&quot;value&quot;:&quot;horizontal&quot;,&quot;label&quot;:&quot;Horizonal&quot;,&quot;selected&quot;:true},{&quot;value&quot;:&quot;vertical&quot;,&quot;label&quot;:&quot;Vertical&quot;,&quot;selected&quot;:false}]</value>
-							<type>dropdown</type>
 						</property>
 						<property>
 							<name>readonly</name>
@@ -216,15 +211,15 @@
 					</properties>
 					<constraints>
 						<constraint>
-							<name>minSize</name>
+							<name>required</name>
 							<value><![CDATA[]]></value>
-							<type>int</type>
+							<type>boolean</type>
 						</constraint>
 					</constraints>
 				</field>
 				<field>
-					<type>checkbox-group</type>
-					<id>productgrouplevel2_o</id>
+					<type>dropdown</type>
+					<id>productgrouplevel2_s</id>
 					<iceId></iceId>
 					<title>Product group level 2</title>
 					<description></description>
@@ -237,14 +232,9 @@
 							<type>datasource:item</type>
 						</property>
 						<property>
-							<name>selectAll</name>
-							<value>false</value>
+							<name>emptyvalue</name>
+							<value></value>
 							<type>boolean</type>
-						</property>
-						<property>
-							<name>listDirection</name>
-							<value>[{&quot;value&quot;:&quot;horizontal&quot;,&quot;label&quot;:&quot;Horizonal&quot;,&quot;selected&quot;:true},{&quot;value&quot;:&quot;vertical&quot;,&quot;label&quot;:&quot;Vertical&quot;,&quot;selected&quot;:false}]</value>
-							<type>dropdown</type>
 						</property>
 						<property>
 							<name>readonly</name>
@@ -254,9 +244,9 @@
 					</properties>
 					<constraints>
 						<constraint>
-							<name>minSize</name>
+							<name>required</name>
 							<value><![CDATA[]]></value>
-							<type>int</type>
+							<type>boolean</type>
 						</constraint>
 					</constraints>
 				</field>
