@@ -7323,4 +7323,10 @@ _:-ms-lang(x), .content__img {
         background: #fff;
         }
 }
+@media (max-width: 575px){
+    .mavinex-products__item {
+        max-width: 200px;
+        
+    }
+}
 /*# sourceMappingURL=styles.css.map */
