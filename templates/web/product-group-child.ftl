@@ -12,7 +12,7 @@
             <div class="col-lg-6 col-md-6 col-sm-6 col-6 mb-5" >
                 <#if products??>
                 	<#list products as product>
-                    	<a href="${product.url}">${product.title}</a>
+                    	<a class="text-white" style="font-size: 16px;" href="${product.url}">${product.title}</a>
                     </#list>
                 </#if>
             </div>
