@@ -7442,11 +7442,8 @@ _:-ms-lang(x), .content__img {
     .mavinex-products__item-img {
         width: 190px;
     }
-    .mavinex-overlay {
-        background: #fff;
-    }
     .mavinex-products {
-        height: 250px;
+        height: 200px;
     }
 }
 /*# sourceMappingURL=styles.css.map */
