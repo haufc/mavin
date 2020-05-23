@@ -23,26 +23,27 @@
 	</item></productGroup_o>
 	<createdDate>2020-05-23T03:39:51.713Z</createdDate>
 	<createdDate_dt>2020-05-23T03:39:51.713Z</createdDate_dt>
-	<lastModifiedDate>2020-05-23T07:37:06.549Z</lastModifiedDate>
-	<lastModifiedDate_dt>2020-05-23T07:37:06.549Z</lastModifiedDate_dt>
-	<section_o item-list="true">	<item datasource="section" inline="true">	<key>eb8cf84d-542f-d1ab-947d-383175ee5830</key>
-	<value>s</value>
-<component id="eb8cf84d-542f-d1ab-947d-383175ee5830">
-	<content-type>/component/jobs</content-type>
-	<display-template>/templates/web/job.ftl</display-template>
+	<lastModifiedDate>2020-05-23T07:39:09.338Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-05-23T07:39:09.338Z</lastModifiedDate_dt>
+	<section_o item-list="true">	<item datasource="section" inline="true">	<key>2260c1dd-9b84-ef22-c917-f4a6c62f9f6a</key>
+	<value>a</value>
+<component id="2260c1dd-9b84-ef22-c917-f4a6c62f9f6a">
+	<content-type>/component/productchildgroup</content-type>
+	<display-template>/templates/web/product-group-child.ftl</display-template>
 	<no-template-required/>
 	<merge-strategy>inherit-levels</merge-strategy>
-	<objectGroupId>eb8c</objectGroupId>
-	<objectId>eb8cf84d-542f-d1ab-947d-383175ee5830</objectId>
-	<file-name>eb8cf84d-542f-d1ab-947d-383175ee5830.xml</file-name>
-	<internal-name>s</internal-name>
-	<title_s>s</title_s>
-	<section_o item-list="true"/>
-	<controllers_o item-list="true"/>
-	<createdDate>2020-05-23T07:37:24.402Z</createdDate>
-	<createdDate_dt>2020-05-23T07:37:24.402Z</createdDate_dt>
-	<lastModifiedDate>2020-05-23T07:37:24.402Z</lastModifiedDate>
-	<lastModifiedDate_dt>2020-05-23T07:37:24.402Z</lastModifiedDate_dt>
+	<objectGroupId>2260</objectGroupId>
+	<objectId>2260c1dd-9b84-ef22-c917-f4a6c62f9f6a</objectId>
+	<internal-name>a</internal-name>
+	<productchildtitle_s>a</productchildtitle_s>
+	<productgrouplevel1_s>thiet-bi-chan-nuoi</productgrouplevel1_s>
+	<productgrouplevel2_s>thiet-bi-nuoi-ga</productgrouplevel2_s>
+	<productchildavatar_s>/static-assets/images/products/product-group-1.png</productchildavatar_s>
+	<file-name>2260c1dd-9b84-ef22-c917-f4a6c62f9f6a.xml</file-name>
+	<createdDate>2020-05-23T07:39:16.881Z</createdDate>
+	<createdDate_dt>2020-05-23T07:39:16.881Z</createdDate_dt>
+	<lastModifiedDate>2020-05-23T07:39:16.881Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-05-23T07:39:16.881Z</lastModifiedDate_dt>
 </component>
 	</item></section_o>
 </page>
