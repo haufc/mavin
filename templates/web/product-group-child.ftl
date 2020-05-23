@@ -15,11 +15,11 @@
                     	<a class="text-white" style="font-size: 16px;" href="${product.url}">${product.title}</a>
                     </#list>
                 </#if>
+                <a class="mt-3 rounded-0 text-white" style="text-direction: none;" href="/gioi-thieu"> 
+                    <span class="mr-1">Xem tiếp</span>
+                    <i class="fas fa-play text--red"></i>
+                </a>
             </div>
-            <a class="mt-3 rounded-0" href="/gioi-thieu"> 
-                <span class="mr-1">Xem thêm</span>
-                <i class="fas fa-play text--red"></i>
-            </a>
           </div>
       </div>
 <@studio.toolSupport />
