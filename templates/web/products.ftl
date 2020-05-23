@@ -19,7 +19,7 @@
                         <div class="carousel-item">
                         </#if>
                             <div class="mavinex-products__items row">
-                                <div class="mavinex-products__item col-xs-12 col-sm-12 col-md-3 col-lg-3 p-0">
+                                <div class="mavinex-products__item col-xs-6 col-sm-6 col-md-3 col-lg-3 p-0">
                                     <div class="mavinex-products__item-title mavinex-products__item-title--bg-blue">
                                         <div class="mavinex-products__item-text">
                                             <h4>${item.pTittle1_s}</h4>
@@ -29,7 +29,7 @@
                                     <img class="mavinex-products__item-img" src="${item.pImage1_s}" alt="Carousel Image">
                                 </div>
     
-                                <div class="mavinex-products__item col-xs-12 col-sm-12 col-md-3 col-lg-3 p-0">
+                                <div class="mavinex-products__item col-xs-6 col-sm-6 col-md-3 col-lg-3 p-0">
                                     <div class="mavinex-products__item-title mavinex-products__item-title--bg-red">
                                         <div class="mavinex-products__item-text">
                                             <h4>${item.pTittle2_s}</h4>
@@ -39,7 +39,7 @@
                                     <img class="mavinex-products__item-img" src="${item.pImage2_s}" alt="Carousel Image">
                                 </div>
     
-                                <div class="mavinex-products__item col-xs-12 col-sm-12 col-md-3 col-lg-3 p-0">
+                                <div class="mavinex-products__item col-xs-6 col-sm-6 col-md-3 col-lg-3 p-0">
                                     <div class="mavinex-products__item-title mavinex-products__item-title--bg-blue">
                                         <div class="mavinex-products__item-text">
                                             <h4>${item.pTittle3_s}</h4>
@@ -49,7 +49,7 @@
                                     <img class="mavinex-products__item-img" src="${item.pImage3_s}" alt="Carousel Image">
                                 </div>
     
-                                <div class="mavinex-products__item col-xs-12 col-sm-12 col-md-3 col-lg-3 p-0">
+                                <div class="mavinex-products__item col-xs-6 col-sm-6 col-md-3 col-lg-3 p-0">
                                     <div class="mavinex-products__item-title mavinex-products__item-title--bg-red">
                                         <div class="mavinex-products__item-text">
                                             <h4>${item.pTittle4_s}</h4>
