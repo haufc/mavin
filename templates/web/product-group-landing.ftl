@@ -17,11 +17,11 @@
   <body>
     <button onclick="topFunction()" id="btn-up-top" ><i class="fa fa-angle-up"></i></button>
     <@renderComponent component=contentModel.header_o.item />
-    <div class="content" style="background-color: #FFF;">
+    <div class="content" >
         <@renderComponent component=contentModel.slide_o.item />
          <div class="recruitment ">
         <div class="content__title text--center">
-            <h1 style="background-color: #00559a; padding:10px;" class="text--uppercase text-white text-left">${contentModel.product_title_s}</h1>
+            <h1 class="text--uppercase text-white text-left">${contentModel.product_title_s}</h1>
           </div>
         <div class="container p-3">         
             <div class="row">
