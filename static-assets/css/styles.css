@@ -7445,5 +7445,8 @@ _:-ms-lang(x), .content__img {
     .mavinex-overlay {
         background: #fff;
     }
+    .mavinex-products {
+        height: 250px;
+    }
 }
 /*# sourceMappingURL=styles.css.map */
