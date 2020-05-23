@@ -7,7 +7,16 @@
         </a>
 
         <div id="nav-content" class="mavinex-nav__links">
-            <a class="mavinex-nav__link" href="/gioi-thieu">Giới thiệu</a>
+            <div class="dropdown">
+              <a class="mavinex-nav__link" href="/gioi-thieu">Giới thiệu</a>
+              <ul class="dropdown-menu">
+                <li><a href="#">HTML</a></li>
+                <li><a href="#">CSS</a></li>
+                <li><a href="#">JavaScript</a></li>
+              </ul>
+            </div>
+            
+            
             <a class="mavinex-nav__link" href="/linh-vuc-hoat-dong">Lĩnh vực hoạt động</a>
             <a class="mavinex-nav__link" href="/nang-luc-kinh-nghiem">Năng lực kinh nghiệm</a>
             <a class="mavinex-nav__link" href="/co-hoi-nghe-nghiep">Tuyển dụng</a>
