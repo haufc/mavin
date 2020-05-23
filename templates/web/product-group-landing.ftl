@@ -25,10 +25,7 @@
           </div>
         <div class="container p-3">         
             <div class="row">
-                <div class="col-sm-12 col-md-6 col-lg-6">
-                </div>
-                <div class="col-sm-12 col-md-6 col-lg-6">
-                </div>
+                
             </div>
         </div>
     </div>
