@@ -9,12 +9,12 @@
         <div id="nav-content" class="mavinex-nav__links">
             <div class="dropdown">
               <a class="mavinex-nav__link" href="/gioi-thieu">Giới thiệu</a>
-              <ul class="dropdown-content">
-                <li><a class="mavinex-nav__link" href="#">Giới thiệu chung</a></li>
-                <li><a class="mavinex-nav__link" href="#">Lịch sử hình thành</a></li>
-                <li><a class="mavinex-nav__link" href="#">Lĩnh vực hoạt động</a></li>
-                <li><a class="mavinex-nav__link" href="#">Đối tác chiến lược</a></li>
-              </ul>
+              <div class="dropdown-content">
+                <a class="mavinex-nav__link" href="#">Giới thiệu chung</a>
+                <a class="mavinex-nav__link" href="#">Lịch sử hình thành</a>
+                <a class="mavinex-nav__link" href="#">Lĩnh vực hoạt động</a>
+                <a class="mavinex-nav__link" href="#">Đối tác chiến lược</a>
+              </div>
             </div>
             <a class="mavinex-nav__link" href="/san-pham">Sản phẩm</a>
             <a class="mavinex-nav__link" href="/tin-tuc">Tin tức</a>
