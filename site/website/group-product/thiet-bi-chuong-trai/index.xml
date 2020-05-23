@@ -23,15 +23,7 @@
 	</item></productGroup_o>
 	<createdDate>2020-05-23T03:39:51.713Z</createdDate>
 	<createdDate_dt>2020-05-23T03:39:51.713Z</createdDate_dt>
-	<lastModifiedDate>2020-05-23T07:16:23.103Z</lastModifiedDate>
-	<lastModifiedDate_dt>2020-05-23T07:16:23.103Z</lastModifiedDate_dt>
-	<productchildcomponent_o item-list="true">	<item datasource="productchildcomponent">	<key>/site/items/5f48715a-78e5-6a5f-86bc-2666daa33695.xml</key>
-	<value>Thiết bị chăn nuôi heo</value>
-	<include>/site/items/5f48715a-78e5-6a5f-86bc-2666daa33695.xml</include>
-	<disableFlattening>false</disableFlattening>
-	</item>	<item datasource="productchildcomponent">	<key>/site/items/1e82b636-86fe-d7ce-34c4-65089e6a06dc.xml</key>
-	<value>Thiết bị chăn gà</value>
-	<include>/site/items/1e82b636-86fe-d7ce-34c4-65089e6a06dc.xml</include>
-	<disableFlattening>false</disableFlattening>
-	</item></productchildcomponent_o>
+	<lastModifiedDate>2020-05-23T07:32:26.267Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-05-23T07:32:26.267Z</lastModifiedDate_dt>
+	<productchildcomponent_o item-list="true"/>
 </page>
