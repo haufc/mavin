@@ -23,27 +23,11 @@
 	</item></productGroup_o>
 	<createdDate>2020-05-23T03:39:51.713Z</createdDate>
 	<createdDate_dt>2020-05-23T03:39:51.713Z</createdDate_dt>
-	<lastModifiedDate>2020-05-23T07:39:09.338Z</lastModifiedDate>
-	<lastModifiedDate_dt>2020-05-23T07:39:09.338Z</lastModifiedDate_dt>
-	<section_o item-list="true">	<item datasource="section" inline="true">	<key>2260c1dd-9b84-ef22-c917-f4a6c62f9f6a</key>
-	<value>a</value>
-<component id="2260c1dd-9b84-ef22-c917-f4a6c62f9f6a">
-	<content-type>/component/productchildgroup</content-type>
-	<display-template>/templates/web/product-group-child.ftl</display-template>
-	<no-template-required/>
-	<merge-strategy>inherit-levels</merge-strategy>
-	<objectGroupId>2260</objectGroupId>
-	<objectId>2260c1dd-9b84-ef22-c917-f4a6c62f9f6a</objectId>
-	<internal-name>a</internal-name>
-	<productchildtitle_s>a</productchildtitle_s>
-	<productgrouplevel1_s>thiet-bi-chan-nuoi</productgrouplevel1_s>
-	<productgrouplevel2_s>thiet-bi-nuoi-ga</productgrouplevel2_s>
-	<productchildavatar_s>/static-assets/images/products/product-group-1.png</productchildavatar_s>
-	<file-name>2260c1dd-9b84-ef22-c917-f4a6c62f9f6a.xml</file-name>
-	<createdDate>2020-05-23T07:39:16.881Z</createdDate>
-	<createdDate_dt>2020-05-23T07:39:16.881Z</createdDate_dt>
-	<lastModifiedDate>2020-05-23T07:39:16.881Z</lastModifiedDate>
-	<lastModifiedDate_dt>2020-05-23T07:39:16.881Z</lastModifiedDate_dt>
-</component>
+	<lastModifiedDate>2020-05-23T07:41:57.053Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-05-23T07:41:57.053Z</lastModifiedDate_dt>
+	<section_o item-list="true">	<item datasource="productchildcomponent">	<key>/site/items/4e0a40ae-242b-0774-16c4-fdf4b2bfa686.xml</key>
+	<value>Thiết bị chăn nuôi heo</value>
+	<include>/site/items/4e0a40ae-242b-0774-16c4-fdf4b2bfa686.xml</include>
+	<disableFlattening>false</disableFlattening>
 	</item></section_o>
 </page>
