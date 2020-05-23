@@ -29,7 +29,7 @@
                 <#list contentModel.productchildcomponent_o.item as module>
                 	<@renderComponent component=module />
                 </#list>
-            </#list>
+            </#if>
             </div>
         </div>
     </div>
