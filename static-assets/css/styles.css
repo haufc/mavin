@@ -7341,5 +7341,8 @@ _:-ms-lang(x), .content__img {
     .mavinex-products {
         height: 250px;
     }
+    .h4, h4{
+        font-size: 14px; 
+    }
 }
 /*# sourceMappingURL=styles.css.map */
