@@ -10,14 +10,14 @@
             <div class="dropdown">
               <a class="mavinex-nav__link" href="/gioi-thieu">Giới thiệu</a>
               <ul class="dropdown-menu">
-                <li><a href="#">HTML</a></li>
-                <li><a href="#">CSS</a></li>
-                <li><a href="#">JavaScript</a></li>
+                <li><a href="#">Giới thiệu chung</a></li>
+                <li><a href="#">Lịch sử hình thành</a></li>
+                <li><a href="#">Lĩnh vực hoạt động</a></li>
+                <li><a href="#">Đối tác chiến lược</a></li>
               </ul>
             </div>
-            
-            
-            <a class="mavinex-nav__link" href="/linh-vuc-hoat-dong">Lĩnh vực hoạt động</a>
+            <a class="mavinex-nav__link" href="/san-pham">Sản phẩm</a>
+            <a class="mavinex-nav__link" href="/tin-tuc">Tin tức</a>
             <a class="mavinex-nav__link" href="/nang-luc-kinh-nghiem">Năng lực kinh nghiệm</a>
             <a class="mavinex-nav__link" href="/co-hoi-nghe-nghiep">Tuyển dụng</a>
             <a class="mavinex-nav__link" href="/lien-he">Liên hệ</a>
