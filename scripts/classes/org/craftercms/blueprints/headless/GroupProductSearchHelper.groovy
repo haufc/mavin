@@ -16,7 +16,7 @@ class GroupProductSearchHelper {
     def elasticsearch
     UrlTransformationService urlTransformationService
     
-    GroupProductSearchHelper(elasticsearch, urlTransformationService urlTransformationService) {
+    GroupProductSearchHelper(elasticsearch, UrlTransformationService urlTransformationService) {
         this.elasticsearch = elasticsearch
         this.urlTransformationService = urlTransformationService
     }
