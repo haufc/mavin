@@ -328,13 +328,6 @@ img {
                 		<div class="col-md-12">
                 			<h2>Featured <b>Products</b></h2>
                 			<div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="0">
-                			<!-- Carousel indicators -->
-                			<ol class="carousel-indicators">
-                				<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                				<li data-target="#myCarousel" data-slide-to="1"></li>
-                				<li data-target="#myCarousel" data-slide-to="2"></li>
-                			</ol>   
-                			<!-- Wrapper for carousel items -->
                 			<div class="carousel-inner">
                 				<div class="item carousel-item active">
                 					<div class="row">
