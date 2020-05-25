@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page>
+	<content-type>/page/introductiondetail</content-type>
+	<display-template>/templates/web/introductiondetail.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>1ff8</objectGroupId>
+	<objectId>1ff8baa0-bc7f-256b-d822-a9bae939643c</objectId>
+	<file-name>index.xml</file-name>
+	<folder-name>linh-vuc-hoat-dong</folder-name>
+	<internal-name>Lĩnh vực hoạt động</internal-name>
+	<title_s>Lĩnh vực hoạt động</title_s>
+	<placeInNav>false</placeInNav>
+	<orderDefault_f>-1</orderDefault_f>
+	<slide_o item-list="true">	<item datasource="slide">	<key>/site/items/slides/6f9dffca-614b-0e5a-e998-e9c7e90265d3.xml</key>
+	<value>Lĩnh vực hoạt động</value>
+	<include>/site/items/slides/6f9dffca-614b-0e5a-e998-e9c7e90265d3.xml</include>
+	<disableFlattening>false</disableFlattening>
+	</item></slide_o>
+	<thumbail_s>/static-assets/images/featured/gioi-thieu-img-3.png</thumbail_s>
+	<contents_html/>
+	<createdDate>2020-05-25T03:18:16.743Z</createdDate>
+	<createdDate_dt>2020-05-25T03:18:16.743Z</createdDate_dt>
+	<lastModifiedDate>2020-05-25T03:18:16.743Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-05-25T03:18:16.743Z</lastModifiedDate_dt>
+</page>
