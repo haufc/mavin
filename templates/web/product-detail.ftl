@@ -287,7 +287,7 @@ img {
                 <div class="col-sm-12 col-md-6 col-lg-6">
                     <#list contentModel.productimage_o.item as myItem>
                     	<div class="mySlides">
-                            <img src="${myItem.productimage_s}" alt="${myItem.productimagename_s}" style="width:100%">
+                            <img style="margin-bottom: 5px;" src="${myItem.productimage_s}" alt="${myItem.productimagename_s}" style="width:100%">
                         </div>
                     </#list>
                   <a class="prev" onclick="plusSlides(-1)">❮</a>
