@@ -1,14 +1,5 @@
 <#import "/templates/system/common/cstudio-support.ftl" as studio />
     <div class="content" <@studio.iceAttr component=contentModel/>>
-        <div class="content__title">
-                <div class="container">
-                        <div class="content__title">
-                          <#if (contentModel.title_s)??>
-                          <h2 style="padding-left: 17px;" class="text--uppercase text--red">${contentModel.title_s}</h2>
-                          </#if>
-                        </div>
-                </div>
-        </div>
         <div class="content__details container">
             <div class="row">
                     <div class="col-lg-12 col-md-12 col-sm-12 col-12">
