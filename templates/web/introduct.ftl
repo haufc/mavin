@@ -3,8 +3,8 @@
   <div class="content__title">
         <div class="container">
            <#list intros as intro>
-  ${intro.avatar}
-</#list>
+                ${intro.title}
+            </#list>
         </div>
       </div>
       <div class="content__details container">
