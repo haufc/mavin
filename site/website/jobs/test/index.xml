@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page>
+	<content-type>/page/jobpage</content-type>
+	<display-template>/templates/web/jobitem.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>d86f</objectGroupId>
+	<objectId>d86f9fd4-d9e0-fce9-5eae-543d18047889</objectId>
+	<item_o item-list="true">	<item>	<title_s>Test</title_s>
+	<content_html>&lt;p&gt;teset&lt;/p&gt;</content_html>
+	</item></item_o>
+	<file-name>index.xml</file-name>
+	<folder-name>test</folder-name>
+	<internal-name>test</internal-name>
+	<title_s>TEst</title_s>
+	<type_s>test</type_s>
+	<placeInNav>false</placeInNav>
+	<orderDefault_f>-1</orderDefault_f>
+	<image_s/>
+	<slide_o item-list="true"/>
+	<createdDate>2020-05-25T04:23:38.895Z</createdDate>
+	<createdDate_dt>2020-05-25T04:23:38.895Z</createdDate_dt>
+	<lastModifiedDate>2020-05-25T04:23:38.895Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-05-25T04:23:38.895Z</lastModifiedDate_dt>
+	<duration_dt>2020-05-25T04:00:00.000Z</duration_dt>
+	<duration_dt_tz>EST5EDT</duration_dt_tz>
+</page>
