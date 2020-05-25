@@ -132,8 +132,11 @@ img {
 
 /*=========================*/
 .carousel {
-	margin: 50px auto;
+	/*margin: 50px auto;
 	padding: 0 70px;
+	*/
+	margin: 0px auto;
+    padding: 0px 0px;
 }
 .carousel .item {
 	color: #747d89;
