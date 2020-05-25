@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page>
+	<content-type>/page/productdetail</content-type>
+	<display-template>/templates/web/product-detail.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>3b07</objectGroupId>
+	<objectId>3b07eb99-1911-3c29-07fb-a537226daf1a</objectId>
+	<internal-name>Sàng rung phân loại hạt nguyên liệu</internal-name>
+	<navLabel/>
+	<productname_s>Sàng rung phân loại hạt nguyên liệu</productname_s>
+	<phonenumber_s>0221 3 921 921</phonenumber_s>
+	<productgroup_o>	<item>	<key>thiet-bi-nha-may-thuc-an-chan-nuoi</key>
+	<value_smv>Thiết bị nhà máy và thức ăn chăn nuôi</value_smv>
+	</item></productgroup_o>
+	<productchildgroup_o>	<item>	<key>thiet-bi-nha-may-tacn</key>
+	<value_smv>Thiết bị nhà máy TACN</value_smv>
+	</item></productchildgroup_o>
+	<file-name>index.xml</file-name>
+	<folder-name>sang-rung-phan-loai-hat-nguyen-lieu</folder-name>
+	<placeInNav>false</placeInNav>
+	<orderDefault_f>-1</orderDefault_f>
+	<slide_o item-list="true">	<item datasource="slideheader">	<key>/site/items/slides/d0a08899-63db-033a-900d-525a0e2770f9.xml</key>
+	<value>Home slide</value>
+	<include>/site/items/slides/d0a08899-63db-033a-900d-525a0e2770f9.xml</include>
+	<disableFlattening>false</disableFlattening>
+	</item></slide_o>
+	<productdescription_html/>
+	<productimage_o item-list="true">	<item>	<productimagename_s/>
+	<productimage_s>/static-assets/images/products/product-group-2.png</productimage_s>
+	</item>	<item>	<productimage_s>/static-assets/images/products/product-group-2.png</productimage_s>
+	<productimagename_s/>
+	</item></productimage_o>
+	<createdDate>2020-05-25T04:02:43.070Z</createdDate>
+	<createdDate_dt>2020-05-25T04:02:43.070Z</createdDate_dt>
+	<lastModifiedDate>2020-05-25T04:02:43.070Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-05-25T04:02:43.070Z</lastModifiedDate_dt>
+</page>
