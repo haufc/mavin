@@ -101,10 +101,14 @@ img {
 
 /* Six columns side by side */
 .column {
-  float: left;
-  /* width: 16.66%; */
+    /*float: left;
+    width: 16.66%; 
     width: 23.633%;
-    margin: 0px 3px;
+    margin: 0px 3px;*/
+    float: left;
+    /*width: 16.66%; */
+    width: 23%;
+    margin: 0px 1%;
 }
 
 /* Add a transparency effect for thumnbail images */
