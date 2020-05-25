@@ -103,8 +103,8 @@ img {
 .column {
   float: left;
   /* width: 16.66%; */
-  width: 24.633%;
-  margin: 0 1px;
+    width: 23.633%;
+    margin: 0px 3px;
 }
 
 /* Add a transparency effect for thumnbail images */
