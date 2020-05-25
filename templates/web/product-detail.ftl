@@ -327,8 +327,7 @@ img {
               <div class="col-lg-6 col-md-6 col-sm-6">
                      <div class="container">
                     	<div class="row">
-                    		<div class="col-md-12">
-                    		
+                    		<div class="col-md-12" style="padding:0px;
                     			<div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="0">
                     			<!-- Carousel indicators -->
                     			<!-- Wrapper for carousel items -->
