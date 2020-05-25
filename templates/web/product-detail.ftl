@@ -323,47 +323,44 @@ img {
                 <h4 style="background-color: #00559a; padding:10px; vertical-align: middle; line-height: normal;" class="text--uppercase text-white text--center">sản phẩm tương tự</h4>
               </div>
               <div class="col-lg-6 col-md-6 col-sm-6">
-                  <div class="container">
+                  <div class="container-fluid">
                 	<div class="row">
-                		<div class="col-md-12">
-                			<h2>Featured <b>Products</b></h2>
                 			<div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="0">
-                			<div class="carousel-inner">
-                				<div class="item carousel-item active">
-                					<div class="row">
-                					    <#list relatedProducts as myItem>
-                                            <div class="col-lg-3 col-md-3 col-sm-3">
-                    							<div class="thumb-wrapper">
-                    								<div class="img-box">
-                    									<img src="${myItem.avatar}" class="img-responsive img-fluid" alt="">
-                    								</div>
-                    							</div>
-                    						</div>
-                                        </#list>
-                					</div>
-                				</div>
-                				<div class="item carousel-item">
-                					<div class="row">
-                						 <#list relatedProducts as myItem>
-                                            <div class="col-lg-3 col-md-3 col-sm-3">
-                    							<div class="thumb-wrapper">
-                    								<div class="img-box">
-                    									<img src="${myItem.avatar}" class="img-responsive img-fluid" alt="">
-                    								</div>
-                    							</div>
-                    						</div>
-                                        </#list>
-                					</div>
-                				</div>
-                			</div>
+                    			<div class="carousel-inner">
+                    				<div class="item carousel-item active">
+                    					<div class="row">
+                    					    <#list relatedProducts as myItem>
+                                                <div class="col-lg-3 col-md-3 col-sm-3">
+                        							<div class="thumb-wrapper">
+                        								<div class="img-box">
+                        									<img src="${myItem.avatar}" class="img-responsive img-fluid" alt="">
+                        								</div>
+                        							</div>
+                        						</div>
+                                            </#list>
+                    					</div>
+                    				</div>
+                    				<div class="item carousel-item">
+                    					<div class="row">
+                    						 <#list relatedProducts as myItem>
+                                                <div class="col-lg-3 col-md-3 col-sm-3">
+                        							<div class="thumb-wrapper">
+                        								<div class="img-box">
+                        									<img src="${myItem.avatar}" class="img-responsive img-fluid" alt="">
+                        								</div>
+                        							</div>
+                        						</div>
+                                            </#list>
+                    					</div>
+                    				</div>
+                    			</div>
                 			<!-- Carousel controls -->
-                			<a class="carousel-control left carousel-control-prev" href="#myCarousel" data-slide="prev">
-                				<i class="fa fa-angle-left"></i>
-                			</a>
-                			<a class="carousel-control right carousel-control-next" href="#myCarousel" data-slide="next">
-                				<i class="fa fa-angle-right"></i>
-                			</a>
-                		</div>
+                    			<a class="carousel-control left carousel-control-prev" href="#myCarousel" data-slide="prev">
+                    				<i class="fa fa-angle-left"></i>
+                    			</a>
+                    			<a class="carousel-control right carousel-control-next" href="#myCarousel" data-slide="next">
+                    				<i class="fa fa-angle-right"></i>
+                    			</a>
                 		</div>
                 	</div>
                 </div>
