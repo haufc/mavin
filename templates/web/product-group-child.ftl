@@ -13,6 +13,7 @@
                 <#if products??>
                 	<#list products as product>
                     	<a class="text-white" style="font-size: 16px;" href="${product.url}">${product.title}</a>
+                    	<br>
                     </#list>
                 </#if>
                 <br>
