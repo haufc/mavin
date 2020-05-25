@@ -309,7 +309,7 @@
 						</property>
 						<property>
 							<name>imageManager</name>
-							<value></value>
+							<value>imageDesktopDataSource,imageRepoDataSource</value>
 							<type>datasource:image</type>
 						</property>
 						<property>
