@@ -20,7 +20,11 @@
 	<productchildgroup_o>	<item>	<key>long-nuoi-ca-hdpe</key>
 	<value_smv>Lồng nuôi cá tròn HDPE</value_smv>
 	</item></productchildgroup_o>
-	<slide_o item-list="true"/>
+	<slide_o item-list="true">	<item datasource="slideheader">	<key>/site/items/slides/d0a08899-63db-033a-900d-525a0e2770f9.xml</key>
+	<value>Home slide</value>
+	<include>/site/items/slides/d0a08899-63db-033a-900d-525a0e2770f9.xml</include>
+	<disableFlattening>false</disableFlattening>
+	</item></slide_o>
 	<productdescription_html>&lt;p&gt;- Đường k&amp;iacute;nh lồng: 15m.&lt;/p&gt;
 &lt;p&gt;- Chu vi lồng: 47,1&lt;/p&gt;
 &lt;p&gt;- Ống nuổi: HDPE ϕ 250.&lt;/p&gt;
@@ -41,6 +45,6 @@
 	</item></productimage_o>
 	<createdDate>2020-05-25T03:10:09.998Z</createdDate>
 	<createdDate_dt>2020-05-25T03:10:09.998Z</createdDate_dt>
-	<lastModifiedDate>2020-05-25T03:14:43.789Z</lastModifiedDate>
-	<lastModifiedDate_dt>2020-05-25T03:14:43.789Z</lastModifiedDate_dt>
+	<lastModifiedDate>2020-05-25T03:15:50.624Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-05-25T03:15:50.624Z</lastModifiedDate_dt>
 </page>
