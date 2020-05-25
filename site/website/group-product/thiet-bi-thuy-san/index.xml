@@ -23,6 +23,11 @@
 	</item></productGroup_o>
 	<createdDate>2020-05-23T03:41:49.327Z</createdDate>
 	<createdDate_dt>2020-05-23T03:41:49.327Z</createdDate_dt>
-	<lastModifiedDate>2020-05-23T03:41:49.327Z</lastModifiedDate>
-	<lastModifiedDate_dt>2020-05-23T03:41:49.327Z</lastModifiedDate_dt>
+	<lastModifiedDate>2020-05-25T02:50:08.174Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-05-25T02:50:08.174Z</lastModifiedDate_dt>
+	<section_o item-list="true">	<item datasource="productchildcomponent">	<key>/site/items/8725a3fd-6c5f-1580-a47d-b71578608614.xml</key>
+	<value>Lồng nuôi cá tròn hdpe</value>
+	<include>/site/items/8725a3fd-6c5f-1580-a47d-b71578608614.xml</include>
+	<disableFlattening>false</disableFlattening>
+	</item></section_o>
 </page>
