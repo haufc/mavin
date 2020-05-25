@@ -1,5 +1,5 @@
 <content-type name="/page/pagenews" is-wcm-type="true">
-	<label>Page - News</label>
+	<label>Page - NewsDetail</label>
 	<form>/page/pagenews</form>
 	<form-path>simple</form-path>
 	<model-instance-path>NOT-USED-BY-SIMPLE-FORM-ENGINE</model-instance-path>
