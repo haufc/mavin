@@ -201,8 +201,8 @@ img {
     border-radius: 4px;
 	opacity: 0.8;
 }
-.carousel .carousel-control:hover {
-	background: #78bf00;
+.carousel .carousel-control i:hover {
+	background: #CE181F;
 	opacity: 1;
 }
 .carousel .carousel-control i {
