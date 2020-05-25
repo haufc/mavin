@@ -339,7 +339,7 @@ img {
                         							<div class="thumb-wrapper">
                         								<span class="wish-icon"><i class="fa fa-heart-o"></i></span>
                         								<div class="img-box">
-                        									<img src="${myItem.avatar}" class="img-responsive img-fluid" alt="">
+                        									<a href="${myItem.url}"><img src="${myItem.avatar}" class="img-responsive img-fluid" alt=""></a>
                         								</div>
                         							</div>
                         						</div>
