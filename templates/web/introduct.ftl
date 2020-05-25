@@ -2,14 +2,9 @@
 <div class="content" <@studio.iceAttr component=contentModel/>>
   <div class="content__title">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-6 col-md-6 col-sm-6 col-6">
-                  <h2 class="text--uppercase text--red text--title__small">${intros[2].title}</h2>
-                </div>
-                <div class="col-lg-6 col-md-6 col-sm-6 col-6">
-                  <h2 class="text--uppercase text--red text--title__small">${intros[1].title}</h2>
-                </div>
-            </div>
+           <#list intros as intro>
+  ${intro.avatar}
+</#list>
         </div>
       </div>
       <div class="content__details container">
