@@ -348,7 +348,7 @@ img {
                     				<div class="item carousel-item active">
                     					<div class="row">
                     					    <#list relatedProducts as myItem>
-                                                <div class="col-sm-3 col-xs-6"">
+                                                <div class="col-3">
                         							<div class="thumb-wrapper">
                         								<span class="wish-icon"><i class="fa fa-heart-o"></i></span>
                         								<div class="img-box">
@@ -362,7 +362,7 @@ img {
                     				<div class="item carousel-item">
                     					<div class="row">
                     						 <#list relatedProducts as myItem>
-                                                <div class="col-sm-3 col-xs-6">
+                                                <div class="col-3">
                         							<div class="thumb-wrapper">
                         								<span class="wish-icon"><i class="fa fa-heart-o"></i></span>
                         								<div class="img-box">
