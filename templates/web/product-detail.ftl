@@ -332,7 +332,7 @@ img {
                 				<div class="item carousel-item active">
                 					<div class="row">
                 					    <#list relatedProducts as myItem>
-                                            <div class="col-lg-4 col-md-4 col-sm-4">
+                                            <div class="col-lg-3 col-md-3 col-sm-3">
                     							<div class="thumb-wrapper">
                     								<div class="img-box">
                     									<img src="${myItem.avatar}" class="img-responsive img-fluid" alt="">
@@ -345,7 +345,7 @@ img {
                 				<div class="item carousel-item">
                 					<div class="row">
                 						 <#list relatedProducts as myItem>
-                                            <div class="col-lg-4 col-md-4 col-sm-4">
+                                            <div class="col-lg-3 col-md-3 col-sm-3">
                     							<div class="thumb-wrapper">
                     								<div class="img-box">
                     									<img src="${myItem.avatar}" class="img-responsive img-fluid" alt="">
