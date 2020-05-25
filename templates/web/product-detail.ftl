@@ -196,7 +196,7 @@ img {
 .carousel .carousel-control {
 	height: 44px;
 	width: 40px;
-	background: #7ac400;	
+	background: none;	
     margin: auto 0;
     border-radius: 4px;
 	opacity: 0.8;
@@ -363,7 +363,7 @@ img {
                     				</div>
                     			</div>
                     			<!-- Carousel controls -->
-                    			<a class="carousel-control right carousel-control-next" style="right: -50px;top: 25px;" href="#myCarousel" data-slide="next">
+                    			<a class="carousel-control right carousel-control-next" style="right: -50px;top: 40px;" href="#myCarousel" data-slide="next">
                     				<i class="fa fa-play"></i>
                     			</a>
                     		</div>
