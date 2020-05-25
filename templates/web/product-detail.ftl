@@ -269,6 +269,14 @@ img {
 	font-size: 14px;
 	color: #ffc000;
 }
+@media (max-width: 463px) {
+    .column {
+        float: left;
+        /* width: 16.66%; */
+        width: 23%;
+        margin: 0px 1%;
+    }
+}
 </style>
   </head>
   <body>
