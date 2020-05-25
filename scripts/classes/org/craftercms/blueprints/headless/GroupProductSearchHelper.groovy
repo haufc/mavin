@@ -57,6 +57,7 @@ class GroupProductSearchHelper {
                     product.title = doc.productname_s
                     product.summary = doc.productdescription_html
                     product.url = urlTransformationService.transform("storeUrlToRenderUrl", doc.localId)
+                    product.avatar = doc.productAvatar_s
                 products << product
             }
         }
