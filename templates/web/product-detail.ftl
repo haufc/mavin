@@ -231,6 +231,8 @@ img {
 }
 .carousel .carousel-control.right i {
 	margin-right: -4px;
+	color: #00549A;
+    font-size: 25px;
 }
 .carousel .carousel-indicators {
 	bottom: -50px;
