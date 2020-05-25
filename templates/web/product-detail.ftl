@@ -364,50 +364,6 @@ img {
 							<div class="thumb-wrapper">
 								<span class="wish-icon"><i class="fa fa-heart-o"></i></span>
 								<div class="img-box">
-									<img src="/examples/images/products/headphone.jpg" class="img-responsive img-fluid" alt="">
-								</div>
-								<div class="thumb-content">
-									<h4>Sony Headphone</h4>									
-									<div class="star-rating">
-										<ul class="list-inline">
-											<li class="list-inline-item"><i class="fa fa-star"></i></li>
-											<li class="list-inline-item"><i class="fa fa-star"></i></li>
-											<li class="list-inline-item"><i class="fa fa-star"></i></li>
-											<li class="list-inline-item"><i class="fa fa-star"></i></li>
-											<li class="list-inline-item"><i class="fa fa-star-o"></i></li>
-										</ul>
-									</div>
-									<p class="item-price"><strike>$25.00</strike> <b>$23.99</b></p>
-									<a href="#" class="btn btn-primary">Add to Cart</a>
-								</div>						
-							</div>
-						</div>		
-						<div class="col-sm-3">
-							<div class="thumb-wrapper">
-								<span class="wish-icon"><i class="fa fa-heart-o"></i></span>
-								<div class="img-box">
-									<img src="/examples/images/products/macbook-air.jpg" class="img-responsive img-fluid" alt="">
-								</div>
-								<div class="thumb-content">
-									<h4>Macbook Air</h4>									
-									<div class="star-rating">
-										<ul class="list-inline">
-											<li class="list-inline-item"><i class="fa fa-star"></i></li>
-											<li class="list-inline-item"><i class="fa fa-star"></i></li>
-											<li class="list-inline-item"><i class="fa fa-star"></i></li>
-											<li class="list-inline-item"><i class="fa fa-star"></i></li>
-											<li class="list-inline-item"><i class="fa fa-star-half-o"></i></li>
-										</ul>
-									</div>
-									<p class="item-price"><strike>$899.00</strike> <b>$649.00</b></p>
-									<a href="#" class="btn btn-primary">Add to Cart</a>
-								</div>						
-							</div>
-						</div>								
-						<div class="col-sm-3">
-							<div class="thumb-wrapper">
-								<span class="wish-icon"><i class="fa fa-heart-o"></i></span>
-								<div class="img-box">
 									<img src="/examples/images/products/nikon.jpg" class="img-responsive img-fluid" alt="">
 								</div>
 								<div class="thumb-content">
