@@ -334,10 +334,10 @@ img {
         <hr style="border: 3px solid #00559a">
         <div class="container">
             <div class="row">
-              <div class="col-lg-6 col-md-6 col-sm-6">
+              <div class="col-lg-6 col-md-6 col-sm-12">
                 <h4 style="background-color: #00559a;margin: 12% 0; padding:10px; vertical-align: middle; line-height: normal;" class="text--uppercase text-white text--center">sản phẩm tương tự</h4>
               </div>
-              <div class="col-lg-6 col-md-6 col-sm-6">
+              <div class="col-lg-6 col-md-6 col-sm-12">
                      <div class="container">
                     	<div class="row">
                     		<div class="col-md-12" style="padding:0px;">
