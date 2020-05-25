@@ -338,54 +338,30 @@ img {
                 			<div class="carousel-inner">
                 				<div class="item carousel-item active">
                 					<div class="row">
-                						<div class="col-sm-3">
-                							<div class="thumb-wrapper">
-                								<span class="wish-icon"><i class="fa fa-heart-o"></i></span>
-                								<div class="img-box">
-                									<img src="/examples/images/products/nikon.jpg" class="img-responsive img-fluid" alt="">
-                								</div>
-                								<div class="thumb-content">
-                									<h4>Nikon DSLR</h4>									
-                									<div class="star-rating">
-                										<ul class="list-inline">
-                											<li class="list-inline-item"><i class="fa fa-star"></i></li>
-                											<li class="list-inline-item"><i class="fa fa-star"></i></li>
-                											<li class="list-inline-item"><i class="fa fa-star"></i></li>
-                											<li class="list-inline-item"><i class="fa fa-star-o"></i></li>
-                											<li class="list-inline-item"><i class="fa fa-star-o"></i></li>
-                										</ul>
-                									</div>
-                									<p class="item-price"><strike>$315.00</strike> <b>$250.00</b></p>
-                									<a href="#" class="btn btn-primary">Add to Cart</a>
-                								</div>						
-                							</div>
-                						</div>
+                					    <#list relatedProducts as myItem>
+                                            <div class="col-sm-3">
+                    							<div class="thumb-wrapper">
+                    								<span class="wish-icon"><i class="fa fa-heart-o"></i></span>
+                    								<div class="img-box">
+                    									<img src="${myItem.avatar}" class="img-responsive img-fluid" alt="">
+                    								</div>
+                    							</div>
+                    						</div>
+                                        </#list>
                 					</div>
                 				</div>
                 				<div class="item carousel-item">
                 					<div class="row">
-                						<div class="col-sm-3">
-                							<div class="thumb-wrapper">
-                								<span class="wish-icon"><i class="fa fa-heart-o"></i></span>
-                								<div class="img-box">
-                									<img src="/examples/images/products/play-station.jpg" class="img-responsive img-fluid" alt="">
-                								</div>
-                								<div class="thumb-content">
-                									<h4>Sony Play Station</h4>
-                									<p class="item-price"><strike>$289.00</strike> <span>$269.00</span></p>
-                									<div class="star-rating">
-                										<ul class="list-inline">
-                											<li class="list-inline-item"><i class="fa fa-star"></i></li>
-                											<li class="list-inline-item"><i class="fa fa-star"></i></li>
-                											<li class="list-inline-item"><i class="fa fa-star"></i></li>
-                											<li class="list-inline-item"><i class="fa fa-star"></i></li>
-                											<li class="list-inline-item"><i class="fa fa-star-o"></i></li>
-                										</ul>
-                									</div>
-                									<a href="#" class="btn btn-primary">Add to Cart</a>
-                								</div>						
-                							</div>
-                						</div>
+                						 <#list relatedProducts as myItem>
+                                            <div class="col-sm-3">
+                    							<div class="thumb-wrapper">
+                    								<span class="wish-icon"><i class="fa fa-heart-o"></i></span>
+                    								<div class="img-box">
+                    									<img src="${myItem.avatar}" class="img-responsive img-fluid" alt="">
+                    								</div>
+                    							</div>
+                    						</div>
+                                        </#list>
                 					</div>
                 				</div>
                 			</div>
