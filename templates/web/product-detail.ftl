@@ -293,7 +293,7 @@ img {
                   <a class="prev" onclick="plusSlides(-1)">❮</a>
                   <a class="next" onclick="plusSlides(1)">❯</a>
                 
-                  <div class="container">
+                  <div class="container" style="margin-top: 5px;">
                     <div class="row">
                       <#list contentModel.productimage_o.item as myItem>
                          <div class="column">
