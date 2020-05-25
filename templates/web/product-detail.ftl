@@ -202,7 +202,7 @@ img {
 	opacity: 0.8;
 }
 .carousel .carousel-control i:hover {
-	color: #CE181F;
+	color: #CE181F !important;
 	opacity: 1;
 }
 .carousel .carousel-control i {
