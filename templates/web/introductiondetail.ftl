@@ -30,7 +30,7 @@
       <div class="content__details--nopadding-x container" style="padding-left:30px;">
             ${contentModel.contents_html}
       </div>
-      <#if (contentModel.section_o)??>
+      <#if (contentModel.section_o.item)??>
       <@renderComponent component=contentModel.section_o.item />
       </#if>
     </div>
