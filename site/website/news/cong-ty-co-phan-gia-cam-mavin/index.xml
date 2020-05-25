@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page>
+	<content-type>/page/newsdetail</content-type>
+	<display-template>/templates/web/newsdetail.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>27bd</objectGroupId>
+	<objectId>27bd9fbd-1dea-7f17-66b1-911531bf56b9</objectId>
+	<file-name>index.xml</file-name>
+	<folder-name>cong-ty-co-phan-gia-cam-mavin</folder-name>
+	<internal-name>Mavinex hoàn thiệt hệ thống trại gà cho Mavin</internal-name>
+	<navLabel>Mavinex hoàn thiệt hệ thống trại gà cho Mavin</navLabel>
+	<title_s>Mavinex hoàn thiệt hệ thống trại gà cho Mavin</title_s>
+	<placeInNav>false</placeInNav>
+	<orderDefault_f>-1</orderDefault_f>
+	<categories_o>	<item>	<key>mavinex-news</key>
+	<value_smv>Tin Mavinex</value_smv>
+	</item></categories_o>
+	<image_s/>
+	<content_html/>
+	<createdDate>2020-05-25T10:35:28.301Z</createdDate>
+	<createdDate_dt>2020-05-25T10:35:28.301Z</createdDate_dt>
+	<lastModifiedDate>2020-05-25T10:35:28.301Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-05-25T10:35:28.301Z</lastModifiedDate_dt>
+</page>
