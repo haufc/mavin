@@ -373,6 +373,7 @@ img {
               </div>
             </div>
         </div>
+        </div>
         <hr style="border: 3px solid #00559a">
       </div>  
     </div>
