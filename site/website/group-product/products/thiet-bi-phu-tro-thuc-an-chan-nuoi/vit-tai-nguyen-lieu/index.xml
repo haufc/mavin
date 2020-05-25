@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page>
+	<content-type>/page/productdetail</content-type>
+	<display-template>/templates/web/product-detail.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>ecef</objectGroupId>
+	<objectId>ecef567a-ec13-3071-10d6-337b1467739d</objectId>
+	<slide_o item-list="true">	<item datasource="slideheader">	<key>/site/items/slides/d0a08899-63db-033a-900d-525a0e2770f9.xml</key>
+	<value>Home slide</value>
+	<include>/site/items/slides/d0a08899-63db-033a-900d-525a0e2770f9.xml</include>
+	<disableFlattening>false</disableFlattening>
+	</item></slide_o>
+	<productgroup_o>	<item>	<key>thiet-bi-nha-may-thuc-an-chan-nuoi</key>
+	<value_smv>Thiết bị nhà máy và thức ăn chăn nuôi</value_smv>
+	</item></productgroup_o>
+	<productchildgroup_o>	<item>	<key>thiet-bi-nha-may-tacn</key>
+	<value_smv>Thiết bị nhà máy TACN</value_smv>
+	</item></productchildgroup_o>
+	<file-name>index.xml</file-name>
+	<folder-name>vit-tai-nguyen-lieu</folder-name>
+	<internal-name>Vít tải nguyên liệu</internal-name>
+	<navLabel/>
+	<productname_s>Vít tải nguyên liệu</productname_s>
+	<phonenumber_s>0221 3 921 921</phonenumber_s>
+	<placeInNav>false</placeInNav>
+	<orderDefault_f>-1</orderDefault_f>
+	<productdescription_html>&lt;p style="text-align: justify;"&gt;&lt;strong style="font-family: arial; font-size: 15px; background-color: #ffffff;"&gt;V&amp;iacute;t tải&lt;/strong&gt;&lt;span style="font-family: arial; font-size: 15px; background-color: #ffffff;"&gt;&amp;nbsp;l&amp;agrave; thiết bị d&amp;ugrave;ng để chuy&amp;ecirc;n chở vật liệu c&amp;oacute; khả năng hạn chế &amp;ocirc; nhiễm m&amp;ocirc;i trường v&amp;agrave; độc hại của vật liệu do được vận chuyển trong m&amp;aacute;ng k&amp;iacute;n. Ch&amp;iacute;nh v&amp;igrave; thế được ứng dụng rất rộng r&amp;atilde;i để vận chuyển vật liệu c&amp;ocirc;ng nghiệp nặng như xi măng, bột th&amp;ocirc;, than cốc, v&amp;ocirc;i, thạch cao, c&amp;aacute;t đuc, dăm gỗ, kho&amp;aacute;ng sản cũng như trong ng&amp;agrave;nh chế biến thức ăn gia s&amp;uacute;c (chuy&amp;ecirc;n chở vật liệu dạng bột, dạng hạt)&amp;hellip;&lt;/span&gt;&lt;/p&gt;</productdescription_html>
+	<productimage_o item-list="true">	<item>	<productimagename_s/>
+	<productimage_s>/static-assets/images/products/thiet-bi-nha-may-tacn.png</productimage_s>
+	</item>	<item>	<productimage_s>/static-assets/images/products/thiet-bi-nha-may-tacn.png</productimage_s>
+	<productimagename_s/>
+	</item>	<item>	<productimage_s>/static-assets/images/products/thiet-bi-nha-may-tacn.png</productimage_s>
+	<productimagename_s/>
+	</item>	<item>	<productimage_s>/static-assets/images/products/thiet-bi-nha-may-tacn.png</productimage_s>
+	<productimagename_s/>
+	</item></productimage_o>
+	<createdDate>2020-05-25T03:28:56.004Z</createdDate>
+	<createdDate_dt>2020-05-25T03:28:56.004Z</createdDate_dt>
+	<lastModifiedDate>2020-05-25T03:28:56.004Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-05-25T03:28:56.004Z</lastModifiedDate_dt>
+</page>
