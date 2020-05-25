@@ -30,6 +30,7 @@
       <div class="content__details--nopadding-x container">
             ${contentModel.contents_html}
       </div>
+      <@renderComponent component=contentModel.section_o.item />
     </div>
     <@renderComponent component=contentModel.memberlist_o.item />
     <@renderComponent component=contentModel.footer_o.item />
