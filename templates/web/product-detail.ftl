@@ -137,7 +137,7 @@ img {
 }
 .carousel .item {
 	color: #747d89;
-	min-height: 325px;
+	/*min-height: 325px;*/
     text-align: center;
 	overflow: hidden;
 }
