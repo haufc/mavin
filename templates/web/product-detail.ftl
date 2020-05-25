@@ -278,7 +278,9 @@ img {
         <@renderComponent component=contentModel.slide_o.item />
          <div class="recruitment ">
         <div class="content__title text--center">
-            <h1 class="container" style="background-color: #00559a; padding:10px;" class="text--uppercase text-white text-left">Kỹ sư công trình</h1>
+            <div style="background-color: #00559a; padding:10px;">
+                <h1 class="text--uppercase text-white text-left container">Kỹ sư công trình</h1>
+            </div>
           </div>
         <div class="container p-3">         
             <div class="row">
