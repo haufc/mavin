@@ -3,7 +3,7 @@
   <div class="content__title">
         <div class="container">
            <#list intros as intro>
-                ${intro.title}
+                ${intro.title} <br/>
             </#list>
         </div>
       </div>
