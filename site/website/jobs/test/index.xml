@@ -16,12 +16,30 @@
 	<type_s>test</type_s>
 	<placeInNav>false</placeInNav>
 	<orderDefault_f>-1</orderDefault_f>
-	<image_s/>
-	<slide_o item-list="true"/>
+	<image_s>/static-assets/images/featured/content_img_1.png</image_s>
+	<slide_o item-list="true">	<item datasource="slide" inline="true">	<key>a7ca0453-24e7-d5cb-f3b0-d5180f64c9b5</key>
+	<value>test</value>
+<component id="a7ca0453-24e7-d5cb-f3b0-d5180f64c9b5">
+	<content-type>/component/slide</content-type>
+	<display-template>/templates/web/slide.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>a7ca</objectGroupId>
+	<objectId>a7ca0453-24e7-d5cb-f3b0-d5180f64c9b5</objectId>
+	<image_o item-list="true">	<item>	<image_s>/static-assets/images/slides/bg_1.png</image_s>
+	</item></image_o>
+	<file-name>a7ca0453-24e7-d5cb-f3b0-d5180f64c9b5.xml</file-name>
+	<internal-name>test</internal-name>
+	<createdDate>2020-05-25T04:24:47.723Z</createdDate>
+	<createdDate_dt>2020-05-25T04:24:47.723Z</createdDate_dt>
+	<lastModifiedDate>2020-05-25T04:24:47.723Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-05-25T04:24:47.723Z</lastModifiedDate_dt>
+</component>
+	</item></slide_o>
 	<createdDate>2020-05-25T04:23:38.895Z</createdDate>
 	<createdDate_dt>2020-05-25T04:23:38.895Z</createdDate_dt>
-	<lastModifiedDate>2020-05-25T04:23:38.895Z</lastModifiedDate>
-	<lastModifiedDate_dt>2020-05-25T04:23:38.895Z</lastModifiedDate_dt>
+	<lastModifiedDate>2020-05-25T04:24:27.013Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-05-25T04:24:27.013Z</lastModifiedDate_dt>
 	<duration_dt>2020-05-25T04:00:00.000Z</duration_dt>
 	<duration_dt_tz>EST5EDT</duration_dt_tz>
 </page>
