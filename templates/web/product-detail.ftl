@@ -282,12 +282,11 @@ img {
                 <h1 class="text--uppercase text-white text-left container">Kỹ sư công trình</h1>
             </div>
           </div>
-        <div class="container p-3">         
+        <div class="container p-3 mb-1">         
             <div class="row">
                 <div class="col-sm-12 col-md-6 col-lg-6">
                     <#list contentModel.productimage_o.item as myItem>
                     	<div class="mySlides">
-                            <div class="numbertext">1 / 6</div>
                             <img src="${myItem.productimage_s}" alt="${myItem.productimagename_s}" style="width:100%">
                         </div>
                     </#list>
