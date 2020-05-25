@@ -132,9 +132,6 @@ img {
 
 /*=========================*/
 .carousel {
-	/*margin: 50px auto;
-	padding: 0 70px;
-	*/
 	margin: 0px auto;
     padding: 0px 0px;
 }
@@ -364,10 +361,7 @@ img {
                     				</div>
                     			</div>
                     			<!-- Carousel controls -->
-                    			<a class="carousel-control left carousel-control-prev" href="#myCarousel" data-slide="prev">
-                    				<i class="fa fa-angle-left"></i>
-                    			</a>
-                    			<a class="carousel-control right carousel-control-next" href="#myCarousel" data-slide="next">
+                    			<a class="carousel-control right carousel-control-next" style="right: -50px;top: -150px;" href="#myCarousel" data-slide="next">
                     				<i class="fa fa-angle-right"></i>
                     			</a>
                     		</div>
