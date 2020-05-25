@@ -142,12 +142,12 @@ img {
 	overflow: hidden;
 }
 .carousel .thumb-wrapper {
-	padding: 25px 15px;
+	/*padding: 25px 15px;
 	background: #fff;
 	border-radius: 6px;
 	text-align: center;
 	position: relative;
-	box-shadow: 0 2px 3px rgba(0,0,0,0.2);
+	box-shadow: 0 2px 3px rgba(0,0,0,0.2);*/
 }
 .carousel .item .img-box {
 	height: 120px;
