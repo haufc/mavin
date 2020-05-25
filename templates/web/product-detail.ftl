@@ -164,10 +164,10 @@ img {
                   </div>
                 </div>
                 <div class="col-sm-12 col-md-6 col-lg-6">
-                   <h4 style="background-color: red; padding:10px;" class="text--uppercase">
+                   <h4 style="background-color: #CE181F; padding:10px;" class="text--uppercase text-white">
                         ${contentModel.productname_s}
                   </h4>
-                  <div>
+                  <div style="color: #00559A; padding:10px;">
                      <p>
                         ${contentModel.productdescription_html}
                       </p>
