@@ -59,7 +59,6 @@ class IntroductSearchHelper {
           documents.each {doc ->
             def intro = [:]
                 intro.title = doc.title_s
-                intro.avatar = doc.thumbail_s
                 intro.url = urlTransformationService.transform("storeUrlToRenderUrl", doc.localId)
             intros << intro
           }
