@@ -23,7 +23,8 @@
         <@renderComponent component=contentModel.slide_o.item />
         <div class="content__title">
         <div class="container" style="padding-left:30px;">
-            ${contentModel.image_s}
+        
+            <a href="${contentModel.image_s}" ></a>
             <h1 class="text--uppercase text--red">${contentModel.title_s}</h1>
         </div>
         
