@@ -11,7 +11,7 @@ import org.elasticsearch.search.sort.SortOrder
 class NewsSearchHelper{
     static final String NEWS_CONTENT_TYPE_QUERY ="content-type:\"/page/newsdetail\"" 
     static final int DEFAULT_START = 0
-    static final int DEFAULT_ROWS  = 10
+    static final int DEFAULT_ROWS  = 1000
     
     def elasticsearch
     UrlTransformationService UrlTransformationService
@@ -21,7 +21,7 @@ class NewsSearchHelper{
         this.urlTransformationService = urlTransformationService
     }
     
-    def search(categories, start = DEFAULT_START, rows = DEFAULT_ROWS, additionalCriteria = null){
+    def searchNews(categories, start = DEFAULT_START, rows = DEFAULT_ROWS, additionalCriteria = null){
         def q = "${NEWS_CONTENT_TYPE_QUERY}"
         if(categories){
             def categoriesQuery = getFieldQueryWithMultipleValues("categories_o.item.key",categories)
