@@ -69,13 +69,23 @@
 					<properties>
 						<property>
 							<name>size</name>
-							<value>50</value>
+							<value>70</value>
 							<type>int</type>
 						</property>
 						<property>
 							<name>maxlength</name>
-							<value>50</value>
+							<value>70</value>
 							<type>int</type>
+						</property>
+						<property>
+							<name>readonly</name>
+							<value></value>
+							<type>boolean</type>
+						</property>
+						<property>
+							<name>tokenize</name>
+							<value>false</value>
+							<type>boolean</type>
 						</property>
 					</properties>
 					<constraints>
@@ -120,12 +130,12 @@
 					<properties>
 						<property>
 							<name>size</name>
-							<value>50</value>
+							<value>70</value>
 							<type>int</type>
 						</property>
 						<property>
 							<name>maxlength</name>
-							<value>50</value>
+							<value>70</value>
 							<type>int</type>
 						</property>
 						<property>
@@ -265,12 +275,12 @@
 					<properties>
 						<property>
 							<name>size</name>
-							<value>50</value>
+							<value>70</value>
 							<type>int</type>
 						</property>
 						<property>
 							<name>maxlength</name>
-							<value>50</value>
+							<value>70</value>
 							<type>int</type>
 						</property>
 						<property>
