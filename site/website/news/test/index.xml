@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page>
+	<content-type>/page/newsdetail</content-type>
+	<display-template>/templates/web/newsdetail.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>90f0</objectGroupId>
+	<objectId>90f07f61-f8d6-c946-2fa7-b27a364fbe2e</objectId>
+	<file-name>index.xml</file-name>
+	<folder-name>test</folder-name>
+	<internal-name>test</internal-name>
+	<navLabel>test</navLabel>
+	<title_s>test</title_s>
+	<placeInNav>false</placeInNav>
+	<orderDefault_f>-1</orderDefault_f>
+	<categories_o>	<item>	<key>mavinex-news</key>
+	<value_smv>Tin Mavinex</value_smv>
+	</item></categories_o>
+	<slide_o item-list="true">	<item datasource="slideDataSource">	<key>/site/items/slides/d0a08899-63db-033a-900d-525a0e2770f9.xml</key>
+	<value>Home slide</value>
+	<include>/site/items/slides/d0a08899-63db-033a-900d-525a0e2770f9.xml</include>
+	<disableFlattening>false</disableFlattening>
+	</item></slide_o>
+	<image_s>/static-assets/images/Layer 183.png</image_s>
+	<content_html>&lt;p&gt;test&lt;/p&gt;</content_html>
+	<createdDate>2020-05-26T08:13:00.069Z</createdDate>
+	<createdDate_dt>2020-05-26T08:13:00.069Z</createdDate_dt>
+	<lastModifiedDate>2020-05-26T08:13:00.069Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-05-26T08:13:00.069Z</lastModifiedDate_dt>
+</page>
