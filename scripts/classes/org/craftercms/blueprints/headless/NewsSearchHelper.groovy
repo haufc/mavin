@@ -54,7 +54,6 @@ class NewsSearchHelper{
                     aNews.title = doc.title_s
                     aNews.image = doc.image_s
                     aNews.content = doc.content_html
-                    aNews.url = urlTransformationService.transform('storeUrlToRenderUrl', doc.localId)
                 news << aNews
             }
         }
