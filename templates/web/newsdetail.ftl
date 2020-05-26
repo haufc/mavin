@@ -23,7 +23,7 @@
         <@renderComponent component=contentModel.slide_o.item />
         <div class="content__title">
         <div class="container" style="padding-left:30px;">
-            <h1 class="text--uppercase text--red">${contentModel.title_s}</h1>
+            <h1 class="" style="color: #6b8eb8">${contentModel.title_s}</h1>
             <img src="${contentModel.image_s!""}" class="img-responsive" >
             ${contentModel.content_html}
         </div>
