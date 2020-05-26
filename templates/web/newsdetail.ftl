@@ -30,7 +30,7 @@
                 <h2 style="color:red">Tin ngành</h2>
             </#if>
             <h3 class="" style="color: #6b8eb8">${contentModel.title_s}</h3>
-            <img class="image-center" src="${contentModel.image_s!""}" class="img-responsive" >
+            <img class="image-center" src="${contentModel.image_s!""}" class="img-responsive" style="color: #6b8eb8">
             ${contentModel.content_html}
         </div>
         
