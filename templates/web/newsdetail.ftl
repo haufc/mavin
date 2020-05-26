@@ -24,10 +24,10 @@
         <div class="content__title">
         <div class="container" style="padding-left:30px;">
             <#if contentModel.categories_o.item.key = "mavinex-news" >
-                <h1 class="text__red">Tin Mavinex</h1>
+                <h1 style="color:red">Tin Mavinex</h1>
             </#if>
             <#if contentModel.categories_o.item.key ="field-news" >
-                <h1 class="text__red">Tin ngành</h1>
+                <h1 style="color:red">Tin ngành</h1>
             </#if>
             <h1 class="" style="color: #6b8eb8">${contentModel.title_s}</h1>
             <img src="${contentModel.image_s!""}" class="img-responsive" >
