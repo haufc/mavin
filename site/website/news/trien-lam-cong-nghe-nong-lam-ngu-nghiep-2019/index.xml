@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page>
+	<content-type>/page/newsdetail</content-type>
+	<display-template>/templates/web/newsdetail.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>c1e6</objectGroupId>
+	<objectId>c1e6d0a7-852c-42a4-bc10-4c1a11cb6a22</objectId>
+	<file-name>index.xml</file-name>
+	<folder-name>trien-lam-cong-nghe-nong-lam-ngu-nghiep-2019</folder-name>
+	<internal-name>Triển lãm thiết bị và công nghệ nông lâm ngư nghiệp 2019</internal-name>
+	<navLabel>Triển lãm thiết bị và công nghệ nông lâm ngư nghiệp 2019</navLabel>
+	<title_s>Triển lãm thiết bị và công nghệ nông lâm ngư nghiệp 2019</title_s>
+	<placeInNav>false</placeInNav>
+	<orderDefault_f>-1</orderDefault_f>
+	<categories_o>	<item>	<key>field-news</key>
+	<value_smv>Tin Ngành</value_smv>
+	</item></categories_o>
+	<slide_o item-list="true">	<item datasource="slideDataSource">	<key>/site/items/slides/32d99062-b54f-d408-edc3-d0283afd156f.xml</key>
+	<value>Triển lãm thiết bị và công nghệ nông lâm ngư nghiệp 2019</value>
+	<include>/site/items/slides/32d99062-b54f-d408-edc3-d0283afd156f.xml</include>
+	<disableFlattening>false</disableFlattening>
+	</item></slide_o>
+	<image_s>/static-assets/images/Layer 191.png</image_s>
+	<content_html>&lt;p&gt;Được th&amp;agrave;nh lập từ năm 2017, với tiền th&amp;acirc;n l&amp;agrave; Ph&amp;ograve;ng dự &amp;aacute;n của Tập đo&amp;agrave;n Mavin, C&amp;ocirc;ng ty cổ Phần Mavinex được biết đến l&amp;agrave; đơn vị triển khai thi c&amp;ocirc;ng c&amp;aacute;c dự &amp;aacute;n trọng điểm của tập đo&amp;agrave;n Mavin trong c&amp;aacute;c lĩnh vực thiết kế v&amp;agrave; x&amp;acirc;y c&amp;aacute;c dự &amp;aacute;n trọng điểm của tập đo&amp;agrave;n Mavin trong c&amp;aacute;c lĩnh vực thiết kế v&amp;agrave; Mavin, C&amp;ocirc;ng ty cổ Phần Mavinex được biết đến l&amp;agrave; đơn vị triển khai thi c&amp;ocirc;ng c&amp;aacute;c dự &amp;aacute;n trọng điểm của tập đo&amp;agrave;n Mavin trong c&amp;aacute;c lĩnh vực thiết kế v&amp;agrave; x&amp;acirc;y Mavin, C&amp;ocirc;ng ty cổ Phần Mavinex được biết đến l&amp;agrave; đơn vị triển khai thi c&amp;ocirc;ng c&amp;aacute;c dự &amp;aacute;n trọng điểm của tập đo&amp;agrave;n Mavin trong c&amp;aacute;c lĩnh vực thiết kế v&amp;agrave; x&amp;acirc;y dựng c&amp;aacute;c nh&amp;agrave; m&amp;aacute;y thức ăn chăn nu&amp;ocirc;i, thiết kế v&amp;agrave; x&amp;acirc;y dựng c&amp;aacute;c trang trại .....Được th&amp;agrave;nh lập từ năm 2017, với tiền th&amp;acirc;n l&amp;agrave; Ph&amp;ograve;ng dự &amp;aacute;n của Tập đo&amp;agrave;n Mavin, C&amp;ocirc;ng ty cổ Phần Mavinex được biết đến l&amp;agrave; đơn vị triển khai thi c&amp;ocirc;ng c&amp;aacute;c dự &amp;aacute;n trọng điểm của tập đo&amp;agrave;n Mavin trong c&amp;aacute;c lĩnh vực thiết kế v&amp;agrave; x&amp;acirc;y c&amp;aacute;c dự &amp;aacute;n trọng điểm của tập đo&amp;agrave;n Mavin trong c&amp;aacute;c lĩnh vực thiết kế v&amp;agrave; Mavin, C&amp;ocirc;ng ty cổ Phần Mavinex được biết đến l&amp;agrave; đơn vị triển khai thi c&amp;ocirc;ng c&amp;aacute;c dự &amp;aacute;n trọng điểm của tập đo&amp;agrave;n Mavin trong c&amp;aacute;c lĩnh vực thiết kế v&amp;agrave; x&amp;acirc;y Mavin, C&amp;ocirc;ng ty cổ Phần Mavinex được biết đến l&amp;agrave; đơn vị triển khai thi c&amp;ocirc;ng c&amp;aacute;c dự &amp;aacute;n trọng điểm của tập đo&amp;agrave;n Mavin trong c&amp;aacute;c lĩnh vực thiết kế v&amp;agrave; x&amp;acirc;y dựng c&amp;aacute;c nh&amp;agrave; m&amp;aacute;y thức ăn chăn nu&amp;ocirc;i, thiết kế v&amp;agrave; x&amp;acirc;y dựng c&amp;aacute;c trang trại .....&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p&gt;Được th&amp;agrave;nh lập từ năm 2017, với tiền th&amp;acirc;n l&amp;agrave; Ph&amp;ograve;ng dự &amp;aacute;n của Tập đo&amp;agrave;n Mavin, C&amp;ocirc;ng ty cổ Phần Mavinex được biết đến l&amp;agrave; đơn vị triển khai thi c&amp;ocirc;ng c&amp;aacute;c dự &amp;aacute;n trọng điểm của tập đo&amp;agrave;n Mavin trong c&amp;aacute;c lĩnh vực thiết kế v&amp;agrave; x&amp;acirc;y c&amp;aacute;c dự &amp;aacute;n trọng điểm của tập đo&amp;agrave;n Mavin trong c&amp;aacute;c lĩnh vực thiết kế v&amp;agrave; Mavin, C&amp;ocirc;ng ty cổ Phần Mavinex được biết đến l&amp;agrave; đơn vị triển khai thi c&amp;ocirc;ng c&amp;aacute;c dự &amp;aacute;n trọng điểm của tập đo&amp;agrave;n Mavin trong c&amp;aacute;c lĩnh vực thiết kế v&amp;agrave; x&amp;acirc;y Mavin, C&amp;ocirc;ng ty cổ Phần Mavinex được biết đến l&amp;agrave; đơn vị triển khai thi c&amp;ocirc;ng c&amp;aacute;c dự &amp;aacute;n trọng điểm của tập đo&amp;agrave;n Mavin trong c&amp;aacute;c lĩnh vực thiết kế v&amp;agrave; x&amp;acirc;y dựng c&amp;aacute;c nh&amp;agrave; m&amp;aacute;y thức ăn chăn nu&amp;ocirc;i, thiết kế v&amp;agrave; x&amp;acirc;y dựng c&amp;aacute;c trang trại .....&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p&gt;Được th&amp;agrave;nh lập từ năm 2017, với tiền th&amp;acirc;n l&amp;agrave; Ph&amp;ograve;ng dự &amp;aacute;n của Tập đo&amp;agrave;n Mavin, C&amp;ocirc;ng ty cổ Phần Mavinex được biết đến l&amp;agrave; đơn vị triển khai thi c&amp;ocirc;ng c&amp;aacute;c dự &amp;aacute;n trọng điểm của tập đo&amp;agrave;n Mavin trong c&amp;aacute;c lĩnh vực thiết kế v&amp;agrave; x&amp;acirc;yc&amp;aacute;c dự &amp;aacute;n trọng điểm của tập đo&amp;agrave;n Mavin trong c&amp;aacute;c lĩnh vực thiết kế v&amp;agrave; Mavin, C&amp;ocirc;ng ty cổ Phần Mavinex được biết đến l&amp;agrave; đơn vị triển khai thi c&amp;ocirc;ng c&amp;aacute;c dự &amp;aacute;n trọng điểm của tập đo&amp;agrave;n Mavin trong c&amp;aacute;c lĩnh vực thiết kế v&amp;agrave; x&amp;acirc;y Mavin, C&amp;ocirc;ng ty cổ Phần Mavin&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p&gt;Nguồn:Growtech&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;</content_html>
+	<createdDate>2020-05-26T03:53:36.754Z</createdDate>
+	<createdDate_dt>2020-05-26T03:53:36.754Z</createdDate_dt>
+	<lastModifiedDate>2020-05-26T03:53:36.754Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-05-26T03:53:36.754Z</lastModifiedDate_dt>
+</page>
