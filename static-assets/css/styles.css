@@ -6857,7 +6857,7 @@ _:-ms-lang(x), .content__img {
         height: 100%;
     }
 /* image */
-    image-center {
+    .image-center {
       display: block;
       margin-left: auto;
       margin-right: auto;
