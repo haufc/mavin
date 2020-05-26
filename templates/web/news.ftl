@@ -3,6 +3,6 @@
     <h1 class="text--uppercase text--red">${contentModel.title_s}</h1>
 </div>
 <#list news as aNews>
-    ${aNews.title_s}
+    ${aNews.title}
 </#list>
 <@studio.toolSupport />
