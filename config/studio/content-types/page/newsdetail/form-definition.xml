@@ -470,5 +470,18 @@
 						</property>
 					</properties>
 				</datasource>
+				<datasource>
+					<type>embedded-content</type>
+					<id>slideDataSource</id>
+					<title>Slide DataSource</title>
+					<interface>item</interface>
+					<properties>
+						<property>
+							<name>contentType</name>
+							<value></value>
+								<type>undefined</type>
+						</property>
+					</properties>
+				</datasource>
 	</datasources>
 </form>
