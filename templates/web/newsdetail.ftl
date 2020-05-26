@@ -23,15 +23,11 @@
         <@renderComponent component=contentModel.slide_o.item />
         <div class="content__title">
         <div class="container" style="padding-left:30px;">
-            <img src="${contentModel.image_s!""}" class="img-responsive" >
-            
             <h1 class="text--uppercase text--red">${contentModel.title_s}</h1>
+            <img src="${contentModel.image_s!""}" class="img-responsive" >
+            ${contentModel.content_html}
         </div>
         
-      </div>
-      
-      <div class="content__details--nopadding-x container" style="padding-left:30px;">
-            ${contentModel.content_html}
       </div>
     </div>
     <@renderComponent component=contentModel.memberlist_o.item />
