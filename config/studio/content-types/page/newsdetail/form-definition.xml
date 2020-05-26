@@ -513,7 +513,7 @@
 						</property>
 						<property>
 							<name>type</name>
-							<value>/component/slides</value>
+							<value>/component/slide</value>
 								<type>undefined</type>
 						</property>
 					</properties>
