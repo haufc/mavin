@@ -31,7 +31,7 @@
             </#if>
             <h3 class="" style="color: #6b8eb8">${contentModel.title_s}</h3>
             <img class="image-center" src="${contentModel.image_s!""}" class="img-responsive">
-            <div style="color: #6b8eb8">${contentModel.content_html}</div>
+            <div style="color: #6b8eb8; font-size=18px;">${contentModel.content_html}</div>
         </div>
         
       </div>
