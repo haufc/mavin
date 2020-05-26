@@ -29,7 +29,7 @@
             <#if contentModel.categories_o.item.key ="field-news" >
                 <h2 style="color:red">Tin ngành</h2>
             </#if>
-            <h3 class="" style="color: #6b8eb8 padding-top:30px;" >${contentModel.title_s}</h3>
+            <h3 class="" style="color: #6b8eb8; padding-top:30px;" >${contentModel.title_s}</h3>
             <img class="image-center img-responsive" src="${contentModel.image_s!""}" >
             <div style="color: #6b8eb8; font-size: 18px; padding-top:30px;">${contentModel.content_html}</div>
         </div>
