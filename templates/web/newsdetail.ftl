@@ -30,7 +30,7 @@
       </div>
       
       <div class="content__details--nopadding-x container" style="padding-left:30px;">
-            ${contentModel.contents_html}
+            ${contentModel.content_html}
       </div>
     </div>
     <@renderComponent component=contentModel.memberlist_o.item />
