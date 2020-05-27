@@ -4,5 +4,6 @@
 </div>
 <#list news as aNews>
     ${aNews.title}
+    ${aNews.category}
 </#list>
 <@studio.toolSupport />
