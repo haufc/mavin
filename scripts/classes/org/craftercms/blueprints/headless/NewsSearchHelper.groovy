@@ -54,7 +54,7 @@ class NewsSearchHelper{
                     aNews.title = doc.title_s
                     aNews.image = doc.image_s
                     aNews.content = doc.content_html
-                    aNews.category = doc.categories_o.key
+                    aNews.category = doc.categories_o.item.key
                 news << aNews
             }
         }
