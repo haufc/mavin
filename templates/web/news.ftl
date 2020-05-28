@@ -23,6 +23,8 @@
         <i class="fas fa-play text--red" style="padding-top: 5px;"></i>
         <img style=" padding-top:20px; " class="image-center img-responsive" src="${aNews.image!""}" >
         </div>
+        </#if>
+        </#list>
     </div>
     <div class="content__title">
             <div class="container">
@@ -47,6 +49,8 @@
             <i class="fas fa-play text--red" style="padding-top: 5px;"></i>
             <img style=" padding-top:20px; " class="image-center img-responsive" src="${aNews.image!""}" >
             </div>
+            </#if>
+            </#list>
     </div>
 </div>
     
