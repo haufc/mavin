@@ -4,7 +4,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-12">
-                  <h1 class="text--red text--uppercase" style="padding-left:30px">Tin Mavinex</h1>
+                  <h1 class="text--red text--uppercase">Tin Mavinex</h1>
                 </div>
             </div>
         </div>
@@ -27,8 +27,8 @@
     <div class="content__title">
             <div class="container">
                 <div class="row">
-                        <div class="col-lg-12 col-md-12 col-sm-12 col-12>
-                          <h1 class="text--red text--uppercase" style="padding-left:30px">Tin ngành</h1>
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                          <h1 class="text--red text--uppercase">Tin Mavinex</h1>
                         </div>
                 </div>
             </div>
