@@ -39,7 +39,7 @@
         <div class="container-fluid">
         <div class="row">
                 <#list news as aNews>
-                <#if aNews.category = "mavinex-news">
+                <#if aNews.category = "field-news">
                 <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6" style="padding-left: 0px;">
                     <div>
                         <img src="${aNews.image}" alt="" class="img--full">
