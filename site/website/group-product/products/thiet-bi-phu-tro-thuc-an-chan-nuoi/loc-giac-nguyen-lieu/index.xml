@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page>
+	<content-type>/page/productdetail</content-type>
+	<display-template>/templates/web/product-detail.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>ec36</objectGroupId>
+	<objectId>ec367599-e502-5286-38f5-bc3fd8b4e745</objectId>
+	<slide_o item-list="true">	<item datasource="slideheader">	<key>/site/items/slides/d0a08899-63db-033a-900d-525a0e2770f9.xml</key>
+	<value>Home slide</value>
+	<include>/site/items/slides/d0a08899-63db-033a-900d-525a0e2770f9.xml</include>
+	<disableFlattening>false</disableFlattening>
+	</item></slide_o>
+	<file-name>index.xml</file-name>
+	<folder-name>loc-giac-nguyen-lieu</folder-name>
+	<internal-name>Lọc giác nguyên liệu</internal-name>
+	<navLabel/>
+	<productname_s>Lọc giác nguyên liệu</productname_s>
+	<phonenumber_s>0221 3 921 921</phonenumber_s>
+	<placeInNav>false</placeInNav>
+	<orderDefault_f>-1</orderDefault_f>
+	<productgroup_o>	<item>	<key>thiet-bi-nha-may-thuc-an-chan-nuoi</key>
+	<value_smv>Thiết bị nhà máy và thức ăn chăn nuôi</value_smv>
+	</item></productgroup_o>
+	<productchildgroup_o>	<item>	<key>thiet-bi-nha-may-tacn</key>
+	<value_smv>Thiết bị nhà máy TACN</value_smv>
+	</item></productchildgroup_o>
+	<productdescription_html/>
+	<productimage_o item-list="true">	<item>	<productimagename_s/>
+	<productimage_s>/static-assets/images/products/thiet-bi-nha-may-tacn.png</productimage_s>
+	</item>	<item>	<productimage_s>/static-assets/images/products/thiet-bi-nha-may-tacn.png</productimage_s>
+	<productimagename_s/>
+	</item>	<item>	<productimage_s>/static-assets/images/products/thiet-bi-nha-may-tacn.png</productimage_s>
+	<productimagename_s/>
+	</item>	<item>	<productimage_s>/static-assets/images/products/thiet-bi-nha-may-tacn.png</productimage_s>
+	<productimagename_s/>
+	</item></productimage_o>
+	<createdDate>2020-05-25T03:33:11.181Z</createdDate>
+	<createdDate_dt>2020-05-25T03:33:11.181Z</createdDate_dt>
+	<lastModifiedDate>2020-05-25T04:54:55.256Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-05-25T04:54:55.256Z</lastModifiedDate_dt>
+	<productAvatar_s>/static-assets/images/products/thiet-bi-nha-may-tacn.png</productAvatar_s>
+</page>

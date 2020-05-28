@@ -2,7 +2,6 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>${contentModel.title_s}</title>
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <link rel="shortcut icon" href="/static-assets/images/logos/favicon.ico" type="image/x-icon">
@@ -102,10 +101,14 @@ img {
 
 /* Six columns side by side */
 .column {
-  float: left;
-  /* width: 16.66%; */
-  width: 24.633%;
-  margin: 0 1px;
+    /*float: left;
+    width: 16.66%; 
+    width: 23.633%;
+    margin: 0px 3px;*/
+    float: left;
+    /*width: 16.66%; */
+    width: 23%;
+    margin: 0px 1%;
 }
 
 /* Add a transparency effect for thumnbail images */
@@ -130,6 +133,154 @@ img {
   border: 1px solid #FFF;
   color: #FFF;
 }
+
+/*=========================*/
+.carousel {
+	margin: 0px auto;
+    padding: 0px 0px;
+}
+.carousel .item {
+	color: #747d89;
+	/*min-height: 325px;*/
+    text-align: center;
+	overflow: hidden;
+}
+.carousel .thumb-wrapper {
+	/*padding: 25px 15px;
+	background: #fff;
+	border-radius: 6px;
+	text-align: center;
+	position: relative;
+	box-shadow: 0 2px 3px rgba(0,0,0,0.2);*/
+}
+.carousel .item .img-box {
+	height: 120px;
+	margin-bottom: 20px;
+	width: 100%;
+	position: relative;
+}
+.carousel .item img {	
+	max-width: 100%;
+	max-height: 100%;
+	display: inline-block;
+	position: absolute;
+	bottom: 0;
+	margin: 0 auto;
+	left: 0;
+	right: 0;
+}
+.carousel .item h4 {
+	font-size: 18px;
+}
+.carousel .item h4, .carousel .item p, .carousel .item ul {
+	margin-bottom: 5px;
+}
+.carousel .thumb-content .btn {
+	color: #7ac400;
+    font-size: 11px;
+    text-transform: uppercase;
+    font-weight: bold;
+    background: none;
+    border: 1px solid #7ac400;
+    padding: 6px 14px;
+    margin-top: 5px;
+    line-height: 16px;
+    border-radius: 20px;
+}
+.carousel .thumb-content .btn:hover, .carousel .thumb-content .btn:focus {
+	color: #fff;
+	background: #7ac400;
+	box-shadow: none;
+}
+.carousel .thumb-content .btn i {
+	font-size: 14px;
+    font-weight: bold;
+    margin-left: 5px;
+}
+.carousel .carousel-control {
+	height: 44px;
+	width: 40px;
+	background: none;	
+    margin: auto 0;
+    border-radius: 4px;
+	opacity: 0.8;
+}
+.carousel .carousel-control i:hover {
+	color: #CE181F !important;
+	opacity: 1;
+}
+.carousel .carousel-control i {
+    font-size: 36px;
+    position: absolute;
+    top: 50%;
+    display: inline-block;
+    margin: -19px 0 0 0;
+    z-index: 5;
+    left: 0;
+    right: 0;
+    color: #fff;
+	text-shadow: none;
+    font-weight: bold;
+}
+.carousel .item-price {
+	font-size: 13px;
+	padding: 2px 0;
+}
+.carousel .item-price strike {
+	opacity: 0.7;
+	margin-right: 5px;
+}
+.carousel .carousel-control.left i {
+	margin-left: -2px;
+}
+.carousel .carousel-control.right i {
+	margin-right: -4px;
+	color: #00549A;
+    font-size: 25px;
+}
+.carousel .carousel-indicators {
+	bottom: -50px;
+}
+.carousel-indicators li, .carousel-indicators li.active {
+	width: 10px;
+	height: 10px;
+	margin: 4px;
+	border-radius: 50%;
+	border: none;
+}
+.carousel-indicators li {	
+	background: rgba(0, 0, 0, 0.2);
+}
+.carousel-indicators li.active {	
+	background: rgba(0, 0, 0, 0.6);
+}
+.carousel .wish-icon {
+	position: absolute;
+	right: 10px;
+	top: 10px;
+	z-index: 99;
+	cursor: pointer;
+	font-size: 16px;
+	color: #abb0b8;
+}
+.carousel .wish-icon .fa-heart {
+	color: #ff6161;
+}
+.star-rating li {
+	padding: 0;
+}
+.star-rating i {
+	font-size: 14px;
+	color: #ffc000;
+}
+@media (max-width: 463px) {
+    .column {
+        float: left;
+        /* width: 16.66%; */
+        width: 23%;
+        margin: 0px 1%;
+    }
+}
 </style>
   </head>
   <body>
@@ -139,21 +290,22 @@ img {
         <@renderComponent component=contentModel.slide_o.item />
          <div class="recruitment ">
         <div class="content__title text--center">
-            <h1 style="background-color: #00559a; padding:10px;" class="text--uppercase text-white text-left">Kỹ sư công trình</h1>
+            <div style="background-color: #00559a; padding:10px;">
+                <h1 class="text--uppercase text-white text-left container">Kỹ sư công trình</h1>
+            </div>
           </div>
-        <div class="container p-3">         
+        <div class="container p-3 mb-1">         
             <div class="row">
                 <div class="col-sm-12 col-md-6 col-lg-6">
                     <#list contentModel.productimage_o.item as myItem>
                     	<div class="mySlides">
-                            <div class="numbertext">1 / 6</div>
                             <img src="${myItem.productimage_s}" alt="${myItem.productimagename_s}" style="width:100%">
                         </div>
                     </#list>
                   <a class="prev" onclick="plusSlides(-1)">❮</a>
                   <a class="next" onclick="plusSlides(1)">❯</a>
                 
-                  <div class="container">
+                  <div class="container" style="margin-top: 5px;">
                     <div class="row">
                       <#list contentModel.productimage_o.item as myItem>
                          <div class="column">
@@ -164,10 +316,10 @@ img {
                   </div>
                 </div>
                 <div class="col-sm-12 col-md-6 col-lg-6">
-                   <h4 style="background-color: red; padding:10px;" class="text--uppercase">
+                   <h4 style="background-color: #CE181F; padding:10px;" class="text--uppercase text-white">
                         ${contentModel.productname_s}
                   </h4>
-                  <div>
+                  <div style="color: #00559A; padding:10px;">
                      <p>
                         ${contentModel.productdescription_html}
                       </p>
@@ -182,13 +334,56 @@ img {
         <hr style="border: 3px solid #00559a">
         <div class="container">
             <div class="row">
-              <div class="col-lg-6 col-md-6 col-sm-6">
-                <h4 style="background-color: #00559a; padding:10px; vertical-align: middle; line-height: normal;" class="text--uppercase text-white text--center">sản phẩm tương tự</h4>
+              <div class="col-lg-6 col-md-6 col-sm-12">
+                <h4 style="background-color: #00559a;margin: 12% 0; padding:10px; vertical-align: middle; line-height: normal;" class="text--uppercase text-white text--center">sản phẩm tương tự</h4>
               </div>
-              <div class="col-lg-6 col-md-6 col-sm-6">
-                  
+              <div class="col-lg-6 col-md-6 col-sm-12">
+                     <div class="container">
+                    	<div class="row">
+                    		<div class="col-md-12" style="padding:0px;">
+                    			<div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="0">
+                    			<!-- Carousel indicators -->
+                    			<!-- Wrapper for carousel items -->
+                    			<div class="carousel-inner">
+                    				<div class="item carousel-item active">
+                    					<div class="row">
+                    					    <#list relatedProducts as myItem>
+                                                <div class="col-3">
+                        							<div class="thumb-wrapper">
+                        								<span class="wish-icon"><i class="fa fa-heart-o"></i></span>
+                        								<div class="img-box">
+                        									<a href="${myItem.url}"><img src="${myItem.avatar}" class="img-responsive img-fluid" alt=""></a>
+                        								</div>
+                        							</div>
+                        						</div>
+                                            </#list>
+                    					</div>
+                    				</div>
+                    				<div class="item carousel-item">
+                    					<div class="row">
+                    						 <#list relatedProducts as myItem>
+                                                <div class="col-3">
+                        							<div class="thumb-wrapper">
+                        								<span class="wish-icon"><i class="fa fa-heart-o"></i></span>
+                        								<div class="img-box">
+                        									<img src="${myItem.avatar}" class="img-responsive img-fluid" alt="">
+                        								</div>
+                        							</div>
+                        						</div>
+                                            </#list>
+                    					</div>
+                    				</div>
+                    			</div>
+                    			<!-- Carousel controls -->
+                    			<a class="carousel-control right carousel-control-next" style="right: -3%;top: 25%;" href="#myCarousel" data-slide="next">
+                    				<i class="fa fa-play"></i>
+                    			</a>
+                    		</div>
+                    	</div>               
+                  </div>
               </div>
             </div>
+        </div>
         </div>
         <hr style="border: 3px solid #00559a">
       </div>  
@@ -239,6 +434,14 @@ img {
         //captionText.innerHTML = dots[slideIndex-1].alt;
       }
       </script>
+      
+      <script type="text/javascript">
+    	$(document).ready(function(){
+    		$(".wish-icon i").click(function(){
+    			$(this).toggleClass("fa-heart fa-heart-o");
+    		});
+    	});	
+    </script>
   </body>
 </html>
 <@studio.toolSupport />

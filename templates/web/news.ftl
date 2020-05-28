@@ -64,6 +64,4 @@
       $(this).text(newstr).append("...");;
     });
 </script>  
-
-        
 <@studio.toolSupport />

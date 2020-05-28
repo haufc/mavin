@@ -9,7 +9,7 @@
     <div class="content__details container">
         <div class="row">
             <#list contentModel.product_o.item as element>
-                <div class="col-lg-6 col-md-6 col-sm-6 col-6 mb-5">
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 mb-5">
                     <div class="card" style="width: 100%; border: none; border-radius: unset;">
                       <a href="${element.urlpage_s}"><img class="card-img-top" src="${element.avatar_s}" height="350px" alt="Card image cap"></a>
                       <#if element.colortext_s == '1'>
