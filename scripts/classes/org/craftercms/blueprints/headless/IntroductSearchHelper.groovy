@@ -37,10 +37,10 @@ class IntroductSearchHelper {
         }
         
         def builder = new SearchSourceBuilder()
-            .query(QueryBuilders.queryStringQuery(q))
-            .from(start)
-            .size(rows)
-            .sort(new FieldSortBuilder("title_s").order(SortOrder.ASC))
+                        .query(QueryBuilders.queryStringQuery(q))
+                        .from(start)
+                        .size(rows)
+//  .sort(new FieldSortBuilder("title_s").order(SortOrder.ASC))
             
         def result = elasticsearch.search(new SearchRequest().source(builder))
         

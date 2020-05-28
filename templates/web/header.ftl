@@ -7,8 +7,17 @@
         </a>
 
         <div id="nav-content" class="mavinex-nav__links">
-            <a class="mavinex-nav__link" href="/gioi-thieu">Giới thiệu</a>
+            <div class="dropdown">
+              <a class="mavinex-nav__link" href="/gioi-thieu">Giới thiệu</a>
+              <div class="dropdown-content">
+                <a class="mavinex-nav__link" href="#">Giới thiệu chung</a>
+                <a class="mavinex-nav__link" href="#">Lịch sử hình thành</a>
+                <a class="mavinex-nav__link" href="#">Lĩnh vực hoạt động</a>
+                <a class="mavinex-nav__link" href="#">Đối tác chiến lược</a>
+              </div>
+            </div>
             <a class="mavinex-nav__link" href="/san-pham">Sản phẩm</a>
+            <a class="mavinex-nav__link" href="/tin-tuc">Tin tức</a>
             <a class="mavinex-nav__link" href="/nang-luc-kinh-nghiem">Năng lực kinh nghiệm</a>
             <a class="mavinex-nav__link" href="/co-hoi-nghe-nghiep">Tuyển dụng</a>
             <a class="mavinex-nav__link" href="/lien-he">Liên hệ</a>

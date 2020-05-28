@@ -29,6 +29,10 @@
 	<lastModifiedDate>2020-04-24T02:42:46.764Z</lastModifiedDate>
 	<lastModifiedDate_dt>2020-04-24T02:42:46.764Z</lastModifiedDate_dt>
 </component>
+	</item>	<item datasource="carouselDataSource">	<key>/site/items/carousel/f95544c8-088a-2dcf-9df8-3626398ddfa1.xml</key>
+	<value>Carousel Products</value>
+	<include>/site/items/carousel/f95544c8-088a-2dcf-9df8-3626398ddfa1.xml</include>
+	<disableFlattening>false</disableFlattening>
 	</item>	<item datasource="sections" inline="true">	<key>4d2b3839-e5b4-fe16-c0ac-d1a0b2090a7b</key>
 	<value>Introduction</value>
 <component id="4d2b3839-e5b4-fe16-c0ac-d1a0b2090a7b">
@@ -82,7 +86,7 @@
 	<folder-name>trang-chu</folder-name>
 	<createdDate>2020-03-25T10:34:10.722Z</createdDate>
 	<createdDate_dt>2020-03-25T10:34:10.722Z</createdDate_dt>
-	<lastModifiedDate>2020-04-27T08:09:15.888Z</lastModifiedDate>
-	<lastModifiedDate_dt>2020-04-27T08:09:15.888Z</lastModifiedDate_dt>
+	<lastModifiedDate>2020-05-22T10:31:47.693Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-05-22T10:31:47.693Z</lastModifiedDate_dt>
 	<descripttion_t/>
 </page>

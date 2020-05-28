@@ -22,14 +22,17 @@
     <div class="content">
         <@renderComponent component=contentModel.slide_o.item />
         <div class="content__title">
-        <div class="container" style="padding: 0;">
+        <div class="container" style="padding-left:30px;">
             <h1 class="text--uppercase text--red">${contentModel.title_s}</h1>
         </div>
         
       </div>
-      <div class="content__details--nopadding-x container">
+      <div class="content__details--nopadding-x container" style="padding-left:30px;">
             ${contentModel.contents_html}
       </div>
+      <#if (contentModel.section_o.item)??>
+      <@renderComponent component=contentModel.section_o.item />
+      </#if>
     </div>
     <@renderComponent component=contentModel.memberlist_o.item />
     <@renderComponent component=contentModel.footer_o.item />
