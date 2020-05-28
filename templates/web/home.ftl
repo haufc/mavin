@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="/static-assets/plugins/bootstrap-select1139/dist/css/bootstrap-select.min.css"/>
     <link rel="stylesheet" href="/static-assets/css/styles.css"/>
     <link rel="stylesheet" href="/static-assets/css/mavinex.css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
   </head>
   <body>
     <button onclick="topFunction()" id="btn-up-top" ><i class="fa fa-angle-up"></i></button>
@@ -28,7 +29,6 @@
     <@renderComponent component=contentModel.memberlist_o.item />
     <@renderComponent component=contentModel.footer_o.item />
     <script src="/static-assets/plugins/jquery341/jquery(3.4.1.).js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <script src="/static-assets/js/popper.min.js"></script>
     <script src="/static-assets/plugins/bootstrap441/js/bootstrap.min.js"></script>
     <script src="/static-assets/plugins/bootstrap-select1139/dist/js/bootstrap-select.min.js"></script>
