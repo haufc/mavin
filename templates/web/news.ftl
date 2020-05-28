@@ -18,12 +18,12 @@
                         <img src="${aNews.image}" alt="" class="img--full">
                         <h3 style="color: #fff; padding-top: 20px;"  style="padding-top:9px;">${aNews.title}</h3>
                         <span style="color: #fff; padding-top: 10px;" class="limit-text" max-length="50">${aNews.content}<span>
-                    </div>
-                </div>
-                <a class="mt-3 rounded-0" href="#"> 
+                        <a class="mt-3 rounded-0" href="#"> 
                             <span class="mr-1">Xem thêm</span>
                             <i class="fa fa-play text--red"></i>
-                </a>
+                        </a>
+                    </div>
+                </div>
                 </#if>
                 </#list>
         </div>
