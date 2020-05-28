@@ -17,8 +17,8 @@
                 <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6" style="padding-left: 0px;">
                     <div>
                         <img src="${aNews.image}" alt="" class="img--full">
-                        <h3 style="color: #fff"  style="padding-top:9px;">${aNews.title}</h3>
-                        <p>${aNews.content}<p>
+                        <h3 style="color: #fff; padding-top: 20px;"  style="padding-top:9px;">${aNews.title}</h3>
+                        <p style="color: #fff; padding-top: 10px;">${aNews.content}<p>
                     </div>
                 </div>
                 </#if>
@@ -43,8 +43,8 @@
                 <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6" style="padding-left: 0px;">
                     <div>
                         <img src="${aNews.image}" alt="" class="img--full">
-                        <h3 style="color: #fff"  style="padding-top:9px;">${aNews.title}</h3>
-                        <p>${aNews.content}<p>
+                        <h3 style="color: #fff; padding-top: 20px;"  style="padding-top:9px;">${aNews.title}</h3>
+                        <p style="color: #fff; padding-top: 10px;">${aNews.content}<p>
                     </div>
                 </div>
                 </#if>
