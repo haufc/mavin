@@ -59,7 +59,7 @@
     <#assign news = news>
 </div>
 <script>
-    var arr= <#list news as aNews>${aNews}<#list>
+    var arr= [<#list news as aNews>${aNews.title},<#list>]
     console.log(arr);
     $('.limit-text').each(function (f) {
       var newstr = $(this).text().substring(0,300);
