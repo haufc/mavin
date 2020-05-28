@@ -37,7 +37,7 @@
     </div>
     <div class="content__details container">
             <#list news as aNews>
-            <#if aNews.category = "field-mavinex">
+            <#if aNews.category = "field-news">
             <div class="row">
                 ${aNews.title}
             </div>
