@@ -19,7 +19,7 @@
                         <h3 style="color: #fff; padding-top: 20px;"  style="padding-top:9px;">${aNews.title}</h3>
                         <p style="color: #fff; padding-top: 10px;" class="limit-text" max-length="50">${aNews.content}<p></br>
                         <a class="mt-3 rounded-0" href="#"> 
-                            <span class="mr-1">Xem thêm</span>
+                            <span class="mr-1 text--italic" style="color:fff">Xem tiếp</span>
                             <i class="fa fa-play text--red"></i>
                         </a>
                     </div>
