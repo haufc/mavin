@@ -8,7 +8,6 @@
     <div class="row">    
       <li style="list-style-type: none; padding-left:10px;"><p class="text-white" style="font-size:14pt; font-weight:bold;"><span style="font-size:17pt;">-</span>  ${aNews.content}</p></li>    
     </div>
-    </#list>
     </ol>
     </#list>
 </div>
