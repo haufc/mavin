@@ -16,10 +16,9 @@
                 <#if aNews.category = "mavinex-news">
                 <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6" style="padding-left: 0px;">
                     <div>
-                        <img src="${aNews.image}" alt="Slide Image" class="img--full">
-
-                        <p class="text--italic text--white" style="padding-top:9px;">${aNews.title}</p>
-                        ${aNews.content}
+                        <img src="${aNews.image}" alt="" class="img--full">
+                        <h3 style="color: #fff"  style="padding-top:9px;">${aNews.title}</h3>
+                        <p>${aNews.content}<p>
                     </div>
                 </div>
                 </#if>
@@ -43,10 +42,9 @@
                 <#if aNews.category = "mavinex-news">
                 <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6" style="padding-left: 0px;">
                     <div>
-                        <img src="${aNews.image}" alt="Slide Image" class="img--full">
-
-                        <p class="text--italic text--white" style="padding-top:9px;">${aNews.title}</p>
-                        ${aNews.content}
+                        <img src="${aNews.image}" alt="" class="img--full">
+                        <h3 style="color: #fff"  style="padding-top:9px;">${aNews.title}</h3>
+                        <p>${aNews.content}<p>
                     </div>
                 </div>
                 </#if>
