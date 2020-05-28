@@ -11,10 +11,8 @@
     </div>
     <div class="content__details container">
         <div class="row data-container" id="demo">
-            <ul>
                 <#list news as aNews>
                 <#if aNews.category = "mavinex-news">
-                <li>
                 <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6" style="padding-left: 0px;">
                     <div>
                         <img src="${aNews.image}" alt="" class="img--full">
@@ -26,7 +24,6 @@
                         </a>
                     </div>
                 </div>
-                </li>
                 </#if>
                 </#list>
         </div>
@@ -65,17 +62,6 @@
       var newstr = $(this).text().substring(0,300);
       $(this).text(newstr).append("...");;
     });
-    $('#demo').pagination({
-    dataSource: news,
-    pageSize: 5,
-    showPrevious: false,
-    showNext: false,
-    callback: function(data, pagination) {
-        // template method of yourself
-        var html = template(data);
-        dataContainer.html(html);
-    }
-})
 </script>  
 
         
