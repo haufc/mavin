@@ -54,12 +54,10 @@
     </div>
 </div>
 <script>
-$(document).ready(function(){
   $('.limit-content').each(function (f) {
       var newstr = $(this).text().substring(0,50);
       $(this).text(newstr);
     });
-})
 </script>  
         
 <@studio.toolSupport />
