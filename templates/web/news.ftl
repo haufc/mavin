@@ -3,7 +3,7 @@
     <div class="content__title">
         <div class="container">
             <div class="row">
-                <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-12" style="padding-left: 0px;">
                   <h1 class="text--red text--uppercase">Tin Mavinex</h1>
                 </div>
             </div>
@@ -30,7 +30,7 @@
     <div class="content__title">
             <div class="container">
                 <div class="row">
-                        <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-12" style="padding-left: 0px;">
                           <h1 class="text--red text--uppercase">Tin ngành</h1>
                         </div>
                 </div>
