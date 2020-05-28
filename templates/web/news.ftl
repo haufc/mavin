@@ -18,7 +18,7 @@
                     <div>
                         <img src="${aNews.image}" alt="" class="img--full">
                         <h3 style="color: #fff; padding-top: 20px;"  style="padding-top:9px;">${aNews.title}</h3>
-                        <p style="color: #fff; padding-top: 10px;" class="limit-content" max-length="50">${aNews.content}<p>
+                        <span style="color: #fff; padding-top: 10px;" class="limit-content" max-length="50">${aNews.content}<span>
                     </div>
                 </div>
                 </#if>
@@ -56,7 +56,7 @@
 <script>
 $(document).ready(function(){
   $('.limit-content').each(function (f) {
-      var newstr = $(this).text().substring(0,20);
+      var newstr = $(this).text().substring(0,50);
       $(this).text(newstr);
     });
 })
