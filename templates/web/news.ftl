@@ -56,7 +56,7 @@
                 </#list>
         </div>
     </div>
-    <#assign news = "news">
+    <#assign news = news>
 </div>
 <script>
     console.log(news);
