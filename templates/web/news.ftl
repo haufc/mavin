@@ -10,21 +10,22 @@
         </div>
     </div>
     <div class="content__details container">
-        <#list news as aNews>
-        <#if aNews.category = "mavinex-news">
+        <div class="container-fluid">
         <div class="row">
-            ${aNews.title}
+                <#list news as aNews>
+                <#if aNews.category = "mavinex-news">
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6" style="padding-left: 0px;">
+                    <div>
+                        <img src="${aNews.image}" alt="Slide Image" class="img--full">
+
+                        <p class="text--italic text--white" style="padding-top:9px;">${aNews.title}</p>
+                        ${aNews.content}
+                    </div>
+                </div>
+                </#if>
+                </#list>
         </div>
-        <div class="row">
-        <i class="fas fa-play text--red" style="padding-top: 5px;"></i>
-        <p class="text-white" style="padding-left:10px; font-size:14pt; font-weight:bold;">${aNews.content}</p>
         </div>
-        <div class="row">
-        <i class="fas fa-play text--red" style="padding-top: 5px;"></i>
-        <img style=" padding-top:20px; " class="image-center img-responsive" src="${aNews.image!""}" >
-        </div>
-        </#if>
-        </#list>
     </div>
     <div class="content__title">
             <div class="container">
@@ -36,21 +37,22 @@
             </div>
     </div>
     <div class="content__details container">
-            <#list news as aNews>
-            <#if aNews.category = "field-news">
-            <div class="row">
-                ${aNews.title}
-            </div>
-            <div class="row">
-            <i class="fas fa-play text--red" style="padding-top: 5px;"></i>
-            <p class="text-white" style="padding-left:10px; font-size:14pt; font-weight:bold;">${aNews.content}</p>
-            </div>
-            <div class="row">
-            <i class="fas fa-play text--red" style="padding-top: 5px;"></i>
-            <img style=" padding-top:20px; " class="image-center img-responsive" src="${aNews.image!""}" >
-            </div>
-            </#if>
-            </#list>
+        <div class="container-fluid">
+        <div class="row">
+                <#list news as aNews>
+                <#if aNews.category = "mavinex-news">
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6" style="padding-left: 0px;">
+                    <div>
+                        <img src="${aNews.image}" alt="Slide Image" class="img--full">
+
+                        <p class="text--italic text--white" style="padding-top:9px;">${aNews.title}</p>
+                        ${aNews.content}
+                    </div>
+                </div>
+                </#if>
+                </#list>
+        </div>
+        </div>
     </div>
 </div>
     
