@@ -11,7 +11,7 @@
     </div>
     <div class="content__details container">
         <#list news as aNews>
-        <#if aNews.category = "Tin Mavinex">
+        <#if aNews.category = "mavinex-news">
         <div class="row">
             ${aNews.title}
         </div>
@@ -37,7 +37,7 @@
     </div>
     <div class="content__details container">
             <#list news as aNews>
-            <#if aNews.category = "Tin ngành">
+            <#if aNews.category = "field-mavinex">
             <div class="row">
                 ${aNews.title}
             </div>
