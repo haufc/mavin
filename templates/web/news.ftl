@@ -10,7 +10,6 @@
         </div>
     </div>
     <div class="content__details container">
-        <div class="container-fluid">
         <div class="row">
                 <#list news as aNews>
                 <#if aNews.category = "mavinex-news">
@@ -24,7 +23,6 @@
                 </#if>
                 </#list>
         </div>
-        </div>
     </div>
     <div class="content__title">
             <div class="container">
@@ -36,7 +34,6 @@
             </div>
     </div>
     <div class="content__details container">
-        <div class="container-fluid">
         <div class="row">
                 <#list news as aNews>
                 <#if aNews.category = "field-news">
@@ -49,7 +46,6 @@
                 </div>
                 </#if>
                 </#list>
-        </div>
         </div>
     </div>
 </div>
