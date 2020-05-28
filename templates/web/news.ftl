@@ -54,7 +54,7 @@
     </div>
 </div>
 <script>
-  $('.limit-text').each(function (f) {
+    $('.limit-text').each(function (f) {
       var newstr = $(this).text().substring(0,50);
       $(this).text(newstr);
     });
