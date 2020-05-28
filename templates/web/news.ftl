@@ -44,7 +44,7 @@
                     <div>
                         <img src="${aNews.image}" alt="" class="img--full">
                         <h3 style="color: #fff; padding-top: 20px;"  style="padding-top:9px;">${aNews.title}</h3>
-                        <p style="color: #fff; padding-top: 10px;">${aNews.content}<p>
+                        <p style="color: #fff; padding-top: 10px;" class="limit-text">${aNews.content}<p>
                     </div>
                 </div>
                 </#if>
