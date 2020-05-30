@@ -56,7 +56,6 @@
                 </#list>
         </div>
     </div>
-    <#list news as aNews>${aNews}</#list>
 </div>
 <script>
     $('.limit-text').each(function (f) {
