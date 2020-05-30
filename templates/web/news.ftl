@@ -12,10 +12,6 @@
     <nav aria-label="Page navigation example">
           <ul class="pagination">
             <li class="page-item"><a class="page-link" href="#">Previous</a></li>
-            <li class="page-item"><a class="page-link" href="#">1</a></li>
-            <li class="page-item"><a class="page-link" href="#">2</a></li>
-            <li class="page-item"><a class="page-link" href="#">3</a></li>
-            <li class="page-item"><a class="page-link" href="#">Next</a></li>
           </ul>
     </nav>
     <div class="content__details container">
@@ -86,6 +82,9 @@
     let numberOfMavinexNews = $("#mavinex-news .mavinex").length;
     let limitPerPage = 2;
     $("#mavinex-news .mavinex:gt(" + (limitPerPage -1 )+")").hide();
- 
+    let totalPage = Math.round(numberOfMavinexNews / limitPerPage );
+    $('.pagination').append("<li><a href='#1'>" + 1 +" </a></li>")
+    
+    $('.pagination').append("<li><a class="page-link" href="#">Next</a></li>")
 </script>  
 <@studio.toolSupport />
