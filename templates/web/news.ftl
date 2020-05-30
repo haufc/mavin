@@ -19,7 +19,7 @@
           </ul>
     </nav>
     <div class="content__details container">
-        <div class="row data-container" id="demo">
+        <div class="row data-container" id="mavinex-news">
                 <#list news as aNews>
                 <#if aNews.category = "mavinex-news">
                 <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6" style="padding-left: 0px;">
