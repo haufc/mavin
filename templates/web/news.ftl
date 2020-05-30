@@ -57,6 +57,7 @@
                 
         </div>
     </div>
+
 </div>
 <script>
     $('.limit-text').each(function (f) {
@@ -64,7 +65,9 @@
       $(this).text(newstr).append("...");
     });
     
-    
+    var test = {};
+    <#assign JavaObj = news>
+    console.log('test');
  
 </script>  
 <@studio.toolSupport />
