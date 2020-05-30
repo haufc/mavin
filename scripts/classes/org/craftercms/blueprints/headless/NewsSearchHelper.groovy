@@ -9,7 +9,7 @@ import org.elasticsearch.search.sort.FieldSortBuilder
 import org.elasticsearch.search.sort.SortOrder
 
 class NewsSearchHelper{
-    static final String NEWS_CONTENT_TYPE_1 ="content-type:\"/page/newsdetail\" AND  categories.item.key :"mavinex-news" "
+    static final String NEWS_CONTENT_TYPE_1 ="content-type:\"/page/newsdetail\" "
     static final int DEFAULT_START = 0
     static final int DEFAULT_ROWS  = 1000
     
