@@ -90,6 +90,6 @@
     let totalPage = Math.round(numberOfMavinexNews / limitPerPage );
     $('.pagination').append("<li><a href='#'>" + 1 +" </a></li>");
     
-    $('.pagination').append("<li><a class="page-link" href="#">Next</a></li>");
+    $('.pagination').append("<li><a class='page-link' href='#'>Next</a></li>");
 </script>  
 <@studio.toolSupport />
