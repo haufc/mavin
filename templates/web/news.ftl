@@ -65,8 +65,8 @@
       $(this).text(newstr).append("...");
     });
     
-    var test = {};
-    <#assign test = news>
+    var test = [<#list news as aNews>aNews</#list>]
+
     console.log(test);
  
 </script>  
