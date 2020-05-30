@@ -59,7 +59,7 @@
 </div>
 <script>
     $('.limit-text').each(function (f) {
-      var newstr = $(this).text().substring(0,300);
+      var newstr = $(this).text().substring(0,200);
       $(this).text(newstr).append("...");;
     });
     
