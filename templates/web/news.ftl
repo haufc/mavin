@@ -82,10 +82,6 @@
       var newstr = $(this).text().substring(0,300);
       $(this).text(newstr).append("...");
     });
-    
-    var test = [<#list news as aNews>${aNews.title}</#list>]
-
-    console.log(test);
  
 </script>  
 <@studio.toolSupport />
