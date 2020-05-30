@@ -65,7 +65,7 @@
       $(this).text(newstr).append("...");
     });
     
-    var test = [<#list news as aNews>aNews</#list>]
+    var test = [<#list news as aNews>${aNews}</#list>]
 
     console.log(test);
  
