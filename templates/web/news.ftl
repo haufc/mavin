@@ -66,8 +66,8 @@
     });
     
     var test = {};
-    <#assign JavaObj = news>
-    console.log('test');
+    <#assign test = news>
+    console.log(test);
  
 </script>  
 <@studio.toolSupport />
