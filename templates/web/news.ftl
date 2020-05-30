@@ -21,7 +21,7 @@
     <div class="content__details container">
         <div class="row data-container" id="mavinex-news">
                 <#list news as aNews>
-                <#if aNews.category = "mavinex-news">
+                
                 <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 mavinex" style="padding-left: 0px;">
                     <div>
                         <img src="${aNews.image}" alt="" class="img--full">
@@ -33,7 +33,7 @@
                         </a>
                     </div>
                 </div>
-                </#if>
+                
                 </#list>
         </div>
     </div>
@@ -82,6 +82,10 @@
       var newstr = $(this).text().substring(0,300);
       $(this).text(newstr).append("...");
     });
+    
+    let numberOfMavinexNews = $("#mavinex-news .mavinex").length;
+    let limitPerPage = 2;
+    $("#mavinex-news .mavinex:gt(" + (limitPerPage -1 )+")").hide();
  
 </script>  
 <@studio.toolSupport />
