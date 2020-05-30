@@ -9,7 +9,7 @@ import org.elasticsearch.search.sort.FieldSortBuilder
 import org.elasticsearch.search.sort.SortOrder
 
 class NewsSearchHelper{
-    static final String NEWS_CONTENT_TYPE_QUERY ="content-type:\"/page/newsdetail\"" 
+    static final String NEWS_CONTENT_TYPE_1 ="content-type:\"/page/newsdetail\" AND  categories_o.item.key :"mavinex-news" "
     static final int DEFAULT_START = 0
     static final int DEFAULT_ROWS  = 1000
     
@@ -22,7 +22,7 @@ class NewsSearchHelper{
     }
     
     def searchNews(categories, start = DEFAULT_START, rows = DEFAULT_ROWS, additionalCriteria = null){
-        def q = "${NEWS_CONTENT_TYPE_QUERY}"
+        def q = "${NEWS_CONTENT_TYPE_1}"
         if(categories){
             def categoriesQuery = getFieldQueryWithMultipleValues("categories_o.item.key",categories)
             q = "${q} AND ${categoriesQuery}"
