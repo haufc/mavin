@@ -88,8 +88,8 @@
     let limitPerPage = 2;
     $("#mavinex-news .mavinex:gt(" + (limitPerPage -1 )+")").hide();
     let totalPage = Math.round(numberOfMavinexNews / limitPerPage );
-    $('.pagination').append("<li><a href='#'>" + 1 +" </a></li>");
+    $('.pagination').append("<li class='page-item'><a class='page-link' href='#'>"+ 1+"</a></li>");
     
-    $('.pagination').append("<li><a class='page-link' href='#'>Next</a></li>");
+    $('.pagination').append("<li class='page-item'><a class='page-link' href='#'>Next</a></li>");
 </script>  
 <@studio.toolSupport />
