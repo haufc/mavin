@@ -9,10 +9,15 @@
             </div>
         </div>
     </div>
-    <nav aria-label=...>
-      <ul class=pagination>
-        <li id="previous-page"><a href="javascript:void(0)" aria-label=Previous><span aria-hidden=true>&laquo;</span></a></li>
-      </ul>
+    <nav aria-label="Page navigation example">
+          <ul class="pagination">
+            <li class="page-item">
+              <a class="page-link" href="#" aria-label="Previous">
+                <span aria-hidden="true">&laquo;</span>
+              </a>
+            </li>
+
+          </ul>
     </nav>
     <div class="content__details container">
         <div class="row data-container" id="mavinex-news">
