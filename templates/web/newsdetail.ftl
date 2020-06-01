@@ -33,9 +33,9 @@
             <img style=" padding-top:20px; " class="image-center img-responsive" src="${contentModel.image_s!""}" >
             <div style="color: #00549a; font-size: 16px; padding-top:30px;">${contentModel.content_html}</div>
             <a class="mt-3 rounded-0" onclick="goBack()"> 
-                            <span class="mr-1 text--italic" style="color:#fff">Xem tiếp</span>
+                            <span class="mr-1 text--italic">Quay lại</span>
                             <i class="fa fa-play text--red"></i>
-                        </a>
+            </a>
 
         </div>
         
