@@ -101,7 +101,7 @@
             $("#mavinex-news .mavinex").hide();
             var total = limitPerPage * currentPage;
             for(let i = total - limitPerPage; i<total; i++){
-                $("#mavinex-news .mavinex:eq("+ i -1 +")").show();
+                $("#mavinex-news .mavinex:eq("+ i +")").show();
             }
         }
     });
