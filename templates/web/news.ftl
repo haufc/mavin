@@ -109,8 +109,10 @@
     $("#next-page").on("click", function() {
       var currentPage = $(".pagination li.active").index(); 
       if (currentPage === totalPages) {
+        alert('1');
         return false; 
       } else {
+        alert('2');
         currentPage++; 
         $(".pagination li").removeClass('active'); 
         $("#mavinex-news .mavinex").hide();
