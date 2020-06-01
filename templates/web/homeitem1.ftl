@@ -62,4 +62,10 @@
       </div>
 
     </#if>
+    <script>
+        $('.order-1').each(function (f) {
+      var newstr = $(this).text().substring(0,500);
+      $(this).text(newstr).append("...");
+    });
+    </script>
 <@studio.toolSupport />
