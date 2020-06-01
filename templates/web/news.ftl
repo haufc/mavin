@@ -108,15 +108,14 @@
     
     $("#next-page").on("click", function() {
       var currentPage = $(".pagination li.active").index(); 
-      alert(currentPage);
       if (currentPage === totalPages) {
         return false; 
       } else {
         currentPage++; 
         $(".pagination li").removeClass('active'); 
         $("#mavinex-news .mavinex").hide(); 
-        var grandTotal = limitPerPage * currentPage; 
-        for (let i = grandTotal - limitPerPage; i < grandTotal; i++) {
+        var total = limitPerPage * currentPage; 
+        for (let i = total - limitPerPage; i < total; i++) {
           $("#mavinex-news .mavinex:eq(" + i + ")").show(); 
         }
     
