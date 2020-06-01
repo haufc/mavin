@@ -116,12 +116,12 @@
         currentPage++; 
         $(".pagination li").removeClass('active'); 
         $("#mavinex-news .mavinex").hide();
-        //var total = limitPerPage * currentPage; 
-        //for (let i = total - limitPerPage; i < total; i++) {
-        //  $("#mavinex-news .mavinex:eq(" + i + ")").show(); 
-        //}
+        var total = limitPerPage * currentPage; 
+        for (let i = total - limitPerPage; i < total; i++) {
+          $("#mavinex-news .mavinex:eq(" + i + ")").show(); 
+        }
     
-        //$(".pagination li.current-page:eq(" + (currentPage - 1) + ")").addClass('active'); 
+        $(".pagination li.current-page:eq(" + (currentPage - 1) + ")").addClass('active'); 
       }
     });
 
