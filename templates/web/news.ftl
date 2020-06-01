@@ -85,10 +85,15 @@
     var numberOfMavinexNews = $("#mavinex-news .mavinex").length;
     var limitPerPage = 2;
     $("#mavinex-news .mavinex:gt(" + (limitPerPage -1 )+")").hide();
-    var totalPages = Math.round(numberOfMavinexNews / limitPerPage );
+    var totalPages1 = Math.round(numberOfMavinexNews / limitPerPage );
+    var totalPages2 = Math.round(numberOfFieldsNews / limitPerPage );
     $('.pagination').append("<li class='page-item current-page active'><a class='page-link' href='javacript:void(0)'>"+ 1+"</a></li>");
     
-    for (let i=2; i<= totalPages;i++){
+    for (let i=2; i<= totalPages1;i++){
+        $(".pagination").append("<li class='page-item current-page'><a class='page-link' href='javascript:void(0)'>"+ i +"</a></li>");
+    }
+    
+    for (let i=2; i<= totalPages2;i++){
         $(".pagination").append("<li class='page-item current-page'><a class='page-link' href='javascript:void(0)'>"+ i +"</a></li>");
     }
     
