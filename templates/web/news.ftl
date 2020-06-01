@@ -100,7 +100,7 @@
     }
     
     $('.pagi1').append("<li id='next-page1' class='page-item'><a class='page-link' href='javascript:void(0)'><span class='fas fa-angle-right'></a></li>");
-    $('.pagi2').append("<li id='next-page1' class='page-item'><a class='page-link' href='javascript:void(0)'><span class='fas fa-angle-right'></a></li>");
+    $('.pagi2').append("<li id='next-page2' class='page-item'><a class='page-link' href='javascript:void(0)'><span class='fas fa-angle-right'></a></li>");
     
     
     $('.pagi1 li.current-page').on("click", function(){
@@ -151,5 +151,54 @@
             $(".pagi1 li.current-page:eq(" + (currentPage - 1) + ")").addClass('active'); 
           }
         });
+        
+    $('.pagi2 li.current-page').on("click", function(){
+        if($(this).hasClass("active")){
+            return false;
+        } else{
+            var currentPage = $(this).index();
+            $('.pagi2 li').removeClass("active");
+            $(this).addClass("active");
+            $("#field-news .fields").hide();
+            var total = limitPerPage * currentPage;
+            for(let i = total - limitPerPage; i<total; i++){
+                $("#field-news .fields:eq("+ i +")").show();
+            }
+        }
+    });
+    
+    $("#next-page2").on("click", function() {
+      var currentPage = $(".pagi2 li.active").index(); 
+      if (currentPage === totalPages2) {
+        return false; 
+      } else {
+        currentPage++; 
+        $(".pagi2 li").removeClass('active'); 
+        $("#field-news .fields").hide();
+        var total = limitPerPage * currentPage; 
+        for (let i = total - limitPerPage; i < total; i++) {
+          $("#field-news .fields:eq(" + i + ")").show(); 
+        }
+    
+        $(".pagi2 li.current-page:eq(" + (currentPage -1) + ")").addClass('active'); 
+      }
+    });
+
+
+    $("#previous-page2").on("click", function() {
+          var currentPage = $(".pagi2 li.active").index(); 
+          if (currentPage === 1) {
+            return false; 
+          } else {
+            currentPage--; 
+            $(".pagi2 li").removeClass('active'); 
+            $("#field-news .fields").hide();
+            var grandTotal = limitPerPage * currentPage; 
+            for (var i = grandTotal - limitPerPage; i < grandTotal; i++) {
+              $("#field-news .fields:eq(" + i + ")").show();
+            }
+            $(".pagi2 li.current-page:eq(" + (currentPage - 1) + ")").addClass('active'); 
+          }
+        });    
 </script>  
 <@studio.toolSupport />
