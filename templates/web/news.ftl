@@ -90,6 +90,7 @@
         $(".pagination").append("<li class='page-item'><a class='page-link' href='#'>"+ i +"</a></li>");
     }
     
+    $('.pagination').append("<li class='page-item'><a class='page-link' href='#'>Next</a></li>");
     
     //$('.pagination').append("<li class='page-item'><a class='page-link' href='#'>Next</a></li>");
 </script>  
