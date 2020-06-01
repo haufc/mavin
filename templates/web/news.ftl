@@ -62,7 +62,7 @@
                 
         </div>
         <nav aria-label="Page navigation example">
-          <ul class="pagination2 justify-content-center">
+          <ul class="pagination justify-content-center">
             <li id="previous-page2" class="page-item"><a class="page-link" href="javacript:void(0)"><span class="fas fa-angle-left"></a></li>
           </ul>
         </nav>
