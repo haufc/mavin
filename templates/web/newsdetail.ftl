@@ -32,7 +32,7 @@
             <h3 class="" style="color: #00549a; padding-top:20px;" >${contentModel.title_s}</h3>
             <img style=" padding-top:20px; " class="image-center img-responsive" src="${contentModel.image_s!""}" >
             <div style="color: #00549a; font-size: 16px; padding-top:30px;">${contentModel.content_html}</div>
-            <a class="mt-3 rounded-0" onclick="goBack()">                 
+            <a class="mt-3 rounded-0" href="/tin-tuc">                 
             <i class="fas fa-angle-left text--red"></i>
             <span class="mr-1 text--italic" style="color: #00549a;">Quay lại trang tin tức</span>
             </a>
