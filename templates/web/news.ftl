@@ -96,10 +96,11 @@
         if($(this).hasClass("active")){
             return false;
         } else{
-            let currentPage = $(this).index();
-            $("pagination li").removeClass("active");
-            $(this).addClass("active");
-            $("#mavinex-news .mavinex").hide();
+            var currentPage = $(this).index();
+            alert(currentPage);
+        //    $("pagination li").removeClass("active");
+          //  $(this).addClass("active");
+        //    $("#mavinex-news .mavinex").hide();
         }
     });
     //$('.pagination').append("<li class='page-item'><a class='page-link' href='#'>Next</a></li>");
