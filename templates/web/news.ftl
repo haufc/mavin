@@ -109,11 +109,10 @@
     $("#next-page").on("click", function() {
       var currentPage = $(".pagination li.active").index(); 
       if (currentPage === totalPages) {
-        alert("ABC");
         return false; 
       } else {
-        alert("ABC");
         currentPage++; 
+        alert(currentPage);
         $(".pagination li").removeClass('active'); 
         $("#mavinex-news .mavinex").hide();
         var total = limitPerPage * currentPage; 
