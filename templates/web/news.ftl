@@ -73,6 +73,11 @@
     </div>
 
 </div>
+<style>
+.page-link{
+    border-radius :50%;
+}
+</style>
 <script>
     $('.limit-text').each(function (f) {
       var newstr = $(this).text().substring(0,300);
