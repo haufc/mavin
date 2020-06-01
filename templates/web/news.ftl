@@ -89,7 +89,7 @@
         $(".pagination").append("<li class='page-item current-page'><a class='page-link' href='javascript:void(0)'>"+ i +"</a></li>");
     }
     
-    $('.pagination').append("<li id="next-page" class='page-item'><a class='page-link' href='javascript:void(0)'>Next</a></li>");
+    $('.pagination').append("<li id='next-page' class='page-item'><a class='page-link' href='javascript:void(0)'>Next</a></li>");
     
     $('.pagination li.current-page').on("click", function(){
         if($(this).hasClass("active")){
