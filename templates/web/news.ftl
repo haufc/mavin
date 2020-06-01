@@ -94,7 +94,7 @@
     }
     
     for (let i=2; i<= totalPages2;i++){
-        $(".pagi1").append("<li class='page-item current-page'><a class='page-link' href='javascript:void(0)'>"+ i +"</a></li>");
+        $(".pagi2").append("<li class='page-item current-page'><a class='page-link' href='javascript:void(0)'>"+ i +"</a></li>");
     }
     
     $('.pagination').append("<li id='next-page' class='page-item'><a class='page-link' href='javascript:void(0)'><span class='fas fa-angle-right'></a></li>");
@@ -120,7 +120,7 @@
         return false; 
       } else {
         currentPage++; 
-        $(".pagination li").removeClass('active'); 
+        $(".pagi1 li").removeClass('active'); 
         $("#mavinex-news .mavinex").hide();
         var total = limitPerPage * currentPage; 
         for (let i = total - limitPerPage; i < total; i++) {
@@ -133,7 +133,7 @@
 
 
     $("#previous-page1").on("click", function() {
-          var currentPage = $(".pagination li.active").index(); 
+          var currentPage = $(".pagi1 li.active").index(); 
           if (currentPage === 1) {
             return false; 
           } else {
