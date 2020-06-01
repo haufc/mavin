@@ -120,7 +120,7 @@
           $("#mavinex-news .mavinex:eq(" + i + ")").show(); 
         }
     
-        $(".pagination li.current-page:eq(" + (currentPage - 1) + ")").addClass('active'); 
+        $(".pagination li.current-page:eq(" + (currentPage) + ")").addClass('active'); 
       }
     });
 
