@@ -87,8 +87,8 @@
     $("#mavinex-news .mavinex:gt(" + (limitPerPage -1 )+")").hide();
     var totalPages1 = Math.round(numberOfMavinexNews / limitPerPage );
     var totalPages2 = Math.round(numberOfFieldsNews / limitPerPage );
-    $('.pagination').append("<li class='page-item current-page active'><a class='page-link' href='javacript:void(0)'>"+ 1+"</a></li>");
-    
+    $('.pagi1').append("<li class='page-item current-page active'><a class='page-link' href='javacript:void(0)'>"+ 1+"</a></li>");
+    $('.pagi1').append("<li class='page-item current-page active'><a class='page-link' href='javacript:void(0)'>"+ 1+"</a></li>");
     for (let i=2; i<= totalPages1;i++){
         $(".pagi1").append("<li class='page-item current-page'><a class='page-link' href='javascript:void(0)'>"+ i +"</a></li>");
     }
@@ -97,8 +97,8 @@
         $(".pagi2").append("<li class='page-item current-page'><a class='page-link' href='javascript:void(0)'>"+ i +"</a></li>");
     }
     
-    $('.pagination').append("<li id='next-page1' class='page-item'><a class='page-link' href='javascript:void(0)'><span class='fas fa-angle-right'></a></li>");
-    
+    $('.pagi1').append("<li id='next-page1' class='page-item'><a class='page-link' href='javascript:void(0)'><span class='fas fa-angle-right'></a></li>");
+    $('.pagi2').append("<li id='next-page1' class='page-item'><a class='page-link' href='javascript:void(0)'><span class='fas fa-angle-right'></a></li>");
     $('.pagi1 li.current-page').on("click", function(){
         if($(this).hasClass("active")){
             return false;
