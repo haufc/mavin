@@ -96,7 +96,7 @@
             return false;
         } else{
             var currentPage = $(this).index();
-            $("pagination li").removeClass("active");
+            $('.pagination li').removeClass("active");
             $(this).addClass("active");
             $("#mavinex-news .mavinex").hide();
         }
