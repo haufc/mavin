@@ -82,10 +82,10 @@
     var numberOfMavinexNews = $("#mavinex-news .mavinex").length;
     var limitPerPage = 2;
     $("#mavinex-news .mavinex:gt(" + (limitPerPage -1 )+")").hide();
-    var totalPage = Math.round(numberOfMavinexNews / limitPerPage );
+    var totalPages = Math.round(numberOfMavinexNews / limitPerPage );
     $('.pagination').append("<li class='page-item current-page active'><a class='page-link' href='javacript:void(0)'>"+ 1+"</a></li>");
     
-    for (let i=2; i<= totalPage;i++){
+    for (let i=2; i<= totalPages;i++){
         $(".pagination").append("<li class='page-item current-page'><a class='page-link' href='javascript:void(0)'>"+ i +"</a></li>");
     }
     
