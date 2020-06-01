@@ -11,13 +11,13 @@
     </div>
     <nav aria-label="Page navigation example">
           <ul class="pagination">
-            <li class="page-item"><a class="page-link" href="javacript:void(0)">Previous</a></li>
+            <li id="previous-page" class="page-item"><a class="page-link" href="javacript:void(0)">Previous</a></li>
           </ul>
     </nav>
     <div class="content__details container">
         <div class="row data-container" id="mavinex-news">
                 <#list news as aNews>
-                <#if aNews.category = "mavinex-news">
+              
                 <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 mavinex" style="padding-left: 0px;">
                     <div>
                         <img src="${aNews.image}" alt="" class="img--full">
@@ -29,7 +29,7 @@
                         </a>
                     </div>
                 </div>
-                </#if>
+                
                 </#list>
         </div>
     </div>
@@ -89,7 +89,7 @@
         $(".pagination").append("<li class='page-item current-page'><a class='page-link' href='javascript:void(0)'>"+ i +"</a></li>");
     }
     
-    $('.pagination').append("<li class='page-item'><a class='page-link' href='javascript:void(0)'>Next</a></li>");
+    $('.pagination').append("<li id="next-page" class='page-item'><a class='page-link' href='javascript:void(0)'>Next</a></li>");
     
     $('.pagination li.current-page').on("click", function(){
         if($(this).hasClass("active")){
