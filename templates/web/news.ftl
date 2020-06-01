@@ -29,7 +29,7 @@
         </div>
         <nav aria-label="Page navigation example">
           <ul class="pagination pagi1 justify-content-center">
-            <li id="previous-page" class="page-item"><a class="page-link" href="javacript:void(0)"><span class="fas fa-angle-left"></a></li>
+            <li id="previous-page1" class="page-item"><a class="page-link" href="javacript:void(0)"><span class="fas fa-angle-left"></a></li>
           </ul>
         </nav>
     </div>
@@ -90,21 +90,21 @@
     $('.pagination').append("<li class='page-item current-page active'><a class='page-link' href='javacript:void(0)'>"+ 1+"</a></li>");
     
     for (let i=2; i<= totalPages1;i++){
-        $(".pagination").append("<li class='page-item current-page'><a class='page-link' href='javascript:void(0)'>"+ i +"</a></li>");
+        $(".pagi1").append("<li class='page-item current-page'><a class='page-link' href='javascript:void(0)'>"+ i +"</a></li>");
     }
     
     for (let i=2; i<= totalPages2;i++){
-        $(".pagination").append("<li class='page-item current-page'><a class='page-link' href='javascript:void(0)'>"+ i +"</a></li>");
+        $(".pagi1").append("<li class='page-item current-page'><a class='page-link' href='javascript:void(0)'>"+ i +"</a></li>");
     }
     
     $('.pagination').append("<li id='next-page' class='page-item'><a class='page-link' href='javascript:void(0)'><span class='fas fa-angle-right'></a></li>");
     
-    $('.pagination li.current-page').on("click", function(){
+    $('.pagi1 li.current-page').on("click", function(){
         if($(this).hasClass("active")){
             return false;
         } else{
             var currentPage = $(this).index();
-            $('.pagination li').removeClass("active");
+            $('.pagi1 li').removeClass("active");
             $(this).addClass("active");
             $("#mavinex-news .mavinex").hide();
             var total = limitPerPage * currentPage;
@@ -114,7 +114,7 @@
         }
     });
     
-    $("#next-page").on("click", function() {
+    $("#next-page1").on("click", function() {
       var currentPage = $(".pagination li.active").index(); 
       if (currentPage === totalPages) {
         return false; 
@@ -127,24 +127,24 @@
           $("#mavinex-news .mavinex:eq(" + i + ")").show(); 
         }
     
-        $(".pagination li.current-page:eq(" + (currentPage -1) + ")").addClass('active'); 
+        $(".pagi1 li.current-page:eq(" + (currentPage -1) + ")").addClass('active'); 
       }
     });
 
 
-    $("#previous-page").on("click", function() {
+    $("#previous-page1").on("click", function() {
           var currentPage = $(".pagination li.active").index(); 
           if (currentPage === 1) {
             return false; 
           } else {
             currentPage--; 
-            $(".pagination li").removeClass('active'); 
+            $(".pagi1 li").removeClass('active'); 
             $("#mavinex-news .mavinex").hide();
             var grandTotal = limitPerPage * currentPage; 
             for (var i = grandTotal - limitPerPage; i < grandTotal; i++) {
               $("#mavinex-news .mavinex:eq(" + i + ")").show();
             }
-            $(".pagination li.current-page:eq(" + (currentPage - 1) + ")").addClass('active'); 
+            $(".pagi1 li.current-page:eq(" + (currentPage - 1) + ")").addClass('active'); 
           }
         });
 </script>  
