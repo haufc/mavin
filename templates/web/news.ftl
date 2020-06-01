@@ -28,7 +28,7 @@
                 </#list>
         </div>
         <nav aria-label="Page navigation example">
-          <ul class="pagination">
+          <ul class="pagination justify-content-center">
             <li id="previous-page" class="page-item"><a class="page-link" href="javacript:void(0)">Previous</a></li>
           </ul>
     </nav>
