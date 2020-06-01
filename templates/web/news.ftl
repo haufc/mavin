@@ -29,7 +29,7 @@
                         </a>
                     </div>
                 </div>
-                
+                </#if>
                 </#list>
         </div>
     </div>
