@@ -9,11 +9,6 @@
             </div>
         </div>
     </div>
-    <nav aria-label="Page navigation example">
-          <ul class="pagination">
-            <li id="previous-page" class="page-item"><a class="page-link" href="javacript:void(0)">Previous</a></li>
-          </ul>
-    </nav>
     <div class="content__details container">
         <div class="row data-container" id="mavinex-news">
                 <#list news as aNews>
@@ -32,6 +27,11 @@
                 
                 </#list>
         </div>
+        <nav aria-label="Page navigation example">
+          <ul class="pagination">
+            <li id="previous-page" class="page-item"><a class="page-link" href="javacript:void(0)">Previous</a></li>
+          </ul>
+    </nav>
     </div>
     <div class="content__title">
             <div class="container">
