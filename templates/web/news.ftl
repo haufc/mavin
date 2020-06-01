@@ -18,7 +18,7 @@
                         <img src="${aNews.image}" alt="" class="img--full">
                         <h3 style="color: #fff; padding-top: 20px;"  style="padding-top:9px;">${aNews.title}</h3>
                         <p style="color: #fff; padding-top: 10px;" class="limit-text" max-length="50">${aNews.content}<p>
-                        <a class="mt-3 rounded-0" href="#"> 
+                        <a class="mt-3 rounded-0" href="${aNews.url}"> 
                             <span class="mr-1 text--italic" style="color:#fff">Xem tiếp</span>
                             <i class="fa fa-play text--red"></i>
                         </a>
@@ -51,7 +51,7 @@
                         <img src="${aNews.image}" alt="" class="img--full">
                         <h3 style="color: #fff; padding-top: 20px;"  style="padding-top:9px;">${aNews.title}</h3>
                         <p style="color: #fff; padding-top: 10px;" class="limit-text">${aNews.content}<p>
-                        <a class="mt-3 rounded-0" href="#"> 
+                        <a class="mt-3 rounded-0" href="${aNews.url}"> 
                             <span class="mr-1 text--italic" style="color:#fff">Xem tiếp</span>
                             <i class="fa fa-play text--red"></i>
                         </a>
