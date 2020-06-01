@@ -43,8 +43,8 @@
                 </div>
             </div>
     </div>
-    <nav aria-label="Page navigation example">
-          <ul class="pagination">
+    <nav aria-label="field-news navigation">
+          <ul class="pagination2">
             <li class="page-item"><a class="page-link" href="#">Previous</a></li>
             <li class="page-item"><a class="page-link" href="#">1</a></li>
             <li class="page-item"><a class="page-link" href="#">2</a></li>
@@ -84,7 +84,7 @@
     let limitPerPage = 2;
     $("#mavinex-news .mavinex:gt(" + (limitPerPage -1 )+")").hide();
     let totalPage = Math.round(numberOfMavinexNews / limitPerPage );
-    $('.pagination').append("<li class='page-item'><a class='page-link' href='#'>"+ 1+"</a></li>");
+    $('.pagination').append("<li class='page-item current-page active'><a class='page-link' href='#'>"+ 1+"</a></li>");
     
     for (let i=2; i<= totalPage;i++){
         $(".pagination").append("<li class='page-item'><a class='page-link' href='#'>"+ i +"</a></li>");
