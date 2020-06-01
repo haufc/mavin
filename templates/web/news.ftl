@@ -12,7 +12,6 @@
     <nav aria-label="Page navigation example">
           <ul class="pagination">
             <li class="page-item"><a class="page-link" href="#">Previous</a></li>
-
           </ul>
     </nav>
     <div class="content__details container">
@@ -80,10 +79,10 @@
       $(this).text(newstr).append("...");
     });
     
-    let numberOfMavinexNews = $("#mavinex-news .mavinex").length;
-    let limitPerPage = 2;
+    var numberOfMavinexNews = $("#mavinex-news .mavinex").length;
+    var limitPerPage = 2;
     $("#mavinex-news .mavinex:gt(" + (limitPerPage -1 )+")").hide();
-    let totalPage = Math.round(numberOfMavinexNews / limitPerPage );
+    var totalPage = Math.round(numberOfMavinexNews / limitPerPage );
     $('.pagination').append("<li class='page-item current-page active'><a class='page-link' href='#'>"+ 1+"</a></li>");
     
     for (let i=2; i<= totalPage;i++){
