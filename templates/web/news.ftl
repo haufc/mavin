@@ -87,7 +87,7 @@
     $('.pagination').append("<li class='page-item current-page active'><a class='page-link' href='#'>"+ 1+"</a></li>");
     
     for (let i=2; i<= totalPage;i++){
-        $(".pagination").append("<li class='page-item'><a class='page-link' href='#'>"+ i +"</a></li>");
+        $(".pagination").append("<li class='page-item current-page'><a class='page-link' href='#'>"+ i +"</a></li>");
     }
     
     $('.pagination').append("<li class='page-item'><a class='page-link' href='#'>Next</a></li>");
