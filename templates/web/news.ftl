@@ -108,6 +108,7 @@
     
     $("#next-page").on("click", function() {
       var currentPage = $(".pagination li.active").index(); 
+      alert(currentPage);
       if (currentPage === totalPages) {
         return false; 
       } else {
@@ -126,7 +127,6 @@
 
     $("#previous-page").on("click", function() {
           var currentPage = $(".pagination li.active").index(); 
-          alert(currentPage);
           if (currentPage === 1) {
             return false; 
           } else {
