@@ -113,7 +113,7 @@
       } else {
         currentPage++; 
         $(".pagination li").removeClass('active'); 
-        $("#mavinex-news .mavinex").hide(); 
+        $("#mavinex-news .mavinex").hide();
         //var total = limitPerPage * currentPage; 
         //for (let i = total - limitPerPage; i < total; i++) {
         //  $("#mavinex-news .mavinex:eq(" + i + ")").show(); 
@@ -131,7 +131,7 @@
           } else {
             currentPage--; 
             $(".pagination li").removeClass('active'); 
-            $("#page .list-group").hide(); 
+            $("#mavinex-news .mavinex").hide();
             var grandTotal = limitPerPage * currentPage; 
             for (var i = grandTotal - limitPerPage; i < grandTotal; i++) {
               $("#mavinex-news .mavinex:eq(" + i + ")").show();
