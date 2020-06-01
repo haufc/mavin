@@ -99,6 +99,10 @@
             $('.pagination li').removeClass("active");
             $(this).addClass("active");
             $("#mavinex-news .mavinex").hide();
+            var total = limitPerPage + currentPage;
+            for(let i = total - limitPerPage; i<total; i++){
+                $("#mavinex-news .mavinex:eq("+ i +")").show();
+            }
         }
     });
     //$('.pagination').append("<li class='page-item'><a class='page-link' href='#'>Next</a></li>");
