@@ -112,7 +112,6 @@
         return false; 
       } else {
         currentPage++; 
-        alert(currentPage);
         $(".pagination li").removeClass('active'); 
         $("#mavinex-news .mavinex").hide();
         var total = limitPerPage * currentPage; 
