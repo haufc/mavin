@@ -75,7 +75,7 @@
 </div>
 <style>
 .page-link{
-    border-radius :50%;
+    border-radius :50%; !important
 }
 </style>
 <script>
