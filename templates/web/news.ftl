@@ -92,7 +92,7 @@
     
     $('.pagination').append("<li class='page-item'><a class='page-link' href='#'>Next</a></li>");
     
-    $('pagination li.current-page').on("click", function()){
+    $('pagination li.current-page').on("click", function(){
         if($(this).hasClass("active"){
             return false;
         } else{
@@ -101,7 +101,7 @@
             $(this).addClass("active");
             $("#mavinex-news .mavinex").hide();
         }
-    }
+    });
     //$('.pagination').append("<li class='page-item'><a class='page-link' href='#'>Next</a></li>");
 </script>  
 <@studio.toolSupport />
