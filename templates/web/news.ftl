@@ -29,7 +29,7 @@
         </div>
         <nav aria-label="Page navigation example">
           <ul class="pagination justify-content-center">
-            <li id="previous-page" class="page-item"><a class="page-link" href="javacript:void(0)">Previous</a></li>
+            <li id="previous-page" class="page-item"><a  href="javacript:void(0)">Previous</a></li>
           </ul>
     </nav>
     </div>
@@ -83,13 +83,13 @@
     var limitPerPage = 2;
     $("#mavinex-news .mavinex:gt(" + (limitPerPage -1 )+")").hide();
     var totalPages = Math.round(numberOfMavinexNews / limitPerPage );
-    $('.pagination').append("<li class='page-item current-page active'><a class='page-link' href='javacript:void(0)'>"+ 1+"</a></li>");
+    $('.pagination').append("<li class='page-item current-page active'><a  href='javacript:void(0)'>"+ 1+"</a></li>");
     
     for (let i=2; i<= totalPages;i++){
-        $(".pagination").append("<li class='page-item current-page'><a class='page-link' href='javascript:void(0)'>"+ i +"</a></li>");
+        $(".pagination").append("<li class='page-item current-page'><a  href='javascript:void(0)'>"+ i +"</a></li>");
     }
     
-    $('.pagination').append("<li id='next-page' class='page-item'><a class='page-link' href='javascript:void(0)'>Next</a></li>");
+    $('.pagination').append("<li id='next-page' class='page-item'><a  href='javascript:void(0)'>Next</a></li>");
     
     $('.pagination li.current-page').on("click", function(){
         if($(this).hasClass("active")){
