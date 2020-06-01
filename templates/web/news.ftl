@@ -11,7 +11,7 @@
     </div>
     <nav aria-label="Page navigation example">
           <ul class="pagination">
-            <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+            <li class="page-item"><a class="page-link" href="javacript:void(0)">Previous</a></li>
           </ul>
     </nav>
     <div class="content__details container">
@@ -86,10 +86,10 @@
     $('.pagination').append("<li class='page-item current-page active'><a class='page-link' href='javacript:void(0)'>"+ 1+"</a></li>");
     
     for (let i=2; i<= totalPage;i++){
-        $(".pagination").append("<li class='page-item current-page'><a class='page-link' href='#'>"+ i +"</a></li>");
+        $(".pagination").append("<li class='page-item current-page'><a class='page-link' href='javascript:void(0)'>"+ i +"</a></li>");
     }
     
-    $('.pagination').append("<li class='page-item'><a class='page-link' href='#'>Next</a></li>");
+    $('.pagination').append("<li class='page-item'><a class='page-link' href='javascript:void(0)'>Next</a></li>");
     
     $('.pagination li.current-page').on("click", function(){
         if($(this).hasClass("active")){
