@@ -31,31 +31,22 @@
           <ul class="pagination justify-content-center">
             <li id="previous-page" class="page-item"><a class="page-link" href="javacript:void(0)"><span class="fas fa-angle-left"></a></li>
           </ul>
-    </nav>
+        </nav>
     </div>
     <div class="content__title">
             <div class="container">
-                <div class="row">
+                <div class="row data-container" id="fields-news">
                         <div class="col-lg-12 col-md-12 col-sm-12 col-12">
                           <h1 class="text--red text--uppercase">Tin ngành</h1>
                         </div>
                 </div>
             </div>
     </div>
-    <nav aria-label="field-news navigation">
-          <ul class="pagination2">
-            <li class="page-item"><a class="page-link" href="#">Previous</a></li>
-            <li class="page-item"><a class="page-link" href="#">1</a></li>
-            <li class="page-item"><a class="page-link" href="#">2</a></li>
-            <li class="page-item"><a class="page-link" href="#">3</a></li>
-            <li class="page-item"><a class="page-link" href="#">Next</a></li>
-          </ul>
-    </nav>
     <div class="content__details container">
         <div class="row">
                 <#list news as aNews>
                 <#if aNews.category = "field-news">
-                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6" style="padding-left: 0px;">
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 fields" style="padding-left: 0px;">
                     <div>
                         <img src="${aNews.image}" alt="" class="img--full">
                         <h3 style="color: #fff; padding-top: 20px;"  style="padding-top:9px;">${aNews.title}</h3>
@@ -70,6 +61,11 @@
                 </#list>
                 
         </div>
+        <nav aria-label="Page navigation example">
+          <ul class="pagination justify-content-center">
+            <li id="previous-page2" class="page-item"><a class="page-link" href="javacript:void(0)"><span class="fas fa-angle-left"></a></li>
+          </ul>
+        </nav>
     </div>
 
 </div>
