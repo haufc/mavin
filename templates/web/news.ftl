@@ -28,7 +28,7 @@
                 </#list>
         </div>
         <nav aria-label="Page navigation example">
-          <ul class="pagination justify-content-center">
+          <ul class="pagination pagi1 justify-content-center">
             <li id="previous-page" class="page-item"><a class="page-link" href="javacript:void(0)"><span class="fas fa-angle-left"></a></li>
           </ul>
         </nav>
@@ -62,7 +62,7 @@
                 
         </div>
         <nav aria-label="Page navigation example">
-          <ul class="pagination justify-content-center">
+          <ul class="pagination pagi2 justify-content-center">
             <li id="previous-page2" class="page-item"><a class="page-link" href="javacript:void(0)"><span class="fas fa-angle-left"></a></li>
           </ul>
         </nav>
@@ -80,6 +80,7 @@
       $(this).text(newstr).append("...");
     });
     
+    var numberOfFieldsNews = $("#field-news .fields").length;
     var numberOfMavinexNews = $("#mavinex-news .mavinex").length;
     var limitPerPage = 2;
     $("#mavinex-news .mavinex:gt(" + (limitPerPage -1 )+")").hide();
