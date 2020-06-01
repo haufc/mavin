@@ -116,7 +116,7 @@
     
     $("#next-page1").on("click", function() {
       var currentPage = $(".pagination li.active").index(); 
-      if (currentPage === totalPages) {
+      if (currentPage === totalPages1) {
         return false; 
       } else {
         currentPage++; 
