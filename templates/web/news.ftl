@@ -83,7 +83,7 @@
     var limitPerPage = 2;
     $("#mavinex-news .mavinex:gt(" + (limitPerPage -1 )+")").hide();
     var totalPage = Math.round(numberOfMavinexNews / limitPerPage );
-    $('.pagination').append("<li class='page-item current-page active'><a class='page-link' href='#'>"+ 1+"</a></li>");
+    $('.pagination').append("<li class='page-item'><a class='page-link' href='#'>"+ 1+"</a></li>");
     
     for (let i=2; i<= totalPage;i++){
         $(".pagination").append("<li class='page-item current-page'><a class='page-link' href='#'>"+ i +"</a></li>");
@@ -98,7 +98,7 @@
             var currentPage = $(this).index();
             alert(currentPage);
         //    $("pagination li").removeClass("active");
-          //  $(this).addClass("active");
+        //  $(this).addClass("active");
         //    $("#mavinex-news .mavinex").hide();
         }
     });
