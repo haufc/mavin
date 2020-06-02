@@ -12,13 +12,15 @@ class SearchContentHelper {
     static final String JOB_CONTENT_TYPE_QUERY = "content-type:\"/page/jobpage\""
     static final String HOME_CONTENT_TYPE_QUERY = "content-type:\"/page/home\""
     static final String INTRO_CONTENT_TYPE_QUERY = "content-type:\"/page/introductiondetail\""
+    static final String NEWS_CONTENT_TYPE_QUERY = "content-type:\"/page/newsdetail\""
    
     static final String[] JOB_HIGHLIGHT_FIELDS = ["title_s", "item_o.item.content_html"]
     static final String[] HOME_HIGHLIGHT_FIELDS = ["title_s", "descripttion_t"]
     static final String[] INTRO_HIGHLIGHT_FIELDS = ["title_s", "contents_html"]
+    static final String[] NEWS_HIGHLIGHT_FIELDS = ["title_s", "content_html"]
     
     static final int DEFAULT_START = 0
-    static final int DEFAULT_ROWS = 100
+    static final int DEFAULT_ROWS = 1000
     
     def elasticsearch
     UrlTransformationService urlTransformationService
@@ -26,6 +28,7 @@ class SearchContentHelper {
     String jobContentQuery = JOB_CONTENT_TYPE_QUERY
     String homeContentQuery = HOME_CONTENT_TYPE_QUERY
     String introContentQuery = INTRO_CONTENT_TYPE_QUERY
+    String newsContentQuery = NEWS_CONTENT_TYPE_QUERY
     
     SearchContentHelper(elasticsearch, UrlTransformationService urlTransformationService) {
         this.elasticsearch = elasticsearch
@@ -219,6 +222,68 @@ class SearchContentHelper {
         }
         
         return intros
+    }
+    
+    def searchNews(String userTerm, start = DEFAULT_START, rows = DEFAULT_ROWS) {
+        def q = "${newsContentQuery}"
+        
+        if (userTerm) {
+            if(!userTerm.contains(" ")) {
+                userTerm = "${userTerm}~1 OR *${userTerm}*"
+            }
+            
+            def userTermQuery = "(title_s:(${userTerm}) OR content_html:(${userTerm}))"
+            q = "${q} AND ${userTermQuery}"
+        }
+        
+        def highlighter = SearchSourceBuilder.highlight()
+        NEWS_HIGHLIGHT_FIELDS.each{ field -> highlighter.field(field) }
+        
+        def builder = new SearchSourceBuilder()
+          .query(QueryBuilders.queryStringQuery(q))
+          .from(start)
+          .size(rows)
+          .highlighter(highlighter)
+          
+          def result = elasticsearch.search(new SearchRequest().source(builder))
+          
+          if (result) {
+              return processUserSearchNewsResults(result)
+            } else {
+              return []
+            }
+    }
+    
+    def processUserSearchNewsResults(result) {
+        def news = []
+        def hits = result.hits.hits
+        
+        if (hits) {
+            hits.each { hit -> 
+                def doc = hit.getSourceAsMap()
+                def newItem = [:]
+                    newItem.title = doc.title_s
+                    newItem.url = urlTransformationService.transform("storeUrlToRenderUrl", doc.localId)
+                    newItem.image = doc.image_s
+                
+                if (hit.highlightFields) {
+                    def newHighlights = hit.highlightFields.values()*.getFragments().flatten()*.string()
+                    if (newHighlights) {
+                        def highlightValues = []
+                        
+                        newHighlights.each{ value -> 
+                            highlightValues << value
+                        }
+                        
+                        newItem.highlight = StringUtils.join(highlightValues, "... ")
+                        newItem.highlight = StringUtils.strip(intro.highlight)
+                    }
+                }
+                news << newItem
+            }
+        }
+        
+        return news
     }
 
 }
