@@ -276,7 +276,7 @@ class SearchContentHelper {
                         }
                         
                         newItem.highlight = StringUtils.join(highlightValues, "... ")
-                        newItem.highlight = StringUtils.strip(intro.highlight)
+                        newItem.highlight = StringUtils.strip(newItem.highlight)
                     }
                 }
                 news << newItem
