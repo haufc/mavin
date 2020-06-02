@@ -7,12 +7,16 @@ def searchHelper = new SearchContentHelper(elasticsearch, urlTransformationServi
 def jobs = searchHelper.searchJobs(params.q)
 def homes = searchHelper.searchHomes(params.q)
 def intros = searchHelper.searchIntros(params.q)
+def news = searchHelper.searchNews(params.q)
 
 println "This is Jobs : =================================>"
 println  jobs
 
 println "This is Intros : =================================>"
 println intros
+
+println "This is News : =================================>"
+println news
 
 
 return [jobs, intros]
