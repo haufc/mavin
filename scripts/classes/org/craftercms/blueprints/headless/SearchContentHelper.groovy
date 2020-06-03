@@ -92,6 +92,7 @@ class SearchContentHelper {
                          }
                          
                          job.highlight = StringUtils.join(highlightValues, "... ")
+                         job.highlight = StringUtils.substring(job.highlight, 0, 300)
                          job.highlight = StringUtils.strip(job.highlight)
                     }
                 }
