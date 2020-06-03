@@ -45,10 +45,11 @@
     <script src="/static-assets/js/script.js"></script>
     
     <script>
-          $('.limit-text-300').each(function (f) {
-      var newstr = $(this).text().substring(0,250);
-      $(this).text(newstr).append("...");
-    });
+        $(document).ready(function(){
+          $(".page-link").click(function(){
+           alert('Hello')
+          });
+        });
     </script>
 
   </body>
