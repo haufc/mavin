@@ -48,6 +48,23 @@
         $(document).ready(function(){
           $(".page-link").click(function(){
            alert('Hello')
+           // --- limit desc search --
+        var lent = $(".limit-text-250");
+       
+        for (let i = 0; i < lent.length; i++) {
+             var txtDesc = $(lent[i]).html();
+             console.log(txtDesc);
+            if(txtDesc.length > 150) {
+               let txt = txtDesc.substr(0, 150);
+               $(lent[i]).html(txt)
+            }
+        }
+        // if (lent.length > 100) {
+        //   short_text = lent.substr(0, 100);
+        //   $(".limit-text-250").html(short_text);
+        // }
+        
+        $(".limit-text-250 em").css("font-weight", "bold");
           });
         });
     </script>
