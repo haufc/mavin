@@ -8,6 +8,7 @@ def jobs = searchHelper.searchJobs(params.q)
 def homes = searchHelper.searchHomes(params.q)
 def intros = searchHelper.searchIntros(params.q)
 def news = searchHelper.searchNews(params.q)
+def products = searchHelper.searchProducts(params.q)
 
 println "This is Jobs : =================================>"
 println  jobs
@@ -18,5 +19,8 @@ println intros
 println "This is News : =================================>"
 println news
 
+
+println "This is product : =================================>"
+println products
 
 return [jobs, intros]
