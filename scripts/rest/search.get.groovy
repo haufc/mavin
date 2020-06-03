@@ -19,7 +19,7 @@ def products = searchHelper.searchProducts(params.q)
 // println "This is News : =================================>"
 // println news
  news.each{ new1 ->
-     This is News : =================================>
+     print "This is News : =================================>"
      println new1.highlight
  }
 
