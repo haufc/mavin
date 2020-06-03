@@ -5,33 +5,63 @@ println params.q
 def searchHelper = new SearchContentHelper(elasticsearch, urlTransformationService)
 
 def jobs = searchHelper.searchJobs(params.q)
-def homes = searchHelper.searchHomes(params.q)
+// def homes = searchHelper.searchHomes(params.q)
 def intros = searchHelper.searchIntros(params.q)
 def news = searchHelper.searchNews(params.q)
 def products = searchHelper.searchProducts(params.q)
 
-// println "This is Jobs : =================================>"
-// println  jobs
+println "This is Jobs : =================================>"
+println  jobs
 
-// println "This is Intros : =================================>"
-// println intros
+println "This is Intros : =================================>"
+println intros
 
-// println "This is News : =================================>"
-// println news
+println "This is News : =================================>"
+println news
+
+intros.each{ intro ->
+     intro.highlight = intro.highlight.replaceAll("\\<.*?\\>", "");
+     
+     if (intro.highlight.length() > 150) {
+         intro.highlight = intro.highlight.substring(0,120)
+         intro.highlight.concat("...")
+     }
+ }
+
+jobs.each{ job ->
+     job.highlight = job.highlight.replaceAll("\\<.*?\\>", "");
+     
+     if (job.highlight.length() > 150) {
+         job.highlight = job.highlight.substring(0,120)
+         job.highlight.concat("...")
+     }
+ }
+
+// homes.each{ home ->
+//      home.highlight = home.highlight.replaceAll("\\<.*?\\>", "");
+     
+//      if (home.highlight.length() > 150) {
+//          home.highlight = home.highlight.substring(0,120)
+//          home.highlight.concat("...")
+//      }
+//  }
+ 
  news.each{ new1 ->
-     print "This is News : =================================>"
-     println new1.highlight
      new1.highlight = new1.highlight.replaceAll("\\<.*?\\>", "");
      
      if (new1.highlight.length() > 150) {
-         new1.highlight = new1.highlight.substring(0,150)
+         new1.highlight = new1.highlight.substring(0,120)
+         new1.highlight.concat("...")
      }
-     
-     print "after cut is News : =================================>"
-     println new1.highlight
  }
-
-// println "This is product : =================================>"
-// println products
+ 
+ products.each{ product ->
+     product.highlight = product.highlight.replaceAll("\\<.*?\\>", "");
+     
+     if (product.highlight.length() > 150) {
+         product.highlight = product.highlight.substring(0,120)
+         product.highlight.concat("...")
+     }
+ }
 
 return [jobs, intros, news, products]
