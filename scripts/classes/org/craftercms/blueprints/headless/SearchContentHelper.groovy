@@ -13,11 +13,13 @@ class SearchContentHelper {
     static final String HOME_CONTENT_TYPE_QUERY = "content-type:\"/page/home\""
     static final String INTRO_CONTENT_TYPE_QUERY = "content-type:\"/page/introductiondetail\""
     static final String NEWS_CONTENT_TYPE_QUERY = "content-type:\"/page/newsdetail\""
+    static final String PRODUCTS_CONTENT_TYPE_QUERY = "content-type:\"/page/productdetail\""
    
     static final String[] JOB_HIGHLIGHT_FIELDS = ["title_s", "item_o.item.content_html"]
     static final String[] HOME_HIGHLIGHT_FIELDS = ["title_s", "descripttion_t"]
     static final String[] INTRO_HIGHLIGHT_FIELDS = ["title_s", "contents_html"]
     static final String[] NEWS_HIGHLIGHT_FIELDS = ["title_s", "content_html"]
+    static final String[] PRODUCTS_HIGHLIGHT_FIELDS = ["productname_s", "productdescription_html"]
     
     static final int DEFAULT_START = 0
     static final int DEFAULT_ROWS = 1000
@@ -29,6 +31,7 @@ class SearchContentHelper {
     String homeContentQuery = HOME_CONTENT_TYPE_QUERY
     String introContentQuery = INTRO_CONTENT_TYPE_QUERY
     String newsContentQuery = NEWS_CONTENT_TYPE_QUERY
+    String productsContentQuery = PRODUCTS_CONTENT_TYPE_QUERY
     
     SearchContentHelper(elasticsearch, UrlTransformationService urlTransformationService) {
         this.elasticsearch = elasticsearch
@@ -264,6 +267,7 @@ class SearchContentHelper {
                 def newItem = [:]
                     newItem.title = doc.title_s
                     newItem.url = urlTransformationService.transform("storeUrlToRenderUrl", doc.localId)
+                    newItem.desc = doc.content_html
                     newItem.image = doc.image_s
                 
                 if (hit.highlightFields) {
@@ -285,5 +289,69 @@ class SearchContentHelper {
         
         return news
     }
-
+    
+    
+    def searchProduct(String userTerm, start = DEFAULT_START, rows = DEFAULT_ROWS) {
+        def q = "${productsContentQuery}"
+        
+        if (userTerm) {
+            if (!userTerm.contains(" ")) {
+                 userTerm = "${userTerm}~1 OR *${userTerm}*"
+            }
+            
+            def userTermQuery = "(productname_s:(${userTerm}) OR productdescription_html:(${userTerm}))"
+            q = "${q} AND ${userTermQuery}"
+        }
+        
+        def highlighter = SearchSourceBuilder.highlight()
+        PRODUCTS_HIGHLIGHT_FIELDS.each{ field -> highlighter.field(field) }
+        
+        def builder = new SearchSourceBuilder()
+          .query(QueryBuilders.queryStringQuery(q))
+          .from(start)
+          .size(rows)
+          .highlighter(highlighter)
+        
+        def result = elasticsearch.search(new SearchRequest().source(builder))
+        
+        if (result) {
+          return processUserSearchProductResults(result)
+        } else {
+          return []
+        }
+    }
+    
+    def processUserSearchProductResults(result) {
+        def products = []
+        def hits = result.hits.hits
+        
+        if (hits) {
+            hits.each { hit -> 
+                def doc = hit.getSourceAsMap()
+                def product = [:]
+                    product.title = doc.productname_s
+                    product.url = urlTransformationService.transform("storeUrlToRenderUrl", doc.localId)
+                    product.desc = doc.productdescription_html
+                    product.image = doc.productAvatar_s
+                    
+                if (hit.highlightFields) {
+                    def productHighlights = hit.highlightFields.values()*.getFragments().flatten()*.string()
+                    
+                    if (productHighlights) {
+                        def highlightValues = []
+                        
+                        productHighlights.each { value -> 
+                            highlightValues = value
+                        }
+                        
+                        product.highlight = StringUtils.join(highlightValues, "... ")
+                        product.highlight = StringUtils.strip(product.highlight)
+                    }
+                }
+                
+                products << product
+            }
+        }
+      return products 
+    }
 }
