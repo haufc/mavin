@@ -9,7 +9,7 @@
                 <div class="search--text col-lg-6 col-md-6 col-sm-12">
                     <a href="{{url}}"><h5 ><b>{{title}}</b></h5></a>
                     {{#if highlight}}
-        		        <a href="{{url}}"><p class="limit-text-300">{{{highlight}}}</p></a>
+        		        <a href="{{url}}"><p class="limit-text-250">{{{highlight}}}</p></a>
         			{{/if}}
                 </div>
             </div>
