@@ -291,7 +291,7 @@ class SearchContentHelper {
     }
     
     
-    def searchProduct(String userTerm, start = DEFAULT_START, rows = DEFAULT_ROWS) {
+    def searchProducts(String userTerm, start = DEFAULT_START, rows = DEFAULT_ROWS) {
         def q = "${productsContentQuery}"
         
         if (userTerm) {
