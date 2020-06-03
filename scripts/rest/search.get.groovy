@@ -21,6 +21,14 @@ def products = searchHelper.searchProducts(params.q)
  news.each{ new1 ->
      print "This is News : =================================>"
      println new1.highlight
+     new1.highlight = new1.highlight.replaceAll("\\<.*?\\>", "");
+     
+     if (new1.highlight.length() > 300) {
+         new1.highlight = new1.highlight.substring(0,300)
+     }
+     
+     print "after cut is News : =================================>"
+     println new1.highlight
  }
 
 // println "This is product : =================================>"
