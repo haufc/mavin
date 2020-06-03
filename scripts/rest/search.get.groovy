@@ -22,18 +22,18 @@ println news
 intros.each{ intro ->
      intro.highlight = intro.highlight.replaceAll("\\<.*?\\>", "");
      
-     if (intro.highlight.length() > 150) {
+     if (intro.highlight.length() > 120) {
          intro.highlight = intro.highlight.substring(0,120)
-         intro.highlight + "..."
+         intro.highlight += "..."
      }
  }
 
 jobs.each{ job ->
      job.highlight = job.highlight.replaceAll("\\<.*?\\>", "");
      
-     if (job.highlight.length() > 150) {
+     if (job.highlight.length() > 120) {
          job.highlight = job.highlight.substring(0,120)
-         job.highlight + "..."
+         job.highlight += "..."
      }
  }
 
@@ -49,18 +49,18 @@ jobs.each{ job ->
  news.each{ new1 ->
      new1.highlight = new1.highlight.replaceAll("\\<.*?\\>", "");
      
-     if (new1.highlight.length() > 150) {
+     if (new1.highlight.length() > 120) {
          new1.highlight = new1.highlight.substring(0,120)
-         new1.highlight + "..."
+         new1.highlight += "..."
      }
  }
  
  products.each{ product ->
      product.highlight = product.highlight.replaceAll("\\<.*?\\>", "");
      
-     if (product.highlight.length() > 150) {
+     if (product.highlight.length() > 120) {
          product.highlight = product.highlight.substring(0,120)
-         product.highlight + "..."
+         product.highlight += "..."
      }
  }
 
