@@ -47,7 +47,6 @@
     <script>
         $(document).ready(function(){
           $(".page-link").click(function(){
-           alert('Hello')
            // --- limit desc search --
         var lent = $(".limit-text-250");
        
