@@ -23,4 +23,4 @@ println news
 println "This is product : =================================>"
 println products
 
-return [jobs, intros]
+return [jobs, intros, news, products]
