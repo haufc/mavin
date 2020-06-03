@@ -3,7 +3,7 @@
 	<script id="search-results-template" type="text/x-handlebars-template">
 		{{#each results}}
 		    <div class="col-lg-4 col-md-4 col-sm-12 row search-result_content" style="margin-bottom: 20px;">
-                <div class="search--img col-lg-6 col-md-6 col-sm-12" >
+                <div class="search--img col-lg-6 col-md-6 col-sm-12" style="width: 150px; height: 150px;">
                     <a href="{{url}}"><img src="{{image}}" alt="" class="img--full"></a>
                 </div>
                 <div class="search--text col-lg-6 col-md-6 col-sm-12">
