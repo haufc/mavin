@@ -24,7 +24,7 @@ intros.each{ intro ->
      
      if (intro.highlight.length() > 150) {
          intro.highlight = intro.highlight.substring(0,120)
-         intro.highlight.concat("...")
+         intro.highlight + "..."
      }
  }
 
@@ -33,7 +33,7 @@ jobs.each{ job ->
      
      if (job.highlight.length() > 150) {
          job.highlight = job.highlight.substring(0,120)
-         job.highlight.concat("...")
+         job.highlight + "..."
      }
  }
 
@@ -51,7 +51,7 @@ jobs.each{ job ->
      
      if (new1.highlight.length() > 150) {
          new1.highlight = new1.highlight.substring(0,120)
-         new1.highlight.concat("...")
+         new1.highlight + "..."
      }
  }
  
@@ -60,7 +60,7 @@ jobs.each{ job ->
      
      if (product.highlight.length() > 150) {
          product.highlight = product.highlight.substring(0,120)
-         product.highlight.concat("...")
+         product.highlight + "..."
      }
  }
 
