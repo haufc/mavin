@@ -45,7 +45,7 @@
     <script src="/static-assets/js/script.js"></script>
     
     <script>
-          $('.limit-text-250').each(function (f) {
+          $('.limit-text-300').each(function (f) {
       var newstr = $(this).text().substring(0,250);
       $(this).text(newstr).append("...");
     });
