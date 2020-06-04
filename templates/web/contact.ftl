@@ -1,7 +1,9 @@
 <#import "/templates/system/common/cstudio-support.ftl" as studio />
 <div class="recruitment">
         <div class="content__title">
+        <div class="container">
             <h1 class="text--red">${contentModel.title_s}</h1>
+        </div>
           </div>
         <div class="container p-3 text-white" style="">         
             <div class="row">
