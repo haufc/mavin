@@ -4,9 +4,8 @@
 @import url("https://fonts.googleapis.com/css?family=Baloo+2|Baloo+Chettan+2|Bellota+Text|Comfortaa|Montserrat&display=swap");
 html,
 body {
-  font-size: 13px;
+  font-size: 14px;
 }
-
 *,
 body {
   -webkit-box-sizing: border-box;
@@ -48,6 +47,7 @@ h1 {
 
 h2 {
   margin-bottom: 0.5rem;
+  font-size: 46px !important;
 }
 
 h3 {
