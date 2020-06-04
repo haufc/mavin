@@ -7373,4 +7373,11 @@ _:-ms-lang(x), .content__img {
      }
      
 }
+
+@media (max-width: 425px){
+
+   .col-custom-450 {
+       padding-left: 0 !important;
+   }
+}
 /*# sourceMappingURL=styles.css.map */
