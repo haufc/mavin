@@ -1,6 +1,6 @@
 var owl = $('.owl-carousel');
 owl.owlCarousel({
-    items: 5,
+    items: 8,
     loop: true,
     margin: 15,
     dots: false,
