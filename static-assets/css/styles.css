@@ -7381,9 +7381,9 @@ _:-ms-lang(x), .content__img {
      }
     
     .carousel-control-next {
-        font-size: 18px;
-        right: -2%;
-        top: -50%;
+        font-size: 18px!important;
+        right: -2%!important;
+        top: -50%!important;
      }
 }
 /*# sourceMappingURL=styles.css.map */
