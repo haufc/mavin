@@ -7419,7 +7419,7 @@ _:-ms-lang(x), .content__img {
     float:right;
 }
 @media (max-width: 575px){
-    .green-ticl{
+    .green-tick{
         float: none;
     }
 }
