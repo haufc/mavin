@@ -6974,7 +6974,15 @@ _:-ms-lang(x), .content__img {
     }
 
 /* logos */
-
+    .mavinex-logos {
+        margin: 20px auto;
+        width: 1600px;
+    }
+    .item > img,
+    .owl-item > img,
+    .owl-item.active > img {
+        margin: 0 auto;
+    }
 /* footer */
     .mavinex-footer {
         width: 100%;
