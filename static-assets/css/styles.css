@@ -7374,14 +7374,21 @@ _:-ms-lang(x), .content__img {
      
 }
 
-@media (max-width: 600px){
-   .carousel-control-next {
-         top: 0%!important;
-         right: -12%!important;
-     }
-    
-    .carousel-control-next {
+@media (min-width: 500px) and (max-width: 600px){
+    .carousel .carousel-control.right i {
         font-size: 18px!important;
+    }
+    .carousel-control-next {
+        right: -2%!important;
+        top: -50%!important;
+     }
+}
+
+@media (max-width: 499px){
+    .carousel .carousel-control.right i {
+        font-size: 14px!important;
+    }
+    .carousel-control-next {
         right: -2%!important;
         top: -50%!important;
      }
