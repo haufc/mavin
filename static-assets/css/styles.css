@@ -7369,6 +7369,7 @@ _:-ms-lang(x), .content__img {
      }
      .carousel-control-next {
          top: 0%!important;
+         right: -12%!important;
      }
      
 }
