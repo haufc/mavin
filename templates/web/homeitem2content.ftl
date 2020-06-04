@@ -10,7 +10,7 @@
 
     <div class="col-sm-12 col-md-6 col-lg-6 content__img" <@studio.iceAttr component=contentModel/>>
         <img class="img--full" src="${contentModel.image_s}" alt="Content Image"/>
-        <h4 class="text--uppercase text-white" style="padding-top: 15px;">${contentModel.title_s}</h4>
+        <h4 class="text--uppercase text-white" style="padding-top: 15px; font-size:20px;">${contentModel.title_s}</h4>
         
         <a class="mt-3 rounded-0 seemore_btn" href="${contentModel.url_s}"> 
             <span class="mr-1">Xem thêm</span>
