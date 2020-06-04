@@ -27,8 +27,8 @@
                   </div>
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
-                    <img src="/static-assets/images/logos/bct_logo.png" style="max-width: 100%;" alt="">
-                    <p class="text-white text--copyright" style="font-size: 11px; margin-top: 10px;">${contentModel.brandCopyright_s}</p>
+                    <img src="/static-assets/images/logos/bct_logo.png" style="max-width: 100%; float:right;" alt="">
+                    <p class="text-white text--copyright" style="font-size: 11px; margin-top: 10px; float:right;">${contentModel.brandCopyright_s}</p>
                 </div>
             </div>
         </div>
