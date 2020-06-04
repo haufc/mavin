@@ -2,7 +2,7 @@
 <div class="content__title">
     <div class="container">
         <div>
-          <h1 class="text--uppercase text--red text--title__small">${contentModel.title_s}</h1>
+          <h1 class="text--red text--title__small">${contentModel.title_s}</h1>
         </div>
     </div>
   </div>
