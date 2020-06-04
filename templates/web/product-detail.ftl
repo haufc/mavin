@@ -292,18 +292,14 @@ img {
         <div class="content__title text--center">
             <#list groupProduct.items as cate>
                 <#if cate.value == contentModel.productchildgroup_o.item.key>
-                    <div style="background-color: #00559a; padding:10px;">
-                        <h1 class="text--uppercase text-white text-left container">${cate.label}</h1>
-                    </div>
-                	
+                   <#assign titleName = cate.label />
                 <#else>
-                	 <div style="background-color: #00559a; padding:10px;">
-                        <h1 class="text--uppercase text-white text-left container">Hautk</h1>
-                    </div>
+                	<#assign titleName = "" />
                 </#if>
-            	
-            	${myContentItem.variableName}
             </#list>
+            <div style="background-color: #00559a; padding:10px;">
+                <h1 class="text--uppercase text-white text-left container">${titleName}</h1>
+            </div>
           </div>
         <div class="container p-3 mb-1">         
             <div class="row">
