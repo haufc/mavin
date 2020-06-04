@@ -9,7 +9,7 @@
   
   <div class="content__details container text-white">
       <div class="row">
-        <div class="col-lg6 col-md-6 col-sm-6 col-6" style="padding: 0;">
+        <div class="col-lg6 col-md-6 col-sm-6 col-6" style="padding: 15px;">
             <#list jobs as job>
             	<p class="list-job__item">${job.title}</p>
             </#list>
