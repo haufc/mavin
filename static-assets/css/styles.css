@@ -7363,7 +7363,6 @@ _:-ms-lang(x), .content__img {
 @media (min-width: 768px) and (max-width: 992px) {
      .carousel .item img {
         bottom: 38px!important;
-        top: -5px;
      }
      
      
