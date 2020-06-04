@@ -17,9 +17,9 @@
     
 }
 
-@media (max-width: 575px){
-    .partnership-img {
-        height: 110px;
-    }
+/*@media (min-width: 486px) and (max-width: 575px){*/
+/*    .partnership-img {*/
+/*        height: 110px;*/
+/*    }*/
     
-}
+/*}*/
