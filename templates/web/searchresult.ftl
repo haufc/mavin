@@ -19,10 +19,12 @@
 		
 </script>
 <div class="content__title" style="background-color: #FFF">
-    <h1 class="text--red">Kết quả tìm kiếm</h1>
+    <div class="container">
+    <h1 class="text--red">Kết quả tìm kiếm</h1></div>
 </div>
 <div class="content__details">
 <!-- <h1 class="text--center text--uppercase text-white mb-3">TUYỂN DỤNG THÁNG 03/2020</h1> -->
+    <div class="container">
     <div class="row " style="padding-left: 15px;">
         <div class="col-lg-12 col-md-12 col-sm-12" style="padding: 0; margin-bottom: 20px;">
             <span style="font-size: 18px;"></p> Tìm được <b id="totalSearch">727</b> kết quả với từ khóa "<b id="keywordSearch"></b>"<span>
@@ -32,6 +34,7 @@
     </div>
     <div class="col-lg-2 col-md-2 col-sm-12 mx-auto" style="margin-top: 20px;" id="pager">
       <ul class="float-right" id="pagination" class="pagination-sm"></ul>
+    </div>
     </div>
 </div>
 <@studio.toolSupport />
