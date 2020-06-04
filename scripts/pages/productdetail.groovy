@@ -10,7 +10,7 @@ def categories = new TaxonomySearchHelper("product-category-child", elasticsearc
 						.getItems()
 
 print "category======>"
-print categories.each{ item ->
+print categories.items.each{ item ->
     print "category item : "
     print item
 }
