@@ -5,7 +5,14 @@
 
 @media (min-width: 768px) and (max-width: 991px){
     .partnership-img {
-        height: 155px;;
+        height: 155px;
+    }
+    
+}
+
+@media (min-width: 768px) and (max-width: 767px){
+    .partnership-img {
+        height: 110px;
     }
     
 }
