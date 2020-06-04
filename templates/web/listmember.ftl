@@ -21,7 +21,4 @@
         </div>
     </div>
 </div> 
-<style>
-.owl-item {width: auto !important; } 
-</style>
 <@studio.toolSupport />
