@@ -15,7 +15,7 @@
                     <p >Nơi cấp: Sở Kế hoạch và Đầu tư tỉnh Hưng Yên.</p>
                   </div>
                 </div>
-                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 footer-item__social">
+                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 footer-item__social">
                   <p class="text-white text--uppercase text--center footer-item__social--title" >Kết nối với chúng tôi</p>
                   <div class="footer__btns footer-item__social--icons">
                     <#if (contentModel.socialMedia_o.item)??>
@@ -27,7 +27,7 @@
                     </#if>
                   </div>
                 </div>
-                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
                     <img src="/static-assets/images/logos/bct_logo.png" style="max-width: 100%; float:right;" alt="">
                     <p class="text-white text--copyright" style="font-size: 11px; margin-top: 10px; float:right;">${contentModel.brandCopyright_s}</p>
                 </div>
