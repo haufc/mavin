@@ -9,14 +9,15 @@ def relatedProducts = searchHelper.searchProducts(productGroup.text, 0,5)
 def categories = new TaxonomySearchHelper("product-category-child", elasticsearch, siteItemService)
 						.getItems()
 
-def grouproductName = ""
-print "category======>"
-print categories.items.each{ item ->
-    print "category item : "
-    print item
-    if (item.value == contentModel.productchildgroup_o.item.key) {
-        grouproductName += item.label
-    }
-}
-print grouproductName
+// def grouproductName = ""
+// print "category======>"
+// print categories.items.each{ item ->
+//     print "category item : "
+//     print item
+//     if (item.value == contentModel.productchildgroup_o.item.key) {
+//         grouproductName += item.label
+//     }
+// }
+// print grouproductName
+templateModel.groupProduct = categories
 templateModel.relatedProducts = relatedProducts
