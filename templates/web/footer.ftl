@@ -2,7 +2,7 @@
  <footer class="footer" <@studio.iceAttr component=contentModel/> style="background-image: url('${contentModel.backgroundImage_s}'); background-color: #FFF">
         <div class="container">
             <div class="row">
-                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12" style="padding-left: 30px;">
+                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
                   <p class="text-white text--uppercase">${contentModel.companyname_s}</p>
                   <div class="footer__contact-info">
                     <p>Trụ sở: ${contentModel.companysAddress_s}</p>
