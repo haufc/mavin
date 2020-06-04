@@ -21,4 +21,9 @@
         </div>
     </div>
 </div> 
+<style>
+.cloned{
+    margin-right: 0px !important;
+}
+</style>
 <@studio.toolSupport />
