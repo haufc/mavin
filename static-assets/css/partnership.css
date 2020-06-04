@@ -35,7 +35,7 @@
 @media (max-width: 359px){
     .partnership-img {
         height: 55px;
-        border: 2px solid #00549A !important;
+        border: 2px!important solid #00549A !important;
     }
     
 }
