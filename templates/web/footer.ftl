@@ -15,7 +15,7 @@
                   </div>
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6 footer-item__social">
-                  <h4 class="text-white text--uppercase text--center footer-item__social--title">Kết nối với chúng tôi</h4>
+                  <p class="text-white text--uppercase text--center footer-item__social--title">Kết nối với chúng tôi</p>
                   <div class="footer__btns footer-item__social--icons">
                     <#if (contentModel.socialMedia_o.item)??>
                         <#list contentModel.socialMedia_o.item as media>
