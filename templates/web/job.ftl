@@ -3,9 +3,10 @@
     <h1 class="text--uppercase text--red">${contentModel.title_s}</h1>
 </div>
       <div class="content__details">
-        <div class="job row">
+        <div class="job row"  style=" padding: 15px";
+>
               <#list jobs as job>
-            	<div class="job__item text-white col-sm-12 col-md-4 col-lg-4" style="padding: 15px;">
+            	<div class="job__item text-white col-sm-12 col-md-4 col-lg-4" >
                         <div class="job__item-content"><a href="#"><img class="img--full" src="${job.image}" alt="Job"/></a>
                           <div class="job__item-infos"><a href="#">
                               <h3 class="job__item-title" style="font-size:16px;">${job.title}</h3></a>
