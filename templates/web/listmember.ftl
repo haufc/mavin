@@ -21,4 +21,15 @@
         </div>
     </div>
 </div> 
+<style>
+    .mavinex-logos {
+        margin: 20px auto;
+        width: 1600px;
+    }
+    .img > img,
+    .owl-item > img,
+    .owl-item.actove > img {
+        margin 0 auto;
+    }
+</style>
 <@studio.toolSupport />
