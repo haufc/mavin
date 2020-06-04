@@ -290,8 +290,15 @@ img {
         <@renderComponent component=contentModel.slide_o.item />
          <div class="recruitment ">
         <div class="content__title text--center">
+            <#list groupProduct.items as cate>
+                <#if cate.value == contentModel.productchildgroup_o.item.key>
+                   <#assign titleName = cate.label />
+                <#else>
+                	<#assign titleName = "" />
+                </#if>
+            </#list>
             <div style="background-color: #00559a; padding:10px;">
-                <h1 class="text--uppercase text-white text-left container"></h1>
+                <h1 class="text--uppercase text-white text-left container">${titleName}</h1>
             </div>
           </div>
         <div class="container p-3 mb-1">         

@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="/static-assets/plugins/bootstrap441/css/bootstrap.min.css"/>
     <link rel="stylesheet" href="/static-assets/plugins/bootstrap-select1139/dist/css/bootstrap-select.min.css"/>
     <link rel="stylesheet" href="/static-assets/css/styles.css"/>
+    <link rel="stylesheet" href="/static-assets/css/partnership.css"/>
     <link rel="stylesheet" href="/static-assets/css/mavinex.css"/>
   </head>
   <body>
@@ -24,6 +25,7 @@
         <div class="content__title">
         <div class="container">
             <h1 class="text--red">${contentModel.title_s}</h1>
+
         </div>
         
       </div>
@@ -34,7 +36,7 @@
       <@renderComponent component=contentModel.section_o.item />
       </#if>
     </div>
-    <@renderComponent component=contentModel.memberlist_o.item />
+    <!--<@renderComponent component=contentModel.memberlist_o.item />-->
     <@renderComponent component=contentModel.footer_o.item />
     <script src="/static-assets/plugins/jquery341/jquery(3.4.1.).js"></script>
     <script src="/static-assets/js/popper.min.js"></script>

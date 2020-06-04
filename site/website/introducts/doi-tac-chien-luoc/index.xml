@@ -18,9 +18,41 @@
 	<disableFlattening>false</disableFlattening>
 	</item></slide_o>
 	<thumbail_s>/static-assets/images/featured/gioi-thieu-img-4.png</thumbail_s>
-	<contents_html>&lt;p&gt;&lt;img src="/static-assets/images/featured/partner_2.png" alt="" width="1250" height="972" /&gt;&lt;/p&gt;</contents_html>
+	<contents_html/>
 	<createdDate>2020-04-17T03:58:23.091Z</createdDate>
 	<createdDate_dt>2020-04-17T03:58:23.091Z</createdDate_dt>
-	<lastModifiedDate>2020-04-24T02:43:55.754Z</lastModifiedDate>
-	<lastModifiedDate_dt>2020-04-24T02:43:55.754Z</lastModifiedDate_dt>
+	<lastModifiedDate>2020-06-04T08:38:32.713Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-06-04T08:38:32.713Z</lastModifiedDate_dt>
+	<section_o item-list="true">	<item datasource="sectionDataSource" inline="true">	<key>c3f79ceb-85de-15fe-5ade-23ae1d8b286d</key>
+	<value>Danh sách đối tác chiến lược</value>
+<component id="c3f79ceb-85de-15fe-5ade-23ae1d8b286d">
+	<content-type>/component/partnership</content-type>
+	<display-template>/templates/web/partnership.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>c3f7</objectGroupId>
+	<objectId>c3f79ceb-85de-15fe-5ade-23ae1d8b286d</objectId>
+	<file-name>c3f79ceb-85de-15fe-5ade-23ae1d8b286d.xml</file-name>
+	<internal-name>Danh sách đối tác chiến lược</internal-name>
+	<logo_o item-list="true">	<item>	<partnerimagealt_s>Dược thú y Cai Lậy</partnerimagealt_s>
+	<partnerimage_s>/static-assets/images/partnerships/logo_duoc_thu_y_cai_lay.jpg</partnerimage_s>
+	</item>	<item>	<partnerimage_s>/static-assets/images/partnerships/logo_mavin_animal_health_cut.jpg</partnerimage_s>
+	<partnerimagealt_s>Mavin Animal Health</partnerimagealt_s>
+	</item>	<item>	<partnerimage_s>/static-assets/images/partnerships/logo_mavin_aqua.png</partnerimage_s>
+	<partnerimagealt_s>Mavin Aquaculture</partnerimagealt_s>
+	</item>	<item>	<partnerimage_s>/static-assets/images/partnerships/logo_mavin_austfeed_2.png</partnerimage_s>
+	<partnerimagealt_s>Mavin austfeed</partnerimagealt_s>
+	</item>	<item>	<partnerimage_s>/static-assets/images/partnerships/logo_mavin_farm_moi.png</partnerimage_s>
+	<partnerimagealt_s>Mavin Farm</partnerimagealt_s>
+	</item>	<item>	<partnerimage_s>/static-assets/images/partnerships/logo_mavin_foods_.jpg</partnerimage_s>
+	<partnerimagealt_s>Mavin Foods</partnerimagealt_s>
+	</item>	<item>	<partnerimage_s>/static-assets/images/partnerships/logo_mavin_logistics.png</partnerimage_s>
+	<partnerimagealt_s>Mavin Logistics</partnerimagealt_s>
+	</item></logo_o>
+	<createdDate>2020-06-04T08:38:46.227Z</createdDate>
+	<createdDate_dt>2020-06-04T08:38:46.227Z</createdDate_dt>
+	<lastModifiedDate>2020-06-04T08:38:46.227Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-06-04T08:38:46.227Z</lastModifiedDate_dt>
+</component>
+	</item></section_o>
 </page>
