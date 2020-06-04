@@ -11,7 +11,7 @@
                     <p>Điện thoại: ${contentModel.phonenumber_s}</p>
                   </div>
                   <div class="footer__contact-info">
-                    <p>Mã số thuế: ${contentModel.tax_s} - Ngày cấp: 3/4/2017</p>
+                    <p>Mã số thuế: ${contentModel.tax_s} - Ngày cấp: 3/4/2017</p></br>
                     <p>Nơi cấp: Sở Kế hoạch và Đầu tư tỉnh Hưng Yên.</p>
                   </div>
                 </div>
