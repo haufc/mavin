@@ -211,7 +211,7 @@
 					<properties>
 						<property>
 							<name>repoPath</name>
-							<value></value>
+							<value>/static-assets/images/partnerships</value>
 								<type>undefined</type>
 						</property>
 						<property>
@@ -229,7 +229,7 @@
 					<properties>
 						<property>
 							<name>repoPath</name>
-							<value></value>
+							<value>/static-assets/images/partnerships</value>
 								<type>undefined</type>
 						</property>
 					</properties>
