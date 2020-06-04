@@ -7401,19 +7401,19 @@ _:-ms-lang(x), .content__img {
     .carousel .carousel-control.right i {
         font-size: 14px!important;
     }
-    .carousel-control-next {
-        right: -2%!important;
-        top: -12%!important;
-     }
+    /*.carousel-control-next {*/
+    /*    right: -2%!important;*/
+    /*    top: -12%!important;*/
+    /* }*/
 }
 
 @media (max-width: 359px){
     .carousel .carousel-control.right i {
         font-size: 14px!important;
     }
-    .carousel-control-next {
-        right: -2%!important;
-        top: -4%!important;
-     }
+    /*.carousel-control-next {*/
+    /*    right: -2%!important;*/
+    /*    top: -4%!important;*/
+    /* }*/
 }
 /*# sourceMappingURL=styles.css.map */
