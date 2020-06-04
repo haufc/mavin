@@ -1,7 +1,7 @@
 <#import "/templates/system/common/cstudio-support.ftl" as studio />
 <div class="content">
       <div class="container" style="padding: 20px;">
-    <div class="row" style="background-color: #FFF;">
+    <div class="row" style="background-color: #FFF;padding-top: 20px;">
         <#list contentModel.logo_o.item as logo>
             <div class="col-3">
                  <div style="padding-bottom:20px;">
