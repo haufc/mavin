@@ -1,5 +1,5 @@
 <#import "/templates/system/common/cstudio-support.ftl" as studio />
- <footer class="footer" <@studio.iceAttr component=contentModel/> style="background-image: url('${contentModel.backgroundImage_s}'); background-color: #FFF">
+ <footer class="footer" <@studio.iceAttr component=contentModel/> style="background-image: url('${contentModel.backgroundImage_s}'); background-color: #FFF ; background-size: 100% 100%">
         <div class="container">
             <div class="row">
                 <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
@@ -15,7 +15,7 @@
                     <p>Nơi cấp: Sở Kế hoạch và Đầu tư tỉnh Hưng Yên.</p>
                   </div>
                 </div>
-                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6 footer-item__social">
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 footer-item__social">
                   <p class="text-white text--uppercase text--center footer-item__social--title">Kết nối với chúng tôi</p>
                   <div class="footer__btns footer-item__social--icons">
                     <#if (contentModel.socialMedia_o.item)??>
@@ -27,7 +27,7 @@
                     </#if>
                   </div>
                 </div>
-                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
                     <img src="/static-assets/images/logos/bct_logo.png" style="max-width: 100%; float:right;" alt="">
                     <p class="text-white text--copyright" style="font-size: 11px; margin-top: 10px; float:right;">${contentModel.brandCopyright_s}</p>
                 </div>
