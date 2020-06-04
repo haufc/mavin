@@ -7364,7 +7364,9 @@ _:-ms-lang(x), .content__img {
      .carousel .item img {
         bottom: 38px!important;
      }
-     
+     .carousel-control-next {
+         top: 0%!important;
+     }
      
 }
 /*# sourceMappingURL=styles.css.map */
