@@ -5,7 +5,7 @@
                 <div class="container">
                         <div class="content__title">
                           <#if (contentModel.title_s)??>
-                          <h2 class="text--red" style="font-size: 35px;">${contentModel.title_s}</h2>
+                          <h1 class="text--red">${contentModel.title_s}</h1>
                           </#if>
                         </div>
                 </div>
