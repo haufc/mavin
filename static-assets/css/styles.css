@@ -7415,7 +7415,12 @@ _:-ms-lang(x), .content__img {
     /*    top: -4%!important;*/
     /* }*/
 }
+.green-tick{
+    float:right;
+}
 @media (max-width: 575px){
-    
+    .green-ticl{
+        float: none;
+    }
 }
 /*# sourceMappingURL=styles.css.map */
