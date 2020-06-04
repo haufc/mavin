@@ -9,7 +9,7 @@
                 </div>
             </div>
     </div>
-    <div class="content__details container">
+    <div class="content__details container" style="padding-left: 15px;">
             <div class="row">
                 ${contentModel.itemContent_html}
             </div>
