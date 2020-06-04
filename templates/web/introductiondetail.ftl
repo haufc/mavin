@@ -23,11 +23,11 @@
         <@renderComponent component=contentModel.slide_o.item />
         <div class="content__title">
         <div class="container">
-            <h1 class="text--uppercase text--red">${contentModel.title_s}</h1>
+            <h1 class="text--red" style="font-size:45px;">${contentModel.title_s}</h1>
         </div>
         
       </div>
-      <div class="content__details--nopadding-x container" style="padding-left:15px;">
+      <div class="content__details--nopadding-x container" style="padding-left:15px; font-size:25px;">
             ${contentModel.contents_html}
       </div>
       <#if (contentModel.section_o.item)??>
