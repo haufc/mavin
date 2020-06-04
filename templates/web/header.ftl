@@ -26,7 +26,13 @@
                 </div>
             </div>
             <a class="mavinex-nav__link" href="/tin-tuc">Tin tức</a>
+            <div class="dropdown">
             <a class="mavinex-nav__link" href="/nang-luc-kinh-nghiem">Năng lực kinh nghiệm</a>
+                <div class="dropdown-content">
+                <a class="mavinex-nav__link" href="/linh-vuc-xay-dung">Lĩnh vực xây dựng</a>
+                <a class="mavinex-nav__link" href="/tu-van-tong-the">Tư vấn tổng thể và thiết kế trang trại chăn nuôi</a>
+                </div>
+            </div>
             <a class="mavinex-nav__link" href="/co-hoi-nghe-nghiep">Tuyển dụng</a>
             <a class="mavinex-nav__link" href="/lien-he">Liên hệ</a>
         </div>
