@@ -21,7 +21,7 @@
     <@renderComponent component=contentModel.header_o.item />
     <div class="content">
         <@renderComponent component=contentModel.slide_o.item />
-        <div class="content__title" style="padding-left:15px;">
+        <div class="content__title">
         <div class="container">
             <h1 class="text--uppercase text--red">${contentModel.title_s}</h1>
         </div>
