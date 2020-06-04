@@ -4,7 +4,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-12">
-                  <h1 class="text--red">Tin Mavinex</h1>
+                  <h2 class="text--red">Tin Mavinex</h2>
                 </div>
             </div>
         </div>
@@ -37,7 +37,7 @@
             <div class="container">
                 <div class="row">
                         <div class="col-lg-12 col-md-12 col-sm-12 col-12">
-                          <h1 class="text--red">Tin ngành</h1>
+                          <h2 class="text--red">Tin ngành</h2>
                         </div>
                 </div>
             </div>
