@@ -2,7 +2,7 @@
 	<div <@studio.iceAttr component=contentModel/>>
 	<div class="content__title">
             <div class="container">
-                <h2 class="text--red">${contentModel.tittle_s}</h2>
+                <h1 class="text--red">${contentModel.tittle_s}</h1>
             </div>
     </div>
 	<div id="production" class="carousel slide" data-ride="carousel" style="background-color: #fff">
