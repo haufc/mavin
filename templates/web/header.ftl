@@ -10,15 +10,29 @@
             <div class="dropdown">
               <a class="mavinex-nav__link" href="/gioi-thieu">Giới thiệu</a>
               <div class="dropdown-content">
-                <a class="mavinex-nav__link" href="#">Giới thiệu chung</a>
-                <a class="mavinex-nav__link" href="#">Lịch sử hình thành</a>
-                <a class="mavinex-nav__link" href="#">Lĩnh vực hoạt động</a>
-                <a class="mavinex-nav__link" href="#">Đối tác chiến lược</a>
+                <a class="mavinex-nav__link" href="/introducts/gioi-thieu-chung">Giới thiệu chung</a>
+                <a class="mavinex-nav__link" href="/introducts/lich-su-hinh-thanh">Lịch sử hình thành</a>
+                <a class="mavinex-nav__link" href="/introducts/linh-vuc-hoat-dong">Lĩnh vực hoạt động</a>
+                <a class="mavinex-nav__link" href="/introducts/doi-tac-chien-luoc">Đối tác chiến lược</a>
               </div>
             </div>
+            <div class="dropdown">
             <a class="mavinex-nav__link" href="/san-pham">Sản phẩm</a>
+                <div class="dropdown-content">
+                <a class="mavinex-nav__link" href="/group-product/thiet-bi-chuong-trai">Thiết bị chuồng trại</a>
+                <a class="mavinex-nav__link" href="/group-product/may-ap-no-trung">Máy ấp nở trứng</a>
+                <a class="mavinex-nav__link" href="/group-product/thiet-bi-thuy-san">Thiết bị thuỷ sản</a>
+                <a class="mavinex-nav__link" href="/group-product/thiet-bi-thuc-an-chan-nuoi">Thiết bị nhà máy thức ăn chăn nuôi</a>
+                </div>
+            </div>
             <a class="mavinex-nav__link" href="/tin-tuc">Tin tức</a>
+            <div class="dropdown">
             <a class="mavinex-nav__link" href="/nang-luc-kinh-nghiem">Năng lực kinh nghiệm</a>
+                <div class="dropdown-content">
+                <a class="mavinex-nav__link" href="/linh-vuc-xay-dung">Lĩnh vực xây dựng</a>
+                <a class="mavinex-nav__link" href="/tu-van-tong-the">Tư vấn tổng thể và thiết kế trang trại chăn nuôi</a>
+                </div>
+            </div>
             <a class="mavinex-nav__link" href="/co-hoi-nghe-nghiep">Tuyển dụng</a>
             <a class="mavinex-nav__link" href="/lien-he">Liên hệ</a>
         </div>

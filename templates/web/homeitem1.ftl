@@ -10,7 +10,7 @@
                         </div>
                 </div>
         </div>
-        <div class="content__details container">
+        <div class="content__details container" style="padding-left: 15px;">
             <div class="row">
                     <div class="col-lg-6 col-md-6 col-sm-12 col-12  order-1">
                         <#if (contentModel.item_o.item)??>
@@ -19,7 +19,7 @@
                                 </#list>
                         </#if>
                     </div>
-                    <div class="col-lg-6 col-md-6 col-sm-12 col-12 order-2">
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-12 order-2" style="padding-left: 0px;">
                         <#if (contentModel.image_s)?? >
                         <img src="${contentModel.image_s}" alt="" class="img--full">
                         </#if>

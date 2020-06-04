@@ -6975,13 +6975,17 @@ _:-ms-lang(x), .content__img {
 
 /* logos */
     .mavinex-logos {
-        margin-top: 20px;
-        margin-bottom: 20px;
+        margin: 20px auto;
+        width: 1600px;
     }
-    .mavinex-logos > .owl-carousel .owl-item img {
-        width: 70px;
+    .item > img,
+    .owl-item > img,
+    .owl-item.active > img {
+        margin: 0 auto;
     }
-
+    .owl-carousel .owl-item img{
+        width: 60px;
+    }
 /* footer */
     .mavinex-footer {
         width: 100%;
@@ -7250,7 +7254,6 @@ _:-ms-lang(x), .content__img {
     }
     .mavinex-products__items {
         justify-content: space-between;
-        padding-left: 30px;
     }
     .mavinex-products__item {
         position: relative;
@@ -7378,39 +7381,39 @@ _:-ms-lang(x), .content__img {
     .carousel .carousel-control.right i {
         font-size: 18px!important;
     }
-    .carousel-control-next {
-        right: -2%!important;
-        top: -50%!important;
-     }
+    /*.carousel-control-next {*/
+    /*    right: -2%!important;*/
+    /*    top: -50%!important;*/
+    /* }*/
 }
 
 @media (min-width: 435px) and (max-width: 499px){
     .carousel .carousel-control.right i {
         font-size: 14px!important;
     }
-    .carousel-control-next {
-        right: -2%!important;
-        top: -22%!important;
-     }
+    /*.carousel-control-next {*/
+    /*    right: -2%!important;*/
+    /*    top: -22%!important;*/
+    /* }*/
 }
 
 @media (min-width: 360px) and (max-width: 434px){
     .carousel .carousel-control.right i {
         font-size: 14px!important;
     }
-    .carousel-control-next {
-        right: -2%!important;
-        top: -12%!important;
-     }
+    /*.carousel-control-next {*/
+    /*    right: -2%!important;*/
+    /*    top: -12%!important;*/
+    /* }*/
 }
 
 @media (max-width: 359px){
     .carousel .carousel-control.right i {
         font-size: 14px!important;
     }
-    .carousel-control-next {
-        right: -2%!important;
-        top: -4%!important;
-     }
+    /*.carousel-control-next {*/
+    /*    right: -2%!important;*/
+    /*    top: -4%!important;*/
+    /* }*/
 }
 /*# sourceMappingURL=styles.css.map */

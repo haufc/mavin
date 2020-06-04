@@ -3,7 +3,7 @@
     <div class="content__title text--center">
       <h1 class="text--uppercase text--red">${contentModel.title_s}</h1>
     </div>
-    <div class="content__details container" style="flex-flow: wrap-reverse;">
+    <div class="content__details container" style="flex-flow: wrap-reverse; padding-left: 15px;">
         <div class="row">
             <#list contentModel.contentitem_o.item as content>
                 <@renderComponent component=content />
