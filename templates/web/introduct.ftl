@@ -4,9 +4,9 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 col-md-6 col-sm-6 col-6">
-                  <h2 class="text--red text--title__small">${intros[5].title}</h2>
+                  <h2 class="text--red text--title__small" style="font-size: 33px;">${intros[5].title}</h2>
                 </div>
-                <div class="col-lg-6 col-md-6 col-sm-6 col-6">
+                <div class="col-lg-6 col-md-6 col-sm-6 col-6" style="font-size: 33px;">
                   <h2 class="text--red text--title__small">${intros[0].title}</h2>
                 </div>
             </div>
@@ -39,10 +39,10 @@
       <div class="content__title">
         <div class="container">
             <div class="row">
-                <div class="col-lg-6 col-md-6 col-sm-6 col-6">
+                <div class="col-lg-6 col-md-6 col-sm-6 col-6" style="font-size: 33px;">
                   <h2 class="text--red text--title__small">${intros[1].title}</h2>
                 </div>
-                <div class="col-lg-6 col-md-6 col-sm-6 col-6">
+                <div class="col-lg-6 col-md-6 col-sm-6 col-6" style="font-size: 33px;">
                   <h2 class="text--red text--title__small">${intros[4].title}</h2>
                 </div>
             </div>
