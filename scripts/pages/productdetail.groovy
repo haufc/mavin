@@ -10,5 +10,8 @@ def categories = new TaxonomySearchHelper("product-category-child", elasticsearc
 						.getItems()
 
 print "category======>"
-print categories
+print categories.each{ item ->
+    print "category item : "
+    print item
+}
 templateModel.relatedProducts = relatedProducts
