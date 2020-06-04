@@ -375,7 +375,7 @@ img {
                     				</div>
                     			</div>
                     			<!-- Carousel controls -->
-                    			<a class="carousel-control right carousel-control-next" style="right: -3%;top: 25%;" href="#myCarousel" data-slide="next">
+                    			<a class="carousel-control right carousel-control-next" style="right: -1%;top: 25%;" href="#myCarousel" data-slide="next">
                     				<i class="fa fa-play"></i>
                     			</a>
                     		</div>
