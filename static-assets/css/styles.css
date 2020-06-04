@@ -7354,7 +7354,7 @@ _:-ms-lang(x), .content__img {
 /*san pham tuong tu*/
 @media (min-width: 992px) and (max-width: 1200px) {
      .carousel .item img {
-        bottom: 10px;
+        bottom: 10px!important;
      }
      
      
@@ -7362,7 +7362,7 @@ _:-ms-lang(x), .content__img {
 
 @media (min-width: 768px) and (max-width: 992px) {
      .carousel .item img {
-        bottom: 38px;
+        bottom: 38px!important;
         top: -5px;
      }
      
