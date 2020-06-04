@@ -2,7 +2,7 @@
 	<div <@studio.iceAttr component=contentModel/>>
 	<div class="content__title">
             <div class="container">
-                <h2 class="text--red" style="font-size:46px;">${contentModel.tittle_s}</h2>
+                <h2 class="text--red" style="font-size:35px;">${contentModel.tittle_s}</h2>
             </div>
     </div>
 	<div id="production" class="carousel slide" data-ride="carousel" style="background-color: #fff">
@@ -22,7 +22,7 @@
                                 <div class="mavinex-products__item col-xs-6 col-sm-6 col-md-6 col-lg-3 p-0">
                                     <div class="mavinex-products__item-title mavinex-products__item-title--bg-blue">
                                         <div class="mavinex-products__item-text">
-                                            <h4 style="font-size: 26px;">${item.pTittle1_s}</h4>
+                                            <h4 style="font-size: 20px;">${item.pTittle1_s}</h4>
                                         </div>
                                     </div>
                                     
@@ -32,7 +32,7 @@
                                 <div class="mavinex-products__item col-xs-6 col-sm-6 col-md-6 col-lg-3 p-0">
                                     <div class="mavinex-products__item-title mavinex-products__item-title--bg-red">
                                         <div class="mavinex-products__item-text">
-                                            <h4 style="font-size: 26px;">${item.pTittle2_s}</h4>
+                                            <h4 style="font-size: 20px;">${item.pTittle2_s}</h4>
                                         </div>
                                     </div>
                                     
@@ -42,7 +42,7 @@
                                 <div class="mavinex-products__item col-xs-6 col-sm-6 col-md-6 col-lg-3 p-0">
                                     <div class="mavinex-products__item-title mavinex-products__item-title--bg-blue">
                                         <div class="mavinex-products__item-text">
-                                            <h4 style="font-size: 26px;">${item.pTittle3_s}</h4>
+                                            <h4 style="font-size: 20px;">${item.pTittle3_s}</h4>
                                         </div>
                                     </div>
                                     
@@ -52,7 +52,7 @@
                                 <div class="mavinex-products__item col-xs-6 col-sm-6 col-md-6 col-lg-3 p-0">
                                     <div class="mavinex-products__item-title mavinex-products__item-title--bg-red">
                                         <div class="mavinex-products__item-text">
-                                            <h4 style="font-size: 26px;">${item.pTittle4_s}</h4>
+                                            <h4 style="font-size: 20px;">${item.pTittle4_s}</h4>
                                         </div>
                                     </div>
                                     
