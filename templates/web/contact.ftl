@@ -3,7 +3,7 @@
         <div class="content__title text--center">
             <h1 class="text--uppercase text--red">${contentModel.title_s}</h1>
           </div>
-        <div class="container p-3 text-white" style="padding: 30px !important;">         
+        <div class="container p-3 text-white" style="">         
             <div class="row">
                 <div class="col-sm-12 col-md-6 col-lg-6">
                     <img src="${contentModel.image_s}" class="img--full" alt="">
