@@ -16,3 +16,10 @@
     }
     
 }
+
+@media (max-width: 575px){
+    .partnership-img {
+        height: 110px;
+    }
+    
+}
