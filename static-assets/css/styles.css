@@ -7384,13 +7384,23 @@ _:-ms-lang(x), .content__img {
      }
 }
 
-@media (max-width: 499px){
+@media (min-width: 435px) and (max-width: 499px){
     .carousel .carousel-control.right i {
         font-size: 14px!important;
     }
     .carousel-control-next {
         right: -2%!important;
-        top: -50%!important;
+        top: -22%!important;
+     }
+}
+
+@media (min-width: 360px) and (max-width: 434px){
+    .carousel .carousel-control.right i {
+        font-size: 14px!important;
+    }
+    .carousel-control-next {
+        right: -2%!important;
+        top: -12%!important;
      }
 }
 /*# sourceMappingURL=styles.css.map */
