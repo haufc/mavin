@@ -13,7 +13,7 @@
         <div class="row data-container" id="mavinex-news">
                 <#list news as aNews>
                 <#if aNews.category = "mavinex-news">
-                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 mavinex" style="padding-left: 0px;">
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 mavinex" style="padding-left: 15px;">
                     <div>
                         <img src="${aNews.image}" alt="" class="img--full">
                         <h3 style="color: #fff; padding-top: 20px;"  style="padding-top:9px;">${aNews.title}</h3>
@@ -46,7 +46,7 @@
         <div class="row data-container" id="field-news">
                 <#list news as aNews>
                 <#if aNews.category = "field-news">
-                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 fields" style="padding-left: 0px;">
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 fields" style="padding-left: 15px;">
                     <div>
                         <img src="${aNews.image}" alt="" class="img--full">
                         <h3 style="color: #fff; padding-top: 20px;"  style="padding-top:9px;">${aNews.title}</h3>
