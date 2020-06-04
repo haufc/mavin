@@ -4,7 +4,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-12">
-                  <h2 class="text--red">Tin Mavinex</h2>
+                  <h1 class="text--red">Tin Mavinex</h1>
                 </div>
             </div>
         </div>
@@ -16,7 +16,7 @@
                 <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 mavinex" style="padding-left: 15px;">
                     <div>
                         <img src="${aNews.image}" alt="" class="img--full">
-                        <h3 style="color: #fff; padding-top: 20px;"  style="padding-top:9px;">${aNews.title}</h3>
+                        <h4 style="color: #fff; padding-top: 20px;"  style="padding-top:9px;">${aNews.title}</h4>
                         <p style="color: #fff; padding-top: 10px;" class="limit-text" max-length="50">${aNews.content}<p>
                         <a class="mt-3 rounded-0" href="${aNews.url}"> 
                             <span class="mr-1 text--italic" style="color:#fff">Xem tiếp</span>
@@ -37,7 +37,7 @@
             <div class="container">
                 <div class="row">
                         <div class="col-lg-12 col-md-12 col-sm-12 col-12">
-                          <h2 class="text--red">Tin ngành</h2>
+                          <h1 class="text--red">Tin ngành</h1>
                         </div>
                 </div>
             </div>
@@ -49,7 +49,7 @@
                 <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 fields" style="padding-left: 15px;">
                     <div>
                         <img src="${aNews.image}" alt="" class="img--full">
-                        <h3 style="color: #fff; padding-top: 20px;"  style="padding-top:9px;">${aNews.title}</h3>
+                        <h4 style="color: #fff; padding-top: 20px;"  style="padding-top:9px;">${aNews.title}</h4>
                         <p style="color: #fff; padding-top: 10px;" class="limit-text">${aNews.content}<p>
                         <a class="mt-3 rounded-0" href="${aNews.url}"> 
                             <span class="mr-1 text--italic" style="color:#fff">Xem tiếp</span>
