@@ -290,7 +290,7 @@ img {
         <@renderComponent component=contentModel.slide_o.item />
          <div class="recruitment ">
         <div class="content__title text--center">
-            <#list categories.items as cate>
+            <#list groupProduct.items as cate>
                 <#if cate.value == contentModel.productchildgroup_o.item.key>
                     <div style="background-color: #00559a; padding:10px;">
                         <h1 class="text--uppercase text-white text-left container">${cate.label}</h1>
