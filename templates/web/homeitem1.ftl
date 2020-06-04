@@ -10,7 +10,7 @@
                         </div>
                 </div>
         </div>
-        <div class="content__details container">
+        <div class="content__details container" style="padding-left: 15px;">
             <div class="row">
                     <div class="col-lg-6 col-md-6 col-sm-12 col-12  order-1">
                         <#if (contentModel.item_o.item)??>
