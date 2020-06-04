@@ -6983,6 +6983,9 @@ _:-ms-lang(x), .content__img {
     .owl-item.active > img {
         margin: 0 auto;
     }
+    .owl-carousel .owl-item img{
+        width: 60px;
+    }
 /* footer */
     .mavinex-footer {
         width: 100%;
