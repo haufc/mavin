@@ -7351,4 +7351,21 @@ _:-ms-lang(x), .content__img {
         font-size: 13px; 
     }
 }
+/*san pham tuong tu*/
+@media (min-width: 992px) and (max-width: 1200px) {
+     .carousel .item img {
+        bottom: 10px;
+     }
+     
+     
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+     .carousel .item img {
+        bottom: 38px;
+        top: -5px;
+     }
+     
+     
+}
 /*# sourceMappingURL=styles.css.map */
