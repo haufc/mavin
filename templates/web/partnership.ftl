@@ -2,9 +2,9 @@
 	 <div class="content__details">
           <div class="container" style="background-color: #FFF; padding: 20px;">
             <div class="row">
-                <#list contentModel.VARIABLENAME.item as myItem>
+                <#list contentModel.logo_o.item as logo>
                     <div class="col-3">
-                        <img style="border: 4px solid blue;" class="img--full" src="../../assets/images/content_img_2.png"/>
+                        <img style="border: 4px solid blue;" class="img--full" src="${logo.partnerimage_s}" alt="${logo.partnerimagealt_s}"/>
                     </div>
                 </#list>
             </div>
