@@ -22,8 +22,6 @@
     </div>
 </div> 
 <style>
-.cloned{
-    margin-right: 0px !important;
-}
+.owl-item {width: auto;} 
 </style>
 <@studio.toolSupport />
