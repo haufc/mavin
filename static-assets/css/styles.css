@@ -7374,10 +7374,16 @@ _:-ms-lang(x), .content__img {
      
 }
 
-@media (max-width: 440px){
-
-   .col-custom-450 {
-       padding-left: 0 !important;
-   }
+@media (max-width: 600px){
+   .carousel-control-next {
+         top: 0%!important;
+         right: -12%!important;
+     }
+    
+    .carousel-control-next {
+        font-size: 18px;
+        right: -2%;
+        top: -50%;
+     }
 }
 /*# sourceMappingURL=styles.css.map */
