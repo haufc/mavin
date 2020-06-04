@@ -291,7 +291,7 @@ img {
          <div class="recruitment ">
         <div class="content__title text--center">
             <div style="background-color: #00559a; padding:10px;">
-                <h1 class="text--uppercase text-white text-left container">${contentModel.productchildgroup_o.item.value}</h1>
+                <h1 class="text--uppercase text-white text-left container">${contentModel.productchildgroup_o.item.key}</h1>
             </div>
           </div>
         <div class="container p-3 mb-1">         
