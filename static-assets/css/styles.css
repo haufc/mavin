@@ -7415,4 +7415,7 @@ _:-ms-lang(x), .content__img {
     /*    top: -4%!important;*/
     /* }*/
 }
+@media (max-width: 575px){
+    
+}
 /*# sourceMappingURL=styles.css.map */
