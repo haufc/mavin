@@ -7381,10 +7381,10 @@ _:-ms-lang(x), .content__img {
     .carousel .carousel-control.right i {
         font-size: 18px!important;
     }
-    .carousel-control-next {
-        right: -2%!important;
-        top: -50%!important;
-     }
+    /*.carousel-control-next {*/
+    /*    right: -2%!important;*/
+    /*    top: -50%!important;*/
+    /* }*/
 }
 
 @media (min-width: 435px) and (max-width: 499px){
