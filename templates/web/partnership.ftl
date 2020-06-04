@@ -4,7 +4,7 @@
             <div class="row">
                 <#list contentModel.logo_o.item as logo>
                     <div class="col-3">
-                        <div style="background-image: url('${logo.partnerimage_s}'); background-color: #FFF">
+                        <div style="background-image: url('${logo.partnerimage_s}'); height:100% width:100%;">
                             <!--<img style="border: 4px solid blue;padding: 15%;" class="img--full" src="${logo.partnerimage_s}" alt="${logo.partnerimagealt_s}"/>-->
                         </div>
                     </div>
