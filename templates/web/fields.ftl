@@ -9,8 +9,8 @@
                 </div>
             </div>
     </div>
-    <div class="content__details container" style="padding-left: 15px;">
-            <div class="row">
+    <div class="content__details container">
+            <div class="row" style="padding-left: 15px;">
                 ${contentModel.itemContent_html}
             </div>
             <div class="row">
