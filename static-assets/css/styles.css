@@ -7357,6 +7357,9 @@ _:-ms-lang(x), .content__img {
         bottom: 10px!important;
      }
      
+     .carousel-control-next {
+         right: -9% !important;
+     }
      
 }
 
