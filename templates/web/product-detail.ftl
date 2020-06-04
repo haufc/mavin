@@ -291,7 +291,7 @@ img {
          <div class="recruitment ">
         <div class="content__title text--center">
             <div style="background-color: #00559a; padding:10px;">
-                <h1 class="text--uppercase text-white text-left container">Kỹ sư công trình</h1>
+                <h1 class="text--uppercase text-white text-left container"></h1>
             </div>
           </div>
         <div class="container p-3 mb-1">         
@@ -348,7 +348,7 @@ img {
                     				<div class="item carousel-item active">
                     					<div class="row">
                     					    <#list relatedProducts as myItem>
-                                                <div class="col-3">
+                                                <div class="col-3 col-custom-450">
                         							<div class="thumb-wrapper">
                         								<span class="wish-icon"><i class="fa fa-heart-o"></i></span>
                         								<div class="img-box">
@@ -362,7 +362,7 @@ img {
                     				<div class="item carousel-item">
                     					<div class="row">
                     						 <#list relatedProducts as myItem>
-                                                <div class="col-3">
+                                                <div class="col-3 col-custom-450">
                         							<div class="thumb-wrapper">
                         								<span class="wish-icon"><i class="fa fa-heart-o"></i></span>
                         								<div class="img-box">
@@ -375,7 +375,7 @@ img {
                     				</div>
                     			</div>
                     			<!-- Carousel controls -->
-                    			<a class="carousel-control right carousel-control-next" style="right: -3%;top: 25%;" href="#myCarousel" data-slide="next">
+                    			<a class="carousel-control right carousel-control-next" style="right: -7%;top: 25%;" href="#myCarousel" data-slide="next">
                     				<i class="fa fa-play"></i>
                     			</a>
                     		</div>

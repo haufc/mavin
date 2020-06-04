@@ -7351,4 +7351,66 @@ _:-ms-lang(x), .content__img {
         font-size: 13px; 
     }
 }
+/*san pham tuong tu*/
+@media (min-width: 992px) and (max-width: 1200px) {
+     .carousel .item img {
+        bottom: 10px!important;
+     }
+     
+     .carousel-control-next {
+         right: -9% !important;
+     }
+     
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+     .carousel .item img {
+        bottom: 38px!important;
+     }
+     .carousel-control-next {
+         top: 0%!important;
+         right: -12%!important;
+     }
+     
+}
+
+@media (min-width: 500px) and (max-width: 600px){
+    .carousel .carousel-control.right i {
+        font-size: 18px!important;
+    }
+    .carousel-control-next {
+        right: -2%!important;
+        top: -50%!important;
+     }
+}
+
+@media (min-width: 435px) and (max-width: 499px){
+    .carousel .carousel-control.right i {
+        font-size: 14px!important;
+    }
+    .carousel-control-next {
+        right: -2%!important;
+        top: -22%!important;
+     }
+}
+
+@media (min-width: 360px) and (max-width: 434px){
+    .carousel .carousel-control.right i {
+        font-size: 14px!important;
+    }
+    .carousel-control-next {
+        right: -2%!important;
+        top: -12%!important;
+     }
+}
+
+@media (max-width: 359px){
+    .carousel .carousel-control.right i {
+        font-size: 14px!important;
+    }
+    .carousel-control-next {
+        right: -2%!important;
+        top: -4%!important;
+     }
+}
 /*# sourceMappingURL=styles.css.map */
