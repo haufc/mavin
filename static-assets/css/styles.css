@@ -7441,9 +7441,5 @@ _:-ms-lang(x), .content__img {
         float: none;
     }
 }
-@media (min-width: 1200px){
-    #btn-up-top{
-        left: 0px;
-    }
-}
+
 /*# sourceMappingURL=styles.css.map */
