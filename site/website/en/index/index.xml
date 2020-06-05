@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page>
+	<content-type>/page/home</content-type>
+	<display-template>/templates/web/home.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>9b68</objectGroupId>
+	<objectId>9b681e64-9bec-f818-a6c2-60eb47d33e0b</objectId>
+	<placeInNav>false</placeInNav>
+	<orderDefault_f>-1</orderDefault_f>
+	<internal-name>Trang chủ</internal-name>
+	<title_s>Home</title_s>
+	<descripttion_t>Trang chủ</descripttion_t>
+	<sections_o item-list="true">	<item datasource="sections" inline="true">	<key>8e518ed7-832d-2044-8785-7b5bcea6eae9</key>
+	<value>Slide</value>
+<component id="8e518ed7-832d-2044-8785-7b5bcea6eae9">
+	<content-type>/component/slide</content-type>
+	<display-template>/templates/web/slide.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>8e51</objectGroupId>
+	<objectId>8e518ed7-832d-2044-8785-7b5bcea6eae9</objectId>
+	<image_o item-list="true">	<item>	<image_s>/static-assets/images/slides/bg_1.png</image_s>
+	</item></image_o>
+	<file-name>8e518ed7-832d-2044-8785-7b5bcea6eae9.xml</file-name>
+	<internal-name>Slide</internal-name>
+	<createdDate>2020-06-05T03:54:39.964Z</createdDate>
+	<createdDate_dt>2020-06-05T03:54:39.964Z</createdDate_dt>
+	<lastModifiedDate>2020-06-05T03:54:39.964Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-06-05T03:54:39.964Z</lastModifiedDate_dt>
+</component>
+	</item></sections_o>
+	<file-name>index.xml</file-name>
+	<folder-name>index</folder-name>
+	<createdDate>2020-06-05T03:53:24.856Z</createdDate>
+	<createdDate_dt>2020-06-05T03:53:24.856Z</createdDate_dt>
+	<lastModifiedDate>2020-06-05T03:53:24.856Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-06-05T03:53:24.856Z</lastModifiedDate_dt>
+</page>
