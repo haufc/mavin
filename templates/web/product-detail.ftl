@@ -398,7 +398,7 @@ img {
     
     <@renderComponent component=contentModel.memberlist_o.item />
     <@renderComponent component=contentModel.footer_o.item />
-    <p hidden>${contentModel.productchildgroup_o.item.key}</p>
+    <input hidden value="${contentModel.productchildgroup_o.item.key}" id="txt-key"/>
     <div class="lst-parent">
         <#list groupProduct.items as cate>
             <input hidden value="${cate.value}/ ${cate.label}"/>
@@ -456,7 +456,8 @@ img {
     		});
     	});	
     	
-    	var lstKey = $('.lst-parent);
+    	var key = $('#txt-key').val();
+    	var lstKey = $('.lst-parent).find('input').val();
     	console.log(lstKey);
     </script>
   </body>
