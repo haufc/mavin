@@ -459,7 +459,7 @@ img {
     	var key = $('#txt-key').val();
     	var lstKey = $('.lst-parent').find('input');
     	
-    	for( int i = 0 ; i< lstKey.length; i++) {
+    	for( let i = 0 ; i< lstKey.length; i++) {
     	    let str = $(lstKey[i]).val();
     	    let splitArr = str.split('/');
     	    if (splitArr[0] == key) {
