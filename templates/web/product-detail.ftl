@@ -298,7 +298,7 @@ img {
                 </#if>
             </#list>
             <div style="background-color: #00559a; padding:10px;">
-                <h1 class="text--uppercase text-white text-left container">${titleName}</h1>
+                <h1 class="text--uppercase text-white text-left container" id="product-group"></h1>
             </div>
           </div>
         <div class="container p-3 mb-1">         
@@ -401,7 +401,7 @@ img {
     <input hidden value="${contentModel.productchildgroup_o.item.key}" id="txt-key"/>
     <div class="lst-parent">
         <#list groupProduct.items as cate>
-            <input hidden value="${cate.value}/ ${cate.label}"/>
+            <input hidden value="${cate.value}/${cate.label}"/>
         </#list>
     </div>
     <script src="/static-assets/plugins/jquery341/jquery(3.4.1.).js"></script>
@@ -463,7 +463,7 @@ img {
     	    let str = $(lstKey[i]).val();
     	    let splitArr = str.split('/');
     	    if (splitArr[0] == key) {
-    	        console.log('yes true');
+    	        $('#product-group').text(splitArr[1]);
     	    }
     	}
     	console.log(lstKey);
