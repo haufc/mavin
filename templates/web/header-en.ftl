@@ -12,8 +12,8 @@
               <div class="dropdown-content">
                 <a class="mavinex-nav__link" href="/introducts/gioi-thieu-chung">Introduction</a>
                 <a class="mavinex-nav__link" href="/introducts/lich-su-hinh-thanh">History</a>
-                <a class="mavinex-nav__link" href="/introducts/linh-vuc-hoat-dong">Activity</a>
-                <a class="mavinex-nav__link" href="/introducts/doi-tac-chien-luoc">Partner</a>
+                <a class="mavinex-nav__link" href="/introducts/linh-vuc-hoat-dong">Activities</a>
+                <a class="mavinex-nav__link" href="/introducts/doi-tac-chien-luoc">Partners</a>
               </div>
             </div>
             <div class="dropdown">
