@@ -40,6 +40,15 @@ function topFunction() {
   document.documentElement.scrollTop = 0;
 }
 
+function getContextPath() {
+   return  window.location.protocol + "//" + window.location.host
+}
+
 function changeLanguageVN() {
-    location.replace("https://www.w3schools.com")
+    location.replace(getContextPath() + "/trang-chu")
+}
+
+
+function changeLanguageEN() {
+    location.replace(getContextPath() + "/en/index")
 }
