@@ -30,21 +30,18 @@
                         <img src="${element.itemImage_s}" alt="" class="img--full">
                         </#if>
                     </div>
+                    
                 </#list>
                 </#if>
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-6 seemore_btn" style="padding: 15px;">
-                         <a class="mt-3 rounded-0" href="/linh-vuc-xay-dung"> 
+                <#list contentModel.item_o.item as element>
+                  <div class="col-lg-6 col-md-6 col-sm-6 col-6 seemore_btn" style="padding: 15px;">
+                         <a class="mt-3 rounded-0" href="${element.itemUrl_s}"> 
                             <span class="mr-1">Xem thêm</span>
                             <i class="fa fa-play text--red"></i>
                         </a>
                     </div>
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-6 seemore_btn" style="padding: 15px;">
-                         <a class="mt-3 rounded-0" href="/tu-van-tong-the"> 
-                            <span class="mr-1">Xem thêm</span>
-                            <i class="fa fa-play text--red"></i>
-                        </a>
-                    </div>
-    
+                 
+                </#list>
             </div>
         </div>
 </div>

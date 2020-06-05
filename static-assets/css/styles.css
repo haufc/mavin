@@ -6435,6 +6435,7 @@ _:-ms-lang(x), .content__img {
 
 .seemore_btn {
   font-size: 17px;
+  margin-top: 10px;
 }
 .seemore_btn span{
     color: #fff;
@@ -6728,6 +6729,9 @@ _:-ms-lang(x), .content__img {
 /* responsives */
 /* navigation bar */
 @media (max-width: 600px) {
+    .owl-carousel .owl-item img{
+        width: 30px !important;
+    }
   .nav-bar {
     padding: 0 30px 0 30px;
   }
@@ -6780,7 +6784,10 @@ _:-ms-lang(x), .content__img {
   }
 }
 
-@media (min-width: 700px) and (max-width: 1100px) {
+@media (min-width: 600px) and (max-width: 1100px) {
+    .owl-carousel .owl-item img{
+        width: 40px !important;
+    }
   .nav-bar {
     padding: 0 30px 0 30px;
   }
@@ -7315,7 +7322,20 @@ _:-ms-lang(x), .content__img {
         width: 20px;
         height: 30px;
     }
-@media (max-width: 1199px){
+    
+@media (max-width: 1359px){
+    .mavinex-products__item {
+        height: 220px;
+    }
+    .mavinex-products__item-title,
+    .mavinex-products__item-img {
+        width: 215px;
+    }
+    .mavinex-products {
+        height: 225px;
+    }
+}
+@media (max-width: 1200px){
     .mavinex-products__item {
         height: 200px;
     }
@@ -7427,4 +7447,5 @@ _:-ms-lang(x), .content__img {
         float: none;
     }
 }
+
 /*# sourceMappingURL=styles.css.map */
