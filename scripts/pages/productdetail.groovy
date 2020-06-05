@@ -8,15 +8,6 @@ def relatedProducts = searchHelper.searchProducts(productGroup.text, 0,5)
 
 def categories = new TaxonomySearchHelper("product-category-child", elasticsearch, siteItemService)
 						.getItems()
-
-categories.items.each {item -> 
-    if (item.value == contentModel.productchildgroup_o.item.key) {
-        print "dmm"
-    } else {
-        print "cung van la dmm"
-    }
-}
-
-
+						
 templateModel.groupProduct = categories
 templateModel.relatedProducts = relatedProducts
