@@ -11,7 +11,10 @@ $(document).ready(function() {
     
     var url = window.location;
    console.log(url);
-    
+    if (url.href.indexOf('/en')) {
+      var button =  $('.mavinex-nav__btns').find('button');
+      console.log(button);
+    }
     // ==================================
     
     
