@@ -3,12 +3,13 @@ $(document).ready(function() {
     $('#languageSelector').change(function() {
        var language = $('#languageSelector').val();
        console.log(language);
-       
-       if (language == 'VIE') {
-           window.location.replace(getContextPath() + "/trang-chu");
-       } else {
-           window.location.replace(getContextPath() + "/en/index");
-       }
+       var options = $('#languageSelector').options;
+       console.log(options);
+    //   if (language == 'VIE') {
+    //       window.location.replace(getContextPath() + "/trang-chu");
+    //   } else {
+    //       window.location.replace(getContextPath() + "/en/index");
+    //   }
     })
     
     $('.search-result').css("display", "none");
