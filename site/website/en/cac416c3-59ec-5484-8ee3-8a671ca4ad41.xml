@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/componentfieldsandadvice</content-type>
+	<display-template>/templates/web/experience.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>cac4</objectGroupId>
+	<objectId>cac416c3-59ec-5484-8ee3-8a671ca4ad41</objectId>
+	<item_o item-list="true">	<item>	<itemImage_s>/static-assets/images/Layer 199.png</itemImage_s>
+	<itemTitle_s>Building sector</itemTitle_s>
+	<itemUrl_s/>
+	</item>	<item>	<itemTitle_s>Overall consulting, livestock farm design</itemTitle_s>
+	<itemImage_s>/static-assets/images/Layer 186.png</itemImage_s>
+	<itemUrl_s/>
+	</item></item_o>
+	<file-name>cac416c3-59ec-5484-8ee3-8a671ca4ad41.xml</file-name>
+	<internal-name>Capability</internal-name>
+	<title_s>Capability</title_s>
+	<createdDate>2020-06-05T05:05:59.863Z</createdDate>
+	<createdDate_dt>2020-06-05T05:05:59.863Z</createdDate_dt>
+	<lastModifiedDate>2020-06-05T05:05:59.863Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-06-05T05:05:59.863Z</lastModifiedDate_dt>
+</component>
