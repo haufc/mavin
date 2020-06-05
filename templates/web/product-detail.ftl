@@ -284,8 +284,6 @@ img {
 </style>
   </head>
   <body>
-    <p style="hidden">${contentModel.productchildgroup_o.item.key}</p>
-    
     <button onclick="topFunction()" id="btn-up-top" ><i class="fa fa-angle-up"></i></button>
     <@renderComponent component=contentModel.header_o.item />
     <div class="content" style="background-color: #FFF;">
@@ -397,8 +395,15 @@ img {
         <hr style="border: 3px solid #00559a">
       </div>  
     </div>
+    
     <@renderComponent component=contentModel.memberlist_o.item />
     <@renderComponent component=contentModel.footer_o.item />
+    <p hidden>${contentModel.productchildgroup_o.item.key}</p>
+    <div class="lst-parent">
+        <#list groupProduct.items as cate>
+            <input hidden value="${cate.value}/ ${cate.label}"/>
+        </#list>
+    </div>
     <script src="/static-assets/plugins/jquery341/jquery(3.4.1.).js"></script>
     <script src="/static-assets/js/popper.min.js"></script>
     <script src="/static-assets/plugins/bootstrap441/js/bootstrap.min.js"></script>
