@@ -1,5 +1,5 @@
 <#import "/templates/system/common/cstudio-support.ftl" as studio />
-	<div <@studio.iceAttr component=contentModel/>>
+	<div <@studio.iceAttr component=contentModel/> style="font-family: UVF-DINPro Bold";>
 	<div class="content__title">
             <div class="container">
                 <h1 class="text--red" style="font-weight: bold;">${contentModel.tittle_s}</h1>
