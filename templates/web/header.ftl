@@ -38,6 +38,10 @@
         </div>
 
         <div class="mavinex-nav__btns">
+            <select class="selectpicker mr-1" id="languageSelector" data-width="fit" data-style="btn-primary rounded-0">
+                <option data-content="&lt;i class=&quot;flag-icon flag-icon-vn mr-1&quot;&gt;&lt;/i&gt; &lt;span&gt;VIE&lt;/span&gt;">VIE</option>
+                <option data-content="&lt;i class=&quot;flag-icon flag-icon-us mr-1&quot;&gt;&lt;/i&gt; &lt;span&gt;EN&lt;/span&gt;">EN</option>
+            </select>
             <button class="mavinex-nav__btn btn" onclick="toggleSearchBar()">
                 <i class="fas fa-search"></i>
             </button>
