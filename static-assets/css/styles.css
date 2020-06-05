@@ -6784,7 +6784,7 @@ _:-ms-lang(x), .content__img {
   }
 }
 
-@media (min-width: 700px) and (max-width: 1100px) {
+@media (min-width: 600px) and (max-width: 1100px) {
     .owl-carousel .owl-item img{
         width: 40px !important;
     }
