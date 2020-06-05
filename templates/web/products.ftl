@@ -2,7 +2,7 @@
 	<div <@studio.iceAttr component=contentModel/>>
 	<div class="content__title">
             <div class="container">
-                <h1 class="text--red" style="font-weight: bold;">${contentModel.tittle_s}</h1>
+                <h1 class="text--red" style="font-weight: bold; font-family: UVF-DINPro Bold;">${contentModel.tittle_s}</h1>
             </div>
     </div>
 	<div id="production" class="carousel slide" data-ride="carousel" style="background-color: #fff">
