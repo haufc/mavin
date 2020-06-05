@@ -1,5 +1,5 @@
 <#import "/templates/system/common/cstudio-support.ftl" as studio />
-	<div <@studio.iceAttr component=contentModel/> style="font-family: UVF-DINPro Bold;">
+	<div <@studio.iceAttr component=contentModel/>>
 	<div class="content__title">
             <div class="container">
                 <h1 class="text--red" style="font-weight: bold;">${contentModel.tittle_s}</h1>
@@ -22,7 +22,7 @@
                                 <div class="mavinex-products__item col-xs-6 col-sm-6 col-md-6 col-lg-3 p-0">
                                     <div class="mavinex-products__item-title mavinex-products__item-title--bg-blue">
                                         <div class="mavinex-products__item-text" >
-                                            <h4 style="font-weight: bold;">${item.pTittle1_s}</h4>
+                                            <h4 style="font-weight: bold; font-family: UVF-DINPro Bold;">${item.pTittle1_s}</h4>
                                         </div>
                                     </div>
                                     
@@ -32,7 +32,7 @@
                                 <div class="mavinex-products__item col-xs-6 col-sm-6 col-md-6 col-lg-3 p-0">
                                     <div class="mavinex-products__item-title mavinex-products__item-title--bg-red">
                                         <div class="mavinex-products__item-text">
-                                            <h4 style="font-weight: bold;">${item.pTittle2_s}</h4>
+                                            <h4 style="font-weight: bold; font-family: UVF-DINPro Bold;">${item.pTittle2_s}</h4>
                                         </div>
                                     </div>
                                     
@@ -42,7 +42,7 @@
                                 <div class="mavinex-products__item col-xs-6 col-sm-6 col-md-6 col-lg-3 p-0">
                                     <div class="mavinex-products__item-title mavinex-products__item-title--bg-blue">
                                         <div class="mavinex-products__item-text">
-                                            <h4 style="font-weight: bold;">${item.pTittle3_s}</h4>
+                                            <h4 style="font-weight: bold; font-family: UVF-DINPro Bold;">${item.pTittle3_s}</h4>
                                         </div>
                                     </div>
                                     
@@ -52,7 +52,7 @@
                                 <div class="mavinex-products__item col-xs-6 col-sm-6 col-md-6 col-lg-3 p-0">
                                     <div class="mavinex-products__item-title mavinex-products__item-title--bg-red">
                                         <div class="mavinex-products__item-text">
-                                            <h4 style="font-weight: bold;">${item.pTittle4_s}</h4>
+                                            <h4 style="font-weight: bold; font-family: UVF-DINPro Bold;">${item.pTittle4_s}</h4>
                                         </div>
                                     </div>
                                     
