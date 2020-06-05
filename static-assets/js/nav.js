@@ -39,3 +39,7 @@ function topFunction() {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
 }
+
+function changeLanguageVN() {
+    location.replace("https://www.w3schools.com")
+}
