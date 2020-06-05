@@ -368,12 +368,12 @@ img {
                     				</div>
                     				<div class="item carousel-item">
                     					<div class="row">
-                    						 <#list relatedProducts as myItem>
+                    						 <#list 0..3 as i>
                                                 <div class="col-3 col-custom-450">
                         							<div class="thumb-wrapper">
                         								<span class="wish-icon"><i class="fa fa-heart-o"></i></span>
                         								<div class="img-box">
-                        									<img src="${myItem.avatar}" class="img-responsive img-fluid" alt="">
+                        									<a href="${relatedProducts[i].url}"><img src="${relatedProducts[i].avatar}" class="img-responsive img-fluid" alt=""></a>
                         								</div>
                         							</div>
                         						</div>
