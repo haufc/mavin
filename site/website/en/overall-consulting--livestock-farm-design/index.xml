@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page>
+	<content-type>/page/home</content-type>
+	<display-template>/templates/web/home.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>3931</objectGroupId>
+	<objectId>3931a00d-597b-f2c9-f660-22fe94ab4549</objectId>
+	<file-name>index.xml</file-name>
+	<folder-name>overall-consulting--livestock-farm-design</folder-name>
+	<placeInNav>false</placeInNav>
+	<orderDefault_f>-1</orderDefault_f>
+	<sections_o item-list="true">	<item datasource="sections" inline="true">	<key>8586b711-6463-e1bf-aad7-135a89d2bda9</key>
+	<value>Overall consulting, livestock farm design</value>
+<component id="8586b711-6463-e1bf-aad7-135a89d2bda9">
+	<content-type>/component/componentfields</content-type>
+	<display-template>/templates/web/fields.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>8586</objectGroupId>
+	<objectId>8586b711-6463-e1bf-aad7-135a89d2bda9</objectId>
+	<file-name>8586b711-6463-e1bf-aad7-135a89d2bda9.xml</file-name>
+	<internal-name>Overall consulting, livestock farm design</internal-name>
+	<title_s>Overall consulting, livestock farm design</title_s>
+	<itemTitle_s>Overall consulting, livestock farm design</itemTitle_s>
+	<itemId_s>fieldsen</itemId_s>
+	<groupTitle_s>Design of cages</groupTitle_s>
+	<carouselTitle_s>SOME PICTURES OF OVERALL DESIGNS OF THE FACTORY AND FARMS</carouselTitle_s>
+	<carousels_o item-list="true">	<item datasource="carouselsDataSource">	<key>/site/items/c7ca3b1a-a986-39b7-0b61-3c1992df3f6b.xml</key>
+	<value>Carousel</value>
+	<include>/site/items/c7ca3b1a-a986-39b7-0b61-3c1992df3f6b.xml</include>
+	<disableFlattening>false</disableFlattening>
+	</item></carousels_o>
+	<itemContent_html>&lt;p class="MsoNormal"&gt;&lt;em style="mso-bidi-font-style: normal;"&gt;&lt;span style="font-size: 12.0pt; line-height: 115%; mso-fareast-font-family: 'Times New Roman';"&gt;General consultancy for factories and farms&lt;/span&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p class="MsoNormal"&gt;&lt;span style="font-size: 12pt;"&gt;Mavinex is a contractor specializing in overall consultancy, arrangement of premises for animal feed factories, and large and small scale breeding facilities in the whole country. From overall design to architectural design, structure, electricity and water systems ... for factories, farms ensure compliance with technical standards.&lt;/span&gt;&lt;/p&gt;
+&lt;p class="MsoNormal"&gt;&lt;span style="font-size: 12.0pt; line-height: 115%; mso-fareast-font-family: 'Times New Roman';"&gt;Mavinex brings professional and synchronized breeding solutions and equipment. Together with our technical team, we have the best solution for investment, how to apply science and technology and implement the proper breeding - management process, how to choose materials to ensure enough breeding facilities. standards, ventilation, heat escape, energy saving and care efforts, especially to minimize the risk of invasive diseases, instability and unsafe.&lt;/span&gt;&lt;/p&gt;
+&lt;p class="MsoNormal"&gt;&lt;span style="font-size: 12.0pt; line-height: 115%; mso-fareast-font-family: 'Times New Roman';"&gt;Currently Mavinex has been consulting the ground, providing equipment for many factories, farms raising pigs, chickens and ducks across the provinces in the country: Thai Binh, Phu Tho, Bac Ninh, Hoa Binh, Hung Yen, Bac Giang, Hai Duong, Quang Ninh, Thanh Hoa, Nghe An, Hau Giang ...&lt;/span&gt;&lt;/p&gt;</itemContent_html>
+	<group_o item-list="true">	<item>	<groupContent_s>- Design the overall drawing of the project on the basis of the existing premises in the most reasonable direction, ensuring convenience during the breeding process.</groupContent_s>
+	</item>	<item>	<groupContent_s>- Designing cages, water systems, fecal tanks, disinfecting houses, calculating the size of cages ... to install appropriate, accurate, safe and aesthetic equipment systems.</groupContent_s>
+	</item></group_o>
+	<createdDate>2020-06-05T07:21:55.721Z</createdDate>
+	<createdDate_dt>2020-06-05T07:21:55.721Z</createdDate_dt>
+	<lastModifiedDate>2020-06-05T07:21:55.721Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-06-05T07:21:55.721Z</lastModifiedDate_dt>
+</component>
+	</item></sections_o>
+	<internal-name>Overall consulting, livestock farm design</internal-name>
+	<title_s>Overall consulting, livestock farm design</title_s>
+	<descripttion_t>Overall consulting, livestock farm design</descripttion_t>
+	<createdDate>2020-06-05T07:21:34.117Z</createdDate>
+	<createdDate_dt>2020-06-05T07:21:34.117Z</createdDate_dt>
+	<lastModifiedDate>2020-06-05T07:21:34.117Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-06-05T07:21:34.117Z</lastModifiedDate_dt>
+</page>
