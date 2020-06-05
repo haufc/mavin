@@ -7443,7 +7443,7 @@ _:-ms-lang(x), .content__img {
 }
 @media (min-width: 1200px){
     #btn-up-top{
-        right: 0px;
+        left: 0px;
     }
 }
 /*# sourceMappingURL=styles.css.map */
