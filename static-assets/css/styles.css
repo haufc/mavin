@@ -6729,6 +6729,9 @@ _:-ms-lang(x), .content__img {
 /* responsives */
 /* navigation bar */
 @media (max-width: 600px) {
+    .owl-carousel .owl-item img{
+        width: 30px;
+    }
   .nav-bar {
     padding: 0 30px 0 30px;
   }
