@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page>
+	<content-type>/page/home</content-type>
+	<display-template>/templates/web/home.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>2770</objectGroupId>
+	<objectId>2770c860-ad7d-a6a0-c0d3-5dec8518232b</objectId>
+	<file-name>index.xml</file-name>
+	<folder-name>building-sector</folder-name>
+	<sections_o item-list="true">	<item datasource="sections" inline="true">	<key>e9cd5d30-7ac1-b25f-c98e-5e211ca68b40</key>
+	<value>Building sector</value>
+<component id="e9cd5d30-7ac1-b25f-c98e-5e211ca68b40">
+	<content-type>/component/componentfields</content-type>
+	<display-template>/templates/web/fields.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>e9cd</objectGroupId>
+	<objectId>e9cd5d30-7ac1-b25f-c98e-5e211ca68b40</objectId>
+	<file-name>e9cd5d30-7ac1-b25f-c98e-5e211ca68b40.xml</file-name>
+	<internal-name>Building sector</internal-name>
+	<title_s>Building sector</title_s>
+	<itemTitle_s>Building sector</itemTitle_s>
+	<itemId_s>fieldsen</itemId_s>
+	<groupTitle_s>Our commitment:</groupTitle_s>
+	<carouselTitle_s>SOME TYPICAL PROJECTS </carouselTitle_s>
+	<carousels_o item-list="true">	<item datasource="carouselsDataSource">	<key>/site/items/list-member/f3610232-c67d-0040-b08d-38036e6763e9.xml</key>
+	<value>Mavin group members</value>
+	<include>/site/items/list-member/f3610232-c67d-0040-b08d-38036e6763e9.xml</include>
+	<disableFlattening>false</disableFlattening>
+	</item></carousels_o>
+	<itemContent_html>&lt;p class="MsoNormal"&gt;&lt;span style="font-size: 12.0pt; line-height: 115%;"&gt;With the strength in the field of construction, Mavinex Joint Stock Company has been creating trust with customers by building quality, large-scale and world-class constructions.&lt;/span&gt;&lt;/p&gt;
+&lt;p class="MsoNormal"&gt;&lt;span style="font-size: 12.0pt; line-height: 115%;"&gt;We are a group of experienced engineers, architects and skilled workers who always put their heart and soul into every construction project. We also own state-of-the-art equipment and machinery to check construction specifications to ensure quality standards and accuracy.&lt;/span&gt;&lt;/p&gt;</itemContent_html>
+	<group_o item-list="true">	<item>	<groupContent_s>Quality of works is the top criteria to create trust for customers</groupContent_s>
+	</item>	<item>	<groupContent_s>Reasonable cost with the common ground of the market</groupContent_s>
+	</item>	<item>	<groupContent_s>Schedule of commitments on time</groupContent_s>
+	</item>	<item>	<groupContent_s>Accompanying customers throughout the use process</groupContent_s>
+	</item>	<item>	<groupContent_s>Ensure the correct and adequate materials meet the construction quality after being put to use</groupContent_s>
+	</item></group_o>
+	<createdDate>2020-06-05T07:05:37.493Z</createdDate>
+	<createdDate_dt>2020-06-05T07:05:37.493Z</createdDate_dt>
+	<lastModifiedDate>2020-06-05T07:05:37.493Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-06-05T07:05:37.493Z</lastModifiedDate_dt>
+</component>
+	</item></sections_o>
+	<internal-name>Building sector</internal-name>
+	<title_s>Building sector</title_s>
+	<placeInNav>false</placeInNav>
+	<orderDefault_f>-1</orderDefault_f>
+	<descripttion_t>Building sector</descripttion_t>
+	<createdDate>2020-06-05T07:05:10.558Z</createdDate>
+	<createdDate_dt>2020-06-05T07:05:10.558Z</createdDate_dt>
+	<lastModifiedDate>2020-06-05T07:05:10.558Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-06-05T07:05:10.558Z</lastModifiedDate_dt>
+</page>
