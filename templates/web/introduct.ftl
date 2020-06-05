@@ -3,9 +3,9 @@
   <div class="content__title">
         <div class="container">
             <div class="row">
-                <#list contentModel.introduct_o.item[0]..contentModel.introduct_o.item[1] as intro>
+                <#list 0..1 as i>
                 	<div class="col-lg-6 col-md-6 col-sm-6 col-6">
-                      <h2 class="text--red text--title__small" >${intro.introductitemtitle_s}</h2>
+                      <h2 class="text--red text--title__small" >${contentModel.introduct_o.item[i].introductitemtitle_s}</h2>
                     </div>
                 </#list>
                <#-- <div class="col-lg-6 col-md-6 col-sm-6 col-6" style="padding-left: 0px;">
