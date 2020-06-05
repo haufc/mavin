@@ -286,8 +286,9 @@ img {
   <body>
     <div class="lst-parent" style="hidden">
         <#list groupProduct.items as cate>
-        	<p>${cate.value}-${cate.label}</p>
+        	<p>${cate.value}/${cate.label}</p>
         </#list>
+    <div>
     <p style="hidden">${contentModel.productchildgroup_o.item.key}</p>
     
     <button onclick="topFunction()" id="btn-up-top" ><i class="fa fa-angle-up"></i></button>
