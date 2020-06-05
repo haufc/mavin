@@ -2,14 +2,11 @@ $(document).ready(function() {
     
     $('#languageSelector').change(function() {
        var language = $('#languageSelector').val();
-       console.log(language);
-    var options = $('#languageSelector option');
-       console.log(options);
-    //   if (language == 'VIE') {
-    //       window.location.replace(getContextPath() + "/trang-chu");
-    //   } else {
-    //       window.location.replace(getContextPath() + "/en/index");
-    //   }
+      if (language == 'VIE') {
+          window.location.replace(getContextPath() + "/trang-chu");
+      } else {
+          window.location.replace(getContextPath() + "/en/index");
+      }
     })
     
     $('.search-result').css("display", "none");
