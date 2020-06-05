@@ -19,8 +19,7 @@ $(document).ready(function() {
       $(button[0]).find('i').addClass('flag-icon-us');
       $(button[0]).find('span').text('EN');
       
-      var li = $('.dropdown-menu').find('li');
-      console.log(li);
+      var li = $('.dropdown-menu').find('ul').find('li');
       $(li[0]).removeClass('selected active');
       $(li[1]).addClass('selected active');
       
