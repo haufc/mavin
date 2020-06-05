@@ -457,7 +457,7 @@ img {
     	});	
     	
     	var key = $('#txt-key').val();
-    	var lstKey = $('.lst-parent).find('input');
+    	var lstKey = $('.lst-parent').find('input').val();
     	console.log(lstKey);
     </script>
   </body>
