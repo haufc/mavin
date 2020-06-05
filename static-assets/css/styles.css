@@ -1,7 +1,10 @@
 ﻿/* general things */
 /* default settings */
-
 @import url("https://fonts.googleapis.com/css?family=Baloo+2|Baloo+Chettan+2|Bellota+Text|Comfortaa|Montserrat&display=swap");
+@font-face {
+    font-family: 'UVF-DINPro';
+     src: url('/static-assets/font/UVF-DINPro.otf');
+}
 html,
 body {
   font-size: 14px;
