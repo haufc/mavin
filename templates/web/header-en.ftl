@@ -10,8 +10,8 @@
             <div class="dropdown">
               <a class="mavinex-nav__link" href="/gioi-thieu">Introduction</a>
               <div class="dropdown-content">
-                <a class="mavinex-nav__link" href="/introducts/introduction">Introduction</a>
-                <a class="mavinex-nav__link" href="/introducts/history">History</a>
+                <a class="mavinex-nav__link" href="/en/introducts/introduction">Introduction</a>
+                <a class="mavinex-nav__link" href="/en/introducts/history">History</a>
                 <a class="mavinex-nav__link" href="/introducts/linh-vuc-hoat-dong">Activities</a>
                 <a class="mavinex-nav__link" href="/introducts/doi-tac-chien-luoc">Partners</a>
               </div>
