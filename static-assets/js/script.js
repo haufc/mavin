@@ -12,7 +12,7 @@ $(document).ready(function() {
     
     var url = window.location;
 jQuery(window).load(function () {
-    if (url.href.indexOf('/en') > -1) {
+    if (url.href.includes('/en')) {
       var button =  $('.mavinex-nav__btns').find('button');
       $(button[0]).prop('title', 'EN');
       $(button[0]).find('i').removeClass('flag-icon-vn');
