@@ -5,6 +5,10 @@
     font-family: 'UVF-DINPro';
     src: url('/static-assets/font/UVF-DINPro.otf');
 }
+@font-face {
+    font-family: 'UVF-DINPro Bold';
+    src: url('/static-assets/font/UVF-DINPro-Bold.otf');
+}
 html,
 body {
   font-size: 14px;
