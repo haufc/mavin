@@ -284,11 +284,6 @@ img {
 </style>
   </head>
   <body>
-    <div class="lst-parent" style="display:none;">
-        <#list groupProduct.items as cate>
-        	<p>${cate.value}/${cate.label}</p>
-        </#list>
-    <div>
     <p style="hidden">${contentModel.productchildgroup_o.item.key}</p>
     
     <button onclick="topFunction()" id="btn-up-top" ><i class="fa fa-angle-up"></i></button>
