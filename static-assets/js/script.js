@@ -1,4 +1,16 @@
-var url = window.location;
+$(document).ready(function() {
+    // Flag redirect
+    $('#languageSelector').change(function() {
+       var language = $('#languageSelector').val();
+       console.log(language);
+      if (language == 'VIE') {
+          window.location.replace(getContextPath() + "/trang-chu");
+      } else {
+          window.location.replace(getContextPath() + "/en/index");
+      }
+    });
+    
+    var url = window.location;
 jQuery(window).load(function () {
     if (url.href.indexOf('/en') > -1) {
       var button =  $('.mavinex-nav__btns').find('button');
@@ -14,19 +26,6 @@ jQuery(window).load(function () {
     }
 
 });
-$(document).ready(function() {
-    // Flag redirect
-    $('#languageSelector').change(function() {
-       var language = $('#languageSelector').val();
-       console.log(language);
-      if (language == 'VIE') {
-          window.location.replace(getContextPath() + "/trang-chu");
-      } else {
-          window.location.replace(getContextPath() + "/en/index");
-      }
-    });
-    
-    
    console.log(url);
     if (url.href.indexOf('/en') > -1) {
       var button =  $('.mavinex-nav__btns').find('button');
