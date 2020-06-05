@@ -40,15 +40,3 @@ function topFunction() {
   document.documentElement.scrollTop = 0;
 }
 
-function getContextPath() {
-   return  window.location.protocol + "//" + window.location.host
-}
-
-function changeLanguageVN() {
-    window.location.replace(getContextPath() + "/trang-chu")
-}
-
-
-function changeLanguageEN() {
-    window.location.replace(getContextPath() + "/en/index")
-}
