@@ -354,19 +354,19 @@ img {
                     			<div class="carousel-inner">
                     				<div class="item carousel-item active">
                     					<div class="row">
-                    					    <#list relatedProducts as myItem>
+                    					    <#list 0..3 as i>
                                                 <div class="col-3 col-custom-450">
                         							<div class="thumb-wrapper">
                         								<span class="wish-icon"><i class="fa fa-heart-o"></i></span>
                         								<div class="img-box">
-                        									<a href="${myItem.url}"><img src="${myItem.avatar}" class="img-responsive img-fluid" alt=""></a>
+                        									<a href="${relatedProducts[i].url}"><img src="${relatedProducts[i].avatar}" class="img-responsive img-fluid" alt=""></a>
                         								</div>
                         							</div>
                         						</div>
                                             </#list>
                     					</div>
                     				</div>
-                    				<#--<div class="item carousel-item">
+                    				<div class="item carousel-item">
                     					<div class="row">
                     						 <#list relatedProducts as myItem>
                                                 <div class="col-3 col-custom-450">
@@ -379,7 +379,7 @@ img {
                         						</div>
                                             </#list>
                     					</div>
-                    				</div>-->
+                    				</div>
                     			</div>
                     			<!-- Carousel controls -->
                     			<a class="carousel-control right carousel-control-next" style="right: -7%;top: 25%;" href="#myCarousel" data-slide="next">
