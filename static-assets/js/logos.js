@@ -7,5 +7,16 @@ owl.owlCarousel({
     dots: false,
     autoplay: true,
     autoplayTimeout: 1000,
-    autoplayHoverPause: true
+    autoplayHoverPause: true,
+    responsiveClass: true,
+    responsive: {
+        600: {
+            items: 4,
+            nav: true
+        },
+        300: {
+            items: 2,
+            nav: true
+        }
+    }
 });
