@@ -6,7 +6,7 @@ $(document).ready(function() {
     // set active to nav
     $('#nav-content a').filter(function() {
         return this.href == url;
-    }).css('font-weight', 'bold');
+    }).css('font-family', 'UVF-DINPro Bold');
     
     var lstPageURL = ["/linh-vuc-xay-dung","/tu-van-tong-the","/all-jobs","/jobs"];
     
