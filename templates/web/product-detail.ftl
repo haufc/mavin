@@ -291,6 +291,9 @@ img {
          <div class="recruitment ">
         <div class="content__title text--center">
             <#list groupProduct.items as cate>
+                <p>${cate.label}</p>
+                <hr>
+                <p>${contentModel.productchildgroup_o.item.key}</p>
                 <#if cate.value == contentModel.productchildgroup_o.item.key>
                    <#assign titleName = cate.label />
                 <#else>
