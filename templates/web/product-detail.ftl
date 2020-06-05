@@ -284,16 +284,10 @@ img {
 </style>
   </head>
   <body>
-    <div class="lst-key" style="hidden">
+    <div class="lst-parent" style="hidden">
         <#list groupProduct.items as cate>
-        	<p>${cate.value}</p>
+        	<p>${cate.value}-${cate.label}</p>
         </#list>
-    </div>
-    <div class="lst-lable" style="hidden">
-        <#list groupProduct.items as cate>
-        	<p>${cate.label}</p>
-        </#list>
-    </div>
     <p style="hidden">${contentModel.productchildgroup_o.item.key}</p>
     
     <button onclick="topFunction()" id="btn-up-top" ><i class="fa fa-angle-up"></i></button>
@@ -460,6 +454,9 @@ img {
     			$(this).toggleClass("fa-heart fa-heart-o");
     		});
     	});	
+    	
+    	var lstKey = $('.lst-parent);
+    	console.log(lstKey);
     </script>
   </body>
 </html>
