@@ -27,7 +27,7 @@
                 </a>
             </div>
 
-            <div class="col-lg6 col-md-6 col-sm-6 col-6 seemore_btn" >
+            <div class="col-lg6 col-md-6 col-sm-6 col-6 seemore_btn" style="padding: 15px;">
                  <a class="mt-3 rounded-0" href="${intros[0].url}"> 
                     <span class="mr-1">Xem thêm</span>
                     <i class="fa fa-play text--red"></i>
