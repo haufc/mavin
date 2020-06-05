@@ -6730,7 +6730,7 @@ _:-ms-lang(x), .content__img {
 /* navigation bar */
 @media (max-width: 600px) {
     .owl-carousel .owl-item img{
-        width: 30px;
+        width: 30px !important;
     }
   .nav-bar {
     padding: 0 30px 0 30px;
@@ -6786,7 +6786,7 @@ _:-ms-lang(x), .content__img {
 
 @media (min-width: 700px) and (max-width: 1100px) {
     .owl-carousel .owl-item img{
-        width: 40px;
+        width: 40px !important;
     }
   .nav-bar {
     padding: 0 30px 0 30px;
