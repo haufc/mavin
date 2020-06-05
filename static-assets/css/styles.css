@@ -6785,6 +6785,9 @@ _:-ms-lang(x), .content__img {
 }
 
 @media (min-width: 700px) and (max-width: 1100px) {
+    .owl-carousel .owl-item img{
+        width: 40px;
+    }
   .nav-bar {
     padding: 0 30px 0 30px;
   }
