@@ -290,10 +290,10 @@ img {
         <@renderComponent component=contentModel.slide_o.item />
          <div class="recruitment ">
         <div class="content__title text--center">
+        <p>${contentModel.productchildgroup_o.item.key}</p>
             <#list groupProduct.items as cate>
                 <p>${cate.value}</p>
-                <hr>
-                <p>${contentModel.productchildgroup_o.item.key}</p>
+                
                 <#if cate.value == contentModel.productchildgroup_o.item.key>
                    <#assign titleName = cate.label />
                 <#else>
