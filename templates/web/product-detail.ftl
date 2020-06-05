@@ -294,7 +294,7 @@ img {
             <#list groupProduct.items as cate>
                 <p>${cate.value}</p>
                 
-                <#if cate.value eq contentModel.productchildgroup_o.item.key>
+                <#if cate.value = contentModel.productchildgroup_o.item.key>
                    <#assign titleName = cate.label />
                 <#else>
                 	<#assign titleName = "" />
