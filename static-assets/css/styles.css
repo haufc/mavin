@@ -3,7 +3,7 @@
 @import url("https://fonts.googleapis.com/css?family=Baloo+2|Baloo+Chettan+2|Bellota+Text|Comfortaa|Montserrat&display=swap");
 @font-face {
     font-family: 'UVF-DINPro';
-     src: url('/static-assets/font/UVF-DINPro.otf');
+    src: url('/static-assets/font/UVF-DINPro.otf');
 }
 html,
 body {
@@ -17,7 +17,7 @@ body {
   padding: 0;
   /*font-family: 'Baloo Chettan 2', 'Baloo 2', 'Bellota Text', 'Comfortaa', cursive, 'Montserrat', sans-serif;*/
   /*font-family: "Dejavu Sans";*/
-  font-family: Arial,Helvetica,sans-serif;
+  font-family: UVF-DINPro;
 }
 
 a,
