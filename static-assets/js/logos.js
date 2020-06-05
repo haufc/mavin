@@ -10,10 +10,10 @@ owl.owlCarousel({
     responsiveClass: true,
     responsive: {
         600: {
-            items: 4
+            items: 2
         },
         300: {
-            items: 4
+            items: 2
         }
     }
 });
