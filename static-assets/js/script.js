@@ -1,5 +1,5 @@
 $(document).ready(function() {
-    $('#flag-vn').click(function() {alert("hello")});
+    $('.dropdown-item').click(function() {alert("hello")});
     $('.search-result').css("display", "none");
     var url = window.location;
     
