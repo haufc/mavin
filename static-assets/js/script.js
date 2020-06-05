@@ -11,9 +11,12 @@ $(document).ready(function() {
     
     var url = window.location;
    console.log(url);
-    if (url.href.indexOf('/en')) {
+    if (url.href.indexOf('/en') > -1) {
       var button =  $('.mavinex-nav__btns').find('button');
       console.log(button[0]);
+      $(button[0]).prop('title', 'EN');
+      $(button[0]).find('i').removeClass('flag-icon-vn');
+      $(button[0]).find('i').addClass('flag-icon-us')
     }
     // ==================================
     
