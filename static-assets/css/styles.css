@@ -7441,4 +7441,9 @@ _:-ms-lang(x), .content__img {
         float: none;
     }
 }
+@media (min-width: 1200px){
+    .mavinex-logos{
+        max-width: 1140px;
+    }
+}
 /*# sourceMappingURL=styles.css.map */
