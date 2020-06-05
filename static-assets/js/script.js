@@ -1,3 +1,4 @@
+var url = window.location;
 jQuery(window).load(function () {
     if (url.href.indexOf('/en') > -1) {
       var button =  $('.mavinex-nav__btns').find('button');
@@ -25,7 +26,7 @@ $(document).ready(function() {
       }
     });
     
-    var url = window.location;
+    
    console.log(url);
     if (url.href.indexOf('/en') > -1) {
       var button =  $('.mavinex-nav__btns').find('button');
