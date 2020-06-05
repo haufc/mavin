@@ -27,7 +27,7 @@ $(document).ready(function() {
     
     });*/
    console.log(url);
-    /*if (url.href.indexOf('/en') > -1) {
+    if (url.href.indexOf('/en') > -1) {
       var button =  $('.mavinex-nav__btns').find('button');
       $(button[0]).prop('title', 'EN');
       $(button[0]).find('i').removeClass('flag-icon-vn');
@@ -39,7 +39,7 @@ $(document).ready(function() {
       $(li[0]).removeClass('active');
       $(li[1]).addClass('active');
       
-    }*/
+    }
     
     // ==================================
     
