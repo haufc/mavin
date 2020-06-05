@@ -21,8 +21,8 @@
                             <div class="mavinex-products__items row">
                                 <div class="mavinex-products__item col-xs-6 col-sm-6 col-md-6 col-lg-3 p-0">
                                     <div class="mavinex-products__item-title mavinex-products__item-title--bg-blue">
-                                        <div class="mavinex-products__item-text" style="font-weight: bold;">
-                                            <h4>${item.pTittle1_s}</h4>
+                                        <div class="mavinex-products__item-text" >
+                                            <h4 style="font-weight: bold;">${item.pTittle1_s}</h4>
                                         </div>
                                     </div>
                                     
@@ -31,8 +31,8 @@
     
                                 <div class="mavinex-products__item col-xs-6 col-sm-6 col-md-6 col-lg-3 p-0">
                                     <div class="mavinex-products__item-title mavinex-products__item-title--bg-red">
-                                        <div class="mavinex-products__item-text" style="font-weight: bold;">
-                                            <h4>${item.pTittle2_s}</h4>
+                                        <div class="mavinex-products__item-text">
+                                            <h4 style="font-weight: bold;">${item.pTittle2_s}</h4>
                                         </div>
                                     </div>
                                     
@@ -41,8 +41,8 @@
     
                                 <div class="mavinex-products__item col-xs-6 col-sm-6 col-md-6 col-lg-3 p-0">
                                     <div class="mavinex-products__item-title mavinex-products__item-title--bg-blue">
-                                        <div class="mavinex-products__item-text" style="font-weight: bold;">
-                                            <h4>${item.pTittle3_s}</h4>
+                                        <div class="mavinex-products__item-text">
+                                            <h4 style="font-weight: bold;">${item.pTittle3_s}</h4>
                                         </div>
                                     </div>
                                     
@@ -51,8 +51,8 @@
     
                                 <div class="mavinex-products__item col-xs-6 col-sm-6 col-md-6 col-lg-3 p-0">
                                     <div class="mavinex-products__item-title mavinex-products__item-title--bg-red">
-                                        <div class="mavinex-products__item-text" style="font-weight: bold;">
-                                            <h4>${item.pTittle4_s}</h4>
+                                        <div class="mavinex-products__item-text">
+                                            <h4 style="font-weight: bold;">${item.pTittle4_s}</h4>
                                         </div>
                                     </div>
                                     
