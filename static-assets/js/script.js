@@ -11,7 +11,7 @@ $(document).ready(function() {
     });
     
     var url = window.location;
-    jQuery(window).load(function () {
+    /*jQuery(window).load(function () {
         if (url.href.includes('/en')) {
           var button =  $('.mavinex-nav__btns').find('button');
           $(button[0]).prop('title', 'EN');
@@ -25,7 +25,7 @@ $(document).ready(function() {
           $(li[1]).addClass('active');
         }
     
-    });
+    });*/
    console.log(url);
     /*if (url.href.indexOf('/en') > -1) {
       var button =  $('.mavinex-nav__btns').find('button');
