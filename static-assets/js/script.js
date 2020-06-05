@@ -20,8 +20,8 @@ $(document).ready(function() {
       $(button[0]).find('span').text('EN');
       
       var li = $('.dropdown-menu').find('ul').find('li');
-      $(li[0]).removeClass('selected active');
-      $(li[1]).addClass('selected active');
+      $(li[0]).removeClass('active');
+      $(li[1]).addClass('active');
       
     }
     // ==================================
