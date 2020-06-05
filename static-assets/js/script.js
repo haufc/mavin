@@ -3,7 +3,7 @@ $(document).ready(function() {
     $('#languageSelector').change(function() {
        var language = $('#languageSelector').val();
        console.log(language);
-       var options = $('#languageSelector').options;
+    var options = $('#languageSelector option');
        console.log(options);
     //   if (language == 'VIE') {
     //       window.location.replace(getContextPath() + "/trang-chu");
