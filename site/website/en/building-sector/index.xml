@@ -24,13 +24,9 @@
 	<itemId_s>fieldsen</itemId_s>
 	<groupTitle_s>Our commitment:</groupTitle_s>
 	<carouselTitle_s>SOME TYPICAL PROJECTS </carouselTitle_s>
-	<carousels_o item-list="true">	<item datasource="carouselsDataSource">	<key>/site/items/list-member/f3610232-c67d-0040-b08d-38036e6763e9.xml</key>
-	<value>Mavin group members</value>
-	<include>/site/items/list-member/f3610232-c67d-0040-b08d-38036e6763e9.xml</include>
-	<disableFlattening>false</disableFlattening>
-	</item></carousels_o>
-	<itemContent_html>&lt;p class="MsoNormal"&gt;&lt;span style="font-size: 12.0pt; line-height: 115%;"&gt;With the strength in the field of construction, Mavinex Joint Stock Company has been creating trust with customers by building quality, large-scale and world-class constructions.&lt;/span&gt;&lt;/p&gt;
-&lt;p class="MsoNormal"&gt;&lt;span style="font-size: 12.0pt; line-height: 115%;"&gt;We are a group of experienced engineers, architects and skilled workers who always put their heart and soul into every construction project. We also own state-of-the-art equipment and machinery to check construction specifications to ensure quality standards and accuracy.&lt;/span&gt;&lt;/p&gt;</itemContent_html>
+	<carousels_o item-list="true"/>
+	<itemContent_html>&lt;p class="MsoNormal"&gt;&lt;span style="font-size: 18pt; line-height: 115%; color: #ffffff;"&gt;With the strength in the field of construction, Mavinex Joint Stock Company has been creating trust with customers by building quality, large-scale and world-class constructions.&lt;/span&gt;&lt;/p&gt;
+&lt;p class="MsoNormal"&gt;&lt;span style="font-size: 18pt; line-height: 115%; color: #ffffff;"&gt;We are a group of experienced engineers, architects and skilled workers who always put their heart and soul into every construction project. We also own state-of-the-art equipment and machinery to check construction specifications to ensure quality standards and accuracy.&lt;/span&gt;&lt;/p&gt;</itemContent_html>
 	<group_o item-list="true">	<item>	<groupContent_s>Quality of works is the top criteria to create trust for customers</groupContent_s>
 	</item>	<item>	<groupContent_s>Reasonable cost with the common ground of the market</groupContent_s>
 	</item>	<item>	<groupContent_s>Schedule of commitments on time</groupContent_s>
@@ -39,8 +35,8 @@
 	</item></group_o>
 	<createdDate>2020-06-05T07:05:37.493Z</createdDate>
 	<createdDate_dt>2020-06-05T07:05:37.493Z</createdDate_dt>
-	<lastModifiedDate>2020-06-05T07:05:37.493Z</lastModifiedDate>
-	<lastModifiedDate_dt>2020-06-05T07:05:37.493Z</lastModifiedDate_dt>
+	<lastModifiedDate>2020-06-05T07:08:23.576Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-06-05T07:08:23.576Z</lastModifiedDate_dt>
 </component>
 	</item></sections_o>
 	<internal-name>Building sector</internal-name>
@@ -50,6 +46,6 @@
 	<descripttion_t>Building sector</descripttion_t>
 	<createdDate>2020-06-05T07:05:10.558Z</createdDate>
 	<createdDate_dt>2020-06-05T07:05:10.558Z</createdDate_dt>
-	<lastModifiedDate>2020-06-05T07:05:10.558Z</lastModifiedDate>
-	<lastModifiedDate_dt>2020-06-05T07:05:10.558Z</lastModifiedDate_dt>
+	<lastModifiedDate>2020-06-05T07:08:20.042Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-06-05T07:08:20.042Z</lastModifiedDate_dt>
 </page>
