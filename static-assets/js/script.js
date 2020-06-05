@@ -1,4 +1,9 @@
 $(document).ready(function() {
+    
+    $('#languageSelector').change(function() {
+        alert('Hello')
+    })
+    
     $('.search-result').css("display", "none");
     var url = window.location;
     
