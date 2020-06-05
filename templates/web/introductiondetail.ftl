@@ -24,7 +24,7 @@
         <@renderComponent component=contentModel.slide_o.item />
         <div class="content__title">
         <div class="container">
-            <h1 class="text--red" style="font-weight: bold;">${contentModel.title_s}</h1>
+            <h1 class="text--red">${contentModel.title_s}</h1>
 
         </div>
         
