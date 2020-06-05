@@ -48,7 +48,7 @@
                     <img src="${contentModel.introduct_o.item[i].introducitemavatar_s}" alt="" class="img--full">
                 </div>
             </#list>
-            <#list contentModel.VARIABLENAME.item as myItem>
+            <#list 2..3 as i>
                 <div class="col-lg6 col-md-6 col-sm-6 col-6 seemore_btn">
                      <a class="mt-3 rounded-0" href="${contentModel.introduct_o.item[i].introductUrl_s}"> 
                         <span class="mr-1">Xem thêm</span>
