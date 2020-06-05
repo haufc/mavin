@@ -12,7 +12,11 @@
         <img class="img--full" src="${contentModel.image_s}" alt="Content Image"/>
         <h4 class="text--uppercase text-white" style="padding-top: 15px; font-size:20px;">${contentModel.title_s}</h4>
         
-        <a class="mt-3 rounded-0 seemore_btn" href="${contentModel.url_s}"> 
+        <#-- <a class="mt-3 rounded-0 seemore_btn" href="${contentModel.url_s}"> 
+            <span class="mr-1">Xem thêm</span>
+            <i class="fas fa-play text--red"></i> 
+        </a> -->
+        <a class="mt-3 rounded-0" href="${contentModel.url_s}"> 
             <span class="mr-1">Xem thêm</span>
             <i class="fas fa-play text--red"></i>
         </a>
