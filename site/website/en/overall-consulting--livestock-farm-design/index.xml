@@ -31,17 +31,17 @@
 	<include>/site/items/c7ca3b1a-a986-39b7-0b61-3c1992df3f6b.xml</include>
 	<disableFlattening>false</disableFlattening>
 	</item></carousels_o>
-	<itemContent_html>&lt;p class="MsoNormal"&gt;&lt;em style="mso-bidi-font-style: normal;"&gt;&lt;span style="font-size: 12.0pt; line-height: 115%; mso-fareast-font-family: 'Times New Roman';"&gt;General consultancy for factories and farms&lt;/span&gt;&lt;/em&gt;&lt;/p&gt;
-&lt;p class="MsoNormal"&gt;&lt;span style="font-size: 12pt;"&gt;Mavinex is a contractor specializing in overall consultancy, arrangement of premises for animal feed factories, and large and small scale breeding facilities in the whole country. From overall design to architectural design, structure, electricity and water systems ... for factories, farms ensure compliance with technical standards.&lt;/span&gt;&lt;/p&gt;
-&lt;p class="MsoNormal"&gt;&lt;span style="font-size: 12.0pt; line-height: 115%; mso-fareast-font-family: 'Times New Roman';"&gt;Mavinex brings professional and synchronized breeding solutions and equipment. Together with our technical team, we have the best solution for investment, how to apply science and technology and implement the proper breeding - management process, how to choose materials to ensure enough breeding facilities. standards, ventilation, heat escape, energy saving and care efforts, especially to minimize the risk of invasive diseases, instability and unsafe.&lt;/span&gt;&lt;/p&gt;
-&lt;p class="MsoNormal"&gt;&lt;span style="font-size: 12.0pt; line-height: 115%; mso-fareast-font-family: 'Times New Roman';"&gt;Currently Mavinex has been consulting the ground, providing equipment for many factories, farms raising pigs, chickens and ducks across the provinces in the country: Thai Binh, Phu Tho, Bac Ninh, Hoa Binh, Hung Yen, Bac Giang, Hai Duong, Quang Ninh, Thanh Hoa, Nghe An, Hau Giang ...&lt;/span&gt;&lt;/p&gt;</itemContent_html>
+	<itemContent_html>&lt;p class="MsoNormal"&gt;&lt;span style="color: #ffffff; font-size: 18pt;"&gt;&lt;em style="mso-bidi-font-style: normal;"&gt;&lt;span style="line-height: 115%;"&gt;General consultancy for factories and farms&lt;/span&gt;&lt;/em&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p class="MsoNormal"&gt;&lt;span style="font-size: 18pt; color: #ffffff;"&gt;Mavinex is a contractor specializing in overall consultancy, arrangement of premises for animal feed factories, and large and small scale breeding facilities in the whole country. From overall design to architectural design, structure, electricity and water systems ... for factories, farms ensure compliance with technical standards.&lt;/span&gt;&lt;/p&gt;
+&lt;p class="MsoNormal"&gt;&lt;span style="font-size: 18pt; line-height: 115%; color: #ffffff;"&gt;Mavinex brings professional and synchronized breeding solutions and equipment. Together with our technical team, we have the best solution for investment, how to apply science and technology and implement the proper breeding - management process, how to choose materials to ensure enough breeding facilities. standards, ventilation, heat escape, energy saving and care efforts, especially to minimize the risk of invasive diseases, instability and unsafe.&lt;/span&gt;&lt;/p&gt;
+&lt;p class="MsoNormal"&gt;&lt;span style="font-size: 18pt; line-height: 115%; color: #ffffff;"&gt;Currently Mavinex has been consulting the ground, providing equipment for many factories, farms raising pigs, chickens and ducks across the provinces in the country: Thai Binh, Phu Tho, Bac Ninh, Hoa Binh, Hung Yen, Bac Giang, Hai Duong, Quang Ninh, Thanh Hoa, Nghe An, Hau Giang ...&lt;/span&gt;&lt;/p&gt;</itemContent_html>
 	<group_o item-list="true">	<item>	<groupContent_s>- Design the overall drawing of the project on the basis of the existing premises in the most reasonable direction, ensuring convenience during the breeding process.</groupContent_s>
 	</item>	<item>	<groupContent_s>- Designing cages, water systems, fecal tanks, disinfecting houses, calculating the size of cages ... to install appropriate, accurate, safe and aesthetic equipment systems.</groupContent_s>
 	</item></group_o>
 	<createdDate>2020-06-05T07:21:55.721Z</createdDate>
 	<createdDate_dt>2020-06-05T07:21:55.721Z</createdDate_dt>
-	<lastModifiedDate>2020-06-05T07:21:55.721Z</lastModifiedDate>
-	<lastModifiedDate_dt>2020-06-05T07:21:55.721Z</lastModifiedDate_dt>
+	<lastModifiedDate>2020-06-05T07:30:03.722Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-06-05T07:30:03.722Z</lastModifiedDate_dt>
 </component>
 	</item></sections_o>
 	<internal-name>Overall consulting, livestock farm design</internal-name>
@@ -49,6 +49,6 @@
 	<descripttion_t>Overall consulting, livestock farm design</descripttion_t>
 	<createdDate>2020-06-05T07:21:34.117Z</createdDate>
 	<createdDate_dt>2020-06-05T07:21:34.117Z</createdDate_dt>
-	<lastModifiedDate>2020-06-05T07:21:34.117Z</lastModifiedDate>
-	<lastModifiedDate_dt>2020-06-05T07:21:34.117Z</lastModifiedDate_dt>
+	<lastModifiedDate>2020-06-05T07:29:58.656Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-06-05T07:29:58.656Z</lastModifiedDate_dt>
 </page>
