@@ -284,7 +284,7 @@ img {
 </style>
   </head>
   <body>
-    <div class="lst-parent" style="hidden">
+    <div class="lst-parent" style="display:none;">
         <#list groupProduct.items as cate>
         	<p>${cate.value}/${cate.label}</p>
         </#list>
