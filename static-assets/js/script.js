@@ -13,7 +13,7 @@ $(document).ready(function() {
    console.log(url);
     if (url.href.indexOf('/en')) {
       var button =  $('.mavinex-nav__btns').find('button');
-      console.log(button);
+      console.log(button[0]);
     }
     // ==================================
     
