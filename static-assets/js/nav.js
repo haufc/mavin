@@ -45,10 +45,10 @@ function getContextPath() {
 }
 
 function changeLanguageVN() {
-    location.replace(getContextPath() + "/trang-chu")
+    window.location.replace(getContextPath() + "/trang-chu")
 }
 
 
 function changeLanguageEN() {
-    location.replace(getContextPath() + "/en/index")
+    window.location.replace(getContextPath() + "/en/index")
 }
