@@ -366,7 +366,7 @@ img {
                                             </#list>
                     					</div>
                     				</div>
-                    				<div class="item carousel-item">
+                    				<#--<div class="item carousel-item">
                     					<div class="row">
                     						 <#list relatedProducts as myItem>
                                                 <div class="col-3 col-custom-450">
@@ -379,7 +379,7 @@ img {
                         						</div>
                                             </#list>
                     					</div>
-                    				</div>
+                    				</div>-->
                     			</div>
                     			<!-- Carousel controls -->
                     			<a class="carousel-control right carousel-control-next" style="right: -7%;top: 25%;" href="#myCarousel" data-slide="next">
