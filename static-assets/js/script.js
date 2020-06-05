@@ -14,13 +14,13 @@ $(document).ready(function() {
    console.log(url);
     if (url.href.indexOf('/en') > -1) {
       var button =  $('.mavinex-nav__btns').find('button');
-      console.log(button[0]);
       $(button[0]).prop('title', 'EN');
       $(button[0]).find('i').removeClass('flag-icon-vn');
       $(button[0]).find('i').addClass('flag-icon-us');
       $(button[0]).find('span').text('EN');
       
       var li = $('.mavinex-nav__btns').find('li');
+      console.log(li);
       $(li[0]).removeClass('selected active');
       $(li[1]).addClass('selected active');
       
