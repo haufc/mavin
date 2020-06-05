@@ -18,19 +18,15 @@
                     <img src="${contentModel.introduct_o.item[i].introducitemavatar_s}" alt="" class="img--full">
                 </div>
             </#list>
-            <div class="col-lg6 col-md-6 col-sm-6 col-6 seemore_btn" style="padding: 0;">
-                 <a class="mt-3 rounded-0" href="${intros[5].url}"> 
-                    <span class="mr-1">Xem thêm</span>
-                    <i class="fa fa-play text--red"></i>
-                </a>
-            </div>
-
-            <div class="col-lg6 col-md-6 col-sm-6 col-6 seemore_btn" >
-                 <a class="mt-3 rounded-0" href="${intros[0].url}"> 
-                    <span class="mr-1">Xem thêm</span>
-                    <i class="fa fa-play text--red"></i>
-                </a>
-            </div>
+            
+            <#list 0..1 as i>
+                <div class="col-lg6 col-md-6 col-sm-6 col-6 seemore_btn">
+                     <a class="mt-3 rounded-0" href="${contentModel.introduct_o.item[i].introductUrl_s}"> 
+                        <span class="mr-1">Xem thêm</span>
+                        <i class="fa fa-play text--red"></i>
+                    </a>
+                </div>
+            </#list>
           </div>
       </div>
 
