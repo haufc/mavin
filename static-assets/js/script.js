@@ -2,6 +2,7 @@ $(document).ready(function() {
     // Flag redirect
     $('#languageSelector').change(function() {
        var language = $('#languageSelector').val();
+       console.log(language);
       if (language == 'VIE') {
           window.location.replace(getContextPath() + "/trang-chu");
       } else {
@@ -20,13 +21,6 @@ $(document).ready(function() {
       $(button[0]).find('span').text('EN');
     }
     // ==================================
-    
-    
-    
-    
-    
-    
-    
     
     $('.search-result').css("display", "none");
     // set active to nav
