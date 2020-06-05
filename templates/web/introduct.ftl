@@ -3,10 +3,10 @@
   <div class="content__title">
         <div class="container">
             <div class="row">
-                <div class="col-lg-6 col-md-6 col-sm-6 col-6" style="padding-left: 15px;">
+                <div class="col-lg-6 col-md-6 col-sm-6 col-6" style="padding: 15px;">
                   <h2 class="text--red text--title__small" style="font-weight: bold;" >${intros[5].title}</h2>
                 </div>
-                <div class="col-lg-6 col-md-6 col-sm-6 col-6" style="padding-left: 15px;">
+                <div class="col-lg-6 col-md-6 col-sm-6 col-6" style="padding: 15px;">
                   <h2 class="text--red text--title__small" style="font-weight: bold;" >${intros[0].title}</h2>
                 </div>
             </div>
@@ -39,7 +39,7 @@
       <div class="content__title">
         <div class="container">
             <div class="row">
-                <div class="col-lg-6 col-md-6 col-sm-6 col-6" style="padding-left: 15px;" >
+                <div class="col-lg-6 col-md-6 col-sm-6 col-6" style="padding: 15px;" >
                   <h2 class="text--red text--title__small" style="font-weight: bold;" >${intros[1].title}</h2>
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-6 col-6" style="padding: 15px;" >
