@@ -25,6 +25,22 @@ $(document).ready(function() {
       $(li[1]).addClass('active');
       
     }
+    
+    jQuery(window).load(function () {
+    if (url.href.indexOf('/en') > -1) {
+      var button =  $('.mavinex-nav__btns').find('button');
+      $(button[0]).prop('title', 'EN');
+      $(button[0]).find('i').removeClass('flag-icon-vn');
+      $(button[0]).find('i').addClass('flag-icon-us');
+      $(button[0]).find('span').text('EN');
+      
+      var li = $('.dropdown-menu').find('ul').find('li');
+      
+      $(li[0]).removeClass('active');
+      $(li[1]).addClass('active');
+    }
+
+});
     // ==================================
     
     $('.search-result').css("display", "none");
