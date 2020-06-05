@@ -1,5 +1,5 @@
 $(document).ready(function() {
-    
+    // Flag redirect
     $('#languageSelector').change(function() {
        var language = $('#languageSelector').val();
       if (language == 'VIE') {
@@ -7,11 +7,21 @@ $(document).ready(function() {
       } else {
           window.location.replace(getContextPath() + "/en/index");
       }
-    })
+    });
+    
+    var url = window.location;
+   console.log(url);
+    
+    // ==================================
+    
+    
+    
+    
+    
+    
+    
     
     $('.search-result').css("display", "none");
-    var url = window.location;
-    
     // set active to nav
     $('#nav-content a').filter(function() {
         return this.href == url;
