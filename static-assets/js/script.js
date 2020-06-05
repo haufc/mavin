@@ -7,9 +7,6 @@ $(document).ready(function() {
           window.location.replace(getContextPath() + "/trang-chu");
       } else {
           window.location.replace(getContextPath() + "/en/index");
-          var li = $('.dropdown-menu').find('ul').find('li');
-            $(li[0]).removeClass('active');
-            $(li[1]).addClass('active');
       }
     });
     
