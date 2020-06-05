@@ -6435,6 +6435,7 @@ _:-ms-lang(x), .content__img {
 
 .seemore_btn {
   font-size: 17px;
+  margin-top: 10px;
 }
 .seemore_btn span{
     color: #fff;
