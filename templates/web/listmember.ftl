@@ -13,7 +13,7 @@
 <@studio.toolSupport /> -->
 <#import "/templates/system/common/cstudio-support.ftl" as studio />
 <div class="content__title"> 
-    <div class="container" style="padding-right: 0px;">
+    <div class="container">
         <div class="owl-carousel owl-theme">
             <#list contentModel.member_o.item as element>
             <div class="item"><img src="${element.logo_s}" alt="Logo"></div>
