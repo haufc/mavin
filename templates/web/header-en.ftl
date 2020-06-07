@@ -10,8 +10,8 @@
             <div class="dropdown">
               <a class="mavinex-nav__link" href="/gioi-thieu">Introduction</a>
               <div class="dropdown-content">
-                <a class="mavinex-nav__link" href="/introducts/gioi-thieu-chung">Introduction</a>
-                <a class="mavinex-nav__link" href="/introducts/lich-su-hinh-thanh">History</a>
+                <a class="mavinex-nav__link" href="/en/introducts/introduction">Introduction</a>
+                <a class="mavinex-nav__link" href="/en/introducts/history">History</a>
                 <a class="mavinex-nav__link" href="/introducts/linh-vuc-hoat-dong">Activities</a>
                 <a class="mavinex-nav__link" href="/introducts/doi-tac-chien-luoc">Partners</a>
               </div>
@@ -39,8 +39,8 @@
 
         <div class="mavinex-nav__btns">
             <select class="selectpicker mr-1" id="languageSelector" data-width="fit" data-style="btn-primary rounded-0">
-                <option data-content="&lt;i class=&quot;flag-icon flag-icon-vn mr-1&quot;&gt;&lt;/i&gt; &lt;span&gt;VIE&lt;/span&gt;">VIE</option>
-                <option data-content="&lt;i class=&quot;flag-icon flag-icon-us mr-1&quot;&gt;&lt;/i&gt; &lt;span&gt;EN&lt;/span&gt;">EN</option>
+                <option data-content="&lt;i class=&quot;flag-icon flag-icon-vn mr-1&quot;&gt;&lt;/i&gt; &lt;span&gt;VIE&lt;/span&gt;" onclick="changeLanguageVN()">VIE</option>
+                <option data-content="&lt;i class=&quot;flag-icon flag-icon-us mr-1&quot;&gt;&lt;/i&gt; &lt;span&gt;EN&lt;/span&gt;" onclick="changeLanguageEN()">EN</option>
             </select>
             <button class="mavinex-nav__btn btn" onclick="toggleSearchBar()">
                 <i class="fas fa-search"></i>

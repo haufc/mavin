@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page>
+	<content-type>/page/home</content-type>
+	<display-template>/templates/web/home.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>8c85</objectGroupId>
+	<objectId>8c85da70-81c3-9251-24fa-1584fb18bdb2</objectId>
+	<file-name>index.xml</file-name>
+	<folder-name>scope-of-activities</folder-name>
+	<internal-name>Scope of activities</internal-name>
+	<title_s>Scope of activities</title_s>
+	<placeInNav>false</placeInNav>
+	<orderDefault_f>-1</orderDefault_f>
+	<descripttion_t>Scope of activities</descripttion_t>
+	<sections_o item-list="true">	<item datasource="sections" inline="true">	<key>80ef3c77-08cf-7b87-871e-c3b0101867d5</key>
+	<value>Slide Lĩnh vực hoạt động</value>
+<component id="80ef3c77-08cf-7b87-871e-c3b0101867d5">
+	<content-type>/component/slide</content-type>
+	<display-template>/templates/web/slide.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>80ef</objectGroupId>
+	<objectId>80ef3c77-08cf-7b87-871e-c3b0101867d5</objectId>
+	<image_o item-list="true">	<item>	<image_s>/static-assets/images/slides/slide-linh-vuc-hoat-dong.png</image_s>
+	</item>	<item>	<image_s>/static-assets/images/slides/bg_3.png</image_s>
+	</item></image_o>
+	<file-name>80ef3c77-08cf-7b87-871e-c3b0101867d5.xml</file-name>
+	<internal-name>Slide Lĩnh vực hoạt động</internal-name>
+	<createdDate>2020-06-05T05:04:12.753Z</createdDate>
+	<createdDate_dt>2020-06-05T05:04:12.753Z</createdDate_dt>
+	<lastModifiedDate>2020-06-05T05:04:52.748Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-06-05T05:04:52.748Z</lastModifiedDate_dt>
+</component>
+	</item>	<item datasource="sections" inline="true">	<key>cde1149a-6e9d-295d-3791-9bd4a9fd9ee0</key>
+	<value>Scope of activities</value>
+<component id="cde1149a-6e9d-295d-3791-9bd4a9fd9ee0">
+	<content-type>/component/componentactivity</content-type>
+	<display-template>/templates/web/activity.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>cde1</objectGroupId>
+	<objectId>cde1149a-6e9d-295d-3791-9bd4a9fd9ee0</objectId>
+	<file-name>cde1149a-6e9d-295d-3791-9bd4a9fd9ee0.xml</file-name>
+	<internal-name>Scope of activities</internal-name>
+	<title_s>Scope of activities</title_s>
+	<image_s>/static-assets/images/featured/content_img_1.png</image_s>
+	<item_o item-list="true">	<item>	<content_t>Construction of irrigation, civil and industrial transport works, infrastructure of industrial parks and urban areas.</content_t>
+	</item>	<item>	<content_t>Manufacturing and trading in building materials, precast concrete structures, metal structures.</content_t>
+	</item>	<item>	<content_t>Consulting, planning construction projects of animal feed factories and livestock farms.</content_t>
+	</item>	<item>	<content_t>Buying and selling, leasing machines and equipment used in the livestock industry.</content_t>
+	</item>	<item>	<content_t>Supplying and installing animal feed production line equipment, Industrial electrical system, Factory management software system.</content_t>
+	</item>	<item>	<content_t>Supply of breeding equipment: cage cage; Automatic feeding and drinking system; hatching machines for chickens and ducks; HDPE round fish cage ...)</content_t>
+	</item></item_o>
+	<createdDate>2020-06-05T05:01:45.577Z</createdDate>
+	<createdDate_dt>2020-06-05T05:01:45.577Z</createdDate_dt>
+	<lastModifiedDate>2020-06-05T05:01:45.577Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-06-05T05:01:45.577Z</lastModifiedDate_dt>
+</component>
+	</item></sections_o>
+	<createdDate>2020-06-05T05:00:46.693Z</createdDate>
+	<createdDate_dt>2020-06-05T05:00:46.693Z</createdDate_dt>
+	<lastModifiedDate>2020-06-05T05:00:46.693Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-06-05T05:00:46.693Z</lastModifiedDate_dt>
+</page>

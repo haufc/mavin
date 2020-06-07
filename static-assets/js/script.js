@@ -1,8 +1,52 @@
 $(document).ready(function() {
+    // Flag redirect
+    $('#languageSelector').change(function() {
+       var language = $('#languageSelector').val();
+       console.log(language);
+      if (language == 'VIE') {
+          window.location.replace(getContextPath() + "/trang-chu");
+      } else {
+          window.location.replace(getContextPath() + "/en/index");
+      }
+    });
+    
+    var url = window.location;
+    /*jQuery(window).load(function () {
+        if (url.href.includes('/en')) {
+          var button =  $('.mavinex-nav__btns').find('button');
+          $(button[0]).prop('title', 'EN');
+          $(button[0]).find('i').removeClass('flag-icon-vn');
+          $(button[0]).find('i').addClass('flag-icon-us');
+          $(button[0]).find('span').text('EN');
+          
+          var li = $('.dropdown-menu').find('ul').find('li');
+          
+          $(li[0]).removeClass('active');
+          $(li[1]).addClass('active');
+        }
+    
+    });*/
+   console.log(url);
+    if (url.href.indexOf('/en') > -1) {
+      var button =  $('.mavinex-nav__btns').find('button');
+      $(button[0]).prop('title', 'EN');
+      $(button[0]).find('i').removeClass('flag-icon-vn');
+      $(button[0]).find('i').addClass('flag-icon-us');
+      $(button[0]).find('span').text('EN');
+      
+      
+      
+    }
+    if(document.readyState === 'complete') {
+    var li = $('.dropdown-menu').find('ul').find('li');
+      
+      $(li[0]).removeClass('active');
+      $(li[1]).addClass('active');
+    }
+    
+    // ==================================
     
     $('.search-result').css("display", "none");
-    var url = window.location;
-    
     // set active to nav
     $('#nav-content a').filter(function() {
         return this.href == url;
