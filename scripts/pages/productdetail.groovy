@@ -10,4 +10,6 @@ def categories = new TaxonomySearchHelper("product-category-child", elasticsearc
 						.getItems()
 						
 templateModel.groupProduct = categories
+
 templateModel.relatedProducts = relatedProducts
+templateModel.relatedProductsSize = relatedProducts.size()

@@ -14,9 +14,9 @@
 	<folder-name/>
 	<createdDate>2017-1-31T16:18:14.000Z</createdDate>
 	<createdDate_dt>2017-1-31T16:18:14.000Z</createdDate_dt>
-	<lastModifiedDate>2020-05-04T03:58:19.162Z</lastModifiedDate>
-	<lastModifiedDate_dt>2020-05-04T03:58:19.162Z</lastModifiedDate_dt>
-	<title_s>Item Explorer</title_s>
+	<lastModifiedDate>2020-06-08T04:22:11.005Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-06-08T04:22:11.005Z</lastModifiedDate_dt>
+	<title_s>Trang chủ</title_s>
 	<disabled>false</disabled>
 	<sections_o item-list="true">	<item datasource="sections" inline="true">	<key>7191fe7b-e11d-bc53-bfdf-2468c4633e91</key>
 	<value>Slide</value>
@@ -37,6 +37,10 @@
 	<lastModifiedDate>2020-05-04T03:32:26.334Z</lastModifiedDate>
 	<lastModifiedDate_dt>2020-05-04T03:32:26.334Z</lastModifiedDate_dt>
 </component>
+	</item>	<item datasource="carouselDataSource">	<key>/site/items/carousel/f95544c8-088a-2dcf-9df8-3626398ddfa1.xml</key>
+	<value>Carousel Products</value>
+	<include>/site/items/carousel/f95544c8-088a-2dcf-9df8-3626398ddfa1.xml</include>
+	<disableFlattening>false</disableFlattening>
 	</item>	<item datasource="sections" inline="true">	<key>e69bd248-5a04-f6cb-ffc1-70fa86db788c</key>
 	<value>Introduction</value>
 <component id="e69bd248-5a04-f6cb-ffc1-70fa86db788c">
