@@ -10,7 +10,7 @@
 	<folder-name>may-ap-no-trung</folder-name>
 	<internal-name>Máy ấp nở trứng</internal-name>
 	<navLabel>Máy ấp nở trứng</navLabel>
-	<product_title_s>Thiết bị thuỷ sản</product_title_s>
+	<product_title_s>Thiết bị chăn nuôi</product_title_s>
 	<placeInNav>false</placeInNav>
 	<orderDefault_f>-1</orderDefault_f>
 	<slide_o item-list="true">	<item datasource="slide">	<key>/site/items/slides/d0a08899-63db-033a-900d-525a0e2770f9.xml</key>
@@ -29,11 +29,9 @@
 	</item></section_o>
 	<productGroup_o>	<item>	<key>thiet-bi-chan-nuoi</key>
 	<value_smv>Thiết bị chăn nuôi</value_smv>
-	</item>	<item>	<key>thiet-bi-thuy-san</key>
-	<value_smv>Thiết bị thủy sản</value_smv>
 	</item></productGroup_o>
 	<createdDate>2020-06-08T06:51:10.038Z</createdDate>
 	<createdDate_dt>2020-06-08T06:51:10.038Z</createdDate_dt>
-	<lastModifiedDate>2020-06-08T06:51:10.038Z</lastModifiedDate>
-	<lastModifiedDate_dt>2020-06-08T06:51:10.038Z</lastModifiedDate_dt>
+	<lastModifiedDate>2020-06-08T06:59:04.093Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-06-08T06:59:04.093Z</lastModifiedDate_dt>
 </page>
