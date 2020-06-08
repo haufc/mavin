@@ -354,6 +354,7 @@ img {
                     			<div class="carousel-inner">
                     				<div class="item carousel-item active">
                     					<div class="row">
+                    					 <#if relatedProducts!?size gt 2 > 
                     					    <#list 0..3 as i>
                                                 <div class="col-3 col-custom-450">
                         							<div class="thumb-wrapper">
@@ -364,6 +365,7 @@ img {
                         							</div>
                         						</div>
                                             </#list>
+                                            </#if>
                     					</div>
                     				</div>
                     				<div class="item carousel-item">
