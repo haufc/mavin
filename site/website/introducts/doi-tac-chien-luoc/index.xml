@@ -21,8 +21,8 @@
 	<contents_html/>
 	<createdDate>2020-04-17T03:58:23.091Z</createdDate>
 	<createdDate_dt>2020-04-17T03:58:23.091Z</createdDate_dt>
-	<lastModifiedDate>2020-06-08T05:10:23.213Z</lastModifiedDate>
-	<lastModifiedDate_dt>2020-06-08T05:10:23.213Z</lastModifiedDate_dt>
+	<lastModifiedDate>2020-06-08T05:12:15.800Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-06-08T05:12:15.800Z</lastModifiedDate_dt>
 	<section_o item-list="true">	<item datasource="sectionDataSource" inline="true">	<key>c3f79ceb-85de-15fe-5ade-23ae1d8b286d</key>
 	<value>Danh sách đối tác chiến lược</value>
 <component id="c3f79ceb-85de-15fe-5ade-23ae1d8b286d">
@@ -58,11 +58,19 @@
 	<partnerimagealt_s>vostermans ventilation</partnerimagealt_s>
 	</item>	<item>	<partnerimage_s>/static-assets/images/partnerships/Layer 208.png</partnerimage_s>
 	<partnerimagealt_s>Multifan</partnerimagealt_s>
+	</item>	<item>	<partnerimage_s>/static-assets/images/partnerships/Layer 209.png</partnerimage_s>
+	<partnerimagealt_s>roxell</partnerimagealt_s>
+	</item>	<item>	<partnerimage_s>/static-assets/images/partnerships/Layer 210.png</partnerimage_s>
+	<partnerimagealt_s>fancom</partnerimagealt_s>
+	</item>	<item>	<partnerimage_s>/static-assets/images/partnerships/Layer 211.png</partnerimage_s>
+	<partnerimagealt_s>famsum</partnerimagealt_s>
+	</item>	<item>	<partnerimage_s>/static-assets/images/partnerships/Layer 212.png</partnerimage_s>
+	<partnerimagealt_s>extrucsion group</partnerimagealt_s>
 	</item></logo_o>
 	<createdDate>2020-06-04T08:38:46.227Z</createdDate>
 	<createdDate_dt>2020-06-04T08:38:46.227Z</createdDate_dt>
-	<lastModifiedDate>2020-06-08T05:10:29.389Z</lastModifiedDate>
-	<lastModifiedDate_dt>2020-06-08T05:10:29.389Z</lastModifiedDate_dt>
+	<lastModifiedDate>2020-06-08T05:12:37.534Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-06-08T05:12:37.534Z</lastModifiedDate_dt>
 </component>
 	</item></section_o>
 </page>
