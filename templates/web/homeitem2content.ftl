@@ -19,7 +19,7 @@
         <div class="col-lg-6 col-md-6 col-sm-12 col-12 order-3 seemore_btn" style="padding-left: 0px;">
                     
         <a class="mt-3 rounded-0" href="${contentModel.url_s}"> 
-            <span class="mr-1">Xem thêm</span>
+            <span class="mr-1 span-view-more">Xem thêm</span>
             <i class="fas fa-play text--red"></i>
         </a>
         </div>
