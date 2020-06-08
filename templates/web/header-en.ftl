@@ -8,7 +8,7 @@
 
         <div id="nav-content" class="mavinex-nav__links">
             <div class="dropdown">
-              <a class="mavinex-nav__link" href="/en/introducts/">Introduction</a>
+              <a class="mavinex-nav__link" href="/en/introductions/">Introduction</a>
               <div class="dropdown-content">
                 <a class="mavinex-nav__link" href="/en/introducts/introduction">Introduction</a>
                 <a class="mavinex-nav__link" href="/en/introducts/history">History</a>
