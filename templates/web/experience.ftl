@@ -35,8 +35,8 @@
                 </#if>
                 <#list contentModel.item_o.item as element>
                   <div class="col-lg-6 col-md-6 col-sm-6 col-6 seemore_btn" style="padding: 15px;">
-                         <a class="mt-3 rounded-0" href="${element.itemUrl_s}"> 
-                            <span class="mr-1">Xem thêm</span>
+                         <a class="mt-3 rounded-0 btn-view-more" href="${element.itemUrl_s}"> 
+                            <span class="mr-1 span-view-more">Xem thêm</span>
                             <i class="fa fa-play text--red"></i>
                         </a>
                     </div>
