@@ -368,7 +368,7 @@ img {
                     				</div>
                     				<div class="item carousel-item">
                     					<div class="row">
-                    					    <#if relatedProducts?size gt 0 > 
+                    					    <#if relatedProducts?size gt 1 > 
                     						 <#list 0..3 as i>
                                                 <div class="col-3 col-custom-450">
                         							<div class="thumb-wrapper">
