@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page>
+	<content-type>/page/productchildgrouplanding</content-type>
+	<content-type>/page/productchildgrouplanding</content-type>
+	<display-template/>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>5d25</objectGroupId>
+	<objectId>5d25834d-9327-4713-0e05-f53291575790</objectId>
+	<file-name>index.xml</file-name>
+	<folder-name>may-ap-no-trung</folder-name>
+	<internal-name>Máy ấp nở trứng</internal-name>
+	<navLabel>Máy ấp nở trứng</navLabel>
+	<placeInNav>false</placeInNav>
+	<orderDefault_f>-1</orderDefault_f>
+	<createdDate>2020-06-08T06:49:53.103Z</createdDate>
+	<createdDate_dt>2020-06-08T06:49:53.103Z</createdDate_dt>
+	<lastModifiedDate>2020-06-08T06:49:53.103Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-06-08T06:49:53.103Z</lastModifiedDate_dt>
+</page>
