@@ -365,6 +365,17 @@ img {
                         							</div>
                         						</div>
                                             </#list>
+                                            <#else>
+                                            <#list relatedProducts as item>
+                                                <div class="col-3 col-custom-450">
+                        							<div class="thumb-wrapper">
+                        								<span class="wish-icon"><i class="fa fa-heart-o"></i></span>
+                        								<div class="img-box">
+                        									<a href="${item.url}"><img src="${item.avatar}" class="img-responsive img-fluid" alt=""></a>
+                        								</div>
+                        							</div>
+                        						</div>
+                                            </#list>
                                             </#if>
                     					</div>
                     				</div>
