@@ -25,8 +25,8 @@
                         </#if>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-12 col-12 order-3 seemore_btn">
-                        <a class="mt-3 rounded-0" href="/gioi-thieu"> 
-                            <span class="mr-1 btn-view-more">Xem thêm</span>
+                        <a class="mt-3 rounded-0 btn-view-more" href="/gioi-thieu"> 
+                            <span class="mr-1 span-view-more">Xem thêm</span>
                             <i class="fas fa-play text--red"></i>
                         </a>
                     </div>
