@@ -39,25 +39,25 @@
 	<objectGroupId>bf1f</objectGroupId>
 	<objectId>bf1fcb6a-a24c-e4b1-bca2-890271ffb12b</objectId>
 	<item_o item-list="true">	<item>	<itemTitle_s>Building sector</itemTitle_s>
-	<itemUrl_s/>
+	<itemUrl_s>/en/building-sector</itemUrl_s>
 	<itemImage_s>/static-assets/images/Layer 199.png</itemImage_s>
 	</item>	<item>	<itemTitle_s>Overall consulting, livestock farm design</itemTitle_s>
 	<itemImage_s>/static-assets/images/Layer 186.png</itemImage_s>
-	<itemUrl_s/>
+	<itemUrl_s>overall-consulting--livestock-farm-design</itemUrl_s>
 	</item></item_o>
 	<file-name>bf1fcb6a-a24c-e4b1-bca2-890271ffb12b.xml</file-name>
 	<internal-name>Capability</internal-name>
 	<title_s>Capability</title_s>
 	<createdDate>2020-06-05T05:09:23.213Z</createdDate>
 	<createdDate_dt>2020-06-05T05:09:23.213Z</createdDate_dt>
-	<lastModifiedDate>2020-06-05T05:09:23.213Z</lastModifiedDate>
-	<lastModifiedDate_dt>2020-06-05T05:09:23.213Z</lastModifiedDate_dt>
+	<lastModifiedDate>2020-06-08T03:01:41.152Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-06-08T03:01:41.152Z</lastModifiedDate_dt>
 </component>
 	</item></sections_o>
 	<file-name>index.xml</file-name>
 	<folder-name>capability</folder-name>
 	<createdDate>2020-06-05T05:08:40.872Z</createdDate>
 	<createdDate_dt>2020-06-05T05:08:40.872Z</createdDate_dt>
-	<lastModifiedDate>2020-06-05T05:08:40.872Z</lastModifiedDate>
-	<lastModifiedDate_dt>2020-06-05T05:08:40.872Z</lastModifiedDate_dt>
+	<lastModifiedDate>2020-06-08T03:01:36.601Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-06-08T03:01:36.601Z</lastModifiedDate_dt>
 </page>
