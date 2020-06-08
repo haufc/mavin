@@ -19,7 +19,7 @@
 	<pLink4_s>/products/thiet-bi-nha-tach-tacn</pLink4_s>
 	<pImage1_s>/static-assets/images/Layer 205 copy.png</pImage1_s>
 	<pImage2_s>/static-assets/images/Layer 198.png</pImage2_s>
-	<pImage3_s>/static-assets/images/Layer 200.png</pImage3_s>
+	<pImage3_s>/static-assets/images/Layer 300.png</pImage3_s>
 	<pImage4_s>/static-assets/images/Layer 211.png</pImage4_s>
 	</item>	<item>	<pTittle1_s>THIẾT BỊ CHUỒNG TRẠI</pTittle1_s>
 	<pLink1_s>/products/thiet-bi-chuong-trai</pLink1_s>
@@ -36,8 +36,8 @@
 	</item></products_o>
 	<createdDate>2020-05-21T10:19:28.471Z</createdDate>
 	<createdDate_dt>2020-05-21T10:19:28.471Z</createdDate_dt>
-	<lastModifiedDate>2020-06-08T04:19:45.638Z</lastModifiedDate>
-	<lastModifiedDate_dt>2020-06-08T04:19:45.638Z</lastModifiedDate_dt>
+	<lastModifiedDate>2020-06-08T07:49:30.301Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-06-08T07:49:30.301Z</lastModifiedDate_dt>
 	<arrow1_s>/static-assets/images/mavinex_left_arrow.png</arrow1_s>
 	<arrow2_s>/static-assets/images/mavinex_right_arrow.png</arrow2_s>
 </component>
