@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="/static-assets/plugins/bootstrap-select1139/dist/css/bootstrap-select.min.css"/>
     <link rel="stylesheet" href="/static-assets/css/styles.css"/>
     <link rel="stylesheet" href="/static-assets/css/mavinex.css"/>
+    <title></title>
     <style>
         .line-white{
             color: #FFF;
@@ -492,6 +493,7 @@ img {
     	    let splitArr = str.split('/');
     	    if (splitArr[0] == key) {
     	        $('#product-group').text(splitArr[1]);
+    	        $('title').text(splitArr[1]);
     	    }
     	}
     	console.log(lstKey);
