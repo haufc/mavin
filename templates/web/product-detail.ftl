@@ -115,7 +115,7 @@ img {
 .column:first-child {
     margin-left: 0px;
 }
-.column.last-child {
+.column:last-child {
     margin-right: 0px;
 }
 /* Add a transparency effect for thumnbail images */
