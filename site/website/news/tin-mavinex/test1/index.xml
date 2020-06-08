@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page>
+	<content-type>/page/newsdetail</content-type>
+	<display-template>/templates/web/newsdetail.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>e3e9</objectGroupId>
+	<objectId>e3e9bdb5-640a-e711-d424-0b28e149b557</objectId>
+	<image_s>/static-assets/images/Layer 183.png</image_s>
+	<file-name>index.xml</file-name>
+	<folder-name>test1</folder-name>
+	<internal-name>test1</internal-name>
+	<navLabel>test1</navLabel>
+	<title_s>test1</title_s>
+	<placeInNav>false</placeInNav>
+	<orderDefault_f>-1</orderDefault_f>
+	<categories_o>	<item>	<key>mavinex-news</key>
+	<value_smv>Tin Mavinex</value_smv>
+	</item></categories_o>
+	<slide_o item-list="true">	<item datasource="slideDataSource">	<key>/site/items/slides/d0a08899-63db-033a-900d-525a0e2770f9.xml</key>
+	<value>Home slide</value>
+	<include>/site/items/slides/d0a08899-63db-033a-900d-525a0e2770f9.xml</include>
+	<disableFlattening>false</disableFlattening>
+	</item></slide_o>
+	<content_html>&lt;p&gt;test 1&lt;/p&gt;</content_html>
+	<createdTime_to>04:11:03</createdTime_to>
+	<createdTime_to_tz>Asia/Bangkok</createdTime_to_tz>
+	<createdDate>2020-06-08T04:11:02.978Z</createdDate>
+	<createdDate_dt>2020-06-08T04:00:00.000Z</createdDate_dt>
+	<lastModifiedDate>2020-06-08T04:11:02.978Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-06-08T04:11:02.978Z</lastModifiedDate_dt>
+	<createdDate_dt_tz>EST5EDT</createdDate_dt_tz>
+</page>
