@@ -1,4 +1,8 @@
 $(document).ready(function() {
+    $('#btn-intro').click(function() {
+            window.location.href = "http://www.w3schools.com";
+    });
+    
     // Flag redirect
     $('#languageSelector').change(function() {
        var language = $('#languageSelector').val();
