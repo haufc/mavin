@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="/static-assets/plugins/bootstrap-select1139/dist/css/bootstrap-select.min.css"/>
     <link rel="stylesheet" href="/static-assets/css/styles.css"/>
     <link rel="stylesheet" href="/static-assets/css/mavinex.css"/>
+    <title>${contentModel.product_title_s}</title>
   </head>
   <body>
     <button onclick="topFunction()" id="btn-up-top" ><i class="fa fa-angle-up"></i></button>

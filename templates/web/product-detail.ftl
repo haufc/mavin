@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="/static-assets/plugins/bootstrap-select1139/dist/css/bootstrap-select.min.css"/>
     <link rel="stylesheet" href="/static-assets/css/styles.css"/>
     <link rel="stylesheet" href="/static-assets/css/mavinex.css"/>
+    <title>${contentModel.productname_s}</title>
     <style>
         .line-white{
             color: #FFF;
@@ -108,9 +109,15 @@ img {
     float: left;
     /*width: 16.66%; */
     width: 23%;
-    margin: 0px 1%;
+    margin: 0px 1.33%;
 }
 
+.column:first-child {
+    margin-left: 0px;
+}
+.column:last-child {
+    margin-right: 0px;
+}
 /* Add a transparency effect for thumnbail images */
 .demo {
   opacity: 0.6;
@@ -309,8 +316,8 @@ img {
                             <img src="${myItem.productimage_s}" alt="${myItem.productimagename_s}" style="width:100%">
                         </div>
                     </#list>
-                  <a class="prev" onclick="plusSlides(-1)">❮</a>
-                  <a class="next" onclick="plusSlides(1)">❯</a>
+                  <#--<a class="prev" onclick="plusSlides(-1)">❮</a>
+                  <a class="next" onclick="plusSlides(1)">❯</a> -->
                 
                   <div class="container" style="margin-top: 5px;">
                     <div class="row">
