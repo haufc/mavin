@@ -298,7 +298,7 @@ img {
                 </#if>
             </#list>
             <div style="background-color: #00559a; padding:10px;">
-                <h1 class="text--uppercase text-white text-left container">${titleName}</h1>
+                <h1 class="text--uppercase text-white text-left container" id="product-group"></h1>
             </div>
           </div>
         <div class="container p-3 mb-1">         
@@ -354,12 +354,12 @@ img {
                     			<div class="carousel-inner">
                     				<div class="item carousel-item active">
                     					<div class="row">
-                    					    <#list relatedProducts as myItem>
+                    					    <#list 0..3 as i>
                                                 <div class="col-3 col-custom-450">
                         							<div class="thumb-wrapper">
                         								<span class="wish-icon"><i class="fa fa-heart-o"></i></span>
                         								<div class="img-box">
-                        									<a href="${myItem.url}"><img src="${myItem.avatar}" class="img-responsive img-fluid" alt=""></a>
+                        									<a href="${relatedProducts[i].url}"><img src="${relatedProducts[i].avatar}" class="img-responsive img-fluid" alt=""></a>
                         								</div>
                         							</div>
                         						</div>
@@ -368,12 +368,12 @@ img {
                     				</div>
                     				<div class="item carousel-item">
                     					<div class="row">
-                    						 <#list relatedProducts as myItem>
+                    						 <#list 0..3 as i>
                                                 <div class="col-3 col-custom-450">
                         							<div class="thumb-wrapper">
                         								<span class="wish-icon"><i class="fa fa-heart-o"></i></span>
                         								<div class="img-box">
-                        									<img src="${myItem.avatar}" class="img-responsive img-fluid" alt="">
+                        									<a href="${relatedProducts[i].url}"><img src="${relatedProducts[i].avatar}" class="img-responsive img-fluid" alt=""></a>
                         								</div>
                         							</div>
                         						</div>
@@ -395,8 +395,15 @@ img {
         <hr style="border: 3px solid #00559a">
       </div>  
     </div>
+    
     <@renderComponent component=contentModel.memberlist_o.item />
     <@renderComponent component=contentModel.footer_o.item />
+    <input hidden value="${contentModel.productchildgroup_o.item.key}" id="txt-key"/>
+    <div class="lst-parent">
+        <#list groupProduct.items as cate>
+            <input hidden value="${cate.value}/${cate.label}"/>
+        </#list>
+    </div>
     <script src="/static-assets/plugins/jquery341/jquery(3.4.1.).js"></script>
     <script src="/static-assets/js/popper.min.js"></script>
     <script src="/static-assets/plugins/bootstrap441/js/bootstrap.min.js"></script>
@@ -448,6 +455,18 @@ img {
     			$(this).toggleClass("fa-heart fa-heart-o");
     		});
     	});	
+    	
+    	var key = $('#txt-key').val();
+    	var lstKey = $('.lst-parent').find('input');
+    	
+    	for( let i = 0 ; i< lstKey.length; i++) {
+    	    let str = $(lstKey[i]).val();
+    	    let splitArr = str.split('/');
+    	    if (splitArr[0] == key) {
+    	        $('#product-group').text(splitArr[1]);
+    	    }
+    	}
+    	console.log(lstKey);
     </script>
   </body>
 </html>
