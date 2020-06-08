@@ -48,6 +48,10 @@ img {
   cursor: pointer;
 }
 
+.cursor:first-child {
+    margin-left: 0px;
+}
+
 /* Next & previous buttons */
 .prev,
 .next {
@@ -109,7 +113,7 @@ img {
     float: left;
     /*width: 16.66%; */
     width: 23%;
-    margin: 0px 1%;
+    margin: 0px 1.33%;
 }
 
 /* Add a transparency effect for thumnbail images */
