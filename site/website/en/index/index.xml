@@ -51,11 +51,37 @@
 	<lastModifiedDate>2020-06-08T02:33:03.244Z</lastModifiedDate>
 	<lastModifiedDate_dt>2020-06-08T02:33:03.244Z</lastModifiedDate_dt>
 </component>
+	</item>	<item datasource="sections" inline="true">	<key>a09d142e-d527-f678-4373-9b6fc6ee2e43</key>
+	<value>Capability</value>
+<component id="a09d142e-d527-f678-4373-9b6fc6ee2e43">
+	<content-type>/component/homeitem2</content-type>
+	<display-template>/templates/web/homeitem2.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>a09d</objectGroupId>
+	<objectId>a09d142e-d527-f678-4373-9b6fc6ee2e43</objectId>
+	<file-name>a09d142e-d527-f678-4373-9b6fc6ee2e43.xml</file-name>
+	<internal-name>Capability</internal-name>
+	<title_s>Capability</title_s>
+	<contentitem_o item-list="true">	<item datasource="homeitem2contentcomponent">	<key>/site/items/home-item-2-content/85460acf-e7ea-65da-ce98-4b658031839e.xml</key>
+	<value>Building sector</value>
+	<include>/site/items/home-item-2-content/85460acf-e7ea-65da-ce98-4b658031839e.xml</include>
+	<disableFlattening>false</disableFlattening>
+	</item>	<item datasource="homeitem2contentcomponent">	<key>/site/items/home-item-2-content/21ca1eef-107f-353c-5a25-60c5608db25e.xml</key>
+	<value>Overall consulting, livestock farm design</value>
+	<include>/site/items/home-item-2-content/21ca1eef-107f-353c-5a25-60c5608db25e.xml</include>
+	<disableFlattening>false</disableFlattening>
+	</item></contentitem_o>
+	<createdDate>2020-06-08T02:34:24.904Z</createdDate>
+	<createdDate_dt>2020-06-08T02:34:24.904Z</createdDate_dt>
+	<lastModifiedDate>2020-06-08T02:34:24.904Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-06-08T02:34:24.904Z</lastModifiedDate_dt>
+</component>
 	</item></sections_o>
 	<file-name>index.xml</file-name>
 	<folder-name>index</folder-name>
 	<createdDate>2020-06-05T03:53:24.856Z</createdDate>
 	<createdDate_dt>2020-06-05T03:53:24.856Z</createdDate_dt>
-	<lastModifiedDate>2020-06-08T02:32:59.485Z</lastModifiedDate>
-	<lastModifiedDate_dt>2020-06-08T02:32:59.485Z</lastModifiedDate_dt>
+	<lastModifiedDate>2020-06-08T02:33:55.220Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-06-08T02:33:55.220Z</lastModifiedDate_dt>
 </page>
