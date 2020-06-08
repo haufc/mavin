@@ -48,10 +48,6 @@ img {
   cursor: pointer;
 }
 
-.cursor:first-child {
-    margin-left: 0px;
-}
-
 /* Next & previous buttons */
 .prev,
 .next {
