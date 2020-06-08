@@ -44,12 +44,12 @@
 	<isVerticalContent_b>false</isVerticalContent_b>
 	<file-name>93c22144-427d-d0e1-c920-ffcdb006e591.xml</file-name>
 	<internal-name>Giới thiệu</internal-name>
-	<title_s>Giới thiệu</title_s>
+	<title_s>Introduction</title_s>
 	<image_s>/static-assets/images/featured/content_img_1.png</image_s>
 	<createdDate>2020-06-08T02:30:32.590Z</createdDate>
 	<createdDate_dt>2020-06-08T02:30:32.590Z</createdDate_dt>
-	<lastModifiedDate>2020-06-08T02:33:03.244Z</lastModifiedDate>
-	<lastModifiedDate_dt>2020-06-08T02:33:03.244Z</lastModifiedDate_dt>
+	<lastModifiedDate>2020-06-08T03:33:43.200Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-06-08T03:33:43.200Z</lastModifiedDate_dt>
 </component>
 	</item>	<item datasource="sections" inline="true">	<key>a09d142e-d527-f678-4373-9b6fc6ee2e43</key>
 	<value>Capability</value>
@@ -82,6 +82,6 @@
 	<folder-name>index</folder-name>
 	<createdDate>2020-06-05T03:53:24.856Z</createdDate>
 	<createdDate_dt>2020-06-05T03:53:24.856Z</createdDate_dt>
-	<lastModifiedDate>2020-06-08T02:33:55.220Z</lastModifiedDate>
-	<lastModifiedDate_dt>2020-06-08T02:33:55.220Z</lastModifiedDate_dt>
+	<lastModifiedDate>2020-06-08T03:33:39.634Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-06-08T03:33:39.634Z</lastModifiedDate_dt>
 </page>
