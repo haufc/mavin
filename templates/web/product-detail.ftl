@@ -316,8 +316,8 @@ img {
                             <img src="${myItem.productimage_s}" alt="${myItem.productimagename_s}" style="width:100%">
                         </div>
                     </#list>
-                  <a class="prev" onclick="plusSlides(-1)">❮</a>
-                  <a class="next" onclick="plusSlides(1)">❯</a>
+                  <#--<a class="prev" onclick="plusSlides(-1)">❮</a>
+                  <a class="next" onclick="plusSlides(1)">❯</a> -->
                 
                   <div class="container" style="margin-top: 5px;">
                     <div class="row">
