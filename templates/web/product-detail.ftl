@@ -112,6 +112,12 @@ img {
     margin: 0px 1.33%;
 }
 
+.column:first-child {
+    margin-left: 0px;
+}
+.column.last-child {
+    margin-right: 0px;
+}
 /* Add a transparency effect for thumnbail images */
 .demo {
   opacity: 0.6;
