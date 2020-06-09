@@ -62,6 +62,10 @@ $(document).ready(function() {
         $('.content').css('background', 'white');
     }
     
+    if(url.href.indexOf('product') > -1) {
+        $('.content').css('background', 'white');
+    }
+    
     if (url.href.indexOf(lstPageURL[0]) > -1) {
         $('#nav-content a').filter(function() {
             return this.href == getContextPath()+"/nang-luc-kinh-nghiem";
