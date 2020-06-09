@@ -354,7 +354,7 @@ img {
         <div class="container">
             <div class="row">
               <div class="col-lg-6 col-md-6 col-sm-12">
-                <h4 style="background-color: #00559a;margin: 12% 0; padding:10px; vertical-align: middle; line-height: normal;" class="text--uppercase text-white text--center">sản phẩm tương tự</h4>
+                <h4 style="background-color: #00559a;margin: 12% 0; padding:10px; vertical-align: middle; line-height: normal;" class="text--uppercase text-white text--center product-related">sản phẩm tương tự</h4>
               </div>
               <div class="col-lg-6 col-md-6 col-sm-12">
                      <div class="container">
@@ -503,6 +503,7 @@ img {
     	// set content change when language changed
     	if (url.indexOf('/en') > -1) {
     	    $('.product-name-vn').css('display', 'none');
+    	    $('.product-related').text('Similar product');
     	} else {
     	     $('.product-name-en').css('display', 'none');
     	}
