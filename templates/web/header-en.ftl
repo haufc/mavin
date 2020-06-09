@@ -17,12 +17,12 @@
               </div>
             </div>
             <div class="dropdown">
-            <a class="mavinex-nav__link" href="/san-pham">Product</a>
+            <a class="mavinex-nav__link" href="/en/product">Product</a>
                 <div class="dropdown-content">
-                <a class="mavinex-nav__link" href="/group-product/thiet-bi-chuong-trai">Thiết bị chuồng trại</a>
-                <a class="mavinex-nav__link" href="/group-product/may-ap-no-trung">Máy ấp nở trứng</a>
-                <a class="mavinex-nav__link" href="/group-product/thiet-bi-thuy-san">Thiết bị thuỷ sản</a>
-                <a class="mavinex-nav__link" href="/group-product/thiet-bi-thuc-an-chan-nuoi">Thiết bị nhà máy thức ăn chăn nuôi</a>
+                <a class="mavinex-nav__link" href="/en/group-product/farm-equipment">Farm equipment</a>
+                <a class="mavinex-nav__link" href="/en/group-product/egg-hatching-machine ">Egg hatching machine </a>
+                <a class="mavinex-nav__link" href="/en/group-product/aquaculture-equipment">Aquaculture equipment</a>
+                <a class="mavinex-nav__link" href="/en/group-product/animal-feed-processing">Animal feed processing</a>
                 </div>
             </div>
             <a class="mavinex-nav__link" href="/tin-tuc">News</a>
