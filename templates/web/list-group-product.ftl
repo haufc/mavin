@@ -18,7 +18,7 @@
                             </div>
                     	<#else>
                     	    <div class="card-body text-white" style="background-color: #00559A;">
-                                <a style="display:none" class="text-white" href="${element.urlpage_s}"><h4 class="card-text text--uppercase" id="product-title-vie">${element.title_s}</h4></a>
+                                <a  class="text-white" href="${element.urlpage_s}"><h4 class="card-text text--uppercase" id="product-title-vie">${element.title_s}</h4></a>
                             </div>
                      </#if>
                     </div>
