@@ -5,7 +5,8 @@
                 <div class="card" style="width: 100%; border: none; border-radius: unset;">
                   <img class="card-img-top" src="${contentModel.productchildavatar_s}" alt="Card image cap">
                   <div class="card-body text-white" style="background-color: #CE181F;position: absolute;top: 78%;; width: 100%;">
-                    <p class="card-text text--uppercase" style="font-weight: bold;">${contentModel.productchildtitle_s}</p>
+                    <p class="card-text text--uppercase" id="product-child-vn" style="font-weight: bold;">${contentModel.productchildtitle_s}</p>
+                    <p class="card-text text--uppercase" id="product-child-en" style="font-weight: bold;">${contentModel.productchildtitleEnglish_s}</p>
                   </div>
                 </div>
             </div>
@@ -17,7 +18,7 @@
                     </#list>
                 </#if>
                 <br>
-                <a class="mt-3 rounded-0 text-white" style="text-direction: none;" href="/gioi-thieu"> 
+                <a class="mt-3 rounded-0 text-white" style="text-direction: none;" href="/#"> 
                     <span class="mr-1">Xem tiếp</span>
                     <i class="fas fa-play text--red"></i>
                 </a>
