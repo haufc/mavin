@@ -47,8 +47,6 @@
     
     <script>
         $(document).ready(function(){
-           $('.product-title-en').css('display','block !important');
-           $('.product-title-vie').css('display','none !important');
           $(".page-link").click(function(){
            // --- limit desc search --
         var lent = $(".limit-text-250");
