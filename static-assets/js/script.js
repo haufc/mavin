@@ -62,7 +62,7 @@ $(document).ready(function() {
         $('.content').css('background', 'white');
     }
     
-    if(url.href.indexOf('product') > -1) {
+    if(url.href == getContextPath()+'/en/product') {
         $('.content').css('background', 'white');
     }
     
