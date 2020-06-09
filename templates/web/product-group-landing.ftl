@@ -63,6 +63,9 @@
             if (url.indexof('/en') > -1) {
                 $('.tittle-vn').css('display', 'none');
                 $('.title-en').css('display', 'block');
+            } else {
+                $('.tittle-vn').css('display', 'block');
+                $('.title-en').css('display', 'none');
             }
         });
     </script>
