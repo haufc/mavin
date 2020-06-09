@@ -23,11 +23,12 @@
 	</item></productGroup_o>
 	<createdDate>2020-05-23T03:44:10.536Z</createdDate>
 	<createdDate_dt>2020-05-23T03:44:10.536Z</createdDate_dt>
-	<lastModifiedDate>2020-05-25T03:18:41.457Z</lastModifiedDate>
-	<lastModifiedDate_dt>2020-05-25T03:18:41.457Z</lastModifiedDate_dt>
+	<lastModifiedDate>2020-06-09T07:42:11.234Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-06-09T07:42:11.234Z</lastModifiedDate_dt>
 	<section_o item-list="true">	<item datasource="productchildcomponent">	<key>/site/items/cddedfc6-693a-7a4f-f503-61b016911f9b.xml</key>
 	<value>Thiết bị nhà máy TACN</value>
 	<include>/site/items/cddedfc6-693a-7a4f-f503-61b016911f9b.xml</include>
 	<disableFlattening>false</disableFlattening>
 	</item></section_o>
+	<productGrouptitleEnglish_s>Animal feed processing</productGrouptitleEnglish_s>
 </page>
