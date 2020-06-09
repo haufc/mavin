@@ -344,8 +344,8 @@ img {
                       </p>
                   </div>
                   <div class="d-flex mb-custom">
-                    <label class="btn-desc" style="width: 49%; margin-right: 2%;">${contentModel.phonenumber_s}</label>
-                    <a class="btn-desc report-price" href="#" style="width: 49%;">Yêu cầu báo giá</a>
+                    <button class="btn-desc" style="width: 49%; margin-right: 2%;">${contentModel.phonenumber_s}</button>
+                    <button class="btn-desc report-price" href="#" style="width: 49%;">Yêu cầu báo giá</button>
                   </div>
                 </div>
             </div>
