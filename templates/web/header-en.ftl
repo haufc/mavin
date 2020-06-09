@@ -12,8 +12,8 @@
               <div class="dropdown-content">
                 <a class="mavinex-nav__link" href="/en/introducts/introduction">Introduction</a>
                 <a class="mavinex-nav__link" href="/en/introducts/history">History</a>
-                <a class="mavinex-nav__link" href="/introducts/linh-vuc-hoat-dong">Activities</a>
-                <a class="mavinex-nav__link" href="/introducts/doi-tac-chien-luoc">Partners</a>
+                <a class="mavinex-nav__link" href="/en/scope-of-activities">Scope of activities</a>
+                <a class="mavinex-nav__link" href="/introducts/doi-tac-chien-luoc">Partnership</a>
               </div>
             </div>
             <div class="dropdown">
