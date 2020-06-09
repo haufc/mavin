@@ -60,7 +60,7 @@
     <script>
         $(document).ready(function(){
             var url = window.location.href;
-            if (url.indexof('/en') > -1) {
+            if (url.indexOf('/en') > -1) {
                 $('.tittle-vn').css('display', 'none');
                 $('.title-en').css('display', 'block');
             } else {
