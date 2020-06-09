@@ -504,7 +504,7 @@ img {
     	if (url.indexOf('/en') > -1) {
     	    $('.product-name-vn').css('display', 'none');
     	    $('.product-related').text('Similar product');
-    	    $('.report-price').text('request a quote');
+    	    $('.report-price').text('Request a quote');
     	} else {
     	     $('.product-name-en').css('display', 'none');
     	}
