@@ -64,15 +64,15 @@
             if (url.indexOf('/en') > -1) {
                 $('.tittle-vn').css('display', 'none');
                 $('.title-en').css('display', 'block');
-                $('#product-child-vn').css('display', 'none');
-                $('#product-child-en').css('display', 'block');
+                $('.product-child-vn').css('display', 'none');
+                $('.product-child-en').css('display', 'block');
                 
                 $('title').text( $('.title-en').text());
             } else {
                 $('.tittle-vn').css('display', 'block');
                 $('.title-en').css('display', 'none');
-                $('#product-child-vn').css('display', 'block');
-                $('#product-child-en').css('display', 'none');
+                $('.product-child-vn').css('display', 'block');
+                $('.product-child-en').css('display', 'none');
                 $('title').text( $('.title-vn').text())
             }
         });
