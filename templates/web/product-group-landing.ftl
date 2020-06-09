@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="/static-assets/plugins/bootstrap-select1139/dist/css/bootstrap-select.min.css"/>
     <link rel="stylesheet" href="/static-assets/css/styles.css"/>
     <link rel="stylesheet" href="/static-assets/css/mavinex.css"/>
-    <title>${contentModel.product_title_s}</title>
+    <title></title>
   </head>
   <body>
     <button onclick="topFunction()" id="btn-up-top" ><i class="fa fa-angle-up"></i></button>
@@ -59,13 +59,16 @@
     <script src="/static-assets/js/script.js"></script>
     <script>
         $(document).ready(function(){
+            var title= $('')
             var url = window.location.href;
             if (url.indexOf('/en') > -1) {
                 $('.tittle-vn').css('display', 'none');
                 $('.title-en').css('display', 'block');
+                $('title').text( $('.title-en').text());
             } else {
                 $('.tittle-vn').css('display', 'block');
                 $('.title-en').css('display', 'none');
+                $('title').text( $('.title-vn').text())
             }
         });
     </script>
