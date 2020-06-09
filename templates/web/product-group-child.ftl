@@ -5,8 +5,8 @@
                 <div class="card" style="width: 100%; border: none; border-radius: unset;">
                   <img class="card-img-top" src="${contentModel.productchildavatar_s}" alt="Card image cap">
                   <div class="card-body text-white" style="background-color: #CE181F;position: absolute;top: 78%;; width: 100%;">
-                    <p class="card-text text--uppercase" id="product-child-vn" style="font-weight: bold;">${contentModel.productchildtitle_s}</p>
-                    <p class="card-text text--uppercase" id="product-child-en" style="font-weight: bold;">${contentModel.productchildtitleEnglish_s}</p>
+                    <p class="card-text text--uppercase product-child-vn" style="font-weight: bold;">${contentModel.productchildtitle_s}</p>
+                    <p class="card-text text--uppercase product-child-en" style="font-weight: bold;">${contentModel.productchildtitleEnglish_s}</p>
                   </div>
                 </div>
             </div>
