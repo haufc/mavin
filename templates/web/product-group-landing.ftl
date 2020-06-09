@@ -22,7 +22,8 @@
         <@renderComponent component=contentModel.slide_o.item />
          <div class="recruitment ">
         <div class="content__title text--center ">
-            <h1 class="text--uppercase text--red text-left container">${contentModel.product_title_s}</h1>
+            <h1 class="text--uppercase text--red text-left container tittle-vn">${contentModel.product_title_s}</h1>
+            <h1 class="text--uppercase text--red text-left container title-en">${contentModel.productGrouptitleEnglish_s}</h1>
         </div>
         <div class="container p-3">         
             <div class="row">
@@ -56,6 +57,15 @@
     <script src="/static-assets/js/handlebars.min-latest.js"></script>
     <script src="/static-assets/js/jquery.twbsPagination.min.js"></script>
     <script src="/static-assets/js/script.js"></script>
+    <script>
+        $(document).ready(function(){
+            var url = window.location.href;
+            if (url.indexof('/en') > -1) {
+                $('.tittle-vn').css('display', 'none');
+                $('.title-en').css('display', 'block');
+            }
+        });
+    </script>
   </body>
 </html>
 <@studio.toolSupport />
