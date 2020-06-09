@@ -3,8 +3,8 @@
         <div class="container">
             <div>
               <h1 class="text--uppercase text--red" id="title-vie">${contentModel.title_s}</h1>
-              <#if (contentModel.titleEnglish_s)??>
-                <h1 class="text--uppercase text--red" id="title-en" style="display:none;">${contentModel.titleEnglish_s}</h1>
+              <#if (contentModel.titleEN_s)??>
+                <h1 class="text--uppercase text--red" id="title-en" style="display:none;">${contentModel.titleEN_s}</h1>
               </#if>
             </div>
         </div>
