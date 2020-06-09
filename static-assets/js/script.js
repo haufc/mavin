@@ -23,13 +23,13 @@ $(document).ready(function() {
       $(button[0]).find('i').addClass('flag-icon-us');
       $(button[0]).find('span').text('EN');
       
-      $('#product-title-en').css('display','block');
-      $('#product-title-vie').css('display','none');
+      $('#product-title-en').css('display','block !important');
+      $('#product-title-vie').css('display','none !important');
       
       
     } else {
-        $('#product-title-en').css('display','none');
-        $('#product-title-vie').css('display','block');
+        $('#product-title-en').css('display','none !important');
+        $('#product-title-vie').css('display','block !important');
     }
     
     
