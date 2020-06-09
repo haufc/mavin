@@ -36,10 +36,10 @@
     </div>
     <@renderComponent component=contentModel.memberlist_o.item />
     <@renderComponent component=contentModel.footer_o.item />
-    <input  value="${contentModel.productGroup_o.item.key}" id="txt-key"/>
+    <input hidden value="${contentModel.productGroup_o.item.key}" id="txt-key"/>
     <div class="lst-parent">
         <#list groupProduct.items as cate>
-            <input  value="${cate.value}/${cate.label}"/>
+            <input hidden value="${cate.value}/${cate.label}"/>
         </#list>
     </div>
     <script src="/static-assets/plugins/jquery341/jquery(3.4.1.).js"></script>
