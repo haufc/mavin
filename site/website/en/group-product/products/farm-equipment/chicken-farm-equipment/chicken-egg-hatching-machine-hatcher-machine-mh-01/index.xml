@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page>
+	<content-type>/page/productdetail</content-type>
+	<display-template>/templates/web/product-detail.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>1a14</objectGroupId>
+	<objectId>1a14f93f-e20b-c1a3-2270-4863329bdd20</objectId>
+	<placeInNav>false</placeInNav>
+	<orderDefault_f>-1</orderDefault_f>
+	<slide_o item-list="true">	<item datasource="slideheader">	<key>/site/items/slides/d0a08899-63db-033a-900d-525a0e2770f9.xml</key>
+	<value>Home slide</value>
+	<include>/site/items/slides/d0a08899-63db-033a-900d-525a0e2770f9.xml</include>
+	<disableFlattening>false</disableFlattening>
+	</item></slide_o>
+	<productgroup_o>	<item>	<key>thiet-bi-chan-nuoi</key>
+	<value_smv>Thiết bị chăn nuôi-Livestock equipment</value_smv>
+	</item></productgroup_o>
+	<productchildgroup_o>	<item>	<key>may-ap-no-trung-ga</key>
+	<value_smv>Máy ấp nở trứng gà</value_smv>
+	</item></productchildgroup_o>
+	<productAvatar_s>/static-assets/images/products/Layer 200.png</productAvatar_s>
+	<file-name>index.xml</file-name>
+	<folder-name>chicken-egg-hatching-machine-hatcher-machine-mh-01</folder-name>
+	<internal-name>Chicken egg hatching machine Hatcher Machine MH-01</internal-name>
+	<navLabel>Chicken egg hatching machine Hatcher Machine MH-01</navLabel>
+	<productname_s>Máy nở trứng gà Hatcher Machine MH-01</productname_s>
+	<productnameEnglish_s>Chicken egg hatching machine Hatcher Machine MH-01</productnameEnglish_s>
+	<phonenumber_s>0221 3 921 921</phonenumber_s>
+	<productdescription_html>&lt;p&gt;&lt;img src="/static-assets/images/Layer 200.png" alt="" width="357" height="442" /&gt;&lt;/p&gt;</productdescription_html>
+	<productdescriptionEnglish_html>&lt;p&gt;&lt;img src="/static-assets/images/Layer 200.png" alt="" width="357" height="442" /&gt;&lt;/p&gt;</productdescriptionEnglish_html>
+	<productimage_o item-list="true">	<item>	<productimage_s>/static-assets/images/products/Layer 198.png</productimage_s>
+	<productimagename_s>Máy ấp trứng gà</productimagename_s>
+	</item>	<item>	<productimage_s>/static-assets/images/products/Layer 198.png</productimage_s>
+	<productimagename_s>Máy ấp trứng gà</productimagename_s>
+	</item>	<item>	<productimage_s>/static-assets/images/products/Layer 198.png</productimage_s>
+	<productimagename_s>Máy ấp trứng gà</productimagename_s>
+	</item>	<item>	<productimage_s>/static-assets/images/products/product-group-2.png</productimage_s>
+	<productimagename_s>Máy ấp trứng gà</productimagename_s>
+	</item></productimage_o>
+	<createdDate>2020-06-09T13:05:17.419Z</createdDate>
+	<createdDate_dt>2020-06-09T13:05:17.419Z</createdDate_dt>
+	<lastModifiedDate>2020-06-09T13:05:17.419Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-06-09T13:05:17.419Z</lastModifiedDate_dt>
+</page>
