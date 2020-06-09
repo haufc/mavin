@@ -492,13 +492,20 @@ img {
     	});	
     	
     	var key = $('#txt-key').val();
+    	var url = window.location.href;
     	var lstKey = $('.lst-parent').find('input');
     	
     	for( let i = 0 ; i< lstKey.length; i++) {
     	    let str = $(lstKey[i]).val();
     	    let splitArr = str.split('/');
     	    if (splitArr[0] == key) {
-    	        $('#product-group').text(splitArr[1]);
+    	        let productGroupNames = splitArr[1].split('-');
+    	        if (url.indexOf('/en') > -1) {
+    	             $('#product-group').text(productGroupNames[1]);
+    	        } else {
+    	            $('#product-group').text(productGroupNames[0]);
+    	        }
+    	       
     	    }
     	}
     	console.log(lstKey);
