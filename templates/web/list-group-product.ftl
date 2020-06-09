@@ -2,10 +2,7 @@
     <div class="content__title">
         <div class="container">
             <div>
-              <h1 class="text--uppercase text--red" id="title-vie">${contentModel.title_s}</h1>
-              <#if (contentModel.titleEN_s)??>
-                <h1 class="text--uppercase text--red" id="title-en" style="display:none;">${contentModel.titleEN_s}</h1>
-              </#if>
+              <h1 class="text--uppercase text--red">${contentModel.title_s}</h1>
             </div>
         </div>
       </div>
@@ -17,12 +14,13 @@
                       <a href="${element.urlpage_s}"><img class="card-img-top" src="${element.avatar_s}" height="350px" alt="Card image cap"></a>
                       <#if element.colortext_s == '1'>
                         	<div class="card-body text-white" style="background-color: #CE181F;">
-
-                                 <a class="text-white" href="${element.urlpage_s}"><h4 class="card-text text--uppercase">${element.title_s}</h4></a>
+                                 <a style="" class="text-white" href="${element.urlpage_s}"><h4 class="card-text text--uppercase" id="title-vie">${element.title_s}</h4></a>
+                                 <a style="" class="text-white" href="${element.urlpage_s}"><h4 class="card-text text--uppercase" id="title-en">${element.titleEN_s}</h4></a>
                             </div>
                     	<#else>
                     	    <div class="card-body text-white" style="background-color: #00559A;">
-                                <a class="text-white" href="${element.urlpage_s}"><h4 class="card-text text--uppercase">${element.title_s}</h4></a>
+                                <a style="" class="text-white" href="${element.urlpage_s}"><h4 class="card-text text--uppercase" id="title-vie">${element.title_s}</h4></a>
+                                <a style=="" class="text-white" href="${element.urlpage_s}"><h4 class="card-text text--uppercase" id="title-en">${element.titleEN_s}</h4></a>
                             </div>
                      </#if>
                     </div>
