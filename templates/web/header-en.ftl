@@ -2,7 +2,7 @@
 <!-- navigation bar -->
 <div class="mavinex-nav" <@studio.iceAttr component=contentModel/>>
     <div class="mavinex-nav__container container">
-        <a class="mavinex-nav__logo navbar-brand" href="/trang-chu">
+        <a class="mavinex-nav__logo navbar-brand" href="/en/index">
             <img class="header--logo" src="${contentModel.logo_s}" alt="Logo">
         </a>
 
