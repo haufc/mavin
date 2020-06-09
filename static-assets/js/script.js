@@ -22,14 +22,6 @@ $(document).ready(function() {
       $(button[0]).find('i').removeClass('flag-icon-vn');
       $(button[0]).find('i').addClass('flag-icon-us');
       $(button[0]).find('span').text('EN');
-      
-      $('.product-title-en').css('display','block !important');
-      $('.product-title-vie').css('display','none !important');
-      
-      
-    } else {
-        $('#product-title-en').css('display','none !important');
-        $('#product-title-vie').css('display','block !important');
     }
     
     
