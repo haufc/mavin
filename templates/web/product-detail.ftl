@@ -344,8 +344,8 @@ img {
                       </p>
                   </div>
                   <div class="d-flex mb-custom">
-                    <button class="btn-desc" style="width: 49%; margin-right: 2%;">${contentModel.phonenumber_s}</button>
-                    <button class="btn-desc" style="width: 49%;">Yêu cầu báo giá</button>
+                    <label class="btn-desc" style="width: 49%; margin-right: 2%;">${contentModel.phonenumber_s}</label>
+                    <a class="btn-desc report-price" href="#" style="width: 49%;">Yêu cầu báo giá</a>
                   </div>
                 </div>
             </div>
@@ -504,6 +504,7 @@ img {
     	if (url.indexOf('/en') > -1) {
     	    $('.product-name-vn').css('display', 'none');
     	    $('.product-related').text('Similar product');
+    	    $('.report-price').text('request a quote');
     	} else {
     	     $('.product-name-en').css('display', 'none');
     	}
