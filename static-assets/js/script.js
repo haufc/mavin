@@ -25,6 +25,9 @@ $(document).ready(function() {
       
        $('.product-title-en').css('display','block');
        $('.product-title-vie').css('display','none');
+    } else {
+        $('.product-title-en').css('display','none');
+        $('.product-title-vie').css('display','block');
     }
     
     
