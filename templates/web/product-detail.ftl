@@ -330,9 +330,14 @@ img {
                   </div>
                 </div>
                 <div class="col-sm-12 col-md-6 col-lg-6">
-                   <h4 style="background-color: #CE181F; padding:10px;" class="text--uppercase text-white">
+                   <h4 style="background-color: #CE181F; padding:10px;" class="text--uppercase text-white product-name-vn">
                         ${contentModel.productname_s}
                   </h4>
+                  
+                  <h4 style="background-color: #CE181F; padding:10px;" class="text--uppercase text-white product-name-en">
+                        ${contentModel.productnameEnglish_s}
+                  </h4>
+                  
                   <div style="color: #00559A; padding:10px;">
                      <p>
                         ${contentModel.productdescription_html}
@@ -494,6 +499,13 @@ img {
     	var key = $('#txt-key').val();
     	var url = window.location.href;
     	var lstKey = $('.lst-parent').find('input');
+    	
+    	// set content change when language changed
+    	if (url.indexOf('/en') > -1) {
+    	    $('.product-name-vn').css('display', 'none');
+    	} else {
+    	     $('.product-name-en').css('display', 'none');
+    	}
     	
     	for( let i = 0 ; i< lstKey.length; i++) {
     	    let str = $(lstKey[i]).val();
