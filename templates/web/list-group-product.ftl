@@ -14,11 +14,13 @@
                       <a href="${element.urlpage_s}"><img class="card-img-top" src="${element.avatar_s}" height="350px" alt="Card image cap"></a>
                       <#if element.colortext_s == '1'>
                         	<div class="card-body text-white" style="background-color: #CE181F;">
-                                 <a class="text-white" href="${element.urlpage_s}"><h4 class="card-text text--uppercase" id="product-title-vie">${element.title_s}</h4></a>
+                                 <a class="text-white product-title-vie" href="${element.urlpage_s}"><h4 class="card-text text--uppercase">${element.title_s}</h4></a>
+                                 <a class="text-white product-title-en" href="${element.urlpage_s}"><h4 class="card-text text--uppercase" id="product-title-vie">${element.titleEN_s}</h4></a>
                             </div>
                     	<#else>
                     	    <div class="card-body text-white" style="background-color: #00559A;">
-                                <a  class="text-white" href="${element.urlpage_s}"><h4 class="card-text text--uppercase" id="product-title-vie">${element.title_s}</h4></a>
+                                <a  class="text-white product-title-vie" href="${element.urlpage_s}"><h4 class="card-text text--uppercase">${element.title_s}</h4></a>
+                                <a class="text-white product-title-en" href="${element.urlpage_s}"><h4 class="card-text text--uppercase">${element.titleEN_s}</h4></a>
                             </div>
                      </#if>
                     </div>
