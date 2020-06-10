@@ -12,8 +12,8 @@
 	<backgroundImage_s>/static-assets/images/featured/footer_bg.png</backgroundImage_s>
 	<createdDate>2020-03-25T10:27:58.433Z</createdDate>
 	<createdDate_dt>2020-03-25T10:27:58.433Z</createdDate_dt>
-	<lastModifiedDate>2020-06-04T03:57:13.851Z</lastModifiedDate>
-	<lastModifiedDate_dt>2020-06-04T03:57:13.851Z</lastModifiedDate_dt>
+	<lastModifiedDate>2020-06-10T08:37:28.966Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-06-10T08:37:28.966Z</lastModifiedDate_dt>
 	<socialMedia_o item-list="true">	<item>	<url_s>https://www.facebook.com/</url_s>
 	<icon_s>fa-facebook-f</icon_s>
 	</item>	<item>	<icon_s>fa-youtube</icon_s>
@@ -23,4 +23,5 @@
 	<companysAddress_s>Thôn Lôi Cầu, xã Việt Hòa, huyện Khoái Châu, tỉnh Hưng Yên</companysAddress_s>
 	<phonenumber_s>0221 3 921 921</phonenumber_s>
 	<tax_s>0901009304</tax_s>
+	<issuedby_s>Sở Kế hoạch và Đầu tư tỉnh Hưng Yên.</issuedby_s>
 </component>
