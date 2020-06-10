@@ -511,7 +511,6 @@ img {
     	    $('.product-related').text('Similar product');
     	    $('.report-price').text('Request a quote');
     	    $('.product-desc-vn').css('display', 'none');
-    	    $('title').text($('.'product-name-en'').text());
     	} else {
     	     $('.product-name-en').css('display', 'none');
     	     $('.product-desc-en').css('display', 'none');
