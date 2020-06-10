@@ -339,13 +339,13 @@ img {
                   </h4>
                   
                   <div style="color: #00559A; padding:10px;">
-                     <p class="product-desc-vn">
+                     <div class="product-desc-vn">
                         ${contentModel.productdescription_html}
-                      </p>
+                      </div>
                       <#if (contentModel.productdescriptionEnglish_html)??>
-                        <p class="product-desc-en">
+                        <div class="product-desc-en">
                          ${contentModel.productdescriptionEnglish_html}
-                       </p>
+                       </div>
                       </#if>
                   </div>
                   <div class="d-flex mb-custom">
