@@ -6,10 +6,8 @@ def searchHelper = new GroupProductSearchHelper(elasticsearch, urlTransformation
 def products = searchHelper.searchProducts(productGroup, 0,6)
 def productVN = products.findAll { it.url.indexOf('/en') < 0 }
 def productEN = products.findAll { it.url.indexOf('/en') > -1}
-print "Product English: ============> "
-print productEN
 
-print "Product Viet Nam: ============> "
-print productVN
 
 templateModel.products = products
+templateModel.productVNs = productVN
+templateModel.productENs = productEN
