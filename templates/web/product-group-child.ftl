@@ -30,7 +30,7 @@
                 
                 <br>
                 <a class="mt-3 rounded-0 text-white" style="text-direction: none;" href="/#"> 
-                    <span class="mr-1">Xem tiếp</span>
+                    <span class="mr-1 btn-view-more">Xem tiếp</span>
                     <i class="fas fa-play text--red"></i>
                 </a>
             </div>
