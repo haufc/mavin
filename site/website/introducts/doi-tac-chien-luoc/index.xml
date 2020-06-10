@@ -21,8 +21,8 @@
 	<contents_html/>
 	<createdDate>2020-04-17T03:58:23.091Z</createdDate>
 	<createdDate_dt>2020-04-17T03:58:23.091Z</createdDate_dt>
-	<lastModifiedDate>2020-06-10T08:20:48.605Z</lastModifiedDate>
-	<lastModifiedDate_dt>2020-06-10T08:20:48.605Z</lastModifiedDate_dt>
+	<lastModifiedDate>2020-06-10T08:24:55.491Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-06-10T08:24:55.491Z</lastModifiedDate_dt>
 	<section_o item-list="true">	<item datasource="sectionDataSource" inline="true">	<key>c3f79ceb-85de-15fe-5ade-23ae1d8b286d</key>
 	<value>Danh sách đối tác chiến lược</value>
 <component id="c3f79ceb-85de-15fe-5ade-23ae1d8b286d">
@@ -52,11 +52,13 @@
 	<partnerimagealt_s>famsum</partnerimagealt_s>
 	</item>	<item>	<partnerimage_s>/static-assets/images/partnerships/Layer 212.png</partnerimage_s>
 	<partnerimagealt_s>extrucsion group</partnerimagealt_s>
+	</item>	<item>	<partnerimage_s>/static-assets/images/partnerships/Logo Giordano.png</partnerimage_s>
+	<partnerimagealt_s>Giordano</partnerimagealt_s>
 	</item></logo_o>
 	<createdDate>2020-06-04T08:38:46.227Z</createdDate>
 	<createdDate_dt>2020-06-04T08:38:46.227Z</createdDate_dt>
-	<lastModifiedDate>2020-06-10T08:20:54.445Z</lastModifiedDate>
-	<lastModifiedDate_dt>2020-06-10T08:20:54.445Z</lastModifiedDate_dt>
+	<lastModifiedDate>2020-06-10T08:26:35.822Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-06-10T08:26:35.822Z</lastModifiedDate_dt>
 </component>
 	</item></section_o>
 </page>
