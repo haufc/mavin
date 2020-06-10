@@ -424,7 +424,13 @@ img {
                                             </#list>
                                             </#if>
                     					</div>
+                    					<a class="carousel-control right carousel-control-next" style="right: -7%;top: 25%;" href="#myCarousel" data-slide="next">
+                            				<i class="fa fa-play"></i>
+                            			</a>
                     				</div>
+                        				<a class="carousel-control right carousel-control-next" style="right: -7%;top: 25%;" href="#myCarousel" data-slide="next">
+                            				<i class="fa fa-play"></i>
+                            			</a>
                     			</div>
                     			<!-- Carousel controls -->
                     			</div>
@@ -487,6 +493,9 @@ img {
                                             </#list>
                                             </#if>
                     					</div>
+                    					<a class="carousel-control right carousel-control-next" style="right: -7%;top: 25%;" href="#myCarousel" data-slide="next">
+                            				<i class="fa fa-play"></i>
+                            			</a>
                     				</div>
                     			<a class="carousel-control right carousel-control-next" style="right: -7%;top: 25%;" href="#myCarousel" data-slide="next">
                     				<i class="fa fa-play"></i>
