@@ -67,10 +67,11 @@
         var url = window.location.href;
         
         if (url.indexOf('/en') > -1) {
-            $('.footer-phone').text('Phone number: ');
+            $('.footer-phone').text('Phone: ');
             $('.footer-tax').text('Tax: ');
             $('.footer-experied-date').text('Date of license: ');
-            $('.footer-item__social--title').text('Contact us')
+            $('.footer-item__social--title').text('Contact us');
+            $('.headquarter').text('Headquarter: ')
         }
     </script>
 
