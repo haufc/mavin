@@ -11,8 +11,8 @@
                     <p> <span class="footer-phone">Điện thoại:</span> ${contentModel.phonenumber_s}</p>
                   </div>
                   <div class="footer__contact-info">
-                    <p><span class="footer-tax">Mã số thuế: </span>${contentModel.tax_s}  <span class="footer-experied-date">Ngày cấp:</span> 3/4/2017</p></br>
-                    <p>Nơi cấp: Sở Kế hoạch và Đầu tư tỉnh Hưng Yên.</p>
+                    <p><span class="footer-tax">Mã số thuế: </span>${contentModel.tax_s}  <span class="footer-issued-date">Ngày cấp:</span> 3/4/2017</p></br>
+                    <p><span class="footer-issued-by">Nơi cấp:</span> ${contentModel.issuedby_s}</p>
                   </div>
                 </div>
                 <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 footer-item__social">
