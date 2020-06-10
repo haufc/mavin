@@ -55,6 +55,7 @@ class GroupProductSearchHelper {
             documents.each {doc ->
                 def product = [:]
                     product.title = doc.productname_s
+                    product.titleEN = doc.productnameEnglish_s
                     product.summary = doc.productdescription_html
                     product.url = urlTransformationService.transform("storeUrlToRenderUrl", doc.localId)
                     product.avatar = doc.productAvatar_s
