@@ -427,7 +427,7 @@ img {
                     				</div>
                     			</div>
                     			<!-- Carousel controls -->
-                    			<div id="myCarousel" class="carousel slide product-similar-vn" data-ride="carousel" data-interval="0">
+                    			<div id="myCarousel" class="carousel slide product-similar-en" data-ride="carousel" data-interval="0">
                     			<!-- Carousel indicators -->
                     			<!-- Wrapper for carousel items -->
                     			<div class="carousel-inner">
