@@ -16,6 +16,16 @@
                     	<a class="text-white" style="font-size: 16px;" href="${product.url}">${product.title}</a>
                     	<br>
                     </#list>
+                    <p>List product EN</p>
+                    <#list productENs as productEN>
+                    	<a class="text-white" style="font-size: 16px;" href="${productEN.url}">${productEN.title}</a>
+                    	<br>
+                    </#list>
+                    <p>List product VN</p>
+                    <#list productVNs as productVN>
+                    	<a class="text-white" style="font-size: 16px;" href="${productVN.url}">${productVN.title}</a>
+                    	<br>
+                    </#list>
                 </#if>
                 <br>
                 <a class="mt-3 rounded-0 text-white" style="text-direction: none;" href="/#"> 
