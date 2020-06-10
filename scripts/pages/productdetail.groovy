@@ -10,7 +10,7 @@ def productEN = relatedProducts.findAll { it.url.indexOf('/en') > -1}
 print "===========> VN"
 print productVN.size()
 print "===========> EN"
-print .size()
+print productEN.size()
 
 def categories = new TaxonomySearchHelper("product-category-child", elasticsearch, siteItemService)
 						.getItems()
