@@ -68,6 +68,7 @@
                 $('.product-child-en').css('display', 'block');
                 $('title').text( $('.title-en').text());
                 $('.list-product-vn').css('display', 'none');
+                $('.btn-view-more').text('View more');
             } else {
                 $('.tittle-vn').css('display', 'block');
                 $('.title-en').css('display', 'none');
