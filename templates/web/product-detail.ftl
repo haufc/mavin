@@ -365,25 +365,25 @@ img {
                      <div class="container">
                     	<div class="row">
                     		<div class="col-md-12" style="padding:0px;">
-                    			<div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="0">
+                    			<div id="myCarousel" class="carousel slide product-similar-vn" data-ride="carousel" data-interval="0">
                     			<!-- Carousel indicators -->
                     			<!-- Wrapper for carousel items -->
                     			<div class="carousel-inner">
                     				<div class="item carousel-item active">
                     					<div class="row">
-                    					 <#if relatedProducts!?size gt 2 > 
+                    					 <#if propductVNs!?size gt 2 > 
                     					    <#list 0..3 as i>
                                                 <div class="col-3 col-custom-450">
                         							<div class="thumb-wrapper">
                         								<span class="wish-icon"><i class="fa fa-heart-o"></i></span>
                         								<div class="img-box">
-                        									<a href="${relatedProducts[i].url}"><img src="${relatedProducts[i].avatar}" class="img-responsive img-fluid" alt=""></a>
+                        									<a href="${propductVNs[i].url}"><img src="${propductVNs[i].avatar}" class="img-responsive img-fluid" alt=""></a>
                         								</div>
                         							</div>
                         						</div>
                                             </#list>
                                             <#else>
-                                            <#list relatedProducts as item>
+                                            <#list propductVNs as item>
                                                 <div class="col-3 col-custom-450">
                         							<div class="thumb-wrapper">
                         								<span class="wish-icon"><i class="fa fa-heart-o"></i></span>
@@ -398,21 +398,21 @@ img {
                     				</div>
                     				<div class="item carousel-item">
                     					<div class="row">
-                    					    <#if relatedProducts!?size gt 2 > 
+                    					    <#if propductVNs!?size gt 2 > 
                     						 <#list 0..3 as i>
                                                 <div class="col-3 col-custom-450">
                         							<div class="thumb-wrapper">
                         								<span class="wish-icon"><i class="fa fa-heart-o"></i></span>
                         								<div class="img-box">
-                        								    <#if (relatedProducts[i].url)??>
-                        									<a href="${relatedProducts[i].url}"><img src="${relatedProducts[i].avatar}" class="img-responsive img-fluid" alt=""></a>
+                        								    <#if (propductVNs[i].url)??>
+                        									<a href="${propductVNs[i].url}"><img src="${propductVNs[i].avatar}" class="img-responsive img-fluid" alt=""></a>
                         								    </#if>
                         								</div>
                         							</div>
                         						</div>
                                             </#list>
                                             <#else>
-                                            <#list relatedProducts as item>
+                                            <#list propductVNs as item>
                                                 <div class="col-3 col-custom-450">
                         							<div class="thumb-wrapper">
                         								<span class="wish-icon"><i class="fa fa-heart-o"></i></span>
@@ -427,6 +427,71 @@ img {
                     				</div>
                     			</div>
                     			<!-- Carousel controls -->
+                    			
+                    			<#-- Carousel EN -->
+                    			<div id="myCarousel" class="carousel slide product-similar-en" data-ride="carousel" data-interval="0">
+                    			<!-- Carousel indicators -->
+                    			<!-- Wrapper for carousel items -->
+                    			<div class="carousel-inner">
+                    				<div class="item carousel-item active">
+                    					<div class="row">
+                    					 <#if productENs!?size gt 2 > 
+                    					    <#list 0..3 as i>
+                                                <div class="col-3 col-custom-450">
+                        							<div class="thumb-wrapper">
+                        								<span class="wish-icon"><i class="fa fa-heart-o"></i></span>
+                        								<div class="img-box">
+                        									<a href="${productENs[i].url}"><img src="${productENs[i].avatar}" class="img-responsive img-fluid" alt=""></a>
+                        								</div>
+                        							</div>
+                        						</div>
+                                            </#list>
+                                            <#else>
+                                            <#list productENs as item>
+                                                <div class="col-3 col-custom-450">
+                        							<div class="thumb-wrapper">
+                        								<span class="wish-icon"><i class="fa fa-heart-o"></i></span>
+                        								<div class="img-box">
+                        									<a href="${item.url}"><img src="${item.avatar}" class="img-responsive img-fluid" alt=""></a>
+                        								</div>
+                        							</div>
+                        						</div>
+                                            </#list>
+                                            </#if>
+                    					</div>
+                    				</div>
+                    				<div class="item carousel-item">
+                    					<div class="row">
+                    					    <#if productENs!?size gt 2 > 
+                    						 <#list 0..3 as i>
+                                                <div class="col-3 col-custom-450">
+                        							<div class="thumb-wrapper">
+                        								<span class="wish-icon"><i class="fa fa-heart-o"></i></span>
+                        								<div class="img-box">
+                        								    <#if (productENs[i].url)??>
+                        									<a href="${productENs[i].url}"><img src="${productENs[i].avatar}" class="img-responsive img-fluid" alt=""></a>
+                        								    </#if>
+                        								</div>
+                        							</div>
+                        						</div>
+                                            </#list>
+                                            <#else>
+                                            <#list productENs as item>
+                                                <div class="col-3 col-custom-450">
+                        							<div class="thumb-wrapper">
+                        								<span class="wish-icon"><i class="fa fa-heart-o"></i></span>
+                        								<div class="img-box">
+                        									<a href="${item.url}"><img src="${item.avatar}" class="img-responsive img-fluid" alt=""></a>
+                        								</div>
+                        							</div>
+                        						</div>
+                                            </#list>
+                                            </#if>
+                    					</div>
+                    				</div>
+                    			</div>
+                    			<!-- Carousel controls -->
+                    			<#-- End Carousel EN -->
                     			<a class="carousel-control right carousel-control-next" style="right: -7%;top: 25%;" href="#myCarousel" data-slide="next">
                     				<i class="fa fa-play"></i>
                     			</a>
@@ -511,9 +576,11 @@ img {
     	    $('.product-related').text('Similar product');
     	    $('.report-price').text('Request a quote');
     	    $('.product-desc-vn').css('display', 'none');
+    	    $('.product-similar-vn').css('display', 'none');
     	} else {
     	     $('.product-name-en').css('display', 'none');
     	     $('.product-desc-en').css('display', 'none');
+    	      $('.product-similar-en').css('display', 'none');
     	}
     	
     	for( let i = 0 ; i< lstKey.length; i++) {
