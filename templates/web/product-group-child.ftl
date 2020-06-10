@@ -22,7 +22,7 @@
                  <#if productENs??>
                     <span class="list-product-en">
                         <#list productENs as productEN>
-                        	<a class="text-white" style="font-size: 16px;" href="${productEN.url}">${productEN.title}</a>
+                        	<a class="text-white" style="font-size: 16px;" href="${productEN.url}">${productEN.titleEN}</a>
                         	<br>
                         </#list>
                     </span>
