@@ -576,7 +576,7 @@ img {
     	} else {
     	     $('.product-name-en').css('display', 'none');
     	     $('.product-desc-en').css('display', 'none');
-    	      $('.product-similar-en').css('display', 'none');
+    	     $('.product-similar-en').css('display', 'none');
     	}
     	
     	for( let i = 0 ; i< lstKey.length; i++) {
