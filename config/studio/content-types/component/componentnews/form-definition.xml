@@ -89,7 +89,7 @@
 			</fields>
 		</section>
 		<section>
-			<title>Default Section Title 1590145222522</title>
+			<title>Default Section Title 1591775277124</title>
 			<description></description>
 			<defaultOpen>false</defaultOpen>
 			<fields>
@@ -293,6 +293,49 @@
 				</field>
 				<field>
 					<type>input</type>
+					<id>pUrl1_s</id>
+					<iceId></iceId>
+					<title>pUrl1</title>
+					<description></description>
+					<defaultValue></defaultValue>
+					<help></help>
+					<properties>
+						<property>
+							<name>size</name>
+							<value>50</value>
+							<type>int</type>
+						</property>
+						<property>
+							<name>maxlength</name>
+							<value>50</value>
+							<type>int</type>
+						</property>
+						<property>
+							<name>readonly</name>
+							<value></value>
+							<type>boolean</type>
+						</property>
+						<property>
+							<name>tokenize</name>
+							<value>false</value>
+							<type>boolean</type>
+						</property>
+					</properties>
+					<constraints>
+						<constraint>
+							<name>required</name>
+							<value><![CDATA[]]></value>
+							<type>boolean</type>
+						</constraint>
+						<constraint>
+							<name>pattern</name>
+							<value><![CDATA[]]></value>
+							<type>string</type>
+						</constraint>
+					</constraints>
+				</field>
+				<field>
+					<type>input</type>
 					<id>pTittle2_s</id>
 					<iceId></iceId>
 					<title>pTittle2</title>
@@ -422,6 +465,49 @@
 							<name>required</name>
 							<value><![CDATA[]]></value>
 							<type>boolean</type>
+						</constraint>
+					</constraints>
+				</field>
+				<field>
+					<type>input</type>
+					<id>pUrl2_s</id>
+					<iceId></iceId>
+					<title>pUrl2</title>
+					<description></description>
+					<defaultValue></defaultValue>
+					<help></help>
+					<properties>
+						<property>
+							<name>size</name>
+							<value>50</value>
+							<type>int</type>
+						</property>
+						<property>
+							<name>maxlength</name>
+							<value>50</value>
+							<type>int</type>
+						</property>
+						<property>
+							<name>readonly</name>
+							<value></value>
+							<type>boolean</type>
+						</property>
+						<property>
+							<name>tokenize</name>
+							<value>false</value>
+							<type>boolean</type>
+						</property>
+					</properties>
+					<constraints>
+						<constraint>
+							<name>required</name>
+							<value><![CDATA[]]></value>
+							<type>boolean</type>
+						</constraint>
+						<constraint>
+							<name>pattern</name>
+							<value><![CDATA[]]></value>
+							<type>string</type>
 						</constraint>
 					</constraints>
 				</field>
@@ -561,6 +647,49 @@
 				</field>
 				<field>
 					<type>input</type>
+					<id>pUrl3_s</id>
+					<iceId></iceId>
+					<title>pUrl3</title>
+					<description></description>
+					<defaultValue></defaultValue>
+					<help></help>
+					<properties>
+						<property>
+							<name>size</name>
+							<value>50</value>
+							<type>int</type>
+						</property>
+						<property>
+							<name>maxlength</name>
+							<value>50</value>
+							<type>int</type>
+						</property>
+						<property>
+							<name>readonly</name>
+							<value></value>
+							<type>boolean</type>
+						</property>
+						<property>
+							<name>tokenize</name>
+							<value>false</value>
+							<type>boolean</type>
+						</property>
+					</properties>
+					<constraints>
+						<constraint>
+							<name>required</name>
+							<value><![CDATA[]]></value>
+							<type>boolean</type>
+						</constraint>
+						<constraint>
+							<name>pattern</name>
+							<value><![CDATA[]]></value>
+							<type>string</type>
+						</constraint>
+					</constraints>
+				</field>
+				<field>
+					<type>input</type>
 					<id>pTittle4_s</id>
 					<iceId></iceId>
 					<title>pTittle4</title>
@@ -690,6 +819,49 @@
 							<name>required</name>
 							<value><![CDATA[]]></value>
 							<type>boolean</type>
+						</constraint>
+					</constraints>
+				</field>
+				<field>
+					<type>input</type>
+					<id>pUrl4_s</id>
+					<iceId></iceId>
+					<title>pUrl4</title>
+					<description></description>
+					<defaultValue></defaultValue>
+					<help></help>
+					<properties>
+						<property>
+							<name>size</name>
+							<value>50</value>
+							<type>int</type>
+						</property>
+						<property>
+							<name>maxlength</name>
+							<value>50</value>
+							<type>int</type>
+						</property>
+						<property>
+							<name>readonly</name>
+							<value></value>
+							<type>boolean</type>
+						</property>
+						<property>
+							<name>tokenize</name>
+							<value>false</value>
+							<type>boolean</type>
+						</property>
+					</properties>
+					<constraints>
+						<constraint>
+							<name>required</name>
+							<value><![CDATA[]]></value>
+							<type>boolean</type>
+						</constraint>
+						<constraint>
+							<name>pattern</name>
+							<value><![CDATA[]]></value>
+							<type>string</type>
 						</constraint>
 					</constraints>
 				</field>
