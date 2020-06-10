@@ -427,6 +427,7 @@ img {
                     				</div>
                     			</div>
                     			<!-- Carousel controls -->
+                    			</div>
                     			<div id="myCarousel" class="carousel slide product-similar-en" data-ride="carousel" data-interval="0">
                     			<!-- Carousel indicators -->
                     			<!-- Wrapper for carousel items -->
@@ -487,7 +488,6 @@ img {
                                             </#if>
                     					</div>
                     				</div>
-                    			</div>
                     			<a class="carousel-control right carousel-control-next" style="right: -7%;top: 25%;" href="#myCarousel" data-slide="next">
                     				<i class="fa fa-play"></i>
                     			</a>
