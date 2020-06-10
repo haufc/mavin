@@ -417,7 +417,7 @@ img {
                     		</div>
                     	</div>               
                   </div>
-                  
+                  </div>
                   <#-- EN -->
                   <div class="container ">
                     	<div class="row">
