@@ -427,6 +427,67 @@ img {
                     				</div>
                     			</div>
                     			<!-- Carousel controls -->
+                    			<div id="myCarousel" class="carousel slide product-similar-vn" data-ride="carousel" data-interval="0">
+                    			<!-- Carousel indicators -->
+                    			<!-- Wrapper for carousel items -->
+                    			<div class="carousel-inner">
+                    				<div class="item carousel-item active">
+                    					<div class="row">
+                    					 <#if productENs!?size gt 2 > 
+                    					    <#list 0..3 as i>
+                                                <div class="col-3 col-custom-450">
+                        							<div class="thumb-wrapper">
+                        								<span class="wish-icon"><i class="fa fa-heart-o"></i></span>
+                        								<div class="img-box">
+                        									<a href="${productENs[i].url}"><img src="${productENs[i].avatar}" class="img-responsive img-fluid" alt=""></a>
+                        								</div>
+                        							</div>
+                        						</div>
+                                            </#list>
+                                            <#else>
+                                            <#list productENs as item>
+                                                <div class="col-3 col-custom-450">
+                        							<div class="thumb-wrapper">
+                        								<span class="wish-icon"><i class="fa fa-heart-o"></i></span>
+                        								<div class="img-box">
+                        									<a href="${item.url}"><img src="${item.avatar}" class="img-responsive img-fluid" alt=""></a>
+                        								</div>
+                        							</div>
+                        						</div>
+                                            </#list>
+                                            </#if>
+                    					</div>
+                    				</div>
+                    				<div class="item carousel-item">
+                    					<div class="row">
+                    					    <#if productENs!?size gt 2 > 
+                    						 <#list 0..3 as i>
+                                                <div class="col-3 col-custom-450">
+                        							<div class="thumb-wrapper">
+                        								<span class="wish-icon"><i class="fa fa-heart-o"></i></span>
+                        								<div class="img-box">
+                        								    <#if (productENs[i].url)??>
+                        									<a href="${productENs[i].url}"><img src="${productENs[i].avatar}" class="img-responsive img-fluid" alt=""></a>
+                        								    </#if>
+                        								</div>
+                        							</div>
+                        						</div>
+                                            </#list>
+                                            <#else>
+                                            <#list productENs as item>
+                                                <div class="col-3 col-custom-450">
+                        							<div class="thumb-wrapper">
+                        								<span class="wish-icon"><i class="fa fa-heart-o"></i></span>
+                        								<div class="img-box">
+                        									<a href="${item.url}"><img src="${item.avatar}" class="img-responsive img-fluid" alt=""></a>
+                        								</div>
+                        							</div>
+                        						</div>
+                                            </#list>
+                                            </#if>
+                    					</div>
+                    				</div>
+                    			</div>
                     			<a class="carousel-control right carousel-control-next" style="right: -7%;top: 25%;" href="#myCarousel" data-slide="next">
                     				<i class="fa fa-play"></i>
                     			</a>
