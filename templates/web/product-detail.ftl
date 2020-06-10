@@ -339,9 +339,14 @@ img {
                   </h4>
                   
                   <div style="color: #00559A; padding:10px;">
-                     <p>
+                     <p class="product-desc-vn">
                         ${contentModel.productdescription_html}
                       </p>
+                      <#if (contentModel.productdescriptionEnglish_html)??>
+                        <p class="product-desc-en">
+                         ${contentModel.productdescriptionEnglish_html}
+                       </p>
+                      </#if>
                   </div>
                   <div class="d-flex mb-custom">
                     <button class="btn-desc" style="width: 49%; margin-right: 2%;">${contentModel.phonenumber_s}</button>
@@ -505,8 +510,10 @@ img {
     	    $('.product-name-vn').css('display', 'none');
     	    $('.product-related').text('Similar product');
     	    $('.report-price').text('Request a quote');
+    	    $('.product-desc-vn').css('display', 'none');
     	} else {
     	     $('.product-name-en').css('display', 'none');
+    	     $('.product-desc-en').css('display', 'none');
     	}
     	
     	for( let i = 0 ; i< lstKey.length; i++) {
