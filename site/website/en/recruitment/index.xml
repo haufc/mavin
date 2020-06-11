@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page>
+	<content-type>/page/home</content-type>
+	<display-template>/templates/web/home.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>bf81</objectGroupId>
+	<objectId>bf811f5c-50a3-b34b-6668-ffec79b5a836</objectId>
+	<placeInNav>false</placeInNav>
+	<orderDefault_f>-1</orderDefault_f>
+	<sections_o item-list="true">	<item datasource="sections" inline="true">	<key>dd4c939a-bcd5-ff20-8f97-7af91c6f340b</key>
+	<value>Recruitment slide</value>
+<component id="dd4c939a-bcd5-ff20-8f97-7af91c6f340b">
+	<content-type>/component/slide</content-type>
+	<display-template>/templates/web/slide.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>dd4c</objectGroupId>
+	<objectId>dd4c939a-bcd5-ff20-8f97-7af91c6f340b</objectId>
+	<image_o item-list="true">	<item>	<image_s>/static-assets/images/slides/bg_4.png</image_s>
+	</item></image_o>
+	<file-name>dd4c939a-bcd5-ff20-8f97-7af91c6f340b.xml</file-name>
+	<internal-name>Recruitment slide</internal-name>
+	<createdDate>2020-06-11T03:25:10.851Z</createdDate>
+	<createdDate_dt>2020-06-11T03:25:10.851Z</createdDate_dt>
+	<lastModifiedDate>2020-06-11T03:25:10.851Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-06-11T03:25:10.851Z</lastModifiedDate_dt>
+</component>
+	</item>	<item datasource="sections" inline="true">	<key>dfe9aaff-c529-9880-ef14-e69907edf4a6</key>
+	<value>Recruitment</value>
+<component id="dfe9aaff-c529-9880-ef14-e69907edf4a6">
+	<content-type>/component/jobsen</content-type>
+	<display-template>/templates/web/jobitem.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>dfe9</objectGroupId>
+	<objectId>dfe9aaff-c529-9880-ef14-e69907edf4a6</objectId>
+	<file-name>dfe9aaff-c529-9880-ef14-e69907edf4a6.xml</file-name>
+	<internal-name>Recruitment</internal-name>
+	<title_s>Recruitment</title_s>
+	<section_o item-list="true"/>
+	<createdDate>2020-06-11T03:25:39.817Z</createdDate>
+	<createdDate_dt>2020-06-11T03:25:39.817Z</createdDate_dt>
+	<lastModifiedDate>2020-06-11T03:25:39.817Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-06-11T03:25:39.817Z</lastModifiedDate_dt>
+</component>
+	</item></sections_o>
+	<internal-name>Recruitment</internal-name>
+	<title_s>Recruitment</title_s>
+	<descripttion_t>Recruitment</descripttion_t>
+	<file-name>index.xml</file-name>
+	<folder-name>recruitment</folder-name>
+	<createdDate>2020-06-11T03:23:35.151Z</createdDate>
+	<createdDate_dt>2020-06-11T03:23:35.151Z</createdDate_dt>
+	<lastModifiedDate>2020-06-11T03:23:35.151Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-06-11T03:23:35.151Z</lastModifiedDate_dt>
+</page>
