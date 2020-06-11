@@ -1,6 +1,6 @@
 <#import "/templates/system/common/cstudio-support.ftl" as studio />
 <div class="content__title text--center">
-    <h1 class="text--red">${contentModel.title_s}</h1>
+    <div class="container" style="padding: 0;"><h1 class="text--red">${contentModel.title_s}</h1></div>
 </div>
       <div class="content__details">
         <div class="job row"  style=" padding: 15px";
