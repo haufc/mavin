@@ -12,7 +12,7 @@
             </div>
             <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 mb-5" >
                 <#if productVNs??>
-                    <div class="list-product-vn line-content">
+                    <div class="list-product-vn items">
                         <#list productVNs as productVN>
                         	<a class="text-white" style="font-size: 16px;" href="${productVN.url}">${productVN.title}</a>
                         	<br>
@@ -20,7 +20,7 @@
                     </div>
                 </#if>
                  <#if productENs??>
-                    <div class="list-product-en line-content">
+                    <div class="list-product-en items">
                         <#list productENs as productEN>
                         	<a class="text-white" style="font-size: 16px;" href="${productEN.url}">${productEN.titleEN}</a>
                         	<br>
