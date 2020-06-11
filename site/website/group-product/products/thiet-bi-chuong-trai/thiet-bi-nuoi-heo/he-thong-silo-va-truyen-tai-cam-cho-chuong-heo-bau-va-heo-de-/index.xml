@@ -16,7 +16,9 @@
 	<placeInNav>false</placeInNav>
 	<orderDefault_f>-1</orderDefault_f>
 	<productAvatar_s>/static-assets/images/products/silo-500.png</productAvatar_s>
-	<productgroup_o/>
+	<productgroup_o>	<item>	<key>thiet-bi-chuong-trai</key>
+	<value_smv>Thiết bị chuồng trại-Farm equipment</value_smv>
+	</item></productgroup_o>
 	<productchildgroup_o>	<item>	<key>thiet-bi-nuoi-heo</key>
 	<value_smv>Thiết bị chăn nuôi heo-Equipment for breeding pig</value_smv>
 	</item></productchildgroup_o>
@@ -48,6 +50,6 @@
 	</item></productimage_o>
 	<createdDate>2020-06-11T07:51:20.373Z</createdDate>
 	<createdDate_dt>2020-06-11T07:51:20.373Z</createdDate_dt>
-	<lastModifiedDate>2020-06-11T09:42:30.498Z</lastModifiedDate>
-	<lastModifiedDate_dt>2020-06-11T09:42:30.498Z</lastModifiedDate_dt>
+	<lastModifiedDate>2020-06-11T09:52:53.672Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-06-11T09:52:53.672Z</lastModifiedDate_dt>
 </page>
