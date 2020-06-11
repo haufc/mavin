@@ -11,7 +11,9 @@
 	<productname_s>Tấm làm mát công nghệ Thái Lan</productname_s>
 	<productnameEnglish_s>Thai technology cooling plate</productnameEnglish_s>
 	<phonenumber_s>0221.653.7979</phonenumber_s>
-	<productgroup_o/>
+	<productgroup_o>	<item>	<key>thiet-bi-chuong-trai</key>
+	<value_smv>Thiết bị chuồng trại-Farm equipment</value_smv>
+	</item></productgroup_o>
 	<productchildgroup_o>	<item>	<key>thiet-bi-nuoi-heo</key>
 	<value_smv>Thiết bị chăn nuôi heo-Equipment for breeding pig</value_smv>
 	</item></productchildgroup_o>
@@ -28,7 +30,7 @@
 	<productdescription_html>&lt;p&gt;KT: cao x rộng x d&amp;agrave;y: 1800 x 600 x 150mm.&lt;/p&gt;
 &lt;p&gt;Chiều cao s&amp;oacute;ng: 7mm, g&amp;oacute;c s&amp;oacute;ng: 450.&amp;nbsp;&lt;/p&gt;
 &lt;p&gt;Xuất xứ: TQ&lt;/p&gt;
-&lt;p&gt;&amp;nbsp;&lt;/p&gt;</productdescription_html>
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;</productdescription_html>
 	<productdescriptionEnglish_html>&lt;p&gt;Size: height x width x thickness: 1800 x 600 x 150mm.&lt;/p&gt;
 &lt;p&gt;Wave height: 7mm, wave angle: 450.&lt;/p&gt;
 &lt;p&gt;Origin: China&lt;/p&gt;</productdescriptionEnglish_html>
@@ -37,6 +39,6 @@
 	</item></productimage_o>
 	<createdDate>2020-06-11T09:08:47.845Z</createdDate>
 	<createdDate_dt>2020-06-11T09:08:47.845Z</createdDate_dt>
-	<lastModifiedDate>2020-06-11T09:08:47.845Z</lastModifiedDate>
-	<lastModifiedDate_dt>2020-06-11T09:08:47.845Z</lastModifiedDate_dt>
+	<lastModifiedDate>2020-06-11T09:55:36.674Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-06-11T09:55:36.674Z</lastModifiedDate_dt>
 </page>
