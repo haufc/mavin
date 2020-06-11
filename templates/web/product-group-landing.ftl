@@ -114,7 +114,7 @@
         
         //Pagination
         pageSize = 2;
-        incremSlide = 5;
+        incremSlide = 3;
         startPage = 0;
         numberPage = 0;
         
@@ -129,8 +129,8 @@
         }
         
         var prev = $("<li/>").addClass("prev").html("Prev").click(function(){
-           startPage-=5;
-           incremSlide-=5;
+           startPage-=3;
+           incremSlide-=3;
            numberPage--;
            slide();
         });
@@ -138,8 +138,8 @@
         prev.hide();
         
         var next = $("<li/>").addClass("next").html("Next").click(function(){
-           startPage+=5;
-           incremSlide+=5;
+           startPage+=3;
+           incremSlide+=3;
            numberPage++;
            slide();
         });
