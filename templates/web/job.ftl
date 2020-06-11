@@ -2,7 +2,7 @@
 <div class="content__title">
    <div class="container"><h1 class="text--red">${contentModel.title_s}</h1></div>
 </div>
-      <div class="content__details container">
+      <div class="content__details">
         <div class="job row">
 >
               <#list jobs as job>
