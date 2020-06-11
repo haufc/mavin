@@ -15,7 +15,9 @@
 	<orderDefault_f>-1</orderDefault_f>
 	<file-name>index.xml</file-name>
 	<folder-name>mang-an-heo-cai-sua-4-ngan--2-ben-</folder-name>
-	<productgroup_o/>
+	<productgroup_o>	<item>	<key>thiet-bi-chuong-trai</key>
+	<value_smv>Thiết bị chuồng trại-Farm equipment</value_smv>
+	</item></productgroup_o>
 	<productchildgroup_o>	<item>	<key>thiet-bi-nuoi-heo</key>
 	<value_smv>Thiết bị chăn nuôi heo-Equipment for breeding pig</value_smv>
 	</item></productchildgroup_o>
@@ -38,6 +40,6 @@
 	</item></productimage_o>
 	<createdDate>2020-06-11T08:48:26.650Z</createdDate>
 	<createdDate_dt>2020-06-11T08:48:26.650Z</createdDate_dt>
-	<lastModifiedDate>2020-06-11T08:48:26.650Z</lastModifiedDate>
-	<lastModifiedDate_dt>2020-06-11T08:48:26.650Z</lastModifiedDate_dt>
+	<lastModifiedDate>2020-06-11T09:54:42.874Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-06-11T09:54:42.874Z</lastModifiedDate_dt>
 </page>
