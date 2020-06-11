@@ -12,20 +12,20 @@
             </div>
             <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 mb-5" >
                 <#if productVNs??>
-                    <span class="list-product-vn line-content">
+                    <div class="list-product-vn line-content">
                         <#list productVNs as productVN>
                         	<a class="text-white" style="font-size: 16px;" href="${productVN.url}">${productVN.title}</a>
                         	<br>
                         </#list>
-                    </span>
+                    </div>
                 </#if>
                  <#if productENs??>
-                    <span class="list-product-en line-content">
+                    <div class="list-product-en line-content">
                         <#list productENs as productEN>
                         	<a class="text-white" style="font-size: 16px;" href="${productEN.url}">${productEN.titleEN}</a>
                         	<br>
                         </#list>
-                    </span>
+                    </div>
                 </#if>
                 
                 <br>
