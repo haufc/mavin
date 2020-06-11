@@ -113,7 +113,7 @@
         });
         
         //Pagination
-        pageSize = 4;
+        pageSize = 2;
         incremSlide = 5;
         startPage = 0;
         numberPage = 0;
