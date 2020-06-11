@@ -15,12 +15,16 @@
 	<folder-name>he-thong-silo-va-truyen-tai-cam-cho-chuong-heo-bau-va-heo-de-</folder-name>
 	<placeInNav>false</placeInNav>
 	<orderDefault_f>-1</orderDefault_f>
-	<productAvatar_s/>
+	<productAvatar_s>/static-assets/images/products/silo-500.png</productAvatar_s>
 	<productgroup_o/>
 	<productchildgroup_o>	<item>	<key>thiet-bi-nuoi-heo</key>
 	<value_smv>Thiết bị chăn nuôi heo-Equipment for breeding pig</value_smv>
 	</item></productchildgroup_o>
-	<slide_o item-list="true"/>
+	<slide_o item-list="true">	<item datasource="slideheader">	<key>/site/items/slides/d0a08899-63db-033a-900d-525a0e2770f9.xml</key>
+	<value>Home slide</value>
+	<include>/site/items/slides/d0a08899-63db-033a-900d-525a0e2770f9.xml</include>
+	<disableFlattening>false</disableFlattening>
+	</item></slide_o>
 	<productdescription_html>&lt;p&gt;(Phương &amp;aacute;n xả c&amp;aacute;m tới đầu chuồng)&lt;/p&gt;
 &lt;p&gt;Bao gồm:&lt;/p&gt;
 &lt;p&gt;- Silo Composite dung t&amp;iacute;ch 7,5 tấn (3 ch&amp;acirc;n, c&amp;oacute; cần mở lắp)&lt;/p&gt;
@@ -44,6 +48,6 @@
 	</item></productimage_o>
 	<createdDate>2020-06-11T07:51:20.373Z</createdDate>
 	<createdDate_dt>2020-06-11T07:51:20.373Z</createdDate_dt>
-	<lastModifiedDate>2020-06-11T07:53:07.296Z</lastModifiedDate>
-	<lastModifiedDate_dt>2020-06-11T07:53:07.296Z</lastModifiedDate_dt>
+	<lastModifiedDate>2020-06-11T07:54:10.152Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-06-11T07:54:10.152Z</lastModifiedDate_dt>
 </page>
