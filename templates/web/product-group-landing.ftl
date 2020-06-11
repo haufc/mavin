@@ -89,7 +89,12 @@
             }
         });
         
-       
+        $(function() {
+    		$(".paginate").paginga({
+              page: 2,
+              scrollToTop:false
+            });
+        });
     </script>
   </body>
 </html>
