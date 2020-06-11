@@ -66,14 +66,16 @@
                 $('.title-en').css('display', 'block');
                 $('.product-child-vn').css('display', 'none');
                 $('.product-child-en').css('display', 'block');
-                
                 $('title').text( $('.title-en').text());
+                $('.list-product-vn').css('display', 'none');
+                $('.btn-view-more').text('View more');
             } else {
                 $('.tittle-vn').css('display', 'block');
                 $('.title-en').css('display', 'none');
                 $('.product-child-vn').css('display', 'block');
                 $('.product-child-en').css('display', 'none');
-                $('title').text( $('.title-vn').text())
+                $('title').text( $('.title-vn').text());
+                $('.list-product-en').css('display', 'none');
             }
         });
     </script>

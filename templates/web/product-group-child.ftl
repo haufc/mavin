@@ -11,15 +11,26 @@
                 </div>
             </div>
             <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 mb-5" >
-                <#if products??>
-                	<#list products as product>
-                    	<a class="text-white" style="font-size: 16px;" href="${product.url}">${product.title}</a>
-                    	<br>
-                    </#list>
+                <#if productVNs??>
+                    <span class="list-product-vn">
+                        <#list productVNs as productVN>
+                        	<a class="text-white" style="font-size: 16px;" href="${productVN.url}">${productVN.title}</a>
+                        	<br>
+                        </#list>
+                    </span>
                 </#if>
+                 <#if productENs??>
+                    <span class="list-product-en">
+                        <#list productENs as productEN>
+                        	<a class="text-white" style="font-size: 16px;" href="${productEN.url}">${productEN.titleEN}</a>
+                        	<br>
+                        </#list>
+                    </span>
+                </#if>
+                
                 <br>
                 <a class="mt-3 rounded-0 text-white" style="text-direction: none;" href="/#"> 
-                    <span class="mr-1">Xem tiếp</span>
+                    <span class="mr-1 btn-view-more">Xem tiếp</span>
                     <i class="fas fa-play text--red"></i>
                 </a>
             </div>
