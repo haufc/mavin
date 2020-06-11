@@ -49,7 +49,7 @@
                     <span class="mr-1 btn-view-more">Xem tiếp</span>
                     <i class="fas fa-play text--red"></i>
                 </a>
-               
+               <ul class="float-right" id="pagination" class="pagination-sm"></ul>
             </div>
           </div>
       </div>
