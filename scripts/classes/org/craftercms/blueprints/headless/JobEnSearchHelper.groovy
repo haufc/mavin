@@ -17,7 +17,7 @@ class JobEnSearchHelper {
     
     def elasticsearch
     UrlTransformationService urlTransformationService
-    JobSearchHelper(elasticsearch, UrlTransformationService urlTransformationService) {
+    JobEnSearchHelper(elasticsearch, UrlTransformationService urlTransformationService) {
         this.elasticsearch = elasticsearch
         this.urlTransformationService = urlTransformationService
     }
