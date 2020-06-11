@@ -10,7 +10,9 @@
 	<folder-name>quat-lam-mat-hop-ma-kem-50-inch</folder-name>
 	<placeInNav>false</placeInNav>
 	<orderDefault_f>-1</orderDefault_f>
-	<productgroup_o/>
+	<productgroup_o>	<item>	<key>thiet-bi-chuong-trai</key>
+	<value_smv>Thiết bị chuồng trại-Farm equipment</value_smv>
+	</item></productgroup_o>
 	<productchildgroup_o>	<item>	<key>thiet-bi-nuoi-heo</key>
 	<value_smv>Thiết bị chăn nuôi heo-Equipment for breeding pig</value_smv>
 	</item></productchildgroup_o>
@@ -34,6 +36,6 @@
 	</item></productimage_o>
 	<createdDate>2020-06-11T09:29:42.797Z</createdDate>
 	<createdDate_dt>2020-06-11T09:29:42.797Z</createdDate_dt>
-	<lastModifiedDate>2020-06-11T09:29:42.797Z</lastModifiedDate>
-	<lastModifiedDate_dt>2020-06-11T09:29:42.797Z</lastModifiedDate_dt>
+	<lastModifiedDate>2020-06-11T09:55:18.507Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-06-11T09:55:18.507Z</lastModifiedDate_dt>
 </page>
