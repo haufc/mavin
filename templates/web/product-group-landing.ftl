@@ -13,7 +13,34 @@
     <link rel="stylesheet" href="/static-assets/plugins/bootstrap-select1139/dist/css/bootstrap-select.min.css"/>
     <link rel="stylesheet" href="/static-assets/css/styles.css"/>
     <link rel="stylesheet" href="/static-assets/css/mavinex.css"/>
-    <title></title>
+    <title>${contentModel.product_title_s}</title>
+    <style>
+        .current {
+          color: green;
+        }
+        
+        #pagin li {
+          display: inline-block;
+        }
+        
+        .prev {
+          cursor: pointer;
+        }
+        
+        .next {
+          cursor: pointer;
+        }
+        
+        .last{
+          cursor:pointer;
+          margin-left:5px;
+        }
+        
+        .first{
+          cursor:pointer;
+          margin-right:5px;
+        }
+    </style>
   </head>
   <body>
     <button onclick="topFunction()" id="btn-up-top" ><i class="fa fa-angle-up"></i></button>
@@ -83,6 +110,79 @@
                 $('title').text( $('.title-vn').text());
                 $('.list-product-en').css('display', 'none');
             }
+        });
+        
+        //Pagination
+        pageSize = 4;
+        incremSlide = 5;
+        startPage = 0;
+        numberPage = 0;
+        
+        var pageCount =  $(".line-content").length / pageSize;
+        var totalSlidepPage = Math.floor(pageCount / incremSlide);
+            
+        for(var i = 0 ; i<pageCount;i++){
+            $("#pagin").append('<li><a href="#">'+(i+1)+'</a></li> ');
+            if(i>pageSize){
+               $("#pagin li").eq(i).hide();
+            }
+        }
+        
+        var prev = $("<li/>").addClass("prev").html("Prev").click(function(){
+           startPage-=5;
+           incremSlide-=5;
+           numberPage--;
+           slide();
+        });
+        
+        prev.hide();
+        
+        var next = $("<li/>").addClass("next").html("Next").click(function(){
+           startPage+=5;
+           incremSlide+=5;
+           numberPage++;
+           slide();
+        });
+        
+        $("#pagin").prepend(prev).append(next);
+        
+        $("#pagin li").first().find("a").addClass("current");
+        
+        slide = function(sens){
+           $("#pagin li").hide();
+           
+           for(t=startPage;t<incremSlide;t++){
+             $("#pagin li").eq(t+1).show();
+           }
+           if(startPage == 0){
+             next.show();
+             prev.hide();
+           }else if(numberPage == totalSlidepPage ){
+             next.hide();
+             prev.show();
+           }else{
+             next.show();
+             prev.show();
+           }
+           
+            
+        }
+        
+        showPage = function(page) {
+        	  $(".line-content").hide();
+        	  $(".line-content").each(function(n) {
+        	      if (n >= pageSize * (page - 1) && n < pageSize * page)
+        	          $(this).show();
+        	  });        
+        }
+            
+        showPage(1);
+        $("#pagin li a").eq(0).addClass("current");
+        
+        $("#pagin li a").click(function() {
+        	 $("#pagin li a").removeClass("current");
+        	 $(this).addClass("current");
+        	 showPage(parseInt($(this).text()));
         });
     </script>
   </body>
