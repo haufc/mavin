@@ -17,15 +17,11 @@
 	<value>Default footer</value>
 	<include>/site/items/footer/9b4ae7f3-594a-5892-9874-ee0f0451c377.xml</include>
 	<disableFlattening>false</disableFlattening>
-	</item>	<item datasource="footercomponent">	<key>/site/items/footer/6395a484-01d0-502c-995b-ea4747cf07a4.xml</key>
-	<value>Giodano</value>
-	<include>/site/items/footer/6395a484-01d0-502c-995b-ea4747cf07a4.xml</include>
-	<disableFlattening>false</disableFlattening>
 	</item></footer_o>
 	<createdDate>2020-03-25T10:33:01.221Z</createdDate>
 	<createdDate_dt>2020-03-25T10:33:01.221Z</createdDate_dt>
-	<lastModifiedDate>2020-06-10T08:23:32.644Z</lastModifiedDate>
-	<lastModifiedDate_dt>2020-06-10T08:23:32.644Z</lastModifiedDate_dt>
+	<lastModifiedDate>2020-06-11T08:38:54.505Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-06-11T08:38:54.505Z</lastModifiedDate_dt>
 	<memberlist_o item-list="true">	<item datasource="listmembercomponent">	<key>/site/items/list-member/f3610232-c67d-0040-b08d-38036e6763e9.xml</key>
 	<value>Mavin group members</value>
 	<include>/site/items/list-member/f3610232-c67d-0040-b08d-38036e6763e9.xml</include>
