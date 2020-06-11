@@ -89,6 +89,13 @@
             }
         });
         
+        $(function() {
+				$(".paginate").paginga({
+					// use default options
+				});
+
+			});
+        
     </script>
   </body>
 </html>
