@@ -19,7 +19,9 @@
                         <div class="carousel-item">
                         </#if>
                             <div class="mavinex-products__items row">
+                            
                                 <div class="mavinex-products__item col-xs-6 col-sm-6 col-md-6 col-lg-3 p-0">
+                                    <a href="${item.pLink1_s}">
                                     <div class="mavinex-products__item-title mavinex-products__item-title--bg-blue">
                                         <div class="mavinex-products__item-text" >
                                             <h4 style="font-weight: bold; font-family: UVF-DINPro Bold;">${item.pTittle1_s}</h4>
@@ -27,9 +29,12 @@
                                     </div>
                                     
                                     <img class="mavinex-products__item-img" src="${item.pImage1_s}" alt="Carousel Image">
+                                    </a>
                                 </div>
+                                
     
                                 <div class="mavinex-products__item col-xs-6 col-sm-6 col-md-6 col-lg-3 p-0">
+                                    <a href="${item.pLink2_s}">
                                     <div class="mavinex-products__item-title mavinex-products__item-title--bg-red">
                                         <div class="mavinex-products__item-text">
                                             <h4 style="font-weight: bold; font-family: UVF-DINPro Bold;">${item.pTittle2_s}</h4>
@@ -37,9 +42,11 @@
                                     </div>
                                     
                                     <img class="mavinex-products__item-img" src="${item.pImage2_s}" alt="Carousel Image">
+                                    </a>
                                 </div>
     
                                 <div class="mavinex-products__item col-xs-6 col-sm-6 col-md-6 col-lg-3 p-0">
+                                    <a href="${item.pLink3_s}">
                                     <div class="mavinex-products__item-title mavinex-products__item-title--bg-blue">
                                         <div class="mavinex-products__item-text">
                                             <h4 style="font-weight: bold; font-family: UVF-DINPro Bold;">${item.pTittle3_s}</h4>
@@ -47,9 +54,11 @@
                                     </div>
                                     
                                     <img class="mavinex-products__item-img" src="${item.pImage3_s}" alt="Carousel Image">
+                                    </a>
                                 </div>
     
                                 <div class="mavinex-products__item col-xs-6 col-sm-6 col-md-6 col-lg-3 p-0">
+                                    <a href="${item.pLink4_s}">
                                     <div class="mavinex-products__item-title mavinex-products__item-title--bg-red">
                                         <div class="mavinex-products__item-text">
                                             <h4 style="font-weight: bold; font-family: UVF-DINPro Bold;">${item.pTittle4_s}</h4>
@@ -57,6 +66,7 @@
                                     </div>
                                     
                                     <img class="mavinex-products__item-img" src="${item.pImage4_s}" alt="Carousel Image">
+                                    </a>
                                 </div>
                             </div>
                     </div>

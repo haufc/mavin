@@ -7323,6 +7323,7 @@ _:-ms-lang(x), .content__img {
         height: 30px;
     }
     
+    .i
 @media (max-width: 1359px){
     .mavinex-products__item {
         height: 220px;
@@ -7428,7 +7429,10 @@ _:-ms-lang(x), .content__img {
     /*    top: -12%!important;*/
     /* }*/
 }
-
+    .img--news{
+        max-width: 100%;
+        height: auto;
+    }
 @media (max-width: 359px){
     .carousel .carousel-control.right i {
         font-size: 14px!important;

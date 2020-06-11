@@ -11,7 +11,7 @@
 	<internal-name>Hệ thống silo và truyền tải cám cho chuồng 500 heo thịt.</internal-name>
 	<navLabel>Hệ thống silo và truyền tải cám cho chuồng 500 heo</navLabel>
 	<productname_s>Hệ thống silo và truyền tải cám cho chuồng 500 heo thịt.</productname_s>
-	<phonenumber_s>0221 3 921 921</phonenumber_s>
+	<phonenumber_s>0221.653.7979</phonenumber_s>
 	<placeInNav>false</placeInNav>
 	<orderDefault_f>-1</orderDefault_f>
 	<productgroup_o>	<item>	<key>thiet-bi-chuong-trai</key>
@@ -40,13 +40,20 @@
 	<productimagename_s>Xe truyền tải cám</productimagename_s>
 	</item>	<item>	<productimage_s>/static-assets/images/products/silo-500.png</productimage_s>
 	<productimagename_s>Xe truyền tải cám</productimagename_s>
-	</item>	<item>	<productimage_s>/static-assets/images/products/silo-500.png</productimage_s>
-	<productimagename_s>Xe truyền tải cám</productimagename_s>
 	</item></productimage_o>
 	<createdDate>2020-06-05T09:05:42.340Z</createdDate>
 	<createdDate_dt>2020-06-05T09:05:42.340Z</createdDate_dt>
-	<lastModifiedDate>2020-06-09T09:03:44.071Z</lastModifiedDate>
-	<lastModifiedDate_dt>2020-06-09T09:03:44.071Z</lastModifiedDate_dt>
+	<lastModifiedDate>2020-06-10T09:32:02.098Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-06-10T09:32:02.098Z</lastModifiedDate_dt>
 	<productnameEnglish_s>Silo system and conveying bran for barns 500 pigs.</productnameEnglish_s>
-	<productdescriptionEnglish_html/>
+	<productdescriptionEnglish_html>&lt;p&gt;[The plan to discharge bran into the feeder]&lt;/p&gt;
+&lt;p&gt;Include:&lt;/p&gt;
+&lt;p&gt;- Composite silo capacity of 7.5 tons (3 legs, need to open the lid)&lt;/p&gt;
+&lt;p&gt;- 03 Loadcell SQB - 5T&lt;/p&gt;
+&lt;p&gt;- 01 W 100 scale head - (Laumas Italia)&lt;/p&gt;
+&lt;p&gt;- 01 Dol sensor - made in Denmark&lt;/p&gt;
+&lt;p&gt;- 10 square trays (2 sides) with 304 stainless steel, 1.5mm thick, size (LxWxH): 150 x 54 x 78 cm with wet bran knob, with a capacity of 150 kg.&lt;/p&gt;
+&lt;p&gt;- The bran transmission system is 55-60 m long.&lt;/p&gt;
+&lt;p&gt;- Control cabinet.&lt;/p&gt;
+&lt;p&gt;- Installation accessories.&lt;/p&gt;</productdescriptionEnglish_html>
 </page>
