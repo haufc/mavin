@@ -18,13 +18,13 @@
 	<include>/site/items/list-member/f3610232-c67d-0040-b08d-38036e6763e9.xml</include>
 	<disableFlattening>false</disableFlattening>
 	</item></memberlist_o>
-	<footer_o item-list="true">	<item datasource="footercomponent">	<key>/site/items/footer/9b4ae7f3-594a-5892-9874-ee0f0451c377.xml</key>
-	<value>Default footer</value>
-	<include>/site/items/footer/9b4ae7f3-594a-5892-9874-ee0f0451c377.xml</include>
+	<footer_o item-list="true">	<item datasource="footercomponent">	<key>/site/items/footer/86cde991-8dfd-d2a8-46bc-eccaf904929d.xml</key>
+	<value>Footer EN</value>
+	<include>/site/items/footer/86cde991-8dfd-d2a8-46bc-eccaf904929d.xml</include>
 	<disableFlattening>false</disableFlattening>
 	</item></footer_o>
 	<createdDate>2020-06-05T03:52:41.452Z</createdDate>
 	<createdDate_dt>2020-06-05T03:52:41.452Z</createdDate_dt>
-	<lastModifiedDate>2020-06-05T04:05:05.031Z</lastModifiedDate>
-	<lastModifiedDate_dt>2020-06-05T04:05:05.031Z</lastModifiedDate_dt>
+	<lastModifiedDate>2020-06-10T09:05:21.864Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-06-10T09:05:21.864Z</lastModifiedDate_dt>
 </component>

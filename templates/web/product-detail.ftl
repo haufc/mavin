@@ -19,35 +19,28 @@
             color: #FFF;
             
         }
-
         body {
   font-family: Arial;
   margin: 0;
 }
-
 * {
   box-sizing: border-box;
 }
-
 img {
   vertical-align: middle;
 }
-
 /* Position the image container (needed to position the left and right arrows) */
 .container {
   position: relative;
 }
-
 /* Hide the images by default */
 .mySlides {
   display: none;
 }
-
 /* Add a pointer when hovering over the thumbnail images */
 .cursor {
   cursor: pointer;
 }
-
 /* Next & previous buttons */
 .prev,
 .next {
@@ -64,19 +57,16 @@ img {
   user-select: none;
   -webkit-user-select: none;
 }
-
 /* Position the "next button" to the right */
 .next {
   right: 0;
   border-radius: 3px 0 0 3px;
 }
-
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover,
 .next:hover {
   background-color: rgba(0, 0, 0, 0.8);
 }
-
 /* Number text (1/3 etc) */
 .numbertext {
   color: #f2f2f2;
@@ -85,7 +75,6 @@ img {
   position: absolute;
   top: 0;
 }
-
 /* Container for image text */
 .caption-container {
   text-align: center;
@@ -99,7 +88,6 @@ img {
   display: table;
   clear: both;
 } */
-
 /* Six columns side by side */
 .column {
     /*float: left;
@@ -111,7 +99,6 @@ img {
     width: 23%;
     margin: 0px 1.33%;
 }
-
 .column:first-child {
     margin-left: 0px;
 }
@@ -122,12 +109,10 @@ img {
 .demo {
   opacity: 0.6;
 }
-
 .active,
 .demo:hover {
   opacity: 1;
 }
-
 .mb-custom {
   /* position: absolute;
   bottom: 0; */
@@ -140,7 +125,6 @@ img {
   border: 1px solid #FFF;
   color: #FFF;
 }
-
 /*=========================*/
 .carousel {
 	margin: 0px auto;
@@ -339,9 +323,14 @@ img {
                   </h4>
                   
                   <div style="color: #00559A; padding:10px;">
-                     <p>
+                      <div class="product-desc-vn">
                         ${contentModel.productdescription_html}
-                      </p>
+                      </div>
+                      <#if (contentModel.productdescriptionEnglish_html)??>
+                            <div class="product-desc-en">
+                             ${contentModel.productdescriptionEnglish_html}
+                           </div>
+                      </#if>
                   </div>
                   <div class="d-flex mb-custom">
                     <button class="btn-desc" style="width: 49%; margin-right: 2%;">${contentModel.phonenumber_s}</button>
@@ -357,7 +346,7 @@ img {
                 <h4 style="background-color: #00559a;margin: 12% 0; padding:10px; vertical-align: middle; line-height: normal;" class="text--uppercase text-white text--center product-related">sản phẩm tương tự</h4>
               </div>
               <div class="col-lg-6 col-md-6 col-sm-12">
-                     <div class="container">
+                     <div class="container product-similar-vn">
                     	<div class="row">
                     		<div class="col-md-12" style="padding:0px;">
                     			<div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="0">
@@ -366,19 +355,19 @@ img {
                     			<div class="carousel-inner">
                     				<div class="item carousel-item active">
                     					<div class="row">
-                    					 <#if relatedProducts!?size gt 2 > 
+                    					 <#if productVNs!?size gt 2 > 
                     					    <#list 0..3 as i>
                                                 <div class="col-3 col-custom-450">
                         							<div class="thumb-wrapper">
                         								<span class="wish-icon"><i class="fa fa-heart-o"></i></span>
                         								<div class="img-box">
-                        									<a href="${relatedProducts[i].url}"><img src="${relatedProducts[i].avatar}" class="img-responsive img-fluid" alt=""></a>
+                        									<a href="${productVNs[i].url}"><img src="${productVNs[i].avatar}" class="img-responsive img-fluid" alt=""></a>
                         								</div>
                         							</div>
                         						</div>
                                             </#list>
                                             <#else>
-                                            <#list relatedProducts as item>
+                                            <#list productVNs as item>
                                                 <div class="col-3 col-custom-450">
                         							<div class="thumb-wrapper">
                         								<span class="wish-icon"><i class="fa fa-heart-o"></i></span>
@@ -393,21 +382,21 @@ img {
                     				</div>
                     				<div class="item carousel-item">
                     					<div class="row">
-                    					    <#if relatedProducts!?size gt 2 > 
+                    					    <#if productVNs!?size gt 2 > 
                     						 <#list 0..3 as i>
                                                 <div class="col-3 col-custom-450">
                         							<div class="thumb-wrapper">
                         								<span class="wish-icon"><i class="fa fa-heart-o"></i></span>
                         								<div class="img-box">
-                        								    <#if (relatedProducts[i].url)??>
-                        									<a href="${relatedProducts[i].url}"><img src="${relatedProducts[i].avatar}" class="img-responsive img-fluid" alt=""></a>
+                        								    <#if (productVNs[i].url)??>
+                        									<a href="${productVNs[i].url}"><img src="${productVNs[i].avatar}" class="img-responsive img-fluid" alt=""></a>
                         								    </#if>
                         								</div>
                         							</div>
                         						</div>
                                             </#list>
                                             <#else>
-                                            <#list relatedProducts as item>
+                                            <#list productVNs as item>
                                                 <div class="col-3 col-custom-450">
                         							<div class="thumb-wrapper">
                         								<span class="wish-icon"><i class="fa fa-heart-o"></i></span>
@@ -427,6 +416,80 @@ img {
                     			</a>
                     		</div>
                     	</div>               
+                  </div>
+                  </div>
+                  <#-- EN -->
+                  <div class="container product-similar-en">
+                    	<div class="row">
+                    		<div class="col-md-12" style="padding:0px;">
+                    			<div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="0">
+                    			<!-- Carousel indicators -->
+                    			<!-- Wrapper for carousel items -->
+                    			<div class="carousel-inner">
+                    				<div class="item carousel-item active">
+                    					<div class="row">
+                    					 <#if productENs!?size gt 2 > 
+                    					    <#list 0..3 as i>
+                                                <div class="col-3 col-custom-450">
+                        							<div class="thumb-wrapper">
+                        								<span class="wish-icon"><i class="fa fa-heart-o"></i></span>
+                        								<div class="img-box">
+                        									<a href="${productENs[i].url}"><img src="${productENs[i].avatar}" class="img-responsive img-fluid" alt=""></a>
+                        								</div>
+                        							</div>
+                        						</div>
+                                            </#list>
+                                            <#else>
+                                            <#list productENs as item>
+                                                <div class="col-3 col-custom-450">
+                        							<div class="thumb-wrapper">
+                        								<span class="wish-icon"><i class="fa fa-heart-o"></i></span>
+                        								<div class="img-box">
+                        									<a href="${item.url}"><img src="${item.avatar}" class="img-responsive img-fluid" alt=""></a>
+                        								</div>
+                        							</div>
+                        						</div>
+                                            </#list>
+                                            </#if>
+                    					</div>
+                    				</div>
+                    				<div class="item carousel-item">
+                    					<div class="row">
+                    					    <#if productENs!?size gt 2 > 
+                    						 <#list 0..3 as i>
+                                                <div class="col-3 col-custom-450">
+                        							<div class="thumb-wrapper">
+                        								<span class="wish-icon"><i class="fa fa-heart-o"></i></span>
+                        								<div class="img-box">
+                        								    <#if (productENs[i].url)??>
+                        									<a href="${productENs[i].url}"><img src="${productENs[i].avatar}" class="img-responsive img-fluid" alt=""></a>
+                        								    </#if>
+                        								</div>
+                        							</div>
+                        						</div>
+                                            </#list>
+                                            <#else>
+                                            <#list productENs as item>
+                                                <div class="col-3 col-custom-450">
+                        							<div class="thumb-wrapper">
+                        								<span class="wish-icon"><i class="fa fa-heart-o"></i></span>
+                        								<div class="img-box">
+                        									<a href="${item.url}"><img src="${item.avatar}" class="img-responsive img-fluid" alt=""></a>
+                        								</div>
+                        							</div>
+                        						</div>
+                                            </#list>
+                                            </#if>
+                    					</div>
+                    				</div>
+                    			</div>
+                    			<!-- Carousel controls -->
+                    			<a class="carousel-control right carousel-control-next" style="right: -7%;top: 25%;" href="#myCarousel" data-slide="next">
+                    				<i class="fa fa-play"></i>
+                    			</a>
+                    		</div>
+                    	</div>   
+                    </div>
                   </div>
               </div>
             </div>
@@ -489,7 +552,7 @@ img {
       }
       </script>
       
-      <script type="text/javascript">
+     <script type="text/javascript">
     	$(document).ready(function(){
     		$(".wish-icon i").click(function(){
     			$(this).toggleClass("fa-heart fa-heart-o");
@@ -505,8 +568,12 @@ img {
     	    $('.product-name-vn').css('display', 'none');
     	    $('.product-related').text('Similar product');
     	    $('.report-price').text('Request a quote');
+    	    $('.product-desc-vn').css('display', 'none');
+    	    $('.product-similar-vn').css('display', 'none');
     	} else {
     	     $('.product-name-en').css('display', 'none');
+    	     $('.product-desc-en').css('display', 'none');
+    	     $('.product-similar-en').css('display', 'none');
     	}
     	
     	for( let i = 0 ; i< lstKey.length; i++) {

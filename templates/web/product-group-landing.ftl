@@ -69,6 +69,12 @@
                 $('title').text( $('.title-en').text());
                 $('.list-product-vn').css('display', 'none');
                 $('.btn-view-more').text('View more');
+                $('.footer-phone').text('Phone: ');
+                $('.footer-tax').text('Tax: ');
+                $('.footer-issued-date').text('Date of license: ');
+                $('.footer-item__social--title').text('Contact us');
+                $('.headquarter').text('Headquarter: ');
+                $('.footer-issued-by').text('Issued by: ');
             } else {
                 $('.tittle-vn').css('display', 'block');
                 $('.title-en').css('display', 'none');

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page>
+	<content-type>/page/joben</content-type>
+	<display-template>/templates/web/jobitem.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>3a55</objectGroupId>
+	<objectId>3a556f7f-94cb-e827-eccc-b9b6690add8d</objectId>
+	<file-name>index.xml</file-name>
+	<folder-name>mechanic</folder-name>
+	<internal-name>Mechanic</internal-name>
+	<navLabel>Mechanic</navLabel>
+	<title_s>Mechanic</title_s>
+	<type_s>Fulltime</type_s>
+	<placeInNav>false</placeInNav>
+	<orderDefault_f>-1</orderDefault_f>
+	<image_s>/static-assets/images/featured/content_img_10.png</image_s>
+	<slide_o item-list="true">	<item datasource="slide" inline="true">	<key>1cfb9795-43ae-e168-32bd-8c59412961c1</key>
+	<value>Job slide</value>
+<component id="1cfb9795-43ae-e168-32bd-8c59412961c1">
+	<content-type>/component/slide</content-type>
+	<display-template>/templates/web/slide.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>1cfb</objectGroupId>
+	<objectId>1cfb9795-43ae-e168-32bd-8c59412961c1</objectId>
+	<image_o item-list="true">	<item>	<image_s>/static-assets/images/slides/bg_3.png</image_s>
+	</item></image_o>
+	<file-name>1cfb9795-43ae-e168-32bd-8c59412961c1.xml</file-name>
+	<internal-name>Job slide</internal-name>
+	<createdDate>2020-06-11T04:11:16.258Z</createdDate>
+	<createdDate_dt>2020-06-11T04:11:16.258Z</createdDate_dt>
+	<lastModifiedDate>2020-06-11T04:11:16.258Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-06-11T04:11:16.258Z</lastModifiedDate_dt>
+</component>
+	</item></slide_o>
+	<item_o item-list="true">	<item>	<title_s>Description:</title_s>
+	<content_html>&lt;ul&gt;
+&lt;li&gt;Perform labor contracts with employees in the company&lt;/li&gt;
+&lt;li&gt;Propose contract forms suitable for each employee&lt;/li&gt;
+&lt;li&gt;Drafting types of documents under the charge (notice, decision, boundary)&lt;/li&gt;
+&lt;li&gt;Issue notices to workers&lt;/li&gt;
+&lt;/ul&gt;</content_html>
+	</item>	<item>	<title_s>Require:</title_s>
+	<content_html>&lt;ul&gt;
+&lt;li&gt;Proficient office computer&lt;/li&gt;
+&lt;li&gt;Organizational skills, work arrangements.&lt;/li&gt;
+&lt;li&gt;Analytical and general skills.&lt;/li&gt;
+&lt;/ul&gt;</content_html>
+	</item>	<item>	<title_s>Interest</title_s>
+	<content_html>&lt;ul&gt;
+&lt;li&gt;Salary from 7 - 9 million / month, depending on the capacity.&lt;/li&gt;
+&lt;li&gt;The working environment is dynamic, professional and has many promotion opportunities with attractive and long-term preferential treatment.&lt;/li&gt;
+&lt;li&gt;Fully enjoy the benefits (social insurance, health insurance, unemployment insurance, ...) and other regimes in accordance with the provisions of the State&lt;/li&gt;
+&lt;/ul&gt;</content_html>
+	</item></item_o>
+	<createdDate>2020-06-11T04:08:44.686Z</createdDate>
+	<createdDate_dt>2020-06-11T04:08:44.686Z</createdDate_dt>
+	<lastModifiedDate>2020-06-11T04:08:44.686Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-06-11T04:08:44.686Z</lastModifiedDate_dt>
+	<duration_dt>2020-06-11T04:00:00.000Z</duration_dt>
+	<duration_dt_tz>EST5EDT</duration_dt_tz>
+</page>

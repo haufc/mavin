@@ -59,14 +59,21 @@
                $(lent[i]).html(txt)
             }
         }
-        // if (lent.length > 100) {
-        //   short_text = lent.substr(0, 100);
-        //   $(".limit-text-250").html(short_text);
-        // }
         
         $(".limit-text-250 em").css("font-weight", "bold");
           });
         });
+        
+        var url = window.location.href;
+        
+        if (url.indexOf('/en') > -1) {
+            $('.footer-phone').text('Phone: ');
+            $('.footer-tax').text('Tax: ');
+            $('.footer-issued-date').text('Date of license: ');
+            $('.footer-item__social--title').text('Contact us');
+            $('.headquarter').text('Headquarter: ');
+            $('.footer-issued-by').text('Issued by: ')
+        }
     </script>
 
   </body>

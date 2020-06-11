@@ -62,6 +62,18 @@
   function goBack() {
   window.history.back();
     }
+    
+    
+    var url = window.location.href;
+    
+    if (url.indexOf('/en') > -1) {
+        $('.footer-phone').text('Phone: ');
+        $('.footer-tax').text('Tax: ');
+        $('.footer-issued-date').text('Date of license: ');
+        $('.footer-item__social--title').text('Contact us');
+        $('.headquarter').text('Headquarter: ');
+        $('.footer-issued-by').text('Issued by: ')
+    }
   </script>
 </html>
 <@studio.toolSupport />

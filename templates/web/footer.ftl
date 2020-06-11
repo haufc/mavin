@@ -5,14 +5,14 @@
                 <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
                   <p class="text-white text--uppercase" >${contentModel.companyname_s}</p>
                   <div class="footer__contact-info">
-                    <p >Trụ sở: ${contentModel.companysAddress_s}</p>
+                    <p><span class="headquarter">Trụ sở:</span> ${contentModel.companysAddress_s}</p>
                   </div>
                   <div class="footer__contact-info">
-                    <p >Điện thoại: ${contentModel.phonenumber_s}</p>
+                    <p> <span class="footer-phone">Điện thoại:</span> ${contentModel.phonenumber_s}</p>
                   </div>
                   <div class="footer__contact-info">
-                    <p >Mã số thuế: ${contentModel.tax_s}  Ngày cấp: 3/4/2017</p></br>
-                    <p >Nơi cấp: Sở Kế hoạch và Đầu tư tỉnh Hưng Yên.</p>
+                    <p><span class="footer-tax">Mã số thuế: </span>${contentModel.tax_s}  <span class="footer-issued-date">Ngày cấp:</span> 3/4/2017</p></br>
+                    <p><span class="footer-issued-by">Nơi cấp:</span> ${contentModel.issuedby_s}</p>
                   </div>
                 </div>
                 <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 footer-item__social">
