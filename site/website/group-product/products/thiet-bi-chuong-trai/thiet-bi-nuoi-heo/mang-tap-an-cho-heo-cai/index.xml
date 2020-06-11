@@ -15,7 +15,9 @@
 	<phonenumber_s>0221.653.7979</phonenumber_s>
 	<placeInNav>false</placeInNav>
 	<orderDefault_f>-1</orderDefault_f>
-	<productgroup_o/>
+	<productgroup_o>	<item>	<key>thiet-bi-chuong-trai</key>
+	<value_smv>Thiết bị chuồng trại-Farm equipment</value_smv>
+	</item></productgroup_o>
 	<productchildgroup_o>	<item>	<key>thiet-bi-nuoi-heo</key>
 	<value_smv>Thiết bị chăn nuôi heo-Equipment for breeding pig</value_smv>
 	</item></productchildgroup_o>
@@ -36,6 +38,6 @@
 	</item></productimage_o>
 	<createdDate>2020-06-11T08:33:13.319Z</createdDate>
 	<createdDate_dt>2020-06-11T08:33:13.319Z</createdDate_dt>
-	<lastModifiedDate>2020-06-11T08:33:13.319Z</lastModifiedDate>
-	<lastModifiedDate_dt>2020-06-11T08:33:13.319Z</lastModifiedDate_dt>
+	<lastModifiedDate>2020-06-11T09:53:40.195Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-06-11T09:53:40.195Z</lastModifiedDate_dt>
 </page>
