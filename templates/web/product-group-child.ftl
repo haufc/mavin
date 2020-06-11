@@ -12,19 +12,38 @@
             </div>
             <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 mb-5" >
                 <#if productVNs??>
-                    <div class="list-product-vn items">
-                        <#list productVNs as productVN>
-                        	<a class="text-white" style="font-size: 16px;" href="${productVN.url}">${productVN.title}</a>
-                        	<br>
-                        </#list>
+                    <div class="paginate">
+                        <div class="list-product-vn items">
+                            <#list productVNs as productVN>
+                            	<a class="text-white" style="font-size: 16px;" href="${productVN.url}">${productVN.title}</a>
+                            	<br>
+                            </#list>
+                        </div>
+                        
+                        <div class="pager">
+                          <div class="firstPage">&laquo;</div>
+                          <div class="previousPage">&lsaquo;</div>
+                          <div class="pageNumbers"></div>
+                          <div class="nextPage">&rsaquo;</div>
+                          <div class="lastPage">&raquo;</div>
+                        </div>
                     </div>
                 </#if>
                  <#if productENs??>
-                    <div class="list-product-en items">
-                        <#list productENs as productEN>
-                        	<a class="text-white" style="font-size: 16px;" href="${productEN.url}">${productEN.titleEN}</a>
-                        	<br>
-                        </#list>
+                    <div class="paginate">
+                        <div class="list-product-en items">
+                            <#list productENs as productEN>
+                            	<a class="text-white" style="font-size: 16px;" href="${productEN.url}">${productEN.titleEN}</a>
+                            	<br>
+                            </#list>
+                        </div>
+                        <div class="pager">
+                          <div class="firstPage">&laquo;</div>
+                          <div class="previousPage">&lsaquo;</div>
+                          <div class="pageNumbers"></div>
+                          <div class="nextPage">&rsaquo;</div>
+                          <div class="lastPage">&raquo;</div>
+                        </div>
                     </div>
                 </#if>
                 
@@ -33,9 +52,7 @@
                     <span class="mr-1 btn-view-more">Xem tiếp</span>
                     <i class="fas fa-play text--red"></i>
                 </a>
-                <ul id="pagin">
-         
-                </ul>
+               
             </div>
           </div>
       </div>
