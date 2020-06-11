@@ -86,6 +86,14 @@
                 $('.product-child-en').css('display', 'none');
                 $('title').text( $('.title-vn').text());
                 $('.list-product-en').css('display', 'none');
+                
+                //Panigate
+                var lstContent = $('row').find('.content__details');
+                
+                for(let i 0; i < lstContent.length; i++) {
+                    var lstText = $(lstContent[i]).find('.list-product-vn').children();
+                    console.log("=============>", lstText);
+                }
             }
         });
         
