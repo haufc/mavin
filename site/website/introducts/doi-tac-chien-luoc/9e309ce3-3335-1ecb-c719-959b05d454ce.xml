@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/partnership</content-type>
+	<display-template>/templates/web/partnership.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>9e30</objectGroupId>
+	<objectId>9e309ce3-3335-1ecb-c719-959b05d454ce</objectId>
+	<file-name>9e309ce3-3335-1ecb-c719-959b05d454ce.xml</file-name>
+	<internal-name>Mavin Farm</internal-name>
+	<logo_o item-list="true">	<item>	<partnerimagealt_s/>
+	<partnerimage_s>/static-assets/images/partnerships/3.jpg</partnerimage_s>
+	</item></logo_o>
+	<createdDate>2020-06-11T04:09:39.923Z</createdDate>
+	<createdDate_dt>2020-06-11T04:09:39.923Z</createdDate_dt>
+	<lastModifiedDate>2020-06-11T04:09:39.923Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-06-11T04:09:39.923Z</lastModifiedDate_dt>
+</component>
