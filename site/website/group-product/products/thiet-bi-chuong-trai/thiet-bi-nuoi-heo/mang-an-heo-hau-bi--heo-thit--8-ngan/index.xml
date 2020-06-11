@@ -19,7 +19,9 @@
 	<productnameEnglish_s>Feeder gilt (porker) 8 compartments square format (2 sides)</productnameEnglish_s>
 	<phonenumber_s>0221.653.7979</phonenumber_s>
 	<productAvatar_s>/static-assets/images/products/Máng ăn heo hậu bị (heo thịt) 8 ngăn.jpg</productAvatar_s>
-	<productgroup_o/>
+	<productgroup_o>	<item>	<key>thiet-bi-chuong-trai</key>
+	<value_smv>Thiết bị chuồng trại-Farm equipment</value_smv>
+	</item></productgroup_o>
 	<productchildgroup_o>	<item>	<key>thiet-bi-nuoi-heo</key>
 	<value_smv>Thiết bị chăn nuôi heo-Equipment for breeding pig</value_smv>
 	</item></productchildgroup_o>
@@ -40,6 +42,6 @@
 	</item></productimage_o>
 	<createdDate>2020-06-11T08:45:29.159Z</createdDate>
 	<createdDate_dt>2020-06-11T08:45:29.159Z</createdDate_dt>
-	<lastModifiedDate>2020-06-11T08:45:29.159Z</lastModifiedDate>
-	<lastModifiedDate_dt>2020-06-11T08:45:29.159Z</lastModifiedDate_dt>
+	<lastModifiedDate>2020-06-11T09:54:51.343Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-06-11T09:54:51.343Z</lastModifiedDate_dt>
 </page>
