@@ -1,5 +1,5 @@
 <#import "/templates/system/common/cstudio-support.ftl" as studio />
-<div class="content__title">
+<div class="content__title container">
     <h1 class="text--red">${contentModel.title_s}</h1>
 </div>
       <div class="content__details">
