@@ -1,4 +1,13 @@
 <#import "/templates/system/common/cstudio-support.ftl" as studio />
+      <!-- Handlebar Templates -->
+      <script id="search-results-template" type="text/x-handlebars-template">
+    		{{#each results}}
+    		   
+    		{{else}}
+    		    <p>No results found</p>
+    		{{/each}}
+    		
+     </script>
       <div class="content__details container">
           <div class="row">
             <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 mb-5">
