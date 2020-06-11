@@ -29,7 +29,7 @@
         </div>
         
       </div>
-      <div class="content__details--nopadding-x container" style="padding-left:15px; font-size:23px;">
+      <div class="content__details--nopadding-x container" style="padding-left:15px; font-size:17px;">
             ${contentModel.contents_html}
       </div>
       <#if (contentModel.section_o.item)??>
