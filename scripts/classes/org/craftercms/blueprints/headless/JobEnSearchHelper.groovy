@@ -9,7 +9,7 @@ import org.elasticsearch.search.builder.SearchSourceBuilder
 import org.elasticsearch.search.sort.FieldSortBuilder
 import org.elasticsearch.search.sort.SortOrder
 
-class JobSearchHelper {
+class JobEnSearchHelper {
     static final String JOB_CONTENT_TYPE_QUERY = "content-type:\"/page/joben\""
     static final String[] HIGHLIGHT_FIELDS = ["title_s", "item_o.item.content_html"]
     static final int DEFAULT_START = 0
