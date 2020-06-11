@@ -20,7 +20,11 @@
 	<productnameEnglish_s>Troughs for farrowing (gourd pigs)</productnameEnglish_s>
 	<phonenumber_s>0221.653.7979</phonenumber_s>
 	<productAvatar_s>/static-assets/images/products/Máng ăn cho heo đẻ.jpg</productAvatar_s>
-	<slide_o item-list="true"/>
+	<slide_o item-list="true">	<item datasource="slideheader">	<key>/site/items/slides/d0a08899-63db-033a-900d-525a0e2770f9.xml</key>
+	<value>Home slide</value>
+	<include>/site/items/slides/d0a08899-63db-033a-900d-525a0e2770f9.xml</include>
+	<disableFlattening>false</disableFlattening>
+	</item></slide_o>
 	<productdescription_html>&lt;p&gt;Loại c&amp;oacute; khả năng t&amp;iacute;ch hợp hệ thống ăn tự động.&lt;/p&gt;
 &lt;p&gt;KT: 357 x 308 x 21 mm&lt;/p&gt;
 &lt;p&gt;Chất liệu Inox 201, d&amp;agrave;y 1,2 ly&lt;/p&gt;
@@ -34,6 +38,6 @@
 	</item></productimage_o>
 	<createdDate>2020-06-11T08:51:42.662Z</createdDate>
 	<createdDate_dt>2020-06-11T08:51:42.662Z</createdDate_dt>
-	<lastModifiedDate>2020-06-11T08:51:42.662Z</lastModifiedDate>
-	<lastModifiedDate_dt>2020-06-11T08:51:42.662Z</lastModifiedDate_dt>
+	<lastModifiedDate>2020-06-11T08:54:48.446Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-06-11T08:54:48.446Z</lastModifiedDate_dt>
 </page>
