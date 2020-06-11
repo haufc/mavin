@@ -19,14 +19,6 @@
                             	<br>
                             </#list>
                         </div>
-                        
-                        <div class="pager">
-                          <div class="firstPage">&laquo;</div>
-                          <div class="previousPage">&lsaquo;</div>
-                          <div class="pageNumbers"></div>
-                          <div class="nextPage">&rsaquo;</div>
-                          <div class="lastPage">&raquo;</div>
-                        </div>
                     </div>
                 </#if>
                  <#if productENs??>
@@ -36,13 +28,6 @@
                             	<a class="text-white" style="font-size: 16px;" href="${productEN.url}">${productEN.titleEN}</a>
                             	<br>
                             </#list>
-                        </div>
-                        <div class="pager">
-                          <div class="firstPage">&laquo;</div>
-                          <div class="previousPage">&lsaquo;</div>
-                          <div class="pageNumbers"></div>
-                          <div class="nextPage">&rsaquo;</div>
-                          <div class="lastPage">&raquo;</div>
                         </div>
                     </div>
                 </#if>
