@@ -89,11 +89,16 @@
                 
                 //Panigate
                 var lstContent = $('.row').find('.content__details');
+                var lstChildren = [];
+                var lstText = [];
+                for(let i = 0; i < lstContent.length; i++) {
+                    lstChildren = $(lstContent[i]).find('.list-product-vn').children();
+                }
                 
                 for(let i = 0; i < lstContent.length; i++) {
-                    var lstText = $(lstContent[i]).find('.list-product-vn').children();
-                    console.log("=============>", lstText);
+                    
                 }
+                
             }
         });
         
