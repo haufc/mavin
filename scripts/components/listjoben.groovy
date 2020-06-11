@@ -1,4 +1,4 @@
-import org.craftercms.blueprints.headless.JobSearchHelper
+import org.craftercms.blueprints.headless.JobEnSearchHelper
 
 
 def searchHelper = new JobSearchHelper(elasticsearch, urlTransformationService)
