@@ -21,8 +21,8 @@
 	<contents_html/>
 	<createdDate>2020-04-17T03:58:23.091Z</createdDate>
 	<createdDate_dt>2020-04-17T03:58:23.091Z</createdDate_dt>
-	<lastModifiedDate>2020-06-11T04:10:56.667Z</lastModifiedDate>
-	<lastModifiedDate_dt>2020-06-11T04:10:56.667Z</lastModifiedDate_dt>
+	<lastModifiedDate>2020-06-11T04:14:13.443Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-06-11T04:14:13.443Z</lastModifiedDate_dt>
 	<section_o item-list="true">	<item datasource="sectionDataSource" inline="true">	<key>c3f79ceb-85de-15fe-5ade-23ae1d8b286d</key>
 	<value>Danh sách đối tác chiến lược</value>
 <component id="c3f79ceb-85de-15fe-5ade-23ae1d8b286d">
@@ -34,7 +34,9 @@
 	<objectId>c3f79ceb-85de-15fe-5ade-23ae1d8b286d</objectId>
 	<file-name>c3f79ceb-85de-15fe-5ade-23ae1d8b286d.xml</file-name>
 	<internal-name>Danh sách đối tác chiến lược</internal-name>
-	<logo_o item-list="true">	<item>	<partnerimage_s>/static-assets/images/partnerships/2.jpg</partnerimage_s>
+	<logo_o item-list="true">	<item>	<partnerimage_s>/static-assets/images/partnerships/1.jpg</partnerimage_s>
+	<partnerimagealt_s>Mavin Group</partnerimagealt_s>
+	</item>	<item>	<partnerimage_s>/static-assets/images/partnerships/2.jpg</partnerimage_s>
 	<partnerimagealt_s>Mavin Austfeed</partnerimagealt_s>
 	</item>	<item>	<partnerimage_s>/static-assets/images/partnerships/3.jpg</partnerimage_s>
 	<partnerimagealt_s>Mavin Farm</partnerimagealt_s>
@@ -67,8 +69,8 @@
 	</item></logo_o>
 	<createdDate>2020-06-04T08:38:46.227Z</createdDate>
 	<createdDate_dt>2020-06-04T08:38:46.227Z</createdDate_dt>
-	<lastModifiedDate>2020-06-11T04:12:38.400Z</lastModifiedDate>
-	<lastModifiedDate_dt>2020-06-11T04:12:38.400Z</lastModifiedDate_dt>
+	<lastModifiedDate>2020-06-11T04:14:18.057Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-06-11T04:14:18.057Z</lastModifiedDate_dt>
 </component>
 	</item></section_o>
 </page>
