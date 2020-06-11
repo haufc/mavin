@@ -11,7 +11,7 @@
 	<internal-name>Máng tập ăn cho heo con</internal-name>
 	<navLabel>Máng tập ăn cho heo con</navLabel>
 	<productname_s>Máng tập ăn cho heo con</productname_s>
-	<phonenumber_s>0221 3 921 921</phonenumber_s>
+	<phonenumber_s>0221.653.7979</phonenumber_s>
 	<placeInNav>false</placeInNav>
 	<orderDefault_f>-1</orderDefault_f>
 	<productgroup_o>	<item>	<key>thiet-bi-chuong-trai</key>
@@ -26,29 +26,18 @@
 	<include>/site/items/slides/d0a08899-63db-033a-900d-525a0e2770f9.xml</include>
 	<disableFlattening>false</disableFlattening>
 	</item></slide_o>
-	<productdescription_html>&lt;p&gt;[Phương &amp;aacute;n xả c&amp;aacute;m v&amp;agrave;o tận m&amp;aacute;ng ăn]&lt;/p&gt;
-&lt;p&gt;Bao gồm:&lt;/p&gt;
-&lt;p&gt;- Silo Composite dung t&amp;iacute;ch 7,5 tấn (3 ch&amp;acirc;n, c&amp;oacute; cần mở nắp)&lt;/p&gt;
-&lt;p&gt;- 03 Loadcell SQB - 5T&lt;/p&gt;
-&lt;p&gt;- 01 Đầu c&amp;acirc;n W 100 - (Laumas Italia)&lt;/p&gt;
-&lt;p&gt;- 01 Cảm biến Dol - xuất xứ Đan Mạch&lt;/p&gt;
-&lt;p&gt;- 10 M&amp;aacute;ng ăn 8 ngăn dạng vu&amp;ocirc;ng (2 b&amp;ecirc;n) bằng inox 304, d&amp;agrave;y 1,5mm, k&amp;iacute;ch thước (DxRxC): 150 x 54 x&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;78 cm c&amp;oacute; n&amp;uacute;m ướt c&amp;aacute;m, với sức chứa 150 kg.&lt;/p&gt;
-&lt;p&gt;- Hệ thống truyền tải c&amp;aacute;m d&amp;agrave;i 55 - 60 m.&lt;/p&gt;
-&lt;p&gt;- Tủ điều khiển.&lt;/p&gt;
-&lt;p&gt;- Phụ kiện lắp đặt.&lt;/p&gt;</productdescription_html>
-	<productimage_o item-list="true">	<item>	<productimage_s>/static-assets/images/products/silo-500.png</productimage_s>
-	<productimagename_s>Xe truyền tải cám</productimagename_s>
-	</item>	<item>	<productimage_s>/static-assets/images/products/silo-500.png</productimage_s>
-	<productimagename_s>Xe truyền tải cám</productimagename_s>
-	</item>	<item>	<productimage_s>/static-assets/images/products/silo-500.png</productimage_s>
-	<productimagename_s>Xe truyền tải cám</productimagename_s>
-	</item>	<item>	<productimage_s>/static-assets/images/products/silo-500.png</productimage_s>
+	<productdescription_html>&lt;p&gt;Dung t&amp;iacute;ch: 2 l&amp;iacute;t chiều cao: 25 cm đường k&amp;iacute;nh 24 cm&lt;/p&gt;
+&lt;p&gt;Chất liệu: Nhựa PP&lt;/p&gt;
+&lt;p&gt;Xuất xứ: Rotecna &amp;ndash; T&amp;acirc;y Ban Nha&lt;br /&gt;&lt;/p&gt;</productdescription_html>
+	<productimage_o item-list="true">	<item>	<productimage_s>/static-assets/images/products/Máng ăn heo con.png</productimage_s>
 	<productimagename_s>Xe truyền tải cám</productimagename_s>
 	</item></productimage_o>
 	<createdDate>2020-06-07T04:34:38.412Z</createdDate>
 	<createdDate_dt>2020-06-07T04:34:38.412Z</createdDate_dt>
-	<lastModifiedDate>2020-06-09T09:05:06.333Z</lastModifiedDate>
-	<lastModifiedDate_dt>2020-06-09T09:05:06.333Z</lastModifiedDate_dt>
+	<lastModifiedDate>2020-06-11T08:01:29.943Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-06-11T08:01:29.943Z</lastModifiedDate_dt>
 	<productnameEnglish_s>Troughs for piglet feeding</productnameEnglish_s>
-	<productdescriptionEnglish_html/>
+	<productdescriptionEnglish_html>&lt;p&gt;Capacity: 2 liters in height: 25 cm in diameter 24 cm&lt;/p&gt;
+&lt;p&gt;Material: PP plastic&lt;/p&gt;
+&lt;p&gt;Origin: Rotecna - Spain&lt;/p&gt;</productdescriptionEnglish_html>
 </page>
