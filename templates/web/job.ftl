@@ -3,7 +3,7 @@
     <h1 class="text--red">${contentModel.title_s}</h1>
 </div>
       <div class="content__details">
-        <div class="job row"  style=" padding: 15px">;
+        <div class="job row"  style=" padding: 15px";
 >
               <#list jobs as job>
             	<div class="job__item text-white col-sm-12 col-md-4 col-lg-4" >
