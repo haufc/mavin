@@ -87,10 +87,6 @@
                 $('title').text( $('.title-vn').text());
                 $('.list-product-en').css('display', 'none');
             }
-            
-        	$(".paginate").paginga({
-    			// use default options
-    		});
         });
         
     </script>
