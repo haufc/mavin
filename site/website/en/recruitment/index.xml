@@ -26,24 +26,6 @@
 	<lastModifiedDate>2020-06-11T03:25:10.851Z</lastModifiedDate>
 	<lastModifiedDate_dt>2020-06-11T03:25:10.851Z</lastModifiedDate_dt>
 </component>
-	</item>	<item datasource="sections" inline="true">	<key>dfe9aaff-c529-9880-ef14-e69907edf4a6</key>
-	<value>Recruitment</value>
-<component id="dfe9aaff-c529-9880-ef14-e69907edf4a6">
-	<content-type>/component/jobsen</content-type>
-	<display-template>/templates/web/jobitem.ftl</display-template>
-	<no-template-required/>
-	<merge-strategy>inherit-levels</merge-strategy>
-	<objectGroupId>dfe9</objectGroupId>
-	<objectId>dfe9aaff-c529-9880-ef14-e69907edf4a6</objectId>
-	<file-name>dfe9aaff-c529-9880-ef14-e69907edf4a6.xml</file-name>
-	<internal-name>Recruitment</internal-name>
-	<title_s>Recruitment</title_s>
-	<section_o item-list="true"/>
-	<createdDate>2020-06-11T03:25:39.817Z</createdDate>
-	<createdDate_dt>2020-06-11T03:25:39.817Z</createdDate_dt>
-	<lastModifiedDate>2020-06-11T03:25:39.817Z</lastModifiedDate>
-	<lastModifiedDate_dt>2020-06-11T03:25:39.817Z</lastModifiedDate_dt>
-</component>
 	</item></sections_o>
 	<internal-name>Recruitment</internal-name>
 	<title_s>Recruitment</title_s>
@@ -52,6 +34,6 @@
 	<folder-name>recruitment</folder-name>
 	<createdDate>2020-06-11T03:23:35.151Z</createdDate>
 	<createdDate_dt>2020-06-11T03:23:35.151Z</createdDate_dt>
-	<lastModifiedDate>2020-06-11T03:23:35.151Z</lastModifiedDate>
-	<lastModifiedDate_dt>2020-06-11T03:23:35.151Z</lastModifiedDate_dt>
+	<lastModifiedDate>2020-06-11T03:41:00.916Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-06-11T03:41:00.916Z</lastModifiedDate_dt>
 </page>
