@@ -34,7 +34,7 @@
                 </div>
             </div>
             <a class="mavinex-nav__link" href="/co-hoi-nghe-nghiep">Job</a>
-            <a class="mavinex-nav__link" href="/lien-he">Contact</a>
+            <a class="mavinex-nav__link" href="/en/contact">Contact</a>
         </div>
 
         <div class="mavinex-nav__btns">
