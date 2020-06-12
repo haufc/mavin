@@ -26,10 +26,6 @@
                             <#list productVNs as productVN>
                             	<div class="item-pr"><a class="text-white d-block pn-pr-vn" href="${productVN.url}">${productVN.title}</a></div>
                             </#list>
-                            <div class="item-pr"><a class="text-white d-block pn-pr-vn">a8</a></div>
-                            <div class="item-pr"><a class="text-white d-block pn-pr-vn" >a6</a></div>
-                            <div class="item-pr"><a class="text-white d-block pn-pr-vn">a4</a></div>
-                            <div class="item-pr"><a class="text-white d-block pn-pr-vn" >a2</a></div>
                         </div>
                         <ul class="pagination pagi pg-vn mt-3" >
                             <li class="page-item previous-page"><a class="page-link" href="javacript:void(0)"><span class="fas fa-angle-left"></a></li>
