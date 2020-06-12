@@ -117,7 +117,7 @@
                     
                     $('.group-pr-' + i + ' .paginate .pagi').append("<li class='page-item current-page active'><a class='page-link' href='javacript:void(0)'>"+ 1+"</a></li>");
                     for (let j=2; j<= totalPages;j++){
-                         $('.group-pr-' + i + ' paginate pagi').append("<li class='page-item current-page'><a class='page-link' href='javascript:void(0)'>"+ j +"</a></li>");
+                         $('.group-pr-' + i + ' .paginate .pagi').append("<li class='page-item current-page'><a class='page-link' href='javascript:void(0)'>"+ j +"</a></li>");
                     }
                     
                     $('.group-pr-' + i + ' .paginate .pagi').append("<li id='next-page1' class='page-item'><a class='page-link' href='javascript:void(0)'><span class='fas fa-angle-right'></a></li>");
