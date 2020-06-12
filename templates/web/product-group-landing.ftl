@@ -164,6 +164,8 @@
                         $('.group-pr-' + i + ' .paginate #pagi-'+ i +' li.current-page:eq('+ (currentPage - 1)+')').addClass('active');
                       }
                     });
+                } else {
+                    $('.group-pr-' + i + ' .paginate #pagi-'+ i).hide();
                 }
                     
                   
