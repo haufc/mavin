@@ -132,9 +132,6 @@
                             var currentPage = $(this).index();
                             $('.group-pr-' + i + ' .paginate #pagi-'+ i +' li').removeClass("active");
                             $(this).addClass("active");
-                            for(let j = 0; j <  groupItemDiv.length; j++) {
-                                $(groupItemDiv[j]).css('display','none');
-                            }
                             var total = limitperPage * currentPage;
                             for(let z = total - limitperPage; z<total; z++){
                                 $(groupItemDiv[z]).css('display','table-cell');
