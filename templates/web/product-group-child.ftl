@@ -27,7 +27,7 @@
                             	<div class="item-pr"><a class="text-white d-block pn-pr-vn" href="${productVN.url}">${productVN.title}</a></div>
                             </#list>
                         </div>
-                        <ul class="pagination pagi pg-vn">
+                        <ul class="pagination pagi pg-vn mt-3">
                             <li class="page-item previous-page"><a class="page-link" href="javacript:void(0)"><span class="fas fa-angle-left"></a></li>
                         </ul>
                     </div>
@@ -39,7 +39,7 @@
                             	<div class="item-pr"><a class="text-white d-block pn-pr-en" href="${productEN.url}">${productEN.titleEN}</a></div>
                             </#list>
                         </div>
-                        <ul class="pagination pagi pg-en">
+                        <ul class="pagination pagi pg-en mt-3">
                             <li class="page-item previous-page"><a class="page-link" href="javacript:void(0)"><span class="fas fa-angle-left"></a></li>
                         </ul>
                     </div>
