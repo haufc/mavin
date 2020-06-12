@@ -104,7 +104,13 @@
                 var limitperPage = 4;
                 for(let i = 0; i < groupProductSize; i++) {
                     var numberOfGroupItem = $('.group-pr-'+i).find('.list-product-vn a').length;
-                    $('.group-pr-'+ i + ' .list-product-vn a:gt(' + (limitperPage - 1) + ')').hide();
+                    var groupItem = $('.group-pr-'+i).find('.list-product-vn a');
+                   // $('.group-pr-'+ i + ' .list-product-vn a:gt(' + (limitperPage - 1) + ')').hide();
+                    if (numberOfGroupItem > limitperPage) {
+                        for(let j = limitperPage - 1; j <  numberOfGroupItem; j++) {
+                            $(groupItem[j]).hide();
+                        }
+                    }
                 }
                 
             }
