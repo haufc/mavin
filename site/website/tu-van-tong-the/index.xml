@@ -43,7 +43,7 @@
 	<file-name>da92bad5-7aab-d3ee-c3fa-8a659cfce321.xml</file-name>
 	<internal-name>Tư vấn tổng thể</internal-name>
 	<title_s>Tư vấn tổng thể</title_s>
-	<itemTitle_s>Tư vấn tổng thể và thiết kế trang trại chăn nuôi</itemTitle_s>
+	<itemTitle_s>Tư vấn, thiết kế và cung cấp giải pháp tổng thể</itemTitle_s>
 	<itemId_s>overalladvisory</itemId_s>
 	<carousels_o item-list="true">	<item datasource="carouselsDataSource">	<key>/site/items/carousel/efd4ea0f-b794-b7d5-8d9e-cd0e9b75ce05.xml</key>
 	<value>CarouselAdvisory</value>
@@ -55,8 +55,8 @@
 &lt;p style="text-align: justify;"&gt;&lt;span style="color: #ffffff; font-size: 14pt;"&gt;Hiện tại Mavinex đang hỗ trợ, tư vấn v&amp;agrave; cung cấp trang thiết bị cho c&amp;aacute;c trại chăn nu&amp;ocirc;i heo, g&amp;agrave;, vịt khắp c&amp;aacute;c tỉnh th&amp;agrave;nh trong nước như: Th&amp;aacute;i B&amp;igrave;nh, Ph&amp;uacute; Thọ, Bắc Ninh, H&amp;ograve;a B&amp;igrave;nh, Hưng Y&amp;ecirc;n, Bắc Giang, Hải Dương, Quảng Ninh, Thanh H&amp;oacute;a, Nghệ An, Hậu Giang&amp;hellip;C&amp;aacute;c dự &amp;aacute;n được chủ đầu tư v&amp;agrave; đối t&amp;aacute;c khen ngợi, đ&amp;aacute;nh gi&amp;aacute; cao.&lt;/span&gt;&lt;/p&gt;</itemContent_html>
 	<createdDate>2020-04-23T04:17:58.815Z</createdDate>
 	<createdDate_dt>2020-04-23T04:17:58.815Z</createdDate_dt>
-	<lastModifiedDate>2020-06-12T02:14:49.066Z</lastModifiedDate>
-	<lastModifiedDate_dt>2020-06-12T02:14:49.066Z</lastModifiedDate_dt>
+	<lastModifiedDate>2020-06-12T02:17:22.842Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-06-12T02:17:22.842Z</lastModifiedDate_dt>
 	<groupTitle_s/>
 	<carouselTitle_s>MỘT SỐ HÌNH ẢNH THIẾT KẾ TỔNG THỂ CỦA NHÀ MÁY VÀ CÁC TRANG TRẠI</carouselTitle_s>
 	<group_o item-list="true">	<item>	<groupContent_s/>
@@ -66,6 +66,6 @@
 	</item></sections_o>
 	<createdDate>2020-04-23T03:58:26.657Z</createdDate>
 	<createdDate_dt>2020-04-23T03:58:26.657Z</createdDate_dt>
-	<lastModifiedDate>2020-06-12T02:17:03.009Z</lastModifiedDate>
-	<lastModifiedDate_dt>2020-06-12T02:17:03.009Z</lastModifiedDate_dt>
+	<lastModifiedDate>2020-06-12T02:17:18.231Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-06-12T02:17:18.231Z</lastModifiedDate_dt>
 </page>
