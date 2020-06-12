@@ -115,9 +115,8 @@
                             $(groupItemDiv[j]).hide();
                             //$(groupItem[j]).attr("style", "display: none !important");
                         }
-                    }
-                    
-                    var totalPages = Math.round(numberOfGroupItem / limitperPage ) + 1;
+                        
+                         var totalPages = Math.round(numberOfGroupItem / limitperPage ) + 1;
                     
                     $('.group-pr-' + i + ' .paginate #pagi-'+i).append("<li class='page-item current-page active'><a class='page-link' href='javacript:void(0)'>"+ 1+"</a></li>");
                     for (let j=2; j<= totalPages;j++){
@@ -146,8 +145,8 @@
                             }
                         }
                     });
+                    }
                 }
-                
             }
         });
         
