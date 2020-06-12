@@ -149,9 +149,9 @@
                         currentPage++; 
                         $('.group-pr-' + i + ' .paginate #pagi-'+ i +' li').removeClass("active");
                          $('.group-pr-0 .list-product-vn .item-pr').hide();
-                        var total = limitPerPage * currentPage; 
+                        var total = limitperPage * currentPage; 
                         for(let z = total - limitperPage; z<total; z++){
-                                $('.group-pr-'+ i +' .list-product-vn .item-pr').eq(z).show();
+                            $('.group-pr-'+ i +' .list-product-vn .item-pr').eq(z).show();
                         }
                     
                         $(".pagi1 li.current-page:eq(" + (currentPage -1) + ")").addClass('active'); 
