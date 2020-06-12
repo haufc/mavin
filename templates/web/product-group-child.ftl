@@ -25,18 +25,18 @@
                 </div>
                 <#if productVNs??>
                     <div class="paginate">
-                        <div class="list-product-vn items" style="word-break: break-all;">
+                        <div class="list-product-vn items">
                             <#list productVNs as productVN>
-                            	<a class="text-white" style="font-size: 16px;" href="${productVN.url}">${productVN.title}</a>
+                            	<a class="text-white d-block" style="font-size: 16px;" href="${productVN.url}">${productVN.title}</a>
                             </#list>
                         </div>
                     </div>
                 </#if>
                  <#if productENs??>
                     <div class="paginate">
-                        <div class="list-product-en items" style="word-break: break-all;">
+                        <div class="list-product-en items">
                             <#list productENs as productEN>
-                            	<a class="text-white" style="font-size: 16px;" href="${productEN.url}">${productEN.titleEN}</a>
+                            	<a class="text-white d-block" style="font-size: 16px;" href="${productEN.url}">${productEN.titleEN}</a>
                             </#list>
                         </div>
                     </div>
