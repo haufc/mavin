@@ -101,10 +101,10 @@
                 //---------------------------
                 
                 var groupProductSize = $('#group-pr-length').val();
+                var limitperPage = 4;
                 for(let i = 0; i < groupProductSize; i++) {
                     var numberOfGroupItem = $('.group-pr-'+i).find('.list-product-vn a').length;
-                    var limitperPage = 4;
-                    $('.group-pr-'+ i + ' .list-product-vn a:gt(' + (limitPerPage - 1) + ')').hide();
+                    $('.group-pr-'+ i + ' .list-product-vn a:gt(' + (limitperPage - 1) + ')').hide();
                 }
                 
             }
