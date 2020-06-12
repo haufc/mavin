@@ -31,26 +31,27 @@
 	<lastModifiedDate>2020-06-12T07:07:56.474Z</lastModifiedDate>
 	<lastModifiedDate_dt>2020-06-12T07:07:56.474Z</lastModifiedDate_dt>
 </component>
-	</item>	<item datasource="sections" inline="true">	<key>90dbd718-8b7b-3b48-e061-54345b13eddf</key>
+	</item>	<item datasource="sections" inline="true">	<key>336a2578-5752-8205-d701-a58bd463769a</key>
 	<value>News</value>
-<component id="90dbd718-8b7b-3b48-e061-54345b13eddf">
-	<content-type>/component/componentlistnews</content-type>
-	<display-template>/templates/web/news.ftl</display-template>
+<component id="336a2578-5752-8205-d701-a58bd463769a">
+	<content-type>/component/listjoben</content-type>
+	<display-template>/templates/web/listjob.ftl</display-template>
 	<no-template-required/>
 	<merge-strategy>inherit-levels</merge-strategy>
-	<objectGroupId>90db</objectGroupId>
-	<objectId>90dbd718-8b7b-3b48-e061-54345b13eddf</objectId>
-	<file-name>90dbd718-8b7b-3b48-e061-54345b13eddf.xml</file-name>
+	<objectGroupId>336a</objectGroupId>
+	<objectId>336a2578-5752-8205-d701-a58bd463769a</objectId>
+	<image_s>/static-assets/images/featured/content_img_6.png</image_s>
+	<file-name>336a2578-5752-8205-d701-a58bd463769a.xml</file-name>
 	<internal-name>News</internal-name>
 	<title_s>News</title_s>
-	<createdDate>2020-06-12T07:08:38.478Z</createdDate>
-	<createdDate_dt>2020-06-12T07:08:38.478Z</createdDate_dt>
-	<lastModifiedDate>2020-06-12T07:08:38.478Z</lastModifiedDate>
-	<lastModifiedDate_dt>2020-06-12T07:08:38.478Z</lastModifiedDate_dt>
+	<createdDate>2020-06-12T07:29:34.716Z</createdDate>
+	<createdDate_dt>2020-06-12T07:29:34.716Z</createdDate_dt>
+	<lastModifiedDate>2020-06-12T07:29:34.716Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-06-12T07:29:34.716Z</lastModifiedDate_dt>
 </component>
 	</item></sections_o>
 	<createdDate>2020-06-12T07:02:54.498Z</createdDate>
 	<createdDate_dt>2020-06-12T07:02:54.498Z</createdDate_dt>
-	<lastModifiedDate>2020-06-12T07:02:54.498Z</lastModifiedDate>
-	<lastModifiedDate_dt>2020-06-12T07:02:54.498Z</lastModifiedDate_dt>
+	<lastModifiedDate>2020-06-12T07:29:25.725Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-06-12T07:29:25.725Z</lastModifiedDate_dt>
 </page>
