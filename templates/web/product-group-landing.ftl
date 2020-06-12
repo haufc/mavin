@@ -108,7 +108,7 @@
                    // $('.group-pr-'+ i + ' .list-product-vn a:gt(' + (limitperPage - 1) + ')').hide();
                     if (numberOfGroupItem > limitperPage) {
                         for(let j = limitperPage; j <  numberOfGroupItem; j++) {
-                            $(groupItem[j]).css('display', 'none !important');
+                            $(groupItem[j]).attr("style", "display: none !important");
                         }
                     }
                 }
