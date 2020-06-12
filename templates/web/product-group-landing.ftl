@@ -32,7 +32,7 @@
             <div class="row">
             <#if (contentModel.section_o.item)?? && contentModel.section_o??>
                 <#list (contentModel.section_o.item)![] as section>
-                    <div class="group-pr- ${section?index}">
+                    <div class="group-pr-${section?index}">
                         <@renderComponent parent=contentModel component=section />
                     </div>
                 </#list>
@@ -43,6 +43,7 @@
     <@renderComponent component=contentModel.memberlist_o.item />
     <@renderComponent component=contentModel.footer_o.item />
     <input hidden value="${contentModel.productGroup_o.item.key}" id="txt-key"/>
+    <input hidden value="${contentModel.section_o.item?size}" id="group-pr-length"/>
     <div class="lst-parent">
         <#list groupProduct.items as cate>
             <input hidden value="${cate.value}/${cate.label}"/>
