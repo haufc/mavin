@@ -95,10 +95,8 @@
                     lstChildren = $(lstContent[i]).find('.list-product-vn').children();
                 }
                 console.log(lstChildren);
-                for(let i = 0; i < lstContent.length; i++) {
-                    console.log(lstContent[i]);
-                    lstText = $(lstContent[i]).find('a');
-                    console.log(lstText);
+                for(let i = 0; i < lstChildren.length; i++) {
+                    console.log(lstChildren[i]);
                 }
                 
             }
