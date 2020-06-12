@@ -141,22 +141,23 @@
                         }
                     });
                     
-                  /*  $("#next-page1").on("click", function() {
-                      var currentPage = $(".pagination li.active").index(); 
-                      if (currentPage === totalPages1) {
+                    $("#next-page-"+i).on("click", function() {
+                      var currentPage = $('.group-pr-' + i + ' .paginate #pagi-'+ i +' li.active').index(); 
+                      if (currentPage === totalPages) {
                         return false; 
                       } else {
                         currentPage++; 
-                        $(".pagi1 li").removeClass('active'); 
-                        $("#mavinex-news .mavinex").hide();
+                        $('.group-pr-' + i + ' .paginate #pagi-'+ i +' li').removeClass("active");
+                         $('.group-pr-0 .list-product-vn .item-pr').hide();
                         var total = limitPerPage * currentPage; 
-                        for (let i = total - limitPerPage; i < total; i++) {
-                          $("#mavinex-news .mavinex:eq(" + i + ")").show(); 
+                        for(let z = total - limitperPage; z<total; z++){
+                                $('.group-pr-'+ i +' .list-product-vn .item-pr').eq(z).show();
                         }
                     
                         $(".pagi1 li.current-page:eq(" + (currentPage -1) + ")").addClass('active'); 
+                        $('.group-pr-' + i + ' .paginate #pagi-'+ i +' li.current-page:eq('+ (currentPage - 1)+')').addClass('active');
                       }
-                    });    */
+                    });    
                 }
                     
                   
