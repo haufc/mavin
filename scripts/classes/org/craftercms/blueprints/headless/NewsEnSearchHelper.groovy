@@ -40,7 +40,7 @@ class NewsEnSearchHelper{
         def result = elasticsearch.search(new SearchRequest().source(builder))
 
         if(result){
-            return processNewsListingResults(result)
+            return processEnNewsListingResults(result)
         }else{
             return[]
         }
