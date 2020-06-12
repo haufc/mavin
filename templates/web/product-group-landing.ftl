@@ -94,9 +94,8 @@
                 for(let i = 0; i < lstContent.length; i++) {
                     lstChildren = $(lstContent[i]).find('.list-product-vn').children();
                 }
-                console.log(lstChildren);
                 for(let i = 0; i < lstChildren.length; i++) {
-                    lstText = $('lstChildren[i]').find('a');
+                    lstText.push($(lstChildren[i]).find('a'));
                 }
                 console.log(lstText);
             }
