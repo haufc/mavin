@@ -27,7 +27,7 @@
             </div>
             <a class="mavinex-nav__link" href="/tin-tuc">News</a>
             <div class="dropdown">
-            <a class="mavinex-nav__link" href="/nang-luc-kinh-nghiem">Capability</a>
+            <a class="mavinex-nav__link" href="/en/capability">Capability</a>
                 <div class="dropdown-content">
                 <a class="mavinex-nav__link" href="/en/building-sector">Building sector</a>
                 <a class="mavinex-nav__link" href="/en/overall-consulting--livestock-farm-design">Overall consulting, livestock farm design</a>
