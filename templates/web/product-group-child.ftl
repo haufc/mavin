@@ -20,9 +20,6 @@
                 </div>
             </div>
             <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 mb-5" >
-                <div id="paginate">
-                    
-                </div>
                 <#if productVNs??>
                     <div class="paginate">
                         <div class="list-product-vn items">
@@ -30,6 +27,9 @@
                             	<a class="text-white d-block pn-pr-vn" style="font-size: 16px;" href="${productVN.url}">${productVN.title}</a>
                             </#list>
                         </div>
+                        <ul class="pagination pagi justify-content-center">
+                            <li class="page-item previous-page"><a class="page-link" href="javacript:void(0)"><span class="fas fa-angle-left"></a></li>
+                        </ul>
                     </div>
                 </#if>
                  <#if productENs??>
@@ -39,9 +39,11 @@
                             	<a class="text-white d-block pn-pr-en" style="font-size: 16px;" href="${productEN.url}">${productEN.titleEN}</a>
                             </#list>
                         </div>
+                        <ul class="pagination pagi justify-content-center">
+                            <li class="page-item previous-page"><a class="page-link" href="javacript:void(0)"><span class="fas fa-angle-left"></a></li>
+                        </ul>
                     </div>
                 </#if>
-                
                 <br>
                 <a class="mt-3 rounded-0 text-white" style="text-direction: none;" href="/#"> 
                     <span class="mr-1 btn-view-more">Xem tiếp</span>
