@@ -107,8 +107,8 @@
                     var groupItem = $('.group-pr-'+i).find('.list-product-vn a');
                    // $('.group-pr-'+ i + ' .list-product-vn a:gt(' + (limitperPage - 1) + ')').hide();
                     if (numberOfGroupItem > limitperPage) {
-                        for(let j = limitperPage - 1; j <  numberOfGroupItem; j++) {
-                            $(groupItem[j]).css('display', 'none');
+                        for(let j = limitperPage; j <  numberOfGroupItem; j++) {
+                            $(groupItem[j]).css('display', 'none !important');
                         }
                     }
                 }
