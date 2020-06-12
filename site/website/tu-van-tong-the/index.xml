@@ -12,7 +12,7 @@
 	<title_s>Tư vấn tổng thể</title_s>
 	<placeInNav>false</placeInNav>
 	<orderDefault_f>-1</orderDefault_f>
-	<descripttion_t>Tư vấn tổng thể, thiết kế trang trại chăn nuôi</descripttion_t>
+	<descripttion_t>Tư vấn, thiết kế và cung cấp giải pháp tổng thể trang trại chăn nuôi</descripttion_t>
 	<sections_o item-list="true">	<item datasource="sections" inline="true">	<key>2bcaeaf3-b8e7-e7f6-deb0-6a6d8f851d93</key>
 	<value>Background</value>
 <component id="2bcaeaf3-b8e7-e7f6-deb0-6a6d8f851d93">
@@ -66,6 +66,6 @@
 	</item></sections_o>
 	<createdDate>2020-04-23T03:58:26.657Z</createdDate>
 	<createdDate_dt>2020-04-23T03:58:26.657Z</createdDate_dt>
-	<lastModifiedDate>2020-06-12T02:14:44.364Z</lastModifiedDate>
-	<lastModifiedDate_dt>2020-06-12T02:14:44.364Z</lastModifiedDate_dt>
+	<lastModifiedDate>2020-06-12T02:17:03.009Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-06-12T02:17:03.009Z</lastModifiedDate_dt>
 </page>
