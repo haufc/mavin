@@ -85,9 +85,9 @@
             var url = window.location.href;
             if (url.indexOf('/en') > -1) {
                 $('.title-vn').css('display', 'none');
-                $('.title-en').css('display', 'block');
+                $('.title-en').css('display', 'inline');
             } else {
-                $('.title-vn').css('display', 'block');
+                $('.title-vn').css('display', 'inline');
                 $('.title-en').css('display', 'none');
             }
         });
