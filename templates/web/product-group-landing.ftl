@@ -113,7 +113,7 @@
                         }
                     }
                     
-                    var totalPages = Math.round(numberOfGroupItem / limitPerPage );
+                    var totalPages = Math.round(numberOfGroupItem / limitperPage );
                     $('.group-pr-' + i + ' paginate pagi').append("<li class='page-item current-page active'><a class='page-link' href='javacript:void(0)'>"+ 1+"</a></li>");
                     for (let i=2; i<= totalPages;i++){
                          $('.group-pr-' + i + ' paginate pagi').append("<li class='page-item current-page'><a class='page-link' href='javascript:void(0)'>"+ i +"</a></li>");
