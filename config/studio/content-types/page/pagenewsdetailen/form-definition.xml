@@ -210,7 +210,7 @@
 						</property>
 						<property>
 							<name>itemManager</name>
-							<value></value>
+							<value>slideDataSource</value>
 							<type>datasource:item</type>
 						</property>
 						<property>
@@ -505,7 +505,7 @@
 					<properties>
 						<property>
 							<name>repoPath</name>
-							<value></value>
+							<value>/static-assets/images</value>
 								<type>undefined</type>
 						</property>
 					</properties>
@@ -518,7 +518,7 @@
 					<properties>
 						<property>
 							<name>repoPath</name>
-							<value></value>
+							<value>/static-assets/images</value>
 								<type>undefined</type>
 						</property>
 						<property>
