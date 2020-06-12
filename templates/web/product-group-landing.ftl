@@ -133,15 +133,11 @@
                             $('.group-pr-' + i + ' .paginate #pagi-'+ i +' li').removeClass("active");
                             $(this).addClass("active");
                             for(let j = 0; j <  groupItemDiv.length; j++) {
-                                $(groupItemDiv[j]).hide();
+                                $(groupItemDiv[j]).css('display','none');
                             }
                             var total = limitperPage * currentPage;
-                            
-                            for(let j = 0; j <  groupItemDiv.length; j++) {
-                                $(groupItem[j]).removeAttr('style');
-                            }
                             for(let z = total - limitperPage; z<total; z++){
-                                $(groupItemDiv[z]).show();
+                                $(groupItemDiv[z]).css('display','table-cell');
                             }
                         }
                     });
