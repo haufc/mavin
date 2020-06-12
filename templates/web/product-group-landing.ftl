@@ -206,7 +206,7 @@
                             var currentPage = $(this).index();
                             $('.group-pr-' + i + ' .paginate #pagi-'+ i +' li').removeClass("active");
                             $(this).addClass("active");
-                            $('.group-pr-0 .list-product-vn .item-pr').hide();
+                            $('.group-pr-'+i .list-product-vn .item-pr').hide();
                             var total = limitperPage * currentPage;
                             for(let z = total - limitperPage; z<total; z++){
                                 $('.group-pr-'+ i +' .list-product-vn .item-pr').eq(z).show();
@@ -221,7 +221,7 @@
                       } else {
                         currentPage++; 
                         $('.group-pr-' + i + ' .paginate #pagi-'+ i +' li').removeClass("active");
-                        $('.group-pr-0 .list-product-vn .item-pr').hide();
+                        $('.group-pr-'+i .list-product-vn .item-pr').hide();
                         var total = limitperPage * currentPage; 
                         for(let z = total - limitperPage; z<total; z++){
                             $('.group-pr-'+ i +' .list-product-vn .item-pr').eq(z).show();
@@ -237,7 +237,7 @@
                       } else {
                         currentPage--; 
                         $('.group-pr-' + i + ' .paginate #pagi-'+ i +' li').removeClass("active");
-                        $('.group-pr-0 .list-product-vn .item-pr').hide();
+                        $('.group-pr-'+i.list-product-vn .item-pr').hide();
                         var grandTotal = limitperPage * currentPage; 
                         for (let z = grandTotal - limitperPage; z < grandTotal; z++) {
                            $('.group-pr-'+ i +' .list-product-vn .item-pr').eq(z).show();
