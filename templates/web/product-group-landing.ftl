@@ -95,7 +95,7 @@
                     lstChildren.push($(lstContent[i]).find('.list-product-vn').children());
                 }
                 
-                console.log(lstChildren);
+                
             }
         });
         
