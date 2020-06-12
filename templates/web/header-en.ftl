@@ -33,7 +33,7 @@
                 <a class="mavinex-nav__link" href="/en/overall-consulting--livestock-farm-design">Overall consulting, livestock farm design</a>
                 </div>
             </div>
-            <a class="mavinex-nav__link" href="/co-hoi-nghe-nghiep">Job</a>
+            <a class="mavinex-nav__link" href="/en/recruitment">Job</a>
             <a class="mavinex-nav__link" href="/en/contact">Contact</a>
         </div>
 
