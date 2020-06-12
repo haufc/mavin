@@ -24,7 +24,7 @@
                     <div class="paginate">
                         <div class="list-product-vn items">
                             <#list productVNs as productVN>
-                            	<a class="text-white d-block pn-pr-vn" style="font-size: 16px;" href="${productVN.url}">${productVN.title}</a>
+                            	<a class="text-white d-block pn-pr-vn" href="${productVN.url}">${productVN.title}</a>
                             </#list>
                         </div>
                         <ul class="pagination pagi justify-content-center">
@@ -36,7 +36,7 @@
                     <div class="paginate">
                         <div class="list-product-en items">
                             <#list productENs as productEN>
-                            	<a class="text-white d-block pn-pr-en" style="font-size: 16px;" href="${productEN.url}">${productEN.titleEN}</a>
+                            	<a class="text-white d-block pn-pr-en" href="${productEN.url}">${productEN.titleEN}</a>
                             </#list>
                         </div>
                         <ul class="pagination pagi justify-content-center">
