@@ -119,19 +119,19 @@
                     
                     var totalPages = Math.round(numberOfGroupItem / limitperPage ) + 1;
                     
-                    $('.group-pr-' + i + ' .paginate .pagi').append("<li class='page-item current-page active'><a class='page-link' href='javacript:void(0)'>"+ 1+"</a></li>");
+                    $('.group-pr-' + i + ' .paginate #pagi-'+i).append("<li class='page-item current-page active'><a class='page-link' href='javacript:void(0)'>"+ 1+"</a></li>");
                     for (let j=2; j<= totalPages;j++){
-                         $('.group-pr-' + i + ' .paginate .pagi').append("<li class='page-item current-page'><a class='page-link' href='javascript:void(0)'>"+ j +"</a></li>");
+                         $('.group-pr-' + i + ' .paginate #pagi-'+i).append("<li class='page-item current-page'><a class='page-link' href='javascript:void(0)'>"+ j +"</a></li>");
                     }
                     
-                    $('.group-pr-' + i + ' .paginate .pagi').append("<li id='next-page1' class='page-item'><a class='page-link' href='javascript:void(0)'><span class='fas fa-angle-right'></a></li>");
+                    $('.group-pr-' + i + ' .paginate #pagi-'+i).append("<li id='next-page1' class='page-item'><a class='page-link' href='javascript:void(0)'><span class='fas fa-angle-right'></a></li>");
                 
-                    $('.group-pr-' + i + ' .paginate .pagi li.current-page').on("click", function(){
+                    $('.group-pr-' + i + ' .paginate #pagi-'+ i +' li.current-page').on("click", function(){
                         if($(this).hasClass("active")){
                             return false;
                         } else{
                             var currentPage = $(this).index();
-                            $('.group-pr-' + i + ' .paginate .pagi li').removeClass("active");
+                            $('.group-pr-' + i + ' .paginate #pagi-'+ i +' li').removeClass("active");
                             $(this).addClass("active");
                             for(let j = 0; j <  groupItemDiv.length; j++) {
                                 $(groupItemDiv[j]).hide();
