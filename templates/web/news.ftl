@@ -90,6 +90,7 @@
                 $('.title-vn').css('display', 'block');
                 $('.title-en').css('display', 'none');
             }
+        });
     $('.limit-text').each(function (f) {
       var newstr = $(this).text().substring(0,300);
       $(this).text(newstr).append("...");
