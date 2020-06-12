@@ -104,8 +104,7 @@
                 for(let i = 0; i < groupProductSize; i++) {
                     var numberOfGroupItem = $('.group-pr-'+i).find('.list-product-vn a').length;
                     var limitperPage = 4;
-                   
-                   console.log($('.group-pr-'+ i + ' .list-product-vn a'));
+                    $('.group-pr-'+ i + ' .list-product-vn a:gt(' + (limitPerPage - 1) + ')').hide();
                 }
                 
             }
