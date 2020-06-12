@@ -69,12 +69,13 @@
             var title= $('')
             var url = window.location.href;
             if (url.indexOf('/en') > -1) {
+                $('.list-product-vn').css('display', 'none');
                 $('.tittle-vn').css('display', 'none');
                 $('.title-en').css('display', 'block');
                 $('.product-child-vn').css('display', 'none');
                 $('.product-child-en').css('display', 'block');
                 $('title').text( $('.title-en').text());
-                $('.list-product-vn').css('display', 'none');
+                
                 $('.btn-view-more').text('View more');
                 $('.footer-phone').text('Phone: ');
                 $('.footer-tax').text('Tax: ');
@@ -91,15 +92,6 @@
                 $('.list-product-en').css('display', 'none');
                 $('.pg-en').css('display', 'none');
                 
-                //Panigate
-                //var lstContent = $('.row').find('.content__details');
-                //var lstChildren = [];
-                //var lstText = [];
-                // for(let i = 0; i < lstContent.length; i++) {
-                //    lstChildren.push($(lstContent[i]).find('.list-product-vn').children());
-                //}
-                
-                //---------------------------
                 
                 var groupProductSize = $('#group-pr-length').val();
                 var limitperPage = 4;
@@ -148,16 +140,30 @@
                       } else {
                         currentPage++; 
                         $('.group-pr-' + i + ' .paginate #pagi-'+ i +' li').removeClass("active");
-                         $('.group-pr-0 .list-product-vn .item-pr').hide();
+                        $('.group-pr-0 .list-product-vn .item-pr').hide();
                         var total = limitperPage * currentPage; 
                         for(let z = total - limitperPage; z<total; z++){
                             $('.group-pr-'+ i +' .list-product-vn .item-pr').eq(z).show();
                         }
-                    
-                        $(".pagi1 li.current-page:eq(" + (currentPage -1) + ")").addClass('active'); 
                         $('.group-pr-' + i + ' .paginate #pagi-'+ i +' li.current-page:eq('+ (currentPage - 1)+')').addClass('active');
                       }
-                    });    
+                    });
+                    
+                    $('#prevous-item-'+i).on("click", function() {
+                      var currentPage = $('.group-pr-' + i + ' .paginate #pagi-'+ i +' li.active').index(); 
+                      if (currentPage === 1) {
+                        return false; 
+                      } else {
+                        currentPage--; 
+                        $('.group-pr-' + i + ' .paginate #pagi-'+ i +' li').removeClass("active");
+                        $('.group-pr-0 .list-product-vn .item-pr').hide();
+                        var grandTotal = limitperPage * currentPage; 
+                        for (let z = grandTotal - limitPerPage; z < grandTotal; z++) {
+                           $('.group-pr-'+ i +' .list-product-vn .item-pr').eq(z).show();
+                        }
+                        $('.group-pr-' + i + ' .paginate #pagi-'+ i +' li.current-page:eq('+ (currentPage - 1)+')').addClass('active');
+                      }
+                    });
                 }
                     
                   
