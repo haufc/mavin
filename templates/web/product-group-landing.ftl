@@ -111,7 +111,8 @@
                     // hiden element over limitperPage
                     if (numberOfGroupItem > limitperPage) {
                         for(let j = limitperPage; j <  numberOfGroupItem; j++) {
-                            $(groupItem[j]).attr("style", "display: none !important");
+                            $(groupItemDiv[j]).hide();
+                            //$(groupItem[j]).attr("style", "display: none !important");
                         }
                     }
                     
