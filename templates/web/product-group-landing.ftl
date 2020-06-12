@@ -124,7 +124,7 @@
                          $('.group-pr-' + i + ' .paginate #pagi-'+i).append("<li class='page-item current-page'><a class='page-link' href='javascript:void(0)'>"+ j +"</a></li>");
                     }
                     
-                    $('.group-pr-' + i + ' .paginate #pagi-'+i).append("<li id='next-page-'"+i" class='page-item'><a class='page-link' href='javascript:void(0)'><span class='fas fa-angle-right'></a></li>");
+                    $('.group-pr-' + i + ' .paginate #pagi-'+i).append("<li id='next-page-'"+i+" class='page-item'><a class='page-link' href='javascript:void(0)'><span class='fas fa-angle-right'></a></li>");
                 
                     $('.group-pr-' + i + ' .paginate #pagi-'+ i +' li.current-page').on("click", function(){
                         if($(this).hasClass("active")){
