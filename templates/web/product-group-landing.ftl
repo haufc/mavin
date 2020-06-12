@@ -13,7 +13,10 @@
     <link rel="stylesheet" href="/static-assets/plugins/bootstrap-select1139/dist/css/bootstrap-select.min.css"/>
     <link rel="stylesheet" href="/static-assets/css/styles.css"/>
     <link rel="stylesheet" href="/static-assets/css/mavinex.css"/>
-    <title></title>
+    <title>${contentModel.product_title_s}</title>
+    <style>
+      
+    </style>
   </head>
   <body>
     <button onclick="topFunction()" id="btn-up-top" ><i class="fa fa-angle-up"></i></button>
@@ -56,6 +59,7 @@
     <script src="/static-assets/js/search-bar.js"></script>
     <script src="/static-assets/js/handlebars.min-latest.js"></script>
     <script src="/static-assets/js/jquery.twbsPagination.min.js"></script>
+    <script src"/static-assets/plugins/panigation/paginga.jquery.js"></script>
     <script src="/static-assets/js/script.js"></script>
     <script>
         $(document).ready(function(){
@@ -82,8 +86,23 @@
                 $('.product-child-en').css('display', 'none');
                 $('title').text( $('.title-vn').text());
                 $('.list-product-en').css('display', 'none');
+                
+                //Panigate
+                var lstContent = $('.row').find('.content__details');
+                var lstChildren = [];
+                var lstText = [];
+                for(let i = 0; i < lstContent.length; i++) {
+                    lstChildren = $(lstContent[i]).find('.list-product-vn').children();
+                }
+                
+                for(let i = 0; i < lstContent.length; i++) {
+                    lstText = $(lstContent[i]).find('a');
+                    console.log(lstText)
+                }
+                
             }
         });
+        
     </script>
   </body>
 </html>

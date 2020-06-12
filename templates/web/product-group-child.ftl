@@ -1,4 +1,13 @@
 <#import "/templates/system/common/cstudio-support.ftl" as studio />
+      <!-- Handlebar Templates -->
+      <script id="search-results-template" type="text/x-handlebars-template">
+    		{{#each results}}
+    		   <span>{{item}}</span>
+    		{{else}}
+    		    <p>No results found</p>
+    		{{/each}}
+    		
+     </script>
       <div class="content__details container">
           <div class="row">
             <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 mb-5">
@@ -11,21 +20,28 @@
                 </div>
             </div>
             <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 mb-5" >
+                <div id="paginate">
+                    
+                </div>
                 <#if productVNs??>
-                    <span class="list-product-vn">
-                        <#list productVNs as productVN>
-                        	<a class="text-white" style="font-size: 16px;" href="${productVN.url}">${productVN.title}</a>
-                        	<br>
-                        </#list>
-                    </span>
+                    <div class="paginate">
+                        <div class="list-product-vn items">
+                            <#list productVNs as productVN>
+                            	<a class="text-white" style="font-size: 16px;" href="${productVN.url}">${productVN.title}</a>
+                            	<br>
+                            </#list>
+                        </div>
+                    </div>
                 </#if>
                  <#if productENs??>
-                    <span class="list-product-en">
-                        <#list productENs as productEN>
-                        	<a class="text-white" style="font-size: 16px;" href="${productEN.url}">${productEN.titleEN}</a>
-                        	<br>
-                        </#list>
-                    </span>
+                    <div class="paginate">
+                        <div class="list-product-en items">
+                            <#list productENs as productEN>
+                            	<a class="text-white" style="font-size: 16px;" href="${productEN.url}">${productEN.titleEN}</a>
+                            	<br>
+                            </#list>
+                        </div>
+                    </div>
                 </#if>
                 
                 <br>
@@ -33,6 +49,7 @@
                     <span class="mr-1 btn-view-more">Xem tiếp</span>
                     <i class="fas fa-play text--red"></i>
                 </a>
+               <ul class="float-right" id="pagination" class="pagination-sm"></ul>
             </div>
           </div>
       </div>
