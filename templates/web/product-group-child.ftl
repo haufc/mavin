@@ -25,6 +25,10 @@
                         <div class="list-product-vn items">
                             <#list productVNs as productVN>
                             	<div class="item-pr"><a class="text-white d-block pn-pr-vn" href="${productVN.url}">${productVN.title}</a></div>
+                            	<div class="item-pr"><a class="text-white d-block pn-pr-vn" href="${productVN.url}">${productVN.title}</a></div>
+                            	<div class="item-pr"><a class="text-white d-block pn-pr-vn" href="${productVN.url}">${productVN.title}</a></div>
+                            	<div class="item-pr"><a class="text-white d-block pn-pr-vn" href="${productVN.url}">${productVN.title}</a></div>
+                            	<div class="item-pr"><a class="text-white d-block pn-pr-vn" href="${productVN.url}">${productVN.title}</a></div>
                             </#list>
                         </div>
                         <ul class="pagination pagi pg-vn mt-3" >
@@ -36,6 +40,9 @@
                     <div class="paginate">
                         <div class="list-product-en items">
                             <#list productENs as productEN>
+                            	<div class="item-pr"><a class="text-white d-block pn-pr-en" href="${productEN.url}">${productEN.titleEN}</a></div>
+                            	<div class="item-pr"><a class="text-white d-block pn-pr-en" href="${productEN.url}">${productEN.titleEN}</a></div>
+                            	<div class="item-pr"><a class="text-white d-block pn-pr-en" href="${productEN.url}">${productEN.titleEN}</a></div>
                             	<div class="item-pr"><a class="text-white d-block pn-pr-en" href="${productEN.url}">${productEN.titleEN}</a></div>
                             </#list>
                         </div>
