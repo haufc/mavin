@@ -27,7 +27,7 @@
                             	<div class="item-pr"><a class="text-white d-block pn-pr-vn" href="${productVN.url}">${productVN.title}</a></div>
                             </#list>
                         </div>
-                        <ul class="pagination pagi justify-content-center">
+                        <ul class="pagination pagi pg-vn">
                             <li class="page-item previous-page"><a class="page-link" href="javacript:void(0)"><span class="fas fa-angle-left"></a></li>
                         </ul>
                     </div>
@@ -39,16 +39,12 @@
                             	<div class="item-pr"><a class="text-white d-block pn-pr-en" href="${productEN.url}">${productEN.titleEN}</a></div>
                             </#list>
                         </div>
-                        <ul class="pagination pagi justify-content-center">
+                        <ul class="pagination pagi pg-en">
                             <li class="page-item previous-page"><a class="page-link" href="javacript:void(0)"><span class="fas fa-angle-left"></a></li>
                         </ul>
                     </div>
                 </#if>
                 <br>
-                <a class="mt-3 rounded-0 text-white" style="text-direction: none;" href="/#"> 
-                    <span class="mr-1 btn-view-more">Xem tiếp</span>
-                    <i class="fas fa-play text--red"></i>
-                </a>
                <ul class="float-right" id="pagination" class="pagination-sm"></ul>
             </div>
           </div>
