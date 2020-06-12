@@ -92,7 +92,7 @@
                 var lstChildren = [];
                 var lstText = [];
                 for(let i = 0; i < lstContent.length; i++) {
-                    lstChildren = $(lstContent[i]).find('.list-product-vn').children();
+                    lstChildren.push($(lstContent[i]).find('.list-product-vn').children());
                 }
                 
                 console.log(lstChildren);
