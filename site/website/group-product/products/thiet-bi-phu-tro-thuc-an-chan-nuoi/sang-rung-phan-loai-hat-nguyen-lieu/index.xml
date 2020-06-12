@@ -9,7 +9,7 @@
 	<internal-name>Sàng rung phân loại hạt nguyên liệu</internal-name>
 	<navLabel/>
 	<productname_s>Sàng rung phân loại hạt nguyên liệu</productname_s>
-	<phonenumber_s>0221 3 921 921</phonenumber_s>
+	<phonenumber_s>0221.653.7979</phonenumber_s>
 	<productgroup_o>	<item>	<key>thiet-bi-nha-may-thuc-an-chan-nuoi</key>
 	<value_smv>Thiết bị nhà máy và thức ăn chăn nuôi</value_smv>
 	</item></productgroup_o>
@@ -25,17 +25,17 @@
 	<include>/site/items/slides/d0a08899-63db-033a-900d-525a0e2770f9.xml</include>
 	<disableFlattening>false</disableFlattening>
 	</item></slide_o>
-	<productdescription_html/>
+	<productdescription_html>&lt;p&gt;C&amp;ocirc;ng xuất từ 60T/h, 90T/h , 120T/h t&amp;ugrave;y v&amp;agrave;o thiết kế của nh&amp;agrave; m&amp;aacute;y&lt;/p&gt;</productdescription_html>
 	<productimage_o item-list="true">	<item>	<productimagename_s/>
-	<productimage_s>/static-assets/images/products/product-group-2.png</productimage_s>
-	</item>	<item>	<productimage_s>/static-assets/images/products/product-group-2.png</productimage_s>
+	<productimage_s>/static-assets/images/products/Sàng rung phân loại hạt  nguyên liệu 1.jpg</productimage_s>
+	</item>	<item>	<productimage_s>/static-assets/images/products/Sàng rung phân loại hạt  nguyên liệu 2.jpg</productimage_s>
 	<productimagename_s/>
 	</item></productimage_o>
 	<createdDate>2020-05-25T04:02:43.070Z</createdDate>
 	<createdDate_dt>2020-05-25T04:02:43.070Z</createdDate_dt>
-	<lastModifiedDate>2020-06-09T09:10:15.422Z</lastModifiedDate>
-	<lastModifiedDate_dt>2020-06-09T09:10:15.422Z</lastModifiedDate_dt>
-	<productAvatar_s>/static-assets/images/products/thiet-bi-nha-may-tacn.png</productAvatar_s>
+	<lastModifiedDate>2020-06-12T03:52:22.070Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-06-12T03:52:22.070Z</lastModifiedDate_dt>
+	<productAvatar_s>/static-assets/images/products/Sàng rung phân loại hạt  nguyên liệu 1.jpg</productAvatar_s>
 	<productnameEnglish_s>Vibrating sieve classifying raw materials</productnameEnglish_s>
-	<productdescriptionEnglish_html/>
+	<productdescriptionEnglish_html>&lt;p&gt;Capacity of 60T / h, 90T / h depending on the design of the factory&lt;/p&gt;</productdescriptionEnglish_html>
 </page>
