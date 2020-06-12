@@ -105,6 +105,7 @@
                 for(let i = 0; i < groupProductSize; i++) {
                     var numberOfGroupItem = $('.group-pr-'+i).find('.list-product-vn a').length;
                     var groupItem = $('.group-pr-'+i).find('.list-product-vn a');
+                    var groupItemDiv = ('.group-pr-'+i).find('.list-product-vn .item-pr');
                     
                     // hiden element over limitperPage
                     if (numberOfGroupItem > limitperPage) {
@@ -129,13 +130,16 @@
                             var currentPage = $(this).index();
                             $('.group-pr-' + i + ' .paginate .pagi li').removeClass("active");
                             $(this).addClass("active");
-                            $("#mavinex-news .mavinex").hide();
-                            for(let j = 0; j <  groupItem.length; j++) {
-                                $(groupItem[j]).attr("style", "display: none !important");
+                            for(let j = 0; j <  groupItemDiv.length; j++) {
+                                $(groupItemDiv[j]).hide();
                             }
                             var total = limitperPage * currentPage;
+                            
+                            for(let j = 0; j <  groupItemDiv.length; j++) {
+                                $(groupItem[j]).removeAttr('style');
+                            }
                             for(let z = total - limitperPage; z<total; z++){
-                                $(groupItem[z]).attr("style", "display: block !important");
+                                $(groupItemDiv[z]).show();
                             }
                         }
                     });
