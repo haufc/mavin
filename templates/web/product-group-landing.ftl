@@ -121,6 +121,24 @@
                     }
                     
                     $('.group-pr-' + i + ' .paginate .pagi').append("<li id='next-page1' class='page-item'><a class='page-link' href='javascript:void(0)'><span class='fas fa-angle-right'></a></li>");
+                
+                    $('.group-pr-' + i + ' .paginate .pagi li.current-page').on("click", function(){
+                        if($(this).hasClass("active")){
+                            return false;
+                        } else{
+                            var currentPage = $(this).index();
+                            $('.group-pr-' + i + ' .paginate .pagi li').removeClass("active");
+                            $(this).addClass("active");
+                            $("#mavinex-news .mavinex").hide();
+                            for(let j = 0; j <  groupItem.length; j++) {
+                                $(groupItem[j]).attr("style", "display: none !important");
+                            }
+                            var total = limitperPage * currentPage;
+                            for(let z = total - limitperPage; z<total; z++){
+                                $(groupItem[z]).attr("style", "display: block !important");
+                            }
+                        }
+                    });
                 }
                 
             }
