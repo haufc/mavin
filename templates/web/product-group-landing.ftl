@@ -97,7 +97,7 @@
                 
                 for(let i = 0; i < lstContent.length; i++) {
                     lstText = $(lstContent[i]).find('a');
-                    console.log(lstText)
+                    console.log(lstText);
                 }
                 
             }
