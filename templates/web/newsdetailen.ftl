@@ -34,7 +34,7 @@
             <div style="color: #00549a; font-size: 16px; padding-top:30px;">${contentModel.content_html}</div>
             <a class="mt-3 rounded-0" href="/tin-tuc">                 
             <i class="fas fa-angle-left text--red"></i>
-            <span class="mr-1 text--italic" style="color: #00549a;">Quay lại trang tin tức</span>
+            <span class="mr-1 text--italic" style="color: #00549a;">Get back to news page</span>
             </a>
 
         </div>
