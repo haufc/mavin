@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page>
+	<content-type>/page/newsdetail</content-type>
+	<display-template>/templates/web/newsdetail.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>e03c</objectGroupId>
+	<objectId>e03c824e-2042-99b7-1e91-59676b816a78</objectId>
+	<file-name>index.xml</file-name>
+	<folder-name>mavinex-hoan-thien-he-thong-trai-ga-1</folder-name>
+	<internal-name>Mavinex hoàn thiệt hệ thống trại gà cho Mavin</internal-name>
+	<navLabel>Mavinex hoàn thiệt hệ thống trại gà cho Mavin</navLabel>
+	<title_s>Mavinex hoàn thiệt hệ thống trại gà cho Mavin</title_s>
+	<placeInNav>false</placeInNav>
+	<orderDefault_f>-1</orderDefault_f>
+	<categories_o>	<item>	<key>mavinex-news</key>
+	<value_smv>Tin Mavinex</value_smv>
+	</item></categories_o>
+	<slide_o item-list="true">	<item datasource="slideDataSource">	<key>/site/items/slides/f3677068-6728-26c8-3a88-1da4f934f6ff.xml</key>
+	<value>Mavinex hoàn thiện hệ thống trại gà cho Công ty Cổ phần gia cầm Mavin</value>
+	<include>/site/items/slides/f3677068-6728-26c8-3a88-1da4f934f6ff.xml</include>
+	<disableFlattening>false</disableFlattening>
+	</item></slide_o>
+	<image_s>/static-assets/images/Layer 183.png</image_s>
+	<content_html>&lt;h3 class="" style="box-sizing: border-box; margin: 0px 0px 0.5rem; padding: 20px 0px 0px; font-family: UVF-DINPro; font-weight: 500; line-height: 1.2; font-size: 1.75rem; background-color: #ffffff; color: #00549a;"&gt;Mavinex ho&amp;agrave;n thiệt hệ thống trại g&amp;agrave; cho Mavin 4&lt;/h3&gt;
+&lt;p&gt;&lt;img class="image-center img-responsive" style="box-sizing: border-box; margin: 0px auto; padding: 20px 0px 0px; font-family: UVF-DINPro; vertical-align: middle; border-style: none; display: block; width: 821.25px; color: #212529; font-size: 14px; background-color: #ffffff;" src="http://localhost:8080/static-assets/images/Layer%20183.png" /&gt;&lt;/p&gt;
+&lt;div style="box-sizing: border-box; margin: 0px; padding: 30px 0px 0px; font-family: UVF-DINPro; background-color: #ffffff; color: #00549a; font-size: 16px;"&gt;
+&lt;p style="box-sizing: border-box; margin: 0px 0px 0.75rem; padding: 0px; line-height: 1.5;"&gt;Được th&amp;agrave;nh lập từ năm 2017, với tiền th&amp;acirc;n l&amp;agrave; Ph&amp;ograve;ng dự &amp;aacute;n của Tập đo&amp;agrave;n Mavin, C&amp;ocirc;ng ty cổ Phần Mavinex được biết đến l&amp;agrave; đơn vị triển khai thi c&amp;ocirc;ng c&amp;aacute;c dự &amp;aacute;n trọng điểm của tập đo&amp;agrave;n Mavin trong c&amp;aacute;c lĩnh vực thiết kế v&amp;agrave; x&amp;acirc;y c&amp;aacute;c dự &amp;aacute;n trọng điểm của tập đo&amp;agrave;n Mavin trong c&amp;aacute;c lĩnh vực thiết kế v&amp;agrave; Mavin, C&amp;ocirc;ng ty cổ Phần Mavinex được biết đến l&amp;agrave; đơn vị triển khai thi c&amp;ocirc;ng c&amp;aacute;c dự &amp;aacute;n trọng điểm của tập đo&amp;agrave;n Mavin trong c&amp;aacute;c lĩnh vực thiết kế v&amp;agrave; x&amp;acirc;y Mavin, C&amp;ocirc;ng ty cổ Phần Mavinex được biết đến l&amp;agrave; đơn vị triển khai thi c&amp;ocirc;ng c&amp;aacute;c dự &amp;aacute;n trọng điểm của tập đo&amp;agrave;n Mavin trong c&amp;aacute;c lĩnh vực thiết kế v&amp;agrave; x&amp;acirc;y dựng c&amp;aacute;c nh&amp;agrave; m&amp;aacute;y thức ăn chăn nu&amp;ocirc;i, thiết kế v&amp;agrave; x&amp;acirc;y dựng c&amp;aacute;c trang trại .....Được th&amp;agrave;nh lập từ năm 2017, với tiền th&amp;acirc;n l&amp;agrave; Ph&amp;ograve;ng dự &amp;aacute;n của Tập đo&amp;agrave;n Mavin, C&amp;ocirc;ng ty cổ Phần Mavinex được biết đến l&amp;agrave; đơn vị triển khai thi c&amp;ocirc;ng c&amp;aacute;c dự &amp;aacute;n trọng điểm của tập đo&amp;agrave;n Mavin trong c&amp;aacute;c lĩnh vực thiết kế v&amp;agrave; x&amp;acirc;y c&amp;aacute;c dự &amp;aacute;n trọng điểm của tập đo&amp;agrave;n Mavin trong c&amp;aacute;c lĩnh vực thiết kế v&amp;agrave; Mavin, C&amp;ocirc;ng ty cổ Phần Mavinex được biết đến l&amp;agrave; đơn vị triển khai thi c&amp;ocirc;ng c&amp;aacute;c dự &amp;aacute;n trọng điểm của tập đo&amp;agrave;n Mavin trong c&amp;aacute;c lĩnh vực thiết kế v&amp;agrave; x&amp;acirc;y Mavin, C&amp;ocirc;ng ty cổ Phần Mavinex được biết đến l&amp;agrave; đơn vị triển khai thi c&amp;ocirc;ng c&amp;aacute;c dự &amp;aacute;n trọng điểm của tập đo&amp;agrave;n Mavin trong c&amp;aacute;c lĩnh vực thiết kế v&amp;agrave; x&amp;acirc;y dựng c&amp;aacute;c nh&amp;agrave; m&amp;aacute;y thức ăn chăn nu&amp;ocirc;i, thiết kế v&amp;agrave; x&amp;acirc;y dựng c&amp;aacute;c trang trại .....&lt;/p&gt;
+&lt;p style="box-sizing: border-box; margin: 0px 0px 0.75rem; padding: 0px; line-height: 1.5;"&gt;&lt;br style="box-sizing: border-box; margin: 0px; padding: 0px;" /&gt;&lt;/p&gt;
+&lt;p style="box-sizing: border-box; margin: 0px 0px 0.75rem; padding: 0px; line-height: 1.5;"&gt;Được th&amp;agrave;nh lập từ năm 2017, với tiền th&amp;acirc;n l&amp;agrave; Ph&amp;ograve;ng dự &amp;aacute;n của Tập đo&amp;agrave;n Mavin, C&amp;ocirc;ng ty cổ Phần Mavinex được biết đến l&amp;agrave; đơn vị triển khai thi c&amp;ocirc;ng c&amp;aacute;c dự &amp;aacute;n trọng điểm của tập đo&amp;agrave;n Mavin trong c&amp;aacute;c lĩnh vực thiết kế v&amp;agrave; x&amp;acirc;y c&amp;aacute;c dự &amp;aacute;n trọng điểm của tập đo&amp;agrave;n Mavin trong c&amp;aacute;c lĩnh vực thiết kế v&amp;agrave; Mavin, C&amp;ocirc;ng ty cổ Phần Mavinex được biết đến l&amp;agrave; đơn vị triển khai thi c&amp;ocirc;ng c&amp;aacute;c dự &amp;aacute;n trọng điểm của tập đo&amp;agrave;n Mavin trong c&amp;aacute;c lĩnh vực thiết kế v&amp;agrave; x&amp;acirc;y Mavin, C&amp;ocirc;ng ty cổ Phần Mavinex được biết đến l&amp;agrave; đơn vị triển khai thi c&amp;ocirc;ng c&amp;aacute;c dự &amp;aacute;n trọng điểm của tập đo&amp;agrave;n Mavin trong c&amp;aacute;c lĩnh vực thiết kế v&amp;agrave; x&amp;acirc;y dựng c&amp;aacute;c nh&amp;agrave; m&amp;aacute;y thức ăn chăn nu&amp;ocirc;i, thiết kế v&amp;agrave; x&amp;acirc;y dựng c&amp;aacute;c trang trại .....&lt;/p&gt;
+&lt;p style="box-sizing: border-box; margin: 0px 0px 0.75rem; padding: 0px; line-height: 1.5;"&gt;&lt;br style="box-sizing: border-box; margin: 0px; padding: 0px;" /&gt;&lt;/p&gt;
+&lt;p style="box-sizing: border-box; margin: 0px 0px 0.75rem; padding: 0px; line-height: 1.5;"&gt;Được th&amp;agrave;nh lập từ năm 2017, với tiền th&amp;acirc;n l&amp;agrave; Ph&amp;ograve;ng dự &amp;aacute;n của Tập đo&amp;agrave;n Mavin, C&amp;ocirc;ng ty cổ Phần Mavinex được biết đến l&amp;agrave; đơn vị triển khai thi c&amp;ocirc;ng c&amp;aacute;c dự &amp;aacute;n trọng điểm của tập đo&amp;agrave;n Mavin trong c&amp;aacute;c lĩnh vực thiết kế v&amp;agrave; x&amp;acirc;yc&amp;aacute;c dự &amp;aacute;n trọng điểm của tập đo&amp;agrave;n Mavin trong c&amp;aacute;c lĩnh vực thiết kế v&amp;agrave; Mavin, C&amp;ocirc;ng ty cổ Phần Mavinex được biết đến l&amp;agrave; đơn vị triển khai thi c&amp;ocirc;ng c&amp;aacute;c dự &amp;aacute;n trọng điểm của tập đo&amp;agrave;n Mavin trong c&amp;aacute;c lĩnh vực thiết kế v&amp;agrave; x&amp;acirc;y Mavin, C&amp;ocirc;ng ty cổ Phần Mavin&amp;nbsp;&lt;/p&gt;
+&lt;p style="box-sizing: border-box; margin: 0px 0px 0.75rem; padding: 0px; line-height: 1.5;"&gt;&lt;br style="box-sizing: border-box; margin: 0px; padding: 0px;" /&gt;&lt;/p&gt;
+&lt;p style="box-sizing: border-box; margin: 0px 0px 0.75rem; padding: 0px; line-height: 1.5;"&gt;&lt;br style="box-sizing: border-box; margin: 0px; padding: 0px;" /&gt;&lt;/p&gt;
+&lt;p style="box-sizing: border-box; margin: 0px 0px 0.75rem; padding: 0px; line-height: 1.5;"&gt;Nguồn: Mavin Group&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;a class="mt-3 rounded-0" style="box-sizing: border-box; padding: 0px; font-family: UVF-DINPro; color: #333333; text-decoration-line: none; background-color: #ffffff; cursor: pointer; outline: none; font-size: 14px; border-radius: 0px !important; margin: 1rem !important 0px 0px 0px;" href="http://localhost:8080/tin-tuc"&gt;&amp;nbsp;&lt;span class="mr-1 text--italic" style="box-sizing: border-box; padding: 0px; line-height: 1.5; font-style: italic; color: #00549a; margin: 0px 0.25rem !important 0px 0px;"&gt;Quay lại trang tin tức&lt;/span&gt;&lt;/a&gt;&lt;br /&gt;&lt;/p&gt;</content_html>
+	<createdDate>2020-06-08T03:50:59.895Z</createdDate>
+	<createdDate_dt>2020-06-07T04:00:00.000Z</createdDate_dt>
+	<lastModifiedDate>2020-06-10T09:18:03.309Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-06-10T09:18:03.309Z</lastModifiedDate_dt>
+	<createdDate_dt_tz>EST5EDT</createdDate_dt_tz>
+</page>

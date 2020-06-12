@@ -10,9 +10,11 @@
   <div class="content__details container text-white">
       <div class="row">
         <div class="col-lg6 col-md-6 col-sm-6 col-6" style="padding: 15px;">
-            <#list jobs as job>
-            	<p class="list-job__item">${job.title}</p>
-            </#list>
+            <#if (jobs)??>
+                <#list jobs as job>
+                	<p class="list-job__item">${job.title}</p>
+                </#list>
+            </#if>
             <div class="seemore_btn" style="margin-top: 2em">
                 <a class="mt-3 rounded-0" href="/tuyen-dung"> 
                     <span class="mr-1">Xem thêm</span>
