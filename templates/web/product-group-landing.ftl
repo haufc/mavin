@@ -89,6 +89,7 @@
                 $('.product-child-en').css('display', 'none');
                 $('title').text( $('.title-vn').text());
                 $('.list-product-en').css('display', 'none');
+                $('.pg-en').css('display', 'none');
                 
                 //Panigate
                 //var lstContent = $('.row').find('.content__details');
