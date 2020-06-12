@@ -102,7 +102,7 @@
                 
                 var groupProductSize = $('#group-pr-length').val();
                 for(let i = 0; i < groupProductSize; i++) {
-                    var groupItem = $('group-pr-'+i).find('.list-product-vn a');
+                    var groupItem = $('.group-pr-'+i).find('.list-product-vn a');
                     console.log(groupItem);
                 }
                 
