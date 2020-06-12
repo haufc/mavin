@@ -46,28 +46,29 @@
 	<itemId_s>fields</itemId_s>
 	<createdDate>2020-04-16T08:52:57.182Z</createdDate>
 	<createdDate_dt>2020-04-16T08:52:57.182Z</createdDate_dt>
-	<lastModifiedDate>2020-04-24T04:02:31.174Z</lastModifiedDate>
-	<lastModifiedDate_dt>2020-04-24T04:02:31.174Z</lastModifiedDate_dt>
+	<lastModifiedDate>2020-06-12T02:14:07.953Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-06-12T02:14:07.953Z</lastModifiedDate_dt>
 	<carousels_o item-list="true">	<item datasource="carouselsDataSource">	<key>/site/items/carousel/a055e5f0-ef72-9ad4-e747-2781cf9bbef5.xml</key>
 	<value>CarouselsFields</value>
 	<include>/site/items/carousel/a055e5f0-ef72-9ad4-e747-2781cf9bbef5.xml</include>
 	<disableFlattening>false</disableFlattening>
 	</item></carousels_o>
-	<itemContent_html>&lt;p style="box-sizing: border-box; margin: 0px 0px 1rem; padding: 0px; font-size: 25px; color: #ffffff; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'; text-size-adjust: auto;"&gt;&lt;span style="font-size: 14pt;"&gt;Với thế mạnh trong lĩnh vực thi c&amp;ocirc;ng x&amp;acirc;y dựng, C&amp;ocirc;ng ty Cổ phần Mavinex đ&amp;atilde; v&amp;agrave; đang tạo niềm tin đối với kh&amp;aacute;ch h&amp;agrave;ng bằng việc x&amp;acirc;y dựng những c&amp;ocirc;ng tr&amp;igrave;nh chất lượng, quy m&amp;ocirc;, đạt đẳng cấp quốc tế.&lt;/span&gt;&lt;/p&gt;
-&lt;p style="box-sizing: border-box; margin: 0px 0px 1rem; padding: 0px; font-size: 25px; color: #ffffff; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'; text-size-adjust: auto;"&gt;&lt;span style="font-size: 14pt;"&gt;Mavinex l&amp;agrave; tập thể c&amp;aacute;c kỹ sư, kiến tr&amp;uacute;c sư d&amp;agrave;y dặn kinh nghiệm v&amp;agrave; c&amp;aacute;c c&amp;ocirc;ng nh&amp;acirc;n l&amp;agrave;nh nghề lu&amp;ocirc;n đặt hết t&amp;acirc;m huyết v&amp;agrave;o trong từng c&amp;ocirc;ng tr&amp;igrave;nh x&amp;acirc;y dựng. Ch&amp;uacute;ng t&amp;ocirc;i cũng sở hữu c&amp;aacute;c trang thiết bị v&amp;agrave; m&amp;aacute;y m&amp;oacute;c tối t&amp;acirc;n để kiểm tra c&amp;aacute;c chi tiết kỹ thuật thi c&amp;ocirc;ng đảm bảo ti&amp;ecirc;u chuẩn chất lượng v&amp;agrave; t&amp;iacute;nh ch&amp;iacute;nh x&amp;aacute;c.&lt;/span&gt;&lt;/p&gt;</itemContent_html>
+	<itemContent_html>&lt;p style="text-align: justify;"&gt;&lt;!-- [if !supportLists]--&gt;&lt;span style="color: #ffffff; font-size: 14pt;"&gt;Với thế mạnh trong lĩnh vực thi c&amp;ocirc;ng x&amp;acirc;y dựng c&amp;aacute;c nh&amp;agrave; m&amp;aacute;y chế biến thức ăn chăn nu&amp;ocirc;i, C&amp;ocirc;ng ty Cổ phần Mavinex đ&amp;atilde; v&amp;agrave; đang tạo niềm tin đối với kh&amp;aacute;ch h&amp;agrave;ng bằng việc x&amp;acirc;y dựng những nh&amp;agrave; m&amp;aacute;y quy m&amp;ocirc;, chất lượng, đạt đẳng cấp quốc tế.&lt;/span&gt;&lt;/p&gt;
+&lt;p style="text-align: justify;"&gt;&lt;span style="color: #ffffff; font-size: 14pt;"&gt;Với đội ngũ kỹ sư gi&amp;agrave;u kinh nghiệm c&amp;ugrave;ng đội ngũ c&amp;ocirc;ng nh&amp;acirc;n l&amp;agrave;nh nghề lu&amp;ocirc;n đặt hết t&amp;acirc;m huyết v&amp;agrave;o trong từng c&amp;ocirc;ng tr&amp;igrave;nh, từng dự &amp;aacute;n.&lt;/span&gt;&lt;/p&gt;
+&lt;p style="text-align: justify;"&gt;&lt;span style="color: #ffffff; font-size: 14pt;"&gt;Ch&amp;uacute;ng t&amp;ocirc;i mang tới những c&amp;ocirc;ng nghệ hiện đại đảm bảo c&amp;aacute;c c&amp;ocirc;ng tr&amp;igrave;nh, dự &amp;aacute;n ho&amp;agrave;n th&amp;agrave;nh theo đ&amp;uacute;ng tiến độ với hiệu quả đầu tư cao.&lt;/span&gt;&lt;/p&gt;</itemContent_html>
 	<groupTitle_s>MAVINEX CAM KẾT:</groupTitle_s>
-	<group_o item-list="true">	<item>	<groupContent_s>Chất lượng công trình là tiêu chí hàng đầu tạo sự tin tưởng cho khách hàng</groupContent_s>
-	</item>	<item>	<groupContent_s>Chi phí hợp lý với mặt bằng chung của thị trường</groupContent_s>
-	</item>	<item>	<groupContent_s>Tiến độ cam kết đúng hẹn</groupContent_s>
-	</item>	<item>	<groupContent_s>Đồng hành cùng khách hàng trong suốt quá trình sử dụng</groupContent_s>
-	</item>	<item>	<groupContent_s>Đảm bảo vật tư đúng và đủ đáp ứng chất lượng công trình sau khi đưa vào sử dụng</groupContent_s>
+	<group_o item-list="true">	<item>	<groupContent_s>Chất lượng công trình là tiêu chí hàng đầu tạo sự tin tưởng cho khách hàng.</groupContent_s>
+	</item>	<item>	<groupContent_s>Công nghệ tiên tiến theo kịp xu hướng thời đại.</groupContent_s>
+	</item>	<item>	<groupContent_s>Chi phí đầu tư hợp lý với mặt bằng chung của thị trường</groupContent_s>
+	</item>	<item>	<groupContent_s>Cam kết tiến độ thi công.</groupContent_s>
+	</item>	<item>	<groupContent_s>Đồng hành cùng khách hàng trong suốt quá trình sử dụng.</groupContent_s>
 	</item></group_o>
 	<carouselTitle_s>MỘT SỐ DỰ ÁN TIÊU BIỂU MAVINEX ĐÃ THỰC HIỆN</carouselTitle_s>
 </component>
 	</item></sections_o>
 	<createdDate>2020-04-01T06:27:57.672Z</createdDate>
 	<createdDate_dt>2020-04-01T06:27:57.672Z</createdDate_dt>
-	<lastModifiedDate>2020-04-27T08:11:46.656Z</lastModifiedDate>
-	<lastModifiedDate_dt>2020-04-27T08:11:46.656Z</lastModifiedDate_dt>
+	<lastModifiedDate>2020-06-12T02:14:03.538Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-06-12T02:14:03.538Z</lastModifiedDate_dt>
 	<descripttion_t>Đây là trang đề cập đến năng lực của công ty trong các lĩnh vực đang hoạt động</descripttion_t>
 </page>
