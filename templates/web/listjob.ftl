@@ -16,7 +16,7 @@
                 </#list>
             </#if>
             <div class="seemore_btn" style="margin-top: 2em">
-                <a class="mt-3 rounded-0" href="${contentModel.url}"> 
+                <a class="mt-3 rounded-0" href="${contentModel.urlListJobs_s}"> 
                     <span class="mr-1 span-view-more">Xem thêm</span>
                     <i class="fas fa-play text--red"></i>
                 </a>
