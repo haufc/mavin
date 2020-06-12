@@ -91,13 +91,20 @@
                 $('.list-product-en').css('display', 'none');
                 
                 //Panigate
-                var lstContent = $('.row').find('.content__details');
-                var lstChildren = [];
-                var lstText = [];
-                for(let i = 0; i < lstContent.length; i++) {
-                    lstChildren.push($(lstContent[i]).find('.list-product-vn').children());
-                }
+                //var lstContent = $('.row').find('.content__details');
+                //var lstChildren = [];
+                //var lstText = [];
+                // for(let i = 0; i < lstContent.length; i++) {
+                //    lstChildren.push($(lstContent[i]).find('.list-product-vn').children());
+                //}
                 
+                //---------------------------
+                
+                var groupProductSize = $('#group-pr-length').val();
+                for(let i = 0; i < groupProductSize; i++) {
+                    var groupItem = $('group-pr-'+i).find('.list-product-vn a');
+                    console.log(groupItem);
+                }
                 
             }
         });
