@@ -31,9 +31,26 @@
 	<lastModifiedDate>2020-06-12T07:07:56.474Z</lastModifiedDate>
 	<lastModifiedDate_dt>2020-06-12T07:07:56.474Z</lastModifiedDate_dt>
 </component>
+	</item>	<item datasource="sections" inline="true">	<key>8f1e11b4-9513-f1e0-eb78-ba42c459dd32</key>
+	<value>News</value>
+<component id="8f1e11b4-9513-f1e0-eb78-ba42c459dd32">
+	<content-type>/component/componentenlistnews</content-type>
+	<display-template/>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>8f1e</objectGroupId>
+	<objectId>8f1e11b4-9513-f1e0-eb78-ba42c459dd32</objectId>
+	<file-name>8f1e11b4-9513-f1e0-eb78-ba42c459dd32.xml</file-name>
+	<internal-name>News</internal-name>
+	<title_s>News</title_s>
+	<createdDate>2020-06-12T07:31:52.518Z</createdDate>
+	<createdDate_dt>2020-06-12T07:31:52.518Z</createdDate_dt>
+	<lastModifiedDate>2020-06-12T07:31:52.518Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-06-12T07:31:52.518Z</lastModifiedDate_dt>
+</component>
 	</item></sections_o>
 	<createdDate>2020-06-12T07:02:54.498Z</createdDate>
 	<createdDate_dt>2020-06-12T07:02:54.498Z</createdDate_dt>
-	<lastModifiedDate>2020-06-12T07:30:35.488Z</lastModifiedDate>
-	<lastModifiedDate_dt>2020-06-12T07:30:35.488Z</lastModifiedDate_dt>
+	<lastModifiedDate>2020-06-12T07:31:35.053Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-06-12T07:31:35.053Z</lastModifiedDate_dt>
 </page>
