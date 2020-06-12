@@ -136,11 +136,28 @@
                             $('.group-pr-0 .list-product-vn .item-pr').hide();
                             var total = limitperPage * currentPage;
                             for(let z = total - limitperPage; z<total; z++){
-                                $('.group-pr-0 .list-product-vn .item-pr').eq(z).show();
+                                $('.group-pr-'+ i +' .list-product-vn .item-pr').eq(z).show();
                             }
                         }
                     });
-                    }
+                    
+                  /*  $("#next-page1").on("click", function() {
+                      var currentPage = $(".pagination li.active").index(); 
+                      if (currentPage === totalPages1) {
+                        return false; 
+                      } else {
+                        currentPage++; 
+                        $(".pagi1 li").removeClass('active'); 
+                        $("#mavinex-news .mavinex").hide();
+                        var total = limitPerPage * currentPage; 
+                        for (let i = total - limitPerPage; i < total; i++) {
+                          $("#mavinex-news .mavinex:eq(" + i + ")").show(); 
+                        }
+                    
+                        $(".pagi1 li.current-page:eq(" + (currentPage -1) + ")").addClass('active'); 
+                      }
+                    });    */
+                }
                     
                   
                 }
