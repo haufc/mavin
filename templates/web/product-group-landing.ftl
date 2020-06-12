@@ -132,7 +132,7 @@
                             var currentPage = $(this).index();
                             $('.group-pr-' + i + ' .paginate #pagi-'+ i +' li').removeClass("active");
                             $(this).addClass("active");
-                            ('.group-pr-0 .list-product-vn .item-pr').hide();
+                            $('.group-pr-0 .list-product-vn .item-pr').hide();
                             var total = limitperPage * currentPage;
                             for(let z = total - limitperPage; z<total; z++){
                                 $(groupItemDiv[z]).css('display','table-cell');
