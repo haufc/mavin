@@ -108,7 +108,7 @@
                     var groupItem = $('.group-pr-'+i).find('.list-product-vn .item-pr a');
                     var groupItemDiv = $('.group-pr-'+i).find('.list-product-vn .item-pr');
                     $('.group-pr-'+i+' .paginate ul').attr('id', 'pagi-'+i);
-                    $('.group-pr-'+i+' .paginate ul').find('li').attr('id', 'paig-item-'+i);
+                    $('.group-pr-'+i+' .paginate ul').find('li').attr('id', 'prevous-item-'+i);
                     
                     // hiden element over limitperPage
                     if (numberOfGroupItem > limitperPage) {
