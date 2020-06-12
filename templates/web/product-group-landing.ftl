@@ -105,12 +105,21 @@
                 for(let i = 0; i < groupProductSize; i++) {
                     var numberOfGroupItem = $('.group-pr-'+i).find('.list-product-vn a').length;
                     var groupItem = $('.group-pr-'+i).find('.list-product-vn a');
-                   // $('.group-pr-'+ i + ' .list-product-vn a:gt(' + (limitperPage - 1) + ')').hide();
+                    
+                    // hiden element over limitperPage
                     if (numberOfGroupItem > limitperPage) {
                         for(let j = limitperPage; j <  numberOfGroupItem; j++) {
                             $(groupItem[j]).attr("style", "display: none !important");
                         }
                     }
+                    
+                    var totalPages = Math.round(numberOfGroupItem / limitPerPage );
+                    $('.group-pr-' + i + ' paginate pagi').append("<li class='page-item current-page active'><a class='page-link' href='javacript:void(0)'>"+ 1+"</a></li>");
+                    for (let i=2; i<= totalPages;i++){
+                         $('.group-pr-' + i + ' paginate pagi').append("<li class='page-item current-page'><a class='page-link' href='javascript:void(0)'>"+ i +"</a></li>");
+                    }
+                    
+                    $('.group-pr-' + i + ' paginate pagi').append("<li id='next-page1' class='page-item'><a class='page-link' href='javascript:void(0)'><span class='fas fa-angle-right'></a></li>");
                 }
                 
             }
