@@ -135,7 +135,7 @@
                             $('.group-pr-0 .list-product-vn .item-pr').hide();
                             var total = limitperPage * currentPage;
                             for(let z = total - limitperPage; z<total; z++){
-                                $(groupItemDiv).eq(z).css('display','block');
+                                $(groupItemDiv).eq(z).show();
                             }
                         }
                     });
