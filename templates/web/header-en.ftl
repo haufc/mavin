@@ -33,7 +33,7 @@
                 <a class="mavinex-nav__link" href="/tu-van-tong-the">Tư vấn tổng thể và thiết kế trang trại chăn nuôi</a>
                 </div>
             </div>
-            <a class="mavinex-nav__link" href="/co-hoi-nghe-nghiep">Job</a>
+            <a class="mavinex-nav__link" href="/en/career-opportunities">Job</a>
             <a class="mavinex-nav__link" href="/en/contact">Contact</a>
         </div>
 
