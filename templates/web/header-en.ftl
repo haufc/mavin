@@ -25,7 +25,7 @@
                 <a class="mavinex-nav__link" href="/en/group-product/animal-feed-processing">Animal feed processing</a>
                 </div>
             </div>
-            <a class="mavinex-nav__link" href="en/news">News</a>
+            <a class="mavinex-nav__link" href="/en/news">News</a>
             <div class="dropdown">
             <a class="mavinex-nav__link" href="/en/capability">Capability</a>
                 <div class="dropdown-content">
