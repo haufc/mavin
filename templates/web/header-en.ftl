@@ -25,12 +25,12 @@
                 <a class="mavinex-nav__link" href="/en/group-product/animal-feed-processing">Animal feed processing</a>
                 </div>
             </div>
-            <a class="mavinex-nav__link" href="/tin-tuc">News</a>
+            <a class="mavinex-nav__link" href="/en/news">News</a>
             <div class="dropdown">
-            <a class="mavinex-nav__link" href="/nang-luc-kinh-nghiem">Experience</a>
+            <a class="mavinex-nav__link" href="/en/capability">Capability</a>
                 <div class="dropdown-content">
-                <a class="mavinex-nav__link" href="/linh-vuc-xay-dung">Lĩnh vực xây dựng</a>
-                <a class="mavinex-nav__link" href="/tu-van-tong-the">Tư vấn tổng thể và thiết kế trang trại chăn nuôi</a>
+                <a class="mavinex-nav__link" href="/en/building-sector">Building sector</a>
+                <a class="mavinex-nav__link" href="/en/overall-consulting--livestock-farm-design">Overall consulting, livestock farm design</a>
                 </div>
             </div>
             <a class="mavinex-nav__link" href="/en/career-opportunities">Job</a>
