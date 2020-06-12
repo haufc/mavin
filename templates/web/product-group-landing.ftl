@@ -190,7 +190,12 @@
                             $(groupItemDiv[j]).hide();
                         }
                         
-                    var totalPages = Math.round(numberOfGroupItem / limitperPage ) + 1;
+                    var totalPages;
+                    if ((numberOfGroupItem / limitperPage) % 2 == 0) {
+                       totalPages =  Math.round(numberOfGroupItem / limitperPage );
+                    } else {
+                        totalPages =  Math.round(numberOfGroupItem / limitperPage ) + 1;
+                    }
                     
                     $('.group-pr-' + i + ' .paginate #pagi-'+i).append("<li class='page-item current-page active'><a class='page-link' href='javacript:void(0)'>"+ 1+"</a></li>");
                     for (let j=2; j<= totalPages;j++){
