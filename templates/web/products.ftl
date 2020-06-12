@@ -61,7 +61,7 @@
                                     <a href="${item.pLink4_s}">
                                     <div class="mavinex-products__item-title mavinex-products__item-title--bg-red">
                                         <div class="mavinex-products__item-text">
-                                            <h4 style="font-weight: bold; font-family: UVF-DINPro Bold;">${item.pTittle4_s}</h4>
+                                            <h5 style="font-weight: bold; font-family: UVF-DINPro Bold;">${item.pTittle4_s}</h5>
                                         </div>
                                     </div>
                                     
