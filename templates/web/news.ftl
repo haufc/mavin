@@ -4,7 +4,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-12">
-                  <h1 class="text--red">Tin Mavinex</h1>
+                  <h1 class="text--red tittle-vn">Tin Mavinex</h1>
+                  <h1 class="text--red tittle-en">Mavinex News</h1>
                 </div>
             </div>
         </div>
@@ -19,7 +20,8 @@
                         <a class="mt-3 rounded-0" href="${aNews.url}">
                         <h4 style="color: #fff; padding-top: 20px;"  style="padding-top:9px;">${aNews.title}</h4>
                         <p style="color: #fff; padding-top: 10px;" class="limit-text" max-length="50">${aNews.content}<p>
-                            <span class="mr-1 text--italic" style="color:#fff">Xem tiếp</span>
+                            <span class="mr-1 text--italic tittle-vn" style="color:#fff">Xem tiếp</span>
+                            <span class="mr-1 text--italic tittle-en" style="color:#fff">See more</span>
                             <i class="fa fa-play text--red"></i>
                         </a>
                     </div>
@@ -37,7 +39,8 @@
             <div class="container">
                 <div class="row">
                         <div class="col-lg-12 col-md-12 col-sm-12 col-12">
-                          <h1 class="text--red">Tin ngành</h1>
+                          <h1 class="text--red tittle-vn">Tin ngành</h1>
+                          <h1 class="text--red tittle-en">Field News</h1>
                         </div>
                 </div>
             </div>
@@ -52,7 +55,8 @@
                         <a class="mt-3 rounded-0" href="${aNews.url}">
                         <h4 style="color: #fff; padding-top: 20px;"  style="padding-top:9px;">${aNews.title}</h4>
                         <p style="color: #fff; padding-top: 10px;" class="limit-text">${aNews.content}<p>
-                            <span class="mr-1 text--italic" style="color:#fff">Xem tiếp</span>
+                            <span class="mr-1 text--italic tittle-vn" style="color:#fff">Xem tiếp</span>
+                            <span class="mr-1 text--italic tittle-en" style="color:#fff">See more</span>
                             <i class="fa fa-play text--red"></i>
                         </a>
                     </div>
