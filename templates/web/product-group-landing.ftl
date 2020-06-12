@@ -96,9 +96,9 @@
                 }
                 console.log(lstChildren);
                 for(let i = 0; i < lstChildren.length; i++) {
-                    console.log(lstChildren[i]);
+                    lstText = $('lstChildren[i]').find('a');
                 }
-                
+                console.log(lstText);
             }
         });
         
