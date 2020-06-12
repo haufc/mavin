@@ -32,7 +32,9 @@
             <div class="row">
             <#if (contentModel.section_o.item)?? && contentModel.section_o??>
                 <#list (contentModel.section_o.item)![] as section>
-                    <@renderComponent parent=contentModel component=section />
+                    <div class="group-pr- ${section?index}">
+                        <@renderComponent parent=contentModel component=section />
+                    </div>
                 </#list>
             </#if>
             </div>
