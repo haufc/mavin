@@ -557,6 +557,7 @@ img {
     		$(".wish-icon i").click(function(){
     			$(this).toggleClass("fa-heart fa-heart-o");
     		});
+    		document.title = $('#product-group').text();
     	});	
     	
     	var key = $('#txt-key').val();
@@ -565,7 +566,6 @@ img {
     	
     	// set content change when language changed
     	if (url.indexOf('/en') > -1) {
-    	    document.title = $('#product-group').text();
     	    $('.product-name-vn').css('display', 'none');
     	    $('.product-related').text('Similar product');
     	    $('.report-price').text('Request a quote');
@@ -576,7 +576,6 @@ img {
     	    }
     	    
     	} else {
-    	     document.title = $('#product-group').text();
     	     $('.product-name-en').css('display', 'none');
     	     $('.product-desc-en').css('display', 'none');
     	     $('.product-similar-en').css('display', 'none');
