@@ -46,7 +46,6 @@
                             <div class="item-pr"><a style="font-size: 16px;" class="text-white d-block pn-pr-en" ></a>e</div>
                             <div class="item-pr"><a style="font-size: 16px;" class="text-white d-block pn-pr-en" ></a>e</div>
                             <div class="item-pr"><a style="font-size: 16px;" class="text-white d-block pn-pr-en" ></a>e</div> 
-                            <div class="item-pr"><a style="font-size: 16px;" class="text-white d-block pn-pr-en" ></a>e</div>
                         </div>
                         <ul class="pagination pagi pg-en mt-3" >
                             <li class="page-item previous-page"><a class="page-link" href="javacript:void(0)"><span class="fas fa-angle-left"></a></li>
