@@ -97,7 +97,7 @@
                     $('.pg-vn').css('display', 'none');
                     
                     if(numberOfGroupItem == 0) {
-                        
+                        $('#no-result').text("There're no data for this group product.");
                     }
                     // hiden element over limitperPage
                     if (numberOfGroupItem > limitperPage) {
@@ -190,6 +190,9 @@
                     $('.group-pr-'+i+' .paginate ul').attr('id', 'pagi-'+i);
                     $('.group-pr-'+i+' .paginate ul').find('li').attr('id', 'prevous-item-'+i);
                     
+                    if(numberOfGroupItem == 0) {
+                        $('#no-result').text('Không có dữ liệu cho nhóm sản phẩm này.');
+                    }
                     // hiden element over limitperPage
                     if (numberOfGroupItem > limitperPage) {
                         for(let j = limitperPage; j <  numberOfGroupItem; j++) {
