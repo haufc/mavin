@@ -96,6 +96,9 @@
                     $('.group-pr-'+i+' .paginate ul').find('li').attr('id', 'prevous-item-'+i);
                     $('.pg-vn').css('display', 'none');
                     
+                    if(numberOfGroupItem == 0) {
+                        
+                    }
                     // hiden element over limitperPage
                     if (numberOfGroupItem > limitperPage) {
                         for(let j = limitperPage; j <  numberOfGroupItem; j++) {
