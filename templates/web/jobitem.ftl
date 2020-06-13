@@ -33,7 +33,7 @@
             <div class="content__details container">
                 <div class="row">
                         <div class="col-lg-6 col-md-6 col-sm-6 col-6 text-white" style="padding: 15px;">
-                            <p style="color:#fff; font-size:14pt;">Hình thức tuyển dụng: ${contentModel.type_s}</p>
+                            <p style="color:#fff; font-size:14pt;" class="job-type">Hình thức tuyển dụng: ${contentModel.type_s}</p>
                             <#if (contentModel.item_o.item)??>
                                 <#list contentModel.item_o.item as element>
                                     <p style="color:#fff; font-size:14pt; font-weight: bold">${element.title_s}</p>
@@ -75,7 +75,8 @@
             $('.footer-issued-date').text('Date of license: ');
             $('.footer-item__social--title').text('Contact us');
             $('.headquarter').text('Headquarter: ');
-            $('.footer-issued-by').text('Issued by: ')
+            $('.footer-issued-by').text('Issued by: ');
+            $('.job-type').text('Type: ');
         }
     </script>
   </body>
