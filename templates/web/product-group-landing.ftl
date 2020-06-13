@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="/static-assets/plugins/bootstrap-select1139/dist/css/bootstrap-select.min.css"/>
     <link rel="stylesheet" href="/static-assets/css/styles.css"/>
     <link rel="stylesheet" href="/static-assets/css/mavinex.css"/>
-    <title>${contentModel.product_title_s}</title>
+    <title></title>
     <style>
         .page-link{
             border-radius :50% !important;
@@ -69,9 +69,9 @@
     <script src="/static-assets/js/script.js"></script>
     <script>
         $(document).ready(function(){
-            var title= $('')
             var url = window.location.href;
             if (url.indexOf('/en') > -1) {
+                document.title = $('.title-en').text();
                 $('.list-product-vn').css('display', 'none');
                 $('.tittle-vn').css('display', 'none');
                 $('.title-en').css('display', 'block');
@@ -172,6 +172,7 @@
                 
                 
             } else {
+                document.title = $('.tittle-vn').text();
                 $('.tittle-vn').css('display', 'block');
                 $('.title-en').css('display', 'none');
                 $('.product-child-vn').css('display', 'block');
