@@ -9,8 +9,8 @@
 	<file-name>index.xml</file-name>
 	<folder-name>mechanic</folder-name>
 	<internal-name>Agricultural equipment salesman</internal-name>
-	<navLabel>Mechanic</navLabel>
-	<title_s>Mechanic</title_s>
+	<navLabel>Agricultural equipment salesman</navLabel>
+	<title_s>Agricultural equipment salesman</title_s>
 	<type_s>Fulltime</type_s>
 	<placeInNav>false</placeInNav>
 	<orderDefault_f>-1</orderDefault_f>
@@ -60,8 +60,8 @@
 	</item></item_o>
 	<createdDate>2020-06-11T04:08:44.686Z</createdDate>
 	<createdDate_dt>2020-06-11T04:08:44.686Z</createdDate_dt>
-	<lastModifiedDate>2020-06-13T02:09:26.675Z</lastModifiedDate>
-	<lastModifiedDate_dt>2020-06-13T02:09:26.675Z</lastModifiedDate_dt>
+	<lastModifiedDate>2020-06-13T02:10:57.810Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-06-13T02:10:57.810Z</lastModifiedDate_dt>
 	<duration_dt>2020-06-30T04:00:00.000Z</duration_dt>
 	<duration_dt_tz>EST5EDT</duration_dt_tz>
 </page>
