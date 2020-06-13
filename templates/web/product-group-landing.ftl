@@ -90,7 +90,7 @@
                 
                 // Panigation
                 var groupProductSize = $('#group-pr-length').val();
-                var limitperPage = 6;
+                var limitperPage = 10;
                 for(let i = 0; i < groupProductSize; i++) {
                     var numberOfGroupItem = $('.group-pr-'+i).find('.list-product-en .item-pr a').length;
                     var groupItem = $('.group-pr-'+i).find('.list-product-en .item-pr a');
@@ -182,7 +182,7 @@
                 
                 // Panigation
                 var groupProductSize = $('#group-pr-length').val();
-                var limitperPage = 6;
+                var limitperPage = 10;
                 for(let i = 0; i < groupProductSize; i++) {
                     var numberOfGroupItem = $('.group-pr-'+i).find('.list-product-vn .item-pr a').length;
                     var groupItem = $('.group-pr-'+i).find('.list-product-vn .item-pr a');
