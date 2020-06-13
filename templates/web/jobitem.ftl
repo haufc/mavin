@@ -33,7 +33,7 @@
             <div class="content__details container">
                 <div class="row">
                         <div class="col-lg-6 col-md-6 col-sm-6 col-6 text-white" style="padding: 15px;">
-                            <span style="color:#fff; font-size:14pt;" class="job-type">Hình thức tuyển dụng:</span><span>${contentModel.type_s}</span>
+                            <span style="color:#fff; font-size:14pt;font-weight: bold" class="job-type">Hình thức tuyển dụng:</span><span>${contentModel.type_s}</span>
                             <#if (contentModel.item_o.item)??>
                                 <#list contentModel.item_o.item as element>
                                     <p style="color:#fff; font-size:14pt; font-weight: bold">${element.title_s}</p>
