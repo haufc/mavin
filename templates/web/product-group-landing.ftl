@@ -96,7 +96,7 @@
                     $('.group-pr-'+i+' .paginate ul').find('li').attr('id', 'prevous-item-'+i);
                     $('.pg-vn').css('display', 'none');
                     
-                    if(numberOfGroupItem == 0) {
+                    if(numberOfGroupItem == undefined) {
                         $('#no-result').text("There're no data for this group product.");
                     }
                     // hiden element over limitperPage
@@ -190,7 +190,7 @@
                     $('.group-pr-'+i+' .paginate ul').attr('id', 'pagi-'+i);
                     $('.group-pr-'+i+' .paginate ul').find('li').attr('id', 'prevous-item-'+i);
                     
-                    if(numberOfGroupItem == 0) {
+                    if(numberOfGroupItem == undefined) {
                         $('#no-result').text('Không có dữ liệu cho nhóm sản phẩm này.');
                     }
                     // hiden element over limitperPage
