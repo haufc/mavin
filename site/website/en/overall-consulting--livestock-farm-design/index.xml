@@ -11,7 +11,7 @@
 	<placeInNav>false</placeInNav>
 	<orderDefault_f>-1</orderDefault_f>
 	<sections_o item-list="true">	<item datasource="sections" inline="true">	<key>8586b711-6463-e1bf-aad7-135a89d2bda9</key>
-	<value>Overall consulting, livestock farm design</value>
+	<value>Design and overall solution for livestock farm</value>
 <component id="8586b711-6463-e1bf-aad7-135a89d2bda9">
 	<content-type>/component/componentfields</content-type>
 	<display-template>/templates/web/fields.ftl</display-template>
@@ -20,35 +20,34 @@
 	<objectGroupId>8586</objectGroupId>
 	<objectId>8586b711-6463-e1bf-aad7-135a89d2bda9</objectId>
 	<file-name>8586b711-6463-e1bf-aad7-135a89d2bda9.xml</file-name>
-	<internal-name>Overall consulting, livestock farm design</internal-name>
-	<title_s>Overall consulting, livestock farm design</title_s>
-	<itemTitle_s>Overall consulting, livestock farm design</itemTitle_s>
+	<internal-name>Design and overall solution for livestock farm</internal-name>
+	<title_s>Design and overall solution for livestock farm</title_s>
+	<itemTitle_s>Design and overall solution for livestock farm</itemTitle_s>
 	<itemId_s>fieldsen</itemId_s>
-	<groupTitle_s>Design of cages</groupTitle_s>
+	<groupTitle_s>Provide overall solution</groupTitle_s>
 	<carouselTitle_s>SOME PICTURES OF OVERALL DESIGNS OF THE FACTORY AND FARMS</carouselTitle_s>
 	<carousels_o item-list="true">	<item datasource="carouselsDataSource">	<key>/site/items/c7ca3b1a-a986-39b7-0b61-3c1992df3f6b.xml</key>
 	<value>Carousel</value>
 	<include>/site/items/c7ca3b1a-a986-39b7-0b61-3c1992df3f6b.xml</include>
 	<disableFlattening>false</disableFlattening>
 	</item></carousels_o>
-	<itemContent_html>&lt;p class="MsoNormal"&gt;&lt;span style="color: #ffffff; font-size: 18pt;"&gt;&lt;em style="mso-bidi-font-style: normal;"&gt;&lt;span style="line-height: 115%;"&gt;General consultancy for factories and farms&lt;/span&gt;&lt;/em&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p class="MsoNormal"&gt;&lt;span style="font-size: 18pt; color: #ffffff;"&gt;Mavinex is a contractor specializing in overall consultancy, arrangement of premises for animal feed factories, and large and small scale breeding facilities in the whole country. From overall design to architectural design, structure, electricity and water systems ... for factories, farms ensure compliance with technical standards.&lt;/span&gt;&lt;/p&gt;
-&lt;p class="MsoNormal"&gt;&lt;span style="font-size: 18pt; line-height: 115%; color: #ffffff;"&gt;Mavinex brings professional and synchronized breeding solutions and equipment. Together with our technical team, we have the best solution for investment, how to apply science and technology and implement the proper breeding - management process, how to choose materials to ensure enough breeding facilities. standards, ventilation, heat escape, energy saving and care efforts, especially to minimize the risk of invasive diseases, instability and unsafe.&lt;/span&gt;&lt;/p&gt;
-&lt;p class="MsoNormal"&gt;&lt;span style="font-size: 18pt; line-height: 115%; color: #ffffff;"&gt;Currently Mavinex has been consulting the ground, providing equipment for many factories, farms raising pigs, chickens and ducks across the provinces in the country: Thai Binh, Phu Tho, Bac Ninh, Hoa Binh, Hung Yen, Bac Giang, Hai Duong, Quang Ninh, Thanh Hoa, Nghe An, Hau Giang ...&lt;/span&gt;&lt;/p&gt;</itemContent_html>
-	<group_o item-list="true">	<item>	<groupContent_s>- Design the overall drawing of the project on the basis of the existing premises in the most reasonable direction, ensuring convenience during the breeding process.</groupContent_s>
-	</item>	<item>	<groupContent_s>- Designing cages, water systems, fecal tanks, disinfecting houses, calculating the size of cages ... to install appropriate, accurate, safe and aesthetic equipment systems.</groupContent_s>
+	<itemContent_html>&lt;p style="text-align: justify;"&gt;&lt;span style="font-size: 14pt; color: #ffffff;"&gt;Mavinex provides optimal solutions from the master plan to the detailed farm design, and advises investors to apply advanced breeding technologies in accordance with the development trend, in accordance with breeding standards, ensure efficient and sustainable financial investment.&lt;/span&gt;&lt;/p&gt;
+&lt;p style="text-align: justify;"&gt;&lt;span style="font-size: 14pt; color: #ffffff;"&gt;Currently Mavinex is supporting, consulting and supplying equipment for pig, chicken and duck farms throughout the country and cities such as Thai Binh, Phu Tho, Bac Ninh, Hoa Binh, Hung Yen and Bac Giang. , Hai Duong, Quang Ninh, Thanh Hoa, Nghe An, Hau Giang ... The projects are praised and appreciated by investors and partners.&lt;/span&gt;&lt;/p&gt;</itemContent_html>
+	<group_o item-list="true">	<item>	<groupContent_s>-  Master plan for livestock farm design</groupContent_s>
+	</item>	<item>	<groupContent_s>- Detailed design of livestock farm</groupContent_s>
+	</item>	<item>	<groupContent_s>- Advise advanced breeding technologies</groupContent_s>
 	</item></group_o>
 	<createdDate>2020-06-05T07:21:55.721Z</createdDate>
 	<createdDate_dt>2020-06-05T07:21:55.721Z</createdDate_dt>
-	<lastModifiedDate>2020-06-05T07:30:03.722Z</lastModifiedDate>
-	<lastModifiedDate_dt>2020-06-05T07:30:03.722Z</lastModifiedDate_dt>
+	<lastModifiedDate>2020-06-13T02:02:17.639Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-06-13T02:02:17.639Z</lastModifiedDate_dt>
 </component>
 	</item></sections_o>
-	<internal-name>Overall consulting, livestock farm design</internal-name>
-	<title_s>Overall consulting, livestock farm design</title_s>
-	<descripttion_t>Overall consulting, livestock farm design</descripttion_t>
+	<internal-name>Design and overall solution for livestock farm</internal-name>
+	<title_s>Design and overall solution for livestock farm</title_s>
+	<descripttion_t>Design and overall solution for livestock farm</descripttion_t>
 	<createdDate>2020-06-05T07:21:34.117Z</createdDate>
 	<createdDate_dt>2020-06-05T07:21:34.117Z</createdDate_dt>
-	<lastModifiedDate>2020-06-05T07:29:58.656Z</lastModifiedDate>
-	<lastModifiedDate_dt>2020-06-05T07:29:58.656Z</lastModifiedDate_dt>
+	<lastModifiedDate>2020-06-13T02:00:57.142Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-06-13T02:00:57.142Z</lastModifiedDate_dt>
 </page>
