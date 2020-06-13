@@ -411,7 +411,7 @@ img {
                     				</div>
                     			</div>
                     			<!-- Carousel controls -->
-                    			<a class="carousel-control right carousel-control-next" style="right: -7%;top: 25%;" href="#myCarousel" data-slide="next">
+                    			<a id="control-next-vn" class="carousel-control right carousel-control-next" style="right: -7%;top: 25%;" href="#myCarousel" data-slide="next">
                     				<i class="fa fa-play"></i>
                     			</a>
                     		</div>
@@ -484,7 +484,7 @@ img {
                     				</div>
                     			</div>
                     			<!-- Carousel controls -->
-                    			<a class="carousel-control right carousel-control-next" style="right: -7%;top: 25%;" href="#myCarousel" data-slide="next">
+                    			<a id="control-next-en" class="carousel-control right carousel-control-next" style="right: -7%;top: 25%;" href="#myCarousel" data-slide="next">
                     				<i class="fa fa-play"></i>
                     			</a>
                     		</div>
@@ -570,10 +570,19 @@ img {
     	    $('.report-price').text('Request a quote');
     	    $('.product-desc-vn').css('display', 'none');
     	    $('.product-similar-vn').css('display', 'none');
+    	    $('title').text($('#product-group').text());
+    	    if ($('.product-similar-en .carousel-item').find('.col-3').length == 0) {
+    	        $('#control-next-en').css('display', 'none');
+    	    }
+    	    
     	} else {
     	     $('.product-name-en').css('display', 'none');
     	     $('.product-desc-en').css('display', 'none');
     	     $('.product-similar-en').css('display', 'none');
+    	     
+    	     if ($('.product-similar-vn .carousel-item').find('.col-3').length == 0) {
+    	        $('#control-next-vn').css('display', 'none');
+    	     }
     	}
     	
     	for( let i = 0 ; i< lstKey.length; i++) {
