@@ -565,21 +565,21 @@ img {
     	
     	// set content change when language changed
     	if (url.indexOf('/en') > -1) {
+    	    document.title = $('#product-group').text();
     	    $('.product-name-vn').css('display', 'none');
     	    $('.product-related').text('Similar product');
     	    $('.report-price').text('Request a quote');
     	    $('.product-desc-vn').css('display', 'none');
     	    $('.product-similar-vn').css('display', 'none');
-    	    $('title').text($('#product-group').text());
     	    if ($('.product-similar-en .carousel-item').find('.col-3').length == 0) {
     	        $('#control-next-en').css('display', 'none');
     	    }
     	    
     	} else {
+    	     document.title = $('#product-group').text();
     	     $('.product-name-en').css('display', 'none');
     	     $('.product-desc-en').css('display', 'none');
     	     $('.product-similar-en').css('display', 'none');
-    	     $('title').text($('#product-group').text());
     	     if ($('.product-similar-vn .carousel-item').find('.col-3').length == 0) {
     	        $('#control-next-vn').css('display', 'none');
     	     }
