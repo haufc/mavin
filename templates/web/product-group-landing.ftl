@@ -14,6 +14,12 @@
     <link rel="stylesheet" href="/static-assets/css/styles.css"/>
     <link rel="stylesheet" href="/static-assets/css/mavinex.css"/>
     <title>${contentModel.product_title_s}</title>
+    <style>
+        .page-link{
+            border-radius :50% !important;
+            margin: 0 5px;
+        }
+    </style>
   </head>
   <body>
     <button onclick="topFunction()" id="btn-up-top" ><i class="fa fa-angle-up"></i></button>
