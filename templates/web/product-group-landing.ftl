@@ -94,6 +94,7 @@
                     var groupItemDiv = $('.group-pr-'+i).find('.list-product-en .item-pr');
                     $('.group-pr-'+i+' .paginate ul').attr('id', 'pagi-'+i);
                     $('.group-pr-'+i+' .paginate ul').find('li').attr('id', 'prevous-item-'+i);
+                    $('.pg-vn').css('display', 'none');
                     
                     // hiden element over limitperPage
                     if (numberOfGroupItem > limitperPage) {
@@ -255,8 +256,6 @@
                 } else {
                     $('.group-pr-' + i + ' .paginate #pagi-'+ i).hide();
                 }
-                    
-                  
                 }
             }
         });
