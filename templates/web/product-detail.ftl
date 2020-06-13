@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="/static-assets/plugins/bootstrap-select1139/dist/css/bootstrap-select.min.css"/>
     <link rel="stylesheet" href="/static-assets/css/styles.css"/>
     <link rel="stylesheet" href="/static-assets/css/mavinex.css"/>
-    <title>${contentModel.productname_s}</title>
+    <title></title>
     <style>
         .line-white{
             color: #FFF;
@@ -579,7 +579,7 @@ img {
     	     $('.product-name-en').css('display', 'none');
     	     $('.product-desc-en').css('display', 'none');
     	     $('.product-similar-en').css('display', 'none');
-    	     
+    	     $('title').text($('#product-group').text());
     	     if ($('.product-similar-vn .carousel-item').find('.col-3').length == 0) {
     	        $('#control-next-vn').css('display', 'none');
     	     }
