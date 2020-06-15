@@ -15,7 +15,7 @@
 	<productnameEnglish_s>Exporting conveyor</productnameEnglish_s>
 	<phonenumber_s>0221.653.7979</phonenumber_s>
 	<placeInNav>false</placeInNav>
-	<orderDefault_f>0.0</orderDefault_f>
+	<orderDefault_f>-1</orderDefault_f>
 	<productgroup_o>	<item>	<key>thiet-bi-nha-may-thuc-an-chan-nuoi</key>
 	<value_smv>Thiết bị nhà máy và thức ăn chăn nuôi-Animal feed processing</value_smv>
 	</item></productgroup_o>
@@ -36,6 +36,6 @@
 	</item></productimage_o>
 	<createdDate>2020-06-12T04:09:52.304Z</createdDate>
 	<createdDate_dt>2020-06-12T04:09:52.304Z</createdDate_dt>
-	<lastModifiedDate>2020-06-12T04:11:48.398Z</lastModifiedDate>
-	<lastModifiedDate_dt>2020-06-12T04:11:48.398Z</lastModifiedDate_dt>
+	<lastModifiedDate>2020-06-15T06:58:53.673Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-06-15T06:58:53.673Z</lastModifiedDate_dt>
 </page>
