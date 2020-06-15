@@ -20,8 +20,6 @@
 	</item></productgroup_o>
 	<productchildgroup_o>	<item>	<key>thiet-bi-nuoi-vit</key>
 	<value_smv>Thiết bị chăn nuôi vịt-Duck egg hatching machine</value_smv>
-	</item>	<item>	<key>thiet-bi-nuoi-ga</key>
-	<value_smv>Thiết bị chăn nuôi gà-Chicken farm Equipment</value_smv>
 	</item></productchildgroup_o>
 	<productAvatar_s/>
 	<slide_o item-list="true">	<item datasource="slideheader">	<key>/site/items/slides/d0a08899-63db-033a-900d-525a0e2770f9.xml</key>
@@ -38,6 +36,6 @@
 	</item></productimage_o>
 	<createdDate>2020-06-15T09:17:41.639Z</createdDate>
 	<createdDate_dt>2020-06-15T09:17:41.639Z</createdDate_dt>
-	<lastModifiedDate>2020-06-15T09:17:41.639Z</lastModifiedDate>
-	<lastModifiedDate_dt>2020-06-15T09:17:41.639Z</lastModifiedDate_dt>
+	<lastModifiedDate>2020-06-15T09:21:41.402Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-06-15T09:21:41.402Z</lastModifiedDate_dt>
 </page>
