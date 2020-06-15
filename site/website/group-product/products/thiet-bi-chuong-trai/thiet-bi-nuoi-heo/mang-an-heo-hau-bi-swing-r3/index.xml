@@ -7,9 +7,9 @@
 	<objectGroupId>fab8</objectGroupId>
 	<objectId>fab89015-c643-0304-8e16-cb69c7adc59e</objectId>
 	<file-name>index.xml</file-name>
-	<folder-name>mang--an-heo-hau-bi-swing-r3</folder-name>
+	<folder-name>mang-an-heo-hau-bi-swing-r3</folder-name>
 	<internal-name>Máng  ăn heo hậu bị Swing R3</internal-name>
-	<navLabel>Máng  ăn heo hậu bị Swing R3</navLabel>
+	<navLabel/>
 	<productname_s>Máng  ăn heo hậu bị Swing R3</productname_s>
 	<productnameEnglish_s>Feed troughs gilts Swing R3</productnameEnglish_s>
 	<phonenumber_s>0221.653.7979</phonenumber_s>
@@ -43,9 +43,11 @@
 	</item></productchildgroup_o>
 	<productimage_o item-list="true">	<item>	<productimage_s>/static-assets/images/products/Máng ăn heo hậu bị Swing.jpg</productimage_s>
 	<productimagename_s>Máng ăn heo hậu bị</productimagename_s>
+	</item>	<item>	<productimage_s>/static-assets/images/products/Máng ăn heo hậu bị Swing.jpg</productimage_s>
+	<productimagename_s>Máng ăn heo hậu bị</productimagename_s>
 	</item></productimage_o>
 	<createdDate>2020-06-11T08:38:45.436Z</createdDate>
 	<createdDate_dt>2020-06-11T08:38:45.436Z</createdDate_dt>
-	<lastModifiedDate>2020-06-11T09:53:16.270Z</lastModifiedDate>
-	<lastModifiedDate_dt>2020-06-11T09:53:16.270Z</lastModifiedDate_dt>
+	<lastModifiedDate>2020-06-15T07:19:14.637Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-06-15T07:19:14.637Z</lastModifiedDate_dt>
 </page>
