@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page>
+	<content-type>/page/home</content-type>
+	<display-template>/templates/web/home.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>12a8</objectGroupId>
+	<objectId>12a8695e-84c5-0d35-ebf2-a60914a77916</objectId>
+	<file-name>index.xml</file-name>
+	<folder-name>partnership</folder-name>
+	<internal-name>Partnership</internal-name>
+	<title_s>Partnership</title_s>
+	<placeInNav>false</placeInNav>
+	<orderDefault_f>-1</orderDefault_f>
+	<descripttion_t>Partnership</descripttion_t>
+	<sections_o item-list="true">	<item datasource="sections" inline="true">	<key>a9f5786c-9104-06d0-6d7c-7c4e26c6dcba</key>
+	<value>Partnership</value>
+<component id="a9f5786c-9104-06d0-6d7c-7c4e26c6dcba">
+	<content-type>/component/slide</content-type>
+	<display-template>/templates/web/slide.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>a9f5</objectGroupId>
+	<objectId>a9f5786c-9104-06d0-6d7c-7c4e26c6dcba</objectId>
+	<image_o item-list="true">	<item>	<image_s>/static-assets/images/slides/bg_2.png</image_s>
+	</item></image_o>
+	<file-name>a9f5786c-9104-06d0-6d7c-7c4e26c6dcba.xml</file-name>
+	<internal-name>Partnership</internal-name>
+	<createdDate>2020-06-15T08:08:33.360Z</createdDate>
+	<createdDate_dt>2020-06-15T08:08:33.360Z</createdDate_dt>
+	<lastModifiedDate>2020-06-15T08:08:33.360Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-06-15T08:08:33.360Z</lastModifiedDate_dt>
+</component>
+	</item>	<item datasource="sections" inline="true">	<key>600c8258-f45a-541f-9757-d42d625c66ac</key>
+	<value>List of partnerships</value>
+<component id="600c8258-f45a-541f-9757-d42d625c66ac">
+	<content-type>/component/partnership</content-type>
+	<display-template>/templates/web/partnership.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>600c</objectGroupId>
+	<objectId>600c8258-f45a-541f-9757-d42d625c66ac</objectId>
+	<file-name>600c8258-f45a-541f-9757-d42d625c66ac.xml</file-name>
+	<internal-name>List of partnerships</internal-name>
+	<logo_o item-list="true">	<item>	<partnerimagealt_s>1</partnerimagealt_s>
+	<partnerimage_s>/static-assets/images/partnerships/1.jpg</partnerimage_s>
+	</item>	<item>	<partnerimage_s>/static-assets/images/partnerships/10.jpg</partnerimage_s>
+	<partnerimagealt_s>2</partnerimagealt_s>
+	</item>	<item>	<partnerimage_s>/static-assets/images/partnerships/11.jpg</partnerimage_s>
+	<partnerimagealt_s>3</partnerimagealt_s>
+	</item>	<item>	<partnerimage_s>/static-assets/images/partnerships/12.jpg</partnerimage_s>
+	<partnerimagealt_s>4</partnerimagealt_s>
+	</item>	<item>	<partnerimage_s>/static-assets/images/partnerships/13.jpg</partnerimage_s>
+	<partnerimagealt_s>5</partnerimagealt_s>
+	</item>	<item>	<partnerimage_s>/static-assets/images/partnerships/14.jpg</partnerimage_s>
+	<partnerimagealt_s>6</partnerimagealt_s>
+	</item>	<item>	<partnerimage_s>/static-assets/images/partnerships/15.jpg</partnerimage_s>
+	<partnerimagealt_s>7</partnerimagealt_s>
+	</item>	<item>	<partnerimage_s>/static-assets/images/partnerships/2.jpg</partnerimage_s>
+	<partnerimagealt_s>8</partnerimagealt_s>
+	</item>	<item>	<partnerimage_s>/static-assets/images/partnerships/3.jpg</partnerimage_s>
+	<partnerimagealt_s>9</partnerimagealt_s>
+	</item></logo_o>
+	<createdDate>2020-06-15T08:09:10.966Z</createdDate>
+	<createdDate_dt>2020-06-15T08:09:10.966Z</createdDate_dt>
+	<lastModifiedDate>2020-06-15T08:09:10.966Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-06-15T08:09:10.966Z</lastModifiedDate_dt>
+</component>
+	</item></sections_o>
+	<createdDate>2020-06-15T08:07:38.954Z</createdDate>
+	<createdDate_dt>2020-06-15T08:07:38.954Z</createdDate_dt>
+	<lastModifiedDate>2020-06-15T08:07:38.954Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-06-15T08:07:38.954Z</lastModifiedDate_dt>
+</page>
