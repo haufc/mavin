@@ -14,7 +14,7 @@
 	<file-name>index.xml</file-name>
 	<folder-name>he-thong-silo-va-truyen-tai-cam-cho-chuong-heo-bau-va-heo-de--943f61ae</folder-name>
 	<placeInNav>false</placeInNav>
-	<orderDefault_f>0.0</orderDefault_f>
+	<orderDefault_f>-1</orderDefault_f>
 	<productAvatar_s>/static-assets/images/products/silo-500.png</productAvatar_s>
 	<productgroup_o>	<item>	<key>thiet-bi-chuong-trai</key>
 	<value_smv>Thiết bị chuồng trại-Farm equipment</value_smv>
@@ -50,6 +50,6 @@
 	</item></productimage_o>
 	<createdDate>2020-06-11T07:51:20.373Z</createdDate>
 	<createdDate_dt>2020-06-11T07:51:20.373Z</createdDate_dt>
-	<lastModifiedDate>2020-06-15T07:47:23.519Z</lastModifiedDate>
-	<lastModifiedDate_dt>2020-06-15T07:47:23.519Z</lastModifiedDate_dt>
+	<lastModifiedDate>2020-06-15T07:49:09.007Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-06-15T07:49:09.007Z</lastModifiedDate_dt>
 </page>
