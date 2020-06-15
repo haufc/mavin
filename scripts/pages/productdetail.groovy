@@ -1,5 +1,6 @@
 import org.craftercms.blueprints.headless.GroupProductSearchHelper
 import org.craftercms.blueprints.headless.TaxonomySearchHelper
+import java.util.Arrays
 
 def productGroup = contentModel.productchildgroup_o.item.key
 def searchHelper = new GroupProductSearchHelper(elasticsearch, urlTransformationService)
