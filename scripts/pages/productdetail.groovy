@@ -9,6 +9,7 @@ def productVN = relatedProducts.findAll { it.url.indexOf('/en') < 0 }
 def productEN = relatedProducts.findAll { it.url.indexOf('/en') > -1}
 
 productVN = productVN.eachWithIndex { item, index ->
+    print "===================" print index
     if (index > 4) {
         productVN.remove(index)
     }
