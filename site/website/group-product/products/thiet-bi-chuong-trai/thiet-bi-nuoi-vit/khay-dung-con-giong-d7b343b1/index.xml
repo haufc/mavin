@@ -14,7 +14,7 @@
 	<productnameEnglish_s>Breeding tray</productnameEnglish_s>
 	<phonenumber_s>0221.653.7979</phonenumber_s>
 	<placeInNav>false</placeInNav>
-	<orderDefault_f>0.0</orderDefault_f>
+	<orderDefault_f>-1</orderDefault_f>
 	<productgroup_o>	<item>	<key>thiet-bi-chuong-trai</key>
 	<value_smv>Thiết bị chuồng trại-Farm equipment</value_smv>
 	</item></productgroup_o>
@@ -38,6 +38,6 @@
 	</item></productimage_o>
 	<createdDate>2020-06-15T09:17:41.639Z</createdDate>
 	<createdDate_dt>2020-06-15T09:17:41.639Z</createdDate_dt>
-	<lastModifiedDate>2020-06-15T09:17:41.639Z</lastModifiedDate>
-	<lastModifiedDate_dt>2020-06-15T09:17:41.639Z</lastModifiedDate_dt>
+	<lastModifiedDate>2020-06-15T09:20:30.584Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-06-15T09:20:30.584Z</lastModifiedDate_dt>
 </page>
