@@ -11,7 +11,7 @@ import org.elasticsearch.search.sort.SortOrder
 class GroupProductSearchHelper {
     static final String PRODUCT_CONTENT_TYPE_QUERY = "content-type:\"/page/productdetail\""
     static final int DEFAULT_START = 0
-    static final int DEFAULT_ROWS = 10
+    static final int DEFAULT_ROWS = 1000
     
     def elasticsearch
     UrlTransformationService urlTransformationService
