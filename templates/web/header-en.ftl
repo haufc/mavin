@@ -13,7 +13,7 @@
                 <a class="mavinex-nav__link" href="/en/introducts/introduction">Introduction</a>
                 <a class="mavinex-nav__link" href="/en/introducts/history">History</a>
                 <a class="mavinex-nav__link" href="/en/scope-of-activities">Scope of activities</a>
-                <a class="mavinex-nav__link" href="/introducts/doi-tac-chien-luoc">Partnership</a>
+                <a class="mavinex-nav__link" href="/en/partnership">Partnership</a>
               </div>
             </div>
             <div class="dropdown">
