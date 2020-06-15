@@ -3,13 +3,13 @@ import org.craftercms.blueprints.headless.GroupProductSearchHelper
 def productGroup = contentModel.productgrouplevel2_s
 print productGroup
 def searchHelper = new GroupProductSearchHelper(elasticsearch, urlTransformationService)
-def products = searchHelper.searchProducts(productGroup, 0,6)
+def products = searchHelper.searchProducts(productGroup,0)
 def productVN = products.findAll { it.url.indexOf('/en') < 0 }
 def productEN = products.findAll { it.url.indexOf('/en') > -1}
 
 print "===============> aaaaaaaa"
-print productVN
-print "size==============================size:" print productVN.size()
+print products
+print "size==============================size:" print products.size()
 
 templateModel.products = products
 templateModel.productVNs = productVN
