@@ -8,9 +8,9 @@
 	<objectId>99fd84bd-7b53-77f7-7a63-277ac4b33156</objectId>
 	<placeInNav>false</placeInNav>
 	<orderDefault_f>-1</orderDefault_f>
-	<internal-name>Hệ thống uống cho vịt Giordano</internal-name>
-	<navLabel>Hệ thống uống cho vịt Giordano</navLabel>
-	<productname_s>Hệ thống uống cho vịt Giordano</productname_s>
+	<internal-name>Hệ thống cho ăn tự động cho Vịt</internal-name>
+	<navLabel>Hệ thống cho ăn tự động cho Vịt</navLabel>
+	<productname_s>Hệ thống cho ăn tự động cho Vịt</productname_s>
 	<productnameEnglish_s>Drinking system for ducks Giordano</productnameEnglish_s>
 	<phonenumber_s>0221.653.7979</phonenumber_s>
 	<file-name>index.xml</file-name>
@@ -40,6 +40,6 @@
 	</item></productimage_o>
 	<createdDate>2020-06-15T08:07:24.962Z</createdDate>
 	<createdDate_dt>2020-06-15T08:07:24.962Z</createdDate_dt>
-	<lastModifiedDate>2020-06-15T08:48:22.732Z</lastModifiedDate>
-	<lastModifiedDate_dt>2020-06-15T08:48:22.732Z</lastModifiedDate_dt>
+	<lastModifiedDate>2020-06-15T08:58:14.732Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-06-15T08:58:14.732Z</lastModifiedDate_dt>
 </page>
