@@ -13,7 +13,7 @@
 	<productname_s>Hệ thống uống nước tự động cho gà</productname_s>
 	<phonenumber_s>0221.653.7979</phonenumber_s>
 	<placeInNav>false</placeInNav>
-	<orderDefault_f>0.0</orderDefault_f>
+	<orderDefault_f>-1</orderDefault_f>
 	<productgroup_o>	<item>	<key>thiet-bi-chuong-trai</key>
 	<value_smv>Thiết bị chuồng trại</value_smv>
 	</item></productgroup_o>
@@ -32,8 +32,8 @@
 	</item></productimage_o>
 	<createdDate>2020-06-08T03:25:55.233Z</createdDate>
 	<createdDate_dt>2020-06-08T03:25:55.233Z</createdDate_dt>
-	<lastModifiedDate>2020-06-11T09:57:12.514Z</lastModifiedDate>
-	<lastModifiedDate_dt>2020-06-11T09:57:12.514Z</lastModifiedDate_dt>
+	<lastModifiedDate>2020-06-15T07:16:47.660Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-06-15T07:16:47.660Z</lastModifiedDate_dt>
 	<productnameEnglish_s> Automatic drinking water system for chickens</productnameEnglish_s>
 	<productdescriptionEnglish_html>&lt;p&gt;Origin: Europe or China&lt;/p&gt;</productdescriptionEnglish_html>
 </page>
