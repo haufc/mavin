@@ -24,7 +24,7 @@
 	<productname_s>Vít tải nguyên liệu</productname_s>
 	<phonenumber_s>0221.653.7979</phonenumber_s>
 	<placeInNav>false</placeInNav>
-	<orderDefault_f>0.0</orderDefault_f>
+	<orderDefault_f>-1</orderDefault_f>
 	<productdescription_html>&lt;p&gt;V&amp;iacute;t tải nguy&amp;ecirc;n liệu bao gồm :&lt;/p&gt;
 &lt;p&gt;&lt;!-- [if !supportLists]--&gt;- V&amp;iacute;t tải c&amp;acirc;n nguy&amp;ecirc;n liệu đầu v&amp;agrave;o c&amp;ocirc;ng xuất 60T/h, 90T/h t&amp;ugrave;y v&amp;agrave;o thiết kế của nh&amp;agrave; m&amp;aacute;y&lt;/p&gt;
 &lt;p&gt;- V&amp;iacute;t tải c&amp;acirc;n đa lượng với c&amp;ocirc;ng xuất từ 45T/h, 60T/h&amp;nbsp; t&amp;ugrave;y v&amp;agrave;o thiết kế của nh&amp;agrave; m&amp;aacute;y&amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;br /&gt;&lt;/p&gt;</productdescription_html>
@@ -33,8 +33,8 @@
 	</item></productimage_o>
 	<createdDate>2020-05-25T03:28:56.004Z</createdDate>
 	<createdDate_dt>2020-05-25T03:28:56.004Z</createdDate_dt>
-	<lastModifiedDate>2020-06-12T03:55:49.226Z</lastModifiedDate>
-	<lastModifiedDate_dt>2020-06-12T03:55:49.226Z</lastModifiedDate_dt>
+	<lastModifiedDate>2020-06-15T07:05:53.669Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-06-15T07:05:53.669Z</lastModifiedDate_dt>
 	<productAvatar_s>/static-assets/images/products/Vít tải nguyên liệu.jpg</productAvatar_s>
 	<productnameEnglish_s>Screw conveyor material</productnameEnglish_s>
 	<productdescriptionEnglish_html>&lt;p&gt;Screw conveying materials include:&lt;/p&gt;
