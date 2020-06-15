@@ -24,15 +24,15 @@
 	<productname_s>Gầu tải nguyên liệu</productname_s>
 	<phonenumber_s>0221.653.7979</phonenumber_s>
 	<placeInNav>false</placeInNav>
-	<orderDefault_f>0.0</orderDefault_f>
+	<orderDefault_f>-1</orderDefault_f>
 	<productdescription_html>&lt;p&gt;Gầu tải nguy&amp;ecirc;n liệu với c&amp;ocirc;ng suất từ 60T/h, 120T/h t&amp;ugrave;y v&amp;agrave;o thiết kế của nh&amp;agrave; m&amp;aacute;y.&lt;/p&gt;</productdescription_html>
 	<productimage_o item-list="true">	<item>	<productimagename_s>Gầu tải nguyên liệu</productimagename_s>
 	<productimage_s>/static-assets/images/products/thiet-bi-nha-may-tacn.png</productimage_s>
 	</item></productimage_o>
 	<createdDate>2020-05-25T03:22:53.760Z</createdDate>
 	<createdDate_dt>2020-05-25T03:22:53.760Z</createdDate_dt>
-	<lastModifiedDate>2020-06-12T03:33:34.936Z</lastModifiedDate>
-	<lastModifiedDate_dt>2020-06-12T03:33:34.936Z</lastModifiedDate_dt>
+	<lastModifiedDate>2020-06-15T07:00:56.410Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-06-15T07:00:56.410Z</lastModifiedDate_dt>
 	<productAvatar_s>/static-assets/images/products/thiet-bi-nha-may-tacn.png</productAvatar_s>
 	<productnameEnglish_s>Bucket loading</productnameEnglish_s>
 	<productdescriptionEnglish_html>&lt;p&gt;Material loading bucket with capacity of 60T / h, 90T / h, 120T / h depending on the design of the factory&lt;/p&gt;</productdescriptionEnglish_html>
