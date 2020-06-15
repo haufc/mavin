@@ -20,7 +20,7 @@
 	<productnameEnglish_s>Scraper rake material</productnameEnglish_s>
 	<phonenumber_s>0221.653.7979</phonenumber_s>
 	<placeInNav>false</placeInNav>
-	<orderDefault_f>0.0</orderDefault_f>
+	<orderDefault_f>-1</orderDefault_f>
 	<productAvatar_s>/static-assets/images/products/Xích cào nguyên liệu.jpg</productAvatar_s>
 	<slide_o item-list="true">	<item datasource="slideheader">	<key>/site/items/slides/d0a08899-63db-033a-900d-525a0e2770f9.xml</key>
 	<value>Home slide</value>
@@ -34,6 +34,6 @@
 	</item></productimage_o>
 	<createdDate>2020-06-12T04:02:29.718Z</createdDate>
 	<createdDate_dt>2020-06-12T04:02:29.718Z</createdDate_dt>
-	<lastModifiedDate>2020-06-12T04:02:29.718Z</lastModifiedDate>
-	<lastModifiedDate_dt>2020-06-12T04:02:29.718Z</lastModifiedDate_dt>
+	<lastModifiedDate>2020-06-15T07:06:21.537Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-06-15T07:06:21.537Z</lastModifiedDate_dt>
 </page>
