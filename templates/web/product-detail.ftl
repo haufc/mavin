@@ -425,9 +425,7 @@ img {
                             							<div class="thumb-wrapper">
                             								<span class="wish-icon"><i class="fa fa-heart-o"></i></span>
                             								<div class="img-box">
-                            								    <#if (item.url)??>
                             									<a href="${item.url}"><img src="${item.avatar}" class="img-responsive img-fluid" alt=""></a>
-                            								    </#if>
                             								</div>
                             							</div>
                             						</div>
