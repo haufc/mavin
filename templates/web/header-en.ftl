@@ -12,8 +12,8 @@
               <div class="dropdown-content">
                 <a class="mavinex-nav__link" href="/en/introducts/introduction">Introduction</a>
                 <a class="mavinex-nav__link" href="/en/introducts/history">History</a>
-                <a class="mavinex-nav__link" href="/en/scope-of-activities">Scope of activities</a>
-                <a class="mavinex-nav__link" href="/en/partnership">Partnership</a>
+                <a class="mavinex-nav__link" href="/en/introducts/scope-of-activities">Scope of activities</a>
+                <a class="mavinex-nav__link" href="/en/introducts/partnership">Partnership</a>
               </div>
             </div>
             <div class="dropdown">
