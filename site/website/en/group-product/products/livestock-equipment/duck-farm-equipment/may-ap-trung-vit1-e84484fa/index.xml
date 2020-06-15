@@ -9,8 +9,10 @@
 	<file-name>index.xml</file-name>
 	<folder-name>may-ap-trung-vit1-e84484fa</folder-name>
 	<placeInNav>false</placeInNav>
-	<orderDefault_f>0.0</orderDefault_f>
-	<productgroup_o/>
+	<orderDefault_f>-1</orderDefault_f>
+	<productgroup_o>	<item>	<key>thiet-bi-chan-nuoi</key>
+	<value_smv>Thiết bị chăn nuôi-Livestock equipment</value_smv>
+	</item></productgroup_o>
 	<productchildgroup_o>	<item>	<key>may-ap-no-trung-vit</key>
 	<value_smv>Máy ấp nở trứng vịt-Duck egg hatching machine</value_smv>
 	</item></productchildgroup_o>
@@ -20,7 +22,11 @@
 	<productnameEnglish_s/>
 	<phonenumber_s>0221.653.7979</phonenumber_s>
 	<productAvatar_s/>
-	<slide_o item-list="true"/>
+	<slide_o item-list="true">	<item datasource="slideheader">	<key>/site/items/slides/d0a08899-63db-033a-900d-525a0e2770f9.xml</key>
+	<value>Home slide</value>
+	<include>/site/items/slides/d0a08899-63db-033a-900d-525a0e2770f9.xml</include>
+	<disableFlattening>false</disableFlattening>
+	</item></slide_o>
 	<productdescription_html>&lt;table style="border-collapse: collapse; width: 100%;" border="1" width="100%" cellspacing="0" cellpadding="0"&gt;
 &lt;tbody&gt;
 &lt;tr&gt;
@@ -97,7 +103,7 @@
 &lt;p align="center"&gt;380 V - 50Hz&lt;/p&gt;
 &lt;/td&gt;
 &lt;td nowrap="nowrap" width="47"&gt;
-&lt;p align="center"&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p align="center"&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
@@ -141,7 +147,7 @@
 &lt;p align="center"&gt;43o +- 2o&lt;/p&gt;
 &lt;/td&gt;
 &lt;td nowrap="nowrap" width="47"&gt;
-&lt;p align="center"&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p align="center"&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
@@ -152,7 +158,7 @@
 &lt;p align="center"&gt;Cảm ứng&lt;/p&gt;
 &lt;/td&gt;
 &lt;td nowrap="nowrap" width="47"&gt;
-&lt;p align="center"&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p align="center"&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
@@ -178,6 +184,6 @@
 	</item></productimage_o>
 	<createdDate>2020-06-11T04:59:14.439Z</createdDate>
 	<createdDate_dt>2020-06-11T04:59:14.439Z</createdDate_dt>
-	<lastModifiedDate>2020-06-11T04:59:14.439Z</lastModifiedDate>
-	<lastModifiedDate_dt>2020-06-11T04:59:14.439Z</lastModifiedDate_dt>
+	<lastModifiedDate>2020-06-15T07:12:33.253Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-06-15T07:12:33.253Z</lastModifiedDate_dt>
 </page>
