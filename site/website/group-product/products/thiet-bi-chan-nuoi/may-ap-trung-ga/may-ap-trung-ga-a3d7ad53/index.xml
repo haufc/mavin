@@ -16,7 +16,7 @@
 	<value_smv>Máy ấp nở trứng gà-Chicken egg hatching machine</value_smv>
 	</item></productchildgroup_o>
 	<placeInNav>false</placeInNav>
-	<orderDefault_f>0.0</orderDefault_f>
+	<orderDefault_f>-1</orderDefault_f>
 	<file-name>index.xml</file-name>
 	<folder-name>may-ap-trung-ga-a3d7ad53</folder-name>
 	<productAvatar_s>/static-assets/images/products/Untitled-1.jpg</productAvatar_s>
@@ -171,8 +171,8 @@
 &lt;p&gt;Touch screen control&lt;/p&gt;</productdescriptionEnglish_html>
 	<createdDate>2020-06-11T04:45:08.553Z</createdDate>
 	<createdDate_dt>2020-06-11T04:45:08.553Z</createdDate_dt>
-	<lastModifiedDate>2020-06-11T05:02:53.953Z</lastModifiedDate>
-	<lastModifiedDate_dt>2020-06-11T05:02:53.953Z</lastModifiedDate_dt>
+	<lastModifiedDate>2020-06-15T07:09:13.977Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-06-15T07:09:13.977Z</lastModifiedDate_dt>
 	<productimage_o item-list="true">	<item>	<productimage_s>/static-assets/images/products/Untitled-4.jpg</productimage_s>
 	<productimagename_s>Chicken incubator</productimagename_s>
 	</item>	<item>	<productimage_s>/static-assets/images/products/Untitled-3.jpg</productimage_s>
