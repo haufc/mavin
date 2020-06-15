@@ -7,6 +7,9 @@ def products = searchHelper.searchProducts(productGroup, 0,6)
 def productVN = products.findAll { it.url.indexOf('/en') < 0 }
 def productEN = products.findAll { it.url.indexOf('/en') > -1}
 
+print "===============> aaaaaaaa"
+print productVN
+print "size==============================size:" print productVN.size()
 
 templateModel.products = products
 templateModel.productVNs = productVN
