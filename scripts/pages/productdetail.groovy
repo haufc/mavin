@@ -8,6 +8,17 @@ def relatedProducts = searchHelper.searchProducts(productGroup.text, 0)
 def productVN = relatedProducts.findAll { it.url.indexOf('/en') < 0 }
 def productEN = relatedProducts.findAll { it.url.indexOf('/en') > -1}
 
+productVN.eachWithIndex { item, index ->
+    if (index > 4) {
+        productVN.remove(index)
+    }
+}
+
+productEN.eachWithIndex { item, index ->
+    if (index > 4) {
+        productEN.remove(index)
+    }
+}
 
 def categories = new TaxonomySearchHelper("product-category-child", elasticsearch, siteItemService)
 						.getItems()
