@@ -9,10 +9,10 @@
 	<file-name>86cde991-8dfd-d2a8-46bc-eccaf904929d.xml</file-name>
 	<backgroundImage_s>/static-assets/images/featured/footer_bg.png</backgroundImage_s>
 	<internal-name>Footer EN</internal-name>
-	<brandCopyright_s>Copyright by Mavinex Joint Stock Company</brandCopyright_s>
+	<brandCopyright_s>Copyright by Mavinex Joint Stock Company 2020</brandCopyright_s>
 	<companyname_s>Mavinex Joint Stock Company</companyname_s>
-	<companysAddress_s>Loi Cau Village, Viet Hoa Commune, Khoai Chau District, Hung Yen Province</companysAddress_s>
-	<phonenumber_s>0221 3 921 921</phonenumber_s>
+	<companysAddress_s>8th Floor, Hudland Tower Building, No. 6 Nguyen Huu Tho, Hoang Liet Ward, Hoang Mai District, Hanoi</companysAddress_s>
+	<phonenumber_s>0221 653 7979</phonenumber_s>
 	<tax_s>0901009304</tax_s>
 	<issuedby_s>Department of Planning and Investment of Hung Yen province.</issuedby_s>
 	<socialMedia_o item-list="true">	<item>	<url_s>https://www.facebook.com/</url_s>
@@ -22,6 +22,6 @@
 	</item></socialMedia_o>
 	<createdDate>2020-06-10T08:57:28.165Z</createdDate>
 	<createdDate_dt>2020-06-10T08:57:28.165Z</createdDate_dt>
-	<lastModifiedDate>2020-06-10T08:57:28.165Z</lastModifiedDate>
-	<lastModifiedDate_dt>2020-06-10T08:57:28.165Z</lastModifiedDate_dt>
+	<lastModifiedDate>2020-06-13T01:35:23.225Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-06-13T01:35:23.225Z</lastModifiedDate_dt>
 </component>

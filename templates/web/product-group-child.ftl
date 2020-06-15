@@ -20,35 +20,31 @@
                 </div>
             </div>
             <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 mb-5" >
-                <div id="paginate">
-                    
-                </div>
                 <#if productVNs??>
                     <div class="paginate">
                         <div class="list-product-vn items">
                             <#list productVNs as productVN>
-                            	<a class="text-white" style="font-size: 16px;" href="${productVN.url}">${productVN.title}</a>
-                            	<br>
+                            	<div class="item-pr"><a style="font-size: 16px;" class="text-white d-block pn-pr-vn" href="${productVN.url}">${productVN.title}</a></div>
                             </#list>
                         </div>
+                        <ul class="pagination pagi pg-vn mt-3" >
+                            <li class="page-item previous-page"><a class="page-link" href="javacript:void(0)"><span class="fas fa-angle-left"></a></li>
+                        </ul>
                     </div>
                 </#if>
                  <#if productENs??>
                     <div class="paginate">
                         <div class="list-product-en items">
                             <#list productENs as productEN>
-                            	<a class="text-white" style="font-size: 16px;" href="${productEN.url}">${productEN.titleEN}</a>
-                            	<br>
+                            	<div class="item-pr"><a style="font-size: 16px;" class="text-white d-block pn-pr-en" href="${productEN.url}">${productEN.titleEN}</a></div>
                             </#list>
                         </div>
+                        <ul class="pagination pagi pg-en mt-3" >
+                            <li class="page-item previous-page"><a class="page-link" href="javacript:void(0)"><span class="fas fa-angle-left"></a></li>
+                        </ul>
                     </div>
                 </#if>
-                
                 <br>
-                <a class="mt-3 rounded-0 text-white" style="text-direction: none;" href="/#"> 
-                    <span class="mr-1 btn-view-more">Xem tiếp</span>
-                    <i class="fas fa-play text--red"></i>
-                </a>
                <ul class="float-right" id="pagination" class="pagination-sm"></ul>
             </div>
           </div>

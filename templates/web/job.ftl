@@ -2,7 +2,7 @@
 <div class="content__title">
     <div class="container" style="padding: 0;"><h1 class="text--red">${contentModel.title_s}</h1></div>
 </div>
-      <div class="content__details">
+      <div class="content__details">`
         <div class="job row"  style=" padding: 15px";
 >
               <#list jobs as job>
@@ -12,16 +12,16 @@
                               <h3 class="job__item-title" style="font-size:16px;">${job.title}</h3></a>
                             <table class="job__item-desc" style="font-size:16px;">
                               <tr>
-                                <td>Hình thức: </td>
+                                <td class="job-type">Hình thức: </td>
                                 <td>${job.type}</td>
                               </tr>
                               <tr>
-                                <td>Thời hạn:</td>
+                                <td class="job-duration">Thời hạn:</td>
                                 <td>${job.duration}</td>
                               </tr>
                             </table>
                           </div>
-                          <a href="${job.url}" class="job__item-btn btn btn-primary text--uppercase rounded-0">Xem thêm</a>
+                          <a href="${job.url}" class="job__item-btn btn btn-primary text--uppercase rounded-0 span-view-more">Xem thêm</a>
                         </div>
                       </div>
               </#list>

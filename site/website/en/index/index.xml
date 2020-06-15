@@ -29,6 +29,50 @@
 	<lastModifiedDate>2020-06-05T03:54:39.964Z</lastModifiedDate>
 	<lastModifiedDate_dt>2020-06-05T03:54:39.964Z</lastModifiedDate_dt>
 </component>
+	</item>	<item datasource="sections" inline="true">	<key>6f032d7b-0352-97e3-97bf-7863c34c981a</key>
+	<value>Products Carousel</value>
+<component id="6f032d7b-0352-97e3-97bf-7863c34c981a">
+	<content-type>/component/componentnews</content-type>
+	<display-template>/templates/web/products.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>6f03</objectGroupId>
+	<objectId>6f032d7b-0352-97e3-97bf-7863c34c981a</objectId>
+	<arrow1_s>/static-assets/images/mavinex_left_arrow.png</arrow1_s>
+	<arrow2_s>/static-assets/images/mavinex_right_arrow.png</arrow2_s>
+	<file-name>6f032d7b-0352-97e3-97bf-7863c34c981a.xml</file-name>
+	<internal-name>Products Carousel</internal-name>
+	<tittle_s>Products</tittle_s>
+	<products_o item-list="true">	<item>	<pTittle1_s>FARM EQUIPMENT</pTittle1_s>
+	<pLink1_s>/en/group-product/farm-equipment</pLink1_s>
+	<pImage1_s>/static-assets/images/Layer 205 copy.png</pImage1_s>
+	<pTittle2_s>EGG HATCHING MACHINE</pTittle2_s>
+	<pLink2_s>/en/group-product/egg-hatching-machine</pLink2_s>
+	<pImage2_s>/static-assets/images/Layer 198.png</pImage2_s>
+	<pTittle3_s>AQUACULTURE EQUIPMENT</pTittle3_s>
+	<pLink3_s>/en/group-product/aquaculture-equipment</pLink3_s>
+	<pImage3_s>/static-assets/images/Layer 300.png</pImage3_s>
+	<pTittle4_s>ANIMAL FEED PROCESSING</pTittle4_s>
+	<pLink4_s>/en/group-product/animal-feed-processing</pLink4_s>
+	<pImage4_s>/static-assets/images/Layer 211.png</pImage4_s>
+	</item>	<item>	<pTittle1_s>FARM EQUIPMENT</pTittle1_s>
+	<pLink1_s>/en/group-product/farm-equipment</pLink1_s>
+	<pImage1_s>/static-assets/images/Layer 205 copy.png</pImage1_s>
+	<pTittle2_s>EGG HATCHING MACHINE</pTittle2_s>
+	<pLink2_s>/en/group-product/egg-hatching-machine</pLink2_s>
+	<pImage2_s>/static-assets/images/Layer 198.png</pImage2_s>
+	<pTittle3_s>AQUACULTURE EQUIPMENT</pTittle3_s>
+	<pLink3_s>/en/group-product/aquaculture-equipment</pLink3_s>
+	<pImage3_s>/static-assets/images/Layer 300.png</pImage3_s>
+	<pTittle4_s>ANIMAL FEED PROCESSING</pTittle4_s>
+	<pLink4_s>/en/group-product/animal-feed-processing</pLink4_s>
+	<pImage4_s>/static-assets/images/Layer 211.png</pImage4_s>
+	</item></products_o>
+	<createdDate>2020-06-13T03:06:29.036Z</createdDate>
+	<createdDate_dt>2020-06-13T03:06:29.036Z</createdDate_dt>
+	<lastModifiedDate>2020-06-13T03:06:29.036Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-06-13T03:06:29.036Z</lastModifiedDate_dt>
+</component>
 	</item>	<item datasource="sections" inline="true">	<key>93c22144-427d-d0e1-c920-ffcdb006e591</key>
 	<value>Giới thiệu</value>
 <component id="93c22144-427d-d0e1-c920-ffcdb006e591">
@@ -82,6 +126,6 @@
 	<folder-name>index</folder-name>
 	<createdDate>2020-06-05T03:53:24.856Z</createdDate>
 	<createdDate_dt>2020-06-05T03:53:24.856Z</createdDate_dt>
-	<lastModifiedDate>2020-06-08T03:33:39.634Z</lastModifiedDate>
-	<lastModifiedDate_dt>2020-06-08T03:33:39.634Z</lastModifiedDate_dt>
+	<lastModifiedDate>2020-06-13T03:06:15.853Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-06-13T03:06:15.853Z</lastModifiedDate_dt>
 </page>

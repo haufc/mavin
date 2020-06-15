@@ -72,7 +72,9 @@
             $('.footer-issued-date').text('Date of license: ');
             $('.footer-item__social--title').text('Contact us');
             $('.headquarter').text('Headquarter: ');
-            $('.footer-issued-by').text('Issued by: ')
+            $('.footer-issued-by').text('Issued by: ');
+            $('.job-type').text('Type: ');
+            $('.job-duration').text('Duration: ');
         }
     </script>
 

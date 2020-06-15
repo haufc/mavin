@@ -22,24 +22,22 @@
 	<internal-name>Vít tải nguyên liệu</internal-name>
 	<navLabel/>
 	<productname_s>Vít tải nguyên liệu</productname_s>
-	<phonenumber_s>0221 3 921 921</phonenumber_s>
+	<phonenumber_s>0221.653.7979</phonenumber_s>
 	<placeInNav>false</placeInNav>
 	<orderDefault_f>-1</orderDefault_f>
-	<productdescription_html>&lt;p style="text-align: justify;"&gt;&lt;strong style="font-family: arial; font-size: 15px; background-color: #ffffff;"&gt;V&amp;iacute;t tải&lt;/strong&gt;&lt;span style="font-family: arial; font-size: 15px; background-color: #ffffff;"&gt;&amp;nbsp;l&amp;agrave; thiết bị d&amp;ugrave;ng để chuy&amp;ecirc;n chở vật liệu c&amp;oacute; khả năng hạn chế &amp;ocirc; nhiễm m&amp;ocirc;i trường v&amp;agrave; độc hại của vật liệu do được vận chuyển trong m&amp;aacute;ng k&amp;iacute;n. Ch&amp;iacute;nh v&amp;igrave; thế được ứng dụng rất rộng r&amp;atilde;i để vận chuyển vật liệu c&amp;ocirc;ng nghiệp nặng như xi măng, bột th&amp;ocirc;, than cốc, v&amp;ocirc;i, thạch cao, c&amp;aacute;t đuc, dăm gỗ, kho&amp;aacute;ng sản cũng như trong ng&amp;agrave;nh chế biến thức ăn gia s&amp;uacute;c (chuy&amp;ecirc;n chở vật liệu dạng bột, dạng hạt)&amp;hellip;&lt;/span&gt;&lt;/p&gt;</productdescription_html>
+	<productdescription_html>&lt;p&gt;V&amp;iacute;t tải nguy&amp;ecirc;n liệu bao gồm :&lt;/p&gt;
+&lt;p&gt;&lt;!-- [if !supportLists]--&gt;- V&amp;iacute;t tải c&amp;acirc;n nguy&amp;ecirc;n liệu đầu v&amp;agrave;o c&amp;ocirc;ng xuất 60T/h, 90T/h t&amp;ugrave;y v&amp;agrave;o thiết kế của nh&amp;agrave; m&amp;aacute;y&lt;/p&gt;
+&lt;p&gt;- V&amp;iacute;t tải c&amp;acirc;n đa lượng với c&amp;ocirc;ng xuất từ 45T/h, 60T/h&amp;nbsp; t&amp;ugrave;y v&amp;agrave;o thiết kế của nh&amp;agrave; m&amp;aacute;y&amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;br /&gt;&lt;/p&gt;</productdescription_html>
 	<productimage_o item-list="true">	<item>	<productimagename_s/>
-	<productimage_s>/static-assets/images/products/thiet-bi-nha-may-tacn.png</productimage_s>
-	</item>	<item>	<productimage_s>/static-assets/images/products/thiet-bi-nha-may-tacn.png</productimage_s>
-	<productimagename_s/>
-	</item>	<item>	<productimage_s>/static-assets/images/products/thiet-bi-nha-may-tacn.png</productimage_s>
-	<productimagename_s/>
-	</item>	<item>	<productimage_s>/static-assets/images/products/thiet-bi-nha-may-tacn.png</productimage_s>
-	<productimagename_s/>
+	<productimage_s>/static-assets/images/products/Vít tải nguyên liệu.jpg</productimage_s>
 	</item></productimage_o>
 	<createdDate>2020-05-25T03:28:56.004Z</createdDate>
 	<createdDate_dt>2020-05-25T03:28:56.004Z</createdDate_dt>
-	<lastModifiedDate>2020-06-09T09:10:57.255Z</lastModifiedDate>
-	<lastModifiedDate_dt>2020-06-09T09:10:57.255Z</lastModifiedDate_dt>
-	<productAvatar_s>/static-assets/images/products/thiet-bi-nha-may-tacn.png</productAvatar_s>
+	<lastModifiedDate>2020-06-12T03:55:49.226Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-06-12T03:55:49.226Z</lastModifiedDate_dt>
+	<productAvatar_s>/static-assets/images/products/Vít tải nguyên liệu.jpg</productAvatar_s>
 	<productnameEnglish_s>Screw conveyor material</productnameEnglish_s>
-	<productdescriptionEnglish_html/>
+	<productdescriptionEnglish_html>&lt;p&gt;Screw conveying materials include:&lt;/p&gt;
+&lt;p&gt;- Screw conveyor weighing input materials with capacity of 60T / h, 90T / h depends on the design of the factory&lt;/p&gt;
+&lt;p&gt;- Screw weighing scales with a capacity of 45T / h, 60T / h depending on the design of the plant&lt;/p&gt;</productdescriptionEnglish_html>
 </page>

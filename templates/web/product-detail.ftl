@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="/static-assets/plugins/bootstrap-select1139/dist/css/bootstrap-select.min.css"/>
     <link rel="stylesheet" href="/static-assets/css/styles.css"/>
     <link rel="stylesheet" href="/static-assets/css/mavinex.css"/>
-    <title>${contentModel.productname_s}</title>
+    <title></title>
     <style>
         .line-white{
             color: #FFF;
@@ -411,7 +411,7 @@ img {
                     				</div>
                     			</div>
                     			<!-- Carousel controls -->
-                    			<a class="carousel-control right carousel-control-next" style="right: -7%;top: 25%;" href="#myCarousel" data-slide="next">
+                    			<a id="control-next-vn" class="carousel-control right carousel-control-next" style="right: -7%;top: 25%;" href="#myCarousel" data-slide="next">
                     				<i class="fa fa-play"></i>
                     			</a>
                     		</div>
@@ -484,7 +484,7 @@ img {
                     				</div>
                     			</div>
                     			<!-- Carousel controls -->
-                    			<a class="carousel-control right carousel-control-next" style="right: -7%;top: 25%;" href="#myCarousel" data-slide="next">
+                    			<a id="control-next-en" class="carousel-control right carousel-control-next" style="right: -7%;top: 25%;" href="#myCarousel" data-slide="next">
                     				<i class="fa fa-play"></i>
                     			</a>
                     		</div>
@@ -557,6 +557,7 @@ img {
     		$(".wish-icon i").click(function(){
     			$(this).toggleClass("fa-heart fa-heart-o");
     		});
+    		document.title = $('#product-group').text();
     	});	
     	
     	var key = $('#txt-key').val();
@@ -570,10 +571,17 @@ img {
     	    $('.report-price').text('Request a quote');
     	    $('.product-desc-vn').css('display', 'none');
     	    $('.product-similar-vn').css('display', 'none');
+    	    if ($('.product-similar-en .carousel-item').find('.col-3').length == 0) {
+    	        $('#control-next-en').css('display', 'none');
+    	    }
+    	    
     	} else {
     	     $('.product-name-en').css('display', 'none');
     	     $('.product-desc-en').css('display', 'none');
     	     $('.product-similar-en').css('display', 'none');
+    	     if ($('.product-similar-vn .carousel-item').find('.col-3').length == 0) {
+    	        $('#control-next-vn').css('display', 'none');
+    	     }
     	}
     	
     	for( let i = 0 ; i< lstKey.length; i++) {
