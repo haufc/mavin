@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page>
+	<content-type>/page/introductiondetail</content-type>
+	<display-template>/templates/web/introductiondetail.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>b5d9</objectGroupId>
+	<objectId>b5d91368-fbd8-fdfe-f7dd-3cba359d770b</objectId>
+	<file-name>index.xml</file-name>
+	<folder-name>partnership</folder-name>
+	<internal-name>Partnership</internal-name>
+	<title_s>Partnership</title_s>
+	<placeInNav>false</placeInNav>
+	<orderDefault_f>-1</orderDefault_f>
+	<slide_o item-list="true">	<item datasource="slide">	<key>/site/items/slides/d0a08899-63db-033a-900d-525a0e2770f9.xml</key>
+	<value>Home slide</value>
+	<include>/site/items/slides/d0a08899-63db-033a-900d-525a0e2770f9.xml</include>
+	<disableFlattening>false</disableFlattening>
+	</item></slide_o>
+	<section_o item-list="true">	<item datasource="sectionDataSource" inline="true">	<key>8b492bd5-92a6-ace6-5a4b-95d39a974ee8</key>
+	<value>list of partnerships</value>
+<component id="8b492bd5-92a6-ace6-5a4b-95d39a974ee8">
+	<content-type>/component/partnership</content-type>
+	<display-template>/templates/web/partnership.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>8b49</objectGroupId>
+	<objectId>8b492bd5-92a6-ace6-5a4b-95d39a974ee8</objectId>
+	<file-name>8b492bd5-92a6-ace6-5a4b-95d39a974ee8.xml</file-name>
+	<internal-name>list of partnerships</internal-name>
+	<logo_o item-list="true">	<item>	<partnerimagealt_s>1</partnerimagealt_s>
+	<partnerimage_s>/static-assets/images/partnerships/1.jpg</partnerimage_s>
+	</item>	<item>	<partnerimage_s>/static-assets/images/partnerships/10.jpg</partnerimage_s>
+	<partnerimagealt_s>2</partnerimagealt_s>
+	</item>	<item>	<partnerimage_s>/static-assets/images/partnerships/11.jpg</partnerimage_s>
+	<partnerimagealt_s>3</partnerimagealt_s>
+	</item>	<item>	<partnerimage_s>/static-assets/images/partnerships/12.jpg</partnerimage_s>
+	<partnerimagealt_s>4</partnerimagealt_s>
+	</item>	<item>	<partnerimage_s>/static-assets/images/partnerships/13.jpg</partnerimage_s>
+	<partnerimagealt_s>5</partnerimagealt_s>
+	</item>	<item>	<partnerimage_s>/static-assets/images/partnerships/14.jpg</partnerimage_s>
+	<partnerimagealt_s>6</partnerimagealt_s>
+	</item>	<item>	<partnerimage_s>/static-assets/images/partnerships/15.jpg</partnerimage_s>
+	<partnerimagealt_s>7</partnerimagealt_s>
+	</item>	<item>	<partnerimage_s>/static-assets/images/partnerships/2.jpg</partnerimage_s>
+	<partnerimagealt_s>8</partnerimagealt_s>
+	</item>	<item>	<partnerimage_s>/static-assets/images/partnerships/3.jpg</partnerimage_s>
+	<partnerimagealt_s>9</partnerimagealt_s>
+	</item>	<item>	<partnerimage_s>/static-assets/images/partnerships/4.jpg</partnerimage_s>
+	<partnerimagealt_s>10</partnerimagealt_s>
+	</item></logo_o>
+	<createdDate>2020-06-15T07:57:16.529Z</createdDate>
+	<createdDate_dt>2020-06-15T07:57:16.529Z</createdDate_dt>
+	<lastModifiedDate>2020-06-15T07:57:16.529Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-06-15T07:57:16.529Z</lastModifiedDate_dt>
+</component>
+	</item></section_o>
+	<thumbail_s>/static-assets/images/featured/gioi-thieu-img-4.png</thumbail_s>
+	<contents_html/>
+	<createdDate>2020-06-15T07:56:17.199Z</createdDate>
+	<createdDate_dt>2020-06-15T07:56:17.199Z</createdDate_dt>
+	<lastModifiedDate>2020-06-15T07:56:17.199Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-06-15T07:56:17.199Z</lastModifiedDate_dt>
+</page>
