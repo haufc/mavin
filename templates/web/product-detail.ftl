@@ -355,7 +355,7 @@ img {
                     			<div class="carousel-inner">
                     				<div class="item carousel-item active">
                     					<div class="row">
-                    					 <#if productVNs!?size gt 2 > 
+                    					 <#--<#if productVNs!?size gt 2 > 
                     					    <#list 0..3 as i>
                                                 <div class="col-3 col-custom-450">
                         							<div class="thumb-wrapper">
@@ -376,13 +376,25 @@ img {
                         								</div>
                         							</div>
                         						</div>
-                                            </#list>
+                                            </#list> 
+                                            </#if>-->
+                                            <#if (productVNs)??>
+                                                <#list productVNs as item>
+                                                    <div class="col-3 col-custom-450">
+                            							<div class="thumb-wrapper">
+                            								<span class="wish-icon"><i class="fa fa-heart-o"></i></span>
+                            								<div class="img-box">
+                            									<a href="${item.url}"><img src="${item.avatar}" class="img-responsive img-fluid" alt=""></a>
+                            								</div>
+                            							</div>
+                            						</div>
+                                                </#list>
                                             </#if>
                     					</div>
                     				</div>
                     				<div class="item carousel-item">
                     					<div class="row">
-                    					    <#if productVNs!?size gt 2 > 
+                    					   <#-- <#if productVNs!?size gt 2 > 
                     						 <#list 0..3 as i>
                                                 <div class="col-3 col-custom-450">
                         							<div class="thumb-wrapper">
@@ -406,6 +418,20 @@ img {
                         							</div>
                         						</div>
                                             </#list>
+                                            </#if> -->
+                                            <#if (productVNs)??>
+                                                <#list productVNs as item>
+                                                     <div class="col-3 col-custom-450">
+                            							<div class="thumb-wrapper">
+                            								<span class="wish-icon"><i class="fa fa-heart-o"></i></span>
+                            								<div class="img-box">
+                            								    <#if (item.url)??>
+                            									<a href="${item.url}"><img src="${item.avatar}" class="img-responsive img-fluid" alt=""></a>
+                            								    </#if>
+                            								</div>
+                            							</div>
+                            						</div>
+                                                </#list>
                                             </#if>
                     					</div>
                     				</div>
