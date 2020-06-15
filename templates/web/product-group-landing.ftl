@@ -90,6 +90,7 @@
                 
                 // Panigation
                 var groupProductSize = $('#group-pr-length').val();
+                alert('groupProductSize');
                 var limitperPage = 10;
                 for(let i = 0; i < groupProductSize; i++) {
                     var numberOfGroupItem = $('.group-pr-'+i).find('.list-product-en .item-pr a').length;
