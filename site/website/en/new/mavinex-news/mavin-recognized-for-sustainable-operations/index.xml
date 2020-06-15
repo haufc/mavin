@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page>
+	<content-type>/page/newsdetail</content-type>
+	<display-template>/templates/web/newsdetail.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>2202</objectGroupId>
+	<objectId>2202b742-26c9-12a7-3058-6c46c3f3c988</objectId>
+	<file-name>index.xml</file-name>
+	<folder-name>mavin-recognized-for-sustainable-operations</folder-name>
+	<internal-name>Mavin recognized for sustainable operations</internal-name>
+	<navLabel>Mavin recognized for sustainable operations</navLabel>
+	<title_s>Mavin recognized for sustainable operations</title_s>
+	<placeInNav>false</placeInNav>
+	<orderDefault_f>-1</orderDefault_f>
+	<categories_o>	<item>	<key>mavinex-news</key>
+	<value_smv>Tin Mavinex (Mavinex News)</value_smv>
+	</item></categories_o>
+	<slide_o item-list="true">	<item datasource="slideDataSource">	<key>/site/items/slides/d0a08899-63db-033a-900d-525a0e2770f9.xml</key>
+	<value>Home slide</value>
+	<include>/site/items/slides/d0a08899-63db-033a-900d-525a0e2770f9.xml</include>
+	<disableFlattening>false</disableFlattening>
+	</item></slide_o>
+	<image_s>/static-assets/images/Asian Feed Miller Award.png</image_s>
+	<content_html>&lt;p&gt;Mavin recognized for sustainable operations&lt;/p&gt;</content_html>
+	<createdDate>2020-06-15T04:28:05.306Z</createdDate>
+	<createdDate_dt>2020-06-15T04:00:00.000Z</createdDate_dt>
+	<lastModifiedDate>2020-06-15T04:28:05.306Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-06-15T04:28:05.306Z</lastModifiedDate_dt>
+	<createdDate_dt_tz>EST5EDT</createdDate_dt_tz>
+</page>
