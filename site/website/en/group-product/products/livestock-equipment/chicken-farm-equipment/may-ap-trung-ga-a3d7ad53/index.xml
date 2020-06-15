@@ -22,7 +22,11 @@
 	<file-name>index.xml</file-name>
 	<folder-name>may-ap-trung-ga-a3d7ad53</folder-name>
 	<productAvatar_s>/static-assets/images/products/Untitled-1.jpg</productAvatar_s>
-	<slide_o item-list="true"/>
+	<slide_o item-list="true">	<item datasource="slideheader">	<key>/site/items/slides/d0a08899-63db-033a-900d-525a0e2770f9.xml</key>
+	<value>Home slide</value>
+	<include>/site/items/slides/d0a08899-63db-033a-900d-525a0e2770f9.xml</include>
+	<disableFlattening>false</disableFlattening>
+	</item></slide_o>
 	<productdescription_html>&lt;table style="border-collapse: collapse; width: 100%;" border="1" width="100%" cellspacing="0" cellpadding="0"&gt;
 &lt;tbody&gt;
 &lt;tr&gt;
@@ -173,8 +177,8 @@
 &lt;p&gt;Touch screen control&lt;/p&gt;</productdescriptionEnglish_html>
 	<createdDate>2020-06-11T04:45:08.553Z</createdDate>
 	<createdDate_dt>2020-06-11T04:45:08.553Z</createdDate_dt>
-	<lastModifiedDate>2020-06-15T07:14:18.645Z</lastModifiedDate>
-	<lastModifiedDate_dt>2020-06-15T07:14:18.645Z</lastModifiedDate_dt>
+	<lastModifiedDate>2020-06-15T07:14:41.665Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-06-15T07:14:41.665Z</lastModifiedDate_dt>
 	<productimage_o item-list="true">	<item>	<productimage_s>/static-assets/images/products/Untitled-4.jpg</productimage_s>
 	<productimagename_s>Chicken incubator</productimagename_s>
 	</item>	<item>	<productimage_s>/static-assets/images/products/Untitled-3.jpg</productimage_s>
