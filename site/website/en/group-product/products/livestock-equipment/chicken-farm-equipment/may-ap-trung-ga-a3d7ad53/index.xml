@@ -9,9 +9,11 @@
 	<internal-name>Máy ấp trứng Gà a3d7ad53</internal-name>
 	<navLabel>Máy ấp trứng Gà</navLabel>
 	<productname_s>Máy ấp trứng Gà</productname_s>
-	<productnameEnglish_s>Chicken incubator</productnameEnglish_s>
+	<productnameEnglish_s>Chicken egg incubator</productnameEnglish_s>
 	<phonenumber_s>0221.653.7979</phonenumber_s>
-	<productgroup_o/>
+	<productgroup_o>	<item>	<key>thiet-bi-chan-nuoi</key>
+	<value_smv>Thiết bị chăn nuôi-Livestock equipment</value_smv>
+	</item></productgroup_o>
 	<productchildgroup_o>	<item>	<key>may-ap-no-trung-ga</key>
 	<value_smv>Máy ấp nở trứng gà-Chicken egg hatching machine</value_smv>
 	</item></productchildgroup_o>
@@ -97,7 +99,7 @@
 &lt;p&gt;380 V - 50Hz&lt;/p&gt;
 &lt;/td&gt;
 &lt;td nowrap="nowrap" width="59"&gt;
-&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
@@ -141,7 +143,7 @@
 &lt;p&gt;45o +- 2o&lt;/p&gt;
 &lt;/td&gt;
 &lt;td nowrap="nowrap" width="59"&gt;
-&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
@@ -152,7 +154,7 @@
 &lt;p&gt;Cảm ứng&lt;/p&gt;
 &lt;/td&gt;
 &lt;td nowrap="nowrap" width="59"&gt;
-&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
@@ -171,8 +173,8 @@
 &lt;p&gt;Touch screen control&lt;/p&gt;</productdescriptionEnglish_html>
 	<createdDate>2020-06-11T04:45:08.553Z</createdDate>
 	<createdDate_dt>2020-06-11T04:45:08.553Z</createdDate_dt>
-	<lastModifiedDate>2020-06-15T07:09:13.977Z</lastModifiedDate>
-	<lastModifiedDate_dt>2020-06-15T07:09:13.977Z</lastModifiedDate_dt>
+	<lastModifiedDate>2020-06-15T07:14:18.645Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-06-15T07:14:18.645Z</lastModifiedDate_dt>
 	<productimage_o item-list="true">	<item>	<productimage_s>/static-assets/images/products/Untitled-4.jpg</productimage_s>
 	<productimagename_s>Chicken incubator</productimagename_s>
 	</item>	<item>	<productimage_s>/static-assets/images/products/Untitled-3.jpg</productimage_s>
