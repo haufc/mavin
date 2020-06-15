@@ -11,7 +11,7 @@
 	<productname_s>Máy xử lý xác động vật</productname_s>
 	<phonenumber_s>0221.653.7979</phonenumber_s>
 	<placeInNav>false</placeInNav>
-	<orderDefault_f>0.0</orderDefault_f>
+	<orderDefault_f>-1</orderDefault_f>
 	<productgroup_o>	<item>	<key>thiet-bi-chuong-trai</key>
 	<value_smv>Thiết bị chuồng trại</value_smv>
 	</item></productgroup_o>
@@ -36,8 +36,8 @@
 	</item></productimage_o>
 	<createdDate>2020-06-08T03:34:25.252Z</createdDate>
 	<createdDate_dt>2020-06-08T03:34:25.252Z</createdDate_dt>
-	<lastModifiedDate>2020-06-11T10:00:45.609Z</lastModifiedDate>
-	<lastModifiedDate_dt>2020-06-11T10:00:45.609Z</lastModifiedDate_dt>
+	<lastModifiedDate>2020-06-15T07:17:47.540Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-06-15T07:17:47.540Z</lastModifiedDate_dt>
 	<productnameEnglish_s>Animal body handling machine</productnameEnglish_s>
 	<productdescriptionEnglish_html>&lt;p&gt;- Size L4955 * W1600 * H1730&lt;/p&gt;
 &lt;p&gt;- Material: 304 stainless steel&lt;/p&gt;
