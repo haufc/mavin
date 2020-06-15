@@ -13,7 +13,7 @@
 	<productname_s>Hệ thống silo và truyền tải cám cho chuồng heo cai</productname_s>
 	<phonenumber_s>0221.653.7979</phonenumber_s>
 	<placeInNav>false</placeInNav>
-	<orderDefault_f>0.0</orderDefault_f>
+	<orderDefault_f>-1</orderDefault_f>
 	<productgroup_o>	<item>	<key>thiet-bi-chuong-trai</key>
 	<value_smv>Thiết bị chuồng trại</value_smv>
 	</item></productgroup_o>
@@ -47,8 +47,8 @@
 	</item></productimage_o>
 	<createdDate>2020-06-05T09:11:09.213Z</createdDate>
 	<createdDate_dt>2020-06-05T09:11:09.213Z</createdDate_dt>
-	<lastModifiedDate>2020-06-11T07:55:52.040Z</lastModifiedDate>
-	<lastModifiedDate_dt>2020-06-11T07:55:52.040Z</lastModifiedDate_dt>
+	<lastModifiedDate>2020-06-15T07:42:14.998Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-06-15T07:42:14.998Z</lastModifiedDate_dt>
 	<productnameEnglish_s>Silo system and bran transmission for pigsty</productnameEnglish_s>
-	<productdescriptionEnglish_html/>
+	<productdescriptionEnglish_html>&lt;p&gt;aaa&lt;/p&gt;</productdescriptionEnglish_html>
 </page>
