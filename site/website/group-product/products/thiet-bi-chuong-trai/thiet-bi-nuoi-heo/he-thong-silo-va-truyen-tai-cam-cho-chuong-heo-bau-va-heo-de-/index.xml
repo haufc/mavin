@@ -9,7 +9,7 @@
 	<internal-name>Hệ thống silo và truyền tải cám cho chuồng heo bầu và heo đẻ </internal-name>
 	<navLabel>Hệ thống silo và truyền tải cám cho chuồng heo bầu</navLabel>
 	<productname_s>Hệ thống silo và truyền tải cám cho chuồng heo bầu và heo đẻ </productname_s>
-	<productnameEnglish_s/>
+	<productnameEnglish_s>Hệ thống silo và truyền tải cám cho chuồng heo bầu và heo đẻ </productnameEnglish_s>
 	<phonenumber_s>0221.653.7979</phonenumber_s>
 	<file-name>index.xml</file-name>
 	<folder-name>he-thong-silo-va-truyen-tai-cam-cho-chuong-heo-bau-va-heo-de-</folder-name>
@@ -46,10 +46,10 @@
 &lt;p&gt;&amp;nbsp; - Control cabinet&lt;/p&gt;
 &lt;p&gt;&amp;nbsp; - Installation accessories&lt;/p&gt;</productdescriptionEnglish_html>
 	<productimage_o item-list="true">	<item>	<productimage_s>/static-assets/images/products/silo-500.png</productimage_s>
-	<productimagename_s/>
+	<productimagename_s>aaa</productimagename_s>
 	</item></productimage_o>
 	<createdDate>2020-06-11T07:51:20.373Z</createdDate>
 	<createdDate_dt>2020-06-11T07:51:20.373Z</createdDate_dt>
-	<lastModifiedDate>2020-06-11T09:52:53.672Z</lastModifiedDate>
-	<lastModifiedDate_dt>2020-06-11T09:52:53.672Z</lastModifiedDate_dt>
+	<lastModifiedDate>2020-06-15T07:47:23.519Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-06-15T07:47:23.519Z</lastModifiedDate_dt>
 </page>
