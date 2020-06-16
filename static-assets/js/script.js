@@ -185,7 +185,9 @@ function search() {
             url:urlService,
             success: function(resp){
                 localStorage.setItem("mergeLst", JSON.stringify(resp[0].concat(resp[1]).concat(resp[2]).concat(resp[3])));
-                
+                if (url.href.indexOf('/en') > -1) {
+                    window.location.replace(getContextPath()+ "/en/search-result");
+                }
                 window.location.replace(getContextPath()+ "/search-result");
             }
         });
