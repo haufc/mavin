@@ -159,6 +159,8 @@ function getContextPath() {
 
 function search() {
     var url = window.location;
+    var prevUrl = document.referrer;
+    
     let userTerm = $('#txtSearch').val();
     if (userTerm === "") {
         if (url.href.indexOf('/en') > -1) {
@@ -171,9 +173,9 @@ function search() {
     }
     else {
         //var urlService = this.getContextPath() + "/api/search.json?q="+ userTerm
-        var urlService = "";
         
-        if (url.href.indexOf('/en') > -1) {
+        var urlService = "";
+        if (url.href.indexOf('/en') > -1 || prevUrl.href.indexOf('/en') > -1) {
             urlService += this.getContextPath() + "/api/searchen.json?q="+ userTerm;
         } else {
             urlService += this.getContextPath() + "/api/search.json?q="+ userTerm;
