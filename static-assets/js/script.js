@@ -84,7 +84,7 @@ $(document).ready(function() {
     $('.date-formater').text(formatDate(dateVal));
 
     // Display content for search page
-    if(url == getContextPath()+ "/search-result") {
+    if(url == getContextPath()+ "/search-result" || url == getContextPath()+ "/en/search-result") {
         
         var $pagination = $('#pagination'), 
             totalRecords = 0,
