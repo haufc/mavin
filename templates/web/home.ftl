@@ -65,6 +65,7 @@
         });
         
         var url = window.location.href;
+        var prevUrl = document.referrer;
         
         if (url.indexOf('/en') > -1) {
             $('.footer-phone').text('Phone: ');
@@ -75,11 +76,15 @@
             $('.footer-issued-by').text('Issued by: ');
             $('.job-type').text('Type: ');
             $('.job-duration').text('Duration: ');
+        }
+        
+        if (prevUrl.indexOf('/en')) {
             $('#search-result-en').css('display', 'block');
             $('#search-result-vn').css('display', 'none');
         } else {
-             $('#search-result-en').css('display', 'none');
+            $('#search-result-en').css('display', 'none');
         }
+        
     </script>
 
   </body>
