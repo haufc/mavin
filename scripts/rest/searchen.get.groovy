@@ -1,14 +1,16 @@
-import org.craftercms.blueprints.headless.SearchContentHelper
+import org.craftercms.blueprints.headless.SearchContentHelperEN
+
+println "======================WELCOME TO SEARCH ENGLISH GROOVY======================="
 
 println "This is param :"
 println params.q
-def searchHelper = new SearchContentHelper(elasticsearch, urlTransformationService)
+def searchHelper = new SearchContentHelperEN(elasticsearch, urlTransformationService)
 
 def jobs = searchHelper.searchJobs(params.q)
-def intros = searchHelper.searchIntros(params.q)
+def introsAll = searchHelper.searchIntros(params.q)
 def news = searchHelper.searchNews(params.q)
 def products = searchHelper.searchProducts(params.q)
-
+def intros = introsAll.findAll { it.url.indexOf('/en') > -1}
 
 intros.each{ intro ->
      intro.highlight = intro.highlight.replaceAll("\\<.*?\\>", "");

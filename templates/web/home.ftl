@@ -65,6 +65,7 @@
         });
         
         var url = window.location.href;
+        var prevUrl = document.referrer;
         
         if (url.indexOf('/en') > -1) {
             $('.footer-phone').text('Phone: ');
@@ -76,6 +77,14 @@
             $('.job-type').text('Type: ');
             $('.job-duration').text('Duration: ');
         }
+        
+        if (prevUrl.indexOf('/en')) {
+            $('#search-result-vn').css('display', 'none');
+            $('#search-title').text('Search result')
+        } else {
+            $('#search-result-en').css('display', 'none');
+        }
+        
     </script>
 
   </body>
