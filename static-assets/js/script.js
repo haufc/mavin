@@ -101,7 +101,7 @@ $(document).ready(function() {
         apply_pagination();
         
         $('#totalSearch').text(totalRecords);
-        $('#keywordSearch').text(localStorage.getItem("userTerm"))
+        $('.keywordSearch').text(localStorage.getItem("userTerm"))
         $('.content').css("background-color", "#FFF")
         // --- limit desc search --
         var lent = $(".limit-text-250");
@@ -161,7 +161,12 @@ function search() {
     var url = window.location;
     let userTerm = $('#txtSearch').val();
     if (userTerm === "") {
-        alert("Bạn cần nhập từ khóa tìm kiếm!");
+        if (url.href.indexOf('/en') > -1) {
+            alert("Enter keyword for searching!");
+        } else {
+            alert("Bạn cần nhập từ khóa tìm kiếm!");
+        }
+        
         $('#txtSearch').focus();
     }
     else {
