@@ -79,7 +79,6 @@
         }
         
         if (prevUrl.indexOf('/en')) {
-            $('#search-result-en').css('display', 'block');
             $('#search-result-vn').css('display', 'none');
         } else {
             $('#search-result-en').css('display', 'none');
