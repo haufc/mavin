@@ -80,17 +80,9 @@ $(document).ready(function() {
         }).css('font-weight', 'bold');
     }
     
-    
     let dateVal = $('.date-formater').text();
     $('.date-formater').text(formatDate(dateVal));
-    
-    // // define display job content item
-    // var jobContent = $(".job-info__item").text();
-    // console.log(jobContent);
-    
-    // var lstJobContent = jobContent.split('-').join('/').split('*').join('/').split('·').join('/').split('/') ;
 
-    
     // Display content for search page
     if(url == getContextPath()+ "/search-result") {
         
@@ -108,12 +100,6 @@ $(document).ready(function() {
         totalPages = Math.ceil(totalRecords / recPerPage);
         apply_pagination();
         
-        // var source = $("#search-results-template").html();
-        // var template = Handlebars.compile(source);
-        // var context = { results: storedLstSearch };
-        // var html = template(context);
-        
-        // $('.search-result_item').html(html);
         $('#totalSearch').text(totalRecords);
         $('#keywordSearch').text(localStorage.getItem("userTerm"))
         $('.content').css("background-color", "#FFF")
@@ -128,11 +114,7 @@ $(document).ready(function() {
                $(lent[i]).html(txt)
             }
         }
-        // if (lent.length > 100) {
-        //   short_text = lent.substr(0, 100);
-        //   $(".limit-text-250").html(short_text);
-        // }
-        
+
         $(".limit-text-250 em").css("font-weight", "bold");
     }
     
@@ -175,58 +157,21 @@ function getContextPath() {
    return  window.location.protocol + "//" + window.location.host
 }
 
-// function search() {
-//         console.log('demo');
-//         $('.content__item').css("display", "none");
-//         $(window).scrollTop($('.search-result').offset().top);
-//         let userTerm = $('#txtSearch').val()
-//         console.log(userTerm);
-//         var urlService = this.getContextPath() + "/api/search.json?q="+ userTerm
-//         $.ajax({
-//             type: "GET",
-//             url:urlService,
-//             success: function(resp){
-//                 console.log(resp);
-//                 //let total = resp[0].length + resp[1].length;
-//                 let total = resp[0].length;
-//                 $('.search-result').css("display", "block");
-//                 $('#total-search').text(total);
-//                 $('#term-search').text(userTerm);
-                
-//                 var source = $("#search-results-template").html();
-//                 var template = Handlebars.compile(source);
-//                 var context = { results: resp[0] };
-                
-//                 localStorage.setItem("listSearch", resp[0]);
-//                 var html = template(context);
-                
-//                 $('.search-result__list').html(html);
-                
-//                 // --- limit desc search --
-//                 var lent = $(".limit-text-250").html().length;
-//                 if (lent > 200) {
-//                   short_text = $(".limit-text-250").html().substr(0, 200);
-//                   $(".limit-text-250").html(short_text + "...");
-//                 }
-                
-//                 // --- style for em--
-//                 $(".limit-text-250 em").css("font-weight","bold");
-//             }
-//         });
-//     $('.nav-bar__search').css("display", "none");
-// }
-
 function search() {
-    console.log('demo');
-   // $('.content__item').css("display", "none");
-   // $(window).scrollTop($('.search-result').offset().top);
     let userTerm = $('#txtSearch').val();
     if (userTerm === "") {
         alert("Bạn cần nhập từ khóa tìm kiếm!");
         $('#txtSearch').focus();
     }
     else {
-        var urlService = this.getContextPath() + "/api/search.json?q="+ userTerm
+        //var urlService = this.getContextPath() + "/api/search.json?q="+ userTerm
+        var urlService = "";
+        if (url.href.indexOf('/en') > -1) {
+            urlService += this.getContextPath() + "/api/searchen.json?q="+ userTerm;
+        } else {
+            urlService += this.getContextPath() + "/api/search.json?q="+ userTerm;
+        }
+        
         localStorage.setItem("userTerm", userTerm);
         $.ajax({
             type: "GET",
