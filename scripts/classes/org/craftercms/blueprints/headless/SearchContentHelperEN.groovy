@@ -8,7 +8,7 @@ import org.elasticsearch.search.builder.SearchSourceBuilder
 import org.elasticsearch.search.sort.FieldSortBuilder
 import org.elasticsearch.search.sort.SortOrder
 
-class SearchContentHelper {
+class SearchContentHelperEN {
     static final String JOB_CONTENT_TYPE_QUERY = "content-type:\"/page/joben\""
     static final String HOME_CONTENT_TYPE_QUERY = "content-type:\"/page/home\""
     static final String INTRO_CONTENT_TYPE_QUERY = "content-type:\"/page/introductiondetail\""
@@ -33,7 +33,7 @@ class SearchContentHelper {
     String newsContentQuery = NEWS_CONTENT_TYPE_QUERY
     String productsContentQuery = PRODUCTS_CONTENT_TYPE_QUERY
     
-    SearchContentHelper(elasticsearch, UrlTransformationService urlTransformationService) {
+    SearchContentHelperEN(elasticsearch, UrlTransformationService urlTransformationService) {
         this.elasticsearch = elasticsearch
         this.urlTransformationService = urlTransformationService
     }
