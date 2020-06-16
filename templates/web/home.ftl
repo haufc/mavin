@@ -80,6 +80,7 @@
         
         if (prevUrl.indexOf('/en')) {
             $('#search-result-vn').css('display', 'none');
+            $('#search-title').text('search result')
         } else {
             $('#search-result-en').css('display', 'none');
         }
