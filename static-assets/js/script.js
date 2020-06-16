@@ -100,7 +100,7 @@ $(document).ready(function() {
         totalPages = Math.ceil(totalRecords / recPerPage);
         apply_pagination();
         
-        $('#totalSearch').text(totalRecords);
+        $('.totalSearch').text(totalRecords);
         $('.keywordSearch').text(localStorage.getItem("userTerm"))
         $('.content').css("background-color", "#FFF")
         // --- limit desc search --
