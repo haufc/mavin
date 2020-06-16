@@ -330,9 +330,9 @@ class SearchContentHelperEN {
             hits.each { hit -> 
                 def doc = hit.getSourceAsMap()
                 def product = [:]
-                    product.title = doc.productname_s
+                    product.title = doc.productnameEnglish_s
                     product.url = urlTransformationService.transform("storeUrlToRenderUrl", doc.localId)
-                    product.desc = doc.productdescription_html
+                    product.desc = doc.productdescriptionEnglish_html
                     product.image = doc.productAvatar_s
                     
                 if (hit.highlightFields) {
