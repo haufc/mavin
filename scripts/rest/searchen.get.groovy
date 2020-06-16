@@ -49,5 +49,5 @@ jobs.each{ job ->
      }
  }
 
- def total = jobs.size() + intros.size() + news.size() + products.size()
+def total = jobs.size() + intros.size() + news.size() + products.size()
 return [jobs, intros, news, products, total]
