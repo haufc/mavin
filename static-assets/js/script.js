@@ -39,6 +39,11 @@ $(document).ready(function() {
             $(lstbtn[1]).find('a').addClass('selected');
             $(lstbtn[1]).find('a').addClass('active');
             
+            $(lstbtn[0]).removeClass('selected');
+            $(lstbtn[0]).removeClass('active');
+            $(lstbtn[0]).find('a').removeClass('selected');
+            $(lstbtn[0]).find('a').removeClass('active');
+            
         } else {
             console.log('hihih')
         }
