@@ -172,7 +172,6 @@
                 
                 
             } else {
-                document.title = $('.tittle-vn').text();
                 $('.tittle-vn').css('display', 'block');
                 $('.title-en').css('display', 'none');
                 $('.product-child-vn').css('display', 'block');
