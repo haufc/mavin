@@ -3,7 +3,7 @@
     
     if ( url.indexOf('/en') > -1) {
         $('.span-view-more').text('View more');
-        $('#btn-intro').attr('href', '/en/introduction');
+        $('#btn-intro').attr('href', '/en/introductions');
         
         $('#product-title-en').css('display','block');
         $('#product-title-vie').css('display','none');
