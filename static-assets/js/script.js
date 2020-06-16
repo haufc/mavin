@@ -34,8 +34,8 @@ $(document).ready(function() {
     $('.bootstrap-select').click(function() {
         var lstbtn = $('.dropdown-menu').find('li');
         if (url.href.indexOf('/en') > -1) {
-            $(lstbtn[1].addClass('selected'));
-            $(lstbtn[1].addClass('active'));
+            $(lstbtn[1]).addClass('selected');
+            $(lstbtn[1]).addClass('active');
             $(lstbtn[1]).find('a').addClass('selected');
             $(lstbtn[1]).find('a').addClass('active');
             
