@@ -20,7 +20,7 @@
 	<value_smv>Thiết bị chăn nuôi vịt-Duck egg hatching machine</value_smv>
 	</item></productchildgroup_o>
 	<placeInNav>false</placeInNav>
-	<orderDefault_f>0.0</orderDefault_f>
+	<orderDefault_f>-1</orderDefault_f>
 	<slide_o item-list="true">	<item datasource="slideheader">	<key>/site/items/slides/d0a08899-63db-033a-900d-525a0e2770f9.xml</key>
 	<value>Home slide</value>
 	<include>/site/items/slides/d0a08899-63db-033a-900d-525a0e2770f9.xml</include>
@@ -40,6 +40,6 @@
 	</item></productimage_o>
 	<createdDate>2020-06-16T03:15:53.180Z</createdDate>
 	<createdDate_dt>2020-06-16T03:15:53.180Z</createdDate_dt>
-	<lastModifiedDate>2020-06-16T03:15:53.180Z</lastModifiedDate>
-	<lastModifiedDate_dt>2020-06-16T03:15:53.180Z</lastModifiedDate_dt>
+	<lastModifiedDate>2020-06-16T03:19:58.873Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-06-16T03:19:58.873Z</lastModifiedDate_dt>
 </page>
