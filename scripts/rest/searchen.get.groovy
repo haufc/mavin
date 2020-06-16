@@ -1,8 +1,8 @@
-import org.craftercms.blueprints.headless.SearchContentHelper
+import org.craftercms.blueprints.headless.SearchContentHelperEN
 
 println "This is param :"
 println params.q
-def searchHelper = new SearchContentHelper(elasticsearch, urlTransformationService)
+def searchHelper = new SearchContentHelperEN(elasticsearch, urlTransformationService)
 
 def jobs = searchHelper.searchJobs(params.q)
 def intros = searchHelper.searchIntros(params.q)
