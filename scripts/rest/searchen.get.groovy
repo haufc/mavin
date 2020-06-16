@@ -7,10 +7,10 @@ println params.q
 def searchHelper = new SearchContentHelperEN(elasticsearch, urlTransformationService)
 
 def jobs = searchHelper.searchJobs(params.q)
-def intros = searchHelper.searchIntros(params.q)
+def introsAll = searchHelper.searchIntros(params.q)
 def news = searchHelper.searchNews(params.q)
 def products = searchHelper.searchProducts(params.q)
-
+def intros = introsAll.findAll { it.url.indexOf('/en') > -1}
 
 intros.each{ intro ->
      intro.highlight = intro.highlight.replaceAll("\\<.*?\\>", "");
