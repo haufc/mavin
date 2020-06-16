@@ -175,7 +175,7 @@ function search() {
         //var urlService = this.getContextPath() + "/api/search.json?q="+ userTerm
         
         var urlService = "";
-        if (url.href.indexOf('/en') > -1 || prevUrl.href.indexOf('/en') > -1) {
+        if (url.href.indexOf('/en') > -1 || prevUrl.indexOf('/en') > -1) {
             urlService += this.getContextPath() + "/api/searchen.json?q="+ userTerm;
         } else {
             urlService += this.getContextPath() + "/api/search.json?q="+ userTerm;
