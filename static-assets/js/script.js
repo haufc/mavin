@@ -44,9 +44,15 @@ $(document).ready(function() {
             $(lstbtn[0]).find('a').removeClass('selected');
             $(lstbtn[0]).find('a').removeClass('active');
             
-        } else {
-            console.log('hihih')
         }
+        
+        $(lstbtn[0]).click(function() {
+            window.location.replace(getContextPath());
+        });
+        
+         $(lstbtn[1]).click(function() {
+            window.location.replace(getContextPath() + "/en/index");
+        });
     });
     
     
