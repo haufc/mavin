@@ -1,5 +1,7 @@
 import org.craftercms.blueprints.headless.SearchContentHelperEN
 
+println "======================WELCOME TO SEARCH ENGLISH GROOVY======================="
+
 println "This is param :"
 println params.q
 def searchHelper = new SearchContentHelperEN(elasticsearch, urlTransformationService)
