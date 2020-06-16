@@ -158,6 +158,7 @@ function getContextPath() {
 }
 
 function search() {
+    var url = window.location;
     let userTerm = $('#txtSearch').val();
     if (userTerm === "") {
         alert("Bạn cần nhập từ khóa tìm kiếm!");
