@@ -28,4 +28,7 @@
         </div>
       </div>
       <input id="job-size" value="${jobs?size}"/>
+      <script>
+        console.log($('#job-size').val())
+      </script>
 <@studio.toolSupport />
