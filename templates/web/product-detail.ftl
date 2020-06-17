@@ -384,7 +384,7 @@ img {
                             							<div class="thumb-wrapper">
                             								<span class="wish-icon"><i class="fa fa-heart-o"></i></span>
                             								<div class="img-box">
-                            									<a href="${item.url}"><img src="${item.avatar}" class="img-responsive img-fluid" alt=""></a>
+                            									<a href="${item.url}"><img src="${item.avatar}" class="img-responsive img-fluid" alt="${item.title}" title="${item.title}"></a>
                             								</div>
                             							</div>
                             						</div>
@@ -425,7 +425,7 @@ img {
                             							<div class="thumb-wrapper">
                             								<span class="wish-icon"><i class="fa fa-heart-o"></i></span>
                             								<div class="img-box">
-                            									<a href="${item.url}"><img src="${item.avatar}" class="img-responsive img-fluid" alt=""></a>
+                            									<a href="${item.url}"><img src="${item.avatar}" class="img-responsive img-fluid" alt="${item.title}" title="${item.title}"></a>
                             								</div>
                             							</div>
                             						</div>
@@ -481,7 +481,7 @@ img {
                             							<div class="thumb-wrapper">
                             								<span class="wish-icon"><i class="fa fa-heart-o"></i></span>
                             								<div class="img-box">
-                            									<a href="${item.url}"><img src="${item.avatar}" class="img-responsive img-fluid" alt=""></a>
+                            									<a href="${item.url}"><img src="${item.avatar}" class="img-responsive img-fluid" alt="${item.titleEN}" title="${item.titleEN}"></a>
                             								</div>
                             							</div>
                             						</div>
@@ -522,7 +522,7 @@ img {
                             							<div class="thumb-wrapper">
                             								<span class="wish-icon"><i class="fa fa-heart-o"></i></span>
                             								<div class="img-box">
-                            									<a href="${item.url}"><img src="${item.avatar}" class="img-responsive img-fluid" alt=""></a>
+                            									<a href="${item.url}"><img src="${item.avatar}" class="img-responsive img-fluid" alt="${item.titleEN}" title="${item.titleEN}"></a>
                             								</div>
                             							</div>
                             						</div>

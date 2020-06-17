@@ -19,7 +19,7 @@
 	<productchildgroup_o>	<item>	<key>thiet-bi-nha-may-tacn</key>
 	<value_smv>Thiết bị nhà máy TACN-Feed machine equipment</value_smv>
 	</item></productchildgroup_o>
-	<productAvatar_s/>
+	<productAvatar_s>/static-assets/images/products/Pallet 1.jpg</productAvatar_s>
 	<file-name>index.xml</file-name>
 	<folder-name>pallet</folder-name>
 	<slide_o item-list="true">	<item datasource="slideheader">	<key>/site/items/slides/d0a08899-63db-033a-900d-525a0e2770f9.xml</key>
@@ -36,6 +36,6 @@
 	</item></productimage_o>
 	<createdDate>2020-06-15T09:27:34.054Z</createdDate>
 	<createdDate_dt>2020-06-15T09:27:34.054Z</createdDate_dt>
-	<lastModifiedDate>2020-06-15T09:27:34.054Z</lastModifiedDate>
-	<lastModifiedDate_dt>2020-06-15T09:27:34.054Z</lastModifiedDate_dt>
+	<lastModifiedDate>2020-06-16T03:37:16.468Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-06-16T03:37:16.468Z</lastModifiedDate_dt>
 </page>
