@@ -27,5 +27,5 @@
               </#list>
         </div>
       </div>
-      <input id="job-size" value="jobs?size"/>
+      <input id="job-size" value="${jobs?size}"/>
 <@studio.toolSupport />
