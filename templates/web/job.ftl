@@ -32,7 +32,6 @@
         var jobSize = $('#job-size').val();
         for(let i = 0; i < jobSize; i++) {
             var jobDur = $('#job-duration-'+i).text();
-            2020-04-23T04:00:00.000Z
             var date = jobDur.split('T');
             var lstDate = date[0].split('-');
             var yyyy = lstDate[0];
