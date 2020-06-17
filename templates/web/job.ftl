@@ -38,7 +38,7 @@
             var yyyy = lstDate[0];
             var mm = lstDate[1];
             var dd = lstDate[2];
-            $('#job-duration-'+i).text(dd + '/' + 'mm' + '/' + yyyy);
+            $('#job-duration-'+i).text(dd + '/' + mm + '/' + yyyy);
         }
       </script>
 <@studio.toolSupport />
