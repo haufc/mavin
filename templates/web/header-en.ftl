@@ -12,8 +12,8 @@
               <div class="dropdown-content">
                 <a class="mavinex-nav__link" href="/en/introducts/introduction">Introduction</a>
                 <a class="mavinex-nav__link" href="/en/introducts/history">History</a>
-                <a class="mavinex-nav__link" href="/en/scope-of-activities">Scope of activities</a>
-                <a class="mavinex-nav__link" href="/introducts/doi-tac-chien-luoc">Partnership</a>
+                <a class="mavinex-nav__link" href="/en/introducts/scope-of-activities">Scope of activities</a>
+                <a class="mavinex-nav__link" href="/en/introducts/partnership">Partnership</a>
               </div>
             </div>
             <div class="dropdown">
@@ -33,6 +33,7 @@
                 <a class="mavinex-nav__link" href="/en/overall-consulting--livestock-farm-design">Overall consulting, livestock farm design</a>
                 </div>
             </div>
+
             <a class="mavinex-nav__link" href="/en/career-opportunities">Job</a>
             <a class="mavinex-nav__link" href="/en/contact">Contact</a>
         </div>

@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="/static-assets/plugins/bootstrap-select1139/dist/css/bootstrap-select.min.css"/>
     <link rel="stylesheet" href="/static-assets/css/styles.css"/>
     <link rel="stylesheet" href="/static-assets/css/mavinex.css"/>
-    <title></title>
+    <title>${contentModel.product_title_s}</title>
     <style>
         .page-link{
             border-radius :50% !important;
@@ -172,7 +172,6 @@
                 
                 
             } else {
-                document.title = $('.tittle-vn').text();
                 $('.tittle-vn').css('display', 'block');
                 $('.title-en').css('display', 'none');
                 $('.product-child-vn').css('display', 'block');

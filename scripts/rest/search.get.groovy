@@ -5,19 +5,10 @@ println params.q
 def searchHelper = new SearchContentHelper(elasticsearch, urlTransformationService)
 
 def jobs = searchHelper.searchJobs(params.q)
-// def homes = searchHelper.searchHomes(params.q)
 def intros = searchHelper.searchIntros(params.q)
 def news = searchHelper.searchNews(params.q)
 def products = searchHelper.searchProducts(params.q)
 
-println "This is Jobs : =================================>"
-println  jobs
-
-println "This is Intros : =================================>"
-println intros
-
-println "This is News : =================================>"
-println news
 
 intros.each{ intro ->
      intro.highlight = intro.highlight.replaceAll("\\<.*?\\>", "");
@@ -37,14 +28,6 @@ jobs.each{ job ->
      }
  }
 
-// homes.each{ home ->
-//      home.highlight = home.highlight.replaceAll("\\<.*?\\>", "");
-     
-//      if (home.highlight.length() > 150) {
-//          home.highlight = home.highlight.substring(0,120)
-//          home.highlight.concat("...")
-//      }
-//  }
  
  news.each{ new1 ->
      new1.highlight = new1.highlight.replaceAll("\\<.*?\\>", "");
