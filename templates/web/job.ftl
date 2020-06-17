@@ -29,6 +29,10 @@
       </div>
       <input id="job-size" value="${jobs?size}"/>
       <script>
-        console.log($('#job-size').val())
+        var jobSize = $('#job-size').val();
+        for(let i = 0; i < jobSize; i++) {
+            var jobDur = $('#job-duration-'+i).text();
+            console.log(jobDur);
+        }
       </script>
 <@studio.toolSupport />
