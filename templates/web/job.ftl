@@ -27,7 +27,7 @@
               </#list>
         </div>
       </div>
-      <input id="job-size" value="${jobs?size}"/>
+      <input hidden id="job-size" value="${jobs?size}"/>
       <script>
         var jobSize = $('#job-size').val();
         for(let i = 0; i < jobSize; i++) {
