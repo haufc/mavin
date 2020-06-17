@@ -22,14 +22,13 @@
 	<objectGroupId>1e5d</objectGroupId>
 	<objectId>1e5de1b7-53a1-16e2-94fa-739a65c2c7c6</objectId>
 	<image_o item-list="true">	<item>	<image_s>/static-assets/images/slides/bg_4.png</image_s>
-	</item>	<item>	<image_s>/static-assets/images/slides/bg_3.png</image_s>
 	</item></image_o>
 	<file-name>1e5de1b7-53a1-16e2-94fa-739a65c2c7c6.xml</file-name>
 	<internal-name>Slide</internal-name>
 	<createdDate>2020-04-01T04:55:21.679Z</createdDate>
 	<createdDate_dt>2020-04-01T04:55:21.679Z</createdDate_dt>
-	<lastModifiedDate>2020-04-24T02:57:30.867Z</lastModifiedDate>
-	<lastModifiedDate_dt>2020-04-24T02:57:30.867Z</lastModifiedDate_dt>
+	<lastModifiedDate>2020-06-17T10:42:42.244Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-06-17T10:42:42.244Z</lastModifiedDate_dt>
 </component>
 	</item>	<item datasource="sections" inline="true">	<key>55c47574-477f-896f-fae3-d00f3769e03a</key>
 	<value>Danh sách công việc</value>
@@ -53,7 +52,7 @@
 	</item></sections_o>
 	<createdDate>2020-04-01T04:50:47.836Z</createdDate>
 	<createdDate_dt>2020-04-01T04:50:47.836Z</createdDate_dt>
-	<lastModifiedDate>2020-05-04T07:22:39.672Z</lastModifiedDate>
-	<lastModifiedDate_dt>2020-05-04T07:22:39.672Z</lastModifiedDate_dt>
+	<lastModifiedDate>2020-06-17T10:42:36.674Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-06-17T10:42:36.674Z</lastModifiedDate_dt>
 	<descripttion_t>Trang này cung cấp các thông tin tuyển dụng, các vị trí công việc mà công ty đang yêu cầu</descripttion_t>
 </page>
