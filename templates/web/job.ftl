@@ -17,7 +17,7 @@
                               </tr>
                               <tr>
                                 <td class="job-duration">Thời hạn:</td>
-                                <td id="job-duration-${job?index}">${job.duration}</td>
+                                <td id="job-duration${job?index}">${job.duration}</td>
                               </tr>
                             </table>
                           </div>
