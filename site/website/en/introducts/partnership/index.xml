@@ -28,41 +28,49 @@
 	<objectId>5325de78-fc71-2a74-687f-7365ade989af</objectId>
 	<file-name>5325de78-fc71-2a74-687f-7365ade989af.xml</file-name>
 	<internal-name>List of partnership</internal-name>
-	<logo_o item-list="true">	<item>	<partnerimagealt_s>1</partnerimagealt_s>
+	<logo_o item-list="true">	<item>	<partnerimagealt_s>Mavin Group</partnerimagealt_s>
 	<partnerimage_s>/static-assets/images/partnerships/1.jpg</partnerimage_s>
-	</item>	<item>	<partnerimage_s>/static-assets/images/partnerships/10.jpg</partnerimage_s>
-	<partnerimagealt_s>2</partnerimagealt_s>
-	</item>	<item>	<partnerimage_s>/static-assets/images/partnerships/11.jpg</partnerimage_s>
-	<partnerimagealt_s>3</partnerimagealt_s>
-	</item>	<item>	<partnerimage_s>/static-assets/images/partnerships/12.jpg</partnerimage_s>
-	<partnerimagealt_s>4</partnerimagealt_s>
-	</item>	<item>	<partnerimage_s>/static-assets/images/partnerships/13.jpg</partnerimage_s>
-	<partnerimagealt_s>5</partnerimagealt_s>
-	</item>	<item>	<partnerimage_s>/static-assets/images/partnerships/14.jpg</partnerimage_s>
-	<partnerimagealt_s>6</partnerimagealt_s>
-	</item>	<item>	<partnerimage_s>/static-assets/images/partnerships/15.jpg</partnerimage_s>
-	<partnerimagealt_s>7</partnerimagealt_s>
 	</item>	<item>	<partnerimage_s>/static-assets/images/partnerships/2.jpg</partnerimage_s>
-	<partnerimagealt_s>8</partnerimagealt_s>
+	<partnerimagealt_s>Mavin Austfeed</partnerimagealt_s>
 	</item>	<item>	<partnerimage_s>/static-assets/images/partnerships/3.jpg</partnerimage_s>
-	<partnerimagealt_s>9</partnerimagealt_s>
-	</item>	<item>	<partnerimage_s>/static-assets/images/partnerships/4.jpg</partnerimage_s>
-	<partnerimagealt_s>10</partnerimagealt_s>
+	<partnerimagealt_s>Mavin Farm</partnerimagealt_s>
 	</item>	<item>	<partnerimage_s>/static-assets/images/partnerships/4b.jpg</partnerimage_s>
-	<partnerimagealt_s>11</partnerimagealt_s>
+	<partnerimagealt_s>Mavin Chickfarm</partnerimagealt_s>
 	</item>	<item>	<partnerimage_s>/static-assets/images/partnerships/4c.jpg</partnerimage_s>
-	<partnerimagealt_s>12</partnerimagealt_s>
+	<partnerimagealt_s>Mavin Duckfarm</partnerimagealt_s>
+	</item>	<item>	<partnerimage_s>/static-assets/images/partnerships/4.jpg</partnerimage_s>
+	<partnerimagealt_s>Mavin Aqua</partnerimagealt_s>
+	</item>	<item>	<partnerimage_s>/static-assets/images/partnerships/Logo Giordano.png</partnerimage_s>
+	<partnerimagealt_s>Giordano</partnerimagealt_s>
+	</item>	<item>	<partnerimage_s>/static-assets/images/partnerships/7.jpg</partnerimage_s>
+	<partnerimagealt_s>Buhler</partnerimagealt_s>
+	</item>	<item>	<partnerimage_s>/static-assets/images/partnerships/9.jpg</partnerimage_s>
+	<partnerimagealt_s>Premier Tech</partnerimagealt_s>
+	</item>	<item>	<partnerimage_s>/static-assets/images/partnerships/8.jpg</partnerimage_s>
+	<partnerimagealt_s>big dutchman</partnerimagealt_s>
+	</item>	<item>	<partnerimage_s>/static-assets/images/partnerships/10.jpg</partnerimage_s>
+	<partnerimagealt_s>vostermans ventilation</partnerimagealt_s>
+	</item>	<item>	<partnerimage_s>/static-assets/images/partnerships/11.jpg</partnerimage_s>
+	<partnerimagealt_s>Multifan</partnerimagealt_s>
+	</item>	<item>	<partnerimage_s>/static-assets/images/partnerships/12.jpg</partnerimage_s>
+	<partnerimagealt_s>roxell</partnerimagealt_s>
+	</item>	<item>	<partnerimage_s>/static-assets/images/partnerships/14.jpg</partnerimage_s>
+	<partnerimagealt_s>fancom</partnerimagealt_s>
+	</item>	<item>	<partnerimage_s>/static-assets/images/partnerships/13.jpg</partnerimage_s>
+	<partnerimagealt_s>famsum</partnerimagealt_s>
+	</item>	<item>	<partnerimage_s>/static-assets/images/partnerships/15.jpg</partnerimage_s>
+	<partnerimagealt_s>extrucsion group</partnerimagealt_s>
 	</item></logo_o>
 	<createdDate>2020-06-15T08:45:58.456Z</createdDate>
 	<createdDate_dt>2020-06-15T08:45:58.456Z</createdDate_dt>
-	<lastModifiedDate>2020-06-15T08:45:58.456Z</lastModifiedDate>
-	<lastModifiedDate_dt>2020-06-15T08:45:58.456Z</lastModifiedDate_dt>
+	<lastModifiedDate>2020-06-22T07:18:45.281Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-06-22T07:18:45.281Z</lastModifiedDate_dt>
 </component>
 	</item></section_o>
 	<thumbail_s>/static-assets/images/featured/content_img_3.png</thumbail_s>
-	<contents_html/>
+	<contents_html>&lt;p&gt;a&lt;/p&gt;</contents_html>
 	<createdDate>2020-06-15T08:45:07.972Z</createdDate>
 	<createdDate_dt>2020-06-15T08:45:07.972Z</createdDate_dt>
-	<lastModifiedDate>2020-06-15T08:45:07.972Z</lastModifiedDate>
-	<lastModifiedDate_dt>2020-06-15T08:45:07.972Z</lastModifiedDate_dt>
+	<lastModifiedDate>2020-06-22T07:18:24.199Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-06-22T07:18:24.199Z</lastModifiedDate_dt>
 </page>
