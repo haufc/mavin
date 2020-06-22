@@ -7,8 +7,8 @@
 	<objectGroupId>efd4</objectGroupId>
 	<objectId>efd4ea0f-b794-b7d5-8d9e-cd0e9b75ce05</objectId>
 	<file-name>efd4ea0f-b794-b7d5-8d9e-cd0e9b75ce05.xml</file-name>
-	<internal-name>CarouselAdvisory</internal-name>
-	<url_s/>
+	<internal-name>Carousel năng lực kinh nghiệm</internal-name>
+	<url_s>advisory</url_s>
 	<image_o item-list="true">	<item>	<image1Title_s>Nhà máy Mavin Austfeed Nghệ An (MNA)</image1Title_s>
 	<image2Title_s>Nhà máy Mavin Austfeed Đồng Tháp (MDT)</image2Title_s>
 	<image3Title_s>Dự án Trại heo giống Hưng Việt </image3Title_s>
@@ -30,6 +30,6 @@
 	</item></image_o>
 	<createdDate>2020-04-23T04:20:32.241Z</createdDate>
 	<createdDate_dt>2020-04-23T04:20:32.241Z</createdDate_dt>
-	<lastModifiedDate>2020-04-24T04:38:26.069Z</lastModifiedDate>
-	<lastModifiedDate_dt>2020-04-24T04:38:26.069Z</lastModifiedDate_dt>
+	<lastModifiedDate>2020-06-22T07:14:29.562Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-06-22T07:14:29.562Z</lastModifiedDate_dt>
 </component>
