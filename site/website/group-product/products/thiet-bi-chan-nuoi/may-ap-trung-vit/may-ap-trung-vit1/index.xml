@@ -17,9 +17,9 @@
 	<internal-name>Máy ấp trứng Vịt</internal-name>
 	<navLabel>Máy ấp trứng Vịt</navLabel>
 	<productname_s>Máy ấp trứng Vịt</productname_s>
-	<productnameEnglish_s/>
+	<productnameEnglish_s>Duck egg hatching machine</productnameEnglish_s>
 	<phonenumber_s>0221.653.7979</phonenumber_s>
-	<productAvatar_s/>
+	<productAvatar_s>/static-assets/images/products/Máy ấp trứng vịt.jpg</productAvatar_s>
 	<slide_o item-list="true"/>
 	<productdescription_html>&lt;table style="border-collapse: collapse; width: 100%;" border="1" width="100%" cellspacing="0" cellpadding="0"&gt;
 &lt;tbody&gt;
@@ -97,7 +97,7 @@
 &lt;p align="center"&gt;380 V - 50Hz&lt;/p&gt;
 &lt;/td&gt;
 &lt;td nowrap="nowrap" width="47"&gt;
-&lt;p align="center"&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p align="center"&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
@@ -141,7 +141,7 @@
 &lt;p align="center"&gt;43o +- 2o&lt;/p&gt;
 &lt;/td&gt;
 &lt;td nowrap="nowrap" width="47"&gt;
-&lt;p align="center"&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p align="center"&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
@@ -152,7 +152,7 @@
 &lt;p align="center"&gt;Cảm ứng&lt;/p&gt;
 &lt;/td&gt;
 &lt;td nowrap="nowrap" width="47"&gt;
-&lt;p align="center"&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p align="center"&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
@@ -170,14 +170,14 @@
 &lt;p&gt;Egg corner 43o + - 2o&lt;/p&gt;
 &lt;p&gt;Touch screen control&lt;/p&gt;</productdescriptionEnglish_html>
 	<productimage_o item-list="true">	<item>	<productimage_s>/static-assets/images/products/Untitled-1.jpg</productimage_s>
-	<productimagename_s/>
+	<productimagename_s>Máy ấp trứng Vịt 1</productimagename_s>
 	</item>	<item>	<productimage_s>/static-assets/images/products/Untitled-4.jpg</productimage_s>
-	<productimagename_s/>
-	</item>	<item>	<productimage_s>/static-assets/images/products/Untitled-3.jpg</productimage_s>
-	<productimagename_s/>
+	<productimagename_s>Máy ấp trứng Vịt 2</productimagename_s>
+	</item>	<item>	<productimage_s>/static-assets/images/products/Máy ấp trứng vịt.jpg</productimage_s>
+	<productimagename_s>Máy ấp trứng Vịt 3</productimagename_s>
 	</item></productimage_o>
 	<createdDate>2020-06-11T04:59:14.439Z</createdDate>
 	<createdDate_dt>2020-06-11T04:59:14.439Z</createdDate_dt>
-	<lastModifiedDate>2020-06-11T04:59:14.439Z</lastModifiedDate>
-	<lastModifiedDate_dt>2020-06-11T04:59:14.439Z</lastModifiedDate_dt>
+	<lastModifiedDate>2020-06-23T07:08:11.301Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-06-23T07:08:11.301Z</lastModifiedDate_dt>
 </page>
