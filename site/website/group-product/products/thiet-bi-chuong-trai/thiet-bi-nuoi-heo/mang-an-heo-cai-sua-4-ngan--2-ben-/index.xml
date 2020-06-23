@@ -21,7 +21,7 @@
 	<productchildgroup_o>	<item>	<key>thiet-bi-nuoi-heo</key>
 	<value_smv>Thiết bị chăn nuôi heo-Equipment for breeding pig</value_smv>
 	</item></productchildgroup_o>
-	<productAvatar_s>/static-assets/images/products/Mang an heo cai sua 4 ngan (2 ben).jpg</productAvatar_s>
+	<productAvatar_s>/static-assets/images/products/Mang an cho heo 4.jpg</productAvatar_s>
 	<slide_o item-list="true">	<item datasource="slideheader">	<key>/site/items/slides/d0a08899-63db-033a-900d-525a0e2770f9.xml</key>
 	<value>Home slide</value>
 	<include>/site/items/slides/d0a08899-63db-033a-900d-525a0e2770f9.xml</include>
@@ -35,11 +35,11 @@
 &lt;p&gt;Used for weaning pigs&lt;/p&gt;
 &lt;p&gt;Capacity: 40 - 50 kg&lt;/p&gt;
 &lt;p&gt;Origin: Mavinex&lt;/p&gt;</productdescriptionEnglish_html>
-	<productimage_o item-list="true">	<item>	<productimage_s>/static-assets/images/products/Mang an heo cai sua 4 ngan (2 ben).jpg</productimage_s>
-	<productimagename_s/>
+	<productimage_o item-list="true">	<item>	<productimage_s>/static-assets/images/products/Mang an cho heo 4.jpg</productimage_s>
+	<productimagename_s>Máng ăn cho heo</productimagename_s>
 	</item></productimage_o>
 	<createdDate>2020-06-11T08:48:26.650Z</createdDate>
 	<createdDate_dt>2020-06-11T08:48:26.650Z</createdDate_dt>
-	<lastModifiedDate>2020-06-11T09:54:42.874Z</lastModifiedDate>
-	<lastModifiedDate_dt>2020-06-11T09:54:42.874Z</lastModifiedDate_dt>
+	<lastModifiedDate>2020-06-23T04:38:26.705Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-06-23T04:38:26.705Z</lastModifiedDate_dt>
 </page>
