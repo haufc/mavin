@@ -10,26 +10,26 @@
 	<internal-name>Carousel Năng lực kinh nghiệm</internal-name>
 	<url_s>advisory</url_s>
 	<image_o item-list="true">	<item>	<image1Title_s>Nhà máy Mavin Austfeed Nghệ An (MNA)</image1Title_s>
-	<image2Title_s>Nhà máy Mavin Austfeed Đồng Tháp (MDT)</image2Title_s>
-	<image3Title_s>Dự án Trại heo giống Hưng Việt </image3Title_s>
+	<image2Title_s>Dự án Trại heo giống Hưng Việt </image2Title_s>
+	<image3Title_s>Nhà máy Mavin Austfeed Đồng Tháp (MDT)</image3Title_s>
 	<image4Title_s>Dự án Trại heo Nhơn Tân</image4Title_s>
 	<image_s>/static-assets/images/Layer 226 copy.png</image_s>
 	<image2_s>/static-assets/images/Layer 228.png</image2_s>
 	<image3_s>/static-assets/images/Layer 230.png</image3_s>
 	<image4_s>/static-assets/images/Layer 232.png</image4_s>
 	<number_s>1</number_s>
-	</item>	<item>	<image_s>/static-assets/images/Layer 232.png</image_s>
-	<image1Title_s>Dự án Trại heo Nhơn Tân</image1Title_s>
-	<image2_s>/static-assets/images/Layer 228.png</image2_s>
-	<image2Title_s>Dự án Trại heo giống Hưng Việt </image2Title_s>
-	<image3_s>/static-assets/images/Layer 232.png</image3_s>
-	<image3Title_s>Nhà máy Mavin Austfeed Nghệ An (MNA)</image3Title_s>
-	<image4_s>/static-assets/images/Layer 230.png</image4_s>
-	<image4Title_s>Nhà máy Mavin Austfeed Đồng Tháp (MDT)</image4Title_s>
+	</item>	<item>	<image_s>/static-assets/images/Mavin austfeed hưng Yên.png</image_s>
+	<image1Title_s>Nhà máy Mavin Austfeed Hưng Yên (MAC)</image1Title_s>
+	<image2_s>/static-assets/images/IMG_6008.JPG</image2_s>
+	<image2Title_s>Thiết bị điều khiển trạng trại vịt</image2Title_s>
+	<image3_s>/static-assets/images/Mavinex (xây dựng) (3).jpg</image3_s>
+	<image3Title_s>Robot đóng bao tự động</image3Title_s>
+	<image4_s>/static-assets/images/Cau cang dep.jpg</image4_s>
+	<image4Title_s>Cầu cảng xuất hàng</image4Title_s>
 	<number_s>2</number_s>
 	</item></image_o>
 	<createdDate>2020-04-23T04:20:32.241Z</createdDate>
 	<createdDate_dt>2020-04-23T04:20:32.241Z</createdDate_dt>
-	<lastModifiedDate>2020-06-22T07:15:06.215Z</lastModifiedDate>
-	<lastModifiedDate_dt>2020-06-22T07:15:06.215Z</lastModifiedDate_dt>
+	<lastModifiedDate>2020-06-23T06:58:52.147Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-06-23T06:58:52.147Z</lastModifiedDate_dt>
 </component>
