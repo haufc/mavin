@@ -9,7 +9,7 @@
 	<file-name>index.xml</file-name>
 	<folder-name>m-ng--n-cho-heo-cai-maxi</folder-name>
 	<internal-name>Máng ăn cho heo cai Maxi</internal-name>
-	<navLabel/>
+	<navLabel>Máng ăn cho heo cai Maxi</navLabel>
 	<productname_s>Máng ăn cho heo cai Maxi</productname_s>
 	<phonenumber_s>0221.653.7979</phonenumber_s>
 	<placeInNav>false</placeInNav>
@@ -20,7 +20,7 @@
 	<productchildgroup_o>	<item>	<key>thiet-bi-nuoi-heo</key>
 	<value_smv>Thiết bị chăn nuôi heo</value_smv>
 	</item></productchildgroup_o>
-	<productAvatar_s>/static-assets/images/products/Máng ăn heo cai maxi.jpg</productAvatar_s>
+	<productAvatar_s>/static-assets/images/products/Mang an cho heo 5.jpg</productAvatar_s>
 	<slide_o item-list="true">	<item datasource="slideheader">	<key>/site/items/slides/d0a08899-63db-033a-900d-525a0e2770f9.xml</key>
 	<value>Home slide</value>
 	<include>/site/items/slides/d0a08899-63db-033a-900d-525a0e2770f9.xml</include>
@@ -34,13 +34,13 @@
 &lt;p&gt;Chất liệu nhựa: PP + inox&lt;/p&gt;
 &lt;p&gt;C&amp;oacute; nấc điều chỉnh thức ăn&lt;/p&gt;
 &lt;p&gt;Xuất xứ: T&amp;acirc;y Ban Nha&lt;br /&gt;&lt;/p&gt;</productdescription_html>
-	<productimage_o item-list="true">	<item>	<productimage_s>/static-assets/images/products/Máng ăn heo cai maxi.jpg</productimage_s>
+	<productimage_o item-list="true">	<item>	<productimage_s>/static-assets/images/products/Mang an cho heo 5.jpg</productimage_s>
 	<productimagename_s>Máng ăn cho heo cai Maxi</productimagename_s>
 	</item></productimage_o>
 	<createdDate>2020-06-05T09:18:17.931Z</createdDate>
 	<createdDate_dt>2020-06-05T09:18:17.931Z</createdDate_dt>
-	<lastModifiedDate>2020-06-11T08:29:36.606Z</lastModifiedDate>
-	<lastModifiedDate_dt>2020-06-11T08:29:36.606Z</lastModifiedDate_dt>
+	<lastModifiedDate>2020-06-23T04:39:54.517Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-06-23T04:39:54.517Z</lastModifiedDate_dt>
 	<productnameEnglish_s>Feeder for Maxi's pig</productnameEnglish_s>
 	<productdescriptionEnglish_html>&lt;p&gt;Hoper Pan&lt;/p&gt;
 &lt;p&gt;Pig weight: 6-14 kg&lt;/p&gt;
