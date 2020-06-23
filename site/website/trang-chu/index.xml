@@ -7,7 +7,7 @@
 	<objectGroupId>c664</objectGroupId>
 	<objectId>c66419f2-ef45-8750-0d6d-bdef208f7b65</objectId>
 	<internal-name>Index</internal-name>
-	<title_s>Home page</title_s>
+	<title_s>Công ty Cổ phần Mavinex</title_s>
 	<placeInNav>true</placeInNav>
 	<orderDefault_f>1000</orderDefault_f>
 	<sections_o item-list="true">	<item datasource="sections" inline="true">	<key>74bea837-a8f4-35a4-baa8-cb7b83247757</key>
@@ -86,7 +86,7 @@
 	<folder-name>trang-chu</folder-name>
 	<createdDate>2020-03-25T10:34:10.722Z</createdDate>
 	<createdDate_dt>2020-03-25T10:34:10.722Z</createdDate_dt>
-	<lastModifiedDate>2020-06-16T07:17:42.221Z</lastModifiedDate>
-	<lastModifiedDate_dt>2020-06-16T07:17:42.221Z</lastModifiedDate_dt>
+	<lastModifiedDate>2020-06-23T05:10:20.878Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-06-23T05:10:20.878Z</lastModifiedDate_dt>
 	<descripttion_t> Trang chu</descripttion_t>
 </page>
