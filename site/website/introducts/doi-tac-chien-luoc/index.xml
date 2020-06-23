@@ -12,17 +12,17 @@
 	<title_s>Đối tác chiến lược</title_s>
 	<placeInNav>false</placeInNav>
 	<orderDefault_f>-1</orderDefault_f>
-	<slide_o item-list="true">	<item datasource="slide">	<key>/site/items/slides/38328eed-d3cd-1c7a-349a-2be9e045e92b.xml</key>
-	<value>Slide</value>
-	<include>/site/items/slides/38328eed-d3cd-1c7a-349a-2be9e045e92b.xml</include>
+	<slide_o item-list="true">	<item datasource="slide">	<key>/site/items/slides/a7d87a53-9ede-c24f-756b-cec900a757a8.xml</key>
+	<value>Slide đối tác chiến lược</value>
+	<include>/site/items/slides/a7d87a53-9ede-c24f-756b-cec900a757a8.xml</include>
 	<disableFlattening>false</disableFlattening>
 	</item></slide_o>
 	<thumbail_s>/static-assets/images/featured/gioi-thieu-img-4.png</thumbail_s>
 	<contents_html/>
 	<createdDate>2020-04-17T03:58:23.091Z</createdDate>
 	<createdDate_dt>2020-04-17T03:58:23.091Z</createdDate_dt>
-	<lastModifiedDate>2020-06-23T03:57:31.328Z</lastModifiedDate>
-	<lastModifiedDate_dt>2020-06-23T03:57:31.328Z</lastModifiedDate_dt>
+	<lastModifiedDate>2020-06-23T04:33:10.432Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-06-23T04:33:10.432Z</lastModifiedDate_dt>
 	<section_o item-list="true">	<item datasource="sectionDataSource" inline="true">	<key>c3f79ceb-85de-15fe-5ade-23ae1d8b286d</key>
 	<value>Danh sách đối tác chiến lược</value>
 <component id="c3f79ceb-85de-15fe-5ade-23ae1d8b286d">
