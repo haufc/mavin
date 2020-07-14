@@ -22,7 +22,11 @@
 	<productAvatar_s>/static-assets/images/products/Tủ điều khiển động lực .jpg</productAvatar_s>
 	<file-name>index.xml</file-name>
 	<folder-name>dynamic-control-cabinet</folder-name>
-	<slide_o item-list="true"/>
+	<slide_o item-list="true">	<item datasource="slideheader">	<key>/site/items/slides/d0a08899-63db-033a-900d-525a0e2770f9.xml</key>
+	<value>Home slide</value>
+	<include>/site/items/slides/d0a08899-63db-033a-900d-525a0e2770f9.xml</include>
+	<disableFlattening>false</disableFlattening>
+	</item></slide_o>
 	<productdescription_html>&lt;p style="text-align: justify;"&gt;&lt;span style="font-size: 14pt;"&gt;Used for cooling system of pigsty, chicken and duck breeding facilities&lt;/span&gt;&lt;/p&gt;
 &lt;p style="text-align: justify;"&gt;&lt;span style="font-size: 14pt;"&gt;Manufactured and assembled by Mavinex.&lt;/span&gt;&lt;/p&gt;</productdescription_html>
 	<productdescriptionEnglish_html>&lt;p style="text-align: justify;"&gt;&lt;span style="font-size: 14pt;"&gt;Used for cooling system of pigsty, chicken and duck breeding facilities&lt;/span&gt;&lt;/p&gt;
@@ -32,6 +36,6 @@
 	</item></productimage_o>
 	<createdDate>2020-07-14T04:33:25.765Z</createdDate>
 	<createdDate_dt>2020-07-14T04:33:25.765Z</createdDate_dt>
-	<lastModifiedDate>2020-07-14T04:33:25.765Z</lastModifiedDate>
-	<lastModifiedDate_dt>2020-07-14T04:33:25.765Z</lastModifiedDate_dt>
+	<lastModifiedDate>2020-07-14T04:35:34.630Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-07-14T04:35:34.630Z</lastModifiedDate_dt>
 </page>
