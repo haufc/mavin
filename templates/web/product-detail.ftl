@@ -14,6 +14,16 @@
     <link rel="stylesheet" href="/static-assets/css/styles.css"/>
     <link rel="stylesheet" href="/static-assets/css/mavinex.css"/>
     <title></title>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-172633935-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+    
+      gtag('config', 'UA-172633935-1');
+    </script>
+
     <style>
         .line-white{
             color: #FFF;
