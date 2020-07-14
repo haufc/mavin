@@ -632,8 +632,9 @@ img {
     	    if ($('.product-similar-en .carousel-item').find('.col-3').length == 0) {
     	        $('#control-next-en').css('display', 'none');
     	    }
-    	    
+    	    $('#policy-vn').css('display', 'none');
     	} else {
+    	    $('#policy-en').css('display', 'none');
     	     $('.product-name-en').css('display', 'none');
     	     $('.product-desc-en').css('display', 'none');
     	     $('.product-similar-en').css('display', 'none');
