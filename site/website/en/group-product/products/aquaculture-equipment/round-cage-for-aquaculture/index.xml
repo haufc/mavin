@@ -15,10 +15,18 @@
 	<phonenumber_s>0221.653.7979</phonenumber_s>
 	<placeInNav>false</placeInNav>
 	<orderDefault_f>-1</orderDefault_f>
-	<productgroup_o/>
-	<productchildgroup_o/>
+	<productgroup_o>	<item>	<key>thiet-bi-thuy-san</key>
+	<value_smv>Thiết bị thủy sản-Aquaculture equipment</value_smv>
+	</item></productgroup_o>
+	<productchildgroup_o>	<item>	<key>long-nuoi-ca-hdpe</key>
+	<value_smv>Lồng nuôi cá tròn HDPE-Round cage HDPE</value_smv>
+	</item></productchildgroup_o>
 	<productAvatar_s>/static-assets/images/products/product-group-5.png</productAvatar_s>
-	<slide_o item-list="true"/>
+	<slide_o item-list="true">	<item datasource="slideheader">	<key>/site/items/slides/d0a08899-63db-033a-900d-525a0e2770f9.xml</key>
+	<value>Home slide</value>
+	<include>/site/items/slides/d0a08899-63db-033a-900d-525a0e2770f9.xml</include>
+	<disableFlattening>false</disableFlattening>
+	</item></slide_o>
 	<productdescription_html>&lt;p&gt;&lt;span style="font-size: 14pt;"&gt;- Cage diameter: 20 m.&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;&lt;span style="font-size: 14pt;"&gt;- Perimeter of cages: 64.2&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;&lt;span style="font-size: 14pt;"&gt;- Depth depth: 8m.&lt;/span&gt;&lt;/p&gt;
@@ -42,6 +50,6 @@
 	</item></productimage_o>
 	<createdDate>2020-07-14T06:38:42.850Z</createdDate>
 	<createdDate_dt>2020-07-14T06:38:42.850Z</createdDate_dt>
-	<lastModifiedDate>2020-07-14T06:38:42.850Z</lastModifiedDate>
-	<lastModifiedDate_dt>2020-07-14T06:38:42.850Z</lastModifiedDate_dt>
+	<lastModifiedDate>2020-07-14T06:42:17.137Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-07-14T06:42:17.137Z</lastModifiedDate_dt>
 </page>
