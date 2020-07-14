@@ -6,10 +6,10 @@
 	<merge-strategy>inherit-levels</merge-strategy>
 	<objectGroupId>f9ef</objectGroupId>
 	<objectId>f9efa1be-dfc7-a3c8-29af-8cd79520bd9c</objectId>
-	<internal-name>Feeder for prenant pig</internal-name>
-	<navLabel>Feeder for prenant pig</navLabel>
-	<productname_s>Feeder for prenant pig</productname_s>
-	<productnameEnglish_s>Feeder for prenant pig</productnameEnglish_s>
+	<internal-name>Trough for pregnant pig</internal-name>
+	<navLabel>Trough for pregnant pig</navLabel>
+	<productname_s>Trough for pregnant pig</productname_s>
+	<productnameEnglish_s>Trough for pregnant pig</productnameEnglish_s>
 	<phonenumber_s>0221.653.7979</phonenumber_s>
 	<file-name>index.xml</file-name>
 	<folder-name>feeder-for-prenant-pig</folder-name>
@@ -38,6 +38,6 @@
 	</item></productimage_o>
 	<createdDate>2020-07-14T02:34:19.856Z</createdDate>
 	<createdDate_dt>2020-07-14T02:34:19.856Z</createdDate_dt>
-	<lastModifiedDate>2020-07-14T02:34:19.856Z</lastModifiedDate>
-	<lastModifiedDate_dt>2020-07-14T02:34:19.856Z</lastModifiedDate_dt>
+	<lastModifiedDate>2020-07-14T03:52:19.916Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-07-14T03:52:19.916Z</lastModifiedDate_dt>
 </page>
