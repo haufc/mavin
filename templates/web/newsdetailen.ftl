@@ -73,7 +73,10 @@
         $('.footer-item__social--title').text('Contact us');
         $('.headquarter').text('Headquarter: ');
         $('.footer-issued-by').text('Issued by: ')
-    }
+        $('#policy-vn').css('display', 'none');
+        } else {
+            $('#policy-en').css('display', 'none');
+        }
   </script>
 </html>
 <@studio.toolSupport />
