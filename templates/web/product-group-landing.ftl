@@ -86,7 +86,7 @@
                 $('.footer-item__social--title').text('Contact us');
                 $('.headquarter').text('Headquarter: ');
                 $('.footer-issued-by').text('Issued by: ');
-                
+                $('#policy-vn').css('display', 'none');
                 
                 // Panigation
                 var groupProductSize = $('#group-pr-length').val();
@@ -179,6 +179,7 @@
                 $('title').text( $('.title-vn').text());
                 $('.list-product-en').css('display', 'none');
                 $('.pg-en').css('display', 'none');
+                $('#policy-en').css('display', 'none');
                 
                 // Panigation
                 var groupProductSize = $('#group-pr-length').val();
