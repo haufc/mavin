@@ -31,6 +31,13 @@
                     <img src="/static-assets/images/logos/bct_logo.png" style="max-width: 100%;" alt="">
                     <p class="text-white text--copyright" style="font-size: 11px; margin-top: 10px; float:right;">${contentModel.brandCopyright_s}</p>
                 </div>  -->
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 green-tick">
+                    <ul class="footer__item-links flex">
+                        <li><a class="text--uppercase" href="#">chính sách bảo mật thông tin</a></li>
+                        <li><a class="text--uppercase" href="#">chính sách website</a></li>
+                        <li><a class="text--uppercase" href="#">quy ước sử dụng website</a></li>
+                    </ul>
+                </div>
             </div>
         </div>
     </footer>
