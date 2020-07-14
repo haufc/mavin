@@ -50,6 +50,16 @@
     <script src="/static-assets/js/handlebars.min-latest.js"></script>
     <script src="/static-assets/js/jquery.twbsPagination.min.js"></script>
     <script src="/static-assets/js/script.js"></script>
+    <script>
+        $(document).ready(function() {
+            var url = window.location.href;
+            if (url.indexOf('/en') > -1) {
+                $('#policy-vn').css('display', 'none');
+            } else {
+                $('#policy-en').css('display', 'none');
+            }
+        })
+    </script>
   </body>
 </html>
 <@studio.toolSupport />
