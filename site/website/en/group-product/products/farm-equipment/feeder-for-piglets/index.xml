@@ -6,10 +6,10 @@
 	<merge-strategy>inherit-levels</merge-strategy>
 	<objectGroupId>4da1</objectGroupId>
 	<objectId>4da17ad4-e94e-6676-aff5-ce80f386fea4</objectId>
-	<internal-name>Feeder for piglets</internal-name>
+	<internal-name>Trough for piglets</internal-name>
 	<navLabel>Feeder for piglets</navLabel>
-	<productname_s>Feeder for piglets</productname_s>
-	<productnameEnglish_s>Feeder for piglets</productnameEnglish_s>
+	<productname_s>Trough for piglets</productname_s>
+	<productnameEnglish_s>Trough for piglets</productnameEnglish_s>
 	<phonenumber_s>0221.653.7979</phonenumber_s>
 	<placeInNav>false</placeInNav>
 	<orderDefault_f>-1</orderDefault_f>
@@ -38,6 +38,6 @@
 	</item></productimage_o>
 	<createdDate>2020-07-14T03:02:19.081Z</createdDate>
 	<createdDate_dt>2020-07-14T03:02:19.081Z</createdDate_dt>
-	<lastModifiedDate>2020-07-14T03:02:19.081Z</lastModifiedDate>
-	<lastModifiedDate_dt>2020-07-14T03:02:19.081Z</lastModifiedDate_dt>
+	<lastModifiedDate>2020-07-14T03:51:58.193Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-07-14T03:51:58.193Z</lastModifiedDate_dt>
 </page>
