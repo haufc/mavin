@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page>
+	<content-type>/page/productdetail</content-type>
+	<display-template>/templates/web/product-detail.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>34f9</objectGroupId>
+	<objectId>34f9dea4-1239-a88d-aab1-94788f687658</objectId>
+	<file-name>index.xml</file-name>
+	<folder-name>round-cage-for-aquaculture</folder-name>
+	<internal-name>Round cage for aquaculture</internal-name>
+	<navLabel>Round cage for aquaculture</navLabel>
+	<productname_s>Round cage for aquaculture 20m</productname_s>
+	<productnameEnglish_s>Round cage for aquaculture 20m</productnameEnglish_s>
+	<phonenumber_s>0221.653.7979</phonenumber_s>
+	<placeInNav>false</placeInNav>
+	<orderDefault_f>-1</orderDefault_f>
+	<productgroup_o/>
+	<productchildgroup_o/>
+	<productAvatar_s>/static-assets/images/products/product-group-5.png</productAvatar_s>
+	<slide_o item-list="true"/>
+	<productdescription_html>&lt;p&gt;&lt;span style="font-size: 14pt;"&gt;- Cage diameter: 20 m.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="font-size: 14pt;"&gt;- Perimeter of cages: 64.2&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="font-size: 14pt;"&gt;- Depth depth: 8m.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="font-size: 14pt;"&gt;- Floating pipe: HDPE &amp;Oslash; 250.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="font-size: 14pt;"&gt;- Handrail tube: HDPE &amp;Oslash; 110.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="font-size: 14pt;"&gt;- Connecting pipe: HDPE &amp;Oslash; 125.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="font-size: 14pt;"&gt;- Connecting belt: Double belt &amp;Oslash; 250.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="font-size: 14pt;"&gt;- Mesh: 02 mesh&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="font-size: 14pt;"&gt;Diameter 20 m, height from the mouth of the mesh to the bottom of 8m, mesh size a = 2.5 cm and 1.5 cm.&lt;/span&gt;&lt;/p&gt;</productdescription_html>
+	<productdescriptionEnglish_html>&lt;p&gt;&lt;span style="font-size: 14pt;"&gt;- Cage diameter: 20 m.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="font-size: 14pt;"&gt;- Perimeter of cages: 64.2&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="font-size: 14pt;"&gt;- Depth depth: 8m.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="font-size: 14pt;"&gt;- Floating pipe: HDPE &amp;Oslash; 250.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="font-size: 14pt;"&gt;- Handrail tube: HDPE &amp;Oslash; 110.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="font-size: 14pt;"&gt;- Connecting pipe: HDPE &amp;Oslash; 125.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="font-size: 14pt;"&gt;- Connecting belt: Double belt &amp;Oslash; 250.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="font-size: 14pt;"&gt;- Mesh: 02 mesh&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="font-size: 14pt;"&gt;Diameter 20 m, height from the mouth of the mesh to the bottom of 8m, mesh size a = 2.5 cm and 1.5 cm.&lt;/span&gt;&lt;/p&gt;</productdescriptionEnglish_html>
+	<productimage_o item-list="true">	<item>	<productimage_s>/static-assets/images/products/product-group-5.png</productimage_s>
+	<productimagename_s>Lồng tròn Nauy</productimagename_s>
+	</item></productimage_o>
+	<createdDate>2020-07-14T06:38:42.850Z</createdDate>
+	<createdDate_dt>2020-07-14T06:38:42.850Z</createdDate_dt>
+	<lastModifiedDate>2020-07-14T06:38:42.850Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-07-14T06:38:42.850Z</lastModifiedDate_dt>
+</page>
