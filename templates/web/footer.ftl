@@ -33,16 +33,16 @@
                 </div>  -->
                 <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 green-tick" id="policy-vn">
                     <ul class="footer__item-links flex text-white" style="list-style: none;">
-                        <li><a class="text--uppercase text-white" href="#">chính sách bảo mật thông tin</a></li>
-                        <li><a class="text--uppercase text-white" href="#">chính sách website</a></li>
-                        <li><a class="text--uppercase text-white" href="#">quy ước sử dụng website</a></li>
+                        <li><a class="text--uppercase text-white" href="/chinh-sach/chinh-sach-bao-mat-thong-tin">chính sách bảo mật thông tin</a></li>
+                        <li><a class="text--uppercase text-white" href="/chinh-sach/chinh-sach-website">chính sách website</a></li>
+                        <li><a class="text--uppercase text-white" href="/chinh-sach/quy-uoc-su-dung-website">quy ước sử dụng website</a></li>
                     </ul>
                 </div>
                 <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 green-tick" id="policy-en">
                     <ul class="footer__item-links flex text-white" style="list-style: none;">
-                        <li><a class="text--uppercase text-white" href="#">information security policies</a></li>
-                        <li><a class="text--uppercase text-white" href="#">website's policies</a></li>
-                        <li><a class="text--uppercase text-white" href="#">usage of website</a></li>
+                        <li><a class="text--uppercase text-white" href="/en/policy/information-security">information security policies</a></li>
+                        <li><a class="text--uppercase text-white" href="/en/policy/website-policy">website's policies</a></li>
+                        <li><a class="text--uppercase text-white" href="/en/policy/usage-of-website">usage of website</a></li>
                     </ul>
                 </div>
             </div>
