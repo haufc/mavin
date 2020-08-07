@@ -8,13 +8,19 @@
 	<objectId>b7fe3efe-097b-442a-3d59-eedb33754fb9</objectId>
 	<placeInNav>false</placeInNav>
 	<orderDefault_f>-1</orderDefault_f>
-	<categories_o/>
+	<categories_o>	<item>	<key>mavinex-news</key>
+	<value_smv>Tin Mavinex (Mavinex News)</value_smv>
+	</item></categories_o>
 	<internal-name>Mavinex-Nhà sản xuất silo và hệ thống cho heo ăn tự động uy tín</internal-name>
 	<navLabel>Mavinex-Nhà sản xuất silo và hệ thống cho heo ăn tự động uy tín</navLabel>
 	<title_s>Mavinex-Nhà sản xuất silo và hệ thống cho heo ăn tự động uy tín</title_s>
 	<file-name>index.xml</file-name>
 	<folder-name>silo-va-he-thong-cho-heo-an-tu-dong</folder-name>
-	<slide_o item-list="true"/>
+	<slide_o item-list="true">	<item datasource="slideDataSource">	<key>/site/items/slides/d0a08899-63db-033a-900d-525a0e2770f9.xml</key>
+	<value>Home slide</value>
+	<include>/site/items/slides/d0a08899-63db-033a-900d-525a0e2770f9.xml</include>
+	<disableFlattening>false</disableFlattening>
+	</item></slide_o>
 	<image_s>/static-assets/images/products/silo-500.png</image_s>
 	<content_html>&lt;p style="text-align: justify;"&gt;Mavinex l&amp;agrave; một trong những đơn vị ti&amp;ecirc;n phong tại Việt Nam nghi&amp;ecirc;n cứu, ứng dụng v&amp;agrave; sản xuất hệ thống silo chứa c&amp;aacute;m v&amp;agrave; cho heo ăn tự động tại Việt Nam.&lt;/p&gt;
 &lt;p style="text-align: justify;"&gt;Những lợi &amp;iacute;ch khi ứng dụng hệ thống cho heo ăn tự động trong trang trại:&amp;nbsp;&lt;/p&gt;
@@ -29,7 +35,7 @@
 &lt;p&gt;&lt;img style="display: block; margin-left: auto; margin-right: auto;" src="/static-assets/images/Silo v&amp;agrave; cho heo ăn tự động.jpg" alt="" width="800" height="600" /&gt;&lt;/p&gt;</content_html>
 	<createdDate>2020-08-07T02:02:28.079Z</createdDate>
 	<createdDate_dt>2020-08-06T04:00:00.000Z</createdDate_dt>
-	<lastModifiedDate>2020-08-07T02:02:28.079Z</lastModifiedDate>
-	<lastModifiedDate_dt>2020-08-07T02:02:28.079Z</lastModifiedDate_dt>
+	<lastModifiedDate>2020-08-07T02:08:37.496Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-08-07T02:08:37.496Z</lastModifiedDate_dt>
 	<createdDate_dt_tz>EST5EDT</createdDate_dt_tz>
 </page>
