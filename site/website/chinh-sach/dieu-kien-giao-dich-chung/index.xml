@@ -10,7 +10,7 @@
 	<folder-name>dieu-kien-giao-dich-chung</folder-name>
 	<internal-name>Điều kiện giao dịch chung</internal-name>
 	<navLabel>Điều kiện giao dịch chung</navLabel>
-	<title_s>Chính sách bảo mật thông tin</title_s>
+	<title_s>Điều kiện giao dịch chung</title_s>
 	<placeInNav>false</placeInNav>
 	<orderDefault_f>-1</orderDefault_f>
 	<image_s>/static-assets/images/_E6P1798a.jpg</image_s>
@@ -99,6 +99,6 @@
 &lt;p style="text-align: justify;"&gt;&lt;span style="font-size: 12pt;"&gt;&lt;strong&gt;&lt;em&gt;Điện thoại: 0221.653.7979&lt;/em&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;</content_html>
 	<createdDate>2020-07-16T02:29:30.123Z</createdDate>
 	<createdDate_dt>2020-07-16T02:29:30.123Z</createdDate_dt>
-	<lastModifiedDate>2020-08-10T08:15:55.677Z</lastModifiedDate>
-	<lastModifiedDate_dt>2020-08-10T08:15:55.677Z</lastModifiedDate_dt>
+	<lastModifiedDate>2020-08-10T08:18:24.490Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-08-10T08:18:24.490Z</lastModifiedDate_dt>
 </page>
