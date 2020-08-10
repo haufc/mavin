@@ -7,12 +7,12 @@
 	<objectGroupId>dce56bc7</objectGroupId>
 	<objectId>dce56bc7-006c-4490-9f57-57e5d4b69ab0</objectId>
 	<file-name>index.xml</file-name>
-	<folder-name>chinh-sach-bao-mat-thong-tin-73b8d26b</folder-name>
-	<internal-name>Chính  sách bảo mật thông tin 73b8d26b</internal-name>
-	<navLabel>Chính  sách bảo mật thông tin</navLabel>
-	<title_s>Chính sách bảo mật thông tin</title_s>
+	<folder-name>van-chuyen-va-giao-nhan</folder-name>
+	<internal-name>Vận chuyển giao vận</internal-name>
+	<navLabel>Vận chuyển giao vận</navLabel>
+	<title_s>Vận chuyển giao vận</title_s>
 	<placeInNav>false</placeInNav>
-	<orderDefault_f>0.0</orderDefault_f>
+	<orderDefault_f>-1</orderDefault_f>
 	<image_s>/static-assets/images/_E6P1798a.jpg</image_s>
 	<slide_o item-list="true">	<item datasource="slideDataSource">	<key>/site/items/slides/d0a08899-63db-033a-900d-525a0e2770f9.xml</key>
 	<value>Home slide</value>
@@ -99,6 +99,6 @@
 &lt;p style="text-align: justify;"&gt;&lt;span style="font-size: 12pt;"&gt;&lt;strong&gt;&lt;em&gt;Điện thoại: 0221.653.7979&lt;/em&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;</content_html>
 	<createdDate>2020-07-16T02:29:30.123Z</createdDate>
 	<createdDate_dt>2020-07-16T02:29:30.123Z</createdDate_dt>
-	<lastModifiedDate>2020-07-16T03:26:50.796Z</lastModifiedDate>
-	<lastModifiedDate_dt>2020-07-16T03:26:50.796Z</lastModifiedDate_dt>
+	<lastModifiedDate>2020-08-10T08:16:49.121Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-08-10T08:16:49.121Z</lastModifiedDate_dt>
 </page>
