@@ -62,6 +62,33 @@
     <script src="/static-assets/js/handlebars.min-latest.js"></script>
     <script src="/static-assets/js/jquery.twbsPagination.min.js"></script>
     <script src="/static-assets/js/script.js"></script>
+    <script>
+        $(document).ready(function() {
+            var url = window.location.href;
+        var prevUrl = document.referrer;
+        
+        if (url.indexOf('/en') > -1) {
+            $('.footer-phone').text('Phone: ');
+            $('.footer-tax').text('Tax: ');
+            $('.footer-issued-date').text('Date of license: ');
+            $('.footer-item__social--title').text('Contact us');
+            $('.headquarter').text('Headquarter: ');
+            $('.footer-issued-by').text('Issued by: ');
+            $('.job-type').text('Type: ');
+            $('.job-duration').text('Duration: ');
+            $('#policy-vn').css('display', 'none');
+        } else {
+            $('#policy-en').css('display', 'none');
+        }
+        
+        if (prevUrl.indexOf('/en')) {
+            $('#search-result-vn').css('display', 'none');
+            $('#search-title').text('Search result')
+        } else {
+            $('#search-result-en').css('display', 'none');
+        }
+        });
+    </script>
   </body>
 </html>
 <@studio.toolSupport />
