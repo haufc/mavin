@@ -11,7 +11,12 @@
                     <p> <span class="footer-phone">Điện thoại:</span> ${contentModel.phonenumber_s}</p>
                   </div>
                   <div class="footer__contact-info">
-                    <p><span class="footer-tax">Chứng nhận ĐKKD số: </span>${contentModel.tax_s}  <span class="footer-issued-date">Ngày cấp:</span> 3/4/2017</p></br>
+                    <p><span class="footer-tax">Chứng nhận ĐKKD số: </span>${contentModel.tax_s}</p>
+                  </div>
+                  <div class="footer__contact-info">
+                    <p> <span class="footer-phone">Ngày cấp:</span> 3/4/2017</p>
+                  </div>
+                  <div class="footer__contact-info">
                     <p><span class="footer-issued-by">Nơi cấp:</span> ${contentModel.issuedby_s}</p>
                   </div>
                 </div>
