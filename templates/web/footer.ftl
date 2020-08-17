@@ -50,7 +50,7 @@
                     </ul>
                 </div>
                  <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 green-tick">
-                    <a href="http://online.gov.vn/Home/WebDetails/69748"><img alt='' title='' width=250 src="http://online.gov.vn/Content/EndUser/LogoCCDVSaleNoti/logoSaleNoti.png"/></a>
+                    <a href="http://online.gov.vn/Home/WebDetails/69748"><img alt='' title='' width=150 src="http://online.gov.vn/Content/EndUser/LogoCCDVSaleNoti/logoSaleNoti.png"/></a>
                     <#--<p class="text-white text--copyright" style="font-size: 11px; margin-top: 10px; float:right;">${contentModel.brandCopyright_s}</p> -->
                 </div>  
             </div>
