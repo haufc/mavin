@@ -20,7 +20,7 @@
                     <p><span class="footer-issued-by">Nơi cấp:</span> ${contentModel.issuedby_s}</p>
                   </div>
                 </div>
-                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 footer-item__social">
+                <div class="col-lg-2 col-md-2 col-sm-6 col-xs-6 footer-item__social">
                   <p class="text-white text--uppercase text--center footer-item__social--title" >Kết nối với chúng tôi</p>
                   <div class="footer__btns footer-item__social--icons">
                     <#if (contentModel.socialMedia_o.item)??>
@@ -50,7 +50,7 @@
                     </ul>
                 </div>
                  <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 green-tick">
-                    <a href='http://online.gov.vn/Home/WebDetails/69748><img alt='' title='' src='http://online.gov.vn/Content/EndUser/LogoCCDVSaleNoti/logoSaleNoti.png'/></a>
+                    <a href="http://online.gov.vn/Home/WebDetails/69748"><img alt='' title='' src="http://online.gov.vn/Content/EndUser/LogoCCDVSaleNoti/logoSaleNoti.png"/></a>
                     <p class="text-white text--copyright" style="font-size: 11px; margin-top: 10px; float:right;">${contentModel.brandCopyright_s}</p>
                 </div>  
             </div>
