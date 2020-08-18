@@ -70,8 +70,5 @@
         <group name="mavinex_admin">
             <role>mavinex</role>
         </group>
-        <group name="mekovet_admin">
-            <role>mekovet</role>
-        </group>
     </groups>
 </role-mappings>
