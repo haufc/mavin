@@ -6,7 +6,7 @@
 	<merge-strategy>inherit-levels</merge-strategy>
 	<objectGroupId>e34f</objectGroupId>
 	<objectId>e34f106c-8c8e-47b5-3a0c-2fcfb898cc03</objectId>
-	<internal-name>Capability</internal-name>
+	<internal-name>Capability.  </internal-name>
 	<title_s>Capability</title_s>
 	<placeInNav>false</placeInNav>
 	<orderDefault_f>-1</orderDefault_f>
@@ -58,6 +58,6 @@
 	<folder-name>capability</folder-name>
 	<createdDate>2020-06-05T05:08:40.872Z</createdDate>
 	<createdDate_dt>2020-06-05T05:08:40.872Z</createdDate_dt>
-	<lastModifiedDate>2020-06-08T03:01:36.601Z</lastModifiedDate>
-	<lastModifiedDate_dt>2020-06-08T03:01:36.601Z</lastModifiedDate_dt>
+	<lastModifiedDate>2020-08-24T07:59:04.448Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-08-24T07:59:04.448Z</lastModifiedDate_dt>
 </page>
