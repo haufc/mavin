@@ -12,7 +12,7 @@
         <div class="col-lg6 col-md-6 col-sm-6 col-6" style="padding: 15px;">
             <#if (jobs)??>
                 <#list jobs as job>
-                	<p class="list-job__item">${job.title}</p>
+                    <a href="job.url">	<p class="list-job__item">${job.title}</p> </a>
                 </#list>
             </#if>
             <div class="seemore_btn" style="margin-top: 2em">
