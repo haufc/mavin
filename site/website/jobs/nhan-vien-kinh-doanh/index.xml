@@ -34,11 +34,29 @@
 	<file-name>index.xml</file-name>
 	<folder-name>nhan-vien-kinh-doanh</folder-name>
 	<image_s>/static-assets/images/featured/content_img_5.png</image_s>
-	<slide_o item-list="true"/>
+	<slide_o item-list="true">	<item datasource="slide" inline="true">	<key>caff1b9f-8396-792a-9c05-e7924bb1a180</key>
+	<value>Slide</value>
+<component id="caff1b9f-8396-792a-9c05-e7924bb1a180">
+	<content-type>/component/slide</content-type>
+	<display-template>/templates/web/slide.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>caff</objectGroupId>
+	<objectId>caff1b9f-8396-792a-9c05-e7924bb1a180</objectId>
+	<image_o item-list="true">	<item>	<image_s>/static-assets/images/slides/bg_4.png</image_s>
+	</item></image_o>
+	<file-name>caff1b9f-8396-792a-9c05-e7924bb1a180.xml</file-name>
+	<internal-name>Slide</internal-name>
+	<createdDate>2020-09-16T07:52:21.580Z</createdDate>
+	<createdDate_dt>2020-09-16T07:52:21.580Z</createdDate_dt>
+	<lastModifiedDate>2020-09-16T07:52:21.580Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-09-16T07:52:21.580Z</lastModifiedDate_dt>
+</component>
+	</item></slide_o>
 	<duration_dt>2020-10-30T04:00:00.000Z</duration_dt>
 	<createdDate>2020-09-16T07:48:38.263Z</createdDate>
 	<createdDate_dt>2020-09-16T07:48:38.263Z</createdDate_dt>
-	<lastModifiedDate>2020-09-16T07:48:38.263Z</lastModifiedDate>
-	<lastModifiedDate_dt>2020-09-16T07:48:38.263Z</lastModifiedDate_dt>
+	<lastModifiedDate>2020-09-16T07:52:05.603Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-09-16T07:52:05.603Z</lastModifiedDate_dt>
 	<duration_dt_tz>EST5EDT</duration_dt_tz>
 </page>
