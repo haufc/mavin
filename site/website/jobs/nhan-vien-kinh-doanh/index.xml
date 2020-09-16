@@ -33,7 +33,7 @@
 	<orderDefault_f>-1</orderDefault_f>
 	<file-name>index.xml</file-name>
 	<folder-name>nhan-vien-kinh-doanh</folder-name>
-	<image_s>/static-assets/images/featured/content_img_5.png</image_s>
+	<image_s>/static-assets/images/featured/content_img_10.png</image_s>
 	<slide_o item-list="true">	<item datasource="slide" inline="true">	<key>caff1b9f-8396-792a-9c05-e7924bb1a180</key>
 	<value>Slide</value>
 <component id="caff1b9f-8396-792a-9c05-e7924bb1a180">
@@ -56,7 +56,7 @@
 	<duration_dt>2020-10-30T04:00:00.000Z</duration_dt>
 	<createdDate>2020-09-16T07:48:38.263Z</createdDate>
 	<createdDate_dt>2020-09-16T07:48:38.263Z</createdDate_dt>
-	<lastModifiedDate>2020-09-16T08:08:54.038Z</lastModifiedDate>
-	<lastModifiedDate_dt>2020-09-16T08:08:54.038Z</lastModifiedDate_dt>
+	<lastModifiedDate>2020-09-16T08:09:22.037Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-09-16T08:09:22.037Z</lastModifiedDate_dt>
 	<duration_dt_tz>EST5EDT</duration_dt_tz>
 </page>
