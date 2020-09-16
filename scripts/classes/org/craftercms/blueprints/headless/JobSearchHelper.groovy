@@ -37,6 +37,7 @@ class JobSearchHelper {
             .query(QueryBuilders.queryStringQuery(q))
             .from(start)
             .size(rows)
+            .sort(new FieldSortBuilder("duration_dt").order(SortOrder.DESC))
         
         def result = elasticsearch.search(new SearchRequest().source(builder))
         
