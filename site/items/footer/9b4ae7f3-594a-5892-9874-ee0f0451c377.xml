@@ -12,8 +12,8 @@
 	<backgroundImage_s>/static-assets/images/featured/footer_bg.png</backgroundImage_s>
 	<createdDate>2020-03-25T10:27:58.433Z</createdDate>
 	<createdDate_dt>2020-03-25T10:27:58.433Z</createdDate_dt>
-	<lastModifiedDate>2020-07-17T02:22:49.286Z</lastModifiedDate>
-	<lastModifiedDate_dt>2020-07-17T02:22:49.286Z</lastModifiedDate_dt>
+	<lastModifiedDate>2020-09-17T07:14:24.837Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-09-17T07:14:24.837Z</lastModifiedDate_dt>
 	<socialMedia_o item-list="true">	<item>	<url_s>https://www.facebook.com/TapdoanMavin</url_s>
 	<icon_s>fa-facebook-f</icon_s>
 	</item>	<item>	<icon_s>fa-youtube</icon_s>
@@ -24,4 +24,5 @@
 	<phonenumber_s>0221.653.7979</phonenumber_s>
 	<tax_s>0901009304</tax_s>
 	<issuedby_s>Sở Kế hoạch và Đầu tư tỉnh Hưng Yên.</issuedby_s>
+	<tick_s>/static-assets/item/images/featured/2020/09/17/logoSaleNoti.png</tick_s>
 </component>
