@@ -9,14 +9,14 @@
 	<file-name>index.xml</file-name>
 	<folder-name>may-ap-trung-vit1-78cabd4e</folder-name>
 	<placeInNav>false</placeInNav>
-	<orderDefault_f>0.0</orderDefault_f>
+	<orderDefault_f>-1</orderDefault_f>
 	<productgroup_o/>
 	<productchildgroup_o>	<item>	<key>may-ap-no-trung-vit</key>
 	<value_smv>Máy ấp nở trứng vịt-Duck egg hatching machine</value_smv>
 	</item></productchildgroup_o>
 	<internal-name>Máy ấp trứng Vịt 78cabd4e</internal-name>
 	<navLabel>Máy ấp trứng Vịt</navLabel>
-	<productname_s>Máy ấp trứng Vịt</productname_s>
+	<productname_s>Máy ấp trứng Vịt loại mới</productname_s>
 	<productnameEnglish_s>Duck egg hatching machine</productnameEnglish_s>
 	<phonenumber_s>0221.653.7979</phonenumber_s>
 	<productAvatar_s>/static-assets/images/products/Máy ấp trứng vịt.jpg</productAvatar_s>
@@ -182,6 +182,6 @@
 	</item></productimage_o>
 	<createdDate>2020-06-11T04:59:14.439Z</createdDate>
 	<createdDate_dt>2020-06-11T04:59:14.439Z</createdDate_dt>
-	<lastModifiedDate>2020-06-23T07:10:52.881Z</lastModifiedDate>
-	<lastModifiedDate_dt>2020-06-23T07:10:52.881Z</lastModifiedDate_dt>
+	<lastModifiedDate>2021-01-13T12:15:38.273Z</lastModifiedDate>
+	<lastModifiedDate_dt>2021-01-13T12:15:38.273Z</lastModifiedDate_dt>
 </page>
