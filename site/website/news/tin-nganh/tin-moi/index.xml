@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page>
+	<content-type>/page/newsdetail</content-type>
+	<display-template>/templates/web/newsdetail.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>c63f</objectGroupId>
+	<objectId>c63f450c-1a1a-d4ce-460f-aadad3da5bf3</objectId>
+	<file-name>index.xml</file-name>
+	<folder-name>tin-moi</folder-name>
+	<internal-name>tin moi</internal-name>
+	<navLabel>tin moi</navLabel>
+	<title_s>tin moi</title_s>
+	<placeInNav>false</placeInNav>
+	<orderDefault_f>-1</orderDefault_f>
+	<categories_o>	<item>	<key>field-news</key>
+	<value_smv>Tin Ngành (Field News)</value_smv>
+	</item></categories_o>
+	<slide_o item-list="true"/>
+	<image_s/>
+	<content_html>&lt;p&gt;tin moi&lt;/p&gt;</content_html>
+	<createdDate>2021-01-19T09:46:45.552Z</createdDate>
+	<createdDate_dt>2021-01-19T05:00:00.000Z</createdDate_dt>
+	<lastModifiedDate>2021-01-19T09:46:45.552Z</lastModifiedDate>
+	<lastModifiedDate_dt>2021-01-19T09:46:45.552Z</lastModifiedDate_dt>
+	<createdDate_dt_tz>EST5EDT</createdDate_dt_tz>
+</page>
