@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page>
+	<content-type>/page/newsdetail</content-type>
+	<display-template>/templates/web/newsdetail.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>746f</objectGroupId>
+	<objectId>746f8e38-70f3-c906-814c-7cb992d7fc88</objectId>
+	<file-name>index.xml</file-name>
+	<folder-name>test</folder-name>
+	<internal-name>test2</internal-name>
+	<navLabel>test</navLabel>
+	<title_s>test</title_s>
+	<placeInNav>false</placeInNav>
+	<orderDefault_f>-1</orderDefault_f>
+	<categories_o>	<item>	<key>mavinex-news</key>
+	<value_smv>Tin Mavinex (Mavinex News)</value_smv>
+	</item></categories_o>
+	<slide_o item-list="true">	<item datasource="slideDataSource">	<key>/site/items/slides/9d441890-9dcb-9fad-b191-fd12fd5acfe8.xml</key>
+	<value>History</value>
+	<include>/site/items/slides/9d441890-9dcb-9fad-b191-fd12fd5acfe8.xml</include>
+	<disableFlattening>false</disableFlattening>
+	</item></slide_o>
+	<image_s/>
+	<content_html>&lt;p&gt;tset&lt;/p&gt;</content_html>
+	<createdDate>2021-01-20T09:45:00.334Z</createdDate>
+	<createdDate_dt>2021-01-20T05:00:00.000Z</createdDate_dt>
+	<lastModifiedDate>2021-01-20T09:45:00.334Z</lastModifiedDate>
+	<lastModifiedDate_dt>2021-01-20T09:45:00.334Z</lastModifiedDate_dt>
+	<createdDate_dt_tz>EST5EDT</createdDate_dt_tz>
+</page>
