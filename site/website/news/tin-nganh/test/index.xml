@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page>
+	<content-type>/page/newsdetail</content-type>
+	<display-template>/templates/web/newsdetail.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>0dbf</objectGroupId>
+	<objectId>0dbfc663-da31-78e2-4b93-9daf276c3f63</objectId>
+	<file-name>index.xml</file-name>
+	<folder-name>test</folder-name>
+	<placeInNav>false</placeInNav>
+	<orderDefault_f>-1</orderDefault_f>
+	<categories_o>	<item>	<key>field-news</key>
+	<value_smv>Tin Ngành (Field News)</value_smv>
+	</item></categories_o>
+	<internal-name>test</internal-name>
+	<navLabel>test</navLabel>
+	<title_s>test</title_s>
+	<slide_o item-list="true">	<item datasource="slideDataSource">	<key>/site/items/slides/38328eed-d3cd-1c7a-349a-2be9e045e92b.xml</key>
+	<value>Slide</value>
+	<include>/site/items/slides/38328eed-d3cd-1c7a-349a-2be9e045e92b.xml</include>
+	<disableFlattening>false</disableFlattening>
+	</item></slide_o>
+	<image_s>/static-assets/images/1.png</image_s>
+	<content_html>&lt;p&gt;test&lt;/p&gt;</content_html>
+	<createdDate>2021-01-27T10:16:12.830Z</createdDate>
+	<createdDate_dt>2021-01-27T05:00:00.000Z</createdDate_dt>
+	<lastModifiedDate>2021-01-27T10:16:12.830Z</lastModifiedDate>
+	<lastModifiedDate_dt>2021-01-27T10:16:12.830Z</lastModifiedDate_dt>
+	<createdDate_dt_tz>EST5EDT</createdDate_dt_tz>
+</page>
