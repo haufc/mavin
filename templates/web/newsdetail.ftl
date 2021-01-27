@@ -15,6 +15,8 @@
     <link rel="stylesheet" href="/static-assets/plugins/bootstrap-select1139/dist/css/bootstrap-select.min.css"/>
     <link rel="stylesheet" href="/static-assets/css/styles.css"/>
     <link rel="stylesheet" href="/static-assets/css/mavinex.css"/>
+    <script src="/static-assets/js/logos.js"></script>
+    <script src="/static-assets/plugins/owlcarousel234/dist/owl.carousel.min.js"></script>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-172633935-1"></script>
     <script>
